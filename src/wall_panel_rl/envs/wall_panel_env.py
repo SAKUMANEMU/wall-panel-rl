@@ -203,6 +203,12 @@ class WallPanelEnv(gym.Env):
         for _ in range(1000):
             q = self.goal_q + start_offset + self.np_random.uniform(-spread, spread, self.n)
             if self.collision.is_configuration_valid(q):
+                distance_range = c["robot"].get("start_position_distance_range")
+                if distance_range is not None:
+                    with self.collision.at_configuration(q):
+                        distance = pose_error(self.target_pose, self.kinematic_panel_pose())[0]
+                    if not distance_range[0] <= distance <= distance_range[1]:
+                        continue
                 break
         else:
             raise RuntimeError("Could not sample a valid initial configuration")
@@ -226,9 +232,13 @@ class WallPanelEnv(gym.Env):
                     )
                 body = self.box(oc["dimensions"], center, [0.75, 0.16, 0.2, 1])
                 self.obstacle_ids.append(body)
-                if self.collision.is_configuration_valid(
-                    q
-                ) and self.collision.is_configuration_valid(self.goal_q):
+                gap = oc.get("min_obstacle_gap")
+                separated = gap is None or all(
+                    not p.getClosestPoints(body, other, gap, physicsClientId=self.client)
+                    for other in self.obstacle_ids[:-1]
+                )
+                if (separated and self.collision.is_configuration_valid(q)
+                        and self.collision.is_configuration_valid(self.goal_q)):
                     self.obstacles.append((center, np.array(oc["dimensions"])))
                     break
                 self.obstacle_ids.pop()

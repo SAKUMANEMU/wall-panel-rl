@@ -234,3 +234,51 @@ experiment scripts are implemented in this repository. See `assets/README.md`
 for source and preserved robot license. This is simulation-only, with a rigid
 small panel, simplified sensing, sparse boxes and no communication/control delay.
 Joint-space actions **do not automatically guarantee collision avoidance**.
+
+## Farther start and exactly three random obstacles
+
+The two additional configurations preserve the original benchmark and models:
+
+- `configs/far_start.yaml`: farther starts, no obstacles. The panel's actual FK
+  distance to target must be between 0.80 and 1.20 m; joint offsets alone are not
+  used as a distance guarantee.
+- `configs/far_three_obstacles.yaml`: the same farther starts and exactly three
+  boxes with randomized centers. Box size is 0.10 × 0.10 × 0.14 m. Centers are
+  drawn around (0.60, 0.38, 0.48) m with per-axis ranges ±(0.22, 0.35, 0.20) m.
+  Samples overlapping start/target clearance are rejected, and boxes must be at
+  least 0.04 m apart. This is endpoint feasibility checking, not a proof of a path.
+
+```bash
+python scripts/demo.py --method rrt --config configs/far_start.yaml \
+  --seed 10002 --hold-seconds 60
+python scripts/demo.py --method rrt --config configs/far_three_obstacles.yaml \
+  --random-seed --hold-seconds 60
+```
+
+`--random-seed` creates a new layout on each launch and prints its seed. Reproduce
+one layout with `--seed NUMBER` instead. On this Linux host prefix either command
+with `LIBGL_ALWAYS_SOFTWARE=1 LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6`.
+Start positions are randomized too, within the farther-distance constraint.
+The existing PPO models have **not** been retrained or certified for these harder
+scenes, although the observation/action dimensions remain 41/7.
+
+Reproduce the two-stage RRT audit (100 episodes per stage by default):
+
+```bash
+python scripts/verify_far_scenarios.py --run-id my_far_random_three
+```
+
+The audit records initial distance, IK/planning/execution outcomes and whether
+the **straight joint-space edge to the actual IK goal** is blocked. A successful
+physical execution in such a scene is counted as a successful detour. Raw scene
+geometry, configs and representative trajectories are saved alongside CSV/JSON.
+The supplied run is `results/raw/far_random_three/`; see its `summary.json` for
+measured outcomes. This separate experiment does not replace the original report.
+
+Measured validation on seeds 10000–10099: both farther-start stages succeeded in
+100/100 executions without collision. In the three-random-box stage, 84/100 direct
+joint-space edges were blocked and all 84 were successfully routed around.
+The mean initial distance increased from 0.486 m to 0.922 m (observed farther range
+0.804–1.032 m). These results apply to the tested seed set, not every possible
+random scene. Details: [extension results](results/raw/far_random_three/README.md).
+Generate its distance/trajectory figure with `python scripts/plot_far_scenarios.py`.

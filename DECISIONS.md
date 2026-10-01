@@ -124,3 +124,15 @@
     presentation-only selection and is disclosed in README. All 100 benchmark
     seeds remain in CSV/report denominators, including failures. Representative
     benchmark trajectory plots retain the preselected seed 10000.
+21. **Farther starts and three random obstacles (user-requested extension).**
+    Increase the first-joint start offset from 0.45 to 1.05 rad and require the
+    measured panel-to-target distance to fall in [0.80, 1.20] m. Verify without
+    obstacles first, then exactly three randomly positioned boxes. The user's
+    follow-up superseded the initially requested fixed-position layout; the final
+    configuration uses randomized positions, not three hard-coded centers.
+    Preserve the original base/train/evaluation configs and all trained models.
+    A 4 cm inter-obstacle gap and the existing 5 mm start/goal planning clearance
+    reject overlaps. Neither reset nor sampling rejects a scene merely because
+    its RRT execution fails. Audit the direct edge to the planner's actual IK
+    goal, not just the construction reference posture, and retain failures.
+    --random-seed enables fresh GUI scenes with the chosen seed printed for replay.

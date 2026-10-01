@@ -11,6 +11,7 @@ class ClassicalController:
         self.env = env
         start = time.perf_counter()
         goal = solve_goal(env, env.observed_target, seed)
+        self.goal_q = goal
         self.ik_success = goal is not None
         self.path = None
         self.planner = RRTConnect(

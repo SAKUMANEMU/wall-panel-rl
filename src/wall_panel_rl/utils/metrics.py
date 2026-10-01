@@ -4,7 +4,7 @@ import numpy as np
 from wall_panel_rl.baselines.classical import ClassicalController
 
 
-def rollout(env, method, seed, model=None, on_step=None):
+def rollout(env, method, seed, model=None, on_step=None, on_plan=None):
     observation, info = env.reset(seed=seed, options={"noise_seed": seed + 1000000})
     scenario = {
         "seed": seed,
@@ -17,6 +17,8 @@ def rollout(env, method, seed, model=None, on_step=None):
         "target_orientation": env.target_pose[1].tolist(),
     }
     planner = ClassicalController(env, seed) if method == "rrt" else None
+    if on_plan is not None and planner is not None:
+        on_plan(env, planner)
     failed = planner is not None and not planner.planning_success
     positions = [list(env.panel_pose()[0])]
     joint_positions = [env.joint_state()[0].tolist()]
