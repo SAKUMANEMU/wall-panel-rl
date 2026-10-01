@@ -1,0 +1,14 @@
+{
+  "clean": {
+    "path": "models/ppo_clean/best/best_model.zip",
+    "selected_model_timesteps": 191792,
+    "run_final_timesteps": 262144,
+    "selection": "highest callback validation mean return, before benchmark"
+  },
+  "noise": {
+    "path": "models/ppo_noise/best/best_model.zip",
+    "selected_model_timesteps": 231792,
+    "run_final_timesteps": 262144,
+    "selection": "highest callback validation mean return, before benchmark"
+  }
+}

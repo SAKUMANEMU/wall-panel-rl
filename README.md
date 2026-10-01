@@ -1,0 +1,236 @@
+# Reinforcement Learning for Collision-Aware Robotic Wall Panel Installation
+
+Can a PPO joint-space policy learn collision-aware panel manipulation and maintain
+accurate alignment under target measurement noise, compared with sampling-based
+planning and feedback control?
+
+This repository contains a runnable PyBullet/Gymnasium environment, SB3 PPO
+training, a project-implemented bidirectional RRT-Connect, fixed-seed evaluation,
+CSV summaries, plots and graphical demos. The seven-joint KUKA iiwa holds a
+0.30 × 0.20 × 0.03 m rigid panel. Success requires <1 cm position error and <2°
+orientation error, without collision. There is **no observation delay**.
+
+## Install
+
+From this repository root:
+
+```bash
+conda env create -f environment.yml
+conda activate wall-panel-rl
+# If your shell previously sourced ROS, clear its unrelated Python plugins:
+unset PYTHONPATH
+python scripts/smoke_test.py
+pytest -q
+```
+
+Python and direct library versions in `environment.yml` are the actual tested
+versions. CPU PyTorch is pinned; no CUDA or GPU is required. A pip alternative
+using Python 3.11.5 is:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python scripts/smoke_test.py
+python -m pytest -q
+```
+
+Scripts add `src/` to their import path; an editable install is unnecessary.
+Run commands from the repository root. The smoke test verifies stages A/B/C,
+SB3's API checker, IK, RRT and physical installation. No full training occurs.
+
+## Methods and configuration
+
+PPO: a 41-element observation contains normalized q (7), dq (7), relative target
+position (3), relative rotation vector (3), and three obstacle slots (7 each:
+relative center, dimensions, presence). Missing slots are zero. A two-layer
+128-unit ReLU MLP outputs seven normalized increments. Each action produces
+`q_des = clip(q + action * radians(4), joint_limits)`. Attempted limit violations
+are penalized and terminate; clipping does not silently hide them.
+
+Both methods execute using the same Bullet joint position controller, 240 Hz
+physics and 12 physics steps per high-level decision. The panel is attached by a
+fixed constraint. Collisions include robot/panel versus obstacles and wall,
+nonadjacent self-collision, and panel versus non-gripped links.
+
+The reward is
+
+```text
+100 * (previous_position_error - position_error)
++ 12 * (previous_orientation_error - orientation_error)
+- 0.015 * sum(action**2) - 0.05
+- 50 * collision - 30 * joint_limit_violation + 100 * success
+```
+
+Orientation errors in the reward are radians. Terminal events use ground truth.
+The controller observation alone has target measurement noise: independently
+sampled Gaussian translation (5 mm per axis) and rotation-vector (0.5° per axis).
+The clean condition uses zero noise. Joint state and obstacle geometry are exact.
+
+RRT takes the **same first noisy target observation**, converts panel pose to
+end-effector pose, solves multistart IK, then grows and connects two joint-space
+trees. Edges are checked every 0.035 rad; configurations have a 5 mm planning
+clearance. It follows the resulting waypoints through the common controller.
+It plans once, rather than updating its target after every observation. PPO gets
+fresh target observations each step. This experimental distinction is deliberate
+and documented in `DECISIONS.md`; neither receives a secretly perfect target.
+A noisy planned goal can lie outside the true success tolerance.
+
+```mermaid
+flowchart TD
+    T[Observed target pose: clean or noisy] --> I[Panel-to-EE transform and IK]
+    T --> O[Joint state, pose error, obstacle observation]
+    I --> R[RRT-Connect: checked joint path]
+    O --> P[PPO MLP: joint increments]
+    R --> C[Shared joint position controller]
+    P --> C
+    C --> B[PyBullet robot and attached panel]
+    B --> E[Ground-truth collision and pose evaluation]
+```
+
+All parameters are in `configs/base.yaml`; other YAMLs inherit and override it.
+Stages: A = no boxes; B = one fixed sparse box; C = 1–3 randomized sparse boxes.
+Start/goal overlap is rejected. Sparse sampling does not mathematically guarantee
+a connecting path. Failures stay in the reported denominator.
+
+## Training
+
+Each run requires a unique name and saves resolved config, provenance, Monitor
+CSV, TensorBoard logs, periodic checkpoints, best evaluation model and final model.
+No VecNormalize is used. SB3 rounds timesteps up to complete rollout buffers.
+
+```bash
+python scripts/train_ppo.py --config configs/base.yaml \
+  --total-timesteps 50000 --run-name my_phase1 --seed 42
+python scripts/train_ppo.py --config configs/phase1_alignment.yaml \
+  --resume models/my_phase1/final_model.zip \
+  --total-timesteps 30000 --run-name my_alignment --seed 42
+python scripts/train_ppo.py --config configs/base.yaml \
+  --resume models/my_alignment/final_model.zip \
+  --total-timesteps 50000 --run-name my_restored --seed 42
+python scripts/train_ppo.py --config configs/stage_b_curriculum.yaml \
+  --resume models/my_restored/final_model.zip --zero-obstacle-inputs \
+  --total-timesteps 30000 --run-name my_phase2 --seed 42
+python scripts/train_ppo.py --config configs/train_clean.yaml \
+  --resume models/my_phase2/final_model.zip \
+  --total-timesteps 100000 --run-name my_clean --seed 42
+python scripts/train_ppo.py --config configs/train_noise.yaml \
+  --resume models/my_phase2/final_model.zip \
+  --total-timesteps 100000 --run-name my_noise --seed 42
+```
+
+The alignment run uses nearby initial states. Obstacle training mixes 25% nearby
+and 75% original starts to retain precision learning; evaluation always disables
+this mixture. The measured unsuccessful earlier attempts are retained separately. The one-time
+`--zero-obstacle-inputs` transfer flag clears weights on features that were always
+zero in Stage A, preserving the learned policy when obstacle slots become active.
+Those weights remain trainable; do not apply this flag to the final branches.
+
+Both final variants should branch from the same no-noise curriculum checkpoint
+with equal additional budgets. Inspect learning first; these commands alone do
+not guarantee convergence. `--device cpu` is the default; `--render` enables GUI.
+`tensorboard --logdir models` displays training and reward-component logs.
+
+## Evaluation and plots
+
+The primary comparison uses each run’s best callback-validation checkpoint,
+selected by mean return before the fixed benchmark is run. Final checkpoints
+are also retained. Use the supplied models, or substitute paths to your own:
+
+```bash
+python scripts/evaluate.py --config configs/eval_clean.yaml \
+  --clean-model models/ppo_clean/best/best_model.zip \
+  --noise-model models/ppo_noise/best/best_model.zip --run-id my_eval_clean
+python scripts/evaluate.py --config configs/eval_noise.yaml \
+  --clean-model models/ppo_clean/best/best_model.zip \
+  --noise-model models/ppo_noise/best/best_model.zip --run-id my_eval_noise
+python scripts/plot_results.py --inputs \
+  results/raw/my_eval_clean/episodes.csv results/raw/my_eval_noise/episodes.csv
+```
+
+Each command defaults to 100 scenarios (seeds 10000–10099) per method, with noise
+seeds offset by 1,000,000. Scene and noise RNGs are separate. The script asserts
+that all methods received identical initial configurations, obstacles and targets,
+and saves these in `scenarios.json`. `--episodes N` changes the count; `--methods
+rrt` evaluates only the planner. Run IDs cannot overwrite existing raw results.
+
+Alternatively, `python scripts/benchmark.py --prefix my_benchmark` runs both
+conditions and plots all six cells. Final metrics always use true simulated poses.
+Continuous metrics include mean, sample standard deviation and count. Planning
+and IK fields for PPO are intentionally missing. Wall-clock timings depend on
+hardware and concurrent load; path lengths are summed at physics substeps.
+
+`python scripts/verify_detour.py` demonstrates a real robot case in which the
+straight joint path is blocked and RRT executes an alternative. This diagnostic
+is distinct from the sparse random benchmark, where many direct paths are valid.
+
+## Graphical demo
+
+```bash
+python scripts/demo.py --method rrt
+python scripts/demo.py --method ppo --model models/ppo_clean/best/best_model.zip
+python scripts/demo.py --method ppo --model models/ppo_noise/best/best_model.zip \
+  --config configs/eval_noise.yaml
+```
+
+The GUI shows the robot, orange panel, green target, red obstacles, grey wall and
+blue trajectory; the console prints errors, collision and success each step.
+Seed 10002 is the default, selected as a successful demonstration scene; the
+benchmark retains all 100 seeds and its failures. The window closes after the episode plus five seconds;
+change `--hold-seconds` as needed. Each run also saves a rendered snapshot.
+
+On the development Linux host, Conda's C++ runtime conflicted with Mesa. This
+verified workaround selects the system runtime:
+
+```bash
+LIBGL_ALWAYS_SOFTWARE=1 LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6 \
+  python scripts/demo.py --method rrt
+```
+
+This path is Linux-specific; do not use it on macOS/Windows. A display-free image
+can be generated with `python scripts/demo.py --method rrt --headless`.
+
+## Repository guide
+
+```text
+assets/                   Local KUKA model, meshes and attribution
+configs/                  Inherited YAML configuration and curricula
+src/wall_panel_rl/envs/    Gymnasium environment, noise, geometry, collision
+src/wall_panel_rl/control/ Shared physical joint actuator
+src/wall_panel_rl/planning/IK and transparent RRT-Connect implementation
+src/wall_panel_rl/baselines/Classical trajectory controller
+src/wall_panel_rl/rl/      Reward-component callback
+src/wall_panel_rl/utils/   Configuration and comparable rollout metrics
+scripts/                  Smoke, training, evaluation, benchmark, plots, demo
+tests/                    API, collision, reward, noise, limits and detour tests
+models/                   Saved policies, resolved configurations, learning logs
+results/raw/              Episode CSVs, scenarios, representative trajectories
+results/summary/          Aggregated measured metrics
+results/figures/          Learning, comparison and trajectory plots, screenshots
+```
+
+`REPORT_DRAFT.md` contains the scientific report and measured results;
+`DEVELOPMENT_SUMMARY.md` records the completed runs and acceptance checks;
+`DECISIONS.md` explains design choices and deviations;
+`PROJECT_SPECIFICATION.md` preserves the supplied requirements. Regenerate the
+report from the primary CSVs with `python scripts/write_report.py`.
+`requirements-lock.txt` additionally pins transitive packages from the isolated
+Conda install (use the CPU wheel index from `requirements.txt` when installing it).
+
+## Reproducibility and external work
+
+Python, NumPy, PyTorch, Gymnasium, SB3 and scenario RNGs are seeded. Training is
+single-seed CPU evidence, not a multi-seed statistical study. Timeout-bounded RRT
+and floating-point physics can vary with platform/load. Saved scenario records
+and configs make the experiment inspectable; they do not promise bitwise replay
+across machines. Repeat training with multiple seeds before drawing broad claims.
+
+External software: PyBullet supplies physics, FK, IK, low-level motors and the
+KUKA model; Gymnasium supplies the environment API; Stable-Baselines3 implements
+PPO; PyTorch supplies neural networks; NumPy/SciPy provide numerical/quaternion
+operations; Pandas/Matplotlib handle results; PyYAML and TensorBoard support
+configuration/logging. The environment, RRT tree growth/connection/smoothing and
+experiment scripts are implemented in this repository. See `assets/README.md`
+for source and preserved robot license. This is simulation-only, with a rigid
+small panel, simplified sensing, sparse boxes and no communication/control delay.
+Joint-space actions **do not automatically guarantee collision avoidance**.

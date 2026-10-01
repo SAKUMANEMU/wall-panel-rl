@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "initial_q": [
+    0.5157494516534312,
+    0.5153308255404926,
+    0.23606350077873178,
+    -1.1326316730257528,
+    -0.2173974365069641,
+    -0.1658506356071786,
+    0.2126735284776847
+  ],
+  "obstacle_center": [
+    0.7549682259559631,
+    0.3600556254386902,
+    0.6588894724845886
+  ],
+  "obstacle_dimensions": [
+    0.07,
+    0.07,
+    0.07
+  ],
+  "straight_path_valid": false,
+  "rrt_success": true,
+  "execution_success": true,
+  "steps": 31,
+  "rrt_iterations": 68,
+  "planning_time_s": 0.7989052760001414,
+  "position_error_m": 0.0006197575127377695,
+  "orientation_error_deg": 0.049523569454438
+}

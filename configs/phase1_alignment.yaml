@@ -1,0 +1,6 @@
+extends: base.yaml
+robot:
+  start_offset: [0, 0, 0, 0, 0, 0, 0]
+  start_randomization: 0.035
+ppo:
+  eval_freq: 5000
