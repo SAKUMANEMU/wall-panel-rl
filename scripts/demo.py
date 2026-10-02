@@ -66,12 +66,19 @@ def main():
 
     def preview_scene(e, controller):
         nonlocal last_frame_time
+        if not args.headless:
+            p.configureDebugVisualizer(p.COV_ENABLE_RENDERING, 1, physicsClientId=e.client)
         print(f"Initial distance: {e.info()['position_error']:.3f} m; obstacles: {len(e.obstacles)}", flush=True)
         if not args.headless and args.start_hold_seconds > 0:
             time.sleep(args.start_hold_seconds)
         last_frame_time = time.perf_counter()
 
     try:
+        if not args.headless and args.method == "rrt":
+            print("Planning path; display resumes when planning finishes...", flush=True)
+            # Reset, IK and collision queries temporarily move the robot. Hide
+            # these queries until on_plan restores the initial scene display.
+            p.configureDebugVisualizer(p.COV_ENABLE_RENDERING, 0, physicsClientId=env.client)
         result, _ = rollout(env, args.method, args.seed, model, display, on_plan=preview_scene)
         print(json.dumps(result, indent=2))
         env.render_mode = "rgb_array"
@@ -82,6 +89,8 @@ def main():
         if not args.headless:
             time.sleep(args.hold_seconds)
     finally:
+        if not args.headless and p.isConnected(env.client):
+            p.configureDebugVisualizer(p.COV_ENABLE_RENDERING, 1, physicsClientId=env.client)
         env.close()
 
 
