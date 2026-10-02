@@ -35,6 +35,8 @@ def main():
         args.seed = secrets.randbelow(2**31)
     print(f"Scenario seed: {args.seed}", flush=True)
     config = load_config(args.config)
+    print(f"Target observation noise: position std={config['noise']['position_std']} m; "
+          f"orientation std={config['noise']['orientation_std_deg']} deg", flush=True)
     playback_speed = args.playback_speed if args.playback_speed is not None else config.get("demo", {}).get("playback_speed", 1.0)
     if not np.isfinite(playback_speed) or playback_speed <= 0:
         parser.error("--playback-speed must be a finite positive number")

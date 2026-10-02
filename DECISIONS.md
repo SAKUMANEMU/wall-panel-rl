@@ -156,3 +156,12 @@ Final verification: unchanged target pose checked against the base environment; 
 Seeds 10000–10099 averaged 1.841634 m (1.833300–1.849452 m). Both stages achieved
 100/100 success with zero collisions. GUI seed 10002 executed 60 steps in 5.0241 s
 for 3 simulated seconds, consistent with the configured 0.6x playback.
+
+## Sparse unequal obstacles and paired observation-noise demo
+
+Three random boxes now use dimensions 0.08/0.08/0.10, 0.12/0.10/0.16, and 0.16/0.14/0.20 m,
+a wider sampling region and a 0.15 m minimum surface gap. Optional per-obstacle sizes
+leave older configurations unchanged. A noisy child config applies existing 5 mm/0.5 degree
+observation noise without changing geometry. Same-seed scene equality is tested and audited.
+20 paired seeds yielded clean 20/20 and noisy 12/20 successes, with no collisions or planning
+failures. 19 tests passed. Existing user edits to playback speed and demo.png are preserved.

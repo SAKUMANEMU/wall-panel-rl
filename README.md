@@ -243,10 +243,11 @@ The two additional configurations preserve the original benchmark and models:
   distance to target must be between 1.80 and 1.90 m; joint offsets alone are not
   used as a distance guarantee.
 - `configs/far_three_obstacles.yaml`: the same farther starts and exactly three
-  boxes with randomized centers. Box size is 0.10 × 0.10 × 0.14 m. Centers are
-  drawn around (0.60, 0.38, 0.48) m with per-axis ranges ±(0.22, 0.35, 0.20) m.
+  boxes with randomized centers. Box sizes are 0.08 × 0.08 × 0.10 m, 0.12 × 0.10 × 0.16 m, and
+  0.16 × 0.14 × 0.20 m. Centers are
+  drawn around (0.50, 0.38, 0.48) m with per-axis ranges ±(0.35, 0.48, 0.26) m.
   Samples overlapping start/target clearance are rejected, and boxes must be at
-  least 0.04 m apart. This is endpoint feasibility checking, not a proof of a path.
+  least 0.15 m apart. This is endpoint feasibility checking, not a proof of a path.
 
 ```bash
 python scripts/demo.py --method rrt --config configs/far_start.yaml \
@@ -272,7 +273,7 @@ The audit records initial distance, IK/planning/execution outcomes and whether
 the **straight joint-space edge to the actual IK goal** is blocked. A successful
 physical execution in such a scene is counted as a successful detour. Raw scene
 geometry, configs and representative trajectories are saved alongside CSV/JSON.
-The current run is `results/raw/far_185_random_three/`; see its `summary.json` for
+The earlier equal-size-box run is `results/raw/far_185_random_three/`; see its `summary.json` for
 measured outcomes. This separate experiment does not replace the original report.
 
 Earlier ~0.92 m validation on seeds 10000–10099: both farther-start stages succeeded in
@@ -288,10 +289,10 @@ The current farther-start setting targets an average of approximately **1.85 m**
 keeping the original target and robot unchanged. The requested 2 m mean exceeds
 the geometric upper bound (~1.908 m) for this fixed target; the 1.85 m alternative
 was explicitly selected. Measured over seeds 10000–10099, the mean is **1.842 m** (range 1.833–1.849 m).
-Both stages completed 100/100 RRT executions without collision; the random-three-box
+With the earlier equal-size boxes, both stages completed 100/100 RRT executions without collision; the random-three-box
 stage had 100 blocked direct edges and 100 successful detours. Direct-edge checks
 include all collision constraints, so this does not attribute every blockage to a box.
-See [current results](results/raw/far_185_random_three/README.md).
+See [earlier equal-size-box results](results/raw/far_185_random_three/README.md).
 
 GUI animation now defaults to **0.6x** speed. Override it with `--playback-speed 1`
 for normal speed or `--playback-speed 0.6` explicitly. This only paces GUI display;
@@ -305,3 +306,27 @@ python scripts/demo.py --method rrt --config configs/far_three_obstacles.yaml \
 python scripts/verify_far_scenarios.py --run-id my_far_185_random_three
 python scripts/plot_far_scenarios.py --run-id my_far_185_random_three
 ```
+
+### Paired noise comparison with sparse, unequal boxes
+
+`configs/far_three_obstacles.yaml` has zero target-observation noise.
+`configs/far_three_obstacles_noise.yaml` uses independent Gaussian position noise
+(0.005 m standard deviation per axis) and rotation-vector noise (0.5 degrees per axis).
+The true target, initial state, and obstacle geometry match exactly for the same seed.
+RRT plans once using the initial noisy target observation; later observations do not
+replan its trajectory. Success and final errors are measured against the true target.
+This noise does not represent motor disturbances. Small observation errors may not
+produce an obvious visual difference, so compare recorded final errors as well.
+
+Run these consecutively with the same seed (do not use `--random-seed` for pairing):
+
+```bash
+python scripts/demo.py --method rrt --config configs/far_three_obstacles.yaml --seed 10002
+python scripts/demo.py --method rrt --config configs/far_three_obstacles_noise.yaml --seed 10002
+python scripts/compare_far_noise.py --episodes 20 --run-id my_sparse_comparison
+```
+
+Edit `obstacles.dimensions_by_obstacle`, `randomization`, and `min_obstacle_gap`
+in `configs/far_three_obstacles.yaml` to adjust sizes, distribution, and spacing.
+Edit `noise` in `configs/far_three_obstacles_noise.yaml` to adjust noise strength.
+The previous 100-episode results used the earlier geometry and are historical.

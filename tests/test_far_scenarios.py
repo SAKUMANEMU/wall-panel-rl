@@ -43,11 +43,28 @@ def test_three_boxes_are_random_reproducible_and_separated():
         assert np.array_equal(first, np.array(e.obstacles))
         for i, body in enumerate(e.obstacle_ids):
             for other in e.obstacle_ids[:i]:
-                assert not p.getClosestPoints(body,other,.04,physicsClientId=e.client)
+                assert not p.getClosestPoints(body,other,c['obstacles']['min_obstacle_gap'],physicsClientId=e.client)
+        assert np.array_equal(first[:,1], c['obstacles']['dimensions_by_obstacle'])
         centers=first[:,0]
         assert np.all(np.abs(centers-c['obstacles']['center']) <= np.array(c['obstacles']['randomization']))
     finally:
         e.close()
+
+
+def test_noise_comparison_has_identical_geometry():
+    clean = WallPanelEnv(load_config(ROOT / 'configs/far_three_obstacles.yaml'))
+    noisy = WallPanelEnv(load_config(ROOT / 'configs/far_three_obstacles_noise.yaml'))
+    try:
+        for seed in [42, 10002, 10003]:
+            clean.reset(seed=seed)
+            noisy.reset(seed=seed)
+            assert np.array_equal(clean.joint_state()[0], noisy.joint_state()[0])
+            assert np.array_equal(np.array(clean.obstacles), np.array(noisy.obstacles))
+            assert np.array_equal(clean.observed_target[0], clean.target_pose[0])
+            assert not np.array_equal(noisy.observed_target[0], noisy.target_pose[0])
+    finally:
+        clean.close()
+        noisy.close()
 
 
 def test_impossible_distance_constraint_is_not_silently_ignored():

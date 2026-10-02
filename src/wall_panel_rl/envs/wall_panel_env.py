@@ -226,14 +226,18 @@ class WallPanelEnv(gym.Env):
                 else int(self.np_random.integers(oc["min_count"], oc["max_count"] + 1))
             )
         )
-        for _ in range(count):
+        sizes = oc.get("dimensions_by_obstacle")
+        if sizes is not None and len(sizes) < count:
+            raise ValueError("dimensions_by_obstacle must provide a size for each obstacle")
+        for index in range(count):
+            dimensions = np.array(oc["dimensions"] if sizes is None else sizes[index], dtype=float)
             for attempt in range(oc["max_placement_attempts"]):
                 center = np.array(oc["center"], dtype=float)
                 if oc["stage"] == "C":
                     center += self.np_random.uniform(
                         -np.array(oc["randomization"]), oc["randomization"]
                     )
-                body = self.box(oc["dimensions"], center, [0.75, 0.16, 0.2, 1])
+                body = self.box(dimensions, center, [0.75, 0.16, 0.2, 1])
                 self.obstacle_ids.append(body)
                 gap = oc.get("min_obstacle_gap")
                 separated = gap is None or all(
@@ -242,7 +246,7 @@ class WallPanelEnv(gym.Env):
                 )
                 if (separated and self.collision.is_configuration_valid(q)
                         and self.collision.is_configuration_valid(self.goal_q)):
-                    self.obstacles.append((center, np.array(oc["dimensions"])))
+                    self.obstacles.append((center, dimensions.copy()))
                     break
                 self.obstacle_ids.pop()
                 p.removeBody(body, physicsClientId=self.client)
