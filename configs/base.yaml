@@ -78,3 +78,7 @@ seed: 42
 evaluation:
   episodes: 100
   start_seed: 10000
+
+# GUI playback only; does not change physics, training, or control frequency.
+demo:
+  playback_speed: 0.6

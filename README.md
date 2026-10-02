@@ -240,7 +240,7 @@ Joint-space actions **do not automatically guarantee collision avoidance**.
 The two additional configurations preserve the original benchmark and models:
 
 - `configs/far_start.yaml`: farther starts, no obstacles. The panel's actual FK
-  distance to target must be between 0.80 and 1.20 m; joint offsets alone are not
+  distance to target must be between 1.80 and 1.90 m; joint offsets alone are not
   used as a distance guarantee.
 - `configs/far_three_obstacles.yaml`: the same farther starts and exactly three
   boxes with randomized centers. Box size is 0.10 × 0.10 × 0.14 m. Centers are
@@ -272,13 +272,36 @@ The audit records initial distance, IK/planning/execution outcomes and whether
 the **straight joint-space edge to the actual IK goal** is blocked. A successful
 physical execution in such a scene is counted as a successful detour. Raw scene
 geometry, configs and representative trajectories are saved alongside CSV/JSON.
-The supplied run is `results/raw/far_random_three/`; see its `summary.json` for
+The current run is `results/raw/far_185_random_three/`; see its `summary.json` for
 measured outcomes. This separate experiment does not replace the original report.
 
-Measured validation on seeds 10000–10099: both farther-start stages succeeded in
+Earlier ~0.92 m validation on seeds 10000–10099: both farther-start stages succeeded in
 100/100 executions without collision. In the three-random-box stage, 84/100 direct
 joint-space edges were blocked and all 84 were successfully routed around.
 The mean initial distance increased from 0.486 m to 0.922 m (observed farther range
 0.804–1.032 m). These results apply to the tested seed set, not every possible
 random scene. Details: [extension results](results/raw/far_random_three/README.md).
 Generate its distance/trajectory figure with `python scripts/plot_far_scenarios.py`.
+
+
+The current farther-start setting targets an average of approximately **1.85 m**,
+keeping the original target and robot unchanged. The requested 2 m mean exceeds
+the geometric upper bound (~1.908 m) for this fixed target; the 1.85 m alternative
+was explicitly selected. Measured over seeds 10000–10099, the mean is **1.842 m** (range 1.833–1.849 m).
+Both stages completed 100/100 RRT executions without collision; the random-three-box
+stage had 100 blocked direct edges and 100 successful detours. Direct-edge checks
+include all collision constraints, so this does not attribute every blockage to a box.
+See [current results](results/raw/far_185_random_three/README.md).
+
+GUI animation now defaults to **0.6x** speed. Override it with `--playback-speed 1`
+for normal speed or `--playback-speed 0.6` explicitly. This only paces GUI display;
+physics, control frequency and headless training remain unchanged. Change the
+default in `configs/base.yaml` under `demo.playback_speed`. The farther scene also
+sets `demo.camera_distance: 2.8` to keep both ends of the motion visible.
+
+```bash
+python scripts/demo.py --method rrt --config configs/far_three_obstacles.yaml \
+  --random-seed --playback-speed 0.6 --hold-seconds 60
+python scripts/verify_far_scenarios.py --run-id my_far_185_random_three
+python scripts/plot_far_scenarios.py --run-id my_far_185_random_three
+```

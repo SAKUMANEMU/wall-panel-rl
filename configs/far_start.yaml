@@ -1,8 +1,14 @@
 extends: base.yaml
-# Stage 1: increase physical panel-to-target distance without changing the target.
+# Keep the original target; nearly extend the arm on the opposite side at reset.
+# q_start is centered on [2.65, 1.55, 0, -0.15, 0, -0.13, 0] radians.
 robot:
-  start_offset: [1.05, -0.12, 0.15, 0.12, -0.12, 0.10, 0.15]
-  start_position_distance_range: [0.80, 1.20]
+  start_offset: [2.65, 0.90, 0.0, 1.15, 0.0, 0.25, 0.0]
+  start_randomization: 0.03
+  start_position_distance_range: [1.80, 1.90]
   near_start_probability: 0.0
 obstacles:
   stage: A
+# Widen the view so both the farther panel and unchanged target remain visible.
+demo:
+  camera_distance: 2.8
+  camera_target: [0.0, 0.0, 0.60]

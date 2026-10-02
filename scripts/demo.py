@@ -22,6 +22,8 @@ def main():
     seed_options.add_argument("--random-seed", action="store_true",
                               help="Choose a fresh scenario seed and print it for replay")
     parser.add_argument("--headless", action="store_true")
+    parser.add_argument("--playback-speed", type=float,
+                        help="GUI playback multiplier; 0.6 plays at 60%% speed")
     parser.add_argument("--hold-seconds", type=float, default=5)
     parser.add_argument("--start-hold-seconds", type=float, default=2,
                         help="Pause the GUI after RRT planning so the initial scene is visible")
@@ -33,11 +35,17 @@ def main():
         args.seed = secrets.randbelow(2**31)
     print(f"Scenario seed: {args.seed}", flush=True)
     config = load_config(args.config)
+    playback_speed = args.playback_speed if args.playback_speed is not None else config.get("demo", {}).get("playback_speed", 1.0)
+    if not np.isfinite(playback_speed) or playback_speed <= 0:
+        parser.error("--playback-speed must be a finite positive number")
+    print(f"GUI playback speed: {playback_speed:g}x", flush=True)
     env = WallPanelEnv(config, "rgb_array" if args.headless else "human")
     model = PPO.load(args.model, device="cpu") if args.method == "ppo" else None
     previous = []
+    last_frame_time = None
 
     def display(e, step, info):
+        nonlocal last_frame_time
         pos = e.panel_pose()[0]
         if previous:
             p.addUserDebugLine(
@@ -48,14 +56,20 @@ def main():
             f'step={step} position={info["position_error"]:.4f} m orientation={np.rad2deg(info["orientation_error"]):.2f} deg collision={info["collision"]} success={info["success"]}'
         )
         if not args.headless:
-            time.sleep(
-                config["simulation"]["timestep"] * config["simulation"]["substeps"]
-            )
+            # Pace wall-clock display, accounting for computation/rendering time.
+            # Bullet still advances the same number of fixed-size physics steps.
+            frame_duration = config["simulation"]["timestep"] * config["simulation"]["substeps"] / playback_speed
+            now = time.perf_counter()
+            elapsed = 0.0 if last_frame_time is None else now - last_frame_time
+            time.sleep(max(0.0, frame_duration - elapsed))
+            last_frame_time = time.perf_counter()
 
     def preview_scene(e, controller):
+        nonlocal last_frame_time
         print(f"Initial distance: {e.info()['position_error']:.3f} m; obstacles: {len(e.obstacles)}", flush=True)
         if not args.headless and args.start_hold_seconds > 0:
             time.sleep(args.start_hold_seconds)
+        last_frame_time = time.perf_counter()
 
     try:
         result, _ = rollout(env, args.method, args.seed, model, display, on_plan=preview_scene)

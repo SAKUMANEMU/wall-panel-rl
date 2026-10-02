@@ -136,3 +136,23 @@
     its RRT execution fails. Audit the direct edge to the planner's actual IK
     goal, not just the construction reference posture, and retain failures.
     --random-seed enables fresh GUI scenes with the chosen seed printed for replay.
+22. **User-selected 1.85 m alternative and 0.6x playback.** The original fixed
+    target is 0.867048 m from the shoulder center (0,0,0.36). The remaining URDF
+    joint-origin lengths plus panel offset sum to 1.041 m, giving a conservative
+    geometric start-to-target upper bound of 1.908048 m. An average 2 m distance
+    is therefore impossible without changing the target or robot. After a concrete
+    target-shift alternative was presented, the user chose to keep the target and
+    use approximately 1.85 m instead. The farther-start config now centers q on
+    [2.65,1.55,0,-0.15,0,-0.13,0] rad, with ±0.03 rad randomization and an actual
+    distance filter [1.80,1.90] m. The earlier 0.922 m results remain separate.
+    GUI playback defaults to 0.6x, configurable with --playback-speed or
+    demo.playback_speed. Wall-clock pacing accounts for computation time;
+    simulation timestep, action duration, rewards and headless training are
+    unchanged. Pauses before/after the animation are not scaled. The camera is
+    widened for the new span. A GUI check of the previous scene matched headless
+    success/steps and displayed 1.3 simulated seconds in about 2.17 wall seconds.
+
+Final verification: unchanged target pose checked against the base environment; 18 tests passed.
+Seeds 10000–10099 averaged 1.841634 m (1.833300–1.849452 m). Both stages achieved
+100/100 success with zero collisions. GUI seed 10002 executed 60 steps in 5.0241 s
+for 3 simulated seconds, consistent with the configured 0.6x playback.

@@ -12,7 +12,7 @@ def test_far_physical_installation(name, expected_count):
     try:
         obs, initial = e.reset(seed=10002)
         q = e.joint_state()[0]
-        assert .8 <= initial['position_error'] <= 1.2
+        assert 1.80 <= initial['position_error'] <= 1.90
         assert len(e.obstacles) == expected_count
         assert obs.shape == (41,)
         controller = ClassicalController(e, 10002)

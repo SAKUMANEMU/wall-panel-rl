@@ -121,8 +121,11 @@ class WallPanelEnv(gym.Env):
             (2 * self.n + 6 + 7 * c["obstacles"]["max_count"],),
             dtype=np.float32,
         )
+        demo = c.get("demo", {})
+        self.camera_distance = demo.get("camera_distance", 1.9)
+        self.camera_target = demo.get("camera_target", [0.3, 0, 0.65])
         p.resetDebugVisualizerCamera(
-            1.9, -50, -25, [0.3, 0, 0.65], physicsClientId=self.client
+            self.camera_distance, -50, -25, self.camera_target, physicsClientId=self.client
         )
 
     def box(
@@ -359,7 +362,7 @@ class WallPanelEnv(gym.Env):
     def render(self):
         if self.render_mode == "rgb_array":
             view = p.computeViewMatrixFromYawPitchRoll(
-                [0.3, 0, 0.65], 1.9, -50, -25, 0, 2
+                self.camera_target, self.camera_distance, -50, -25, 0, 2
             )
             proj = p.computeProjectionMatrixFOV(55, 4 / 3, 0.05, 5)
             return np.asarray(
