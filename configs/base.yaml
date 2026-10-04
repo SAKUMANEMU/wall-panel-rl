@@ -81,4 +81,4 @@ evaluation:
 
 # GUI playback only; does not change physics, training, or control frequency.
 demo:
-  playback_speed: 0.6
+  playback_speed: 0.5
