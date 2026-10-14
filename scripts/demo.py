@@ -71,6 +71,10 @@ def main():
 
     def preview_scene(e, controller):
         nonlocal last_frame_time
+        if not args.headless and e.reference_positions:
+            for a, b in zip(e.reference_positions[:-1], e.reference_positions[1:]):
+                p.addUserDebugLine(a, b, [0.85, 0.7, 0.1], 1, physicsClientId=e.client)
+            print("Yellow line: obstacle-free RRT panel reference path; blue: executed path.", flush=True)
         if not args.headless:
             p.configureDebugVisualizer(p.COV_ENABLE_RENDERING, 1, physicsClientId=e.client)
         print(f"Initial distance: {e.info()['position_error']:.3f} m; obstacles: {len(e.obstacles)}", flush=True)

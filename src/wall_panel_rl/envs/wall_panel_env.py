@@ -235,6 +235,26 @@ class WallPanelEnv(gym.Env):
         sizes = oc.get("dimensions_by_obstacle")
         if sizes is not None and len(sizes) < count:
             raise ValueError("dimensions_by_obstacle must provide a size for each obstacle")
+        self.reference_path = []
+        self.reference_positions = []
+        if oc.get('dynamic', {}).get('placement') == 'rrt_path':
+            from wall_panel_rl.planning.rrt_connect import RRTConnect, interpolate
+            planner = RRTConnect(self.lower, self.upper, self.collision.is_configuration_valid,
+                                 self.collision.edge_valid, c['rrt'],
+                                 int(self.np_random.integers(2**31)))
+            path = planner.plan(q, self.goal_q)
+            if path is None:
+                raise RuntimeError('Could not generate obstacle-free RRT reference path')
+            self.reference_path = [path[0]]
+            for a, b in zip(path[:-1], path[1:]):
+                self.reference_path.extend(interpolate(a, b, .025)[1:])
+            for point in self.reference_path:
+                with self.collision.at_configuration(point):
+                    self.reference_positions.append(np.array(self.kinematic_panel_pose()[0]))
+            points = np.array(self.reference_positions)
+            arc = np.r_[0., np.cumsum(np.linalg.norm(np.diff(points, axis=0), axis=1))]
+            reference_centres = np.array([[np.interp(f * arc[-1], arc, points[:, k])
+                                           for k in range(3)] for f in np.arange(1,count+1)/(count+1)])
         for index in range(count):
             dimensions = np.array(oc["dimensions"] if sizes is None else sizes[index], dtype=float)
             for attempt in range(oc["max_placement_attempts"]):
@@ -243,10 +263,18 @@ class WallPanelEnv(gym.Env):
                 if dynamic:
                     # Even longitudinal spacing; small transverse random offsets.
                     fraction = (index + 1) / (count + 1)
-                    direction = self.target_pose[0] - start_position
+                    on_path = oc['dynamic'].get('placement') == 'rrt_path'
+                    reference = reference_centres[index] if on_path else start_position + fraction * (self.target_pose[0] - start_position)
+                    if on_path:
+                        nearest = int(np.argmin(np.linalg.norm(points-reference,axis=1)))
+                        direction = points[min(nearest+1,len(points)-1)] - points[max(0,nearest-1)]
+                    else:
+                        direction = self.target_pose[0] - start_position
                     axis = np.cross(direction, [0., 0., 1.])
+                    if np.linalg.norm(axis) < 1e-8:
+                        axis = np.array([1., 0., 0.])
                     axis /= np.linalg.norm(axis)
-                    center = start_position + fraction * direction
+                    center = reference.copy()
                     # Alternate sides of the reference corridor: boxes on its
                     # centreline would overlap the initially extended arm.
                     side = 1 if index % 2 == 0 else -1
@@ -282,7 +310,8 @@ class WallPanelEnv(gym.Env):
                         and self.collision.is_configuration_valid(self.goal_q)):
                     self.obstacles.append((center, dimensions.copy()))
                     if dynamic:
-                        self.obstacle_motion.append(dict(anchor=anchor, axis=axis, phase=phase))
+                        self.obstacle_motion.append(dict(anchor=anchor, axis=axis, phase=phase,
+                                                         reference=reference.copy(), fraction=fraction))
                     break
                 self.obstacle_ids.pop()
                 p.removeBody(body, physicsClientId=self.client)

@@ -16,6 +16,8 @@ def rollout(env, method, seed, model=None, on_step=None, on_plan=None):
         "target_position": env.target_pose[0].tolist(),
         "target_orientation": env.target_pose[1].tolist(),
         "obstacle_motion": [{k: v.tolist() if isinstance(v, np.ndarray) else v for k,v in spec.items()} for spec in env.obstacle_motion],
+        "reference_joint_path": [q.tolist() for q in env.reference_path],
+        "reference_panel_positions": [p.tolist() for p in env.reference_positions],
     }
     planner = ClassicalController(env, seed) if method == "rrt" else None
     if on_plan is not None and planner is not None:

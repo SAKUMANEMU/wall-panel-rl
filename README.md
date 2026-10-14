@@ -339,14 +339,21 @@ is now `configs/far_five_dynamic.yaml`. For target-observation noise, use
 `--config configs/far_five_dynamic_noise.yaml`. Older explicit three-obstacle
 commands still select the historical static scene.
 
-Five unequal boxes occupy longitudinal fractions 1/6 through 5/6 of the straight
-reference segment from initial panel position to target. They alternate sides of
-this corridor (nominal lateral offset 0.60 m, random ±0.04 m; vertical jitter
-±0.04 m). Failed endpoint placements shift outward in 0.05 m increments. This
-leaves bypass space and avoids placing boxes inside the initially extended arm;
-it does not place every box on the centreline or guarantee every box forces a detour.
-Each box moves sinusoidally across the corridor about its own anchor with random
-initial phase, amplitude 0.10 m and peak speed 0.05 m/s (period about 12.57 s).
+Before placing obstacles, the environment plans an obstacle-free RRT-Connect route
+from the sampled start joints to the original goal joints. FK of the carried panel
+along that route gives a Cartesian reference curve. The five unequal boxes are
+anchored at 1/6 through 5/6 of its arc length, with small transverse/vertical jitter.
+If endpoint overlap would occur, placement shifts outward in 0.05 m increments
+(up to 0.20 m). This is the panel-centre trajectory associated with the arm's RRT
+joint trajectory, not a straight start-to-target line. The reference uses the true
+fixed goal for scene generation, keeping clean/noisy scenes paired; the execution
+planner still uses the observed target. The yellow GUI line shows the reference,
+and the blue line shows physical execution. Reference joints and panel positions
+are saved in the recorded scene.
+
+Each box oscillates transversely about its anchor with random initial phase,
+amplitude 0.20 m (0.40 m total travel) and peak speed 0.10 m/s. Both are twice the
+previous values, so the period remains about 12.57 s.
 Motion advances each physics substep. Pausing for planning freezes simulation time;
 this is synchronous simulation, not a real-time moving-world planning guarantee.
 

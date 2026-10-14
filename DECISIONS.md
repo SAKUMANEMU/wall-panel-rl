@@ -180,3 +180,12 @@ motion and synchronous (paused during planning) simulation. It is not a real-tim
 safety certificate. A regression exercises replanning via an obsolete unsafe route.
 Default demo selects the new config and a fresh random seed unless explicitly set.
 Old static configs and PPO models are retained; new observation dimension is 55.
+
+## RRT-reference placement and faster motion
+
+Replaced straight-corridor placement with five arc-length stations on the carried
+panel FK trajectory of an obstacle-free RRT-Connect plan from start to goal_q.
+Noisy target measurements do not affect scene generation. Anchors use small jitter
+and bounded endpoint-feasibility offsets. Peak speed increased to 0.10 m/s and
+amplitude to 0.20 m, preserving the sinusoidal period. GUI displays the reference
+in yellow. Stored scenarios include the reference joint path and panel trajectory.

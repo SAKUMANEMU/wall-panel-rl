@@ -14,9 +14,10 @@ obstacles:
   min_obstacle_gap: 0.10
   dynamic:
     enabled: true
-    amplitude: 0.10
-    max_speed: 0.05
-    lateral_offset: 0.60
+    placement: rrt_path
+    amplitude: 0.20
+    max_speed: 0.10
+    lateral_offset: 0.0
 rrt:
   timeout: 15.0
   max_iterations: 6000

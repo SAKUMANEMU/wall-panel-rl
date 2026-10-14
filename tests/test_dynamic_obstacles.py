@@ -16,10 +16,13 @@ def test_motion_spacing_speed_reproducibility_and_query_restore():
         assert obs.shape == (55,)
         initial = np.array(e.obstacles)
         specs = e.obstacle_motion
-        start = np.array(e.panel_pose()[0])
-        direction = e.target_pose[0] - start
-        fractions = [(s['anchor'] - start) @ direction / (direction @ direction) for s in specs]
-        assert np.allclose(fractions, np.arange(1, 6) / 6, atol=.005)
+        points = np.array(e.reference_positions)
+        arc = np.r_[0., np.cumsum(np.linalg.norm(np.diff(points, axis=0),axis=1))]
+        for i, spec in enumerate(specs):
+            expected = [np.interp((i+1)/6 * arc[-1], arc, points[:,k]) for k in range(3)]
+            assert np.allclose(spec['reference'], expected)
+            assert np.linalg.norm(spec['anchor']-spec['reference']) < .26
+        assert all(e.collision.within_limits(q) for q in e.reference_path)
         for i,body in enumerate(e.obstacle_ids):
             for other in e.obstacle_ids[:i]:
                 assert not p.getClosestPoints(body, other, .10, physicsClientId=e.client)
@@ -28,8 +31,8 @@ def test_motion_spacing_speed_reproducibility_and_query_restore():
             a = np.array([c.copy() for c,d in e.obstacles])
             e.move_obstacles(t + .001)
             b = np.array([c.copy() for c,d in e.obstacles])
-            assert np.all(np.linalg.norm(b-a,axis=1) <= .00005001)
-            assert all(np.linalg.norm(c-s['anchor']) <= .100001 for (c,d),s in zip(e.obstacles,specs))
+            assert np.all(np.linalg.norm(b-a,axis=1) <= .00010001)
+            assert all(np.linalg.norm(c-s['anchor']) <= .200001 for (c,d),s in zip(e.obstacles,specs))
         e.move_obstacles(0)
         ids = e.obstacle_ids.copy()
         try:
