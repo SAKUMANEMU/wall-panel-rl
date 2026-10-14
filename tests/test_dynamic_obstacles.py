@@ -68,7 +68,9 @@ def test_dynamic_physical_execution_and_replanning():
         c.path = [q, unsafe, c.goal_q]
         c.index = 1
         a = c.action()
-        assert c.replans == 1 and np.array_equal(a,np.zeros(e.n))
+        assert c.replans == 1
+        if not c.timed:
+            assert np.array_equal(a,np.zeros(e.n))
         for _ in range(e.config['simulation']['max_steps']):
             _,_,done,truncated,info=e.step(a)
             if done or truncated:

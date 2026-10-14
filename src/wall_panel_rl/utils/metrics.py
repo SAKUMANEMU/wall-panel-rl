@@ -66,6 +66,8 @@ def rollout(env, method, seed, model=None, on_step=None, on_plan=None):
         "replans": planner.replans if planner else 0,
         "replan_failures": planner.replan_failures if planner else 0,
         "hold_steps": planner.hold_steps if planner else 0,
+        "scheduled_waits": planner.scheduled_waits if planner else 0,
+        "dynamic_planning_mode": env.config['rrt'].get('dynamic_mode', 'swept'),
         "physics_elapsed_s": env.sim_time,
     }
     return result, {

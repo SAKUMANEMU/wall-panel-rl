@@ -364,13 +364,26 @@ outward up to 0.55 m plus small jitter before reporting placement failure.
 Motion advances each physics substep. Pausing for planning freezes simulation time;
 this is synchronous simulation, not a real-time moving-world planning guarantee.
 
-RRT plans against conservative boxes covering the full obstacle motion envelope.
-During execution it checks three upcoming joint edges against current/predicted
-obstacle positions. On a risk it commands a hold, attempts replanning and rechecks
-before moving again. Failed replans retry after five control steps; waiting still
-advances obstacle motion and can end in collision or timeout. Physical collision
-monitoring remains active. Prediction and edge checking are discrete, not a formal
-continuous-time safety guarantee. GUI collision queries are hidden.
+The default `rrt.dynamic_mode: timed` allows passage through obstacle motion
+regions when they are clear at the predicted arrival time. RRT-Connect generates
+geometric candidates at current/future obstacle snapshots; a time-expanded search
+then schedules advancing or waiting along each candidate. Every scheduled edge
+checks arm and payload at intermediate times against the actual prescribed moving
+boxes. The controller tracks one scheduled waypoint per control tick, checks the
+next move from the measured joint state, and reschedules if unsafe or unreachable
+in one action. Waiting is checked for collisions too during scheduling. A failed
+online replan commands a hold and invalidates the old schedule; holds can still be
+hit by approaching obstacles, so failures remain recorded. The search has finite
+candidate routes and a 30 s budget and may report no plan even if another solution
+exists. It is RRT plus time scheduling, not a complete space-time RRT algorithm.
+
+Set `rrt.dynamic_mode: swept` to restore conservative whole-region avoidance.
+Full motion envelopes are still used for endpoint placement to protect the fixed
+start and goal, and for auditing whether execution entered a previously forbidden
+region. They are NOT used as forbidden regions by the timed route planner or IK.
+The model assumes known prescribed obstacle motion and pauses simulation time
+while computing. Discrete collision samples and kinematic prediction do not
+constitute a continuous or real-time physical safety guarantee. GUI queries are hidden.
 
 The observation now has 55 values (five seven-value obstacle slots); obstacle
 centres update each step. Velocities/phases are not policy inputs, so the dynamic

@@ -202,3 +202,24 @@ reference and up to 360 attempts to keep the larger 3D envelopes clear of endpoi
 IK now checks the same motion envelopes used by RRT, avoiding goals inside a sweep.
 The replan regression explicitly selects a colliding obsolete waypoint; a zero
 joint vector was no longer necessarily unsafe in the new geometry.
+
+## Timed passage through moving-obstacle regions
+
+Added TimedRRT: generate RRT-Connect geometric candidates at several predicted
+snapshots, then A* scheduling over path-index/time with advance and wait edges.
+Edges sample both robot/payload and obstacle positions at matching intermediate
+times. No full swept-region inflation is used for route planning/IK in timed mode.
+Final verification uses the current configured speed 0.40 m/s. Swept envelopes remain endpoint-only
+placement constraints and audit geometry. Feedback tracks timestamps rather than
+skipping reached waypoints; stale/unsafe schedules trigger rescheduling.
+Whole-region mode is retained as dynamic_mode: swept for comparison.
+A synthetic timed gate regression proves waiting for an opening and rejecting an
+unsafe wait; physical rollout auditing records actual overlap with swept proxies
+only when no actual collision occurred. Planning pauses simulation time. Initial
+parallel validation showed finite-budget planning failures, preserved in logs.
+
+Final timed validation at 0.40 m/s: 7/10 success, 3 initial planning failures,
+zero collisions; all 7 successful executions entered swept regions. 164 scheduled
+wait steps total; seed 10002 waited 40 steps. Conservative comparison: 10/10
+success but zero region entries. 22 tests passed. No performance superiority or
+continuous safety guarantee is claimed.

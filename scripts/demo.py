@@ -41,6 +41,7 @@ def main():
     if not np.isfinite(playback_speed) or playback_speed <= 0:
         parser.error("--playback-speed must be a finite positive number")
     print(f"GUI playback speed: {playback_speed:g}x", flush=True)
+    print(f"Dynamic planning mode: {config['rrt'].get('dynamic_mode', 'swept')}", flush=True)
     env = WallPanelEnv(config, "rgb_array" if args.headless else "human")
     model = PPO.load(args.model, device="cpu") if args.method == "ppo" else None
     if model is not None and model.observation_space.shape != env.observation_space.shape:

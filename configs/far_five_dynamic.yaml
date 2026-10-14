@@ -21,6 +21,8 @@ obstacles:
     max_speed: 0.40
     lateral_offset: 0.0
 rrt:
+  dynamic_mode: timed
+  timed_timeout: 30.0
   timeout: 15.0
   max_iterations: 6000
   dynamic_lookahead_steps: 3
