@@ -21,18 +21,21 @@ def test_motion_spacing_speed_reproducibility_and_query_restore():
         for i, spec in enumerate(specs):
             expected = [np.interp((i+1)/6 * arc[-1], arc, points[:,k]) for k in range(3)]
             assert np.allclose(spec['reference'], expected)
-            assert np.linalg.norm(spec['anchor']-spec['reference']) < .26
+            assert np.linalg.norm(spec['anchor']-spec['reference']) < .61
         assert all(e.collision.within_limits(q) for q in e.reference_path)
         for i,body in enumerate(e.obstacle_ids):
             for other in e.obstacle_ids[:i]:
                 assert not p.getClosestPoints(body, other, .10, physicsClientId=e.client)
-        for t in np.linspace(0, 15, 31):
+        samples = []
+        for t in np.linspace(0, 30, 61):
             e.move_obstacles(t)
             a = np.array([c.copy() for c,d in e.obstacles])
+            samples.append(a)
             e.move_obstacles(t + .001)
             b = np.array([c.copy() for c,d in e.obstacles])
-            assert np.all(np.linalg.norm(b-a,axis=1) <= .00010001)
-            assert all(np.linalg.norm(c-s['anchor']) <= .200001 for (c,d),s in zip(e.obstacles,specs))
+            assert np.all(np.linalg.norm(b-a,axis=1) <= e.config['obstacles']['dynamic']['max_speed'] * .001 + 1e-8)
+            assert all(np.linalg.norm(c-s['anchor']) <= e.config['obstacles']['dynamic']['amplitude'] + 1e-8 for (c,d),s in zip(e.obstacles,specs))
+        assert np.all(np.ptp(np.array(samples), axis=0) > .1)
         e.move_obstacles(0)
         ids = e.obstacle_ids.copy()
         try:
@@ -59,7 +62,10 @@ def test_dynamic_physical_execution_and_replanning():
         # An obsolete route through the middle of the workspace must trigger
         # the stop/replan branch; the replacement is then physically executed.
         q = e.joint_state()[0]
-        c.path = [q, np.zeros(e.n), c.goal_q]
+        rng = np.random.default_rng(123)
+        unsafe = next(candidate for candidate in rng.uniform(e.lower,e.upper,(1000,e.n))
+                      if not e.collision.is_configuration_valid(candidate))
+        c.path = [q, unsafe, c.goal_q]
         c.index = 1
         a = c.action()
         assert c.replans == 1 and np.array_equal(a,np.zeros(e.n))

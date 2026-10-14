@@ -189,3 +189,16 @@ Noisy target measurements do not affect scene generation. Anchors use small jitt
 and bounded endpoint-feasibility offsets. Peak speed increased to 0.10 m/s and
 amplitude to 0.20 m, preserving the sinusoidal period. GUI displays the reference
 in yellow. Stored scenarios include the reference joint path and panel trajectory.
+
+## Three-dimensional random obstacle motion
+
+The user requested up/down, forward/back, left/right motion. Added random_3d mode
+with three independently seeded sinusoidal phases and angular frequencies. Existing
+user values amplitude=0.40 and max_speed=0.40 are preserved as total Euclidean
+bounds; per-axis amplitude is amplitude/sqrt(3), and angular frequency is sampled
+in [0.5,1]*max_speed/amplitude. This is smooth randomised periodic-component motion,
+not frame-to-frame random teleportation. Placement uses either side of the RRT
+reference and up to 360 attempts to keep the larger 3D envelopes clear of endpoints.
+IK now checks the same motion envelopes used by RRT, avoiding goals inside a sweep.
+The replan regression explicitly selects a colliding obsolete waypoint; a zero
+joint vector was no longer necessarily unsafe in the new geometry.

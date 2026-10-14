@@ -15,7 +15,8 @@ class ClassicalController:
         self.hold_steps = 0
         self.next_retry = 0
         start = time.perf_counter()
-        goal = solve_goal(env, env.observed_target, seed)
+        with env.planning_obstacles():
+            goal = solve_goal(env, env.observed_target, seed)
         self.goal_q = goal
         self.ik_success = goal is not None
         self.path = None

@@ -278,13 +278,28 @@ class WallPanelEnv(gym.Env):
                     # Alternate sides of the reference corridor: boxes on its
                     # centreline would overlap the initially extended arm.
                     side = 1 if index % 2 == 0 else -1
+                    if oc['dynamic'].get('motion_mode') == 'random_3d':
+                        side = self.np_random.choice([-1, 1])
                     center += axis * (side * (oc['dynamic'].get('lateral_offset', .48)
                                               + .05 * (attempt // 30))
                                       + self.np_random.uniform(-0.04, 0.04))
                     center[2] += self.np_random.uniform(-0.04, 0.04)
                     phase = self.np_random.uniform(0, 2 * np.pi)
                     anchor = center.copy()
-                    center += axis * oc['dynamic']['amplitude'] * np.sin(phase)
+                    amplitude = oc['dynamic']['amplitude']
+                    if oc['dynamic'].get('motion_mode') == 'random_3d':
+                        # Independent phases/frequencies give smooth 3D motion.
+                        # Divide the speed budget across axes to bound total speed.
+                        extent = np.full(3, amplitude / np.sqrt(3))
+                        phase = self.np_random.uniform(0, 2*np.pi, 3)
+                        omega = (oc['dynamic']['max_speed'] / amplitude
+                                 * self.np_random.uniform(.5, 1., 3))
+                        motion_spec = dict(anchor=anchor, extent=extent, phase=phase, omega=omega)
+                        center += extent * np.sin(phase)
+                    else:
+                        extent = amplitude * np.abs(axis)
+                        motion_spec = dict(anchor=anchor, axis=axis, phase=phase, extent=extent)
+                        center += axis * amplitude * np.sin(phase)
                 elif oc["stage"] == "C":
                     center += self.np_random.uniform(
                         -np.array(oc["randomization"]), oc["randomization"]
@@ -298,7 +313,7 @@ class WallPanelEnv(gym.Env):
                 )
                 if dynamic and separated:
                     # Keep endpoint poses outside the entire obstacle sweep.
-                    envelope = self.box(dimensions + 2 * oc['dynamic']['amplitude'] * np.abs(axis), anchor, [0, 0, 0, 0])
+                    envelope = self.box(dimensions + 2 * extent, anchor, [0, 0, 0, 0])
                     self.obstacle_ids.append(envelope)
                     try:
                         separated = (self.collision.is_configuration_valid(q)
@@ -310,8 +325,8 @@ class WallPanelEnv(gym.Env):
                         and self.collision.is_configuration_valid(self.goal_q)):
                     self.obstacles.append((center, dimensions.copy()))
                     if dynamic:
-                        self.obstacle_motion.append(dict(anchor=anchor, axis=axis, phase=phase,
-                                                         reference=reference.copy(), fraction=fraction))
+                        motion_spec.update(reference=reference.copy(), fraction=fraction)
+                        self.obstacle_motion.append(motion_spec)
                     break
                 self.obstacle_ids.pop()
                 p.removeBody(body, physicsClientId=self.client)
@@ -336,7 +351,10 @@ class WallPanelEnv(gym.Env):
         amplitude = motion['amplitude']
         omega = motion['max_speed'] / amplitude
         for i, (body, spec) in enumerate(zip(self.obstacle_ids, self.obstacle_motion)):
-            center = spec['anchor'] + spec['axis'] * amplitude * np.sin(omega * simulation_time + spec['phase'])
+            if 'omega' in spec:
+                center = spec['anchor'] + spec['extent'] * np.sin(spec['omega'] * simulation_time + spec['phase'])
+            else:
+                center = spec['anchor'] + spec['axis'] * amplitude * np.sin(omega * simulation_time + spec['phase'])
             p.resetBasePositionAndOrientation(body, center, [0, 0, 0, 1], physicsClientId=self.client)
             self.obstacles[i] = (center, self.obstacles[i][1])
 
@@ -351,9 +369,8 @@ class WallPanelEnv(gym.Env):
             return
         originals, proxies = self.obstacle_ids, []
         try:
-            amplitude = self.config['obstacles']['dynamic']['amplitude']
             for (_, dimensions), spec in zip(self.obstacles, self.obstacle_motion):
-                proxies.append(self.box(dimensions + 2 * amplitude * np.abs(spec['axis']),
+                proxies.append(self.box(dimensions + 2 * spec['extent'],
                                         spec['anchor'], [0, 0, 0, 0]))
             self.obstacle_ids = proxies
             yield

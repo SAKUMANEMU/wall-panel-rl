@@ -344,16 +344,23 @@ from the sampled start joints to the original goal joints. FK of the carried pan
 along that route gives a Cartesian reference curve. The five unequal boxes are
 anchored at 1/6 through 5/6 of its arc length, with small transverse/vertical jitter.
 If endpoint overlap would occur, placement shifts outward in 0.05 m increments
-(up to 0.20 m). This is the panel-centre trajectory associated with the arm's RRT
+(up to 0.55 m for the current 3D mode). This is the panel-centre trajectory associated with the arm's RRT
 joint trajectory, not a straight start-to-target line. The reference uses the true
 fixed goal for scene generation, keeping clean/noisy scenes paired; the execution
 planner still uses the observed target. The yellow GUI line shows the reference,
 and the blue line shows physical execution. Reference joints and panel positions
 are saved in the recorded scene.
 
-Each box oscillates transversely about its anchor with random initial phase,
-amplitude 0.20 m (0.40 m total travel) and peak speed 0.10 m/s. Both are twice the
-previous values, so the period remains about 12.57 s.
+Each box now moves smoothly in all three world axes (X/Y/Z), with independent
+random phases and frequencies on each reset (`motion_mode: random_3d`). This is
+reproducible bounded randomised motion, not discontinuous random teleportation.
+The current user settings, amplitude 0.40 m and maximum speed 0.40 m/s, are
+preserved as bounds on the TOTAL displacement from its anchor and TOTAL speed.
+Each axis has amplitude 0.40/sqrt(3) (about 0.231 m); independent angular frequencies
+are sampled between 0.5 and 1 times max_speed/amplitude. The swept collision
+proxy covers the full resulting 3D box. To keep endpoint poses clear with this
+larger sweep, placement can try either side of the reference path and shift
+outward up to 0.55 m plus small jitter before reporting placement failure.
 Motion advances each physics substep. Pausing for planning freezes simulation time;
 this is synchronous simulation, not a real-time moving-world planning guarantee.
 
