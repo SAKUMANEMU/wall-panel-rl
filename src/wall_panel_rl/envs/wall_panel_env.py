@@ -1,5 +1,6 @@
 """Physical joint-space panel installation environment (no observation delay)."""
 import copy
+from contextlib import contextmanager
 import numpy as np
 import gymnasium as gym
 from gymnasium import spaces
@@ -111,6 +112,8 @@ class WallPanelEnv(gym.Env):
             collision=False,
         )
         self.obstacle_ids, self.obstacles = [], []
+        self.obstacle_motion = []
+        self.sim_time = 0.0
         self.collision = CollisionChecker(self)
         self.controller = JointPositionController(self)
         self.max_increment = np.deg2rad(c["controller"]["max_joint_increment_deg"])
@@ -198,6 +201,8 @@ class WallPanelEnv(gym.Env):
         for body in self.obstacle_ids:
             p.removeBody(body, physicsClientId=self.client)
         self.obstacle_ids, self.obstacles = [], []
+        self.obstacle_motion = []
+        self.sim_time = 0.0
         c = self.config
         probability = c["robot"].get("near_start_probability", 0.0)
         near_start = probability > 0 and self.np_random.random() < probability
@@ -216,6 +221,7 @@ class WallPanelEnv(gym.Env):
         else:
             raise RuntimeError("Could not sample a valid initial configuration")
         self.set_configuration(q)
+        start_position = np.array(self.panel_pose()[0])
         oc = c["obstacles"]
         count = (
             0
@@ -233,7 +239,25 @@ class WallPanelEnv(gym.Env):
             dimensions = np.array(oc["dimensions"] if sizes is None else sizes[index], dtype=float)
             for attempt in range(oc["max_placement_attempts"]):
                 center = np.array(oc["center"], dtype=float)
-                if oc["stage"] == "C":
+                dynamic = oc.get("dynamic", {}).get("enabled", False)
+                if dynamic:
+                    # Even longitudinal spacing; small transverse random offsets.
+                    fraction = (index + 1) / (count + 1)
+                    direction = self.target_pose[0] - start_position
+                    axis = np.cross(direction, [0., 0., 1.])
+                    axis /= np.linalg.norm(axis)
+                    center = start_position + fraction * direction
+                    # Alternate sides of the reference corridor: boxes on its
+                    # centreline would overlap the initially extended arm.
+                    side = 1 if index % 2 == 0 else -1
+                    center += axis * (side * (oc['dynamic'].get('lateral_offset', .48)
+                                              + .05 * (attempt // 30))
+                                      + self.np_random.uniform(-0.04, 0.04))
+                    center[2] += self.np_random.uniform(-0.04, 0.04)
+                    phase = self.np_random.uniform(0, 2 * np.pi)
+                    anchor = center.copy()
+                    center += axis * oc['dynamic']['amplitude'] * np.sin(phase)
+                elif oc["stage"] == "C":
                     center += self.np_random.uniform(
                         -np.array(oc["randomization"]), oc["randomization"]
                     )
@@ -244,9 +268,21 @@ class WallPanelEnv(gym.Env):
                     not p.getClosestPoints(body, other, gap, physicsClientId=self.client)
                     for other in self.obstacle_ids[:-1]
                 )
+                if dynamic and separated:
+                    # Keep endpoint poses outside the entire obstacle sweep.
+                    envelope = self.box(dimensions + 2 * oc['dynamic']['amplitude'] * np.abs(axis), anchor, [0, 0, 0, 0])
+                    self.obstacle_ids.append(envelope)
+                    try:
+                        separated = (self.collision.is_configuration_valid(q)
+                                     and self.collision.is_configuration_valid(self.goal_q))
+                    finally:
+                        self.obstacle_ids.pop()
+                        p.removeBody(envelope, physicsClientId=self.client)
                 if (separated and self.collision.is_configuration_valid(q)
                         and self.collision.is_configuration_valid(self.goal_q)):
                     self.obstacles.append((center, dimensions.copy()))
+                    if dynamic:
+                        self.obstacle_motion.append(dict(anchor=anchor, axis=axis, phase=phase))
                     break
                 self.obstacle_ids.pop()
                 p.removeBody(body, physicsClientId=self.client)
@@ -262,6 +298,40 @@ class WallPanelEnv(gym.Env):
             self.target_pose, self.noise_rng, c["noise"]
         )
         return self.observation(), self.info()
+
+    def move_obstacles(self, simulation_time):
+        """Prescribed sinusoidal motion on the physics clock, not wall-clock time."""
+        if not self.obstacle_motion:
+            return
+        motion = self.config['obstacles']['dynamic']
+        amplitude = motion['amplitude']
+        omega = motion['max_speed'] / amplitude
+        for i, (body, spec) in enumerate(zip(self.obstacle_ids, self.obstacle_motion)):
+            center = spec['anchor'] + spec['axis'] * amplitude * np.sin(omega * simulation_time + spec['phase'])
+            p.resetBasePositionAndOrientation(body, center, [0, 0, 0, 1], physicsClientId=self.client)
+            self.obstacles[i] = (center, self.obstacles[i][1])
+
+    @contextmanager
+    def planning_obstacles(self):
+        """Conservative swept AABBs let a static RRT plan around moving boxes.
+
+        Used only for collision queries; actual physics bodies remain untouched.
+        """
+        if not self.obstacle_motion:
+            yield
+            return
+        originals, proxies = self.obstacle_ids, []
+        try:
+            amplitude = self.config['obstacles']['dynamic']['amplitude']
+            for (_, dimensions), spec in zip(self.obstacles, self.obstacle_motion):
+                proxies.append(self.box(dimensions + 2 * amplitude * np.abs(spec['axis']),
+                                        spec['anchor'], [0, 0, 0, 0]))
+            self.obstacle_ids = proxies
+            yield
+        finally:
+            self.obstacle_ids = originals
+            for body in proxies:
+                p.removeBody(body, physicsClientId=self.client)
 
     def observation(self):
         q, dq = self.joint_state()
@@ -312,6 +382,8 @@ class WallPanelEnv(gym.Env):
         self.controller.command(np.clip(desired, self.lower, self.upper))
         hit = False
         for _ in range(self.config["simulation"]["substeps"]):
+            self.sim_time += self.config['simulation']['timestep']
+            self.move_obstacles(self.sim_time)
             old_q, _ = self.joint_state()
             old_pos = np.array(self.panel_pose()[0])
             p.stepSimulation(physicsClientId=self.client)

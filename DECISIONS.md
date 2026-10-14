@@ -165,3 +165,18 @@ leave older configurations unchanged. A noisy child config applies existing 5 mm
 observation noise without changing geometry. Same-seed scene equality is tested and audited.
 20 paired seeds yielded clean 20/20 and noisy 12/20 successes, with no collisions or planning
 failures. 19 tests passed. Existing user edits to playback speed and demo.png are preserved.
+
+## Five moving obstacles and reactive RRT
+
+Implemented user-selected five unequal boxes in evenly spaced longitudinal bins
+along the initial-to-target reference corridor. Lateral alternation is necessary
+to avoid overlap with the extended robot; nominal offset is 0.60 m, with small
+random position jitter and random sinusoidal phase. Amplitude 0.10 m, peak speed
+0.05 m/s, updated on every physics tick. Initial endpoint checks cover swept boxes.
+A first snapshot-only planning prototype collided while holding as a box approached.
+The final planner therefore uses conservative full-motion envelopes and retains
+short-horizon execution checks with hold/replanning. This uses known prescribed
+motion and synchronous (paused during planning) simulation. It is not a real-time
+safety certificate. A regression exercises replanning via an obsolete unsafe route.
+Default demo selects the new config and a fresh random seed unless explicitly set.
+Old static configs and PPO models are retained; new observation dimension is 55.

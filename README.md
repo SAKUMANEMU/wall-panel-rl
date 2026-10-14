@@ -330,3 +330,41 @@ Edit `obstacles.dimensions_by_obstacle`, `randomization`, and `min_obstacle_gap`
 in `configs/far_three_obstacles.yaml` to adjust sizes, distribution, and spacing.
 Edit `noise` in `configs/far_three_obstacles_noise.yaml` to adjust noise strength.
 The previous 100-episode results used the earlier geometry and are historical.
+
+## Five moving obstacles (current default demo)
+
+Run `python scripts/demo.py --playback-speed 0.6 --hold-seconds 60` for a fresh
+random scene, or add `--seed 10002` for a reproducible replay. The default config
+is now `configs/far_five_dynamic.yaml`. For target-observation noise, use
+`--config configs/far_five_dynamic_noise.yaml`. Older explicit three-obstacle
+commands still select the historical static scene.
+
+Five unequal boxes occupy longitudinal fractions 1/6 through 5/6 of the straight
+reference segment from initial panel position to target. They alternate sides of
+this corridor (nominal lateral offset 0.60 m, random ±0.04 m; vertical jitter
+±0.04 m). Failed endpoint placements shift outward in 0.05 m increments. This
+leaves bypass space and avoids placing boxes inside the initially extended arm;
+it does not place every box on the centreline or guarantee every box forces a detour.
+Each box moves sinusoidally across the corridor about its own anchor with random
+initial phase, amplitude 0.10 m and peak speed 0.05 m/s (period about 12.57 s).
+Motion advances each physics substep. Pausing for planning freezes simulation time;
+this is synchronous simulation, not a real-time moving-world planning guarantee.
+
+RRT plans against conservative boxes covering the full obstacle motion envelope.
+During execution it checks three upcoming joint edges against current/predicted
+obstacle positions. On a risk it commands a hold, attempts replanning and rechecks
+before moving again. Failed replans retry after five control steps; waiting still
+advances obstacle motion and can end in collision or timeout. Physical collision
+monitoring remains active. Prediction and edge checking are discrete, not a formal
+continuous-time safety guarantee. GUI collision queries are hidden.
+
+The observation now has 55 values (five seven-value obstacle slots); obstacle
+centres update each step. Velocities/phases are not policy inputs, so the dynamic
+observation is partially observable. Existing 41-input PPO models cannot be used
+directly; the demo reports this mismatch. Dynamic PPO training is future work.
+
+`python scripts/verify_dynamic.py --run-id my_dynamic_run` records ten executions,
+resolved config, planning/hold counts, and representative obstacle trajectories.
+The dynamic regression also injects an obsolete unsafe route to verify that
+stopping/replanning leads to a new physically executable path. Original static
+configs and recorded experiments remain available for historical reproduction.

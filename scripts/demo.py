@@ -16,9 +16,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--method", choices=["rrt", "ppo"], default="rrt")
     parser.add_argument("--model")
-    parser.add_argument("--config", default="configs/eval_clean.yaml")
+    parser.add_argument("--config", default="configs/far_five_dynamic.yaml")
     seed_options = parser.add_mutually_exclusive_group()
-    seed_options.add_argument("--seed", type=int, default=10002)
+    seed_options.add_argument("--seed", type=int, help="Fixed seed for reproducible replay; otherwise choose a fresh seed")
     seed_options.add_argument("--random-seed", action="store_true",
                               help="Choose a fresh scenario seed and print it for replay")
     parser.add_argument("--headless", action="store_true")
@@ -31,7 +31,7 @@ def main():
     args = parser.parse_args()
     if args.method == "ppo" and not args.model:
         parser.error("--model is required for PPO")
-    if args.random_seed:
+    if args.random_seed or args.seed is None:
         args.seed = secrets.randbelow(2**31)
     print(f"Scenario seed: {args.seed}", flush=True)
     config = load_config(args.config)
@@ -43,6 +43,9 @@ def main():
     print(f"GUI playback speed: {playback_speed:g}x", flush=True)
     env = WallPanelEnv(config, "rgb_array" if args.headless else "human")
     model = PPO.load(args.model, device="cpu") if args.method == "ppo" else None
+    if model is not None and model.observation_space.shape != env.observation_space.shape:
+        env.close()
+        parser.error("Model observation size differs from this environment; five obstacles require a newly trained/adapted model.")
     previous = []
     last_frame_time = None
 

@@ -15,6 +15,7 @@ def rollout(env, method, seed, model=None, on_step=None, on_plan=None):
         ],
         "target_position": env.target_pose[0].tolist(),
         "target_orientation": env.target_pose[1].tolist(),
+        "obstacle_motion": [{k: v.tolist() if isinstance(v, np.ndarray) else v for k,v in spec.items()} for spec in env.obstacle_motion],
     }
     planner = ClassicalController(env, seed) if method == "rrt" else None
     if on_plan is not None and planner is not None:
@@ -22,6 +23,7 @@ def rollout(env, method, seed, model=None, on_step=None, on_plan=None):
     failed = planner is not None and not planner.planning_success
     positions = [list(env.panel_pose()[0])]
     joint_positions = [env.joint_state()[0].tolist()]
+    obstacle_positions = [[c.tolist() for c, _ in env.obstacles]]
     cumulative_reward, steps = 0.0, 0
     begin = time.perf_counter()
     if not failed:
@@ -35,6 +37,7 @@ def rollout(env, method, seed, model=None, on_step=None, on_plan=None):
             cumulative_reward += reward
             positions.append(list(env.panel_pose()[0]))
             joint_positions.append(env.joint_state()[0].tolist())
+            obstacle_positions.append([c.tolist() for c, _ in env.obstacles])
             if on_step:
                 on_step(env, steps, info)
             if done or truncated:
@@ -58,9 +61,14 @@ def rollout(env, method, seed, model=None, on_step=None, on_plan=None):
         * env.config["simulation"]["substeps"]
         * env.config["simulation"]["timestep"],
         "cumulative_reward": cumulative_reward,
+        "replans": planner.replans if planner else 0,
+        "replan_failures": planner.replan_failures if planner else 0,
+        "hold_steps": planner.hold_steps if planner else 0,
+        "physics_elapsed_s": env.sim_time,
     }
     return result, {
         "scenario": scenario,
         "panel_positions": positions,
         "joint_positions": joint_positions,
+        "obstacle_positions": obstacle_positions,
     }

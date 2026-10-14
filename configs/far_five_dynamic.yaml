@@ -1,0 +1,24 @@
+extends: far_start.yaml
+simulation:
+  max_steps: 240
+obstacles:
+  stage: C
+  min_count: 5
+  max_count: 5
+  dimensions_by_obstacle:
+    - [0.08, 0.08, 0.10]
+    - [0.10, 0.09, 0.13]
+    - [0.12, 0.10, 0.16]
+    - [0.09, 0.12, 0.14]
+    - [0.14, 0.12, 0.18]
+  min_obstacle_gap: 0.10
+  dynamic:
+    enabled: true
+    amplitude: 0.10
+    max_speed: 0.05
+    lateral_offset: 0.60
+rrt:
+  timeout: 15.0
+  max_iterations: 6000
+  dynamic_lookahead_steps: 3
+  dynamic_retry_steps: 5
