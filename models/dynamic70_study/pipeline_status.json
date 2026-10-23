@@ -1,0 +1,10 @@
+{
+  "phase": "evaluation_paused_by_user",
+  "updated_unix": 1792741001.4831798,
+  "reason": "User requested pause because dynamic PPO validation success remained zero.",
+  "training_complete": true,
+  "steps_per_condition": 1000000,
+  "completed_evaluation_episodes": 60,
+  "planned_evaluation_episodes": 600,
+  "partial_results": "results/raw/dynamic70_main/episodes.csv"
+}

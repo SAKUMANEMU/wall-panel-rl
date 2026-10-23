@@ -223,3 +223,73 @@ zero collisions; all 7 successful executions entered swept regions. 164 schedule
 wait steps total; seed 10002 waited 40 steps. Conservative comparison: 10/10
 success but zero region entries. 22 tests passed. No performance superiority or
 continuous safety guarantee is claimed.
+
+## Approved 70-input dynamic PPO retraining
+
+The dynamic study adds three instantaneous world-frame velocity values per obstacle,
+raising the policy input from 55 to 70. Legacy configs retain their original input
+sizes. This is continuous-action reinforcement learning: the agent receives joint
+state, target pose error and obstacle information, and selects seven normalized
+joint increments. It receives the existing progress/collision/limit/success reward.
+No RRT action labels, imitation loss or online planner are used by the PPO policy.
+Reference RRT paths are used for scene construction and curriculum reset poses.
+
+The user approved a 50,000-step pipeline pilot followed by two fresh 1,000,000-step
+runs (clean/noisy target observations) on this CPU, with no wall-time deadline.
+Each formal run uses 200k obstacle-free alignment steps, 200k static-obstacle steps
+and 600k fully dynamic steps. Alignment resets progress along collision-checked
+reference paths instead of linearly interpolating joints through invalid states.
+The static stage freezes the final scene layouts at their initial phases. Four
+workers collect 250 transitions each per rollout, making every phase budget exact.
+The per-model resolved config records these training overrides; the frozen scene
+config was captured before the rollout-length adjustment and is used for geometry.
+
+Training uses 128 frozen scenes; 10 separate validation scenes select checkpoints
+by success rate, then mean reward, only during the final dynamic stage. A further
+100 held-out scenes are shared by all six method/noise combinations. Seed ranges
+are disjoint, and the accepted scenes, generation failures and hashes are saved.
+These are tests of the accepted scene distribution; endpoint clearance and reference
+path construction do not prove that every moving-obstacle problem is solvable.
+Formal models use one training seed each (42); this is not a multiple-seed study.
+
+The 5 mm/0.5 degree noise affects target observations, not ground-truth rewards or
+metrics. Obstacle positions and velocities remain exact; full phases/frequencies
+are not observed by PPO. RRT retains prescribed future motion and paused planning
+time, so the comparison does not give the two methods equal predictive information.
+Reward, success tolerances, final scene difficulty and authorized budgets are fixed.
+Old models and results are preserved. Training completion is distinct from learning
+a successful policy; failed episodes and zero success rates must remain reported.
+
+## Dynamic PPO failure diagnosis after user-requested evaluation pause
+
+Diagnosed only the 10 validation scenes, preserving the paused 60-row formal test.
+Selected clean/noise policies had 2/1 collisions and 8/9 timeouts, no successes
+or joint-limit events. All timeouts exceeded both pose tolerances. Frozen motion
+and a 720-step diagnostic horizon did not restore success. Original 200k alignment
+policies succeeded 10/10 each without obstacles at these same far starts; selected
+later policies succeeded 0/10 each in that setting, evidence of alignment forgetting.
+These ablations do not change the formal task or success criteria.
+
+Final saved weights differ from the last callback's pre-update weights: final Noise
+succeeded on seed 40003 (independently reproduced), giving 1/10, while final Clean
+collided on all 10. Future validation should explicitly score post-update/final
+weights. This diagnosis preserves existing checkpoint selection and makes no new
+training run or automated policy replacement. Raw outcomes, trajectories, figures
+and scope limitations are in results/diagnostics/dynamic70_failure/.
+
+## Code-only mixed-curriculum preparation
+
+At the user's request, implemented but did not run a new training experiment.
+The new script checks configuration by default and requires --train to learn.
+It resumes each condition's alignment checkpoint, retaining optimizer state,
+and prepares 50k additional steps with a 30/30/40 episode mixture of near-goal
+alignment, far-start static and far-start full-speed dynamic tasks. Rewards,
+actions and success criteria are unchanged. Source and output directories differ.
+
+SB3 calls rollout_end before its optimizer update. Both the legacy callback and
+new pipeline now use the next rollout_start for periodic post-update validation
+and training_end for the final update. The new callback additionally reloads the
+final saved model before scoring it. Regression tests simulate callback ordering
+without PPO.learn or optimizer updates. Validation logs dynamic/static outcomes,
+conditional timeout errors, and both near/far obstacle-free alignment success.
+No formal evaluation or automatic long run is triggered by the new entry point.

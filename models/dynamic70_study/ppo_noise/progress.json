@@ -1,0 +1,8 @@
+{
+  "phase": "dynamic",
+  "steps": 1000000,
+  "target_steps": 1000000,
+  "phase_elapsed_seconds": 1468.6201922893524,
+  "phase_fps": 408.54674554398747,
+  "updated_unix": 1792740333.167126
+}

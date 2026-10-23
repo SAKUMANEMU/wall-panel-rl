@@ -1,5 +1,10 @@
 # Report draft: collision-aware robotic panel installation
 
+> Historical experiment: Sections 1–13 describe the original 41-input, static
+> three-obstacle study. Its numerical results do not describe the five-moving-
+> obstacle PPO retraining. The latter uses 70 inputs and is recorded separately
+> in `models/dynamic70_study/` and `results/raw/dynamic70_main/`.
+
 ## 1. Introduction
 
 Robotic installation must align a carried panel while avoiding collisions of both

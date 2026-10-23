@@ -118,10 +118,12 @@ class WallPanelEnv(gym.Env):
         self.controller = JointPositionController(self)
         self.max_increment = np.deg2rad(c["controller"]["max_joint_increment_deg"])
         self.action_space = spaces.Box(-1, 1, (self.n,), dtype=np.float32)
+        self.observe_velocity = c.get('observation', {}).get('obstacle_velocity', False)
+        self.obstacle_slot_size = 10 if self.observe_velocity else 7
         self.observation_space = spaces.Box(
             -np.inf,
             np.inf,
-            (2 * self.n + 6 + 7 * c["obstacles"]["max_count"],),
+            (2 * self.n + 6 + self.obstacle_slot_size * c["obstacles"]["max_count"],),
             dtype=np.float32,
         )
         demo = c.get("demo", {})
@@ -204,6 +206,25 @@ class WallPanelEnv(gym.Env):
         self.obstacle_motion = []
         self.sim_time = 0.0
         c = self.config
+        scenario = (options or {}).get('scenario')
+        if scenario is not None:
+            if not np.allclose(scenario['target_position'],self.target_pose[0]):
+                raise ValueError('Replay target differs from environment target')
+            q = np.array(scenario['initial_q'])
+            self.set_configuration(q)
+            self.reference_path = [np.array(v) for v in scenario.get('reference_joint_path',[])]
+            self.reference_positions = [np.array(v) for v in scenario.get('reference_panel_positions',[])]
+            self.obstacle_motion = [{k: np.array(v) if isinstance(v,list) else v for k,v in spec.items()}
+                                    for spec in scenario.get('obstacle_motion',[])]
+            for obstacle in scenario['obstacles']:
+                center, dimensions = np.array(obstacle['center']), np.array(obstacle['dimensions'])
+                self.obstacle_ids.append(self.box(dimensions,center,[.75,.16,.2,1]))
+                self.obstacles.append((center,dimensions))
+            if len(self.obstacles) > c['obstacles']['max_count']:
+                raise ValueError('Too many replay obstacles for observation space')
+            if not self.collision.is_configuration_valid(q):
+                raise ValueError('Replay initial pose is invalid')
+            return self.finish_reset(q)
         probability = c["robot"].get("near_start_probability", 0.0)
         near_start = probability > 0 and self.np_random.random() < probability
         start_offset = np.zeros(self.n) if near_start else np.array(c["robot"]["start_offset"])
@@ -334,6 +355,11 @@ class WallPanelEnv(gym.Env):
                 raise RuntimeError(
                     "Could not place obstacle without start/goal overlap"
                 )
+        return self.finish_reset(q)
+
+    def finish_reset(self, q):
+        """Shared initialization for sampled scenes and frozen-scene replay."""
+        c = self.config
         self.controller.command(q)
         self.steps = 0
         self.previous_error = pose_error(self.target_pose, self.panel_pose())
@@ -347,6 +373,8 @@ class WallPanelEnv(gym.Env):
         """Prescribed sinusoidal motion on the physics clock, not wall-clock time."""
         if not self.obstacle_motion:
             return
+        if self.config['obstacles'].get('freeze_motion', False):
+            return
         motion = self.config['obstacles']['dynamic']
         amplitude = motion['amplitude']
         omega = motion['max_speed'] / amplitude
@@ -357,6 +385,17 @@ class WallPanelEnv(gym.Env):
                 center = spec['anchor'] + spec['axis'] * amplitude * np.sin(omega * simulation_time + spec['phase'])
             p.resetBasePositionAndOrientation(body, center, [0, 0, 0, 1], physicsClientId=self.client)
             self.obstacles[i] = (center, self.obstacles[i][1])
+
+    def obstacle_velocity(self, index):
+        """Exact world-frame velocity, exposed only in the new training configs."""
+        if index >= len(self.obstacle_motion) or self.config['obstacles'].get('freeze_motion',False):
+            return np.zeros(3)
+        spec = self.obstacle_motion[index]
+        if 'omega' in spec:
+            return spec['extent'] * spec['omega'] * np.cos(spec['omega']*self.sim_time+spec['phase'])
+        motion = self.config['obstacles']['dynamic']
+        omega = motion['max_speed']/motion['amplitude']
+        return spec['axis']*motion['max_speed']*np.cos(omega*self.sim_time+spec['phase'])
 
     @contextmanager
     def planning_obstacles(self):
@@ -389,10 +428,11 @@ class WallPanelEnv(gym.Env):
             np.asarray(self.observed_target[0]) - pose[0],
             rotation_error(self.observed_target[1], pose[1]) / np.pi,
         ]
-        for center, dimensions in self.obstacles:
-            values.append(np.r_[center - np.asarray(pose[0]), dimensions, 1.0])
+        for index, (center, dimensions) in enumerate(self.obstacles):
+            velocity = self.obstacle_velocity(index) if self.observe_velocity else np.array([])
+            values.append(np.r_[center - np.asarray(pose[0]), dimensions, velocity, 1.0])
         values.append(
-            np.zeros(7 * (self.config["obstacles"]["max_count"] - len(self.obstacles)))
+            np.zeros(self.obstacle_slot_size * (self.config["obstacles"]["max_count"] - len(self.obstacles)))
         )
         return np.concatenate(values).astype(np.float32)
 

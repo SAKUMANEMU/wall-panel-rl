@@ -7,3 +7,5 @@ logs/
 models/*/checkpoints/
 models/*/tensorboard/
 .conda-env/
+models/**/checkpoints/
+models/**/tensorboard/

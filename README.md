@@ -41,12 +41,16 @@ SB3's API checker, IK, RRT and physical installation. No full training occurs.
 
 ## Methods and configuration
 
-PPO: a 41-element observation contains normalized q (7), dq (7), relative target
+The original static PPO uses a 41-element observation with normalized q (7), dq (7), relative target
 position (3), relative rotation vector (3), and three obstacle slots (7 each:
 relative center, dimensions, presence). Missing slots are zero. A two-layer
 128-unit ReLU MLP outputs seven normalized increments. Each action produces
 `q_des = clip(q + action * radians(4), joint_limits)`. Attempted limit violations
 are penalized and terminate; clipping does not silently hide them.
+
+The current dynamic retraining uses 70 observations with five obstacle velocity
+slots; see [Dynamic PPO retraining](#dynamic-ppo-retraining-with-70-observations).
+Models must be paired with a configuration having the same observation shape.
 
 Both methods execute using the same Bullet joint position controller, 240 Hz
 physics and 12 physics steps per high-level decision. The panel is attached by a
@@ -385,13 +389,148 @@ The model assumes known prescribed obstacle motion and pauses simulation time
 while computing. Discrete collision samples and kinematic prediction do not
 constitute a continuous or real-time physical safety guarantee. GUI queries are hidden.
 
-The observation now has 55 values (five seven-value obstacle slots); obstacle
-centres update each step. Velocities/phases are not policy inputs, so the dynamic
-observation is partially observable. Existing 41-input PPO models cannot be used
-directly; the demo reports this mismatch. Dynamic PPO training is future work.
+The original dynamic configuration has 55 values (five seven-value obstacle slots);
+obstacle centres update each step. Velocities/phases are not inputs in that config.
+Existing 41-input PPO models cannot be used directly; the demo reports this mismatch.
+The retraining configuration below adds velocities and uses 70 inputs.
 
 `python scripts/verify_dynamic.py --run-id my_dynamic_run` records ten executions,
 resolved config, planning/hold counts, and representative obstacle trajectories.
 The dynamic regression also injects an obsolete unsafe route to verify that
 stopping/replanning leads to a new physically executable path. Original static
 configs and recorded experiments remain available for historical reproduction.
+
+## Dynamic PPO retraining with 70 observations
+
+Current run status: the pilot and both 1,000,000-step training runs completed.
+Both models recorded 0/10 successes at every dynamic validation checkpoint.
+Formal evaluation was paused at the user's request after 60 RRT clean episodes;
+the six-cell comparison is incomplete. See `results/raw/dynamic70_main/README.md`.
+
+Follow-up failure diagnosis is in `results/diagnostics/dynamic70_failure/README.md`.
+The selected policies had mostly timeouts with residual pose errors. Re-evaluating
+the saved final Noise weights yielded 1/10 validation successes: callback validation
+occurs before the last PPO update, whereas final weights are saved after it.
+The selected policies remain unchanged and formal evaluation remains paused.
+
+### Mixed-curriculum short-run code (not yet trained)
+
+The new entry point `scripts/train_mixed_pilot.py` defaults to **configuration
+checks only**. It loads the source model to check compatibility but performs no
+rollouts, optimizer updates, output-directory creation or formal test evaluation.
+`configs/ppo_mixed_pilot.yaml` controls the source checkpoints, additional budget,
+episode mixture, validation interval and output location.
+
+```bash
+# Checks only: safe to run without starting training.
+python scripts/train_mixed_pilot.py --condition clean
+python scripts/train_mixed_pilot.py --condition noise
+```
+
+The prepared defaults resume each condition's 200,000-step
+`alignment_final_model.zip`, including its optimizer state, with 50,000 **additional**
+steps. Four workers collect 250 steps each, so the budget is exact. Learning rate,
+reward, action scale, strict success tolerances and dynamic obstacle speed/range
+are unchanged. Each episode independently selects 30% near-goal alignment without
+obstacles, 30% far-start static obstacles or 40% far-start dynamic obstacles.
+These are episode probabilities; unequal episode lengths mean the proportions of
+transitions can differ. Near starts use the last 2–15% of collision-checked reference
+joint paths; all modes preserve the 70-value observation and seven-value action.
+
+Validation happens before training (source baseline), every 10,000 additional steps
+**after parameter updates**, and on the final model reloaded from disk. Four fixed
+validation suites measure full dynamic difficulty, static obstacles, far-start
+obstacle-free alignment and near-goal obstacle-free alignment. No test scenes are
+used. Each suite records success, collision, joint-limit and timeout rates, plus
+mean position/orientation errors **among timeouts only** (`null` when none occur).
+Far-start alignment success detects loss of the source policy's alignment ability.
+
+Only when a new training run is intended, explicitly add `--train`:
+
+```bash
+# These commands WILL train. They have not been run as part of code preparation.
+python scripts/train_mixed_pilot.py --condition clean --train
+python scripts/train_mixed_pilot.py --condition noise --train
+```
+
+Each command runs only one short experiment, with no automatic long training or
+formal evaluation afterward. Future outputs go to
+`models/dynamic70_mixed_pilot/ppo_clean/` or `ppo_noise/`; existing directories are
+never overwritten. `validation.jsonl` contains suite summaries,
+`validation_episodes.jsonl` contains individual outcomes, and worker monitor CSVs
+include `curriculum_task`. `plan.json` records source/data hashes and inherited PPO
+parameters; `training.json` distinguishes source, additional and total steps.
+Checkpoint selection retains dynamic success rate then mean reward; alignment
+retention is reported separately, not enforced by a hidden stopping rule.
+
+The legacy `train_dynamic_study.py` callback also now validates after updates and
+explicitly handles the final update. Previously recorded models and metrics are
+unchanged; use the historical run manifest when interpreting those results.
+
+`configs/ppo_dynamic_clean.yaml` and `configs/ppo_dynamic_noise.yaml` add exact
+world-frame obstacle velocities. Each of five slots has relative position (3),
+size (3), velocity (3), presence (1); total observation size is 70. Other configs
+retain their original 41/55 dimensions. This remains partially observable because
+PPO does not receive complete motion phases/frequencies or a noise-free target.
+The RRT baseline retains access to prescribed future obstacle motion.
+
+The approved study is implemented in `scripts/train_dynamic_study.py` and
+`scripts/run_dynamic_study.py`. It uses 128 frozen training scenes, 10 validation
+scenes and 100 test scenes in disjoint seed ranges starting at 30000/40000/50000.
+Scene generation failures are recorded; accepted scenes are replayed identically
+across methods/conditions. Test scenarios are not used for checkpoint selection.
+
+The pilot is exactly 50,000 steps (40k alignment, 5k static, 5k dynamic), followed
+by fresh, independent clean/noisy PPO runs of exactly 1,000,000 steps each (200k
+alignment, 200k static, 600k dynamic). Alignment starts move progressively along
+collision-checked reference paths; static scenes freeze the same obstacle layouts;
+final evaluation uses full dynamic difficulty. Reward and terminal tolerances are
+unchanged. Four CPU workers each collect 250 steps per rollout; minibatches have
+100 samples. This avoids exceeding authorized budgets through rollout rounding.
+One training seed (42) is used per condition. Final-phase checkpoints are selected
+by validation success rate, breaking ties by mean reward. Old models are retained.
+
+Run state is saved to `models/dynamic70_study/pipeline_status.json`; each model has
+`progress.json`, monitor CSVs, TensorBoard logs, resolved config and training counts.
+The six-cell test results are written to `results/raw/dynamic70_main/` after training.
+Do not infer completion or convergence from the existence of an output directory.
+
+To reproduce the study in a fresh checkout without an existing
+`models/dynamic70_study` output folder:
+
+```bash
+conda activate wall-panel-rl
+python scripts/train_dynamic_study.py prepare
+python scripts/run_dynamic_study.py
+python scripts/report_dynamic_study.py
+```
+
+The runner completes the pilot, trains the two models concurrently, then evaluates
+RRT, PPO-Clean and PPO-Noise on both observation conditions (600 episodes). It will
+not overwrite an existing study. Training uses no GUI. Inspect progress with:
+
+```bash
+cat models/dynamic70_study/pipeline_status.json
+cat models/dynamic70_study/ppo_clean/progress.json
+cat models/dynamic70_study/ppo_noise/progress.json
+```
+
+After training, display a policy with the matching 70-input configuration:
+
+```bash
+python scripts/demo.py --method ppo \
+  --config configs/ppo_dynamic_clean.yaml \
+  --model models/dynamic70_study/ppo_clean/best_model.zip \
+  --seed 50000 --playback-speed 0.6 \
+  --snapshot results/figures/dynamic70_ppo_clean.png
+python scripts/demo.py --method ppo \
+  --config configs/ppo_dynamic_noise.yaml \
+  --model models/dynamic70_study/ppo_noise/best_model.zip \
+  --seed 50000 --playback-speed 0.6 \
+  --snapshot results/figures/dynamic70_ppo_noise.png
+```
+
+Omit `--seed` for a new randomly generated scene. A demo regenerates the reference
+path with a finite wall-time planning budget; the benchmark instead replays frozen
+scene files to guarantee identical geometry across methods. A completed model may
+still fail the task: inspect the held-out results before making performance claims.

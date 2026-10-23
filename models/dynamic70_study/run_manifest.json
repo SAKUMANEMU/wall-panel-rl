@@ -1,0 +1,34 @@
+{
+  "python": "3.11.5 (main, Sep 11 2023, 13:54:46) [GCC 11.2.0]",
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "torch": "2.5.1+cpu",
+    "gymnasium": "1.2.3",
+    "stable-baselines3": "2.8.0",
+    "pybullet": "3.2.7",
+    "numpy": "1.24.3"
+  },
+  "source_sha256": {
+    "src/wall_panel_rl/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/wall_panel_rl/utils/config.py": "c28dc730f4ec5602670d772ba93afecf324f3c7058b83362f4a51323c1c80a0d",
+    "src/wall_panel_rl/utils/metrics.py": "c0f505743138300ee8696c903337ae0edd2fd1dd19b7c4df5a69647aefea4404",
+    "src/wall_panel_rl/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/wall_panel_rl/envs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/wall_panel_rl/envs/wall_panel_env.py": "f0e49e01e12b8a4ade988b5e03d9319a6c2f8b9cf870a0eb8c08a6a86083ff64",
+    "src/wall_panel_rl/envs/geometry.py": "fbf5313446862c73fd9dddda91b63ba6285031bf1c0fdcd5e8897e9d501ffc32",
+    "src/wall_panel_rl/envs/collision.py": "cf4be98e590bc5b04d67cb5003d89ad51238886e78e42b0e13f2f11735c33c60",
+    "src/wall_panel_rl/envs/noise.py": "5fcf69caac3388fa295a04d7625938307727434975ee9b15bd799de3c81c0dbf",
+    "src/wall_panel_rl/control/joint_controller.py": "4414d0d852c11f249b9964ed2f20aa63ccf938580bade0157e4daaa203b5982e",
+    "src/wall_panel_rl/control/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/wall_panel_rl/planning/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/wall_panel_rl/planning/timed_rrt.py": "de871be603d44801207cb7cf71d5d7abffe1b8e4c4bf89078e074b9b5770598c",
+    "src/wall_panel_rl/planning/rrt_connect.py": "6e189c571dad08a07fd88bef41aba3bbeaca45d60a970cb188c84d2dee473f3e",
+    "src/wall_panel_rl/planning/ik.py": "ef9e8bf03f7ec8e8ab666127b7e21fe13e9deb9502d0c14f685cf86b654c6bab",
+    "src/wall_panel_rl/rl/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/wall_panel_rl/rl/callbacks.py": "e1b26b27390320c8b9d105200831710e6a9c9f8bac80bc0972c8eae2e6007cb9",
+    "src/wall_panel_rl/baselines/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/wall_panel_rl/baselines/classical.py": "0dcb0074e67a4c0b0b025c14c5006454baa7c0872cf1ac64f88ed919dd4268a6",
+    "scripts/train_dynamic_study.py": "8a5cc95934e2e1b72ab374888f3b739307fc1774377bce64bc7d4bfbfb12523d",
+    "scripts/run_dynamic_study.py": "72a76db72a6f2013ca5daa242fe18dc18669d6cf0e736ec48808296a32042993"
+  }
+}
