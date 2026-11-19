@@ -1,0 +1,920 @@
+{
+  "model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/close_weaving_v30_seed20261118/training/models/bc_500.zip",
+  "mode": "enhanced",
+  "complete": true,
+  "metrics": {
+    "all": {
+      "episodes": 8,
+      "success": 1,
+      "collision": 2,
+      "timeout": 5,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.125,
+      "mean_passage_count": 0.5,
+      "success_with_weaving": 0,
+      "mean_task_error": 0.7681284206928527
+    },
+    "by_count": {
+      "2": {
+        "episodes": 2,
+        "success": 0,
+        "collision": 2,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.6048885208917383
+      },
+      "3": {
+        "episodes": 2,
+        "success": 1,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.5,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.2592925360358496
+      },
+      "4": {
+        "episodes": 2,
+        "success": 0,
+        "collision": 0,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.9663167994168982
+      },
+      "5": {
+        "episodes": 2,
+        "success": 0,
+        "collision": 0,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 2.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.2420158264269248
+      }
+    }
+  },
+  "rows": [
+    {
+      "seed": 4220000,
+      "controller": "enhanced",
+      "reason": "collision",
+      "steps": 240,
+      "position_m": 0.35718025312549934,
+      "orientation_deg": 131.10495433686611,
+      "reward": 61.899798049657555,
+      "zero_command_steps": 14,
+      "stationary_steps": 14,
+      "wall_seconds": 121.06474067100044,
+      "physics_elapsed_s": 11.958333333332975,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 1,
+      "recovery_actions": 85,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "collision",
+          "baseline_short_cost": 2.064333611241098,
+          "accepted": true,
+          "mode": "persistent",
+          "parameter": [
+            [
+              3
+            ],
+            [
+              -0.28
+            ]
+          ],
+          "predicted_end_cost": 0.4388793905990499,
+          "predicted_gain": 1.6254542206420481,
+          "plan_steps": 60
+        }
+      ],
+      "no_safe_action_calls": 12,
+      "prediction_steps": 25558,
+      "vertical_plan_events": [
+        {
+          "slot": 1,
+          "lateral_m": 0.0,
+          "gain": 1.0,
+          "predicted_end_cost": 0.4010142111109219,
+          "predicted_forward_m": 0.4265474400356875,
+          "step": 90,
+          "plan_steps": 32
+        },
+        {
+          "slot": 1,
+          "lateral_m": 0.0,
+          "gain": 0.7,
+          "predicted_end_cost": 0.3684702713161527,
+          "predicted_forward_m": 0.3911808164181889,
+          "step": 112,
+          "plan_steps": 20
+        },
+        {
+          "slot": 1,
+          "lateral_m": 0.0,
+          "gain": 1.0,
+          "predicted_end_cost": 0.3276709792201353,
+          "predicted_forward_m": 0.14194505346660125,
+          "step": 122,
+          "plan_steps": 5
+        }
+      ],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "execution_variant": "vertical_controller",
+      "obstacle_count": 2
+    },
+    {
+      "seed": 4220100,
+      "controller": "enhanced",
+      "reason": "collision",
+      "steps": 236,
+      "position_m": 0.4980433527563972,
+      "orientation_deg": 38.18184140498974,
+      "reward": 71.0488795971875,
+      "zero_command_steps": 0,
+      "stationary_steps": 0,
+      "wall_seconds": 295.63433282200003,
+      "physics_elapsed_s": 11.762499999999653,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 4,
+      "recovery_actions": 154,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "collision",
+          "baseline_short_cost": 2.0721712177807823,
+          "accepted": true,
+          "mode": "bias",
+          "parameter": [
+            0,
+            0.4
+          ],
+          "predicted_end_cost": 0.92888683077202,
+          "predicted_gain": 1.1432843870087623,
+          "plan_steps": 60
+        },
+        {
+          "step": 120,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.0012206399236079,
+          "accepted": true,
+          "mode": "persistent",
+          "parameter": [
+            [
+              2
+            ],
+            [
+              -0.28
+            ]
+          ],
+          "predicted_end_cost": 0.9276062520373839,
+          "predicted_gain": 0.07361438788622399,
+          "plan_steps": 60
+        },
+        {
+          "step": 169,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6802245237411207,
+          "accepted": false
+        },
+        {
+          "step": 183,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6323607326683942,
+          "accepted": true,
+          "mode": "waypoint",
+          "parameter": 0.4,
+          "predicted_end_cost": 0.5137306984914942,
+          "predicted_gain": 0.11863003417689999,
+          "plan_steps": 57
+        },
+        {
+          "step": 228,
+          "baseline_forecast": "collision",
+          "baseline_short_cost": 0.5780112143953614,
+          "accepted": false,
+          "mode": "lookahead",
+          "parameter": [
+            0,
+            0.4
+          ],
+          "predicted_end_cost": 0.41441807237518147,
+          "predicted_gain": 0.16359314202017994,
+          "plan_steps": 12
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 63003,
+      "vertical_plan_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "execution_variant": "vertical_controller",
+      "obstacle_count": 2
+    },
+    {
+      "seed": 4230000,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.36020813681789127,
+      "orientation_deg": 75.32593661073086,
+      "reward": 139.12117057174063,
+      "zero_command_steps": 110,
+      "stationary_steps": 110,
+      "wall_seconds": 319.40233588499996,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 3,
+      "recovery_actions": 62,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.6487761965750234,
+          "accepted": true,
+          "mode": "paired",
+          "parameter": [
+            [
+              1,
+              3
+            ],
+            [
+              0.4,
+              0.4
+            ]
+          ],
+          "predicted_end_cost": 0.5306853670065548,
+          "predicted_gain": 1.1180908295684686,
+          "plan_steps": 60
+        },
+        {
+          "step": 118,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.4109874517940054,
+          "accepted": false
+        },
+        {
+          "step": 130,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.41097973179667235,
+          "accepted": false
+        },
+        {
+          "step": 142,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.41097202319206627,
+          "accepted": false
+        },
+        {
+          "step": 154,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.4109643259787784,
+          "accepted": false
+        },
+        {
+          "step": 166,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.41095664015539946,
+          "accepted": false
+        },
+        {
+          "step": 178,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.5101065602662905,
+          "accepted": false
+        },
+        {
+          "step": 190,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.5411561628914756,
+          "accepted": false
+        },
+        {
+          "step": 202,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.5411561628914756,
+          "accepted": false
+        },
+        {
+          "step": 214,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.5411561628914756,
+          "accepted": false
+        },
+        {
+          "step": 226,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.5411561628914756,
+          "accepted": true,
+          "mode": "persistent",
+          "parameter": [
+            [
+              3
+            ],
+            [
+              -0.28
+            ]
+          ],
+          "predicted_end_cost": 0.2611940892436298,
+          "predicted_gain": 0.2799620736478458,
+          "plan_steps": 14
+        },
+        {
+          "step": 238,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.5179704095385863,
+          "accepted": false,
+          "mode": "persistent",
+          "parameter": [
+            [
+              1,
+              3
+            ],
+            [
+              0.28,
+              -0.28
+            ]
+          ],
+          "predicted_end_cost": 0.3646759429684475,
+          "predicted_gain": 0.1532944665701388,
+          "plan_steps": 2
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 64231,
+      "vertical_plan_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "execution_variant": "vertical_controller",
+      "obstacle_count": 3
+    },
+    {
+      "seed": 4230100,
+      "controller": "enhanced",
+      "reason": "success",
+      "steps": 83,
+      "position_m": 0.0005384389833640751,
+      "orientation_deg": 0.03639406416761605,
+      "reward": 301.3782057453965,
+      "zero_command_steps": 6,
+      "stationary_steps": 6,
+      "wall_seconds": 65.64561088099981,
+      "physics_elapsed_s": 4.150000000000085,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 1,
+      "recovery_actions": 23,
+      "recovery_events": [
+        {
+          "step": 60,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.3910368775305546,
+          "accepted": true,
+          "mode": "goal",
+          "parameter": 1.0,
+          "predicted_end_cost": 0.0006146625331129138,
+          "predicted_gain": 1.3904222149974417,
+          "plan_steps": 23
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 12496,
+      "vertical_plan_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "execution_variant": "vertical_controller",
+      "obstacle_count": 3
+    },
+    {
+      "seed": 4240000,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 1.3787138209365184,
+      "orientation_deg": 96.97525844183654,
+      "reward": 35.43423518132308,
+      "zero_command_steps": 51,
+      "stationary_steps": 51,
+      "wall_seconds": 363.1562272399997,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 3,
+      "recovery_actions": 119,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.9396872636372378,
+          "accepted": true,
+          "mode": "paired",
+          "parameter": [
+            [
+              1,
+              3
+            ],
+            [
+              0.4,
+              0.4
+            ]
+          ],
+          "predicted_end_cost": 1.5797380903658933,
+          "predicted_gain": 0.35994917327134446,
+          "plan_steps": 60
+        },
+        {
+          "step": 100,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.6261630313442055,
+          "accepted": false
+        },
+        {
+          "step": 112,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.6261625878715418,
+          "accepted": false
+        },
+        {
+          "step": 124,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.626162144415305,
+          "accepted": true,
+          "mode": "lookahead",
+          "parameter": [
+            6,
+            0.4
+          ],
+          "predicted_end_cost": 1.7217944677713404,
+          "predicted_gain": -0.09563232335603544,
+          "plan_steps": 60
+        },
+        {
+          "step": 183,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5818183272704152,
+          "accepted": false
+        },
+        {
+          "step": 195,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5818183272704152,
+          "accepted": false
+        },
+        {
+          "step": 207,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5818183272704152,
+          "accepted": false
+        },
+        {
+          "step": 219,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5818183272704152,
+          "accepted": false
+        },
+        {
+          "step": 231,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5818183272704152,
+          "accepted": false,
+          "mode": "persistent",
+          "parameter": [
+            [
+              1,
+              3
+            ],
+            [
+              -0.28,
+              0.28
+            ]
+          ],
+          "predicted_end_cost": 1.544170713526489,
+          "predicted_gain": 0.03764761374392611,
+          "plan_steps": 9
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 71361,
+      "vertical_plan_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "execution_variant": "vertical_controller",
+      "obstacle_count": 4
+    },
+    {
+      "seed": 4240100,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.24994590989873142,
+      "orientation_deg": 48.161572546359466,
+      "reward": 146.25840440153007,
+      "zero_command_steps": 95,
+      "stationary_steps": 95,
+      "wall_seconds": 309.79986004000057,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 3,
+      "recovery_actions": 61,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.9090120635051477,
+          "accepted": true,
+          "mode": "paired",
+          "parameter": [
+            [
+              1,
+              3
+            ],
+            [
+              0.4,
+              0.4
+            ]
+          ],
+          "predicted_end_cost": 1.2823255425604998,
+          "predicted_gain": 0.6266865209446479,
+          "plan_steps": 60
+        },
+        {
+          "step": 100,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.2700741919951834,
+          "accepted": false
+        },
+        {
+          "step": 143,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.27256562606290313,
+          "accepted": false
+        },
+        {
+          "step": 155,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.27255002949519824,
+          "accepted": false
+        },
+        {
+          "step": 167,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.2725344387253184,
+          "accepted": false
+        },
+        {
+          "step": 179,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.35357699776373835,
+          "accepted": false
+        },
+        {
+          "step": 191,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.3684556406523555,
+          "accepted": false
+        },
+        {
+          "step": 203,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.3684556406523555,
+          "accepted": false
+        },
+        {
+          "step": 215,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.3684556406523555,
+          "accepted": false
+        },
+        {
+          "step": 227,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.3684556406523555,
+          "accepted": true,
+          "mode": "persistent",
+          "parameter": [
+            [
+              0,
+              2
+            ],
+            [
+              -0.28,
+              0.28
+            ]
+          ],
+          "predicted_end_cost": 0.1826958628821948,
+          "predicted_gain": 0.18575977777016067,
+          "plan_steps": 13
+        },
+        {
+          "step": 239,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.35081527156338127,
+          "accepted": false,
+          "mode": "persistent",
+          "parameter": [
+            [
+              1,
+              5
+            ],
+            [
+              0.28,
+              0.28
+            ]
+          ],
+          "predicted_end_cost": 0.3013813209832769,
+          "predicted_gain": 0.04943395058010436,
+          "plan_steps": 1
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 59298,
+      "vertical_plan_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "execution_variant": "vertical_controller",
+      "obstacle_count": 4
+    },
+    {
+      "seed": 4250010,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.6238936894579143,
+      "orientation_deg": 179.98884121120034,
+      "reward": 81.59331106805911,
+      "zero_command_steps": 0,
+      "stationary_steps": 0,
+      "wall_seconds": 231.95563895299983,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 4,
+      "recovery_actions": 172,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.2480103335223207,
+          "accepted": true,
+          "mode": "bias",
+          "parameter": [
+            5,
+            0.4
+          ],
+          "predicted_end_cost": 2.0965830125620806,
+          "predicted_gain": 0.15142732096024014,
+          "plan_steps": 60
+        },
+        {
+          "step": 100,
+          "baseline_forecast": "collision",
+          "baseline_short_cost": 2.0489583795591413,
+          "accepted": true,
+          "mode": "paired",
+          "parameter": [
+            [
+              1,
+              5
+            ],
+            [
+              -0.4,
+              0.4
+            ]
+          ],
+          "predicted_end_cost": 1.4031710260691954,
+          "predicted_gain": 0.6457873534899459,
+          "plan_steps": 60
+        },
+        {
+          "step": 160,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.2072558388983046,
+          "accepted": false
+        },
+        {
+          "step": 172,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.1422433189711523,
+          "accepted": false
+        },
+        {
+          "step": 196,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.9988121607351061,
+          "accepted": true,
+          "mode": "bias",
+          "parameter": [
+            5,
+            0.4
+          ],
+          "predicted_end_cost": 1.0008614369760789,
+          "predicted_gain": -0.0020492762409727305,
+          "plan_steps": 44
+        },
+        {
+          "step": 228,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.0008614369760789,
+          "accepted": false,
+          "mode": "persistent",
+          "parameter": [
+            [
+              1,
+              3
+            ],
+            [
+              0.28,
+              -0.28
+            ]
+          ],
+          "predicted_end_cost": 0.6959103673601206,
+          "predicted_gain": 0.3049510696159583,
+          "plan_steps": 12
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 40678,
+      "vertical_plan_events": [
+        {
+          "slot": 3,
+          "lateral_m": -0.05,
+          "gain": 1.0,
+          "predicted_end_cost": 1.330473364833864,
+          "predicted_forward_m": 0.13290475793976309,
+          "step": 176,
+          "plan_steps": 20
+        }
+      ],
+      "passage_count": 2,
+      "success_with_weaving": false,
+      "execution_variant": "vertical_controller",
+      "obstacle_count": 5
+    },
+    {
+      "seed": 4250108,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 1.1149798858016147,
+      "orientation_deg": 175.79793309077027,
+      "reward": 35.56020949078822,
+      "zero_command_steps": 42,
+      "stationary_steps": 42,
+      "wall_seconds": 254.83342321799955,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 2,
+      "recovery_actions": 105,
+      "recovery_events": [
+        {
+          "step": 54,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.1842213801442902,
+          "accepted": true,
+          "mode": "paired",
+          "parameter": [
+            [
+              0,
+              2
+            ],
+            [
+              0.4,
+              -0.4
+            ]
+          ],
+          "predicted_end_cost": 1.9013655080266552,
+          "predicted_gain": 0.2828558721176351,
+          "plan_steps": 60
+        },
+        {
+          "step": 112,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.7883569057688673,
+          "accepted": false
+        },
+        {
+          "step": 124,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.7118290805107503,
+          "accepted": false
+        },
+        {
+          "step": 136,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.6844097722880345,
+          "accepted": false
+        },
+        {
+          "step": 160,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5563882281116106,
+          "accepted": false
+        },
+        {
+          "step": 172,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5436730558583414,
+          "accepted": false
+        },
+        {
+          "step": 184,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.4831702158777706,
+          "accepted": false
+        },
+        {
+          "step": 196,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.4831702158777706,
+          "accepted": false
+        },
+        {
+          "step": 208,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.4831702158777706,
+          "accepted": false
+        },
+        {
+          "step": 220,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.4831702158777706,
+          "accepted": false
+        },
+        {
+          "step": 232,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.4831702158777706,
+          "accepted": false,
+          "mode": "paired",
+          "parameter": [
+            [
+              1,
+              5
+            ],
+            [
+              0.4,
+              0.4
+            ]
+          ],
+          "predicted_end_cost": 1.3593262896548255,
+          "predicted_gain": 0.12384392622294516,
+          "plan_steps": 8
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 45820,
+      "vertical_plan_events": [
+        {
+          "slot": 2,
+          "lateral_m": -0.05,
+          "gain": 0.7,
+          "predicted_end_cost": 2.0358643626161217,
+          "predicted_forward_m": 0.410771882442572,
+          "step": 27,
+          "plan_steps": 27
+        },
+        {
+          "slot": 0,
+          "lateral_m": -0.05,
+          "gain": 0.7,
+          "predicted_end_cost": 1.700932453603179,
+          "predicted_forward_m": 0.3181220203701382,
+          "step": 140,
+          "plan_steps": 24
+        }
+      ],
+      "passage_count": 2,
+      "success_with_weaving": false,
+      "execution_variant": "vertical_controller",
+      "obstacle_count": 5
+    }
+  ]
+}

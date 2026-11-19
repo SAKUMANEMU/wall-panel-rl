@@ -1,0 +1,17 @@
+{
+  "alignment": {
+    "completed_episodes": 18,
+    "reasons": {
+      "collision": 1,
+      "success": 17
+    }
+  },
+  "static": {
+    "completed_episodes": 83,
+    "reasons": {
+      "collision": 35,
+      "success": 26,
+      "timeout": 22
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-04T14:29:27.768809+08:00",
+  "training_steps": 0,
+  "phase": "complete",
+  "updated_at": "2026-11-04T14:37:38.499142+08:00",
+  "diagnosis": {
+    "episodes": 13,
+    "dominant_body": {
+      "panel": 13
+    },
+    "dominant_slot": {
+      "4": 11,
+      "3": 2
+    },
+    "contact_stage": {
+      "late": 11,
+      "early": 2
+    },
+    "step_range": [
+      7,
+      50
+    ],
+    "all_reproduced": true,
+    "diagnostic_only_no_test_actions_used_as_labels": true
+  },
+  "accepted": 96,
+  "target": 100,
+  "rejected": 1,
+  "bank_counts": {
+    "fresh_train": 128,
+    "validation": 64,
+    "test": 100,
+    "train": 192,
+    "old_validation": 32,
+    "old_test_regression": 64
+  }
+}

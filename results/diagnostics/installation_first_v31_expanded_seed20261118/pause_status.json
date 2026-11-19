@@ -1,0 +1,184 @@
+{
+  "status": "resumed",
+  "paused_at": "2026-11-18T22:32:39.911875+08:00",
+  "process_group": 18897,
+  "verified_processes": [
+    {
+      "pid": 18897,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -u /home/johnsonchen/wall-panel-rl/experiments/installation_first_v31/scripts/run_expanded_validation.py --source-run /home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118 --output /home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_expanded_seed20261118 --per-count 20 --workers 4 --generator-workers 2 "
+    },
+    {
+      "pid": 18898,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.resource_tracker import main;main(8) "
+    },
+    {
+      "pid": 19107,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=9, pipe_handle=13) --multiprocessing-fork "
+    },
+    {
+      "pid": 19110,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=9, pipe_handle=15) --multiprocessing-fork "
+    },
+    {
+      "pid": 19111,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=9, pipe_handle=17) --multiprocessing-fork "
+    },
+    {
+      "pid": 19112,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=9, pipe_handle=19) --multiprocessing-fork "
+    }
+  ],
+  "status_at_pause": {
+    "status": "running",
+    "pid": 18897,
+    "started_at": "2026-11-18T21:12:45.263144+08:00",
+    "phase": "evaluate_expanded",
+    "updated_at": "2026-11-18T22:32:19.447709+08:00",
+    "generation_completed": 80,
+    "generation_planned": 80,
+    "latest_seed": 5351903,
+    "evaluation_completed": 64,
+    "evaluation_planned": 160,
+    "metrics": {
+      "v31_selected": {
+        "episodes": 32,
+        "success": 16,
+        "collision": 1,
+        "timeout": 15,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.5,
+        "success_wilson95": [
+          0.33630882869327483,
+          0.6636911713067252
+        ]
+      },
+      "v29_baseline": {
+        "episodes": 32,
+        "success": 18,
+        "collision": 3,
+        "timeout": 11,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.5625,
+        "success_wilson95": [
+          0.3932559113685198,
+          0.7183466888495963
+        ]
+      }
+    }
+  },
+  "resume_command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "/home/johnsonchen/wall-panel-rl/experiments/installation_first_v31/scripts/run_expanded_validation.py",
+    "--source-run",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_expanded_seed20261118",
+    "--per-count",
+    "20",
+    "--workers",
+    "4",
+    "--generator-workers",
+    "2"
+  ],
+  "training_performed": false,
+  "frozen_input_and_code_hashes_verified": true,
+  "disk_cache": {
+    "diagnostics": {
+      "completed_episodes": 8,
+      "cached_result_files": [
+        "diagnostics/rows/v29_model__installation/4720000.json",
+        "diagnostics/rows/v29_model__installation/4720100.json",
+        "diagnostics/rows/v29_model__old/4720000.json",
+        "diagnostics/rows/v29_model__old/4720100.json",
+        "diagnostics/rows/v31_model__installation/4720000.json",
+        "diagnostics/rows/v31_model__installation/4720100.json",
+        "diagnostics/rows/v31_model__old/4720000.json",
+        "diagnostics/rows/v31_model__old/4720100.json"
+      ]
+    },
+    "expanded": {
+      "completed_episodes": 64,
+      "cached_result_files": [
+        "expanded/rows/v29_baseline/5320000.json",
+        "expanded/rows/v29_baseline/5320100.json",
+        "expanded/rows/v29_baseline/5320200.json",
+        "expanded/rows/v29_baseline/5320300.json",
+        "expanded/rows/v29_baseline/5320400.json",
+        "expanded/rows/v29_baseline/5320500.json",
+        "expanded/rows/v29_baseline/5320600.json",
+        "expanded/rows/v29_baseline/5320700.json",
+        "expanded/rows/v29_baseline/5320800.json",
+        "expanded/rows/v29_baseline/5320900.json",
+        "expanded/rows/v29_baseline/5321000.json",
+        "expanded/rows/v29_baseline/5321100.json",
+        "expanded/rows/v29_baseline/5321200.json",
+        "expanded/rows/v29_baseline/5321300.json",
+        "expanded/rows/v29_baseline/5321400.json",
+        "expanded/rows/v29_baseline/5321500.json",
+        "expanded/rows/v29_baseline/5321600.json",
+        "expanded/rows/v29_baseline/5321700.json",
+        "expanded/rows/v29_baseline/5321800.json",
+        "expanded/rows/v29_baseline/5321900.json",
+        "expanded/rows/v29_baseline/5330001.json",
+        "expanded/rows/v29_baseline/5330101.json",
+        "expanded/rows/v29_baseline/5330200.json",
+        "expanded/rows/v29_baseline/5330300.json",
+        "expanded/rows/v29_baseline/5330401.json",
+        "expanded/rows/v29_baseline/5330500.json",
+        "expanded/rows/v29_baseline/5330600.json",
+        "expanded/rows/v29_baseline/5330700.json",
+        "expanded/rows/v29_baseline/5330800.json",
+        "expanded/rows/v29_baseline/5330900.json",
+        "expanded/rows/v29_baseline/5331000.json",
+        "expanded/rows/v29_baseline/5331100.json",
+        "expanded/rows/v31_selected/5320000.json",
+        "expanded/rows/v31_selected/5320100.json",
+        "expanded/rows/v31_selected/5320200.json",
+        "expanded/rows/v31_selected/5320300.json",
+        "expanded/rows/v31_selected/5320400.json",
+        "expanded/rows/v31_selected/5320500.json",
+        "expanded/rows/v31_selected/5320600.json",
+        "expanded/rows/v31_selected/5320700.json",
+        "expanded/rows/v31_selected/5320800.json",
+        "expanded/rows/v31_selected/5320900.json",
+        "expanded/rows/v31_selected/5321000.json",
+        "expanded/rows/v31_selected/5321100.json",
+        "expanded/rows/v31_selected/5321200.json",
+        "expanded/rows/v31_selected/5321300.json",
+        "expanded/rows/v31_selected/5321400.json",
+        "expanded/rows/v31_selected/5321500.json",
+        "expanded/rows/v31_selected/5321600.json",
+        "expanded/rows/v31_selected/5321700.json",
+        "expanded/rows/v31_selected/5321800.json",
+        "expanded/rows/v31_selected/5321900.json",
+        "expanded/rows/v31_selected/5330001.json",
+        "expanded/rows/v31_selected/5330101.json",
+        "expanded/rows/v31_selected/5330200.json",
+        "expanded/rows/v31_selected/5330300.json",
+        "expanded/rows/v31_selected/5330401.json",
+        "expanded/rows/v31_selected/5330500.json",
+        "expanded/rows/v31_selected/5330600.json",
+        "expanded/rows/v31_selected/5330700.json",
+        "expanded/rows/v31_selected/5330800.json",
+        "expanded/rows/v31_selected/5330900.json",
+        "expanded/rows/v31_selected/5331000.json",
+        "expanded/rows/v31_selected/5331100.json"
+      ]
+    }
+  },
+  "saved_scenes": 80,
+  "cached_case_model_runtime_hashes_verified": true,
+  "replay_files_verified": true,
+  "remaining_primary_episodes": 96,
+  "resumed_at": "2026-11-19T01:16:03.779685+08:00",
+  "resume_pid": 4284
+}

@@ -1,0 +1,10 @@
+{
+  "matched_ppo_and_bc_source_states": true,
+  "bc_pool_and_rng_restored": true,
+  "initial_validation_matches_source": true,
+  "train_heldout_separated": true,
+  "archived_code_and_data_hashes_match": true,
+  "used_test_bank_not_reevaluated": true,
+  "new_bc_updates_reported_separately_from_inherited": true,
+  "source_and_default_preserved": true
+}

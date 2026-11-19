@@ -1,0 +1,13 @@
+{
+  "weights_unchanged": true,
+  "training_steps": 0,
+  "verified_cases": 99,
+  "obstacles_per_case": 4,
+  "individual_contact_witnesses": 396,
+  "all_intersect": true,
+  "all_contact_distances_nonpositive": true,
+  "start_goal_clear": true,
+  "reference_observation_route_unchanged": true,
+  "nominal_route_is_physical_obstacle_free_policy_motion": true,
+  "source_sha256": "9fcf8ab4249cc7feb1d5257501bb33f47dfee5345fc66343344e15f9e8372257"
+}

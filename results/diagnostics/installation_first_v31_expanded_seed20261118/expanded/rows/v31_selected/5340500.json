@@ -1,0 +1,153 @@
+{
+  "seed": 5340500,
+  "controller": "enhanced",
+  "reason": "timeout",
+  "steps": 240,
+  "position_m": 0.7543360906220806,
+  "orientation_deg": 51.1777780378651,
+  "reward": 92.47834229514672,
+  "zero_command_steps": 17,
+  "stationary_steps": 17,
+  "wall_seconds": 374.4086566839999,
+  "physics_elapsed_s": 11.99999999999964,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 4,
+  "recovery_actions": 116,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.05935032572584,
+      "accepted": true,
+      "mode": "bias",
+      "parameter": [
+        2,
+        -0.4
+      ],
+      "predicted_end_cost": 2.014818990969137,
+      "predicted_gain": 0.0445313347567029,
+      "plan_steps": 60
+    },
+    {
+      "step": 91,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9345815520522587,
+      "accepted": false
+    },
+    {
+      "step": 103,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9345792932522246,
+      "accepted": false
+    },
+    {
+      "step": 115,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9345770875217168,
+      "accepted": false
+    },
+    {
+      "step": 127,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9345748817954742,
+      "accepted": false
+    },
+    {
+      "step": 139,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9345726760734978,
+      "accepted": true,
+      "mode": "lookahead",
+      "parameter": [
+        6,
+        0.4
+      ],
+      "predicted_end_cost": 1.753872916236802,
+      "predicted_gain": 0.18069975983669573,
+      "plan_steps": 60
+    },
+    {
+      "step": 190,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.8920157769733013,
+      "accepted": false
+    },
+    {
+      "step": 202,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.8920157769733013,
+      "accepted": false
+    },
+    {
+      "step": 214,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.8920157769733013,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          1,
+          3
+        ],
+        [
+          -0.4,
+          -0.4
+        ]
+      ],
+      "predicted_end_cost": 0.8615225782959514,
+      "predicted_gain": 1.03049319867735,
+      "plan_steps": 26
+    },
+    {
+      "step": 228,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.8615225782959514,
+      "accepted": false,
+      "mode": "goal",
+      "parameter": 0.7,
+      "predicted_end_cost": 0.7991225614753286,
+      "predicted_gain": 0.062400016820622795,
+      "plan_steps": 12
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 61324,
+  "vertical_plan_events": [],
+  "installation_events": [
+    {
+      "step": 202,
+      "mode": "reject_reference_escape",
+      "candidate_mode": "bias"
+    }
+  ],
+  "passage_count": 2,
+  "success_with_weaving": false,
+  "arm": "v31_selected",
+  "obstacle_count": 4,
+  "model_key": "v31",
+  "controller_key": "installation",
+  "case_sha256": "ec6b977fd07b3563d171515cd6a2e8654db1df040d09fe95cb5d0699bf1ad42e",
+  "max_obstacle_speed_m_s": 0.19257016209913896,
+  "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+  "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+  "timeout_diagnosis": {
+    "primary": "stale_reference",
+    "flags": {
+      "waiting": false,
+      "stale_reference": true,
+      "terminal_precision": false
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.0,
+    "zero_command_fraction": 0.0,
+    "reference_telemetry_available": true,
+    "reference_index_start": 11,
+    "reference_index_end": 11,
+    "final_reference_distance_rad": 1.3721156356182902,
+    "final_position_m": 0.7543360906220806,
+    "final_orientation_deg": 51.1777780378651,
+    "reference_state_inferred": false
+  }
+}

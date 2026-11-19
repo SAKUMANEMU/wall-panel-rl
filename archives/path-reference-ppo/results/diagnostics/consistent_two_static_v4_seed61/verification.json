@@ -1,0 +1,12 @@
+{
+  "code_and_data_hashes_valid": true,
+  "source_files_unchanged": true,
+  "splits_disjoint": true,
+  "old_two_static_training_labels_removed": true,
+  "canonical_selection_rule_verified": true,
+  "corrections_bound_to_saved_canonical_routes": true,
+  "original_actor_frozen": true,
+  "one_obstacle_trajectories_identical": true,
+  "test_used_for_selection": false,
+  "candidate_sha256": "7cabf0e9aba568179ab13002f089f208233b7481d91d9364f16dac28f1dd1a26"
+}

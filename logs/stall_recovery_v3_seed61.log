@@ -1,0 +1,193 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "mode": "run",
+  "study": {
+    "parent_report": "/home/johnsonchen/wall-panel-rl/results/diagnostics/targeted_bc_v3_seed61",
+    "initial_model": "models/targeted_bc_v3_seed61/targeted_mix/bc/checkpoints/bc_10000.zip",
+    "initial_bc_state": "models/targeted_bc_v3_seed61/targeted_mix/bc/checkpoints/bc_10000.bc_state.pt",
+    "base_teacher": "data/targeted_bc_v3_seed61/mixed_teacher",
+    "base_scenes": "data/staged_avoidance_v3_seed61/one_static",
+    "output_root": "models/stall_recovery_v3_seed61",
+    "data_root": "data/stall_recovery_v3_seed61",
+    "report_root": "/home/johnsonchen/wall-panel-rl/results/diagnostics/stall_recovery_v3_seed61",
+    "bc_updates": 10000,
+    "bc_learning_rate": 0.0001,
+    "bc_checkpoints": [
+      2000,
+      4000,
+      6000,
+      8000,
+      10000
+    ],
+    "correction_successes": 40,
+    "maximum_correction_attempts": 120,
+    "maximum_handoff_step": 160,
+    "ppo_steps": 10000,
+    "ppo_eval_every": 5000,
+    "ppo_learning_rate": 0.0001,
+    "stall_reward": {
+      "window": 20,
+      "position_epsilon": 0.001,
+      "orientation_epsilon_deg": 0.1,
+      "path_epsilon": 0.01,
+      "joint_displacement": 0.02,
+      "weight": 0.1
+    },
+    "independent_start_seed": 990000,
+    "independent_scenes": 100,
+    "maximum_generation_attempts": 1000
+  }
+}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:45:06.779881+08:00", "generated": 10}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:45:22.612223+08:00", "generated": 20}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:45:36.897088+08:00", "generated": 30}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:45:52.616390+08:00", "generated": 40}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:46:09.178258+08:00", "generated": 50}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:46:25.535961+08:00", "generated": 60}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:46:40.171384+08:00", "generated": 70}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:46:56.055253+08:00", "generated": 80}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:47:12.821136+08:00", "generated": 90}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:47:31.012044+08:00", "generated": 100}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "collect_stall_recoveries", "updated_at": "2026-10-30T13:47:31.295033+08:00", "generated": 100}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:47:35.130152+08:00", "generated": 100, "correction_successes": 10, "correction_attempts": 10}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:47:38.874987+08:00", "generated": 100, "correction_successes": 20, "correction_attempts": 20}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:47:43.073150+08:00", "generated": 100, "correction_successes": 30, "correction_attempts": 30}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:47:46.863401+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "audit_recoveries", "updated_at": "2026-10-30T13:47:46.943917+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40}
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "training_performed": false,
+  "teacher_sha256": "4556675495bb4ebb2cbb8091a869fd445fe341098e63bc353fe7932760c8948d",
+  "sampled_corrections": 10,
+  "success": 10,
+  "max_observation_error": 0.0,
+  "prefixes_not_labels": true,
+  "rows": [
+    {
+      "episode": 0,
+      "seed": 800007,
+      "prefix_steps": 140,
+      "labelled_steps": 7,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 147,
+      "original_total_steps": 147
+    },
+    {
+      "episode": 4,
+      "seed": 800049,
+      "prefix_steps": 160,
+      "labelled_steps": 8,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 168,
+      "original_total_steps": 168
+    },
+    {
+      "episode": 8,
+      "seed": 800009,
+      "prefix_steps": 157,
+      "labelled_steps": 8,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 165,
+      "original_total_steps": 165
+    },
+    {
+      "episode": 13,
+      "seed": 800061,
+      "prefix_steps": 157,
+      "labelled_steps": 11,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 168,
+      "original_total_steps": 168
+    },
+    {
+      "episode": 17,
+      "seed": 800046,
+      "prefix_steps": 124,
+      "labelled_steps": 9,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 133,
+      "original_total_steps": 133
+    },
+    {
+      "episode": 21,
+      "seed": 800007,
+      "prefix_steps": 130,
+      "labelled_steps": 7,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 137,
+      "original_total_steps": 137
+    },
+    {
+      "episode": 26,
+      "seed": 800050,
+      "prefix_steps": 133,
+      "labelled_steps": 6,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 139,
+      "original_total_steps": 139
+    },
+    {
+      "episode": 30,
+      "seed": 800020,
+      "prefix_steps": 160,
+      "labelled_steps": 6,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 166,
+      "original_total_steps": 166
+    },
+    {
+      "episode": 34,
+      "seed": 800061,
+      "prefix_steps": 121,
+      "labelled_steps": 16,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 137,
+      "original_total_steps": 137
+    },
+    {
+      "episode": 39,
+      "seed": 800049,
+      "prefix_steps": 121,
+      "labelled_steps": 11,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 132,
+      "original_total_steps": 132
+    }
+  ]
+}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "bc_low_lr", "updated_at": "2026-10-30T13:47:51.814055+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 0}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "bc_low_lr", "updated_at": "2026-10-30T13:48:05.482762+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 0, "validation_target": {"episodes": 20, "success": 13, "collision": 2, "joint_limit": 0, "timeout": 5, "timeout_mean_position_m": 0.27417970143319287, "timeout_mean_orientation_deg": 65.02447964964355, "successful_mean_steps": 65.07692307692308, "mean_reward": 243.49765479231806}}
+BC checkpoint 0 passed True target {'episodes': 20, 'success': 13, 'collision': 2, 'joint_limit': 0, 'timeout': 5, 'timeout_mean_position_m': 0.27417970143319287, 'timeout_mean_orientation_deg': 65.02447964964355, 'successful_mean_steps': 65.07692307692308, 'mean_reward': 243.49765479231806}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "bc_low_lr", "updated_at": "2026-10-30T13:48:21.866405+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 2000, "validation_target": {"episodes": 20, "success": 6, "collision": 14, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 79.0, "mean_reward": 149.84738909357554}}
+BC checkpoint 2000 passed False target {'episodes': 20, 'success': 6, 'collision': 14, 'joint_limit': 0, 'timeout': 0, 'timeout_mean_position_m': None, 'timeout_mean_orientation_deg': None, 'successful_mean_steps': 79.0, 'mean_reward': 149.84738909357554}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "bc_low_lr", "updated_at": "2026-10-30T13:48:37.362823+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 4000, "validation_target": {"episodes": 20, "success": 7, "collision": 13, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 74.14285714285714, "mean_reward": 127.21137430473186}}
+BC checkpoint 4000 passed False target {'episodes': 20, 'success': 7, 'collision': 13, 'joint_limit': 0, 'timeout': 0, 'timeout_mean_position_m': None, 'timeout_mean_orientation_deg': None, 'successful_mean_steps': 74.14285714285714, 'mean_reward': 127.21137430473186}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "bc_low_lr", "updated_at": "2026-10-30T13:48:53.421955+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 6000, "validation_target": {"episodes": 20, "success": 12, "collision": 8, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 73.25, "mean_reward": 199.38882589143114}}
+BC checkpoint 6000 passed False target {'episodes': 20, 'success': 12, 'collision': 8, 'joint_limit': 0, 'timeout': 0, 'timeout_mean_position_m': None, 'timeout_mean_orientation_deg': None, 'successful_mean_steps': 73.25, 'mean_reward': 199.38882589143114}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "bc_low_lr", "updated_at": "2026-10-30T13:49:08.872815+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 8000, "validation_target": {"episodes": 20, "success": 4, "collision": 16, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 65.25, "mean_reward": 102.59934178259971}}
+BC checkpoint 8000 passed False target {'episodes': 20, 'success': 4, 'collision': 16, 'joint_limit': 0, 'timeout': 0, 'timeout_mean_position_m': None, 'timeout_mean_orientation_deg': None, 'successful_mean_steps': 65.25, 'mean_reward': 102.59934178259971}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "bc_low_lr", "updated_at": "2026-10-30T13:49:24.082356+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 1, "collision": 19, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 65.0, "mean_reward": 63.29887797341182}}
+BC checkpoint 10000 passed False target {'episodes': 20, 'success': 1, 'collision': 19, 'joint_limit': 0, 'timeout': 0, 'timeout_mean_position_m': None, 'timeout_mean_orientation_deg': None, 'successful_mean_steps': 65.0, 'mean_reward': 63.29887797341182}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "ppo", "updated_at": "2026-10-30T13:49:24.090105+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 1, "collision": 19, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 65.0, "mean_reward": 63.29887797341182}, "ppo_additional_steps": 0}
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "ppo", "updated_at": "2026-10-30T13:49:55.961667+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 13, "collision": 2, "joint_limit": 0, "timeout": 5, "timeout_mean_position_m": 0.27417970143319287, "timeout_mean_orientation_deg": 65.02447964964355, "successful_mean_steps": 65.07692307692308, "mean_reward": 243.49765479231806}, "ppo_additional_steps": 0}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "ppo", "updated_at": "2026-10-30T13:50:15.775330+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 13, "collision": 2, "joint_limit": 0, "timeout": 5, "timeout_mean_position_m": 0.2505128358507033, "timeout_mean_orientation_deg": 17.834463396151083, "successful_mean_steps": 67.76923076923077, "mean_reward": 246.324443207289}, "ppo_additional_steps": 5000}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "ppo", "updated_at": "2026-10-30T13:50:34.970924+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 14, "collision": 3, "joint_limit": 0, "timeout": 3, "timeout_mean_position_m": 0.2582700081934266, "timeout_mean_orientation_deg": 14.378679527998921, "successful_mean_steps": 66.64285714285714, "mean_reward": 251.34330026609877}, "ppo_additional_steps": 10000}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "independent_test", "updated_at": "2026-10-30T13:50:35.385269+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 14, "collision": 3, "joint_limit": 0, "timeout": 3, "timeout_mean_position_m": 0.2582700081934266, "timeout_mean_orientation_deg": 14.378679527998921, "successful_mean_steps": 66.64285714285714, "mean_reward": 251.34330026609877}, "ppo_additional_steps": 10000, "winner_locked": "ppo_stall"}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "independent_test", "updated_at": "2026-10-30T13:51:05.244958+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 14, "collision": 3, "joint_limit": 0, "timeout": 3, "timeout_mean_position_m": 0.2582700081934266, "timeout_mean_orientation_deg": 14.378679527998921, "successful_mean_steps": 66.64285714285714, "mean_reward": 251.34330026609877}, "ppo_additional_steps": 10000, "winner_locked": "ppo_stall", "evaluated_model": "baseline", "independent_target": {"episodes": 100, "success": 67, "collision": 9, "joint_limit": 0, "timeout": 24}}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "independent_test", "updated_at": "2026-10-30T13:51:34.994016+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 14, "collision": 3, "joint_limit": 0, "timeout": 3, "timeout_mean_position_m": 0.2582700081934266, "timeout_mean_orientation_deg": 14.378679527998921, "successful_mean_steps": 66.64285714285714, "mean_reward": 251.34330026609877}, "ppo_additional_steps": 10000, "winner_locked": "ppo_stall", "evaluated_model": "bc_low_lr", "independent_target": {"episodes": 100, "success": 67, "collision": 9, "joint_limit": 0, "timeout": 24}}
+STALL {"status": "running", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "independent_test", "updated_at": "2026-10-30T13:51:58.491425+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 14, "collision": 3, "joint_limit": 0, "timeout": 3, "timeout_mean_position_m": 0.2582700081934266, "timeout_mean_orientation_deg": 14.378679527998921, "successful_mean_steps": 66.64285714285714, "mean_reward": 251.34330026609877}, "ppo_additional_steps": 10000, "winner_locked": "ppo_stall", "evaluated_model": "ppo_stall", "independent_target": {"episodes": 100, "success": 78, "collision": 13, "joint_limit": 0, "timeout": 9}}
+STALL {"status": "completed", "started_at": "2026-10-30T13:44:49.347266+08:00", "runner_pid": 8318, "bc_budget": 10000, "ppo_budget": 10000, "phase": "complete", "updated_at": "2026-10-30T13:51:58.492645+08:00", "generated": 100, "correction_successes": 40, "correction_attempts": 40, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 14, "collision": 3, "joint_limit": 0, "timeout": 3, "timeout_mean_position_m": 0.2582700081934266, "timeout_mean_orientation_deg": 14.378679527998921, "successful_mean_steps": 66.64285714285714, "mean_reward": 251.34330026609877}, "ppo_additional_steps": 10000, "winner_locked": "ppo_stall", "evaluated_model": "ppo_stall", "independent_target": {"episodes": 100, "success": 78, "collision": 13, "joint_limit": 0, "timeout": 9}, "finished_at": "2026-10-30T13:51:58.492635+08:00"}

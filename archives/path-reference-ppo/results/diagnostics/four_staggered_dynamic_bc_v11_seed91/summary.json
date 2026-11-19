@@ -1,0 +1,58 @@
+{
+  "selected_bc_updates": 0,
+  "selected": {
+    "bc_updates": 0,
+    "metrics": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "accepted_updates": 0,
+    "rejected_updates": 0
+  },
+  "source_validation": {
+    "episodes": 64,
+    "success": 37,
+    "collision": 26,
+    "timeout": 1,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "teacher_episodes": 52,
+  "teacher_transitions": 3948,
+  "teacher_attempts": 64,
+  "teacher_outcomes": {
+    "success": 54,
+    "planning_failure": 9,
+    "timeout": 1
+  },
+  "bc_updates": 200,
+  "accepted_bc_updates": 20,
+  "rejected_bc_updates": 180,
+  "diagnosed_training_layouts": 192,
+  "training_diagnosis": {
+    "episodes": 192,
+    "success": 110,
+    "collision": 79,
+    "timeout": 3,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "head_sampling_probability": 0.5,
+  "static_episodes": 0,
+  "static_labels": 0,
+  "independent_test_evaluated": false,
+  "ppo_optimizer_preserved": true,
+  "fresh_auxiliary_optimizer_after_warmup": true,
+  "source_unchanged": true,
+  "ppo_steps": 0
+}

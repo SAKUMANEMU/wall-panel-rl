@@ -1,0 +1,11 @@
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+Traceback (most recent call last):
+  File "/home/johnsonchen/wall-panel-rl/experiments/enhanced_scope_v23/scripts/check_enhanced_scope.py", line 44, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/johnsonchen/wall-panel-rl/experiments/enhanced_scope_v23/scripts/check_enhanced_scope.py", line 39, in main
+    if len(accepted)<2:raise RuntimeError('Expanded generation needs review; see preflight rejection log')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expanded generation needs review; see preflight rejection log

@@ -1,0 +1,344 @@
+[
+  {
+    "mode": "ppo_progress",
+    "seed": 1188106,
+    "steps": 180,
+    "passages": [
+      {
+        "slot": 0,
+        "frame": 65,
+        "time_s": 3.2500000000000564,
+        "side": "below",
+        "panel_z": 0.9071659774962522,
+        "box_z": 1.1484076469067257,
+        "xy_distance_m": 0.21823619797953944,
+        "vertical_clearance_m": 0.02979449936978762
+      },
+      {
+        "slot": 1,
+        "frame": 75,
+        "time_s": 3.7500000000000813,
+        "side": "above",
+        "panel_z": 1.0120962040270693,
+        "box_z": 0.7266200299980574,
+        "xy_distance_m": 0.03445703844402925,
+        "vertical_clearance_m": 0.090715489949663
+      },
+      {
+        "slot": 3,
+        "frame": 180,
+        "time_s": 8.99999999999981,
+        "side": "below",
+        "panel_z": 0.5472268950483813,
+        "box_z": 1.2516028860976929,
+        "xy_distance_m": 0.10151017036288358,
+        "vertical_clearance_m": 0.46422980834363964
+      }
+    ],
+    "recording": "recordings/ppo_progress_1188106.json"
+  },
+  {
+    "mode": "ppo_progress",
+    "seed": 1188112,
+    "steps": 158,
+    "passages": [
+      {
+        "slot": 0,
+        "frame": 23,
+        "time_s": 1.1499999999999972,
+        "side": "below",
+        "panel_z": 0.7543672151120171,
+        "box_z": 1.0452996628848457,
+        "xy_distance_m": 0.21984057858269523,
+        "vertical_clearance_m": 0.05855290312741113
+      },
+      {
+        "slot": 1,
+        "frame": 103,
+        "time_s": 5.150000000000028,
+        "side": "above",
+        "panel_z": 1.0549534750824827,
+        "box_z": 0.84026144291414,
+        "xy_distance_m": 0.12579186973012516,
+        "vertical_clearance_m": 0.022980623533141953
+      },
+      {
+        "slot": 3,
+        "frame": 126,
+        "time_s": 6.2999999999999625,
+        "side": "below",
+        "panel_z": 0.9747040988437913,
+        "box_z": 1.255876998243191,
+        "xy_distance_m": 0.22278913537955075,
+        "vertical_clearance_m": 0.04917399344706408
+      }
+    ],
+    "recording": "recordings/ppo_progress_1188112.json"
+  },
+  {
+    "mode": "ppo_progress",
+    "seed": 1188120,
+    "steps": 240,
+    "passages": [
+      {
+        "slot": 0,
+        "frame": 31,
+        "time_s": 1.5499999999999958,
+        "side": "below",
+        "panel_z": 0.794890494071756,
+        "box_z": 1.0462629754310229,
+        "xy_distance_m": 0.22868489025863326,
+        "vertical_clearance_m": 0.030583751725965475
+      },
+      {
+        "slot": 1,
+        "frame": 178,
+        "time_s": 8.899999999999816,
+        "side": "above",
+        "panel_z": 1.092516790376782,
+        "box_z": 0.8649651657534867,
+        "xy_distance_m": 0.08888423105665809,
+        "vertical_clearance_m": 0.08480877803696357
+      },
+      {
+        "slot": 3,
+        "frame": 235,
+        "time_s": 11.749999999999654,
+        "side": "below",
+        "panel_z": 0.6730530600614932,
+        "box_z": 1.1024153297209158,
+        "xy_distance_m": 0.019016592938272254,
+        "vertical_clearance_m": 0.16506272190949908
+      }
+    ],
+    "recording": "recordings/ppo_progress_1188120.json"
+  },
+  {
+    "mode": "ppo_progress",
+    "seed": 1188145,
+    "steps": 185,
+    "passages": [
+      {
+        "slot": 0,
+        "frame": 26,
+        "time_s": 1.2999999999999967,
+        "side": "below",
+        "panel_z": 1.1055792946949772,
+        "box_z": 1.3004971304281132,
+        "xy_distance_m": 0.1585258479191079,
+        "vertical_clearance_m": 0.037013003137562506
+      },
+      {
+        "slot": 1,
+        "frame": 85,
+        "time_s": 4.250000000000079,
+        "side": "above",
+        "panel_z": 1.183977107515511,
+        "box_z": 0.9106612932900247,
+        "xy_distance_m": 0.106777769824345,
+        "vertical_clearance_m": 0.1391930170449674
+      },
+      {
+        "slot": 3,
+        "frame": 177,
+        "time_s": 8.849999999999818,
+        "side": "below",
+        "panel_z": 0.5606734492117741,
+        "box_z": 1.1353530202241524,
+        "xy_distance_m": 0.1849944271184075,
+        "vertical_clearance_m": 0.3351389294498806
+      }
+    ],
+    "recording": "recordings/ppo_progress_1188145.json"
+  },
+  {
+    "mode": "ppo_progress",
+    "seed": 1188159,
+    "steps": 209,
+    "passages": [
+      {
+        "slot": 0,
+        "frame": 131,
+        "time_s": 6.549999999999948,
+        "side": "below",
+        "panel_z": 0.9211644274721651,
+        "box_z": 1.1737963247079786,
+        "xy_distance_m": 0.0284643686183466,
+        "vertical_clearance_m": 0.06665197939936562
+      },
+      {
+        "slot": 1,
+        "frame": 140,
+        "time_s": 6.999999999999923,
+        "side": "above",
+        "panel_z": 1.1023068440398283,
+        "box_z": 0.8268839084420468,
+        "xy_distance_m": 0.17251594977931692,
+        "vertical_clearance_m": 0.14987484319567995
+      },
+      {
+        "slot": 3,
+        "frame": 196,
+        "time_s": 9.799999999999764,
+        "side": "below",
+        "panel_z": 0.6634720794359453,
+        "box_z": 1.228641599144397,
+        "xy_distance_m": 0.06221452628354626,
+        "vertical_clearance_m": 0.2954808660664542
+      }
+    ],
+    "recording": "recordings/ppo_progress_1188159.json"
+  },
+  {
+    "mode": "ppo_progress",
+    "seed": 1188162,
+    "steps": 239,
+    "passages": [
+      {
+        "slot": 2,
+        "frame": 13,
+        "time_s": 0.6499999999999989,
+        "side": "below",
+        "panel_z": 0.6505179145029532,
+        "box_z": 1.0873826119778434,
+        "xy_distance_m": 0.21572015518855653,
+        "vertical_clearance_m": 0.22170789084057607
+      },
+      {
+        "slot": 0,
+        "frame": 27,
+        "time_s": 1.3499999999999965,
+        "side": "above",
+        "panel_z": 1.0779297011111242,
+        "box_z": 0.771275354391324,
+        "xy_distance_m": 0.22877079650292825,
+        "vertical_clearance_m": 0.1283407911992726
+      },
+      {
+        "slot": 1,
+        "frame": 179,
+        "time_s": 8.949999999999813,
+        "side": "below",
+        "panel_z": 0.9361127719514923,
+        "box_z": 1.1757766269277077,
+        "xy_distance_m": 0.21274259086463412,
+        "vertical_clearance_m": 0.0343688926233732
+      }
+    ],
+    "recording": "recordings/ppo_progress_1188162.json"
+  },
+  {
+    "mode": "ppo_progress",
+    "seed": 1188185,
+    "steps": 228,
+    "passages": [
+      {
+        "slot": 0,
+        "frame": 151,
+        "time_s": 7.5499999999998915,
+        "side": "below",
+        "panel_z": 0.9081307287150507,
+        "box_z": 1.2256273579554509,
+        "xy_distance_m": 0.04613558683457363,
+        "vertical_clearance_m": 0.13075367594231688
+      },
+      {
+        "slot": 1,
+        "frame": 167,
+        "time_s": 8.349999999999847,
+        "side": "above",
+        "panel_z": 1.0659400068279004,
+        "box_z": 0.8155465776505241,
+        "xy_distance_m": 0.14308122939735382,
+        "vertical_clearance_m": 0.09855764947996443
+      },
+      {
+        "slot": 3,
+        "frame": 221,
+        "time_s": 11.049999999999693,
+        "side": "below",
+        "panel_z": 0.5779303021509159,
+        "box_z": 1.2257227602672323,
+        "xy_distance_m": 0.1503258244135272,
+        "vertical_clearance_m": 0.38679844661490764
+      }
+    ],
+    "recording": "recordings/ppo_progress_1188185.json"
+  },
+  {
+    "mode": "ppo_progress",
+    "seed": 1188189,
+    "steps": 152,
+    "passages": [
+      {
+        "slot": 0,
+        "frame": 20,
+        "time_s": 0.9999999999999977,
+        "side": "below",
+        "panel_z": 0.9917263688256818,
+        "box_z": 1.225858110423588,
+        "xy_distance_m": 0.1070925013157765,
+        "vertical_clearance_m": 0.04674044116775672
+      },
+      {
+        "slot": 1,
+        "frame": 79,
+        "time_s": 3.950000000000091,
+        "side": "above",
+        "panel_z": 1.1367092322819936,
+        "box_z": 0.827934346413188,
+        "xy_distance_m": 0.06337213433758493,
+        "vertical_clearance_m": 0.1524204868456524
+      },
+      {
+        "slot": 3,
+        "frame": 120,
+        "time_s": 5.99999999999998,
+        "side": "below",
+        "panel_z": 1.0082349437939957,
+        "box_z": 1.2741947947311139,
+        "xy_distance_m": 0.13110094034922498,
+        "vertical_clearance_m": 0.04231238345748864
+      }
+    ],
+    "recording": "recordings/ppo_progress_1188189.json"
+  },
+  {
+    "mode": "ppo_progress",
+    "seed": 1188277,
+    "steps": 66,
+    "passages": [
+      {
+        "slot": 2,
+        "frame": 15,
+        "time_s": 0.7499999999999986,
+        "side": "below",
+        "panel_z": 0.9165207583462686,
+        "box_z": 1.117690557667383,
+        "xy_distance_m": 0.02431513786581328,
+        "vertical_clearance_m": 0.015205793695641748
+      },
+      {
+        "slot": 0,
+        "frame": 27,
+        "time_s": 1.3499999999999965,
+        "side": "above",
+        "panel_z": 1.0996357428793107,
+        "box_z": 0.6511213091230702,
+        "xy_distance_m": 0.11165655708021052,
+        "vertical_clearance_m": 0.25893990361024594
+      },
+      {
+        "slot": 1,
+        "frame": 51,
+        "time_s": 2.5500000000000216,
+        "side": "below",
+        "panel_z": 0.8705784225988362,
+        "box_z": 1.2810678118426482,
+        "xy_distance_m": 0.010768970465733092,
+        "vertical_clearance_m": 0.19144952540267945
+      }
+    ],
+    "recording": "recordings/ppo_progress_1188277.json"
+  }
+]

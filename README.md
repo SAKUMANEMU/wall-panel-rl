@@ -1,5 +1,12 @@
 # Reinforcement Learning for Collision-Aware Robotic Wall Panel Installation
 
+> **Current full project: V32 (2026-11-19).** Start with
+> [CURRENT_PROJECT.md](CURRENT_PROJECT.md) for the current code, installation,
+> 3D replay and training commands, and verified results. The active source tree is
+> [experiments/slower_progress_v32](experiments/slower_progress_v32/).
+> The sections below document the original environment and earlier experiments.
+
+
 Can a PPO joint-space policy learn collision-aware panel manipulation and maintain
 accurate alignment under target measurement noise, compared with sampling-based
 planning and feedback control?

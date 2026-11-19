@@ -1,0 +1,9 @@
+{
+  "episode_coin_matches": true,
+  "rrt_physically_usable": true,
+  "source_weights_unchanged": true,
+  "real_training_wrapper_verified_pairs": 56,
+  "formal_training_started": false,
+  "independent_test": false,
+  "on_policy_likelihood_tests_passed": true
+}

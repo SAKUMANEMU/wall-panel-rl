@@ -1,0 +1,21 @@
+{
+  "experiment": "/home/johnsonchen/wall-panel-rl/experiments/slower_progress_v32",
+  "source_run": "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118",
+  "source_checkpoint": "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118/training/models/selected_model.zip",
+  "source_checkpoint_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+  "speed_range_before_m_s": [
+    0.04,
+    0.22
+  ],
+  "speed_range_after_m_s": [
+    0.04,
+    0.18
+  ],
+  "all_dynamic": true,
+  "test_cases": 40,
+  "validation_cases": 16,
+  "training_cases": 32,
+  "ppo_steps": 16384,
+  "bc_updates": 500,
+  "original_versions_preserved": true
+}

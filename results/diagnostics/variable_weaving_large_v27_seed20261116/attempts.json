@@ -1,0 +1,103 @@
+[
+  {
+    "count": 2,
+    "seed": 2920000,
+    "geometry_valid": true,
+    "seconds": 2.091185948999737
+  },
+  {
+    "count": 3,
+    "seed": 2930000,
+    "geometry_valid": true,
+    "seconds": 1.6458950229998663
+  },
+  {
+    "count": 4,
+    "seed": 2940000,
+    "geometry_valid": true,
+    "seconds": 1.6340064290002374
+  },
+  {
+    "count": 5,
+    "seed": 2950000,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.867296806000013
+  },
+  {
+    "count": 5,
+    "seed": 2950001,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.1294640800001616
+  },
+  {
+    "count": 5,
+    "seed": 2950002,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.957322397000098
+  },
+  {
+    "count": 5,
+    "seed": 2950003,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9298522240001148
+  },
+  {
+    "count": 5,
+    "seed": 2950004,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.7967431379997834
+  },
+  {
+    "count": 5,
+    "seed": 2950005,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.4840204039996934
+  },
+  {
+    "count": 5,
+    "seed": 2950006,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 3.112518624999666
+  },
+  {
+    "count": 5,
+    "seed": 2950007,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.777417959000104
+  },
+  {
+    "count": 5,
+    "seed": 2950008,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.6352646179998374
+  },
+  {
+    "count": 5,
+    "seed": 2950009,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.4355556309997155
+  },
+  {
+    "count": 5,
+    "seed": 2950010,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.175945641999988
+  },
+  {
+    "count": 5,
+    "seed": 2950011,
+    "geometry_valid": true,
+    "seconds": 2.4965767919998143
+  }
+]

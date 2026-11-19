@@ -1,0 +1,7 @@
+variant,update,passed,episodes,success,collision,timeout,joint_limit,alignment_success,alignment_episodes
+same_data_10k,2000,False,20,0,20,0,0,20,20
+same_data_10k,5000,False,20,0,20,0,0,20,20
+same_data_10k,10000,False,20,10,9,1,0,20,20
+expanded_10k,2000,False,20,0,20,0,0,20,20
+expanded_10k,5000,False,20,2,17,1,0,20,20
+expanded_10k,10000,False,20,0,20,0,0,20,20

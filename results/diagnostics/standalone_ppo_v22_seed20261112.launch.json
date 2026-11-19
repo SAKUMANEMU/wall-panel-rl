@@ -1,0 +1,17 @@
+{
+  "pid": 19760,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "/home/johnsonchen/wall-panel-rl/experiments/standalone_ppo_v22/scripts/run_standalone.py",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/standalone_ppo_v22_seed20261112",
+    "--workers",
+    "4",
+    "--steps",
+    "32768",
+    "--test-scenes",
+    "32"
+  ],
+  "cwd": "/home/johnsonchen/wall-panel-rl/experiments/standalone_ppo_v22",
+  "log": "/home/johnsonchen/wall-panel-rl/results/diagnostics/standalone_ppo_v22_seed20261112.log"
+}

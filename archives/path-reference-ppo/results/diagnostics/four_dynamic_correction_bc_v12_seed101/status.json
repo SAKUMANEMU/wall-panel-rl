@@ -1,0 +1,88 @@
+{
+  "status": "completed",
+  "ppo_steps": 0,
+  "static_episodes": 0,
+  "phase": "complete",
+  "updated_at": "2026-11-05T20:56:37.718213+08:00",
+  "arm": 1,
+  "learning_rate": 3e-06,
+  "bc_updates": 200,
+  "metrics": {
+    "episodes": 64,
+    "success": 35,
+    "collision": 28,
+    "timeout": 1,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "score": [
+    0,
+    35,
+    -28,
+    -1
+  ],
+  "accepted_updates": 28,
+  "rejected_updates": 172,
+  "selected": {
+    "arm": 0,
+    "learning_rate": 1e-06,
+    "bc_updates": 0,
+    "metrics": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "accepted_updates": 0,
+    "rejected_updates": 0
+  },
+  "summary": {
+    "selected": {
+      "arm": 0,
+      "learning_rate": 1e-06,
+      "bc_updates": 0,
+      "metrics": {
+        "episodes": 64,
+        "success": 37,
+        "collision": 26,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        1,
+        37,
+        -26,
+        -1
+      ],
+      "accepted_updates": 0,
+      "rejected_updates": 0
+    },
+    "selected_bc_updates": 0,
+    "validation_improved": false,
+    "source_validation": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "bc_updates": 400,
+    "teacher_episodes": 32,
+    "teacher_transitions": 507,
+    "success_anchor_states": 2675,
+    "ppo_steps": 0,
+    "static_labels": 0,
+    "source_unchanged": true,
+    "independent_test_evaluated": false
+  }
+}

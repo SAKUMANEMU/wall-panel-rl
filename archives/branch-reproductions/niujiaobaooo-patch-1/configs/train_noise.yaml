@@ -1,0 +1,4 @@
+extends: train_clean.yaml
+noise:
+  position_std: 0.005
+  orientation_std_deg: 0.5

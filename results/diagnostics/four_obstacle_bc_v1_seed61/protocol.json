@@ -1,0 +1,3541 @@
+{
+  "study": {
+    "teacher_report": "results/diagnostics/four_safe_teacher_v1_seed61",
+    "teacher": "data/four_safe_teacher_v1_seed61/teacher/teacher.npz",
+    "retention_teacher": "data/consistent_two_static_v4_seed61/teacher/teacher.npz",
+    "old_heldout_metadata": "results/diagnostics/clearance_ppo_v3_seed61/collision_diagnosis.json",
+    "one_validation": "data/two_static_warmup_v1_seed61/one_validation.json",
+    "two_validation": "data/two_static_warmup_v1_seed61/two_validation.json",
+    "model_root": "models/four_obstacle_bc_v1_seed61",
+    "report_root": "results/diagnostics/four_obstacle_bc_v1_seed61",
+    "seed": 61,
+    "maximum_success_drop": 2,
+    "ppo_steps": 0,
+    "bc": {
+      "updates": 1000,
+      "checkpoints": [
+        25,
+        50,
+        100,
+        250,
+        500,
+        1000
+      ],
+      "batch_size": 256,
+      "learning_rate": 5e-05,
+      "task_weights": {
+        "four_static": 0.8,
+        "two_static": 0.1,
+        "one_static": 0.05,
+        "alignment": 0.05
+      },
+      "terminal_weight": 0.2,
+      "adapter_weight": 0.001,
+      "correction_weight": 3.0
+    }
+  },
+  "source_model": "results/diagnostics/four_static_on_path_v1_seed61/selected_model.zip",
+  "source_model_sha256": "9fcf8ab4249cc7feb1d5257501bb33f47dfee5345fc66343344e15f9e8372257",
+  "source_ppo_num_timesteps": 40000,
+  "configuration": {
+    "simulation": {
+      "timestep": 0.004166666666666667,
+      "substeps": 12,
+      "max_steps": 240,
+      "gravity": -9.81
+    },
+    "robot": {
+      "urdf": "assets/robot/kuka_iiwa/model.urdf",
+      "end_effector": 6,
+      "goal_q": [
+        0.0,
+        0.65,
+        0.0,
+        -1.3,
+        0.0,
+        -0.38,
+        0.0
+      ],
+      "start_offset": [
+        2.65,
+        0.9,
+        0.0,
+        1.15,
+        0.0,
+        0.25,
+        0.0
+      ],
+      "start_randomization": 0.03,
+      "near_start_probability": 0.0,
+      "near_start_randomization": 0.035,
+      "start_position_distance_range": [
+        1.8,
+        1.9
+      ]
+    },
+    "panel": {
+      "dimensions": [
+        0.3,
+        0.2,
+        0.03
+      ],
+      "mass": 0.25,
+      "offset": [
+        0.0,
+        0.0,
+        0.14
+      ],
+      "orientation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "target": {
+      "position_tolerance": 0.01,
+      "orientation_tolerance_deg": 2.0,
+      "wall_clearance": 0.025,
+      "wall_thickness": 0.04
+    },
+    "controller": {
+      "max_joint_increment_deg": 4.0,
+      "position_gain": 0.3,
+      "velocity_gain": 1.0,
+      "force": 250.0
+    },
+    "collision": {
+      "margin": 0.0,
+      "planning_clearance": 0.01,
+      "edge_resolution": 0.035
+    },
+    "obstacles": {
+      "stage": "C",
+      "max_count": 5,
+      "min_count": 5,
+      "dimensions": [
+        0.12,
+        0.12,
+        0.18
+      ],
+      "center": [
+        0.5,
+        0.25,
+        0.35
+      ],
+      "randomization": [
+        0.22,
+        0.3,
+        0.22
+      ],
+      "max_placement_attempts": 360,
+      "dimensions_by_obstacle": [
+        [
+          0.08,
+          0.08,
+          0.1
+        ],
+        [
+          0.1,
+          0.09,
+          0.13
+        ],
+        [
+          0.12,
+          0.1,
+          0.16
+        ],
+        [
+          0.09,
+          0.12,
+          0.14
+        ],
+        [
+          0.14,
+          0.12,
+          0.18
+        ]
+      ],
+      "min_obstacle_gap": 0.1,
+      "dynamic": {
+        "enabled": true,
+        "placement": "rrt_path",
+        "motion_mode": "random_3d",
+        "amplitude": 0.4,
+        "max_speed": 0.4,
+        "lateral_offset": 0.0
+      },
+      "freeze_motion": false
+    },
+    "noise": {
+      "position_std": 0.0,
+      "orientation_std_deg": 0.0
+    },
+    "reward": {
+      "position_progress": 100.0,
+      "orientation_progress": 12.0,
+      "action": 0.015,
+      "step": 0.05,
+      "collision": -50.0,
+      "joint_limit": -30.0,
+      "success": 100.0
+    },
+    "ppo": {
+      "learning_rate": 0.0003,
+      "n_steps": 250,
+      "batch_size": 100,
+      "n_epochs": 10,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip_range": 0.2,
+      "ent_coef": 0.0,
+      "log_std_init": -1.0,
+      "net_arch": [
+        128,
+        128
+      ],
+      "total_timesteps": 1000000,
+      "eval_freq": 50000,
+      "eval_episodes": 10
+    },
+    "rrt": {
+      "step_size": 0.22,
+      "goal_bias": 0.15,
+      "max_iterations": 6000,
+      "timeout": 15.0,
+      "shortcut_attempts": 40,
+      "ik_attempts": 12,
+      "ik_iterations": 200,
+      "ik_position_tolerance": 0.004,
+      "ik_orientation_tolerance_deg": 1.0,
+      "waypoint_tolerance": 0.008,
+      "dynamic_mode": "timed",
+      "timed_timeout": 30.0,
+      "dynamic_lookahead_steps": 3,
+      "dynamic_retry_steps": 5,
+      "verify_static_path": true,
+      "static_validation_resolution": 0.005
+    },
+    "seed": 42,
+    "evaluation": {
+      "episodes": 100,
+      "start_seed": 50000
+    },
+    "demo": {
+      "playback_speed": 0.5,
+      "camera_distance": 2.8,
+      "camera_target": [
+        0.0,
+        0.0,
+        0.6
+      ]
+    },
+    "observation": {
+      "obstacle_velocity": true
+    }
+  },
+  "evaluation_settings": {
+    "source_first": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+    "output_root": "models/bc_budget_v3_seed61",
+    "data_root": "data/staged_avoidance_v3_seed61",
+    "interface_contract": "reference_preserving_v3",
+    "terminal_radius": 0.2,
+    "reference_recovery": {
+      "radius": 0.3,
+      "min_distance": 0.08,
+      "improvement": 0.02
+    },
+    "environment": "configs/ppo_dynamic_clean.yaml",
+    "release": "releases/path_reference_bc_20261025",
+    "seed": 61,
+    "additional_timesteps": 10000,
+    "workers": 4,
+    "n_steps": 250,
+    "batch_size": 100,
+    "n_epochs": 3,
+    "learning_rate": 0.0001,
+    "clip_range": 0.05,
+    "target_kl": 0.005,
+    "eval_every": 5000,
+    "residual_scale": 2.0,
+    "initial_prior_gate": 0.5,
+    "action_std": 0.1,
+    "progress_weight": 0.25,
+    "joint_margin": 0.01,
+    "clearance_distance": 0.08,
+    "clearance_weight": 0.5,
+    "mixture": {
+      "alignment": 0.2,
+      "static": 0.3,
+      "dynamic": 0.5
+    },
+    "train_scenes": 64,
+    "validation_scenes": 20,
+    "train_seed_base": 800000,
+    "validation_seed_base": 900000,
+    "teacher": {
+      "alignment_episodes": 20,
+      "avoidance_episodes": 80,
+      "maximum_attempts": 500,
+      "minimum_unique_scenes": 10,
+      "updates": 10000,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "terminal_weight": 2.0,
+      "gate_retention_weight": 0.01,
+      "residual_weight": 0.001,
+      "closed_loop_updates": [
+        2000,
+        4000,
+        6000,
+        8000,
+        10000
+      ]
+    },
+    "bc_gate": {
+      "minimum_episodes": 20,
+      "minimum_alignment_episodes": 10,
+      "minimum_success_rate": 0.5,
+      "maximum_collision_rate": 0.25,
+      "minimum_alignment_success_rate": 0.9,
+      "maximum_goal_action": 0.005
+    },
+    "gate": {
+      "minimum_episodes": 20,
+      "minimum_alignment_episodes": 10,
+      "minimum_success_rate": 0.8,
+      "maximum_collision_rate": 0.1,
+      "minimum_alignment_success_rate": 0.9,
+      "consecutive_checks": 2
+    },
+    "stages": [
+      {
+        "name": "one_static",
+        "count": 1,
+        "mode": "static",
+        "amplitude": 0.05,
+        "speed": 0.02
+      },
+      {
+        "name": "one_dynamic",
+        "count": 1,
+        "mode": "dynamic",
+        "amplitude": 0.05,
+        "speed": 0.02
+      },
+      {
+        "name": "three_dynamic",
+        "count": 3,
+        "mode": "dynamic",
+        "amplitude": 0.1,
+        "speed": 0.05
+      },
+      {
+        "name": "five_dynamic_low",
+        "count": 5,
+        "mode": "dynamic",
+        "amplitude": 0.1,
+        "speed": 0.05
+      },
+      {
+        "name": "five_dynamic_full",
+        "count": 5,
+        "mode": "dynamic",
+        "amplitude": 0.4,
+        "speed": 0.4
+      }
+    ],
+    "active_stage": {
+      "name": "four_static",
+      "count": 4,
+      "mode": "static",
+      "amplitude": 0.05,
+      "speed": 0.02
+    },
+    "stage_index": 0,
+    "train_start_seed": 800000,
+    "validation_start_seed": 900000,
+    "data": "data/staged_avoidance_v3_seed61/one_static",
+    "stage_output": "models/targeted_bc_v3_seed61/targeted_mix",
+    "output": "models/targeted_bc_v3_seed61/targeted_mix/ppo",
+    "source_model": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+    "stall_reward": {
+      "window": 20,
+      "position_epsilon": 0.001,
+      "orientation_epsilon_deg": 0.1,
+      "path_epsilon": 0.01,
+      "joint_displacement": 0.02,
+      "weight": 0.1
+    },
+    "conditional_recovery": {
+      "window": 30,
+      "min_steps": 60,
+      "position_epsilon": 0.001,
+      "orientation_epsilon_deg": 0.1,
+      "max_joint_displacement": 0.02,
+      "min_reference_distance": 0.2,
+      "extended_radius": 0.45,
+      "max_attempts": 3,
+      "max_recoveries": 1,
+      "cooldown": 20
+    },
+    "on_path_obstacles": {
+      "fractions": [
+        0.4,
+        0.6,
+        0.2,
+        0.8
+      ],
+      "fraction_jitter": 0.045,
+      "center_jitter_m": 0.01,
+      "attempts_per_obstacle": 160
+    }
+  },
+  "code_hashes": {
+    "scripts/run_four_obstacle_bc.py": "5ec5992a95952844d65fad259bc293bd81879a47d2d50619de73d051dc564201",
+    "configs/four_obstacle_bc.yaml": "ae2f6df8b3e9dd5858c2dcb43f111501dae1c731e3e5ad812aa6533b510a1619",
+    "src/wall_panel_rl/rl/four_obstacle_bc.py": "9f9acd41f672f372e0ea4df54bbb3e69e900810a3b6bcc8bb72ae0fc8d3e7f20",
+    "src/wall_panel_rl/rl/multi_obstacle_adapter.py": "828873499553fdd18d6562485866b47380f5d6d690546a771145bb3d959b414a",
+    "src/wall_panel_rl/rl/episode_imitation.py": "2ae20124b37c0a5cd9280122c22b450c836fb2dc62e9bb120f902feae76327cb",
+    "src/wall_panel_rl/rl/conditional_recovery.py": "dc16f4ff4d68d84397d65eaccffbc2cff30744ca7fbb39d194638316a8558ba5"
+  },
+  "input_hashes": {
+    "results/diagnostics/four_static_on_path_v1_seed61/selected_model.zip": "9fcf8ab4249cc7feb1d5257501bb33f47dfee5345fc66343344e15f9e8372257",
+    "data/four_safe_teacher_v1_seed61/teacher/teacher.npz": "9940c49c63ac2d6a92fd63ecf78ffefaaabd557be9704bb4bb489644004cf65b",
+    "data/consistent_two_static_v4_seed61/teacher/teacher.npz": "290a918af242a76e242af90a3760e7b4ec7e246d204745b4a7ba3702d6b0ace6",
+    "data/four_safe_teacher_v1_seed61/validation_cases.json": "9e620fd7f63d9f68cba2212cd05364983c83b91090c26a760cb37a09a7a48d29",
+    "data/two_static_warmup_v1_seed61/one_validation.json": "9b1c3faf45d0c84bafb2fcb83d5be02760704521b655e86b0ff6c9571b97764a",
+    "data/two_static_warmup_v1_seed61/two_validation.json": "caadbb9d9265271c6478d0c3ef57c3726ba032fe7dc1adcd1f216bcdc341ebbc",
+    "results/diagnostics/clearance_ppo_v3_seed61/collision_diagnosis.json": "8945657a826a16a102a86f3ddf149e2a09e87d3844ab9e6c8bb7d1f09d1fad29"
+  },
+  "test_bank_sha256": "dc7009338caad50d43a4c4b2c8db01ebbd442c8c93076afe247a5d97982f8d65",
+  "new_test_used_for_selection": false,
+  "new_test_evaluated": false,
+  "excluded_scene_seeds": [
+    101000,
+    101001,
+    101002,
+    101003,
+    101004,
+    101005,
+    101006,
+    101007,
+    101008,
+    101009,
+    102000,
+    102001,
+    102002,
+    102003,
+    102004,
+    102005,
+    102006,
+    102007,
+    102008,
+    102009,
+    800010,
+    800015,
+    800019,
+    800022,
+    800042,
+    800045,
+    800052,
+    800055,
+    800057,
+    800062,
+    900000,
+    900001,
+    900002,
+    900003,
+    900004,
+    900005,
+    900006,
+    900007,
+    900008,
+    900009,
+    900010,
+    900011,
+    900012,
+    900013,
+    900014,
+    900015,
+    900016,
+    900017,
+    900018,
+    900019,
+    1022000,
+    1022001,
+    1022002,
+    1022003,
+    1022004,
+    1022005,
+    1022006,
+    1022007,
+    1022008,
+    1022009,
+    1022010,
+    1022011,
+    1022012,
+    1022013,
+    1022014,
+    1022015,
+    1022016,
+    1022017,
+    1022018,
+    1022019,
+    1022020,
+    1022021,
+    1022022,
+    1022023,
+    1022024,
+    1022025,
+    1022026,
+    1022027,
+    1022028,
+    1022029,
+    1022030,
+    1022031,
+    1024001,
+    1024002,
+    1024003,
+    1024004,
+    1024005,
+    1024006,
+    1024007,
+    1024008,
+    1024009,
+    1024010,
+    1024011,
+    1024012,
+    1024013,
+    1024014,
+    1024015,
+    1024016,
+    1024017,
+    1024018,
+    1024019,
+    1024020,
+    1024021,
+    1024022,
+    1024023,
+    1024024,
+    1024025,
+    1024026,
+    1024027,
+    1024028,
+    1024029,
+    1024030,
+    1024031,
+    1024032,
+    1024033,
+    1024034,
+    1024035,
+    1024036,
+    1024037,
+    1024038,
+    1024039,
+    1024040,
+    1024041,
+    1024042,
+    1024043,
+    1024044,
+    1024045,
+    1024046,
+    1024047,
+    1024048,
+    1024049,
+    1024050,
+    1024051,
+    1024052,
+    1024053,
+    1024054,
+    1024055,
+    1024056,
+    1024057,
+    1024058,
+    1024059,
+    1024060,
+    1024061,
+    1024062,
+    1024063,
+    1024064
+  ],
+  "train_scene_seeds": [
+    800000,
+    800001,
+    800002,
+    800003,
+    800004,
+    800005,
+    800006,
+    800007,
+    800008,
+    800009,
+    800011,
+    800012,
+    800013,
+    800014,
+    800016,
+    800017,
+    800018,
+    800020,
+    800021,
+    800023,
+    800024,
+    800025,
+    800026,
+    800027,
+    800028,
+    800029,
+    800030,
+    800031,
+    800032,
+    800033,
+    800034,
+    800035,
+    800036,
+    800037,
+    800038,
+    800039,
+    800040,
+    800041,
+    800043,
+    800044,
+    800046,
+    800047,
+    800048,
+    800049,
+    800050,
+    800051,
+    800053,
+    800054,
+    800056,
+    800058,
+    800059,
+    800060,
+    800061,
+    800063,
+    1014000,
+    1014001,
+    1014002,
+    1014003,
+    1014004,
+    1014005,
+    1014006,
+    1014007,
+    1014008,
+    1014009,
+    1014010,
+    1014011,
+    1014012,
+    1014013,
+    1014014,
+    1014015,
+    1014016,
+    1014017,
+    1014018,
+    1014019,
+    1014020,
+    1014021,
+    1014022,
+    1014023,
+    1014024,
+    1014025,
+    1014026,
+    1014027,
+    1014028,
+    1014029,
+    1014030,
+    1014031,
+    1014032,
+    1014033,
+    1014034,
+    1014035,
+    1014036,
+    1014037,
+    1014038,
+    1014039,
+    1014040,
+    1014041,
+    1014042,
+    1014043,
+    1014044,
+    1014045,
+    1014046,
+    1014047,
+    1014048,
+    1014049,
+    1014050,
+    1014051,
+    1014052,
+    1014053,
+    1014054,
+    1014055,
+    1014056,
+    1014057,
+    1014058,
+    1014059,
+    1014060,
+    1014061,
+    1014062,
+    1014063,
+    1014064,
+    1014065,
+    1014066,
+    1014067,
+    1014068,
+    1014069,
+    1014070,
+    1014071,
+    1014072,
+    1014073,
+    1014074,
+    1014075,
+    1014076,
+    1014077,
+    1014078,
+    1014079,
+    1014080,
+    1014081,
+    1014082,
+    1014083,
+    1014084,
+    1014085,
+    1014086,
+    1014087,
+    1014088,
+    1014089,
+    1014090,
+    1014091,
+    1014092,
+    1014093,
+    1014094,
+    1014095,
+    1014096,
+    1014097,
+    1014098,
+    1014099,
+    1014100,
+    1014101,
+    1014102,
+    1014103,
+    1014104,
+    1014105,
+    1014106,
+    1014107,
+    1014108,
+    1014109,
+    1014110,
+    1014111,
+    1014112,
+    1014113,
+    1014114,
+    1014115,
+    1014116,
+    1014117,
+    1014118,
+    1014119,
+    1014120,
+    1014121,
+    1014122,
+    1014123,
+    1014124,
+    1014125,
+    1014126,
+    1014127,
+    1020000,
+    1020001,
+    1020002,
+    1020003,
+    1020004,
+    1020006,
+    1020007,
+    1020008,
+    1020009,
+    1020010,
+    1020011,
+    1020012,
+    1020013,
+    1020014,
+    1020015,
+    1020016,
+    1020017,
+    1020018,
+    1020019,
+    1020020,
+    1020021,
+    1020022,
+    1020023,
+    1020024,
+    1020025,
+    1020026,
+    1020027,
+    1020028,
+    1020029,
+    1020030,
+    1020031,
+    1020032,
+    1020033,
+    1020035,
+    1020036,
+    1020037,
+    1020038,
+    1020039,
+    1020040,
+    1020041,
+    1020042,
+    1020043,
+    1020044,
+    1020045,
+    1020046,
+    1020047,
+    1020048,
+    1020049,
+    1020050,
+    1020051,
+    1020052,
+    1020053,
+    1020054,
+    1020055,
+    1020056,
+    1020057,
+    1020058,
+    1020059,
+    1020060,
+    1020061,
+    1020062,
+    1020063,
+    1020064,
+    1020065
+  ],
+  "included_episodes": [
+    {
+      "source": "verified_four",
+      "source_episode": 0,
+      "seed": 1020000,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 1,
+      "seed": 1020001,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 2,
+      "seed": 1020002,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 3,
+      "seed": 1020003,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 4,
+      "seed": 1020004,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 5,
+      "seed": 1020006,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 6,
+      "seed": 1020007,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 7,
+      "seed": 1020008,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 8,
+      "seed": 1020009,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 9,
+      "seed": 1020010,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 10,
+      "seed": 1020011,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 11,
+      "seed": 1020012,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 12,
+      "seed": 1020013,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 13,
+      "seed": 1020014,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 14,
+      "seed": 1020015,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 15,
+      "seed": 1020016,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 16,
+      "seed": 1020017,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 17,
+      "seed": 1020018,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 18,
+      "seed": 1020019,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 19,
+      "seed": 1020020,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 20,
+      "seed": 1020021,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 21,
+      "seed": 1020022,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 22,
+      "seed": 1020023,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 23,
+      "seed": 1020024,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 24,
+      "seed": 1020025,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 25,
+      "seed": 1020026,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 26,
+      "seed": 1020027,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 27,
+      "seed": 1020028,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 28,
+      "seed": 1020029,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 29,
+      "seed": 1020030,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 30,
+      "seed": 1020031,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 31,
+      "seed": 1020032,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 32,
+      "seed": 1020033,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 33,
+      "seed": 1020035,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 34,
+      "seed": 1020036,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 35,
+      "seed": 1020037,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 36,
+      "seed": 1020038,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 37,
+      "seed": 1020039,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 38,
+      "seed": 1020040,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 39,
+      "seed": 1020041,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 40,
+      "seed": 1020042,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 41,
+      "seed": 1020043,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 42,
+      "seed": 1020044,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 43,
+      "seed": 1020045,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 44,
+      "seed": 1020046,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 45,
+      "seed": 1020047,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 46,
+      "seed": 1020048,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 47,
+      "seed": 1020049,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 48,
+      "seed": 1020050,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 49,
+      "seed": 1020051,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 50,
+      "seed": 1020052,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 51,
+      "seed": 1020053,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 52,
+      "seed": 1020054,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 53,
+      "seed": 1020055,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 54,
+      "seed": 1020056,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 55,
+      "seed": 1020057,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 56,
+      "seed": 1020058,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 57,
+      "seed": 1020059,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 58,
+      "seed": 1020060,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 59,
+      "seed": 1020061,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 60,
+      "seed": 1020062,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 61,
+      "seed": 1020063,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 62,
+      "seed": 1020064,
+      "task": "four_static"
+    },
+    {
+      "source": "verified_four",
+      "source_episode": 63,
+      "seed": 1020065,
+      "task": "four_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 0,
+      "seed": 800000,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 1,
+      "seed": 800000,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 2,
+      "seed": 800001,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 3,
+      "seed": 800001,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 4,
+      "seed": 800002,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 5,
+      "seed": 800002,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 6,
+      "seed": 800003,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 7,
+      "seed": 800003,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 8,
+      "seed": 800004,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 9,
+      "seed": 800004,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 10,
+      "seed": 800005,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 11,
+      "seed": 800005,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 12,
+      "seed": 800006,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 13,
+      "seed": 800006,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 14,
+      "seed": 800007,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 15,
+      "seed": 800007,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 16,
+      "seed": 800008,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 17,
+      "seed": 800008,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 18,
+      "seed": 800009,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 19,
+      "seed": 800009,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 23,
+      "seed": 800011,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 24,
+      "seed": 800011,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 25,
+      "seed": 800012,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 26,
+      "seed": 800012,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 27,
+      "seed": 800013,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 28,
+      "seed": 800013,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 29,
+      "seed": 800014,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 30,
+      "seed": 800014,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 34,
+      "seed": 800016,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 35,
+      "seed": 800016,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 36,
+      "seed": 800017,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 37,
+      "seed": 800017,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 38,
+      "seed": 800018,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 39,
+      "seed": 800018,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 43,
+      "seed": 800020,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 44,
+      "seed": 800020,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 45,
+      "seed": 800021,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 46,
+      "seed": 800021,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 50,
+      "seed": 800023,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 51,
+      "seed": 800023,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 52,
+      "seed": 800024,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 53,
+      "seed": 800024,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 54,
+      "seed": 800025,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 55,
+      "seed": 800025,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 56,
+      "seed": 800026,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 57,
+      "seed": 800026,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 58,
+      "seed": 800027,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 59,
+      "seed": 800027,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 60,
+      "seed": 800028,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 61,
+      "seed": 800028,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 62,
+      "seed": 800029,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 63,
+      "seed": 800029,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 64,
+      "seed": 800030,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 65,
+      "seed": 800030,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 66,
+      "seed": 800031,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 67,
+      "seed": 800031,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 68,
+      "seed": 800032,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 69,
+      "seed": 800032,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 70,
+      "seed": 800033,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 71,
+      "seed": 800033,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 72,
+      "seed": 800034,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 73,
+      "seed": 800034,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 74,
+      "seed": 800035,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 75,
+      "seed": 800035,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 76,
+      "seed": 800036,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 77,
+      "seed": 800036,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 78,
+      "seed": 800037,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 79,
+      "seed": 800037,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 80,
+      "seed": 800038,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 81,
+      "seed": 800038,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 82,
+      "seed": 800039,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 83,
+      "seed": 800039,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 84,
+      "seed": 800040,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 85,
+      "seed": 800040,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 86,
+      "seed": 800041,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 87,
+      "seed": 800041,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 91,
+      "seed": 800043,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 92,
+      "seed": 800043,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 93,
+      "seed": 800044,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 94,
+      "seed": 800044,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 98,
+      "seed": 800046,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 99,
+      "seed": 800046,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 100,
+      "seed": 800047,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 101,
+      "seed": 800047,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 102,
+      "seed": 800048,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 103,
+      "seed": 800048,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 104,
+      "seed": 800049,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 105,
+      "seed": 800049,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 106,
+      "seed": 800050,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 107,
+      "seed": 800050,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 108,
+      "seed": 800051,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 109,
+      "seed": 800051,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 113,
+      "seed": 800053,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 114,
+      "seed": 800053,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 115,
+      "seed": 800054,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 116,
+      "seed": 800054,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 120,
+      "seed": 800056,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 121,
+      "seed": 800056,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 125,
+      "seed": 800058,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 126,
+      "seed": 800058,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 127,
+      "seed": 800059,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 128,
+      "seed": 800059,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 129,
+      "seed": 800060,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 130,
+      "seed": 800060,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 131,
+      "seed": 800061,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 132,
+      "seed": 800061,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 136,
+      "seed": 800063,
+      "task": "one_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 137,
+      "seed": 800063,
+      "task": "alignment"
+    },
+    {
+      "source": "retention",
+      "source_episode": 138,
+      "seed": 800000,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 139,
+      "seed": 800001,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 140,
+      "seed": 800002,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 141,
+      "seed": 800003,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 142,
+      "seed": 800004,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 143,
+      "seed": 800005,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 144,
+      "seed": 800006,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 145,
+      "seed": 800007,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 146,
+      "seed": 800008,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 147,
+      "seed": 800009,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 148,
+      "seed": 800011,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 149,
+      "seed": 800012,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 150,
+      "seed": 800013,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 151,
+      "seed": 800014,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 152,
+      "seed": 800016,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 153,
+      "seed": 800017,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 154,
+      "seed": 800018,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 155,
+      "seed": 800020,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 156,
+      "seed": 800021,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 157,
+      "seed": 800023,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 158,
+      "seed": 800024,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 159,
+      "seed": 800025,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 160,
+      "seed": 800026,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 161,
+      "seed": 800027,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 162,
+      "seed": 800028,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 163,
+      "seed": 800029,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 164,
+      "seed": 800030,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 165,
+      "seed": 800031,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 166,
+      "seed": 800032,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 167,
+      "seed": 800033,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 168,
+      "seed": 800034,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 169,
+      "seed": 800035,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 170,
+      "seed": 800036,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 171,
+      "seed": 800037,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 172,
+      "seed": 800038,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 173,
+      "seed": 800039,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 174,
+      "seed": 800040,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 175,
+      "seed": 800041,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 176,
+      "seed": 800043,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 177,
+      "seed": 800044,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 178,
+      "seed": 800046,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 179,
+      "seed": 800047,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 180,
+      "seed": 800048,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 181,
+      "seed": 800049,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 182,
+      "seed": 800050,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 183,
+      "seed": 800051,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 184,
+      "seed": 800053,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 185,
+      "seed": 800054,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 186,
+      "seed": 800056,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 187,
+      "seed": 800058,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 188,
+      "seed": 800059,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 189,
+      "seed": 800060,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 190,
+      "seed": 800061,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 191,
+      "seed": 800063,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 192,
+      "seed": 1014000,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 193,
+      "seed": 1014001,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 194,
+      "seed": 1014002,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 195,
+      "seed": 1014003,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 196,
+      "seed": 1014004,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 197,
+      "seed": 1014005,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 198,
+      "seed": 1014006,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 199,
+      "seed": 1014007,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 200,
+      "seed": 1014008,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 201,
+      "seed": 1014009,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 202,
+      "seed": 1014010,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 203,
+      "seed": 1014011,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 204,
+      "seed": 1014012,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 205,
+      "seed": 1014013,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 206,
+      "seed": 1014014,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 207,
+      "seed": 1014015,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 208,
+      "seed": 1014016,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 209,
+      "seed": 1014017,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 210,
+      "seed": 1014018,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 211,
+      "seed": 1014019,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 212,
+      "seed": 1014020,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 213,
+      "seed": 1014021,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 214,
+      "seed": 1014022,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 215,
+      "seed": 1014023,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 216,
+      "seed": 1014024,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 217,
+      "seed": 1014025,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 218,
+      "seed": 1014026,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 219,
+      "seed": 1014027,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 220,
+      "seed": 1014028,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 221,
+      "seed": 1014029,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 222,
+      "seed": 1014030,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 223,
+      "seed": 1014031,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 224,
+      "seed": 1014032,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 225,
+      "seed": 1014033,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 226,
+      "seed": 1014034,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 227,
+      "seed": 1014035,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 228,
+      "seed": 1014036,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 229,
+      "seed": 1014037,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 230,
+      "seed": 1014038,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 231,
+      "seed": 1014039,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 232,
+      "seed": 1014040,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 233,
+      "seed": 1014041,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 234,
+      "seed": 1014042,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 235,
+      "seed": 1014043,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 236,
+      "seed": 1014044,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 237,
+      "seed": 1014045,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 238,
+      "seed": 1014046,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 239,
+      "seed": 1014047,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 240,
+      "seed": 1014048,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 241,
+      "seed": 1014049,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 242,
+      "seed": 1014050,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 243,
+      "seed": 1014051,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 244,
+      "seed": 1014052,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 245,
+      "seed": 1014053,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 246,
+      "seed": 1014054,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 247,
+      "seed": 1014055,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 248,
+      "seed": 1014056,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 249,
+      "seed": 1014057,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 250,
+      "seed": 1014058,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 251,
+      "seed": 1014059,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 252,
+      "seed": 1014060,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 253,
+      "seed": 1014061,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 254,
+      "seed": 1014062,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 255,
+      "seed": 1014063,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 256,
+      "seed": 1014064,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 257,
+      "seed": 1014065,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 258,
+      "seed": 1014066,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 259,
+      "seed": 1014067,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 260,
+      "seed": 1014068,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 261,
+      "seed": 1014069,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 262,
+      "seed": 1014070,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 263,
+      "seed": 1014071,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 264,
+      "seed": 1014072,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 265,
+      "seed": 1014073,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 266,
+      "seed": 1014074,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 267,
+      "seed": 1014075,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 268,
+      "seed": 1014076,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 269,
+      "seed": 1014077,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 270,
+      "seed": 1014078,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 271,
+      "seed": 1014079,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 272,
+      "seed": 1014080,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 273,
+      "seed": 1014081,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 274,
+      "seed": 1014082,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 275,
+      "seed": 1014083,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 276,
+      "seed": 1014084,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 277,
+      "seed": 1014085,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 278,
+      "seed": 1014086,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 279,
+      "seed": 1014087,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 280,
+      "seed": 1014088,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 281,
+      "seed": 1014089,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 282,
+      "seed": 1014090,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 283,
+      "seed": 1014091,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 284,
+      "seed": 1014092,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 285,
+      "seed": 1014093,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 286,
+      "seed": 1014094,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 287,
+      "seed": 1014095,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 288,
+      "seed": 1014096,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 289,
+      "seed": 1014097,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 290,
+      "seed": 1014098,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 291,
+      "seed": 1014099,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 292,
+      "seed": 1014100,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 293,
+      "seed": 1014101,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 294,
+      "seed": 1014102,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 295,
+      "seed": 1014103,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 296,
+      "seed": 1014104,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 297,
+      "seed": 1014105,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 298,
+      "seed": 1014106,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 299,
+      "seed": 1014107,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 300,
+      "seed": 1014108,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 301,
+      "seed": 1014109,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 302,
+      "seed": 1014110,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 303,
+      "seed": 1014111,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 304,
+      "seed": 1014112,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 305,
+      "seed": 1014113,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 306,
+      "seed": 1014114,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 307,
+      "seed": 1014115,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 308,
+      "seed": 1014116,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 309,
+      "seed": 1014117,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 310,
+      "seed": 1014118,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 311,
+      "seed": 1014119,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 312,
+      "seed": 1014120,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 313,
+      "seed": 1014121,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 314,
+      "seed": 1014122,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 315,
+      "seed": 1014123,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 316,
+      "seed": 1014124,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 317,
+      "seed": 1014125,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 318,
+      "seed": 1014126,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 319,
+      "seed": 1014127,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 320,
+      "seed": 800002,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 321,
+      "seed": 800002,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 322,
+      "seed": 800003,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 323,
+      "seed": 800006,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 324,
+      "seed": 800007,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 325,
+      "seed": 800009,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 326,
+      "seed": 800009,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 327,
+      "seed": 800011,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 328,
+      "seed": 800014,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 329,
+      "seed": 800026,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 330,
+      "seed": 800031,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 331,
+      "seed": 800037,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 332,
+      "seed": 800050,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 333,
+      "seed": 800050,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 334,
+      "seed": 800054,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 335,
+      "seed": 1014000,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 336,
+      "seed": 1014000,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 337,
+      "seed": 1014018,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 338,
+      "seed": 1014025,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 339,
+      "seed": 1014028,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 340,
+      "seed": 1014037,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 341,
+      "seed": 1014045,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 342,
+      "seed": 1014046,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 343,
+      "seed": 1014048,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 344,
+      "seed": 1014048,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 345,
+      "seed": 1014049,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 346,
+      "seed": 1014051,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 347,
+      "seed": 1014052,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 348,
+      "seed": 1014057,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 349,
+      "seed": 1014058,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 350,
+      "seed": 1014060,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 351,
+      "seed": 1014062,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 352,
+      "seed": 1014063,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 353,
+      "seed": 1014067,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 354,
+      "seed": 1014067,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 355,
+      "seed": 1014071,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 356,
+      "seed": 1014072,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 357,
+      "seed": 1014072,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 358,
+      "seed": 1014075,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 359,
+      "seed": 1014078,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 360,
+      "seed": 1014088,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 361,
+      "seed": 1014089,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 362,
+      "seed": 1014090,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 363,
+      "seed": 1014090,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 364,
+      "seed": 1014094,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 365,
+      "seed": 1014104,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 366,
+      "seed": 1014108,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 367,
+      "seed": 1014110,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 368,
+      "seed": 1014115,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 369,
+      "seed": 1014123,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 370,
+      "seed": 1014124,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 371,
+      "seed": 800002,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 372,
+      "seed": 800002,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 373,
+      "seed": 800003,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 374,
+      "seed": 800006,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 375,
+      "seed": 800007,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 376,
+      "seed": 800009,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 377,
+      "seed": 800009,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 378,
+      "seed": 800011,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 379,
+      "seed": 800014,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 380,
+      "seed": 800026,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 381,
+      "seed": 800031,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 382,
+      "seed": 800037,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 383,
+      "seed": 800050,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 384,
+      "seed": 800050,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 385,
+      "seed": 800054,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 386,
+      "seed": 1014000,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 387,
+      "seed": 1014000,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 388,
+      "seed": 1014018,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 389,
+      "seed": 1014025,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 390,
+      "seed": 1014028,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 391,
+      "seed": 1014037,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 392,
+      "seed": 1014045,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 393,
+      "seed": 1014048,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 394,
+      "seed": 1014048,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 395,
+      "seed": 1014049,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 396,
+      "seed": 1014051,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 397,
+      "seed": 1014052,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 398,
+      "seed": 1014057,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 399,
+      "seed": 1014058,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 400,
+      "seed": 1014060,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 401,
+      "seed": 1014062,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 402,
+      "seed": 1014063,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 403,
+      "seed": 1014067,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 404,
+      "seed": 1014067,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 405,
+      "seed": 1014070,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 406,
+      "seed": 1014071,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 407,
+      "seed": 1014072,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 408,
+      "seed": 1014075,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 409,
+      "seed": 1014088,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 410,
+      "seed": 1014089,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 411,
+      "seed": 1014090,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 412,
+      "seed": 1014090,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 413,
+      "seed": 1014094,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 414,
+      "seed": 1014104,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 415,
+      "seed": 1014108,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 416,
+      "seed": 1014110,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 417,
+      "seed": 1014115,
+      "task": "two_static"
+    },
+    {
+      "source": "retention",
+      "source_episode": 418,
+      "seed": 1014123,
+      "task": "two_static"
+    }
+  ],
+  "group_episode_counts": {
+    "four_static": 64,
+    "two_static": 281,
+    "one_static": 54,
+    "alignment": 54
+  },
+  "retention_labels": "deterministic INITIAL policy mean on old training observations, not old RRT labels",
+  "validation_controller": "pure deterministic policy; no RRT branch or action rejection",
+  "selection": "old one/alignment trajectories identical, old two success/collision non-regression; four success decrease at most2 episodes; allow prevented collisions to become timeouts; fewer collisions, then more success; ties keep earlier checkpoint",
+  "ppo_steps": 0,
+  "default_demo_unchanged": true
+}

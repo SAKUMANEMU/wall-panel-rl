@@ -1,0 +1,6 @@
+{
+  "success -> success": 50,
+  "success -> collision": 3,
+  "collision -> collision": 8,
+  "success -> timeout": 3
+}

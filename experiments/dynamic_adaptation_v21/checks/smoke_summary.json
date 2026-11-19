@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "teacher_steps": 64,
+  "teacher_seed": 1166007,
+  "bc_updates": 4,
+  "ppo_additional_steps": 256,
+  "source_unchanged": true,
+  "formal_validation_or_test_used_for_training": false
+}

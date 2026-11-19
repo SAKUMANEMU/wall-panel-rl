@@ -1,0 +1,23 @@
+{
+  "seed": 20261112,
+  "input_hashes": {
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/standalone_ppo_v22_seed20261112/initial_teacher_labels.npz": "c6198cee38376945f3db3ff5b9e29f83b3a13aae0876a5bfab20235d7de880b3",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/standalone_ppo_v22_seed20261112/dagger_labels.npz": "b40a4fa7748f9a7d614b278beb908881b62e4d0920effc6a7c6a71187b901c67",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/standalone_ppo_v22_seed20261112/frozen_test_cases.json": "df5b11492a596f9f9ad16cec84c7e39f648cb23d35d1aed97d619045a145e266",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/standalone_ppo_v22_seed20261112/collection_complete.json": "5fbbcebc429f1bf6efe132579dd33793583cf4f598256acfbf1cb95c86a21f8c",
+    "/home/johnsonchen/wall-panel-rl/experiments/standalone_ppo_v22/models/current_ppo.zip": "9dde7d9e800bd70afa2f8ac98357abed2ad8778b579f7823c187937040ae76b1",
+    "/home/johnsonchen/wall-panel-rl/experiments/standalone_ppo_v22/data/train_cases.json": "3da148d1e4e70db802aadc9e03a595f387f94456f3bbb44f36d9e9385bb5214a",
+    "/home/johnsonchen/wall-panel-rl/experiments/standalone_ppo_v22/data/selection_cases.json": "023360243c2dd9a1787818db8e30130aa82413c35b648bb501865c72d96f37f6",
+    "/home/johnsonchen/wall-panel-rl/experiments/standalone_ppo_v22/data/validation_cases.json": "f5cbcfff5a2dd116cc246ffca4b63b13700ab587b4d26cb64c9ee4ec876d98d4"
+  },
+  "resume_script_sha256": "7760da3b3780d424345a1a0a191fc33e73318e661828a3eae85d7de1a8f5126d",
+  "prior_supervised_updates_not_repeated": 3000,
+  "remaining_aggregate_fit_updates": 1500,
+  "ppo_steps_per_arm": 32768,
+  "ppo_learning_rates": [
+    3e-06,
+    1e-05
+  ],
+  "direct_policy_selection_only": true,
+  "no_scene_generation_or_expert_collection": true
+}

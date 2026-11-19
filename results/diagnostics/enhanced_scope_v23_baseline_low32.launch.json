@@ -1,0 +1,18 @@
+{
+  "pid": 7126,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "scripts/evaluate_agent.py",
+    "--mode",
+    "enhanced",
+    "--episodes",
+    "32",
+    "--workers",
+    "4",
+    "--bank",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/standalone_ppo_v22_seed20261112/frozen_test_cases.json",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/enhanced_scope_v23_baseline_low32"
+  ],
+  "log": "/home/johnsonchen/wall-panel-rl/results/diagnostics/enhanced_scope_v23_baseline_low32.log"
+}

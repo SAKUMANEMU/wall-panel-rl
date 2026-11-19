@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-02T13:58:56.185236+08:00",
+  "training_performed": true,
+  "ppo_budget": 10000,
+  "expert_probability": 0.5,
+  "phase": "complete",
+  "ppo_additional_steps": 10000,
+  "validation_target": {
+    "episodes": 20,
+    "success": 0,
+    "collision": 20,
+    "timeout": 0,
+    "joint_limit": 0
+  },
+  "selected_additional_steps": 0
+}

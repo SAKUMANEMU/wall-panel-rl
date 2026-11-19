@@ -1,0 +1,86 @@
+{
+  "policy_class": "wall_panel_rl.rl.multi_obstacle_adapter.MultiObstaclePolicy",
+  "cumulative_source_timesteps": 64000,
+  "policy_kwargs": {
+    "joint_lower": [
+      -2.96705972839,
+      -2.09439510239,
+      -2.96705972839,
+      -2.09439510239,
+      -2.96705972839,
+      -2.09439510239,
+      -3.05432619099
+    ],
+    "joint_upper": [
+      2.96705972839,
+      2.09439510239,
+      2.96705972839,
+      2.09439510239,
+      2.96705972839,
+      2.09439510239,
+      3.05432619099
+    ],
+    "joint_increment": 0.06981317007977318,
+    "joint_margin": 0.01,
+    "initial_gain": 0.7,
+    "net_arch": {
+      "pi": [],
+      "vf": [
+        128,
+        128
+      ]
+    },
+    "residual_scale": 2.0,
+    "initial_prior_gate": 0.5,
+    "goal_angles": [
+      0.0,
+      0.65,
+      0.0,
+      -1.3,
+      0.0,
+      -0.38,
+      0.0
+    ],
+    "terminal_radius": 0.2,
+    "adapter_hidden": 128,
+    "adapter_scale": 2.0
+  },
+  "hyperparameters": {
+    "n_steps": 250,
+    "batch_size": 100,
+    "n_epochs": 3,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "ent_coef": 0.0,
+    "vf_coef": 0.1,
+    "learning_rate": 3e-06,
+    "target_kl": 0.005,
+    "max_grad_norm": 0.5
+  },
+  "clip_range": 0.05,
+  "gaussian_action_std": [
+    0.09999999403953552,
+    0.09999999403953552,
+    0.09999999403953552,
+    0.09999999403953552,
+    0.09999999403953552,
+    0.09999999403953552,
+    0.09999999403953552
+  ],
+  "trainable_parameter_names": [
+    "mlp_extractor.value_net.0.weight",
+    "mlp_extractor.value_net.0.bias",
+    "mlp_extractor.value_net.2.weight",
+    "mlp_extractor.value_net.2.bias",
+    "value_net.weight",
+    "value_net.bias",
+    "multi_adapter.0.weight",
+    "multi_adapter.0.bias",
+    "multi_adapter.2.weight",
+    "multi_adapter.2.bias",
+    "multi_adapter.4.weight",
+    "multi_adapter.4.bias"
+  ],
+  "sha256": "f059554915581537e35b57f7226346577ea4bfbc99cb1db0946b75ae2c539aba",
+  "note": "Historical checkpoint metadata; not additional training performed for this submission."
+}

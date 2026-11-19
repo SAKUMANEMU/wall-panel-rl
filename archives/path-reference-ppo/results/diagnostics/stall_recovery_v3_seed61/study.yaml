@@ -1,0 +1,32 @@
+base_scenes: data/staged_avoidance_v3_seed61/one_static
+base_teacher: data/targeted_bc_v3_seed61/mixed_teacher
+bc_checkpoints:
+- 2000
+- 4000
+- 6000
+- 8000
+- 10000
+bc_learning_rate: 0.0001
+bc_updates: 10000
+correction_successes: 40
+data_root: data/stall_recovery_v3_seed61
+independent_scenes: 100
+independent_start_seed: 990000
+initial_bc_state: models/targeted_bc_v3_seed61/targeted_mix/bc/checkpoints/bc_10000.bc_state.pt
+initial_model: models/targeted_bc_v3_seed61/targeted_mix/bc/checkpoints/bc_10000.zip
+maximum_correction_attempts: 120
+maximum_generation_attempts: 1000
+maximum_handoff_step: 160
+output_root: models/stall_recovery_v3_seed61
+parent_report: /home/johnsonchen/wall-panel-rl/results/diagnostics/targeted_bc_v3_seed61
+ppo_eval_every: 5000
+ppo_learning_rate: 0.0001
+ppo_steps: 10000
+report_root: /home/johnsonchen/wall-panel-rl/results/diagnostics/stall_recovery_v3_seed61
+stall_reward:
+  joint_displacement: 0.02
+  orientation_epsilon_deg: 0.1
+  path_epsilon: 0.01
+  position_epsilon: 0.001
+  weight: 0.1
+  window: 20

@@ -1,0 +1,9 @@
+{
+  "seed": 4130001,
+  "step": 40,
+  "reproduced_joint_gap_rad": 0.0,
+  "candidate_mode": "paired",
+  "reference_escape_rejected": true,
+  "prediction_state_restored": true,
+  "model_training_performed": false
+}

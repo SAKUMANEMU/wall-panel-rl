@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-02T13:55:34.828300+08:00",
+  "fresh_targets": 100,
+  "three_ppo_budget": 10000,
+  "automatic_dynamic_stage": false,
+  "phase": "complete",
+  "updated_at": "2026-11-02T14:07:09.970847+08:00",
+  "accepted": 100,
+  "rejected": 0,
+  "one_fresh": {
+    "episodes": 100,
+    "success": 95,
+    "collision": 2,
+    "timeout": 3,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "three_initial": {
+    "episodes": 20,
+    "success": 0,
+    "collision": 1,
+    "timeout": 17,
+    "joint_limit": 2,
+    "planning_failure": 0
+  },
+  "three_stage_ready": false
+}

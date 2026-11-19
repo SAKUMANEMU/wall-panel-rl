@@ -1,0 +1,12 @@
+{
+  "initial_model_sha256": "9fcf8ab4249cc7feb1d5257501bb33f47dfee5345fc66343344e15f9e8372257",
+  "weights_byte_identical": true,
+  "four_static_bodies_in_all_cases": true,
+  "start_goal_valid_in_all_cases": true,
+  "minimum_box_gap_m": 0.20355061872485047,
+  "configuration_changes_only_active_stage": true,
+  "training_steps": 0,
+  "new_obstacle_inputs_ignored_by_initialization": true,
+  "seen_underlying_bank": true,
+  "independent_test": false
+}

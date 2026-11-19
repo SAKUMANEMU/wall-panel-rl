@@ -1,0 +1,10 @@
+{"ppo_additional_steps": 0, "pool_size": 166, "loss": 0.0041832756251096725, "sampled_kl": 0.00030491442885249853, "accepted": true}
+{"ppo_additional_steps": 1000, "pool_size": 166, "loss": 0.004871294368058443, "sampled_kl": 0.00031996978214010596, "accepted": true}
+{"ppo_additional_steps": 2000, "pool_size": 352, "loss": 0.004501951392740011, "sampled_kl": 0.00024814961943775415, "accepted": true}
+{"ppo_additional_steps": 3000, "pool_size": 600, "loss": 0.004147922154515982, "sampled_kl": 0.0002370241709286347, "accepted": true}
+{"ppo_additional_steps": 4000, "pool_size": 769, "loss": 0.004594666417688131, "sampled_kl": 0.00024161889450624585, "accepted": true}
+{"ppo_additional_steps": 5000, "pool_size": 1000, "loss": 0.0048636989668011665, "sampled_kl": 0.0002430728927720338, "accepted": true}
+{"ppo_additional_steps": 6000, "pool_size": 1906, "loss": 0.006950594484806061, "sampled_kl": 0.0002127415791619569, "accepted": true}
+{"ppo_additional_steps": 7000, "pool_size": 2639, "loss": 0.010508748702704906, "sampled_kl": 0.00021470681531354785, "accepted": true}
+{"ppo_additional_steps": 8000, "pool_size": 3500, "loss": 0.0054575917311012745, "sampled_kl": 0.00021715920593123883, "accepted": true}
+{"ppo_additional_steps": 9000, "pool_size": 4119, "loss": 0.01085386797785759, "sampled_kl": 0.0001998853258555755, "accepted": true}

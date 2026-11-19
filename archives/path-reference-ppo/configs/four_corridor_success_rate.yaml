@@ -1,0 +1,13 @@
+seed: 181
+validation_count: 64
+first_scene_seed: 1188000
+maximum_generation_attempts: 4000
+workers: 4
+source_report: results/diagnostics/four_dynamic_speed_v9_fast02_seed71
+source_model: results/diagnostics/four_dynamic_speed_v9_fast02_seed71/selected_model.zip
+motion_profile: configs/four_vertical_corridor.yaml
+controller_config: configs/four_progress_controller.json
+data_root: data/four_corridor_validation_v20_seed181
+report_root: results/diagnostics/four_corridor_validation_v20_seed181
+# Two execution modes on the exact same frozen bank; no training or final test.
+execution_modes: [ppo_progress, ppo]

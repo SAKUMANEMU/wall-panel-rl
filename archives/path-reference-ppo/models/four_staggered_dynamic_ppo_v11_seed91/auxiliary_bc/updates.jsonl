@@ -1,0 +1,5 @@
+{"ppo_additional_steps": 0, "pool_size": 4097, "loss": 0.0011351043358445168, "sampled_kl": 5.942933967162389e-07, "accepted": true}
+{"ppo_additional_steps": 1000, "pool_size": 5509, "loss": 0.0015363405691459775, "sampled_kl": 6.617868848479702e-07, "accepted": true}
+{"ppo_additional_steps": 2000, "pool_size": 6601, "loss": 0.001046792953275144, "sampled_kl": 5.644910743285436e-07, "accepted": true}
+{"ppo_additional_steps": 3000, "pool_size": 7490, "loss": 0.001080849557183683, "sampled_kl": 4.338867540809588e-07, "accepted": true}
+{"ppo_additional_steps": 4000, "pool_size": 8273, "loss": 0.0012776381336152554, "sampled_kl": 4.90861793878139e-07, "accepted": true}

@@ -1,0 +1,9 @@
+{
+  "status": "running",
+  "pid": 6042,
+  "started_at": "2026-11-12T15:07:59.047484+08:00",
+  "phase": "bc_training",
+  "updated_at": "2026-11-12T15:07:59.073824+08:00",
+  "bc_updates": 4,
+  "bc_updates_planned": 4
+}

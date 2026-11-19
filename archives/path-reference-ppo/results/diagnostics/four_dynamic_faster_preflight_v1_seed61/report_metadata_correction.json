@@ -1,0 +1,7 @@
+{
+  "reason": "Original report prose assumed the old v5/5cm/0.02mps profile; corrected prose from the actual executed protocol",
+  "configured_source": "results/diagnostics/four_dynamic_speed_v9_fast02_seed71",
+  "configured_amplitude_m": 0.1,
+  "configured_max_speed_m_s": 0.05,
+  "physical_results_and_execution_archive_unchanged": true
+}

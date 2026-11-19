@@ -1,0 +1,33 @@
+pybullet build time: Jan 29 2025 23:17:20
+Scenario seed: 50000
+Target observation noise: position std=0.0 m; orientation std=0.0 deg
+GUI playback speed: 0.5x
+Dynamic planning mode: timed
+step=1 position=1.8280 m orientation=151.04 deg collision=False success=False
+step=2 position=1.8158 m orientation=151.09 deg collision=False success=False
+step=3 position=1.7989 m orientation=149.52 deg collision=False success=False
+step=4 position=1.7762 m orientation=147.07 deg collision=False success=False
+step=5 position=1.7535 m orientation=143.56 deg collision=True success=False
+{
+  "seed": 50000,
+  "success": false,
+  "collision": true,
+  "joint_limit_violation": false,
+  "planning_success": NaN,
+  "ik_success": NaN,
+  "position_error_m": 1.7535469817160099,
+  "orientation_error_deg": 143.5574612359938,
+  "steps": 5,
+  "joint_path_length_rad": 0.7110313278868051,
+  "cartesian_path_length_m": 0.4002474607551952,
+  "planning_time_s": 0.0,
+  "execution_time_s": 0.0164528070004053,
+  "simulated_time_s": 0.25,
+  "cumulative_reward": -40.813219145478726,
+  "replans": 0,
+  "replan_failures": 0,
+  "hold_steps": 0,
+  "scheduled_waits": 0,
+  "dynamic_planning_mode": "timed",
+  "physics_elapsed_s": 0.23750000000000032
+}

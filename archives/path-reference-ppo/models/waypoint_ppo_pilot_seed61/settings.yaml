@@ -1,0 +1,18 @@
+action_std: 0.02
+additional_timesteps: 10000
+batch_size: 100
+clip_range: 0.05
+eval_every: 5000
+joint_margin: 0.01
+learning_rate: 1.0e-05
+n_epochs: 3
+n_steps: 250
+output: models/waypoint_ppo_pilot_seed61
+progress_weight: 2.0
+release: releases/path_reference_bc_20261025
+seed: 61
+target_kl: 0.005
+train_seed_range:
+- 300000
+- 400000
+workers: 4

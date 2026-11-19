@@ -1,0 +1,56 @@
+{
+  "spec": {
+    "seed": 121,
+    "source_model": "results/diagnostics/four_dynamic_speed_v9_fast02_seed71/selected_model.zip",
+    "preparation_report": "results/diagnostics/four_staggered_dynamic_preparation_v11_seed91",
+    "motion_profile": "configs/four_staggered_dynamic_scene.yaml",
+    "old_report": "results/diagnostics/four_predictive_safety_v13_seed111",
+    "data_root": "data/four_staggered_dynamic_v11_seed91",
+    "fresh_test_root": "data/four_progress_recovery_test_v14_seed121",
+    "report_root": "results/diagnostics/four_progress_recovery_v14_seed121",
+    "preparation_root": "results/diagnostics/four_progress_recovery_test_v14_seed121",
+    "fresh_test_count": 100,
+    "fresh_test_seed": 1144000,
+    "workers": 4,
+    "horizon": 12,
+    "gains": [
+      1.0,
+      0.75,
+      0.4,
+      0.0,
+      -0.25,
+      -0.75
+    ],
+    "recovery": {
+      "minimum_step": 100,
+      "window": 24,
+      "minimum_progress": 0.012,
+      "cooldown": 24,
+      "maximum_rescues": 3,
+      "horizon": 36,
+      "commit_steps": 8,
+      "goal_gains": [
+        0.4,
+        0.7,
+        1.0
+      ],
+      "joint_bias": 0.4,
+      "minimum_predicted_gain": 0.015,
+      "protect_baseline_success": true
+    },
+    "train_case_count": 24,
+    "validation_gate": {
+      "collision_maximum": 0,
+      "require_success_increase": true,
+      "preserve_old_successes": true
+    }
+  },
+  "source_model_sha256": "f059554915581537e35b57f7226346577ea4bfbc99cb1db0946b75ae2c539aba",
+  "configuration_sha256": "52041c5d6eb1021a044d34f3301f5e8cac41accb8a94bcad304587584a5ab51f",
+  "motion_profile_sha256": "e4c7543f0a9a112d883178493542da96c662a1f573c18bb75455074b3e8d74c4",
+  "test_cases_sha256": "46f09af59e6113002a07b0cc802024c47b03adea1c08613cb632bd56b292ba59",
+  "selection_rule": "Geometry and complete obstacle-free nominal reference only; no actual controller success filtering",
+  "test_policy_evaluations": 0,
+  "cases": 100,
+  "rejections": 461
+}

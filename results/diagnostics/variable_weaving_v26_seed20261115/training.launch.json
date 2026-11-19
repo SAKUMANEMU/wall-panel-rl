@@ -1,0 +1,15 @@
+{
+  "pid": 5610,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "scripts/run_variable_training.py",
+    "--scenes",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/variable_weaving_v26_seed20261115/scenes",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/variable_weaving_v26_seed20261115/training"
+  ],
+  "cwd": "/home/johnsonchen/wall-panel-rl/experiments/variable_weaving_v26",
+  "log": "/home/johnsonchen/wall-panel-rl/results/diagnostics/variable_weaving_v26_seed20261115/training.log",
+  "started_at": "2026-11-16T00:05:03.910396+08:00"
+}

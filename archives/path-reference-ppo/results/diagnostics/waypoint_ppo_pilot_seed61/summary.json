@@ -1,0 +1,148 @@
+{
+  "training": {
+    "source_steps": 0,
+    "additional_steps": 10000,
+    "elapsed_seconds": 904.3678069114685
+  },
+  "completed_training_episodes": 162,
+  "training_termination_counts": {
+    "success": 159,
+    "collision": 2,
+    "planning_failure": 1
+  },
+  "selection": {
+    "kind": "post_update",
+    "additional_steps": 5000,
+    "total_steps": 5000,
+    "metrics": {
+      "ordinary": {
+        "static": {
+          "episodes": 90,
+          "success_rate": 0.9888888888888889,
+          "collision_rate": 0.0,
+          "timeout_rate": 0.0,
+          "joint_limit_rate": 0.0,
+          "planning_failure_rate": 0.011111111111111112,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 60.02247191011236,
+          "mean_reward": 420.1839725684425
+        },
+        "alignment_far": {
+          "episodes": 10,
+          "success_rate": 1.0,
+          "collision_rate": 0.0,
+          "timeout_rate": 0.0,
+          "joint_limit_rate": 0.0,
+          "planning_failure_rate": 0.0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 49.4,
+          "mean_reward": 404.41121285165156
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success_rate": 1.0,
+          "collision_rate": 0.0,
+          "timeout_rate": 0.0,
+          "joint_limit_rate": 0.0,
+          "planning_failure_rate": 0.0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 8.5,
+          "mean_reward": 174.88937546692586
+        }
+      },
+      "bc": {
+        "static": {
+          "episodes": 90,
+          "success_rate": 0.9888888888888889,
+          "collision_rate": 0.0,
+          "timeout_rate": 0.0,
+          "joint_limit_rate": 0.0,
+          "planning_failure_rate": 0.011111111111111112,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 60.02247191011236,
+          "mean_reward": 420.1685610923609
+        },
+        "alignment_far": {
+          "episodes": 10,
+          "success_rate": 1.0,
+          "collision_rate": 0.0,
+          "timeout_rate": 0.0,
+          "joint_limit_rate": 0.0,
+          "planning_failure_rate": 0.0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 49.4,
+          "mean_reward": 404.56600281674366
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success_rate": 1.0,
+          "collision_rate": 0.0,
+          "timeout_rate": 0.0,
+          "joint_limit_rate": 0.0,
+          "planning_failure_rate": 0.0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 8.5,
+          "mean_reward": 174.8893751932938
+        }
+      },
+      "ppo": {
+        "static": {
+          "episodes": 90,
+          "success_rate": 0.9888888888888889,
+          "collision_rate": 0.0,
+          "timeout_rate": 0.0,
+          "joint_limit_rate": 0.0,
+          "planning_failure_rate": 0.011111111111111112,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 60.01123595505618,
+          "mean_reward": 420.16149814440223
+        },
+        "alignment_far": {
+          "episodes": 10,
+          "success_rate": 1.0,
+          "collision_rate": 0.0,
+          "timeout_rate": 0.0,
+          "joint_limit_rate": 0.0,
+          "planning_failure_rate": 0.0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 49.3,
+          "mean_reward": 404.5629826173852
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success_rate": 1.0,
+          "collision_rate": 0.0,
+          "timeout_rate": 0.0,
+          "joint_limit_rate": 0.0,
+          "planning_failure_rate": 0.0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 8.5,
+          "mean_reward": 174.88431827377792
+        }
+      }
+    }
+  },
+  "parameter_max_absolute_changes": {
+    "log_std": 0.0,
+    "tracking_gain_raw": 0.000588536262512207,
+    "tracking_bias": 0.000727498612832278,
+    "tracking_velocity": 0.0,
+    "mlp_extractor.value_net.0.weight": 0.0040333569049835205,
+    "mlp_extractor.value_net.0.bias": 0.0038255061954259872,
+    "mlp_extractor.value_net.2.weight": 0.0036096274852752686,
+    "mlp_extractor.value_net.2.bias": 0.003638456342741847,
+    "action_net.weight": 0.0,
+    "action_net.bias": 0.0,
+    "value_net.weight": 0.0038070231676101685,
+    "value_net.bias": 0.003003958612680435
+  }
+}

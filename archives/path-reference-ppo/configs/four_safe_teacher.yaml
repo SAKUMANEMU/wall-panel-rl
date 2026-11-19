@@ -1,0 +1,16 @@
+source_report: results/diagnostics/four_static_on_path_v1_seed61
+verified_regression: results/diagnostics/four_on_path_rrt_verified_v2_seed61
+regression_cases: data/four_static_on_path_v1_seed61/cases.json
+data_root: data/four_safe_teacher_v1_seed61
+report_root: results/diagnostics/four_safe_teacher_v1_seed61
+train_count: 64
+train_seed_start: 1020000
+validation_count: 32
+validation_seed_start: 1022000
+test_count: 64
+test_seed_start: 1024000
+maximum_generation_factor: 3
+planner_seed_offsets: [100000, 200000, 300000]
+planning_clearance_m: 0.01
+static_validation_resolution_rad: 0.005
+training_steps: 0

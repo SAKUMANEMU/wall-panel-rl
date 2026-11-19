@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "tests_passed": 40,
+  "ppo_smoke_steps": 256,
+  "old_experiment_source_unchanged": true,
+  "initial_model_sha256": "9dde7d9e800bd70afa2f8ac98357abed2ad8778b579f7823c187937040ae76b1",
+  "counts": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "count_probabilities": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "train_scenes": 48,
+  "validation_scenes": 16,
+  "test_scenes": 16,
+  "all_dynamic": true,
+  "video_export": false
+}

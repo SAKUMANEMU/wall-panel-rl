@@ -1,0 +1,50 @@
+# Wider failure coverage, one canonical RRT route per layout, bounded adaptation.
+source_report: results/diagnostics/episode_rrt_ppo_v1_seed61
+initial_model: results/diagnostics/episode_rrt_ppo_v1_seed61/selected_model.zip
+failed_model: results/diagnostics/two_static_adapter_v3_seed61/candidate_model.zip
+base_teacher: data/two_static_warmup_v1_seed61/teacher/teacher.npz
+raw_train: data/staged_avoidance_v3_seed61/one_static/train.json
+heldout_metadata: results/diagnostics/clearance_ppo_v3_seed61/collision_diagnosis.json
+legacy_validation: data/two_static_warmup_v1_seed61/two_validation.json
+one_validation: data/two_static_warmup_v1_seed61/one_validation.json
+one_regression: data/static_expansion_v1_seed61/one_fresh.json
+data_root: data/consistent_two_static_v4_seed61
+model_root: models/consistent_two_static_v4_seed61
+report_root: results/diagnostics/consistent_two_static_v4_seed61
+seed: 61
+new_train_count: 128
+new_train_seed_start: 1014000
+validation_count: 64
+validation_seed_start: 1016000
+test_count: 100
+test_seed_start: 1018000
+generation_attempt_factor: 3
+expert_routes_per_layout: 3
+maximum_correction_episodes: 128
+handoff_leads: [12, 24]
+adapter_hidden: 128
+adapter_scale: 2.0
+bc:
+  updates: 3000
+  checkpoints: [100, 250, 500, 1000, 2000, 3000]
+  batch_size: 256
+  learning_rate: 0.0001
+  task_weights: {two_static: 0.80, one_static: 0.10, alignment: 0.10}
+  terminal_weight: 1.0
+  gate_retention_weight: 0.0
+  residual_weight: 0.0
+  adapter_weight: 0.001
+  correction_weight: 10.0
+  swap_two_obstacles_probability: 0.0
+ppo_steps: 10000
+ppo_eval_every: 5000
+ppo_learning_rate: 0.00005
+expert_probability: 0.50
+auxiliary_bc:
+  weight: 0.20
+  learning_rate: 0.00001
+  updates_per_rollout: 3
+  batch_size: 100
+  capacity: 50000
+  maximum_kl: 0.005
+  checkpoint_every: 5000

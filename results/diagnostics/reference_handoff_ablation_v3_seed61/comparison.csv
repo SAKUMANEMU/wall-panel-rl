@@ -1,0 +1,4 @@
+variant,recovery_radius,terminal_radius,validation_success,validation_collision,validation_timeout,regression_success,regression_collision,regression_timeout,regression_joint_limit,alignment_success,eligible
+baseline,0.3,0.2,16,2,2,182,10,8,0,60,True
+recovery_wider,0.45,0.2,17,3,0,161,27,12,0,60,False
+terminal_earlier,0.3,0.4,2,18,0,25,175,0,0,55,False

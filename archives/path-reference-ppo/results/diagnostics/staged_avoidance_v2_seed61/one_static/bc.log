@@ -1,0 +1,31 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "mode": "pretrain",
+  "stage": {
+    "name": "one_static",
+    "count": 1,
+    "mode": "static",
+    "amplitude": 0.05,
+    "speed": 0.02
+  },
+  "source": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+  "source_exists": true,
+  "data": "data/staged_avoidance_v2_seed61/one_static",
+  "bc_output": "models/staged_avoidance_v2_seed61/one_static/bc",
+  "ppo_output": "models/staged_avoidance_v2_seed61/one_static/ppo",
+  "ppo_additional_steps": 10000,
+  "action_std": 0.1,
+  "prior_gate_initial": 0.5,
+  "waypoint_reward": 0.25,
+  "clearance_distance": 0.08,
+  "clearance_weight": 0.5,
+  "gate": {
+    "minimum_episodes": 20,
+    "minimum_alignment_episodes": 10,
+    "minimum_success_rate": 0.8,
+    "maximum_collision_rate": 0.1,
+    "minimum_alignment_success_rate": 0.9,
+    "consecutive_checks": 2
+  },
+  "automatic_stage_advance": false
+}

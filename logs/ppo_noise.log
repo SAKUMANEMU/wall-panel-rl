@@ -1,0 +1,3339 @@
+pybullet build time: Jan 29 2025 23:17:20
+collision:
+  edge_resolution: 0.035
+  margin: 0.0
+  planning_clearance: 0.005
+controller:
+  force: 250.0
+  max_joint_increment_deg: 4.0
+  position_gain: 0.3
+  velocity_gain: 1.0
+evaluation:
+  episodes: 100
+  start_seed: 10000
+noise:
+  orientation_std_deg: 0.5
+  position_std: 0.005
+obstacles:
+  center:
+  - 0.5
+  - 0.25
+  - 0.35
+  dimensions:
+  - 0.12
+  - 0.12
+  - 0.18
+  max_count: 3
+  max_placement_attempts: 150
+  min_count: 1
+  randomization:
+  - 0.22
+  - 0.3
+  - 0.22
+  stage: C
+panel:
+  dimensions:
+  - 0.3
+  - 0.2
+  - 0.03
+  mass: 0.25
+  offset:
+  - 0.0
+  - 0.0
+  - 0.14
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+ppo:
+  batch_size: 64
+  clip_range: 0.2
+  ent_coef: 0.0
+  eval_episodes: 5
+  eval_freq: 10000
+  gae_lambda: 0.95
+  gamma: 0.99
+  learning_rate: 0.0003
+  log_std_init: -1.0
+  n_epochs: 10
+  n_steps: 1024
+  net_arch:
+  - 128
+  - 128
+  total_timesteps: 100000
+reward:
+  action: 0.015
+  collision: -50.0
+  joint_limit: -30.0
+  orientation_progress: 12.0
+  position_progress: 100.0
+  step: 0.05
+  success: 100.0
+robot:
+  end_effector: 6
+  goal_q:
+  - 0.0
+  - 0.65
+  - 0.0
+  - -1.3
+  - 0.0
+  - -0.38
+  - 0.0
+  near_start_probability: 0.25
+  near_start_randomization: 0.035
+  start_offset:
+  - 0.45
+  - -0.12
+  - 0.15
+  - 0.12
+  - -0.12
+  - 0.1
+  - 0.15
+  start_randomization: 0.12
+  urdf: assets/robot/kuka_iiwa/model.urdf
+rrt:
+  goal_bias: 0.15
+  ik_attempts: 12
+  ik_iterations: 200
+  ik_orientation_tolerance_deg: 1.0
+  ik_position_tolerance: 0.004
+  max_iterations: 3000
+  shortcut_attempts: 40
+  step_size: 0.22
+  timeout: 5.0
+  waypoint_tolerance: 0.008
+seed: 42
+simulation:
+  gravity: -9.81
+  max_steps: 160
+  substeps: 12
+  timestep: 0.004166666666666667
+target:
+  orientation_tolerance_deg: 2.0
+  position_tolerance: 0.01
+  wall_clearance: 0.025
+  wall_thickness: 0.04
+
+Wrapping the env in a DummyVecEnv.
+Logging to models/ppo_noise/tensorboard/PPO_0
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.0171  |
+|    reward_collision            | -0.635   |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | 0.617    |
+|    reward_position_progress    | 3.89     |
+|    reward_step                 | -0.05    |
+|    reward_success              | 9.96     |
+| rollout/                       |          |
+|    ep_len_mean                 | 8.91     |
+|    ep_rew_mean                 | 120      |
+|    success_rate                | 0.88     |
+| time/                          |          |
+|    fps                         | 264      |
+|    iterations                  | 1        |
+|    time_elapsed                | 3        |
+|    total_timesteps             | 162816   |
+---------------------------------------------
+----------------------------------------------
+| components/                    |           |
+|    reward_action               | -0.0161   |
+|    reward_collision            | -0.488    |
+|    reward_joint_limit          | 0         |
+|    reward_orientation_progress | 0.558     |
+|    reward_position_progress    | 3.57      |
+|    reward_step                 | -0.05     |
+|    reward_success              | 9.67      |
+| rollout/                       |           |
+|    ep_len_mean                 | 9.52      |
+|    ep_rew_mean                 | 126       |
+|    success_rate                | 0.91      |
+| time/                          |           |
+|    fps                         | 254       |
+|    iterations                  | 2         |
+|    time_elapsed                | 8         |
+|    total_timesteps             | 163840    |
+| train/                         |           |
+|    approx_kl                   | 0.0718199 |
+|    clip_fraction               | 0.555     |
+|    clip_range                  | 0.2       |
+|    entropy_loss                | 2.44      |
+|    explained_variance          | 0.112     |
+|    learning_rate               | 0.0003    |
+|    loss                        | 396       |
+|    n_updates                   | 1590      |
+|    policy_gradient_loss        | 0.00863   |
+|    std                         | 0.173     |
+|    value_loss                  | 534       |
+----------------------------------------------
+----------------------------------------------
+| components/                    |           |
+|    reward_action               | -0.00624  |
+|    reward_collision            | -0.146    |
+|    reward_joint_limit          | 0         |
+|    reward_orientation_progress | 0.0468    |
+|    reward_position_progress    | 0.303     |
+|    reward_step                 | -0.05     |
+|    reward_success              | 0.391     |
+| rollout/                       |           |
+|    ep_len_mean                 | 18.3      |
+|    ep_rew_mean                 | 113       |
+|    success_rate                | 0.83      |
+| time/                          |           |
+|    fps                         | 268       |
+|    iterations                  | 3         |
+|    time_elapsed                | 11        |
+|    total_timesteps             | 164864    |
+| train/                         |           |
+|    approx_kl                   | 7.3852673 |
+|    clip_fraction               | 0.715     |
+|    clip_range                  | 0.2       |
+|    entropy_loss                | 2.44      |
+|    explained_variance          | 0.216     |
+|    learning_rate               | 0.0003    |
+|    loss                        | 473       |
+|    n_updates                   | 1600      |
+|    policy_gradient_loss        | 0.0649    |
+|    std                         | 0.173     |
+|    value_loss                  | 409       |
+----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00577   |
+|    reward_collision            | -0.0488    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0566     |
+|    reward_position_progress    | 0.347      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.488      |
+| rollout/                       |            |
+|    ep_len_mean                 | 27.1       |
+|    ep_rew_mean                 | 106        |
+|    success_rate                | 0.78       |
+| time/                          |            |
+|    fps                         | 271        |
+|    iterations                  | 4          |
+|    time_elapsed                | 15         |
+|    total_timesteps             | 165888     |
+| train/                         |            |
+|    approx_kl                   | 10.2918415 |
+|    clip_fraction               | 0.83       |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.43       |
+|    explained_variance          | 0.0615     |
+|    learning_rate               | 0.0003     |
+|    loss                        | 5.71       |
+|    n_updates                   | 1610       |
+|    policy_gradient_loss        | 0.137      |
+|    std                         | 0.174      |
+|    value_loss                  | 100        |
+-----------------------------------------------
+----------------------------------------------
+| components/                    |           |
+|    reward_action               | -0.00546  |
+|    reward_collision            | -0.0488   |
+|    reward_joint_limit          | 0         |
+|    reward_orientation_progress | 0.0405    |
+|    reward_position_progress    | 0.269     |
+|    reward_step                 | -0.05     |
+|    reward_success              | 0.195     |
+| rollout/                       |           |
+|    ep_len_mean                 | 35.7      |
+|    ep_rew_mean                 | 97.5      |
+|    success_rate                | 0.71      |
+| time/                          |           |
+|    fps                         | 274       |
+|    iterations                  | 5         |
+|    time_elapsed                | 18        |
+|    total_timesteps             | 166912    |
+| train/                         |           |
+|    approx_kl                   | 0.2317164 |
+|    clip_fraction               | 0.593     |
+|    clip_range                  | 0.2       |
+|    entropy_loss                | 2.42      |
+|    explained_variance          | 0.616     |
+|    learning_rate               | 0.0003    |
+|    loss                        | 3.74      |
+|    n_updates                   | 1620      |
+|    policy_gradient_loss        | 0.0398    |
+|    std                         | 0.173     |
+|    value_loss                  | 36.7      |
+----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00555    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0492      |
+|    reward_position_progress    | 0.32        |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.293       |
+| rollout/                       |             |
+|    ep_len_mean                 | 44.8        |
+|    ep_rew_mean                 | 91.6        |
+|    success_rate                | 0.65        |
+| time/                          |             |
+|    fps                         | 275         |
+|    iterations                  | 6           |
+|    time_elapsed                | 22          |
+|    total_timesteps             | 167936      |
+| train/                         |             |
+|    approx_kl                   | 0.088512845 |
+|    clip_fraction               | 0.605       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.44        |
+|    explained_variance          | 0.685       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 3.35        |
+|    n_updates                   | 1630        |
+|    policy_gradient_loss        | 0.0413      |
+|    std                         | 0.172       |
+|    value_loss                  | 29.7        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00536   |
+|    reward_collision            | -0.0488    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0451     |
+|    reward_position_progress    | 0.279      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0          |
+| rollout/                       |            |
+|    ep_len_mean                 | 55.4       |
+|    ep_rew_mean                 | 82.6       |
+|    success_rate                | 0.57       |
+| time/                          |            |
+|    fps                         | 278        |
+|    iterations                  | 7          |
+|    time_elapsed                | 25         |
+|    total_timesteps             | 168960     |
+| train/                         |            |
+|    approx_kl                   | 0.07205148 |
+|    clip_fraction               | 0.592      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.45       |
+|    explained_variance          | 0.949      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 2.04       |
+|    n_updates                   | 1640       |
+|    policy_gradient_loss        | 0.0288     |
+|    std                         | 0.173      |
+|    value_loss                  | 8.13       |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00524   |
+|    reward_collision            | -0.0977    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0382     |
+|    reward_position_progress    | 0.232      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.586      |
+| rollout/                       |            |
+|    ep_len_mean                 | 64.5       |
+|    ep_rew_mean                 | 74.4       |
+|    success_rate                | 0.51       |
+| time/                          |            |
+|    fps                         | 277        |
+|    iterations                  | 8          |
+|    time_elapsed                | 29         |
+|    total_timesteps             | 169984     |
+| train/                         |            |
+|    approx_kl                   | 0.10934235 |
+|    clip_fraction               | 0.605      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.46       |
+|    explained_variance          | 0.453      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 1.04       |
+|    n_updates                   | 1650       |
+|    policy_gradient_loss        | 0.036      |
+|    std                         | 0.173      |
+|    value_loss                  | 36.2       |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00578   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0755     |
+|    reward_position_progress    | 0.477      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.684      |
+| rollout/                       |            |
+|    ep_len_mean                 | 72.2       |
+|    ep_rew_mean                 | 70.3       |
+|    success_rate                | 0.46       |
+| time/                          |            |
+|    fps                         | 279        |
+|    iterations                  | 9          |
+|    time_elapsed                | 33         |
+|    total_timesteps             | 171008     |
+| train/                         |            |
+|    approx_kl                   | 0.23969689 |
+|    clip_fraction               | 0.578      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.44       |
+|    explained_variance          | 0.767      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 1.86       |
+|    n_updates                   | 1660       |
+|    policy_gradient_loss        | 0.017      |
+|    std                         | 0.173      |
+|    value_loss                  | 50.8       |
+-----------------------------------------------
+Eval num_timesteps=171792, episode_reward=80.36 +/- 73.77
+Episode length: 36.20 +/- 62.02
+Success rate: 60.00%
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00511    |
+|    reward_collision            | -0.0639     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0303      |
+|    reward_position_progress    | 0.201       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.128       |
+| eval/                          |             |
+|    mean_ep_length              | 36.2        |
+|    mean_reward                 | 80.4        |
+|    success_rate                | 0.6         |
+| time/                          |             |
+|    total_timesteps             | 171792      |
+| train/                         |             |
+|    approx_kl                   | 0.061193924 |
+|    clip_fraction               | 0.555       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.45        |
+|    explained_variance          | 0.971       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 1.45        |
+|    n_updates                   | 1670        |
+|    policy_gradient_loss        | 0.00722     |
+|    std                         | 0.173       |
+|    value_loss                  | 5.14        |
+------------------------------------------------
+New best mean reward!
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.00671 |
+|    reward_collision            | 0        |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | 0.12     |
+|    reward_position_progress    | 0.786    |
+|    reward_step                 | -0.05    |
+|    reward_success              | 1.66     |
+| rollout/                       |          |
+|    ep_len_mean                 | 82.7     |
+|    ep_rew_mean                 | 63.6     |
+|    success_rate                | 0.4      |
+| time/                          |          |
+|    fps                         | 274      |
+|    iterations                  | 10       |
+|    time_elapsed                | 37       |
+|    total_timesteps             | 172032   |
+---------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00509    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0291      |
+|    reward_position_progress    | 0.211       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.0977      |
+| rollout/                       |             |
+|    ep_len_mean                 | 91.9        |
+|    ep_rew_mean                 | 58.7        |
+|    success_rate                | 0.35        |
+| time/                          |             |
+|    fps                         | 275         |
+|    iterations                  | 11          |
+|    time_elapsed                | 40          |
+|    total_timesteps             | 173056      |
+| train/                         |             |
+|    approx_kl                   | 0.051189594 |
+|    clip_fraction               | 0.495       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.45        |
+|    explained_variance          | 0.937       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 1.02        |
+|    n_updates                   | 1680        |
+|    policy_gradient_loss        | 0.0142      |
+|    std                         | 0.173       |
+|    value_loss                  | 19.8        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00463    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | -0.00358    |
+|    reward_position_progress    | 0.0339      |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.0977      |
+| rollout/                       |             |
+|    ep_len_mean                 | 99.5        |
+|    ep_rew_mean                 | 54.7        |
+|    success_rate                | 0.32        |
+| time/                          |             |
+|    fps                         | 276         |
+|    iterations                  | 12          |
+|    time_elapsed                | 44          |
+|    total_timesteps             | 174080      |
+| train/                         |             |
+|    approx_kl                   | 0.046875175 |
+|    clip_fraction               | 0.47        |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.45        |
+|    explained_variance          | 0.475       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 1.03        |
+|    n_updates                   | 1690        |
+|    policy_gradient_loss        | 0.00735     |
+|    std                         | 0.173       |
+|    value_loss                  | 60.4        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00511   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0335     |
+|    reward_position_progress    | 0.25       |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.0977     |
+| rollout/                       |            |
+|    ep_len_mean                 | 101        |
+|    ep_rew_mean                 | 53.5       |
+|    success_rate                | 0.31       |
+| time/                          |            |
+|    fps                         | 277        |
+|    iterations                  | 13         |
+|    time_elapsed                | 47         |
+|    total_timesteps             | 175104     |
+| train/                         |            |
+|    approx_kl                   | 0.03603231 |
+|    clip_fraction               | 0.482      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.45       |
+|    explained_variance          | 0.963      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 0.523      |
+|    n_updates                   | 1700       |
+|    policy_gradient_loss        | 0.0231     |
+|    std                         | 0.173      |
+|    value_loss                  | 2.87       |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00632    |
+|    reward_collision            | -0.0977     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0843      |
+|    reward_position_progress    | 0.562       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 1.17        |
+| rollout/                       |             |
+|    ep_len_mean                 | 93.9        |
+|    ep_rew_mean                 | 61.5        |
+|    success_rate                | 0.37        |
+| time/                          |             |
+|    fps                         | 278         |
+|    iterations                  | 14          |
+|    time_elapsed                | 51          |
+|    total_timesteps             | 176128      |
+| train/                         |             |
+|    approx_kl                   | 0.056193274 |
+|    clip_fraction               | 0.495       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.45        |
+|    explained_variance          | 0.973       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 0.288       |
+|    n_updates                   | 1710        |
+|    policy_gradient_loss        | 0.00949     |
+|    std                         | 0.173       |
+|    value_loss                  | 1.46        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00569    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0599      |
+|    reward_position_progress    | 0.42        |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.586       |
+| rollout/                       |             |
+|    ep_len_mean                 | 90.8        |
+|    ep_rew_mean                 | 63.1        |
+|    success_rate                | 0.39        |
+| time/                          |             |
+|    fps                         | 278         |
+|    iterations                  | 15          |
+|    time_elapsed                | 55          |
+|    total_timesteps             | 177152      |
+| train/                         |             |
+|    approx_kl                   | 0.047936015 |
+|    clip_fraction               | 0.465       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.43        |
+|    explained_variance          | 0.932       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 1.28        |
+|    n_updates                   | 1720        |
+|    policy_gradient_loss        | -0.00329    |
+|    std                         | 0.173       |
+|    value_loss                  | 46.9        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00559    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0381      |
+|    reward_position_progress    | 0.302       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.391       |
+| rollout/                       |             |
+|    ep_len_mean                 | 84.8        |
+|    ep_rew_mean                 | 67.5        |
+|    success_rate                | 0.43        |
+| time/                          |             |
+|    fps                         | 279         |
+|    iterations                  | 16          |
+|    time_elapsed                | 58          |
+|    total_timesteps             | 178176      |
+| train/                         |             |
+|    approx_kl                   | 0.061855376 |
+|    clip_fraction               | 0.419       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.43        |
+|    explained_variance          | 0.992       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 1.03        |
+|    n_updates                   | 1730        |
+|    policy_gradient_loss        | -0.0186     |
+|    std                         | 0.173       |
+|    value_loss                  | 2.76        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00561   |
+|    reward_collision            | -0.0977    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0449     |
+|    reward_position_progress    | 0.362      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.488      |
+| rollout/                       |            |
+|    ep_len_mean                 | 87.8       |
+|    ep_rew_mean                 | 66.2       |
+|    success_rate                | 0.41       |
+| time/                          |            |
+|    fps                         | 279        |
+|    iterations                  | 17         |
+|    time_elapsed                | 62         |
+|    total_timesteps             | 179200     |
+| train/                         |            |
+|    approx_kl                   | 0.10953314 |
+|    clip_fraction               | 0.513      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.45       |
+|    explained_variance          | 0.968      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 68.3       |
+|    n_updates                   | 1740       |
+|    policy_gradient_loss        | 0.0123     |
+|    std                         | 0.173      |
+|    value_loss                  | 10.5       |
+-----------------------------------------------
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.00518 |
+|    reward_collision            | -0.0488  |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | -0.00996 |
+|    reward_position_progress    | 0.0665   |
+|    reward_step                 | -0.05    |
+|    reward_success              | 0.293    |
+| rollout/                       |          |
+|    ep_len_mean                 | 90.5     |
+|    ep_rew_mean                 | 58.5     |
+|    success_rate                | 0.38     |
+| time/                          |          |
+|    fps                         | 278      |
+|    iterations                  | 18       |
+|    time_elapsed                | 66       |
+|    total_timesteps             | 180224   |
+| train/                         |          |
+|    approx_kl                   | 0.20677  |
+|    clip_fraction               | 0.408    |
+|    clip_range                  | 0.2      |
+|    entropy_loss                | 2.45     |
+|    explained_variance          | 0.839    |
+|    learning_rate               | 0.0003   |
+|    loss                        | 0.609    |
+|    n_updates                   | 1750     |
+|    policy_gradient_loss        | 0.00761  |
+|    std                         | 0.173    |
+|    value_loss                  | 79.3     |
+---------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00555   |
+|    reward_collision            | -0.0488    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0278     |
+|    reward_position_progress    | 0.276      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.391      |
+| rollout/                       |            |
+|    ep_len_mean                 | 91.9       |
+|    ep_rew_mean                 | 56.7       |
+|    success_rate                | 0.37       |
+| time/                          |            |
+|    fps                         | 278        |
+|    iterations                  | 19         |
+|    time_elapsed                | 69         |
+|    total_timesteps             | 181248     |
+| train/                         |            |
+|    approx_kl                   | 0.08241764 |
+|    clip_fraction               | 0.537      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.43       |
+|    explained_variance          | 0.959      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 0.57       |
+|    n_updates                   | 1760       |
+|    policy_gradient_loss        | 0.0246     |
+|    std                         | 0.174      |
+|    value_loss                  | 9.36       |
+-----------------------------------------------
+Eval num_timesteps=181792, episode_reward=17.68 +/- 74.80
+Episode length: 129.60 +/- 60.80
+Success rate: 20.00%
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00552    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.00542     |
+|    reward_position_progress    | 0.209       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.184       |
+| eval/                          |             |
+|    mean_ep_length              | 130         |
+|    mean_reward                 | 17.7        |
+|    success_rate                | 0.2         |
+| time/                          |             |
+|    total_timesteps             | 181792      |
+| train/                         |             |
+|    approx_kl                   | 0.050840653 |
+|    clip_fraction               | 0.476       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.43        |
+|    explained_variance          | 0.942       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 0.761       |
+|    n_updates                   | 1770        |
+|    policy_gradient_loss        | 0.0127      |
+|    std                         | 0.173       |
+|    value_loss                  | 16.8        |
+------------------------------------------------
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.00585 |
+|    reward_collision            | -0.104   |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | 0.0271   |
+|    reward_position_progress    | 0.272    |
+|    reward_step                 | -0.05    |
+|    reward_success              | 0.624    |
+| rollout/                       |          |
+|    ep_len_mean                 | 88.6     |
+|    ep_rew_mean                 | 58.5     |
+|    success_rate                | 0.39     |
+| time/                          |          |
+|    fps                         | 271      |
+|    iterations                  | 20       |
+|    time_elapsed                | 75       |
+|    total_timesteps             | 182272   |
+---------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.0068    |
+|    reward_collision            | -0.0977    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0625     |
+|    reward_position_progress    | 0.562      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.879      |
+| rollout/                       |            |
+|    ep_len_mean                 | 79.4       |
+|    ep_rew_mean                 | 62.9       |
+|    success_rate                | 0.43       |
+| time/                          |            |
+|    fps                         | 271        |
+|    iterations                  | 21         |
+|    time_elapsed                | 79         |
+|    total_timesteps             | 183296     |
+| train/                         |            |
+|    approx_kl                   | 0.06435001 |
+|    clip_fraction               | 0.483      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.42       |
+|    explained_variance          | 0.9        |
+|    learning_rate               | 0.0003     |
+|    loss                        | 0.507      |
+|    n_updates                   | 1780       |
+|    policy_gradient_loss        | -0.00447   |
+|    std                         | 0.174      |
+|    value_loss                  | 37.7       |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.0069     |
+|    reward_collision            | -0.244      |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0609      |
+|    reward_position_progress    | 0.532       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.781       |
+| rollout/                       |             |
+|    ep_len_mean                 | 78.1        |
+|    ep_rew_mean                 | 59.9        |
+|    success_rate                | 0.41        |
+| time/                          |             |
+|    fps                         | 271         |
+|    iterations                  | 22          |
+|    time_elapsed                | 82          |
+|    total_timesteps             | 184320      |
+| train/                         |             |
+|    approx_kl                   | 0.048122667 |
+|    clip_fraction               | 0.408       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.43        |
+|    explained_variance          | 0.972       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 0.683       |
+|    n_updates                   | 1790        |
+|    policy_gradient_loss        | -0.0101     |
+|    std                         | 0.173       |
+|    value_loss                  | 24          |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00631   |
+|    reward_collision            | -0.146     |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.00288    |
+|    reward_position_progress    | 0.217      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.0977     |
+| rollout/                       |            |
+|    ep_len_mean                 | 78.9       |
+|    ep_rew_mean                 | 54.4       |
+|    success_rate                | 0.38       |
+| time/                          |            |
+|    fps                         | 271        |
+|    iterations                  | 23         |
+|    time_elapsed                | 86         |
+|    total_timesteps             | 185344     |
+| train/                         |            |
+|    approx_kl                   | 0.02211082 |
+|    clip_fraction               | 0.293      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.44       |
+|    explained_variance          | 0.734      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 127        |
+|    n_updates                   | 1800       |
+|    policy_gradient_loss        | -0.012     |
+|    std                         | 0.173      |
+|    value_loss                  | 156        |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00761    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | -0.0586     |
+|    reward_orientation_progress | -0.0519     |
+|    reward_position_progress    | 0.0268      |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.0977      |
+| rollout/                       |             |
+|    ep_len_mean                 | 81.9        |
+|    ep_rew_mean                 | 49.9        |
+|    success_rate                | 0.37        |
+| time/                          |             |
+|    fps                         | 272         |
+|    iterations                  | 24          |
+|    time_elapsed                | 90          |
+|    total_timesteps             | 186368      |
+| train/                         |             |
+|    approx_kl                   | 0.017866444 |
+|    clip_fraction               | 0.283       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.44        |
+|    explained_variance          | 0.811       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 35.1        |
+|    n_updates                   | 1810        |
+|    policy_gradient_loss        | -0.0116     |
+|    std                         | 0.173       |
+|    value_loss                  | 53.8        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.0082     |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | -0.0586     |
+|    reward_orientation_progress | -0.0372     |
+|    reward_position_progress    | 0.1         |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.293       |
+| rollout/                       |             |
+|    ep_len_mean                 | 83.5        |
+|    ep_rew_mean                 | 47.6        |
+|    success_rate                | 0.37        |
+| time/                          |             |
+|    fps                         | 272         |
+|    iterations                  | 25          |
+|    time_elapsed                | 93          |
+|    total_timesteps             | 187392      |
+| train/                         |             |
+|    approx_kl                   | 0.019561578 |
+|    clip_fraction               | 0.18        |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.44        |
+|    explained_variance          | 0.0494      |
+|    learning_rate               | 0.0003      |
+|    loss                        | 15.9        |
+|    n_updates                   | 1820        |
+|    policy_gradient_loss        | -0.00925    |
+|    std                         | 0.173       |
+|    value_loss                  | 119         |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00942    |
+|    reward_collision            | -0.146      |
+|    reward_joint_limit          | -0.0879     |
+|    reward_orientation_progress | -0.0133     |
+|    reward_position_progress    | 0.245       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.781       |
+| rollout/                       |             |
+|    ep_len_mean                 | 80.8        |
+|    ep_rew_mean                 | 46.5        |
+|    success_rate                | 0.38        |
+| time/                          |             |
+|    fps                         | 272         |
+|    iterations                  | 26          |
+|    time_elapsed                | 97          |
+|    total_timesteps             | 188416      |
+| train/                         |             |
+|    approx_kl                   | 0.021107394 |
+|    clip_fraction               | 0.15        |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.44        |
+|    explained_variance          | 0.793       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 36          |
+|    n_updates                   | 1830        |
+|    policy_gradient_loss        | -0.00755    |
+|    std                         | 0.173       |
+|    value_loss                  | 105         |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00782    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | -0.0586     |
+|    reward_orientation_progress | -0.0495     |
+|    reward_position_progress    | 0.0471      |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.391       |
+| rollout/                       |             |
+|    ep_len_mean                 | 80.6        |
+|    ep_rew_mean                 | 43          |
+|    success_rate                | 0.38        |
+| time/                          |             |
+|    fps                         | 272         |
+|    iterations                  | 27          |
+|    time_elapsed                | 101         |
+|    total_timesteps             | 189440      |
+| train/                         |             |
+|    approx_kl                   | 0.022985063 |
+|    clip_fraction               | 0.196       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.44        |
+|    explained_variance          | 0.805       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 47.9        |
+|    n_updates                   | 1840        |
+|    policy_gradient_loss        | -0.0108     |
+|    std                         | 0.173       |
+|    value_loss                  | 136         |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00801    |
+|    reward_collision            | -0.0977     |
+|    reward_joint_limit          | -0.0293     |
+|    reward_orientation_progress | -0.029      |
+|    reward_position_progress    | 0.152       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.391       |
+| rollout/                       |             |
+|    ep_len_mean                 | 80.6        |
+|    ep_rew_mean                 | 39          |
+|    success_rate                | 0.37        |
+| time/                          |             |
+|    fps                         | 272         |
+|    iterations                  | 28          |
+|    time_elapsed                | 105         |
+|    total_timesteps             | 190464      |
+| train/                         |             |
+|    approx_kl                   | 0.017581362 |
+|    clip_fraction               | 0.191       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.45        |
+|    explained_variance          | 0.869       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 9.42        |
+|    n_updates                   | 1850        |
+|    policy_gradient_loss        | -0.012      |
+|    std                         | 0.173       |
+|    value_loss                  | 95          |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00759    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | -0.0293     |
+|    reward_orientation_progress | -0.0322     |
+|    reward_position_progress    | 0.0962      |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.0977      |
+| rollout/                       |             |
+|    ep_len_mean                 | 85.3        |
+|    ep_rew_mean                 | 35.6        |
+|    success_rate                | 0.35        |
+| time/                          |             |
+|    fps                         | 273         |
+|    iterations                  | 29          |
+|    time_elapsed                | 108         |
+|    total_timesteps             | 191488      |
+| train/                         |             |
+|    approx_kl                   | 0.026028747 |
+|    clip_fraction               | 0.228       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.46        |
+|    explained_variance          | 0.951       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 76.2        |
+|    n_updates                   | 1860        |
+|    policy_gradient_loss        | -0.0173     |
+|    std                         | 0.172       |
+|    value_loss                  | 40.8        |
+------------------------------------------------
+Eval num_timesteps=191792, episode_reward=80.78 +/- 68.54
+Episode length: 75.20 +/- 69.36
+Success rate: 60.00%
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00715    |
+|    reward_collision            | -0.33       |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0352      |
+|    reward_position_progress    | 0.479       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.33        |
+| eval/                          |             |
+|    mean_ep_length              | 75.2        |
+|    mean_reward                 | 80.8        |
+|    success_rate                | 0.6         |
+| time/                          |             |
+|    total_timesteps             | 191792      |
+| train/                         |             |
+|    approx_kl                   | 0.097765334 |
+|    clip_fraction               | 0.414       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.47        |
+|    explained_variance          | 0.974       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 1.27        |
+|    n_updates                   | 1870        |
+|    policy_gradient_loss        | 0.00571     |
+|    std                         | 0.173       |
+|    value_loss                  | 10.4        |
+------------------------------------------------
+New best mean reward!
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.00695 |
+|    reward_collision            | -0.0693  |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | 0.00178  |
+|    reward_position_progress    | 0.269    |
+|    reward_step                 | -0.05    |
+|    reward_success              | 0.277    |
+| rollout/                       |          |
+|    ep_len_mean                 | 89.9     |
+|    ep_rew_mean                 | 28.2     |
+|    success_rate                | 0.3      |
+| time/                          |          |
+|    fps                         | 269      |
+|    iterations                  | 30       |
+|    time_elapsed                | 113      |
+|    total_timesteps             | 192512   |
+---------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00679    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | -0.0293     |
+|    reward_orientation_progress | -0.0101     |
+|    reward_position_progress    | 0.186       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.293       |
+| rollout/                       |             |
+|    ep_len_mean                 | 96.2        |
+|    ep_rew_mean                 | 25.9        |
+|    success_rate                | 0.29        |
+| time/                          |             |
+|    fps                         | 269         |
+|    iterations                  | 31          |
+|    time_elapsed                | 117         |
+|    total_timesteps             | 193536      |
+| train/                         |             |
+|    approx_kl                   | 0.023246605 |
+|    clip_fraction               | 0.44        |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.45        |
+|    explained_variance          | 0.941       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 165         |
+|    n_updates                   | 1880        |
+|    policy_gradient_loss        | 0.00529     |
+|    std                         | 0.173       |
+|    value_loss                  | 84.9        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00614   |
+|    reward_collision            | -0.0977    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0385     |
+|    reward_position_progress    | 0.384      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.781      |
+| rollout/                       |            |
+|    ep_len_mean                 | 89.5       |
+|    ep_rew_mean                 | 34.5       |
+|    success_rate                | 0.35       |
+| time/                          |            |
+|    fps                         | 270        |
+|    iterations                  | 32         |
+|    time_elapsed                | 121        |
+|    total_timesteps             | 194560     |
+| train/                         |            |
+|    approx_kl                   | 0.06494501 |
+|    clip_fraction               | 0.473      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.45       |
+|    explained_variance          | 0.985      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 1.28       |
+|    n_updates                   | 1890       |
+|    policy_gradient_loss        | 0.00572    |
+|    std                         | 0.173      |
+|    value_loss                  | 10.8       |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.0055    |
+|    reward_collision            | -0.195     |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0209     |
+|    reward_position_progress    | 0.244      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.293      |
+| rollout/                       |            |
+|    ep_len_mean                 | 83.4       |
+|    ep_rew_mean                 | 36.8       |
+|    success_rate                | 0.35       |
+| time/                          |            |
+|    fps                         | 270        |
+|    iterations                  | 33         |
+|    time_elapsed                | 124        |
+|    total_timesteps             | 195584     |
+| train/                         |            |
+|    approx_kl                   | 0.06232216 |
+|    clip_fraction               | 0.485      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.47       |
+|    explained_variance          | 0.963      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 20.2       |
+|    n_updates                   | 1900       |
+|    policy_gradient_loss        | -0.011     |
+|    std                         | 0.172      |
+|    value_loss                  | 58.9       |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00516   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0245     |
+|    reward_position_progress    | 0.242      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.0977     |
+| rollout/                       |            |
+|    ep_len_mean                 | 88         |
+|    ep_rew_mean                 | 36.7       |
+|    success_rate                | 0.33       |
+| time/                          |            |
+|    fps                         | 270        |
+|    iterations                  | 34         |
+|    time_elapsed                | 128        |
+|    total_timesteps             | 196608     |
+| train/                         |            |
+|    approx_kl                   | 0.07937068 |
+|    clip_fraction               | 0.444      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.48       |
+|    explained_variance          | 0.86       |
+|    learning_rate               | 0.0003     |
+|    loss                        | 113        |
+|    n_updates                   | 1910       |
+|    policy_gradient_loss        | -0.0123    |
+|    std                         | 0.172      |
+|    value_loss                  | 75.3       |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00535   |
+|    reward_collision            | -0.0977    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0436     |
+|    reward_position_progress    | 0.343      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.293      |
+| rollout/                       |            |
+|    ep_len_mean                 | 92.7       |
+|    ep_rew_mean                 | 37.2       |
+|    success_rate                | 0.3        |
+| time/                          |            |
+|    fps                         | 270        |
+|    iterations                  | 35         |
+|    time_elapsed                | 132        |
+|    total_timesteps             | 197632     |
+| train/                         |            |
+|    approx_kl                   | 0.09656202 |
+|    clip_fraction               | 0.553      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.48       |
+|    explained_variance          | 0.975      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 0.368      |
+|    n_updates                   | 1920       |
+|    policy_gradient_loss        | -0.000428  |
+|    std                         | 0.172      |
+|    value_loss                  | 2.26       |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00479    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0285      |
+|    reward_position_progress    | 0.24        |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0           |
+| rollout/                       |             |
+|    ep_len_mean                 | 97.4        |
+|    ep_rew_mean                 | 37.7        |
+|    success_rate                | 0.28        |
+| time/                          |             |
+|    fps                         | 271         |
+|    iterations                  | 36          |
+|    time_elapsed                | 135         |
+|    total_timesteps             | 198656      |
+| train/                         |             |
+|    approx_kl                   | 0.038194172 |
+|    clip_fraction               | 0.421       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.48        |
+|    explained_variance          | 0.966       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 1.68        |
+|    n_updates                   | 1930        |
+|    policy_gradient_loss        | -0.0197     |
+|    std                         | 0.172       |
+|    value_loss                  | 10.9        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00531   |
+|    reward_collision            | -0.146     |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0533     |
+|    reward_position_progress    | 0.355      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.293      |
+| rollout/                       |            |
+|    ep_len_mean                 | 93         |
+|    ep_rew_mean                 | 40.9       |
+|    success_rate                | 0.28       |
+| time/                          |            |
+|    fps                         | 271        |
+|    iterations                  | 37         |
+|    time_elapsed                | 139        |
+|    total_timesteps             | 199680     |
+| train/                         |            |
+|    approx_kl                   | 0.09162558 |
+|    clip_fraction               | 0.592      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.49       |
+|    explained_variance          | 0.981      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 0.285      |
+|    n_updates                   | 1940       |
+|    policy_gradient_loss        | 0.0236     |
+|    std                         | 0.171      |
+|    value_loss                  | 1.35       |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00503    |
+|    reward_collision            | -0.0977     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0504      |
+|    reward_position_progress    | 0.342       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.586       |
+| rollout/                       |             |
+|    ep_len_mean                 | 90.2        |
+|    ep_rew_mean                 | 45.8        |
+|    success_rate                | 0.3         |
+| time/                          |             |
+|    fps                         | 271         |
+|    iterations                  | 38          |
+|    time_elapsed                | 143         |
+|    total_timesteps             | 200704      |
+| train/                         |             |
+|    approx_kl                   | 0.041561745 |
+|    clip_fraction               | 0.449       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.5         |
+|    explained_variance          | 0.974       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 23          |
+|    n_updates                   | 1950        |
+|    policy_gradient_loss        | -0.00553    |
+|    std                         | 0.172       |
+|    value_loss                  | 14          |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.0043     |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0297      |
+|    reward_position_progress    | 0.199       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.195       |
+| rollout/                       |             |
+|    ep_len_mean                 | 92.7        |
+|    ep_rew_mean                 | 48          |
+|    success_rate                | 0.31        |
+| time/                          |             |
+|    fps                         | 271         |
+|    iterations                  | 39          |
+|    time_elapsed                | 147         |
+|    total_timesteps             | 201728      |
+| train/                         |             |
+|    approx_kl                   | 0.016672507 |
+|    clip_fraction               | 0.407       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.51        |
+|    explained_variance          | 0.811       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 5.92        |
+|    n_updates                   | 1960        |
+|    policy_gradient_loss        | -0.0036     |
+|    std                         | 0.171       |
+|    value_loss                  | 139         |
+------------------------------------------------
+Eval num_timesteps=201792, episode_reward=40.62 +/- 59.60
+Episode length: 129.20 +/- 61.60
+Success rate: 20.00%
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00462   |
+|    reward_collision            | -0.794     |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0354     |
+|    reward_position_progress    | 0.163      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 1.59       |
+| eval/                          |            |
+|    mean_ep_length              | 129        |
+|    mean_reward                 | 40.6       |
+|    success_rate                | 0.2        |
+| time/                          |            |
+|    total_timesteps             | 201792     |
+| train/                         |            |
+|    approx_kl                   | 0.07682435 |
+|    clip_fraction               | 0.491      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.5        |
+|    explained_variance          | 0.982      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 0.194      |
+|    n_updates                   | 1970       |
+|    policy_gradient_loss        | -0.000759  |
+|    std                         | 0.172      |
+|    value_loss                  | 1.41       |
+-----------------------------------------------
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.00466 |
+|    reward_collision            | 0        |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | 0.03     |
+|    reward_position_progress    | 0.201    |
+|    reward_step                 | -0.05    |
+|    reward_success              | 0        |
+| rollout/                       |          |
+|    ep_len_mean                 | 96.9     |
+|    ep_rew_mean                 | 44.5     |
+|    success_rate                | 0.27     |
+| time/                          |          |
+|    fps                         | 268      |
+|    iterations                  | 40       |
+|    time_elapsed                | 152      |
+|    total_timesteps             | 202752   |
+---------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.0044     |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0229      |
+|    reward_position_progress    | 0.166       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.195       |
+| rollout/                       |             |
+|    ep_len_mean                 | 98.2        |
+|    ep_rew_mean                 | 44.1        |
+|    success_rate                | 0.27        |
+| time/                          |             |
+|    fps                         | 268         |
+|    iterations                  | 41          |
+|    time_elapsed                | 156         |
+|    total_timesteps             | 203776      |
+| train/                         |             |
+|    approx_kl                   | 0.024314025 |
+|    clip_fraction               | 0.386       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.46        |
+|    explained_variance          | 0.969       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 3.39        |
+|    n_updates                   | 1980        |
+|    policy_gradient_loss        | 0.0147      |
+|    std                         | 0.172       |
+|    value_loss                  | 15.1        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00502   |
+|    reward_collision            | -0.0488    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0437     |
+|    reward_position_progress    | 0.284      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.195      |
+| rollout/                       |            |
+|    ep_len_mean                 | 102        |
+|    ep_rew_mean                 | 43.4       |
+|    success_rate                | 0.25       |
+| time/                          |            |
+|    fps                         | 268        |
+|    iterations                  | 42         |
+|    time_elapsed                | 160        |
+|    total_timesteps             | 204800     |
+| train/                         |            |
+|    approx_kl                   | 0.02536168 |
+|    clip_fraction               | 0.298      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.48       |
+|    explained_variance          | 0.96       |
+|    learning_rate               | 0.0003     |
+|    loss                        | 7.51       |
+|    n_updates                   | 1990       |
+|    policy_gradient_loss        | -0.0123    |
+|    std                         | 0.172      |
+|    value_loss                  | 34.7       |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00484    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0267      |
+|    reward_position_progress    | 0.188       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.0977      |
+| rollout/                       |             |
+|    ep_len_mean                 | 108         |
+|    ep_rew_mean                 | 41.8        |
+|    success_rate                | 0.23        |
+| time/                          |             |
+|    fps                         | 269         |
+|    iterations                  | 43          |
+|    time_elapsed                | 163         |
+|    total_timesteps             | 205824      |
+| train/                         |             |
+|    approx_kl                   | 0.019629963 |
+|    clip_fraction               | 0.231       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.48        |
+|    explained_variance          | 0.962       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 15.1        |
+|    n_updates                   | 2000        |
+|    policy_gradient_loss        | -0.0151     |
+|    std                         | 0.172       |
+|    value_loss                  | 31.5        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.0049    |
+|    reward_collision            | -0.0977    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0512     |
+|    reward_position_progress    | 0.314      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0          |
+| rollout/                       |            |
+|    ep_len_mean                 | 111        |
+|    ep_rew_mean                 | 42         |
+|    success_rate                | 0.21       |
+| time/                          |            |
+|    fps                         | 269        |
+|    iterations                  | 44         |
+|    time_elapsed                | 167        |
+|    total_timesteps             | 206848     |
+| train/                         |            |
+|    approx_kl                   | 0.02562705 |
+|    clip_fraction               | 0.24       |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.48       |
+|    explained_variance          | 0.969      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 1.52       |
+|    n_updates                   | 2010       |
+|    policy_gradient_loss        | -0.017     |
+|    std                         | 0.172      |
+|    value_loss                  | 21         |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00483   |
+|    reward_collision            | -0.0977    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0458     |
+|    reward_position_progress    | 0.29       |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.195      |
+| rollout/                       |            |
+|    ep_len_mean                 | 109        |
+|    ep_rew_mean                 | 40.8       |
+|    success_rate                | 0.21       |
+| time/                          |            |
+|    fps                         | 269        |
+|    iterations                  | 45         |
+|    time_elapsed                | 170        |
+|    total_timesteps             | 207872     |
+| train/                         |            |
+|    approx_kl                   | 0.12082107 |
+|    clip_fraction               | 0.536      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.46       |
+|    explained_variance          | 0.916      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 0.409      |
+|    n_updates                   | 2020       |
+|    policy_gradient_loss        | 0.014      |
+|    std                         | 0.173      |
+|    value_loss                  | 15.6       |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00509   |
+|    reward_collision            | -0.0488    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0382     |
+|    reward_position_progress    | 0.267      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.195      |
+| rollout/                       |            |
+|    ep_len_mean                 | 110        |
+|    ep_rew_mean                 | 41.4       |
+|    success_rate                | 0.21       |
+| time/                          |            |
+|    fps                         | 269        |
+|    iterations                  | 46         |
+|    time_elapsed                | 174        |
+|    total_timesteps             | 208896     |
+| train/                         |            |
+|    approx_kl                   | 0.03142499 |
+|    clip_fraction               | 0.349      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.44       |
+|    explained_variance          | 0.877      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 2.88       |
+|    n_updates                   | 2030       |
+|    policy_gradient_loss        | -0.0117    |
+|    std                         | 0.173      |
+|    value_loss                  | 32.5       |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00494    |
+|    reward_collision            | -0.195      |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0526      |
+|    reward_position_progress    | 0.325       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.195       |
+| rollout/                       |             |
+|    ep_len_mean                 | 107         |
+|    ep_rew_mean                 | 39.8        |
+|    success_rate                | 0.21        |
+| time/                          |             |
+|    fps                         | 270         |
+|    iterations                  | 47          |
+|    time_elapsed                | 178         |
+|    total_timesteps             | 209920      |
+| train/                         |             |
+|    approx_kl                   | 0.017963164 |
+|    clip_fraction               | 0.267       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.43        |
+|    explained_variance          | 0.96        |
+|    learning_rate               | 0.0003      |
+|    loss                        | 2.93        |
+|    n_updates                   | 2040        |
+|    policy_gradient_loss        | -0.0113     |
+|    std                         | 0.173       |
+|    value_loss                  | 29.1        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00459    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0349      |
+|    reward_position_progress    | 0.235       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.195       |
+| rollout/                       |             |
+|    ep_len_mean                 | 109         |
+|    ep_rew_mean                 | 40.3        |
+|    success_rate                | 0.21        |
+| time/                          |             |
+|    fps                         | 270         |
+|    iterations                  | 48          |
+|    time_elapsed                | 181         |
+|    total_timesteps             | 210944      |
+| train/                         |             |
+|    approx_kl                   | 0.051043812 |
+|    clip_fraction               | 0.324       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.44        |
+|    explained_variance          | 0.927       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 39.8        |
+|    n_updates                   | 2050        |
+|    policy_gradient_loss        | -0.0129     |
+|    std                         | 0.173       |
+|    value_loss                  | 44.6        |
+------------------------------------------------
+Eval num_timesteps=211792, episode_reward=46.54 +/- 63.19
+Episode length: 130.00 +/- 60.00
+Success rate: 20.00%
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00444    |
+|    reward_collision            | -0.059      |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0326      |
+|    reward_position_progress    | 0.207       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.236       |
+| eval/                          |             |
+|    mean_ep_length              | 130         |
+|    mean_reward                 | 46.5        |
+|    success_rate                | 0.2         |
+| time/                          |             |
+|    total_timesteps             | 211792      |
+| train/                         |             |
+|    approx_kl                   | 0.020885672 |
+|    clip_fraction               | 0.259       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.46        |
+|    explained_variance          | 0.967       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 6.26        |
+|    n_updates                   | 2060        |
+|    policy_gradient_loss        | -0.0176     |
+|    std                         | 0.172       |
+|    value_loss                  | 20.1        |
+------------------------------------------------
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.00486 |
+|    reward_collision            | 0        |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | 0.0395   |
+|    reward_position_progress    | 0.274    |
+|    reward_step                 | -0.05    |
+|    reward_success              | 0        |
+| rollout/                       |          |
+|    ep_len_mean                 | 115      |
+|    ep_rew_mean                 | 39       |
+|    success_rate                | 0.19     |
+| time/                          |          |
+|    fps                         | 267      |
+|    iterations                  | 49       |
+|    time_elapsed                | 187      |
+|    total_timesteps             | 211968   |
+---------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00464   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0351     |
+|    reward_position_progress    | 0.244      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.195      |
+| rollout/                       |            |
+|    ep_len_mean                 | 115        |
+|    ep_rew_mean                 | 39.4       |
+|    success_rate                | 0.19       |
+| time/                          |            |
+|    fps                         | 267        |
+|    iterations                  | 50         |
+|    time_elapsed                | 191        |
+|    total_timesteps             | 212992     |
+| train/                         |            |
+|    approx_kl                   | 0.03298361 |
+|    clip_fraction               | 0.255      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.47       |
+|    explained_variance          | 0.955      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 21.8       |
+|    n_updates                   | 2070       |
+|    policy_gradient_loss        | -0.0182    |
+|    std                         | 0.172      |
+|    value_loss                  | 27.5       |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00403    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0133      |
+|    reward_position_progress    | 0.107       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.0977      |
+| rollout/                       |             |
+|    ep_len_mean                 | 118         |
+|    ep_rew_mean                 | 38.2        |
+|    success_rate                | 0.18        |
+| time/                          |             |
+|    fps                         | 267         |
+|    iterations                  | 51          |
+|    time_elapsed                | 195         |
+|    total_timesteps             | 214016      |
+| train/                         |             |
+|    approx_kl                   | 0.060733233 |
+|    clip_fraction               | 0.54        |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.46        |
+|    explained_variance          | 0.962       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 0.28        |
+|    n_updates                   | 2080        |
+|    policy_gradient_loss        | 0.00271     |
+|    std                         | 0.172       |
+|    value_loss                  | 4.28        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00444   |
+|    reward_collision            | -0.0488    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0345     |
+|    reward_position_progress    | 0.231      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.195      |
+| rollout/                       |            |
+|    ep_len_mean                 | 116        |
+|    ep_rew_mean                 | 37.9       |
+|    success_rate                | 0.19       |
+| time/                          |            |
+|    fps                         | 267        |
+|    iterations                  | 52         |
+|    time_elapsed                | 199        |
+|    total_timesteps             | 215040     |
+| train/                         |            |
+|    approx_kl                   | 0.04636793 |
+|    clip_fraction               | 0.54       |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.46       |
+|    explained_variance          | 0.981      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 0.15       |
+|    n_updates                   | 2090       |
+|    policy_gradient_loss        | 0.0222     |
+|    std                         | 0.172      |
+|    value_loss                  | 1.6        |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00466    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0589      |
+|    reward_position_progress    | 0.375       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.195       |
+| rollout/                       |             |
+|    ep_len_mean                 | 117         |
+|    ep_rew_mean                 | 40          |
+|    success_rate                | 0.19        |
+| time/                          |             |
+|    fps                         | 267         |
+|    iterations                  | 53          |
+|    time_elapsed                | 202         |
+|    total_timesteps             | 216064      |
+| train/                         |             |
+|    approx_kl                   | 0.051219888 |
+|    clip_fraction               | 0.409       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.49        |
+|    explained_variance          | 0.976       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 0.885       |
+|    n_updates                   | 2100        |
+|    policy_gradient_loss        | -0.0187     |
+|    std                         | 0.171       |
+|    value_loss                  | 9.14        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00424    |
+|    reward_collision            | -0.0977     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0311      |
+|    reward_position_progress    | 0.197       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.0977      |
+| rollout/                       |             |
+|    ep_len_mean                 | 117         |
+|    ep_rew_mean                 | 37.4        |
+|    success_rate                | 0.18        |
+| time/                          |             |
+|    fps                         | 267         |
+|    iterations                  | 54          |
+|    time_elapsed                | 206         |
+|    total_timesteps             | 217088      |
+| train/                         |             |
+|    approx_kl                   | 0.033730105 |
+|    clip_fraction               | 0.297       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.51        |
+|    explained_variance          | 0.97        |
+|    learning_rate               | 0.0003      |
+|    loss                        | 19.9        |
+|    n_updates                   | 2110        |
+|    policy_gradient_loss        | -0.0168     |
+|    std                         | 0.171       |
+|    value_loss                  | 13.1        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00446   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0336     |
+|    reward_position_progress    | 0.221      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.195      |
+| rollout/                       |            |
+|    ep_len_mean                 | 115        |
+|    ep_rew_mean                 | 40.2       |
+|    success_rate                | 0.2        |
+| time/                          |            |
+|    fps                         | 267        |
+|    iterations                  | 55         |
+|    time_elapsed                | 210        |
+|    total_timesteps             | 218112     |
+| train/                         |            |
+|    approx_kl                   | 0.05763068 |
+|    clip_fraction               | 0.451      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.53       |
+|    explained_variance          | 0.717      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 1.04       |
+|    n_updates                   | 2120       |
+|    policy_gradient_loss        | -0.00767   |
+|    std                         | 0.17       |
+|    value_loss                  | 72         |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00539    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0782      |
+|    reward_position_progress    | 0.492       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.977       |
+| rollout/                       |             |
+|    ep_len_mean                 | 111         |
+|    ep_rew_mean                 | 51.2        |
+|    success_rate                | 0.28        |
+| time/                          |             |
+|    fps                         | 267         |
+|    iterations                  | 56          |
+|    time_elapsed                | 214         |
+|    total_timesteps             | 219136      |
+| train/                         |             |
+|    approx_kl                   | 0.045726493 |
+|    clip_fraction               | 0.37        |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.55        |
+|    explained_variance          | 0.972       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 0.544       |
+|    n_updates                   | 2130        |
+|    policy_gradient_loss        | -0.00975    |
+|    std                         | 0.17        |
+|    value_loss                  | 6.23        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00447   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0514     |
+|    reward_position_progress    | 0.311      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.488      |
+| rollout/                       |            |
+|    ep_len_mean                 | 106        |
+|    ep_rew_mean                 | 52.9       |
+|    success_rate                | 0.3        |
+| time/                          |            |
+|    fps                         | 267        |
+|    iterations                  | 57         |
+|    time_elapsed                | 217        |
+|    total_timesteps             | 220160     |
+| train/                         |            |
+|    approx_kl                   | 0.03498549 |
+|    clip_fraction               | 0.304      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.56       |
+|    explained_variance          | 0.984      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 7.08       |
+|    n_updates                   | 2140       |
+|    policy_gradient_loss        | -0.00144   |
+|    std                         | 0.169      |
+|    value_loss                  | 10.5       |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00455    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0468      |
+|    reward_position_progress    | 0.278       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.0977      |
+| rollout/                       |             |
+|    ep_len_mean                 | 113         |
+|    ep_rew_mean                 | 55.9        |
+|    success_rate                | 0.3         |
+| time/                          |             |
+|    fps                         | 268         |
+|    iterations                  | 58          |
+|    time_elapsed                | 221         |
+|    total_timesteps             | 221184      |
+| train/                         |             |
+|    approx_kl                   | 0.081579335 |
+|    clip_fraction               | 0.448       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.55        |
+|    explained_variance          | 0.993       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 0.41        |
+|    n_updates                   | 2150        |
+|    policy_gradient_loss        | -0.0006     |
+|    std                         | 0.17        |
+|    value_loss                  | 1.44        |
+------------------------------------------------
+Eval num_timesteps=221792, episode_reward=94.39 +/- 69.78
+Episode length: 72.00 +/- 71.86
+Success rate: 60.00%
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00534   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0682     |
+|    reward_position_progress    | 0.423      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.988      |
+| eval/                          |            |
+|    mean_ep_length              | 72         |
+|    mean_reward                 | 94.4       |
+|    success_rate                | 0.6        |
+| time/                          |            |
+|    total_timesteps             | 221792     |
+| train/                         |            |
+|    approx_kl                   | 0.08357027 |
+|    clip_fraction               | 0.501      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.5        |
+|    explained_variance          | 0.996      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 0.0661     |
+|    n_updates                   | 2160       |
+|    policy_gradient_loss        | -0.00376   |
+|    std                         | 0.172      |
+|    value_loss                  | 0.72       |
+-----------------------------------------------
+New best mean reward!
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.00499 |
+|    reward_collision            | -0.12    |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | 0.0564   |
+|    reward_position_progress    | 0.338    |
+|    reward_step                 | -0.05    |
+|    reward_success              | 0        |
+| rollout/                       |          |
+|    ep_len_mean                 | 106      |
+|    ep_rew_mean                 | 60       |
+|    success_rate                | 0.33     |
+| time/                          |          |
+|    fps                         | 266      |
+|    iterations                  | 59       |
+|    time_elapsed                | 226      |
+|    total_timesteps             | 222208   |
+---------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00508   |
+|    reward_collision            | -0.0488    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0545     |
+|    reward_position_progress    | 0.326      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.293      |
+| rollout/                       |            |
+|    ep_len_mean                 | 104        |
+|    ep_rew_mean                 | 60.5       |
+|    success_rate                | 0.34       |
+| time/                          |            |
+|    fps                         | 267        |
+|    iterations                  | 60         |
+|    time_elapsed                | 230        |
+|    total_timesteps             | 223232     |
+| train/                         |            |
+|    approx_kl                   | 0.01443748 |
+|    clip_fraction               | 0.287      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.47       |
+|    explained_variance          | 0.747      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 5.89       |
+|    n_updates                   | 2170       |
+|    policy_gradient_loss        | -0.00511   |
+|    std                         | 0.172      |
+|    value_loss                  | 163        |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00422    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0308      |
+|    reward_position_progress    | 0.167       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.391       |
+| rollout/                       |             |
+|    ep_len_mean                 | 101         |
+|    ep_rew_mean                 | 62.4        |
+|    success_rate                | 0.36        |
+| time/                          |             |
+|    fps                         | 267         |
+|    iterations                  | 61          |
+|    time_elapsed                | 233         |
+|    total_timesteps             | 224256      |
+| train/                         |             |
+|    approx_kl                   | 0.055785563 |
+|    clip_fraction               | 0.405       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.48        |
+|    explained_variance          | 0.976       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 3.69        |
+|    n_updates                   | 2180        |
+|    policy_gradient_loss        | -0.00605    |
+|    std                         | 0.172       |
+|    value_loss                  | 12          |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00528    |
+|    reward_collision            | -0.0977     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0737      |
+|    reward_position_progress    | 0.431       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.586       |
+| rollout/                       |             |
+|    ep_len_mean                 | 94.7        |
+|    ep_rew_mean                 | 66.4        |
+|    success_rate                | 0.39        |
+| time/                          |             |
+|    fps                         | 267         |
+|    iterations                  | 62          |
+|    time_elapsed                | 237         |
+|    total_timesteps             | 225280      |
+| train/                         |             |
+|    approx_kl                   | 0.108916074 |
+|    clip_fraction               | 0.457       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.47        |
+|    explained_variance          | 0.994       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 2.73        |
+|    n_updates                   | 2190        |
+|    policy_gradient_loss        | 0.00127     |
+|    std                         | 0.172       |
+|    value_loss                  | 2.64        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00503    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0578      |
+|    reward_position_progress    | 0.378       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.391       |
+| rollout/                       |             |
+|    ep_len_mean                 | 93.1        |
+|    ep_rew_mean                 | 69.9        |
+|    success_rate                | 0.41        |
+| time/                          |             |
+|    fps                         | 267         |
+|    iterations                  | 63          |
+|    time_elapsed                | 240         |
+|    total_timesteps             | 226304      |
+| train/                         |             |
+|    approx_kl                   | 0.035749983 |
+|    clip_fraction               | 0.375       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.48        |
+|    explained_variance          | 0.88        |
+|    learning_rate               | 0.0003      |
+|    loss                        | 22.6        |
+|    n_updates                   | 2200        |
+|    policy_gradient_loss        | -0.00208    |
+|    std                         | 0.172       |
+|    value_loss                  | 93.1        |
+------------------------------------------------
+----------------------------------------------
+| components/                    |           |
+|    reward_action               | -0.00471  |
+|    reward_collision            | -0.0488   |
+|    reward_joint_limit          | 0         |
+|    reward_orientation_progress | 0.0379    |
+|    reward_position_progress    | 0.263     |
+|    reward_step                 | -0.05     |
+|    reward_success              | 0.195     |
+| rollout/                       |           |
+|    ep_len_mean                 | 91.8      |
+|    ep_rew_mean                 | 71.9      |
+|    success_rate                | 0.42      |
+| time/                          |           |
+|    fps                         | 268       |
+|    iterations                  | 64        |
+|    time_elapsed                | 243       |
+|    total_timesteps             | 227328    |
+| train/                         |           |
+|    approx_kl                   | 0.0457896 |
+|    clip_fraction               | 0.363     |
+|    clip_range                  | 0.2       |
+|    entropy_loss                | 2.48      |
+|    explained_variance          | 0.99      |
+|    learning_rate               | 0.0003    |
+|    loss                        | 0.217     |
+|    n_updates                   | 2210      |
+|    policy_gradient_loss        | -0.00738  |
+|    std                         | 0.172     |
+|    value_loss                  | 3.17      |
+----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00546    |
+|    reward_collision            | -0.244      |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0818      |
+|    reward_position_progress    | 0.515       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.391       |
+| rollout/                       |             |
+|    ep_len_mean                 | 95.3        |
+|    ep_rew_mean                 | 61.6        |
+|    success_rate                | 0.35        |
+| time/                          |             |
+|    fps                         | 269         |
+|    iterations                  | 65          |
+|    time_elapsed                | 247         |
+|    total_timesteps             | 228352      |
+| train/                         |             |
+|    approx_kl                   | 0.029222753 |
+|    clip_fraction               | 0.386       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.48        |
+|    explained_variance          | 0.812       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 1.52        |
+|    n_updates                   | 2220        |
+|    policy_gradient_loss        | -0.00559    |
+|    std                         | 0.171       |
+|    value_loss                  | 67.8        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00499    |
+|    reward_collision            | -0.0977     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0565      |
+|    reward_position_progress    | 0.377       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.195       |
+| rollout/                       |             |
+|    ep_len_mean                 | 93.9        |
+|    ep_rew_mean                 | 60.8        |
+|    success_rate                | 0.34        |
+| time/                          |             |
+|    fps                         | 269         |
+|    iterations                  | 66          |
+|    time_elapsed                | 250         |
+|    total_timesteps             | 229376      |
+| train/                         |             |
+|    approx_kl                   | 0.010211066 |
+|    clip_fraction               | 0.105       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.49        |
+|    explained_variance          | 0.749       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 54          |
+|    n_updates                   | 2230        |
+|    policy_gradient_loss        | -0.0163     |
+|    std                         | 0.171       |
+|    value_loss                  | 207         |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00428   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0341     |
+|    reward_position_progress    | 0.214      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0          |
+| rollout/                       |            |
+|    ep_len_mean                 | 98.2       |
+|    ep_rew_mean                 | 57.9       |
+|    success_rate                | 0.31       |
+| time/                          |            |
+|    fps                         | 269        |
+|    iterations                  | 67         |
+|    time_elapsed                | 254        |
+|    total_timesteps             | 230400     |
+| train/                         |            |
+|    approx_kl                   | 0.05937569 |
+|    clip_fraction               | 0.345      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.49       |
+|    explained_variance          | 0.652      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 3.04       |
+|    n_updates                   | 2240       |
+|    policy_gradient_loss        | -0.00913   |
+|    std                         | 0.171      |
+|    value_loss                  | 115        |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00505    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0605      |
+|    reward_position_progress    | 0.373       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.293       |
+| rollout/                       |             |
+|    ep_len_mean                 | 98.5        |
+|    ep_rew_mean                 | 58          |
+|    success_rate                | 0.31        |
+| time/                          |             |
+|    fps                         | 270         |
+|    iterations                  | 68          |
+|    time_elapsed                | 257         |
+|    total_timesteps             | 231424      |
+| train/                         |             |
+|    approx_kl                   | 0.072320424 |
+|    clip_fraction               | 0.512       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.46        |
+|    explained_variance          | 0.98        |
+|    learning_rate               | 0.0003      |
+|    loss                        | 0.195       |
+|    n_updates                   | 2250        |
+|    policy_gradient_loss        | -0.00619    |
+|    std                         | 0.173       |
+|    value_loss                  | 0.369       |
+------------------------------------------------
+Eval num_timesteps=231792, episode_reward=105.33 +/- 55.99
+Episode length: 70.60 +/- 73.01
+Success rate: 60.00%
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00504    |
+|    reward_collision            | -0.136      |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0628      |
+|    reward_position_progress    | 0.411       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.272       |
+| eval/                          |             |
+|    mean_ep_length              | 70.6        |
+|    mean_reward                 | 105         |
+|    success_rate                | 0.6         |
+| time/                          |             |
+|    total_timesteps             | 231792      |
+| train/                         |             |
+|    approx_kl                   | 0.050593227 |
+|    clip_fraction               | 0.35        |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.44        |
+|    explained_variance          | 0.994       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 0.336       |
+|    n_updates                   | 2260        |
+|    policy_gradient_loss        | -0.0252     |
+|    std                         | 0.172       |
+|    value_loss                  | 1.78        |
+------------------------------------------------
+New best mean reward!
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.0049  |
+|    reward_collision            | 0        |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | 0.0359   |
+|    reward_position_progress    | 0.242    |
+|    reward_step                 | -0.05    |
+|    reward_success              | 0.152    |
+| rollout/                       |          |
+|    ep_len_mean                 | 100      |
+|    ep_rew_mean                 | 57.2     |
+|    success_rate                | 0.3      |
+| time/                          |          |
+|    fps                         | 269      |
+|    iterations                  | 69       |
+|    time_elapsed                | 262      |
+|    total_timesteps             | 232448   |
+---------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00524    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.042       |
+|    reward_position_progress    | 0.29        |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.0977      |
+| rollout/                       |             |
+|    ep_len_mean                 | 103         |
+|    ep_rew_mean                 | 56.2        |
+|    success_rate                | 0.28        |
+| time/                          |             |
+|    fps                         | 270         |
+|    iterations                  | 70          |
+|    time_elapsed                | 265         |
+|    total_timesteps             | 233472      |
+| train/                         |             |
+|    approx_kl                   | 0.053541064 |
+|    clip_fraction               | 0.416       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.46        |
+|    explained_variance          | 0.789       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 0.207       |
+|    n_updates                   | 2270        |
+|    policy_gradient_loss        | 0.0117      |
+|    std                         | 0.172       |
+|    value_loss                  | 72.3        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00539   |
+|    reward_collision            | -0.146     |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0831     |
+|    reward_position_progress    | 0.515      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.586      |
+| rollout/                       |            |
+|    ep_len_mean                 | 99.5       |
+|    ep_rew_mean                 | 58.4       |
+|    success_rate                | 0.29       |
+| time/                          |            |
+|    fps                         | 270        |
+|    iterations                  | 71         |
+|    time_elapsed                | 268        |
+|    total_timesteps             | 234496     |
+| train/                         |            |
+|    approx_kl                   | 0.05054353 |
+|    clip_fraction               | 0.3        |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.46       |
+|    explained_variance          | 0.975      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 1.17       |
+|    n_updates                   | 2280       |
+|    policy_gradient_loss        | -0.0114    |
+|    std                         | 0.172      |
+|    value_loss                  | 14         |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00526    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0599      |
+|    reward_position_progress    | 0.393       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.684       |
+| rollout/                       |             |
+|    ep_len_mean                 | 97.8        |
+|    ep_rew_mean                 | 59.4        |
+|    success_rate                | 0.3         |
+| time/                          |             |
+|    fps                         | 271         |
+|    iterations                  | 72          |
+|    time_elapsed                | 271         |
+|    total_timesteps             | 235520      |
+| train/                         |             |
+|    approx_kl                   | 0.027060866 |
+|    clip_fraction               | 0.212       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.46        |
+|    explained_variance          | 0.681       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 42.2        |
+|    n_updates                   | 2290        |
+|    policy_gradient_loss        | -0.0101     |
+|    std                         | 0.172       |
+|    value_loss                  | 165         |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00479   |
+|    reward_collision            | -0.0488    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0388     |
+|    reward_position_progress    | 0.238      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0          |
+| rollout/                       |            |
+|    ep_len_mean                 | 101        |
+|    ep_rew_mean                 | 55.2       |
+|    success_rate                | 0.27       |
+| time/                          |            |
+|    fps                         | 271        |
+|    iterations                  | 73         |
+|    time_elapsed                | 274        |
+|    total_timesteps             | 236544     |
+| train/                         |            |
+|    approx_kl                   | 0.04447332 |
+|    clip_fraction               | 0.329      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.46       |
+|    explained_variance          | 0.988      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 1.91       |
+|    n_updates                   | 2300       |
+|    policy_gradient_loss        | -0.0203    |
+|    std                         | 0.172      |
+|    value_loss                  | 3.16       |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.0056     |
+|    reward_collision            | -0.244      |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0735      |
+|    reward_position_progress    | 0.516       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.488       |
+| rollout/                       |             |
+|    ep_len_mean                 | 99          |
+|    ep_rew_mean                 | 54.5        |
+|    success_rate                | 0.27        |
+| time/                          |             |
+|    fps                         | 272         |
+|    iterations                  | 74          |
+|    time_elapsed                | 278         |
+|    total_timesteps             | 237568      |
+| train/                         |             |
+|    approx_kl                   | 0.090034045 |
+|    clip_fraction               | 0.39        |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.46        |
+|    explained_variance          | 0.83        |
+|    learning_rate               | 0.0003      |
+|    loss                        | 0.272       |
+|    n_updates                   | 2310        |
+|    policy_gradient_loss        | -0.00581    |
+|    std                         | 0.172       |
+|    value_loss                  | 13.8        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00438    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0279      |
+|    reward_position_progress    | 0.173       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.195       |
+| rollout/                       |             |
+|    ep_len_mean                 | 98.2        |
+|    ep_rew_mean                 | 54.6        |
+|    success_rate                | 0.28        |
+| time/                          |             |
+|    fps                         | 272         |
+|    iterations                  | 75          |
+|    time_elapsed                | 281         |
+|    total_timesteps             | 238592      |
+| train/                         |             |
+|    approx_kl                   | 0.021679519 |
+|    clip_fraction               | 0.268       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.46        |
+|    explained_variance          | 0.843       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 7.58        |
+|    n_updates                   | 2320        |
+|    policy_gradient_loss        | -0.0113     |
+|    std                         | 0.172       |
+|    value_loss                  | 115         |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00488    |
+|    reward_collision            | -0.0977     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0445      |
+|    reward_position_progress    | 0.291       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.195       |
+| rollout/                       |             |
+|    ep_len_mean                 | 99.3        |
+|    ep_rew_mean                 | 54.2        |
+|    success_rate                | 0.28        |
+| time/                          |             |
+|    fps                         | 273         |
+|    iterations                  | 76          |
+|    time_elapsed                | 284         |
+|    total_timesteps             | 239616      |
+| train/                         |             |
+|    approx_kl                   | 0.026446877 |
+|    clip_fraction               | 0.368       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.48        |
+|    explained_variance          | 0.946       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 9.52        |
+|    n_updates                   | 2330        |
+|    policy_gradient_loss        | -0.00477    |
+|    std                         | 0.171       |
+|    value_loss                  | 8.33        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00547    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0826      |
+|    reward_position_progress    | 0.517       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.879       |
+| rollout/                       |             |
+|    ep_len_mean                 | 90.3        |
+|    ep_rew_mean                 | 57.7        |
+|    success_rate                | 0.33        |
+| time/                          |             |
+|    fps                         | 274         |
+|    iterations                  | 77          |
+|    time_elapsed                | 287         |
+|    total_timesteps             | 240640      |
+| train/                         |             |
+|    approx_kl                   | 0.039129995 |
+|    clip_fraction               | 0.254       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.48        |
+|    explained_variance          | 0.904       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 13.9        |
+|    n_updates                   | 2340        |
+|    policy_gradient_loss        | -0.0105     |
+|    std                         | 0.171       |
+|    value_loss                  | 27.9        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.0047     |
+|    reward_collision            | -0.146      |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0454      |
+|    reward_position_progress    | 0.277       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.195       |
+| rollout/                       |             |
+|    ep_len_mean                 | 87.1        |
+|    ep_rew_mean                 | 56.1        |
+|    success_rate                | 0.33        |
+| time/                          |             |
+|    fps                         | 274         |
+|    iterations                  | 78          |
+|    time_elapsed                | 290         |
+|    total_timesteps             | 241664      |
+| train/                         |             |
+|    approx_kl                   | 0.055921003 |
+|    clip_fraction               | 0.346       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.49        |
+|    explained_variance          | 0.989       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 30.9        |
+|    n_updates                   | 2350        |
+|    policy_gradient_loss        | -0.0172     |
+|    std                         | 0.171       |
+|    value_loss                  | 11.3        |
+------------------------------------------------
+Eval num_timesteps=241792, episode_reward=65.68 +/- 53.08
+Episode length: 98.20 +/- 75.74
+Success rate: 40.00%
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00558    |
+|    reward_collision            | -1.18       |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0741      |
+|    reward_position_progress    | 0.433       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0           |
+| eval/                          |             |
+|    mean_ep_length              | 98.2        |
+|    mean_reward                 | 65.7        |
+|    success_rate                | 0.4         |
+| time/                          |             |
+|    total_timesteps             | 241792      |
+| train/                         |             |
+|    approx_kl                   | 0.037129298 |
+|    clip_fraction               | 0.249       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.5         |
+|    explained_variance          | 0.634       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 58.4        |
+|    n_updates                   | 2360        |
+|    policy_gradient_loss        | -0.0167     |
+|    std                         | 0.171       |
+|    value_loss                  | 109         |
+------------------------------------------------
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.00506 |
+|    reward_collision            | 0        |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | 0.0575   |
+|    reward_position_progress    | 0.371    |
+|    reward_step                 | -0.05    |
+|    reward_success              | 0.334    |
+| rollout/                       |          |
+|    ep_len_mean                 | 87.2     |
+|    ep_rew_mean                 | 55.5     |
+|    success_rate                | 0.33     |
+| time/                          |          |
+|    fps                         | 273      |
+|    iterations                  | 79       |
+|    time_elapsed                | 295      |
+|    total_timesteps             | 242688   |
+---------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00454   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0406     |
+|    reward_position_progress    | 0.26       |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0          |
+| rollout/                       |            |
+|    ep_len_mean                 | 93.2       |
+|    ep_rew_mean                 | 55         |
+|    success_rate                | 0.31       |
+| time/                          |            |
+|    fps                         | 274        |
+|    iterations                  | 80         |
+|    time_elapsed                | 298        |
+|    total_timesteps             | 243712     |
+| train/                         |            |
+|    approx_kl                   | 0.03770481 |
+|    clip_fraction               | 0.334      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.51       |
+|    explained_variance          | 0.96       |
+|    learning_rate               | 0.0003     |
+|    loss                        | 1.01       |
+|    n_updates                   | 2370       |
+|    policy_gradient_loss        | -0.0152    |
+|    std                         | 0.171      |
+|    value_loss                  | 23.8       |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00514   |
+|    reward_collision            | -0.195     |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0611     |
+|    reward_position_progress    | 0.396      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.684      |
+| rollout/                       |            |
+|    ep_len_mean                 | 90.3       |
+|    ep_rew_mean                 | 50.6       |
+|    success_rate                | 0.3        |
+| time/                          |            |
+|    fps                         | 274        |
+|    iterations                  | 81         |
+|    time_elapsed                | 302        |
+|    total_timesteps             | 244736     |
+| train/                         |            |
+|    approx_kl                   | 0.07724993 |
+|    clip_fraction               | 0.431      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.53       |
+|    explained_variance          | 0.964      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 0.183      |
+|    n_updates                   | 2380       |
+|    policy_gradient_loss        | 0.000249   |
+|    std                         | 0.17       |
+|    value_loss                  | 0.498      |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00487    |
+|    reward_collision            | -0.0977     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0562      |
+|    reward_position_progress    | 0.355       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.684       |
+| rollout/                       |             |
+|    ep_len_mean                 | 85.2        |
+|    ep_rew_mean                 | 52          |
+|    success_rate                | 0.33        |
+| time/                          |             |
+|    fps                         | 274         |
+|    iterations                  | 82          |
+|    time_elapsed                | 305         |
+|    total_timesteps             | 245760      |
+| train/                         |             |
+|    approx_kl                   | 0.021350268 |
+|    clip_fraction               | 0.245       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.55        |
+|    explained_variance          | 0.889       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 17.9        |
+|    n_updates                   | 2390        |
+|    policy_gradient_loss        | -0.0147     |
+|    std                         | 0.169       |
+|    value_loss                  | 99.6        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00459    |
+|    reward_collision            | 0           |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0422      |
+|    reward_position_progress    | 0.279       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.0977      |
+| rollout/                       |             |
+|    ep_len_mean                 | 91          |
+|    ep_rew_mean                 | 54.6        |
+|    success_rate                | 0.33        |
+| time/                          |             |
+|    fps                         | 274         |
+|    iterations                  | 83          |
+|    time_elapsed                | 309         |
+|    total_timesteps             | 246784      |
+| train/                         |             |
+|    approx_kl                   | 0.021468047 |
+|    clip_fraction               | 0.181       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.56        |
+|    explained_variance          | 0.77        |
+|    learning_rate               | 0.0003      |
+|    loss                        | 69          |
+|    n_updates                   | 2400        |
+|    policy_gradient_loss        | -0.0146     |
+|    std                         | 0.169       |
+|    value_loss                  | 121         |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00553   |
+|    reward_collision            | -0.146     |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0719     |
+|    reward_position_progress    | 0.467      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.391      |
+| rollout/                       |            |
+|    ep_len_mean                 | 87.5       |
+|    ep_rew_mean                 | 58.9       |
+|    success_rate                | 0.35       |
+| time/                          |            |
+|    fps                         | 275        |
+|    iterations                  | 84         |
+|    time_elapsed                | 312        |
+|    total_timesteps             | 247808     |
+| train/                         |            |
+|    approx_kl                   | 0.04862516 |
+|    clip_fraction               | 0.25       |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.57       |
+|    explained_variance          | 0.346      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 35.3       |
+|    n_updates                   | 2410       |
+|    policy_gradient_loss        | -0.00898   |
+|    std                         | 0.169      |
+|    value_loss                  | 67.3       |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00564   |
+|    reward_collision            | -0.146     |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0967     |
+|    reward_position_progress    | 0.588      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.781      |
+| rollout/                       |            |
+|    ep_len_mean                 | 86         |
+|    ep_rew_mean                 | 57.7       |
+|    success_rate                | 0.34       |
+| time/                          |            |
+|    fps                         | 275        |
+|    iterations                  | 85         |
+|    time_elapsed                | 315        |
+|    total_timesteps             | 248832     |
+| train/                         |            |
+|    approx_kl                   | 0.02696364 |
+|    clip_fraction               | 0.229      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.58       |
+|    explained_variance          | 0.903      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 3.37       |
+|    n_updates                   | 2420       |
+|    policy_gradient_loss        | -0.0179    |
+|    std                         | 0.169      |
+|    value_loss                  | 76.6       |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.0043    |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0331     |
+|    reward_position_progress    | 0.215      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0          |
+| rollout/                       |            |
+|    ep_len_mean                 | 89.1       |
+|    ep_rew_mean                 | 55.7       |
+|    success_rate                | 0.32       |
+| time/                          |            |
+|    fps                         | 276        |
+|    iterations                  | 86         |
+|    time_elapsed                | 318        |
+|    total_timesteps             | 249856     |
+| train/                         |            |
+|    approx_kl                   | 0.07162382 |
+|    clip_fraction               | 0.322      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.59       |
+|    explained_variance          | 0.906      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 2.6        |
+|    n_updates                   | 2430       |
+|    policy_gradient_loss        | -0.00202   |
+|    std                         | 0.169      |
+|    value_loss                  | 107        |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00503   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0698     |
+|    reward_position_progress    | 0.451      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.586      |
+| rollout/                       |            |
+|    ep_len_mean                 | 90.3       |
+|    ep_rew_mean                 | 64         |
+|    success_rate                | 0.36       |
+| time/                          |            |
+|    fps                         | 276        |
+|    iterations                  | 87         |
+|    time_elapsed                | 322        |
+|    total_timesteps             | 250880     |
+| train/                         |            |
+|    approx_kl                   | 0.07451707 |
+|    clip_fraction               | 0.47       |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.6        |
+|    explained_variance          | 0.976      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 0.257      |
+|    n_updates                   | 2440       |
+|    policy_gradient_loss        | -0.0058    |
+|    std                         | 0.168      |
+|    value_loss                  | 0.903      |
+-----------------------------------------------
+Eval num_timesteps=251792, episode_reward=56.11 +/- 49.95
+Episode length: 104.80 +/- 67.61
+Success rate: 20.00%
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00478    |
+|    reward_collision            | -0.0549     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0548      |
+|    reward_position_progress    | 0.357       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.439       |
+| eval/                          |             |
+|    mean_ep_length              | 105         |
+|    mean_reward                 | 56.1        |
+|    success_rate                | 0.2         |
+| time/                          |             |
+|    total_timesteps             | 251792      |
+| train/                         |             |
+|    approx_kl                   | 0.047557674 |
+|    clip_fraction               | 0.402       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.6         |
+|    explained_variance          | 0.994       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 2.57        |
+|    n_updates                   | 2450        |
+|    policy_gradient_loss        | -0.0136     |
+|    std                         | 0.169       |
+|    value_loss                  | 3.82        |
+------------------------------------------------
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.00363 |
+|    reward_collision            | 0        |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | -0.00066 |
+|    reward_position_progress    | -0.00353 |
+|    reward_step                 | -0.05    |
+|    reward_success              | 0        |
+| rollout/                       |          |
+|    ep_len_mean                 | 90.1     |
+|    ep_rew_mean                 | 65       |
+|    success_rate                | 0.37     |
+| time/                          |          |
+|    fps                         | 275      |
+|    iterations                  | 88       |
+|    time_elapsed                | 326      |
+|    total_timesteps             | 251904   |
+---------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00474   |
+|    reward_collision            | -0.0977    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0621     |
+|    reward_position_progress    | 0.387      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.391      |
+| rollout/                       |            |
+|    ep_len_mean                 | 89.6       |
+|    ep_rew_mean                 | 67.6       |
+|    success_rate                | 0.39       |
+| time/                          |            |
+|    fps                         | 275        |
+|    iterations                  | 89         |
+|    time_elapsed                | 330        |
+|    total_timesteps             | 252928     |
+| train/                         |            |
+|    approx_kl                   | 0.03270144 |
+|    clip_fraction               | 0.268      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.6        |
+|    explained_variance          | 0.973      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 7.32       |
+|    n_updates                   | 2460       |
+|    policy_gradient_loss        | -0.0162    |
+|    std                         | 0.168      |
+|    value_loss                  | 18.1       |
+-----------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00531   |
+|    reward_collision            | -0.0977    |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0725     |
+|    reward_position_progress    | 0.472      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.586      |
+| rollout/                       |            |
+|    ep_len_mean                 | 89         |
+|    ep_rew_mean                 | 66.9       |
+|    success_rate                | 0.38       |
+| time/                          |            |
+|    fps                         | 276        |
+|    iterations                  | 90         |
+|    time_elapsed                | 333        |
+|    total_timesteps             | 253952     |
+| train/                         |            |
+|    approx_kl                   | 0.01760463 |
+|    clip_fraction               | 0.26       |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.6        |
+|    explained_variance          | 0.619      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 3.6        |
+|    n_updates                   | 2470       |
+|    policy_gradient_loss        | -0.0152    |
+|    std                         | 0.169      |
+|    value_loss                  | 156        |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00475    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0469      |
+|    reward_position_progress    | 0.309       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.293       |
+| rollout/                       |             |
+|    ep_len_mean                 | 93.5        |
+|    ep_rew_mean                 | 66.4        |
+|    success_rate                | 0.36        |
+| time/                          |             |
+|    fps                         | 276         |
+|    iterations                  | 91          |
+|    time_elapsed                | 336         |
+|    total_timesteps             | 254976      |
+| train/                         |             |
+|    approx_kl                   | 0.016038436 |
+|    clip_fraction               | 0.214       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.6         |
+|    explained_variance          | 0.793       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 57.6        |
+|    n_updates                   | 2480        |
+|    policy_gradient_loss        | -0.0103     |
+|    std                         | 0.168       |
+|    value_loss                  | 148         |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00522    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0719      |
+|    reward_position_progress    | 0.462       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 1.07        |
+| rollout/                       |             |
+|    ep_len_mean                 | 86.9        |
+|    ep_rew_mean                 | 74          |
+|    success_rate                | 0.44        |
+| time/                          |             |
+|    fps                         | 277         |
+|    iterations                  | 92          |
+|    time_elapsed                | 339         |
+|    total_timesteps             | 256000      |
+| train/                         |             |
+|    approx_kl                   | 0.057292845 |
+|    clip_fraction               | 0.244       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.61        |
+|    explained_variance          | 0.969       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 5.27        |
+|    n_updates                   | 2490        |
+|    policy_gradient_loss        | -0.0148     |
+|    std                         | 0.168       |
+|    value_loss                  | 19.6        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00536   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0691     |
+|    reward_position_progress    | 0.446      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.684      |
+| rollout/                       |            |
+|    ep_len_mean                 | 86.2       |
+|    ep_rew_mean                 | 78.4       |
+|    success_rate                | 0.47       |
+| time/                          |            |
+|    fps                         | 277        |
+|    iterations                  | 93         |
+|    time_elapsed                | 343        |
+|    total_timesteps             | 257024     |
+| train/                         |            |
+|    approx_kl                   | 0.01312313 |
+|    clip_fraction               | 0.189      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.62       |
+|    explained_variance          | 0.882      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 81.8       |
+|    n_updates                   | 2500       |
+|    policy_gradient_loss        | -0.00859   |
+|    std                         | 0.168      |
+|    value_loss                  | 139        |
+-----------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00501    |
+|    reward_collision            | -0.0977     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0704      |
+|    reward_position_progress    | 0.451       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.879       |
+| rollout/                       |             |
+|    ep_len_mean                 | 81.3        |
+|    ep_rew_mean                 | 80.5        |
+|    success_rate                | 0.5         |
+| time/                          |             |
+|    fps                         | 277         |
+|    iterations                  | 94          |
+|    time_elapsed                | 346         |
+|    total_timesteps             | 258048      |
+| train/                         |             |
+|    approx_kl                   | 0.033639245 |
+|    clip_fraction               | 0.278       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.62        |
+|    explained_variance          | 0.975       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 10.6        |
+|    n_updates                   | 2510        |
+|    policy_gradient_loss        | -0.014      |
+|    std                         | 0.168       |
+|    value_loss                  | 19.3        |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00522    |
+|    reward_collision            | -0.0488     |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.0806      |
+|    reward_position_progress    | 0.52        |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.781       |
+| rollout/                       |             |
+|    ep_len_mean                 | 80.2        |
+|    ep_rew_mean                 | 81.5        |
+|    success_rate                | 0.51        |
+| time/                          |             |
+|    fps                         | 278         |
+|    iterations                  | 95          |
+|    time_elapsed                | 349         |
+|    total_timesteps             | 259072      |
+| train/                         |             |
+|    approx_kl                   | 0.016985513 |
+|    clip_fraction               | 0.171       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.63        |
+|    explained_variance          | 0.74        |
+|    learning_rate               | 0.0003      |
+|    loss                        | 188         |
+|    n_updates                   | 2520        |
+|    policy_gradient_loss        | -0.0144     |
+|    std                         | 0.168       |
+|    value_loss                  | 186         |
+------------------------------------------------
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00467    |
+|    reward_collision            | -0.195      |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.053       |
+|    reward_position_progress    | 0.339       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 0.488       |
+| rollout/                       |             |
+|    ep_len_mean                 | 74.9        |
+|    ep_rew_mean                 | 76.1        |
+|    success_rate                | 0.5         |
+| time/                          |             |
+|    fps                         | 278         |
+|    iterations                  | 96          |
+|    time_elapsed                | 352         |
+|    total_timesteps             | 260096      |
+| train/                         |             |
+|    approx_kl                   | 0.030960329 |
+|    clip_fraction               | 0.243       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.65        |
+|    explained_variance          | 0.916       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 42.6        |
+|    n_updates                   | 2530        |
+|    policy_gradient_loss        | -0.0152     |
+|    std                         | 0.167       |
+|    value_loss                  | 80.8        |
+------------------------------------------------
+-----------------------------------------------
+| components/                    |            |
+|    reward_action               | -0.00472   |
+|    reward_collision            | 0          |
+|    reward_joint_limit          | 0          |
+|    reward_orientation_progress | 0.0634     |
+|    reward_position_progress    | 0.399      |
+|    reward_step                 | -0.05      |
+|    reward_success              | 0.684      |
+| rollout/                       |            |
+|    ep_len_mean                 | 74.3       |
+|    ep_rew_mean                 | 84.3       |
+|    success_rate                | 0.55       |
+| time/                          |            |
+|    fps                         | 279        |
+|    iterations                  | 97         |
+|    time_elapsed                | 356        |
+|    total_timesteps             | 261120     |
+| train/                         |            |
+|    approx_kl                   | 0.01324882 |
+|    clip_fraction               | 0.224      |
+|    clip_range                  | 0.2        |
+|    entropy_loss                | 2.65       |
+|    explained_variance          | 0.713      |
+|    learning_rate               | 0.0003     |
+|    loss                        | 60.2       |
+|    n_updates                   | 2540       |
+|    policy_gradient_loss        | -0.0152    |
+|    std                         | 0.168      |
+|    value_loss                  | 173        |
+-----------------------------------------------
+Eval num_timesteps=261792, episode_reward=90.65 +/- 62.26
+Episode length: 68.60 +/- 74.71
+Success rate: 60.00%
+------------------------------------------------
+| components/                    |             |
+|    reward_action               | -0.00637    |
+|    reward_collision            | -0.149      |
+|    reward_joint_limit          | 0           |
+|    reward_orientation_progress | 0.127       |
+|    reward_position_progress    | 0.831       |
+|    reward_step                 | -0.05       |
+|    reward_success              | 1.79        |
+| eval/                          |             |
+|    mean_ep_length              | 68.6        |
+|    mean_reward                 | 90.7        |
+|    success_rate                | 0.6         |
+| time/                          |             |
+|    total_timesteps             | 261792      |
+| train/                         |             |
+|    approx_kl                   | 0.048821747 |
+|    clip_fraction               | 0.252       |
+|    clip_range                  | 0.2         |
+|    entropy_loss                | 2.65        |
+|    explained_variance          | 0.914       |
+|    learning_rate               | 0.0003      |
+|    loss                        | 16.8        |
+|    n_updates                   | 2550        |
+|    policy_gradient_loss        | -0.0151     |
+|    std                         | 0.167       |
+|    value_loss                  | 64.7        |
+------------------------------------------------
+---------------------------------------------
+| components/                    |          |
+|    reward_action               | -0.00521 |
+|    reward_collision            | 0        |
+|    reward_joint_limit          | 0        |
+|    reward_orientation_progress | 0.0778   |
+|    reward_position_progress    | 0.539    |
+|    reward_step                 | -0.05    |
+|    reward_success              | 0.85     |
+| rollout/                       |          |
+|    ep_len_mean                 | 69.7     |
+|    ep_rew_mean                 | 84.4     |
+|    success_rate                | 0.56     |
+| time/                          |          |
+|    fps                         | 278      |
+|    iterations                  | 98       |
+|    time_elapsed                | 360      |
+|    total_timesteps             | 262144   |
+---------------------------------------------

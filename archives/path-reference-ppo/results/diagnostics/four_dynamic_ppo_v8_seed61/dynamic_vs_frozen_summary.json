@@ -1,0 +1,107 @@
+{
+  "0": {
+    "outcomes": {
+      "success / success": 41,
+      "collision / success": 3,
+      "collision / collision": 17,
+      "timeout / timeout": 3
+    },
+    "motion_only_failure_seeds": [
+      1062005,
+      1062029,
+      1062035
+    ],
+    "collisions_before_60_steps": [
+      1062005,
+      1062010,
+      1062014,
+      1062016,
+      1062018,
+      1062020,
+      1062026,
+      1062029,
+      1062030,
+      1062032,
+      1062033,
+      1062035,
+      1062041,
+      1062042,
+      1062050,
+      1062054,
+      1062062,
+      1062065,
+      1062071,
+      1062075
+    ]
+  },
+  "2000": {
+    "outcomes": {
+      "success / success": 43,
+      "collision / collision": 16,
+      "collision / timeout": 1,
+      "timeout / timeout": 3,
+      "collision / success": 1
+    },
+    "motion_only_failure_seeds": [
+      1062063
+    ],
+    "collisions_before_60_steps": [
+      1062010,
+      1062014,
+      1062016,
+      1062018,
+      1062020,
+      1062026,
+      1062029,
+      1062030,
+      1062032,
+      1062033,
+      1062041,
+      1062042,
+      1062050,
+      1062054,
+      1062062,
+      1062071,
+      1062075
+    ]
+  },
+  "5000": {
+    "outcomes": {
+      "success / success": 39,
+      "collision / success": 3,
+      "collision / collision": 17,
+      "collision / timeout": 1,
+      "timeout / timeout": 2,
+      "timeout / success": 2
+    },
+    "motion_only_failure_seeds": [
+      1062005,
+      1062035,
+      1062063,
+      1062064,
+      1062066
+    ],
+    "collisions_before_60_steps": [
+      1062005,
+      1062010,
+      1062014,
+      1062016,
+      1062018,
+      1062020,
+      1062026,
+      1062029,
+      1062030,
+      1062032,
+      1062033,
+      1062035,
+      1062041,
+      1062042,
+      1062050,
+      1062054,
+      1062062,
+      1062065,
+      1062071,
+      1062075
+    ]
+  }
+}

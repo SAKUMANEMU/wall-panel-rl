@@ -1,0 +1,69 @@
+{
+  "model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training/models/bc_1000.zip",
+  "label": "bc_1000",
+  "metrics": {
+    "all": {
+      "episodes": 16,
+      "success": 8,
+      "collision": 2,
+      "timeout": 6,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.5,
+      "mean_passage_count": 0.25,
+      "success_with_weaving": 2,
+      "mean_task_error": 0.5031997801889402
+    },
+    "by_count": {
+      "2": {
+        "episodes": 4,
+        "success": 4,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 1.0,
+        "mean_passage_count": 1.0,
+        "success_with_weaving": 2,
+        "mean_task_error": 0.0033006088606638874
+      },
+      "3": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 0,
+        "timeout": 4,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.6266898158833065
+      },
+      "4": {
+        "episodes": 4,
+        "success": 1,
+        "collision": 1,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.25,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.8658553861562268
+      },
+      "5": {
+        "episodes": 4,
+        "success": 3,
+        "collision": 1,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.5169533098555634
+      }
+    }
+  },
+  "successful_teacher_transitions": 407
+}

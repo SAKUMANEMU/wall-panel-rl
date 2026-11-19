@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "runner_pid": 38787,
+  "started_at": "2026-10-30T15:17:51.343367+08:00",
+  "training_performed": false,
+  "automatic_adoption": false,
+  "phase": "complete",
+  "updated_at": "2026-10-30T15:22:44.491249+08:00",
+  "variant": "conditional",
+  "bank": "recent_100",
+  "target": {
+    "episodes": 100,
+    "success": 94,
+    "collision": 6,
+    "timeout": 0,
+    "joint_limit": 0
+  },
+  "generated": 100,
+  "non_regression_passed": true,
+  "finished_at": "2026-10-30T15:22:44.491228+08:00"
+}

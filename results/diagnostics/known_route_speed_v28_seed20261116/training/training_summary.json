@@ -1,0 +1,34 @@
+{
+  "additional_ppo_steps": 65536,
+  "optimizer_epoch_updates": 384,
+  "optimizer_epoch_updates_after_resume": 336,
+  "ppo_episodes": 700,
+  "training_counts": {
+    "2": {
+      "success": 0,
+      "collision": 177,
+      "timeout": 12,
+      "joint_limit": 0
+    },
+    "3": {
+      "success": 0,
+      "collision": 152,
+      "timeout": 25,
+      "joint_limit": 0
+    },
+    "4": {
+      "success": 0,
+      "collision": 150,
+      "timeout": 12,
+      "joint_limit": 0
+    },
+    "5": {
+      "success": 6,
+      "collision": 118,
+      "timeout": 48,
+      "joint_limit": 0
+    }
+  },
+  "resumed_from_ppo_steps": 8192,
+  "environment_rng_reinitialized": true
+}

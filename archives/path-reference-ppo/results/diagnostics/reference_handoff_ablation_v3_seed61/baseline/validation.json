@@ -1,0 +1,348 @@
+{
+  "metrics": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0
+    },
+    "stage_target": {
+      "episodes": 20,
+      "success": 16,
+      "collision": 2,
+      "joint_limit": 0,
+      "timeout": 2
+    }
+  },
+  "rows": [
+    {
+      "suite": "stage_target",
+      "seed": 900000,
+      "reason": "success",
+      "steps": 75,
+      "position_m": 0.004876741411682799,
+      "orientation_deg": 0.3482623121080564
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900001,
+      "reason": "success",
+      "steps": 65,
+      "position_m": 0.0003251480931597652,
+      "orientation_deg": 0.018616089463101334
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900002,
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.28827830106660973,
+      "orientation_deg": 17.036636612514084
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900003,
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.1991011368687219,
+      "orientation_deg": 12.350687157001184
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900004,
+      "reason": "success",
+      "steps": 64,
+      "position_m": 0.0004900485122793083,
+      "orientation_deg": 0.03254996777574984
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900005,
+      "reason": "collision",
+      "steps": 59,
+      "position_m": 0.21937969752897649,
+      "orientation_deg": 13.185184844178849
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900006,
+      "reason": "success",
+      "steps": 69,
+      "position_m": 0.0005435206107915804,
+      "orientation_deg": 0.03571136365356033
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900007,
+      "reason": "success",
+      "steps": 60,
+      "position_m": 0.0006582899424451296,
+      "orientation_deg": 0.1153781989222877
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900008,
+      "reason": "success",
+      "steps": 59,
+      "position_m": 0.005248635538044619,
+      "orientation_deg": 0.4072723448082997
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900009,
+      "reason": "success",
+      "steps": 70,
+      "position_m": 0.0031039134467078185,
+      "orientation_deg": 0.26950884313906825
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900010,
+      "reason": "success",
+      "steps": 70,
+      "position_m": 0.008519346094816938,
+      "orientation_deg": 1.0635691060695491
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900011,
+      "reason": "success",
+      "steps": 66,
+      "position_m": 0.004817223247294281,
+      "orientation_deg": 0.31794354220977616
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900012,
+      "reason": "success",
+      "steps": 59,
+      "position_m": 0.0003445135413593169,
+      "orientation_deg": 0.024657547956025715
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900013,
+      "reason": "success",
+      "steps": 83,
+      "position_m": 0.0003633913849375362,
+      "orientation_deg": 0.16555995262584047
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900014,
+      "reason": "success",
+      "steps": 64,
+      "position_m": 0.00025189879836413567,
+      "orientation_deg": 0.026959372498155516
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900015,
+      "reason": "collision",
+      "steps": 41,
+      "position_m": 0.5096851229896636,
+      "orientation_deg": 67.79469904550731
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900016,
+      "reason": "success",
+      "steps": 64,
+      "position_m": 0.00021907102208281126,
+      "orientation_deg": 0.013535045008094744
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900017,
+      "reason": "success",
+      "steps": 72,
+      "position_m": 0.0001484575945201972,
+      "orientation_deg": 0.00848390720898073
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900018,
+      "reason": "success",
+      "steps": 65,
+      "position_m": 0.0004966891827931715,
+      "orientation_deg": 0.044743239910353214
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900019,
+      "reason": "success",
+      "steps": 60,
+      "position_m": 0.0075336414390920455,
+      "orientation_deg": 0.8742847362582444
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101000,
+      "reason": "success",
+      "steps": 43,
+      "position_m": 0.000368143186848226,
+      "orientation_deg": 0.03723226241721056
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101001,
+      "reason": "success",
+      "steps": 44,
+      "position_m": 0.0004229983126635534,
+      "orientation_deg": 0.035596944111416055
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101002,
+      "reason": "success",
+      "steps": 45,
+      "position_m": 0.0029964790237786937,
+      "orientation_deg": 0.2994161149707047
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101003,
+      "reason": "success",
+      "steps": 46,
+      "position_m": 0.0006181566743014605,
+      "orientation_deg": 0.046232030781353343
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101004,
+      "reason": "success",
+      "steps": 49,
+      "position_m": 0.007227313605758379,
+      "orientation_deg": 0.9359651317648694
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101005,
+      "reason": "success",
+      "steps": 44,
+      "position_m": 0.00031078939508881335,
+      "orientation_deg": 0.02184737011170065
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101006,
+      "reason": "success",
+      "steps": 43,
+      "position_m": 0.0006386454817493331,
+      "orientation_deg": 0.04139135611879345
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101007,
+      "reason": "success",
+      "steps": 46,
+      "position_m": 0.00019061188833411204,
+      "orientation_deg": 0.013212701977932614
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101008,
+      "reason": "success",
+      "steps": 44,
+      "position_m": 0.00018898398192963771,
+      "orientation_deg": 0.014325829595886097
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101009,
+      "reason": "success",
+      "steps": 43,
+      "position_m": 0.000817257847922609,
+      "orientation_deg": 0.07038617618987372
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102000,
+      "reason": "success",
+      "steps": 9,
+      "position_m": 0.0002822947380387439,
+      "orientation_deg": 0.019966199829347945
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102001,
+      "reason": "success",
+      "steps": 7,
+      "position_m": 0.008547566854322454,
+      "orientation_deg": 0.6472508558124234
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102002,
+      "reason": "success",
+      "steps": 7,
+      "position_m": 0.0003447281830565402,
+      "orientation_deg": 0.024870436227267995
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102003,
+      "reason": "success",
+      "steps": 10,
+      "position_m": 0.0002534230032175646,
+      "orientation_deg": 0.017980221090481193
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102004,
+      "reason": "success",
+      "steps": 9,
+      "position_m": 0.0009666129565349707,
+      "orientation_deg": 0.06661475626731224
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102005,
+      "reason": "success",
+      "steps": 8,
+      "position_m": 0.00026169299883436174,
+      "orientation_deg": 0.01840999982777335
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102006,
+      "reason": "success",
+      "steps": 7,
+      "position_m": 0.008504450897792639,
+      "orientation_deg": 0.622261354519943
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102007,
+      "reason": "success",
+      "steps": 9,
+      "position_m": 0.0008591728497872404,
+      "orientation_deg": 0.06042545403701153
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102008,
+      "reason": "success",
+      "steps": 9,
+      "position_m": 0.0013478038522589328,
+      "orientation_deg": 0.09197031582394859
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102009,
+      "reason": "success",
+      "steps": 9,
+      "position_m": 0.000955374545747681,
+      "orientation_deg": 0.06693281031484574
+    }
+  ],
+  "used_for_selection": false
+}

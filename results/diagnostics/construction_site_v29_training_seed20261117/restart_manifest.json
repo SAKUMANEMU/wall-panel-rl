@@ -1,0 +1,19 @@
+{
+  "status": "resumed",
+  "prepared_at": "2026-11-17T22:18:21.693917+08:00",
+  "checkpoint": "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training/models/ppo_32768.zip",
+  "checkpoint_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+  "completed_ppo_steps": 32768,
+  "remaining_ppo_steps": 32768,
+  "optimizer_restore_verified": true,
+  "training_resumed": true,
+  "saved_validation_rows": 10,
+  "remaining_validation_rows": 6,
+  "regression_tests": {
+    "passed": 32,
+    "failed": 0
+  },
+  "resume_guide": "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/RESUME_AFTER_REBOOT.md",
+  "resumed_at": "2026-11-18T00:02:04.273298+08:00",
+  "resume_pid": 4235
+}

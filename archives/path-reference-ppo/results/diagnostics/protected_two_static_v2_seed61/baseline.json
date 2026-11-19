@@ -1,0 +1,65 @@
+{
+  "eligible": false,
+  "ppo_ready": false,
+  "score": [
+    0,
+    0,
+    -20,
+    0,
+    18,
+    0
+  ],
+  "checks": {
+    "two_gate": false,
+    "one_gate": true,
+    "one_zero_collision": true,
+    "goals": true,
+    "alignment_collision_free": true
+  },
+  "two": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0
+    },
+    "stage_target": {
+      "episodes": 20,
+      "success": 0,
+      "collision": 20,
+      "timeout": 0,
+      "joint_limit": 0
+    }
+  },
+  "one": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0
+    },
+    "stage_target": {
+      "episodes": 20,
+      "success": 18,
+      "collision": 0,
+      "timeout": 2,
+      "joint_limit": 0
+    }
+  }
+}

@@ -1,0 +1,17 @@
+phase,updates,episodes,success,collision,timeout,joint_limit,planning_failure
+two_before,0,20,0,20,0,0,0
+one_before_validation,0,20,18,0,2,0,0
+bc_two,0,20,0,20,0,0,0
+bc_one,0,20,18,0,2,0,0
+bc_two,1000,20,2,17,1,0,0
+bc_one,1000,20,2,16,2,0,0
+bc_two,2500,20,7,12,1,0,0
+bc_one,2500,20,6,13,1,0,0
+bc_two,5000,20,3,16,1,0,0
+bc_one,5000,20,2,16,2,0,0
+bc_two,10000,20,4,16,0,0,0
+bc_one,10000,20,2,16,2,0,0
+two_holdout_before,,100,0,100,0,0,0
+two_holdout_after,,100,51,44,5,0,0
+one_before,,100,95,2,3,0,0
+one_after,,100,42,52,6,0,0

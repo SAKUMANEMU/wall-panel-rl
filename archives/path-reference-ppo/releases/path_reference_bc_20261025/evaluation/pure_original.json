@@ -1,0 +1,64 @@
+{
+  "full": {
+    "episodes": 90,
+    "successes": 57,
+    "collisions": 29,
+    "joint_limits": 0,
+    "timeouts": 4,
+    "planning_failures": 0,
+    "mean_steps": 75.0111111111111,
+    "mean_path_deviation_rad": 0.0
+  },
+  "by_suite": {
+    "alignment_far": {
+      "episodes": 10,
+      "successes": 10,
+      "collisions": 0,
+      "joint_limits": 0,
+      "timeouts": 0,
+      "planning_failures": 0,
+      "mean_steps": 34.8,
+      "mean_path_deviation_rad": 0.0
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "successes": 10,
+      "collisions": 0,
+      "joint_limits": 0,
+      "timeouts": 0,
+      "planning_failures": 0,
+      "mean_steps": 10.6,
+      "mean_path_deviation_rad": 0.0
+    },
+    "diagnostic_regression_121": {
+      "episodes": 30,
+      "successes": 15,
+      "collisions": 13,
+      "joint_limits": 0,
+      "timeouts": 2,
+      "planning_failures": 0,
+      "mean_steps": 79.3,
+      "mean_path_deviation_rad": 0.0
+    },
+    "diagnostic_regression_131": {
+      "episodes": 30,
+      "successes": 17,
+      "collisions": 11,
+      "joint_limits": 0,
+      "timeouts": 2,
+      "planning_failures": 0,
+      "mean_steps": 78.7,
+      "mean_path_deviation_rad": 0.0
+    },
+    "original_validation": {
+      "episodes": 30,
+      "successes": 25,
+      "collisions": 5,
+      "joint_limits": 0,
+      "timeouts": 0,
+      "planning_failures": 0,
+      "mean_steps": 67.03333333333333,
+      "mean_path_deviation_rad": 0.0
+    }
+  }
+}

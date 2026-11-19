@@ -1,0 +1,96 @@
+{
+  "seed": 1231415,
+  "controller": "enhanced",
+  "reason": "timeout",
+  "steps": 240,
+  "position_m": 0.3232452977735579,
+  "orientation_deg": 26.654140109915662,
+  "reward": 151.91433953212703,
+  "zero_command_steps": 5,
+  "stationary_steps": 5,
+  "wall_seconds": 167.87050843899988,
+  "physics_elapsed_s": 11.99999999999964,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 4,
+  "recovery_actions": 159,
+  "recovery_events": [
+    {
+      "step": 63,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.5724467467895338,
+      "accepted": true,
+      "mode": "bias",
+      "parameter": [
+        5,
+        0.4
+      ],
+      "predicted_end_cost": 0.5385413682758297,
+      "predicted_gain": 1.0339053785137042,
+      "plan_steps": 60
+    },
+    {
+      "step": 129,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.5378715728880463,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          1,
+          5
+        ],
+        [
+          -0.4,
+          -0.4
+        ]
+      ],
+      "predicted_end_cost": 0.3285515918945473,
+      "predicted_gain": 0.20931998099349902,
+      "plan_steps": 60
+    },
+    {
+      "step": 189,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.5736938967153459,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          1,
+          3
+        ],
+        [
+          -0.4,
+          -0.4
+        ]
+      ],
+      "predicted_end_cost": 0.3790695982782673,
+      "predicted_gain": 0.19462429843707857,
+      "plan_steps": 51
+    },
+    {
+      "step": 228,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.3790695982782673,
+      "accepted": false,
+      "mode": "persistent",
+      "parameter": [
+        [
+          0
+        ],
+        [
+          0.28
+        ]
+      ],
+      "predicted_end_cost": 0.1278719803042307,
+      "predicted_gain": 0.2511976179740366,
+      "plan_steps": 12
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 49068,
+  "passage_count": 0,
+  "success_with_weaving": false
+}

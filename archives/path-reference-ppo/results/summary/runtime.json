@@ -1,0 +1,8 @@
+{
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "cpu_count": 16,
+  "training_device": "CPU",
+  "pytorch_threads": 1,
+  "timing_note": "Clean/noisy primary evaluations ran concurrently, with some GUI verification overlap. Wall times are descriptive, not controlled standalone latency benchmarks."
+}

@@ -1,0 +1,27 @@
+{
+  "pid": 18897,
+  "process_group": 18897,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "/home/johnsonchen/wall-panel-rl/experiments/installation_first_v31/scripts/run_expanded_validation.py",
+    "--source-run",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_expanded_seed20261118",
+    "--per-count",
+    "20",
+    "--workers",
+    "4",
+    "--generator-workers",
+    "2"
+  ],
+  "started_at": "2026-11-18T21:12:44.250202+08:00",
+  "log": "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_expanded_seed20261118/study.log",
+  "fresh_scenes": 80,
+  "paired_physical_episodes": 160,
+  "diagnostic_factorial_episodes": 8,
+  "training_performed": false,
+  "workers": 4,
+  "regression_tests_passed": 46
+}

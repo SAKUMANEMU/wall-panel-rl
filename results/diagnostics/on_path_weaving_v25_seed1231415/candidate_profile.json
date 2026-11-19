@@ -1,0 +1,32 @@
+{
+  "expert_probability": 0.5,
+  "motion": {
+    "amplitude_m": 0.18,
+    "max_speed_m_s": 0.12,
+    "frequency_fraction": [
+      0.65,
+      1.0
+    ],
+    "seed_offset": 9000000
+  },
+  "placement_attempts": 100,
+  "motion_aware_placement": true,
+  "anchor_restarts": 5,
+  "demo_obstacle_height_offsets_m": [
+    0.0,
+    -0.05,
+    0.0,
+    0.0
+  ],
+  "height_stagger": {
+    "offset_m": [
+      0.14,
+      0.24
+    ],
+    "min_span_m": 0.2,
+    "min_adjacent_delta_m": 0.07
+  },
+  "preliminary_motion_profile": "configs/preliminary_scene.yaml",
+  "placement_route_source": "preliminary_physical_episode",
+  "enforce_final_stagger": true
+}

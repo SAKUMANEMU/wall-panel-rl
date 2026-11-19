@@ -1,0 +1,28 @@
+{
+  "same_initial_optimizer": true,
+  "only_changed_training_setting": [
+    "wall_reward"
+  ],
+  "rows": [
+    {
+      "rank": 0,
+      "identical_initial_completed_episodes": 8,
+      "wall_training_reward_not_higher": true
+    },
+    {
+      "rank": 1,
+      "identical_initial_completed_episodes": 1,
+      "wall_training_reward_not_higher": true
+    },
+    {
+      "rank": 2,
+      "identical_initial_completed_episodes": 2,
+      "wall_training_reward_not_higher": true
+    },
+    {
+      "rank": 3,
+      "identical_initial_completed_episodes": 2,
+      "wall_training_reward_not_higher": true
+    }
+  ]
+}

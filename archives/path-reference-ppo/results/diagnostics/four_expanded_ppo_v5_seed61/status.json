@@ -1,0 +1,96 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-04T14:39:10.985934+08:00",
+  "bc_updates": 0,
+  "phase": "complete",
+  "updated_at": "2026-11-04T14:44:17.967835+08:00",
+  "train_layouts": 192,
+  "ppo_steps": 20000,
+  "steps_budget": 20000,
+  "hard_train_layouts": 57,
+  "new_validation": {
+    "episodes": 64,
+    "success": 46,
+    "collision": 11,
+    "timeout": 7,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "old_validation": {
+    "episodes": 32,
+    "success": 22,
+    "collision": 10,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "completed_episodes": 315,
+  "selected_additional_steps": 10000,
+  "clean": {
+    "episodes": 100,
+    "success": 84,
+    "collision": 16,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "sensor_noise": {
+    "episodes": 100,
+    "success": 84,
+    "collision": 16,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "selected": {
+    "additional_ppo_steps": 10000,
+    "new_validation": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 8,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "old_validation": {
+      "episodes": 32,
+      "success": 23,
+      "collision": 9,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      56,
+      -8,
+      0,
+      23,
+      -9
+    ]
+  },
+  "test": {
+    "episodes": 100,
+    "success": 84,
+    "collision": 16,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "action_noise": {
+    "episodes": 100,
+    "success": 57,
+    "collision": 35,
+    "timeout": 8,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "selected_validation": {
+    "episodes": 64,
+    "success": 56,
+    "collision": 8,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  }
+}

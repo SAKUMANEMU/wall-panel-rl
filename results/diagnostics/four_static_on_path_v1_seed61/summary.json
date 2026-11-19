@@ -1,0 +1,36 @@
+{
+  "source_model_sha256": "9fcf8ab4249cc7feb1d5257501bb33f47dfee5345fc66343344e15f9e8372257",
+  "weights_unchanged": true,
+  "training_steps": 0,
+  "attempted_scenes": 100,
+  "valid_scenes": 99,
+  "placement_failures": [
+    {
+      "seed": 1018091,
+      "reason": "Cannot build a complete nominal route: timeout"
+    }
+  ],
+  "old_positions": {
+    "stage_target": {
+      "episodes": 99,
+      "success": 81,
+      "collision": 11,
+      "timeout": 7,
+      "joint_limit": 0,
+      "planning_failure": 0
+    }
+  },
+  "on_path": {
+    "stage_target": {
+      "episodes": 99,
+      "success": 24,
+      "collision": 75,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    }
+  },
+  "all_four_intersect_nominal": true,
+  "start_goal_clear": true,
+  "route_kind": "initialization_obstacle_free_physical_rollout"
+}

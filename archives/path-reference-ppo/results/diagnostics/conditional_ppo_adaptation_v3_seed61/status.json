@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-30T15:45:01.167091+08:00",
+  "runner_pid": 41405,
+  "additional_budget": 10000,
+  "automatic_stage_advance": false,
+  "phase": "complete",
+  "updated_at": "2026-10-30T15:48:02.309450+08:00",
+  "ppo_additional_steps": 10000,
+  "validation_target": {
+    "episodes": 20,
+    "success": 17,
+    "collision": 0,
+    "timeout": 3,
+    "joint_limit": 0
+  },
+  "model": "conditional_selected",
+  "bank": "latest_100",
+  "promotion_passed": true,
+  "finished_at": "2026-10-30T15:48:02.309434+08:00"
+}

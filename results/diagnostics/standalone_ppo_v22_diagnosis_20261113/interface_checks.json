@@ -1,0 +1,78 @@
+[
+  {
+    "seed": 1212005,
+    "obs_shape": [
+      77
+    ],
+    "finite": true,
+    "train_eval_reset_and_step_match": true,
+    "manual_observation_layout_match": true,
+    "models": {
+      "source": {
+        "forward_predict_mean_match": true,
+        "likelihood_match": true
+      },
+      "selected": {
+        "forward_predict_mean_match": true,
+        "likelihood_match": true
+      }
+    }
+  },
+  {
+    "seed": 1212541,
+    "obs_shape": [
+      77
+    ],
+    "finite": true,
+    "train_eval_reset_and_step_match": true,
+    "manual_observation_layout_match": true,
+    "models": {
+      "source": {
+        "forward_predict_mean_match": true,
+        "likelihood_match": true
+      },
+      "selected": {
+        "forward_predict_mean_match": true,
+        "likelihood_match": true
+      }
+    }
+  },
+  {
+    "seed": 1188001,
+    "obs_shape": [
+      77
+    ],
+    "finite": true,
+    "train_eval_reset_and_step_match": true,
+    "manual_observation_layout_match": true,
+    "models": {
+      "source": {
+        "forward_predict_mean_match": true,
+        "likelihood_match": true
+      },
+      "selected": {
+        "forward_predict_mean_match": true,
+        "likelihood_match": true
+      }
+    }
+  },
+  {
+    "seed": 1225004,
+    "obs_shape": [
+      77
+    ],
+    "finite": true,
+    "train_eval_reset_and_step_match": true,
+    "manual_observation_layout_match": true,
+    "models": {
+      "source": {
+        "forward_predict_mean_match": true,
+        "likelihood_match": true
+      },
+      "selected": {
+        "forward_predict_mean_match": true,
+        "likelihood_match": true
+      }
+    }
+  }
+]

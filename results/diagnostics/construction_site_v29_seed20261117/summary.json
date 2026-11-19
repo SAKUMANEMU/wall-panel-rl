@@ -1,0 +1,275 @@
+{
+  "experiment": "/home/johnsonchen/wall-panel-rl/experiments/construction_site_v29",
+  "new_training_started": false,
+  "model_sha256": "24f47248e81db8ed1839e8c33967c6c7b5f1e0968a02811b08d70fe07710e856",
+  "model_weights_unchanged": true,
+  "floor_z_m": 0.1,
+  "ceiling_z_m": 1.1,
+  "clear_height_m": 1.0,
+  "obstacle_size_relative_to_v28": 1.1,
+  "episode_speed_range_m_s": [
+    0.04,
+    0.22
+  ],
+  "validated_counts": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "probes": {
+    "count2": {
+      "result": {
+        "seed": 3480000,
+        "controller": "enhanced",
+        "reason": "success",
+        "steps": 184,
+        "position_m": 0.0008737302313856595,
+        "orientation_deg": 0.05293555517112848,
+        "reward": 289.0861379298204,
+        "zero_command_steps": 14,
+        "stationary_steps": 14,
+        "wall_seconds": 128.06400232000033,
+        "physics_elapsed_s": 9.199999999999799,
+        "weights_changed": false,
+        "uses_global_rrt": false,
+        "reference_preserved": true,
+        "local_rescues": 1,
+        "recovery_actions": 48,
+        "recovery_events": [
+          {
+            "step": 40,
+            "baseline_forecast": "timeout",
+            "baseline_short_cost": 0.8562745374250087,
+            "accepted": false
+          },
+          {
+            "step": 86,
+            "baseline_forecast": "timeout",
+            "baseline_short_cost": 0.698239034247016,
+            "accepted": true,
+            "mode": "lookahead",
+            "parameter": [
+              3,
+              0.7
+            ],
+            "predicted_end_cost": 0.005642625087233781,
+            "predicted_gain": 0.6925964091597823,
+            "plan_steps": 59
+          }
+        ],
+        "no_safe_action_calls": 0,
+        "prediction_steps": 27992,
+        "passage_count": 0,
+        "success_with_weaving": false
+      },
+      "site_diagnostics": {
+        "floor_z": 0.1,
+        "ceiling_z": 1.1,
+        "minimum_recorded_panel_lower_z": 0.1325588177016243,
+        "maximum_recorded_panel_upper_z": 0.7604559235676955,
+        "physics_collision_checks_include_all_substeps": true,
+        "new_training_performed": false
+      }
+    },
+    "count4": {
+      "result": {
+        "seed": 3500000,
+        "controller": "enhanced",
+        "reason": "timeout",
+        "steps": 240,
+        "position_m": 0.6516010800747515,
+        "orientation_deg": 108.67502359614244,
+        "reward": 88.18430550501117,
+        "zero_command_steps": 40,
+        "stationary_steps": 40,
+        "wall_seconds": 309.405026552,
+        "physics_elapsed_s": 11.99999999999964,
+        "weights_changed": false,
+        "uses_global_rrt": false,
+        "reference_preserved": true,
+        "local_rescues": 4,
+        "recovery_actions": 124,
+        "recovery_events": [
+          {
+            "step": 40,
+            "baseline_forecast": "timeout",
+            "baseline_short_cost": 2.060430525632154,
+            "accepted": true,
+            "mode": "bias",
+            "parameter": [
+              3,
+              0.4
+            ],
+            "predicted_end_cost": 1.7519056170055367,
+            "predicted_gain": 0.3085249086266173,
+            "plan_steps": 60
+          },
+          {
+            "step": 109,
+            "baseline_forecast": "timeout",
+            "baseline_short_cost": 1.5902781668618198,
+            "accepted": true,
+            "mode": "paired",
+            "parameter": [
+              [
+                3,
+                5
+              ],
+              [
+                0.4,
+                0.4
+              ]
+            ],
+            "predicted_end_cost": 0.8370860273087608,
+            "predicted_gain": 0.753192139553059,
+            "plan_steps": 60
+          },
+          {
+            "step": 168,
+            "baseline_forecast": "timeout",
+            "baseline_short_cost": 0.752203244146049,
+            "accepted": false
+          },
+          {
+            "step": 180,
+            "baseline_forecast": "timeout",
+            "baseline_short_cost": 0.7453285576680264,
+            "accepted": false
+          },
+          {
+            "step": 192,
+            "baseline_forecast": "timeout",
+            "baseline_short_cost": 0.7453285576680264,
+            "accepted": false
+          },
+          {
+            "step": 204,
+            "baseline_forecast": "timeout",
+            "baseline_short_cost": 0.7453285576680264,
+            "accepted": false
+          },
+          {
+            "step": 216,
+            "baseline_forecast": "timeout",
+            "baseline_short_cost": 0.7453285576680264,
+            "accepted": true,
+            "mode": "persistent",
+            "parameter": [
+              [
+                1,
+                3
+              ],
+              [
+                -0.28,
+                0.28
+              ]
+            ],
+            "predicted_end_cost": 0.2827923237100909,
+            "predicted_gain": 0.4625362339579355,
+            "plan_steps": 24
+          },
+          {
+            "step": 228,
+            "baseline_forecast": "timeout",
+            "baseline_short_cost": 0.8792095172469772,
+            "accepted": false,
+            "mode": "goal",
+            "parameter": 0.4,
+            "predicted_end_cost": 0.4371275914959934,
+            "predicted_gain": 0.44208192575098376,
+            "plan_steps": 12
+          }
+        ],
+        "no_safe_action_calls": 0,
+        "prediction_steps": 60536,
+        "passage_count": 0,
+        "success_with_weaving": false
+      },
+      "site_diagnostics": {
+        "floor_z": 0.1,
+        "ceiling_z": 1.1,
+        "minimum_recorded_panel_lower_z": 0.12660838527497287,
+        "maximum_recorded_panel_upper_z": 0.8416966547725013,
+        "physics_collision_checks_include_all_substeps": true,
+        "new_training_performed": false
+      }
+    }
+  },
+  "replay_validation": {
+    "requested_fps": 30.0,
+    "effective_fps": 30.0,
+    "timing_mode": "smooth",
+    "adaptive_fps": true,
+    "playback_speed": 0.6,
+    "recorded_duration_s": 9.199999999999799,
+    "target_playback_duration_s": 15.333333333332998,
+    "playback_wall_s": 15.405679266999869,
+    "actual_playback_speed": 0.5971823663567302,
+    "scheduled_frames": 461,
+    "presented_frames": 461,
+    "skipped_frames": 0,
+    "mean_pose_update_ms": 1.5685727721890608,
+    "p95_pose_update_ms": 3.764364999369718,
+    "p95_frame_interval_ms": 33.832524351146276,
+    "max_frame_interval_ms": 47.380239999256446,
+    "completed": true,
+    "physics_steps_during_playback": 0,
+    "controller_calls_during_playback": 0,
+    "poses_precomputed": true,
+    "batched_joint_update": true,
+    "real_time": true,
+    "recorded_result": {
+      "seed": 3480000,
+      "controller": "enhanced",
+      "reason": "success",
+      "steps": 184,
+      "position_m": 0.0008737302313856595,
+      "orientation_deg": 0.05293555517112848,
+      "reward": 289.0861379298204,
+      "zero_command_steps": 14,
+      "stationary_steps": 14,
+      "wall_seconds": 128.06400232000033,
+      "physics_elapsed_s": 9.199999999999799,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 1,
+      "recovery_actions": 48,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.8562745374250087,
+          "accepted": false
+        },
+        {
+          "step": 86,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.698239034247016,
+          "accepted": true,
+          "mode": "lookahead",
+          "parameter": [
+            3,
+            0.7
+          ],
+          "predicted_end_cost": 0.005642625087233781,
+          "predicted_gain": 0.6925964091597823,
+          "plan_steps": 59
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 27992,
+      "passage_count": 0,
+      "success_with_weaving": false
+    }
+  },
+  "independent_success_rate_measured": false,
+  "regression_tests": {
+    "passed": 30,
+    "failed": 0,
+    "errors": 0,
+    "duration_seconds": 4.48
+  },
+  "background_training_running": false
+}

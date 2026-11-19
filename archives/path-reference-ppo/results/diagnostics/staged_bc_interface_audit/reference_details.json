@@ -1,0 +1,3438 @@
+{
+  "training_performed": false,
+  "reference_summary": {
+    "alignment": {
+      "episodes": 20,
+      "last_reference_fraction": 0.5475717755823923,
+      "preterminal_q_distance_to_reference_goal_rad": 0.11908777674063262,
+      "preterminal_target_position_m": 0.042850854340940714,
+      "last_reference_distance_to_goal_rad": 0.6016558694877181,
+      "prior_vs_teacher_opposite_sign_fraction": 0.4790003354754626,
+      "reference_not_reached_90percent": 18
+    },
+    "avoidance": {
+      "episodes": 80,
+      "last_reference_fraction": 0.41104879525251514,
+      "preterminal_q_distance_to_reference_goal_rad": 0.12513446836436856,
+      "preterminal_target_position_m": 0.03715639965375885,
+      "last_reference_distance_to_goal_rad": 1.7481684963556723,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6969840329160307,
+      "reference_not_reached_90percent": 60
+    }
+  },
+  "reference_episodes": [
+    {
+      "episode": 0,
+      "task": "avoidance",
+      "seed": 800048,
+      "last_reference_fraction": 1.0,
+      "preterminal_q_distance_to_reference_goal_rad": 0.06299202468554413,
+      "preterminal_target_position_m": 0.02568279765546322,
+      "last_reference_distance_to_goal_rad": 0.0,
+      "prior_vs_teacher_opposite_sign_fraction": 0.596551724137931
+    },
+    {
+      "episode": 1,
+      "task": "avoidance",
+      "seed": 800049,
+      "last_reference_fraction": 0.20930232558139536,
+      "preterminal_q_distance_to_reference_goal_rad": 0.17764190480067646,
+      "preterminal_target_position_m": 0.029508328065276146,
+      "last_reference_distance_to_goal_rad": 2.373338251935705,
+      "prior_vs_teacher_opposite_sign_fraction": 0.717391304347826
+    },
+    {
+      "episode": 2,
+      "task": "alignment",
+      "seed": 800013,
+      "last_reference_fraction": 0.16666666666666666,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1698822738899687,
+      "preterminal_target_position_m": 0.041253745555877686,
+      "last_reference_distance_to_goal_rad": 0.3624552698895128,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7333333333333333
+    },
+    {
+      "episode": 3,
+      "task": "alignment",
+      "seed": 800017,
+      "last_reference_fraction": 0.6666666666666666,
+      "preterminal_q_distance_to_reference_goal_rad": 0.06419296846121528,
+      "preterminal_target_position_m": 0.04438711330294609,
+      "last_reference_distance_to_goal_rad": 0.02431263002191219,
+      "prior_vs_teacher_opposite_sign_fraction": 0.16666666666666666
+    },
+    {
+      "episode": 4,
+      "task": "alignment",
+      "seed": 800012,
+      "last_reference_fraction": 0.6666666666666666,
+      "preterminal_q_distance_to_reference_goal_rad": 0.06575075160282236,
+      "preterminal_target_position_m": 0.04917220398783684,
+      "last_reference_distance_to_goal_rad": 0.0476298266091361,
+      "prior_vs_teacher_opposite_sign_fraction": 0.13333333333333333
+    },
+    {
+      "episode": 5,
+      "task": "avoidance",
+      "seed": 800006,
+      "last_reference_fraction": 0.15217391304347827,
+      "preterminal_q_distance_to_reference_goal_rad": 0.11289493619418667,
+      "preterminal_target_position_m": 0.019934240728616714,
+      "last_reference_distance_to_goal_rad": 2.5048811863430984,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6843971631205674
+    },
+    {
+      "episode": 6,
+      "task": "avoidance",
+      "seed": 800052,
+      "last_reference_fraction": 0.17777777777777778,
+      "preterminal_q_distance_to_reference_goal_rad": 0.07213972244873476,
+      "preterminal_target_position_m": 0.034271564334630966,
+      "last_reference_distance_to_goal_rad": 2.452400637610246,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7070063694267515
+    },
+    {
+      "episode": 7,
+      "task": "avoidance",
+      "seed": 800048,
+      "last_reference_fraction": 1.0,
+      "preterminal_q_distance_to_reference_goal_rad": 0.06629015243859594,
+      "preterminal_target_position_m": 0.04852649196982384,
+      "last_reference_distance_to_goal_rad": 0.0,
+      "prior_vs_teacher_opposite_sign_fraction": 0.726457399103139
+    },
+    {
+      "episode": 8,
+      "task": "avoidance",
+      "seed": 800005,
+      "last_reference_fraction": 0.8636363636363636,
+      "preterminal_q_distance_to_reference_goal_rad": 0.18134567874500118,
+      "preterminal_target_position_m": 0.05332798510789871,
+      "last_reference_distance_to_goal_rad": 0.2922785386636172,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6538461538461539
+    },
+    {
+      "episode": 9,
+      "task": "avoidance",
+      "seed": 800009,
+      "last_reference_fraction": 0.10416666666666667,
+      "preterminal_q_distance_to_reference_goal_rad": 0.21232389739549662,
+      "preterminal_target_position_m": 0.026125000789761543,
+      "last_reference_distance_to_goal_rad": 2.6752617973709443,
+      "prior_vs_teacher_opposite_sign_fraction": 0.75
+    },
+    {
+      "episode": 10,
+      "task": "avoidance",
+      "seed": 800026,
+      "last_reference_fraction": 0.15217391304347827,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1316931987965716,
+      "preterminal_target_position_m": 0.025138285011053085,
+      "last_reference_distance_to_goal_rad": 2.491939693366438,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7788461538461539
+    },
+    {
+      "episode": 11,
+      "task": "avoidance",
+      "seed": 800036,
+      "last_reference_fraction": 0.9767441860465116,
+      "preterminal_q_distance_to_reference_goal_rad": 0.10663942956270882,
+      "preterminal_target_position_m": 0.02665182761847973,
+      "last_reference_distance_to_goal_rad": 0.07333333333333336,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6859756097560976
+    },
+    {
+      "episode": 12,
+      "task": "avoidance",
+      "seed": 800008,
+      "last_reference_fraction": 0.11627906976744186,
+      "preterminal_q_distance_to_reference_goal_rad": 0.14571459832033487,
+      "preterminal_target_position_m": 0.04008784517645836,
+      "last_reference_distance_to_goal_rad": 2.6414751872574347,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6268221574344023
+    },
+    {
+      "episode": 13,
+      "task": "avoidance",
+      "seed": 800011,
+      "last_reference_fraction": 0.019230769230769232,
+      "preterminal_q_distance_to_reference_goal_rad": 0.08221017277095662,
+      "preterminal_target_position_m": 0.027596278116106987,
+      "last_reference_distance_to_goal_rad": 2.952009380025795,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7474402730375427
+    },
+    {
+      "episode": 14,
+      "task": "avoidance",
+      "seed": 800001,
+      "last_reference_fraction": 0.7674418604651163,
+      "preterminal_q_distance_to_reference_goal_rad": 0.0692978103214814,
+      "preterminal_target_position_m": 0.0348668247461319,
+      "last_reference_distance_to_goal_rad": 0.6541282236860397,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6109422492401215
+    },
+    {
+      "episode": 15,
+      "task": "avoidance",
+      "seed": 800052,
+      "last_reference_fraction": 0.9777777777777777,
+      "preterminal_q_distance_to_reference_goal_rad": 0.08568410712477176,
+      "preterminal_target_position_m": 0.04201873391866684,
+      "last_reference_distance_to_goal_rad": 0.02480252092456104,
+      "prior_vs_teacher_opposite_sign_fraction": 0.5961538461538461
+    },
+    {
+      "episode": 16,
+      "task": "avoidance",
+      "seed": 800061,
+      "last_reference_fraction": 0.25,
+      "preterminal_q_distance_to_reference_goal_rad": 0.12747836582566943,
+      "preterminal_target_position_m": 0.03565420210361481,
+      "last_reference_distance_to_goal_rad": 2.136142670185227,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6179401993355482
+    },
+    {
+      "episode": 17,
+      "task": "avoidance",
+      "seed": 800032,
+      "last_reference_fraction": 0.18604651162790697,
+      "preterminal_q_distance_to_reference_goal_rad": 0.13960326908247667,
+      "preterminal_target_position_m": 0.04518916457891464,
+      "last_reference_distance_to_goal_rad": 2.4330773818699845,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7568807339449541
+    },
+    {
+      "episode": 18,
+      "task": "avoidance",
+      "seed": 800052,
+      "last_reference_fraction": 0.26666666666666666,
+      "preterminal_q_distance_to_reference_goal_rad": 0.07609483516272496,
+      "preterminal_target_position_m": 0.06148480623960495,
+      "last_reference_distance_to_goal_rad": 2.157082375499398,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6533742331288344
+    },
+    {
+      "episode": 19,
+      "task": "avoidance",
+      "seed": 800055,
+      "last_reference_fraction": 0.9111111111111111,
+      "preterminal_q_distance_to_reference_goal_rad": 0.10261709976458751,
+      "preterminal_target_position_m": 0.033414922654628754,
+      "last_reference_distance_to_goal_rad": 0.20813517513687538,
+      "prior_vs_teacher_opposite_sign_fraction": 0.697986577181208
+    },
+    {
+      "episode": 20,
+      "task": "avoidance",
+      "seed": 800044,
+      "last_reference_fraction": 0.0425531914893617,
+      "preterminal_q_distance_to_reference_goal_rad": 0.07742182342390559,
+      "preterminal_target_position_m": 0.03362993896007538,
+      "last_reference_distance_to_goal_rad": 2.9286590435153017,
+      "prior_vs_teacher_opposite_sign_fraction": 0.8282442748091603
+    },
+    {
+      "episode": 21,
+      "task": "avoidance",
+      "seed": 800012,
+      "last_reference_fraction": 0.16666666666666666,
+      "preterminal_q_distance_to_reference_goal_rad": 0.0705987784522636,
+      "preterminal_target_position_m": 0.03841106966137886,
+      "last_reference_distance_to_goal_rad": 2.5406318657832236,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7060301507537688
+    },
+    {
+      "episode": 22,
+      "task": "avoidance",
+      "seed": 800019,
+      "last_reference_fraction": 1.0,
+      "preterminal_q_distance_to_reference_goal_rad": 0.06285551925366785,
+      "preterminal_target_position_m": 0.043128784745931625,
+      "last_reference_distance_to_goal_rad": 0.0,
+      "prior_vs_teacher_opposite_sign_fraction": 0.688622754491018
+    },
+    {
+      "episode": 23,
+      "task": "avoidance",
+      "seed": 800026,
+      "last_reference_fraction": 0.8043478260869565,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1510681151621897,
+      "preterminal_target_position_m": 0.04574989527463913,
+      "last_reference_distance_to_goal_rad": 0.4937006854767087,
+      "prior_vs_teacher_opposite_sign_fraction": 0.66
+    },
+    {
+      "episode": 24,
+      "task": "alignment",
+      "seed": 800060,
+      "last_reference_fraction": 0.7674418604651163,
+      "preterminal_q_distance_to_reference_goal_rad": 0.15485426974427385,
+      "preterminal_target_position_m": 0.03823978081345558,
+      "last_reference_distance_to_goal_rad": 0.6058263259210112,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6131687242798354
+    },
+    {
+      "episode": 25,
+      "task": "alignment",
+      "seed": 800024,
+      "last_reference_fraction": 0.6904761904761905,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1594343762857733,
+      "preterminal_target_position_m": 0.061112552881240845,
+      "last_reference_distance_to_goal_rad": 0.8946917790688294,
+      "prior_vs_teacher_opposite_sign_fraction": 0.3905579399141631
+    },
+    {
+      "episode": 26,
+      "task": "avoidance",
+      "seed": 800063,
+      "last_reference_fraction": 1.0,
+      "preterminal_q_distance_to_reference_goal_rad": 0.11545499330747888,
+      "preterminal_target_position_m": 0.056316182017326355,
+      "last_reference_distance_to_goal_rad": 0.0,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6728110599078341
+    },
+    {
+      "episode": 27,
+      "task": "alignment",
+      "seed": 800001,
+      "last_reference_fraction": 0.8,
+      "preterminal_q_distance_to_reference_goal_rad": 0.0977129156304597,
+      "preterminal_target_position_m": 0.04642406478524208,
+      "last_reference_distance_to_goal_rad": 0.024530252859792035,
+      "prior_vs_teacher_opposite_sign_fraction": 0.22857142857142856
+    },
+    {
+      "episode": 28,
+      "task": "avoidance",
+      "seed": 800055,
+      "last_reference_fraction": 0.8888888888888888,
+      "preterminal_q_distance_to_reference_goal_rad": 0.09287152755028762,
+      "preterminal_target_position_m": 0.04761456698179245,
+      "last_reference_distance_to_goal_rad": 0.212016488950472,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6385135135135135
+    },
+    {
+      "episode": 29,
+      "task": "avoidance",
+      "seed": 800037,
+      "last_reference_fraction": 0.09090909090909091,
+      "preterminal_q_distance_to_reference_goal_rad": 0.15069105475250577,
+      "preterminal_target_position_m": 0.01211337000131607,
+      "last_reference_distance_to_goal_rad": 2.7472468014974463,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7080745341614907
+    },
+    {
+      "episode": 30,
+      "task": "avoidance",
+      "seed": 800055,
+      "last_reference_fraction": 0.9111111111111111,
+      "preterminal_q_distance_to_reference_goal_rad": 0.10099311023361854,
+      "preterminal_target_position_m": 0.040862344205379486,
+      "last_reference_distance_to_goal_rad": 0.20813517513687538,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7513966480446927
+    },
+    {
+      "episode": 31,
+      "task": "avoidance",
+      "seed": 800045,
+      "last_reference_fraction": 0.2619047619047619,
+      "preterminal_q_distance_to_reference_goal_rad": 0.0813114739147889,
+      "preterminal_target_position_m": 0.035088952630758286,
+      "last_reference_distance_to_goal_rad": 2.1757124731262656,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7104377104377104
+    },
+    {
+      "episode": 32,
+      "task": "avoidance",
+      "seed": 800022,
+      "last_reference_fraction": 0.20930232558139536,
+      "preterminal_q_distance_to_reference_goal_rad": 0.08912106942387969,
+      "preterminal_target_position_m": 0.02226182445883751,
+      "last_reference_distance_to_goal_rad": 2.3404505089953562,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7388535031847133
+    },
+    {
+      "episode": 33,
+      "task": "avoidance",
+      "seed": 800033,
+      "last_reference_fraction": 0.29545454545454547,
+      "preterminal_q_distance_to_reference_goal_rad": 0.0914133487831611,
+      "preterminal_target_position_m": 0.01201834436506033,
+      "last_reference_distance_to_goal_rad": 2.0695269732746895,
+      "prior_vs_teacher_opposite_sign_fraction": 0.5934718100890207
+    },
+    {
+      "episode": 34,
+      "task": "avoidance",
+      "seed": 800057,
+      "last_reference_fraction": 0.975609756097561,
+      "preterminal_q_distance_to_reference_goal_rad": 0.11177036488053615,
+      "preterminal_target_position_m": 0.047778576612472534,
+      "last_reference_distance_to_goal_rad": 0.07333333333333332,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6666666666666666
+    },
+    {
+      "episode": 35,
+      "task": "avoidance",
+      "seed": 800021,
+      "last_reference_fraction": 0.3023255813953488,
+      "preterminal_q_distance_to_reference_goal_rad": 0.14944774459218013,
+      "preterminal_target_position_m": 0.03544572368264198,
+      "last_reference_distance_to_goal_rad": 2.0569800927920294,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7301587301587301
+    },
+    {
+      "episode": 36,
+      "task": "alignment",
+      "seed": 800031,
+      "last_reference_fraction": 0.46511627906976744,
+      "preterminal_q_distance_to_reference_goal_rad": 0.14481364625186333,
+      "preterminal_target_position_m": 0.04174512252211571,
+      "last_reference_distance_to_goal_rad": 1.561328728720123,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6055776892430279
+    },
+    {
+      "episode": 37,
+      "task": "avoidance",
+      "seed": 800042,
+      "last_reference_fraction": 0.35555555555555557,
+      "preterminal_q_distance_to_reference_goal_rad": 0.19442471290602156,
+      "preterminal_target_position_m": 0.04605138674378395,
+      "last_reference_distance_to_goal_rad": 1.8681067657385184,
+      "prior_vs_teacher_opposite_sign_fraction": 0.5338345864661654
+    },
+    {
+      "episode": 38,
+      "task": "avoidance",
+      "seed": 800047,
+      "last_reference_fraction": 0.11363636363636363,
+      "preterminal_q_distance_to_reference_goal_rad": 0.11203409397796743,
+      "preterminal_target_position_m": 0.039071254432201385,
+      "last_reference_distance_to_goal_rad": 2.6584128930755933,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7292682926829268
+    },
+    {
+      "episode": 39,
+      "task": "avoidance",
+      "seed": 800037,
+      "last_reference_fraction": 0.1590909090909091,
+      "preterminal_q_distance_to_reference_goal_rad": 0.12828487656005136,
+      "preterminal_target_position_m": 0.03508416935801506,
+      "last_reference_distance_to_goal_rad": 2.525353263271109,
+      "prior_vs_teacher_opposite_sign_fraction": 0.697986577181208
+    },
+    {
+      "episode": 40,
+      "task": "avoidance",
+      "seed": 800000,
+      "last_reference_fraction": 0.08888888888888889,
+      "preterminal_q_distance_to_reference_goal_rad": 0.07560798376976219,
+      "preterminal_target_position_m": 0.031615518033504486,
+      "last_reference_distance_to_goal_rad": 2.730761393235821,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7248520710059172
+    },
+    {
+      "episode": 41,
+      "task": "avoidance",
+      "seed": 800049,
+      "last_reference_fraction": 0.18604651162790697,
+      "preterminal_q_distance_to_reference_goal_rad": 0.15602347737782218,
+      "preterminal_target_position_m": 0.0490577332675457,
+      "last_reference_distance_to_goal_rad": 2.4478097364595524,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6754385964912281
+    },
+    {
+      "episode": 42,
+      "task": "avoidance",
+      "seed": 800010,
+      "last_reference_fraction": 0.13333333333333333,
+      "preterminal_q_distance_to_reference_goal_rad": 0.069184033118045,
+      "preterminal_target_position_m": 0.028292417526245117,
+      "last_reference_distance_to_goal_rad": 2.598246633426134,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7112462006079028
+    },
+    {
+      "episode": 43,
+      "task": "alignment",
+      "seed": 800002,
+      "last_reference_fraction": 0.12962962962962962,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1593678805376616,
+      "preterminal_target_position_m": 0.03413068875670433,
+      "last_reference_distance_to_goal_rad": 2.577065455322917,
+      "prior_vs_teacher_opposite_sign_fraction": 0.782312925170068
+    },
+    {
+      "episode": 44,
+      "task": "avoidance",
+      "seed": 800029,
+      "last_reference_fraction": 0.08888888888888889,
+      "preterminal_q_distance_to_reference_goal_rad": 0.11905718732024775,
+      "preterminal_target_position_m": 0.041652947664260864,
+      "last_reference_distance_to_goal_rad": 2.7445687961754692,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7333333333333333
+    },
+    {
+      "episode": 45,
+      "task": "avoidance",
+      "seed": 800060,
+      "last_reference_fraction": 0.11627906976744186,
+      "preterminal_q_distance_to_reference_goal_rad": 0.13136772028512814,
+      "preterminal_target_position_m": 0.0595337450504303,
+      "last_reference_distance_to_goal_rad": 2.6629701842956726,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6537313432835821
+    },
+    {
+      "episode": 46,
+      "task": "avoidance",
+      "seed": 800018,
+      "last_reference_fraction": 0.2558139534883721,
+      "preterminal_q_distance_to_reference_goal_rad": 0.20559511994930343,
+      "preterminal_target_position_m": 0.018009431660175323,
+      "last_reference_distance_to_goal_rad": 2.2219487735150967,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7583081570996979
+    },
+    {
+      "episode": 47,
+      "task": "avoidance",
+      "seed": 800048,
+      "last_reference_fraction": 1.0,
+      "preterminal_q_distance_to_reference_goal_rad": 0.08063354369675986,
+      "preterminal_target_position_m": 0.02165968157351017,
+      "last_reference_distance_to_goal_rad": 0.0,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6801075268817204
+    },
+    {
+      "episode": 48,
+      "task": "avoidance",
+      "seed": 800011,
+      "last_reference_fraction": 0.019230769230769232,
+      "preterminal_q_distance_to_reference_goal_rad": 0.0620401001060888,
+      "preterminal_target_position_m": 0.03700975328683853,
+      "last_reference_distance_to_goal_rad": 2.952009380025795,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7189189189189189
+    },
+    {
+      "episode": 49,
+      "task": "avoidance",
+      "seed": 800006,
+      "last_reference_fraction": 0.043478260869565216,
+      "preterminal_q_distance_to_reference_goal_rad": 0.15809275103696652,
+      "preterminal_target_position_m": 0.04930407181382179,
+      "last_reference_distance_to_goal_rad": 2.8738983108241807,
+      "prior_vs_teacher_opposite_sign_fraction": 0.8048780487804879
+    },
+    {
+      "episode": 50,
+      "task": "alignment",
+      "seed": 800011,
+      "last_reference_fraction": 0.16666666666666666,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1489705771431624,
+      "preterminal_target_position_m": 0.025197269394993782,
+      "last_reference_distance_to_goal_rad": 0.35008997238152034,
+      "prior_vs_teacher_opposite_sign_fraction": 0.9117647058823529
+    },
+    {
+      "episode": 51,
+      "task": "avoidance",
+      "seed": 800006,
+      "last_reference_fraction": 0.21739130434782608,
+      "preterminal_q_distance_to_reference_goal_rad": 0.15709195761805872,
+      "preterminal_target_position_m": 0.01067391224205494,
+      "last_reference_distance_to_goal_rad": 2.283920344865348,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7227722772277227
+    },
+    {
+      "episode": 52,
+      "task": "avoidance",
+      "seed": 800006,
+      "last_reference_fraction": 0.17391304347826086,
+      "preterminal_q_distance_to_reference_goal_rad": 0.13973728170957836,
+      "preterminal_target_position_m": 0.027447646483778954,
+      "last_reference_distance_to_goal_rad": 2.431183305826824,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7458745874587459
+    },
+    {
+      "episode": 53,
+      "task": "avoidance",
+      "seed": 800036,
+      "last_reference_fraction": 0.9302325581395349,
+      "preterminal_q_distance_to_reference_goal_rad": 0.10356330221438419,
+      "preterminal_target_position_m": 0.056345436722040176,
+      "last_reference_distance_to_goal_rad": 0.22,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7041666666666667
+    },
+    {
+      "episode": 54,
+      "task": "avoidance",
+      "seed": 800033,
+      "last_reference_fraction": 0.11363636363636363,
+      "preterminal_q_distance_to_reference_goal_rad": 0.08856436457812245,
+      "preterminal_target_position_m": 0.06101206690073013,
+      "last_reference_distance_to_goal_rad": 2.6562082980998416,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7353846153846154
+    },
+    {
+      "episode": 55,
+      "task": "avoidance",
+      "seed": 800024,
+      "last_reference_fraction": 1.0,
+      "preterminal_q_distance_to_reference_goal_rad": 0.14002414900754637,
+      "preterminal_target_position_m": 0.017964161932468414,
+      "last_reference_distance_to_goal_rad": 0.0,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6081632653061224
+    },
+    {
+      "episode": 56,
+      "task": "avoidance",
+      "seed": 800057,
+      "last_reference_fraction": 0.975609756097561,
+      "preterminal_q_distance_to_reference_goal_rad": 0.17891264694991024,
+      "preterminal_target_position_m": 0.04944507032632828,
+      "last_reference_distance_to_goal_rad": 0.07333333333333332,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6666666666666666
+    },
+    {
+      "episode": 57,
+      "task": "avoidance",
+      "seed": 800013,
+      "last_reference_fraction": 0.391304347826087,
+      "preterminal_q_distance_to_reference_goal_rad": 0.12933186609455527,
+      "preterminal_target_position_m": 0.03250938281416893,
+      "last_reference_distance_to_goal_rad": 1.7283827442604496,
+      "prior_vs_teacher_opposite_sign_fraction": 0.5745341614906833
+    },
+    {
+      "episode": 58,
+      "task": "alignment",
+      "seed": 800059,
+      "last_reference_fraction": 0.42857142857142855,
+      "preterminal_q_distance_to_reference_goal_rad": 0.10483673907139511,
+      "preterminal_target_position_m": 0.04579056054353714,
+      "last_reference_distance_to_goal_rad": 0.22408951556018003,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7666666666666667
+    },
+    {
+      "episode": 59,
+      "task": "avoidance",
+      "seed": 800035,
+      "last_reference_fraction": 1.0,
+      "preterminal_q_distance_to_reference_goal_rad": 0.09873785409844137,
+      "preterminal_target_position_m": 0.05686422809958458,
+      "last_reference_distance_to_goal_rad": 0.0,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6456456456456456
+    },
+    {
+      "episode": 60,
+      "task": "alignment",
+      "seed": 800030,
+      "last_reference_fraction": 0.23255813953488372,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1746114855389309,
+      "preterminal_target_position_m": 0.046700671315193176,
+      "last_reference_distance_to_goal_rad": 2.289218243331122,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7064220183486238
+    },
+    {
+      "episode": 61,
+      "task": "alignment",
+      "seed": 800044,
+      "last_reference_fraction": 0.16666666666666666,
+      "preterminal_q_distance_to_reference_goal_rad": 0.06472021003304443,
+      "preterminal_target_position_m": 0.05512671917676926,
+      "last_reference_distance_to_goal_rad": 0.2681340977275128,
+      "prior_vs_teacher_opposite_sign_fraction": 0.75
+    },
+    {
+      "episode": 62,
+      "task": "avoidance",
+      "seed": 800036,
+      "last_reference_fraction": 0.9302325581395349,
+      "preterminal_q_distance_to_reference_goal_rad": 0.12538265497487414,
+      "preterminal_target_position_m": 0.052976831793785095,
+      "last_reference_distance_to_goal_rad": 0.22,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6850828729281768
+    },
+    {
+      "episode": 63,
+      "task": "alignment",
+      "seed": 800005,
+      "last_reference_fraction": 0.8863636363636364,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1674028482022036,
+      "preterminal_target_position_m": 0.058194033801555634,
+      "last_reference_distance_to_goal_rad": 0.24923652385973374,
+      "prior_vs_teacher_opposite_sign_fraction": 0.38461538461538464
+    },
+    {
+      "episode": 64,
+      "task": "avoidance",
+      "seed": 800058,
+      "last_reference_fraction": 0.23809523809523808,
+      "preterminal_q_distance_to_reference_goal_rad": 0.12574911341581857,
+      "preterminal_target_position_m": 0.03256990760564804,
+      "last_reference_distance_to_goal_rad": 2.307029471754123,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7916666666666666
+    },
+    {
+      "episode": 65,
+      "task": "avoidance",
+      "seed": 800061,
+      "last_reference_fraction": 0.16666666666666666,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1629907598510235,
+      "preterminal_target_position_m": 0.06681206822395325,
+      "last_reference_distance_to_goal_rad": 2.4281986041416315,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7537878787878788
+    },
+    {
+      "episode": 66,
+      "task": "avoidance",
+      "seed": 800062,
+      "last_reference_fraction": 0.9090909090909091,
+      "preterminal_q_distance_to_reference_goal_rad": 0.10939247203728045,
+      "preterminal_target_position_m": 0.05402675271034241,
+      "last_reference_distance_to_goal_rad": 0.22445710320121276,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6513409961685823
+    },
+    {
+      "episode": 67,
+      "task": "avoidance",
+      "seed": 800061,
+      "last_reference_fraction": 0.10416666666666667,
+      "preterminal_q_distance_to_reference_goal_rad": 0.21116112951886976,
+      "preterminal_target_position_m": 0.02025618962943554,
+      "last_reference_distance_to_goal_rad": 2.6481680461194665,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7576530612244898
+    },
+    {
+      "episode": 68,
+      "task": "avoidance",
+      "seed": 800044,
+      "last_reference_fraction": 0.0425531914893617,
+      "preterminal_q_distance_to_reference_goal_rad": 0.14098176740521257,
+      "preterminal_target_position_m": 0.011602074839174747,
+      "last_reference_distance_to_goal_rad": 2.9286590435153017,
+      "prior_vs_teacher_opposite_sign_fraction": 0.8197674418604651
+    },
+    {
+      "episode": 69,
+      "task": "avoidance",
+      "seed": 800014,
+      "last_reference_fraction": 0.02040816326530612,
+      "preterminal_q_distance_to_reference_goal_rad": 0.21220928569674313,
+      "preterminal_target_position_m": 0.040004074573516846,
+      "last_reference_distance_to_goal_rad": 2.9678243679613865,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6766304347826086
+    },
+    {
+      "episode": 70,
+      "task": "avoidance",
+      "seed": 800045,
+      "last_reference_fraction": 0.19047619047619047,
+      "preterminal_q_distance_to_reference_goal_rad": 0.08913198455760915,
+      "preterminal_target_position_m": 0.02771998941898346,
+      "last_reference_distance_to_goal_rad": 2.398913696158844,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7338709677419355
+    },
+    {
+      "episode": 71,
+      "task": "avoidance",
+      "seed": 800002,
+      "last_reference_fraction": 0.12962962962962962,
+      "preterminal_q_distance_to_reference_goal_rad": 0.17106346994753677,
+      "preterminal_target_position_m": 0.04158378392457962,
+      "last_reference_distance_to_goal_rad": 2.577065455322917,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7695473251028807
+    },
+    {
+      "episode": 72,
+      "task": "avoidance",
+      "seed": 800046,
+      "last_reference_fraction": 0.9767441860465116,
+      "preterminal_q_distance_to_reference_goal_rad": 0.17339336329572377,
+      "preterminal_target_position_m": 0.051119886338710785,
+      "last_reference_distance_to_goal_rad": 0.07333333333333333,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7021943573667712
+    },
+    {
+      "episode": 73,
+      "task": "alignment",
+      "seed": 800009,
+      "last_reference_fraction": 0.6666666666666666,
+      "preterminal_q_distance_to_reference_goal_rad": 0.08439659030304404,
+      "preterminal_target_position_m": 0.04998357221484184,
+      "last_reference_distance_to_goal_rad": 0.024579652776116633,
+      "prior_vs_teacher_opposite_sign_fraction": 0.2
+    },
+    {
+      "episode": 74,
+      "task": "avoidance",
+      "seed": 800041,
+      "last_reference_fraction": 0.9767441860465116,
+      "preterminal_q_distance_to_reference_goal_rad": 0.07459895593571965,
+      "preterminal_target_position_m": 0.027610385790467262,
+      "last_reference_distance_to_goal_rad": 0.023720916189473994,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6085271317829457
+    },
+    {
+      "episode": 75,
+      "task": "avoidance",
+      "seed": 800025,
+      "last_reference_fraction": 0.17777777777777778,
+      "preterminal_q_distance_to_reference_goal_rad": 0.24623814215341588,
+      "preterminal_target_position_m": 0.035968225449323654,
+      "last_reference_distance_to_goal_rad": 2.4381594252626106,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6822157434402333
+    },
+    {
+      "episode": 76,
+      "task": "avoidance",
+      "seed": 800007,
+      "last_reference_fraction": 0.75,
+      "preterminal_q_distance_to_reference_goal_rad": 0.08285949998552651,
+      "preterminal_target_position_m": 0.040555439889431,
+      "last_reference_distance_to_goal_rad": 0.6096389268219508,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6557377049180327
+    },
+    {
+      "episode": 77,
+      "task": "avoidance",
+      "seed": 800014,
+      "last_reference_fraction": 0.10204081632653061,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1859331957498318,
+      "preterminal_target_position_m": 0.026659492403268814,
+      "last_reference_distance_to_goal_rad": 2.6741075693113436,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6725274725274726
+    },
+    {
+      "episode": 78,
+      "task": "avoidance",
+      "seed": 800045,
+      "last_reference_fraction": 0.11904761904761904,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1027175829212714,
+      "preterminal_target_position_m": 0.031872887164354324,
+      "last_reference_distance_to_goal_rad": 2.6222316884561887,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7506493506493507
+    },
+    {
+      "episode": 79,
+      "task": "avoidance",
+      "seed": 800012,
+      "last_reference_fraction": 1.0,
+      "preterminal_q_distance_to_reference_goal_rad": 0.10669694935042516,
+      "preterminal_target_position_m": 0.04958377406001091,
+      "last_reference_distance_to_goal_rad": 0.0,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7394366197183099
+    },
+    {
+      "episode": 80,
+      "task": "avoidance",
+      "seed": 800008,
+      "last_reference_fraction": 0.09302325581395349,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1548337882745132,
+      "preterminal_target_position_m": 0.02768697217106819,
+      "last_reference_distance_to_goal_rad": 2.715296303317174,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7649006622516556
+    },
+    {
+      "episode": 81,
+      "task": "avoidance",
+      "seed": 800058,
+      "last_reference_fraction": 0.16666666666666666,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1235599258560252,
+      "preterminal_target_position_m": 0.03531735762953758,
+      "last_reference_distance_to_goal_rad": 2.530841087063715,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7252747252747253
+    },
+    {
+      "episode": 82,
+      "task": "alignment",
+      "seed": 800053,
+      "last_reference_fraction": 1.0,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1000493128622515,
+      "preterminal_target_position_m": 0.050190672278404236,
+      "last_reference_distance_to_goal_rad": 0.0,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6411483253588517
+    },
+    {
+      "episode": 83,
+      "task": "avoidance",
+      "seed": 800010,
+      "last_reference_fraction": 0.2,
+      "preterminal_q_distance_to_reference_goal_rad": 0.07942122313117635,
+      "preterminal_target_position_m": 0.04445168748497963,
+      "last_reference_distance_to_goal_rad": 2.376138462309795,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7160493827160493
+    },
+    {
+      "episode": 84,
+      "task": "alignment",
+      "seed": 800015,
+      "last_reference_fraction": 0.5,
+      "preterminal_q_distance_to_reference_goal_rad": 0.06531699242216922,
+      "preterminal_target_position_m": 0.047564491629600525,
+      "last_reference_distance_to_goal_rad": 0.04642064370643438,
+      "prior_vs_teacher_opposite_sign_fraction": 0.14285714285714285
+    },
+    {
+      "episode": 85,
+      "task": "alignment",
+      "seed": 800010,
+      "last_reference_fraction": 0.5,
+      "preterminal_q_distance_to_reference_goal_rad": 0.07638519295080876,
+      "preterminal_target_position_m": 0.036000121384859085,
+      "last_reference_distance_to_goal_rad": 0.07067853437052848,
+      "prior_vs_teacher_opposite_sign_fraction": 0.21428571428571427
+    },
+    {
+      "episode": 86,
+      "task": "avoidance",
+      "seed": 800004,
+      "last_reference_fraction": 0.13636363636363635,
+      "preterminal_q_distance_to_reference_goal_rad": 0.09312087025708533,
+      "preterminal_target_position_m": 0.037140052765607834,
+      "last_reference_distance_to_goal_rad": 2.7336114289621083,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7062706270627063
+    },
+    {
+      "episode": 87,
+      "task": "avoidance",
+      "seed": 800036,
+      "last_reference_fraction": 0.9302325581395349,
+      "preterminal_q_distance_to_reference_goal_rad": 0.1163431481932234,
+      "preterminal_target_position_m": 0.013269058428704739,
+      "last_reference_distance_to_goal_rad": 0.22,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7083333333333334
+    },
+    {
+      "episode": 88,
+      "task": "avoidance",
+      "seed": 800030,
+      "last_reference_fraction": 0.8837209302325582,
+      "preterminal_q_distance_to_reference_goal_rad": 0.20356581915759286,
+      "preterminal_target_position_m": 0.058805156499147415,
+      "last_reference_distance_to_goal_rad": 0.3393289199022322,
+      "prior_vs_teacher_opposite_sign_fraction": 0.656441717791411
+    },
+    {
+      "episode": 89,
+      "task": "avoidance",
+      "seed": 800063,
+      "last_reference_fraction": 0.023809523809523808,
+      "preterminal_q_distance_to_reference_goal_rad": 0.10263348616512388,
+      "preterminal_target_position_m": 0.03030269779264927,
+      "last_reference_distance_to_goal_rad": 2.962456370051136,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6697247706422018
+    },
+    {
+      "episode": 90,
+      "task": "alignment",
+      "seed": 800013,
+      "last_reference_fraction": 0.21739130434782608,
+      "preterminal_q_distance_to_reference_goal_rad": 0.14060760271684888,
+      "preterminal_target_position_m": 0.017924200743436813,
+      "last_reference_distance_to_goal_rad": 2.3155078758661154,
+      "prior_vs_teacher_opposite_sign_fraction": 0.661849710982659
+    },
+    {
+      "episode": 91,
+      "task": "avoidance",
+      "seed": 800045,
+      "last_reference_fraction": 0.047619047619047616,
+      "preterminal_q_distance_to_reference_goal_rad": 0.0810927745955993,
+      "preterminal_target_position_m": 0.03869849443435669,
+      "last_reference_distance_to_goal_rad": 2.84563895894984,
+      "prior_vs_teacher_opposite_sign_fraction": 0.5669781931464174
+    },
+    {
+      "episode": 92,
+      "task": "alignment",
+      "seed": 800000,
+      "last_reference_fraction": 0.8571428571428571,
+      "preterminal_q_distance_to_reference_goal_rad": 0.07642733897253054,
+      "preterminal_target_position_m": 0.032905325293540955,
+      "last_reference_distance_to_goal_rad": 0.023988728428528488,
+      "prior_vs_teacher_opposite_sign_fraction": 0.4375
+    },
+    {
+      "episode": 93,
+      "task": "alignment",
+      "seed": 800046,
+      "last_reference_fraction": 0.9767441860465116,
+      "preterminal_q_distance_to_reference_goal_rad": 0.16202156219222466,
+      "preterminal_target_position_m": 0.034974176436662674,
+      "last_reference_distance_to_goal_rad": 0.07333333333333333,
+      "prior_vs_teacher_opposite_sign_fraction": 0.109375
+    },
+    {
+      "episode": 94,
+      "task": "avoidance",
+      "seed": 800058,
+      "last_reference_fraction": 0.16666666666666666,
+      "preterminal_q_distance_to_reference_goal_rad": 0.11713098541206027,
+      "preterminal_target_position_m": 0.030196547508239746,
+      "last_reference_distance_to_goal_rad": 2.530841087063715,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7116883116883117
+    },
+    {
+      "episode": 95,
+      "task": "avoidance",
+      "seed": 800026,
+      "last_reference_fraction": 0.1956521739130435,
+      "preterminal_q_distance_to_reference_goal_rad": 0.14005856934288322,
+      "preterminal_target_position_m": 0.04323374852538109,
+      "last_reference_distance_to_goal_rad": 2.3450142162567515,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7361111111111112
+    },
+    {
+      "episode": 96,
+      "task": "avoidance",
+      "seed": 800030,
+      "last_reference_fraction": 0.13953488372093023,
+      "preterminal_q_distance_to_reference_goal_rad": 0.18732946668908304,
+      "preterminal_target_position_m": 0.027755990624427795,
+      "last_reference_distance_to_goal_rad": 2.584890781009766,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7305555555555555
+    },
+    {
+      "episode": 97,
+      "task": "avoidance",
+      "seed": 800009,
+      "last_reference_fraction": 0.2708333333333333,
+      "preterminal_q_distance_to_reference_goal_rad": 0.16272282449075023,
+      "preterminal_target_position_m": 0.029779760167002678,
+      "last_reference_distance_to_goal_rad": 2.090234143884386,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6910994764397905
+    },
+    {
+      "episode": 98,
+      "task": "avoidance",
+      "seed": 800018,
+      "last_reference_fraction": 0.2558139534883721,
+      "preterminal_q_distance_to_reference_goal_rad": 0.23647211655573297,
+      "preterminal_target_position_m": 0.05592913180589676,
+      "last_reference_distance_to_goal_rad": 2.2219487735150967,
+      "prior_vs_teacher_opposite_sign_fraction": 0.6954887218045113
+    },
+    {
+      "episode": 99,
+      "task": "avoidance",
+      "seed": 800050,
+      "last_reference_fraction": 0.09836065573770492,
+      "preterminal_q_distance_to_reference_goal_rad": 0.06598299468600893,
+      "preterminal_target_position_m": 0.04052066430449486,
+      "last_reference_distance_to_goal_rad": 2.621937577099153,
+      "prior_vs_teacher_opposite_sign_fraction": 0.7027649769585254
+    }
+  ],
+  "at_reference_goal_actions": [
+    {
+      "seed": 101000,
+      "suite": "alignment_far",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 101001,
+      "suite": "alignment_far",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 101002,
+      "suite": "alignment_far",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 101003,
+      "suite": "alignment_far",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 101004,
+      "suite": "alignment_far",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 101005,
+      "suite": "alignment_far",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 101006,
+      "suite": "alignment_far",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 101007,
+      "suite": "alignment_far",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 101008,
+      "suite": "alignment_far",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 101009,
+      "suite": "alignment_far",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 102000,
+      "suite": "alignment_near",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 102001,
+      "suite": "alignment_near",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 102002,
+      "suite": "alignment_near",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 102003,
+      "suite": "alignment_near",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 102004,
+      "suite": "alignment_near",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 102005,
+      "suite": "alignment_near",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 102006,
+      "suite": "alignment_near",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 102007,
+      "suite": "alignment_near",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 102008,
+      "suite": "alignment_near",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    },
+    {
+      "seed": 102009,
+      "suite": "alignment_near",
+      "initial_success": true,
+      "source_action": [
+        0.0002335760509595275,
+        -0.0005371664883568883,
+        -0.00014569029735866934,
+        -3.260530866100453e-05,
+        3.988012031186372e-05,
+        -0.0001697008847258985,
+        -1.8507838831283152e-05
+      ],
+      "bc_action": [
+        -0.07352425158023834,
+        0.3262120485305786,
+        -0.10166537016630173,
+        -0.10696174949407578,
+        -0.02987745590507984,
+        -0.0655197948217392,
+        0.01117673423141241
+      ]
+    }
+  ],
+  "bc_closed_loop_traces": [
+    {
+      "suite": "alignment_far",
+      "seed": 101000,
+      "trace": [
+        {
+          "step": 1,
+          "position_m": 1.8324061282741888,
+          "orientation_deg": 149.93453099755087,
+          "action": [
+            -0.7032769918441772,
+            -0.3395756185054779,
+            0.015942547470331192,
+            -0.26235735416412354,
+            -0.018443282693624496,
+            0.016825910657644272,
+            0.010369028896093369
+          ],
+          "gate": 0.010213338769972324,
+          "cursor": 1,
+          "reason": "running"
+        },
+        {
+          "step": 2,
+          "position_m": 1.8159792982248208,
+          "orientation_deg": 146.60872926229138,
+          "action": [
+            -0.7619245648384094,
+            -0.3390088677406311,
+            0.03347456455230713,
+            -0.3689038157463074,
+            -0.015187491662800312,
+            0.0030233808793127537,
+            0.011716960929334164
+          ],
+          "gate": 0.009381393902003765,
+          "cursor": 2,
+          "reason": "running"
+        },
+        {
+          "step": 3,
+          "position_m": 1.7981960799098131,
+          "orientation_deg": 143.31602954261044,
+          "action": [
+            -0.7734209299087524,
+            -0.3192034959793091,
+            0.05545593798160553,
+            -0.4282262325286865,
+            -0.0107973488047719,
+            -0.009437773376703262,
+            0.010216725058853626
+          ],
+          "gate": 0.009466405026614666,
+          "cursor": 3,
+          "reason": "running"
+        },
+        {
+          "step": 4,
+          "position_m": 1.778998733157906,
+          "orientation_deg": 140.0572107413934,
+          "action": [
+            -0.7832938432693481,
+            -0.30948808789253235,
+            0.07806777209043503,
+            -0.45996665954589844,
+            -0.00799127109348774,
+            -0.021315917372703552,
+            0.011725187301635742
+          ],
+          "gate": 0.009576904587447643,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 5,
+          "position_m": 1.758358529168465,
+          "orientation_deg": 136.83351599764012,
+          "action": [
+            -0.791979193687439,
+            -0.30862727761268616,
+            0.09877357631921768,
+            -0.47278785705566406,
+            -0.007109309080988169,
+            -0.028999505564570427,
+            0.014655225910246372
+          ],
+          "gate": 0.00970397051423788,
+          "cursor": 5,
+          "reason": "running"
+        },
+        {
+          "step": 6,
+          "position_m": 1.7362890901754446,
+          "orientation_deg": 133.64593930056998,
+          "action": [
+            -0.7997334599494934,
+            -0.3129536211490631,
+            0.1162584125995636,
+            -0.4732949435710907,
+            -0.008115272969007492,
+            -0.032741427421569824,
+            0.0189278032630682
+          ],
+          "gate": 0.009847568348050117,
+          "cursor": 6,
+          "reason": "running"
+        },
+        {
+          "step": 7,
+          "position_m": 1.712824604617745,
+          "orientation_deg": 130.49512812667942,
+          "action": [
+            -0.8069943785667419,
+            -0.3208424150943756,
+            0.1297941505908966,
+            -0.46466606855392456,
+            -0.009998315013945103,
+            -0.029946893453598022,
+            0.020203962922096252
+          ],
+          "gate": 0.01000937819480896,
+          "cursor": 7,
+          "reason": "running"
+        },
+        {
+          "step": 8,
+          "position_m": 1.6880047581990898,
+          "orientation_deg": 127.38063150763952,
+          "action": [
+            -0.8136351704597473,
+            -0.3306853473186493,
+            0.13920721411705017,
+            -0.45081064105033875,
+            -0.012806992046535015,
+            -0.024463389068841934,
+            0.02177349105477333
+          ],
+          "gate": 0.010186634957790375,
+          "cursor": 8,
+          "reason": "running"
+        },
+        {
+          "step": 9,
+          "position_m": 1.6618699505032148,
+          "orientation_deg": 124.30072683468522,
+          "action": [
+            -0.819624662399292,
+            -0.3411670923233032,
+            0.14453241229057312,
+            -0.43408751487731934,
+            -0.016692256554961205,
+            -0.01829531043767929,
+            0.026248376816511154
+          ],
+          "gate": 0.010378451086580753,
+          "cursor": 9,
+          "reason": "running"
+        },
+        {
+          "step": 10,
+          "position_m": 1.6343138050910042,
+          "orientation_deg": 121.23465754773842,
+          "action": [
+            -0.8252082467079163,
+            -0.35190680623054504,
+            0.14591383934020996,
+            -0.4152417480945587,
+            -0.021169353276491165,
+            -0.010440746322274208,
+            0.030635397881269455
+          ],
+          "gate": 0.010586793534457684,
+          "cursor": 10,
+          "reason": "running"
+        },
+        {
+          "step": 11,
+          "position_m": 1.605331254051101,
+          "orientation_deg": 118.17775662350066,
+          "action": [
+            -0.8318192958831787,
+            -0.3634611666202545,
+            0.14336219429969788,
+            -0.3938210606575012,
+            -0.025295440107584,
+            0.00016066525131464005,
+            0.03147953748703003
+          ],
+          "gate": 0.010778876021504402,
+          "cursor": 10,
+          "reason": "running"
+        },
+        {
+          "step": 12,
+          "position_m": 1.5751047541894843,
+          "orientation_deg": 115.14288417431638,
+          "action": [
+            -0.8244277238845825,
+            -0.37235626578330994,
+            0.13925594091415405,
+            -0.3697957396507263,
+            -0.028276467695832253,
+            0.00980814453214407,
+            0.036154720932245255
+          ],
+          "gate": 0.010967276059091091,
+          "cursor": 11,
+          "reason": "running"
+        },
+        {
+          "step": 13,
+          "position_m": 1.5436274831207226,
+          "orientation_deg": 112.12583018671027,
+          "action": [
+            -0.8289565443992615,
+            -0.38402917981147766,
+            0.13141939043998718,
+            -0.3469417989253998,
+            -0.0319514237344265,
+            0.02158670872449875,
+            0.03909571096301079
+          ],
+          "gate": 0.011225581169128418,
+          "cursor": 12,
+          "reason": "running"
+        },
+        {
+          "step": 14,
+          "position_m": 1.5108959754598115,
+          "orientation_deg": 109.11983179336971,
+          "action": [
+            -0.8335113525390625,
+            -0.3958454430103302,
+            0.12021200358867645,
+            -0.3250330090522766,
+            -0.03580101951956749,
+            0.0350794792175293,
+            0.03798264265060425
+          ],
+          "gate": 0.011502997018396854,
+          "cursor": 13,
+          "reason": "running"
+        },
+        {
+          "step": 15,
+          "position_m": 1.476854517583557,
+          "orientation_deg": 106.1107910167629,
+          "action": [
+            -0.8380100131034851,
+            -0.40661948919296265,
+            0.1058732345700264,
+            -0.30463895201683044,
+            -0.03992002084851265,
+            0.04909839108586311,
+            0.03671007603406906
+          ],
+          "gate": 0.011803288012742996,
+          "cursor": 14,
+          "reason": "running"
+        },
+        {
+          "step": 16,
+          "position_m": 1.4412695398934012,
+          "orientation_deg": 103.06613797441162,
+          "action": [
+            -0.8432499766349792,
+            -0.41578376293182373,
+            0.08864299952983856,
+            -0.28573212027549744,
+            -0.04420701414346695,
+            0.0640648826956749,
+            0.036699552088975906
+          ],
+          "gate": 0.012119204737246037,
+          "cursor": 15,
+          "reason": "running"
+        },
+        {
+          "step": 17,
+          "position_m": 1.4040585626719826,
+          "orientation_deg": 99.97205887533754,
+          "action": [
+            -0.8509302735328674,
+            -0.42495012283325195,
+            0.06927616894245148,
+            -0.267686665058136,
+            -0.04837840050458908,
+            0.0801994577050209,
+            0.034580644220113754
+          ],
+          "gate": 0.01242306549102068,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 18,
+          "position_m": 1.3651903088849586,
+          "orientation_deg": 96.81892569795941,
+          "action": [
+            -0.8569990396499634,
+            -0.4334884285926819,
+            0.047813642770051956,
+            -0.251973956823349,
+            -0.05341506004333496,
+            0.09647959470748901,
+            0.029934527352452278
+          ],
+          "gate": 0.012794903479516506,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 19,
+          "position_m": 1.3247306360930189,
+          "orientation_deg": 93.60514056571486,
+          "action": [
+            -0.8497759103775024,
+            -0.4410819113254547,
+            0.026969708502292633,
+            -0.2355840653181076,
+            -0.056730736047029495,
+            0.11144809424877167,
+            0.024831218644976616
+          ],
+          "gate": 0.013111469335854053,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 20,
+          "position_m": 1.282880151517777,
+          "orientation_deg": 90.34146684512613,
+          "action": [
+            -0.8390241265296936,
+            -0.44907036423683167,
+            0.005992399528622627,
+            -0.2204306274652481,
+            -0.05934995040297508,
+            0.12486420571804047,
+            0.020017338916659355
+          ],
+          "gate": 0.013522889465093613,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 21,
+          "position_m": 1.2396292809148703,
+          "orientation_deg": 87.01732741005375,
+          "action": [
+            -0.8386243581771851,
+            -0.4562998116016388,
+            -0.015260422602295876,
+            -0.20722979307174683,
+            -0.061704471707344055,
+            0.13621194660663605,
+            0.015168611891567707
+          ],
+          "gate": 0.01397821493446827,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 22,
+          "position_m": 1.194976711685094,
+          "orientation_deg": 83.62240531867972,
+          "action": [
+            -0.8390576839447021,
+            -0.46198415756225586,
+            -0.036973170936107635,
+            -0.1962604820728302,
+            -0.06403490900993347,
+            0.14606977999210358,
+            0.011286663822829723
+          ],
+          "gate": 0.014487299136817455,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 23,
+          "position_m": 1.1489247960063647,
+          "orientation_deg": 80.1464461312708,
+          "action": [
+            -0.8394420742988586,
+            -0.4659251272678375,
+            -0.05913587287068367,
+            -0.18810564279556274,
+            -0.06619742512702942,
+            0.15412995219230652,
+            0.004817040637135506
+          ],
+          "gate": 0.015061680227518082,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 24,
+          "position_m": 1.10147661673406,
+          "orientation_deg": 76.58060588779217,
+          "action": [
+            -0.8395012617111206,
+            -0.4674829840660095,
+            -0.08184103667736053,
+            -0.18556314706802368,
+            -0.06863316893577576,
+            0.16008466482162476,
+            0.0013891642447561026
+          ],
+          "gate": 0.01571083813905716,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 25,
+          "position_m": 1.0526485654770705,
+          "orientation_deg": 72.9178821346398,
+          "action": [
+            -0.8392274379730225,
+            -0.46567443013191223,
+            -0.10428662598133087,
+            -0.18787729740142822,
+            -0.07121779769659042,
+            0.16394251585006714,
+            -0.0006012252997606993
+          ],
+          "gate": 0.016452251002192497,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 26,
+          "position_m": 1.0024672119912819,
+          "orientation_deg": 69.15453555360031,
+          "action": [
+            -0.8383877873420715,
+            -0.4602662920951843,
+            -0.12527544796466827,
+            -0.19481417536735535,
+            -0.07389285415410995,
+            0.1646866798400879,
+            -0.00200354284606874
+          ],
+          "gate": 0.01730550266802311,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 27,
+          "position_m": 0.9516804525058075,
+          "orientation_deg": 65.34511648412327,
+          "action": [
+            -0.8367159366607666,
+            -0.45105862617492676,
+            -0.1443842053413391,
+            -0.20586222410202026,
+            -0.07671921700239182,
+            0.16198092699050903,
+            -0.0015439140843227506
+          ],
+          "gate": 0.018292108550667763,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 28,
+          "position_m": 0.9018698603047188,
+          "orientation_deg": 61.604090188274434,
+          "action": [
+            -0.8207255005836487,
+            -0.4334014654159546,
+            -0.16417767107486725,
+            -0.22149384021759033,
+            -0.08041657507419586,
+            0.14902439713478088,
+            1.8393853679299355e-05
+          ],
+          "gate": 0.019654713571071625,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 29,
+          "position_m": 0.8544610359701198,
+          "orientation_deg": 58.03029854800495,
+          "action": [
+            -0.7752202153205872,
+            -0.39604219794273376,
+            -0.18952442705631256,
+            -0.24330584704875946,
+            -0.08640468865633011,
+            0.11556630581617355,
+            0.011503360234200954
+          ],
+          "gate": 0.021571585908532143,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 30,
+          "position_m": 0.8036778074714682,
+          "orientation_deg": 54.21199620704331,
+          "action": [
+            -0.8281992077827454,
+            -0.39275139570236206,
+            -0.19714032113552094,
+            -0.2657337188720703,
+            -0.08815266937017441,
+            0.11105914413928986,
+            0.018812820315361023
+          ],
+          "gate": 0.021837634965777397,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 31,
+          "position_m": 0.7525405600725733,
+          "orientation_deg": 50.38093189936411,
+          "action": [
+            -0.834422767162323,
+            -0.3828757405281067,
+            -0.19901791214942932,
+            -0.2848231792449951,
+            -0.0888596922159195,
+            0.1038687527179718,
+            0.02553054690361023
+          ],
+          "gate": 0.023086000233888626,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 32,
+          "position_m": 0.7000021487388772,
+          "orientation_deg": 46.465907160537824,
+          "action": [
+            -0.8638746738433838,
+            -0.3808407187461853,
+            -0.18830978870391846,
+            -0.3027973473072052,
+            -0.08848622441291809,
+            0.1052589938044548,
+            0.028784997761249542
+          ],
+          "gate": 0.024033406749367714,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 33,
+          "position_m": 0.6471415763870645,
+          "orientation_deg": 42.546407041648855,
+          "action": [
+            -0.8821790218353271,
+            -0.37691357731819153,
+            -0.16974616050720215,
+            -0.318637877702713,
+            -0.087149478495121,
+            0.10592753440141678,
+            0.03081996738910675
+          ],
+          "gate": 0.025381455197930336,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 34,
+          "position_m": 0.5939025180823058,
+          "orientation_deg": 38.61385980037592,
+          "action": [
+            -0.9073477387428284,
+            -0.37586745619773865,
+            -0.14268025755882263,
+            -0.3334611654281616,
+            -0.08446899801492691,
+            0.10877048224210739,
+            0.030511751770973206
+          ],
+          "gate": 0.026728937402367592,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 35,
+          "position_m": 0.5411625527853143,
+          "orientation_deg": 34.7252283169118,
+          "action": [
+            -0.9229640364646912,
+            -0.37154659628868103,
+            -0.10910819470882416,
+            -0.3463295102119446,
+            -0.08153098821640015,
+            0.10686686635017395,
+            0.029001779854297638
+          ],
+          "gate": 0.028471259400248528,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 36,
+          "position_m": 0.4893150435129695,
+          "orientation_deg": 30.897983543733464,
+          "action": [
+            -0.9270979762077332,
+            -0.3608476519584656,
+            -0.0738520398736,
+            -0.3568277955055237,
+            -0.07774195075035095,
+            0.09494099766016006,
+            0.027079984545707703
+          ],
+          "gate": 0.030644232407212257,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 37,
+          "position_m": 0.4420344388157322,
+          "orientation_deg": 27.4249258817445,
+          "action": [
+            -0.8698339462280273,
+            -0.31464725732803345,
+            -0.04887938126921654,
+            -0.36317992210388184,
+            -0.07378241419792175,
+            0.04813765361905098,
+            0.029980340972542763
+          ],
+          "gate": 0.034378279000520706,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 38,
+          "position_m": 0.39706349389730183,
+          "orientation_deg": 24.11058570320185,
+          "action": [
+            -0.8684402108192444,
+            -0.2922290563583374,
+            -0.018229305744171143,
+            -0.37220269441604614,
+            -0.07108959555625916,
+            0.003715023398399353,
+            0.033950239419937134
+          ],
+          "gate": 0.036703262478113174,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 39,
+          "position_m": 0.3546328622062962,
+          "orientation_deg": 20.939257019555757,
+          "action": [
+            -0.8738266229629517,
+            -0.2790619730949402,
+            0.017473677173256874,
+            -0.3802018165588379,
+            -0.06922946870326996,
+            -0.03692972660064697,
+            0.03729958459734917
+          ],
+          "gate": 0.038810063153505325,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 40,
+          "position_m": 0.31573907639966114,
+          "orientation_deg": 17.976478916491306,
+          "action": [
+            -0.8641110062599182,
+            -0.2584342956542969,
+            0.05418418347835541,
+            -0.38562244176864624,
+            -0.06790301948785782,
+            -0.08034168183803558,
+            0.03969094902276993
+          ],
+          "gate": 0.04123828560113907,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 41,
+          "position_m": 0.2810091533411907,
+          "orientation_deg": 15.285314028048541,
+          "action": [
+            -0.8360599875450134,
+            -0.22539162635803223,
+            0.08749166131019592,
+            -0.38900670409202576,
+            -0.06665699928998947,
+            -0.13050413131713867,
+            0.04197072982788086
+          ],
+          "gate": 0.043984659016132355,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 42,
+          "position_m": 0.25073618375283574,
+          "orientation_deg": 12.975533646781448,
+          "action": [
+            -0.7742778658866882,
+            -0.16994082927703857,
+            0.11010996997356415,
+            -0.39187636971473694,
+            -0.0638342797756195,
+            -0.19156017899513245,
+            0.04411759227514267
+          ],
+          "gate": 0.04716102406382561,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 43,
+          "position_m": 0.2240039294449868,
+          "orientation_deg": 11.09236518659183,
+          "action": [
+            -0.6935976147651672,
+            -0.10034235566854477,
+            0.12244424968957901,
+            -0.3967144191265106,
+            -0.06007343530654907,
+            -0.25905337929725647,
+            0.04557349905371666
+          ],
+          "gate": 0.05029921978712082,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 44,
+          "position_m": 0.1994338031048449,
+          "orientation_deg": 9.660852899501808,
+          "action": [
+            -0.5945095419883728,
+            -0.02067713811993599,
+            0.12300433218479156,
+            -0.4042516052722931,
+            -0.05488179996609688,
+            -0.3286959230899811,
+            0.04555270075798035
+          ],
+          "gate": 0.053258221596479416,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 45,
+          "position_m": 0.17529149626274043,
+          "orientation_deg": 8.741903938204342,
+          "action": [
+            -0.46582019329071045,
+            0.07714969664812088,
+            0.11042657494544983,
+            -0.41570818424224854,
+            -0.04748346284031868,
+            -0.39845648407936096,
+            0.04319975897669792
+          ],
+          "gate": 0.05624281242489815,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 46,
+          "position_m": 0.1500279485620647,
+          "orientation_deg": 8.29973893426401,
+          "action": [
+            -0.3369663953781128,
+            0.17666439712047577,
+            0.08745968341827393,
+            -0.43026453256607056,
+            -0.03814595565199852,
+            -0.46355944871902466,
+            0.03825640678405762
+          ],
+          "gate": 0.059047091752290726,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 47,
+          "position_m": 0.12314488680374192,
+          "orientation_deg": 8.302904181906799,
+          "action": [
+            -0.21558153629302979,
+            0.27311962842941284,
+            0.05721782147884369,
+            -0.44594836235046387,
+            -0.02700987458229065,
+            -0.5215405225753784,
+            0.030692938715219498
+          ],
+          "gate": 0.061777837574481964,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 48,
+          "position_m": 0.09577603874108316,
+          "orientation_deg": 8.665172637273608,
+          "action": [
+            -0.12312424927949905,
+            0.3509303331375122,
+            0.024472881108522415,
+            -0.45903077721595764,
+            -0.015060044825077057,
+            -0.5700974464416504,
+            0.021077625453472137
+          ],
+          "gate": 0.06422809511423111,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 49,
+          "position_m": 0.0726110676290406,
+          "orientation_deg": 9.2321581638771,
+          "action": [
+            -0.05737476795911789,
+            0.38601043820381165,
+            -0.007652467582374811,
+            -0.46239301562309265,
+            -0.0038315877318382263,
+            -0.6087793707847595,
+            0.010009240359067917
+          ],
+          "gate": 0.06547798961400986,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 50,
+          "position_m": 0.060370108099245263,
+          "orientation_deg": 9.841941866934926,
+          "action": [
+            -0.01385422796010971,
+            0.3868856430053711,
+            -0.03855186700820923,
+            -0.4534745216369629,
+            0.006017819046974182,
+            -0.6300822496414185,
+            -0.0011933445930480957
+          ],
+          "gate": 0.0656832903623581,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 51,
+          "position_m": 0.06402618252753786,
+          "orientation_deg": 10.599148249490325,
+          "action": [
+            0.017136216163635254,
+            0.4044848084449768,
+            -0.06493953615427017,
+            -0.43950358033180237,
+            0.014670077711343765,
+            -0.6037269830703735,
+            -0.011107973754405975
+          ],
+          "gate": 0.06674905866384506,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 52,
+          "position_m": 0.08050617559378632,
+          "orientation_deg": 11.452349356176436,
+          "action": [
+            0.027477193623781204,
+            0.3978062570095062,
+            -0.08653949201107025,
+            -0.4143134653568268,
+            0.02307165414094925,
+            -0.5432858467102051,
+            -0.02118648961186409
+          ],
+          "gate": 0.06749498099088669,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 53,
+          "position_m": 0.10307431492929778,
+          "orientation_deg": 12.441254253567145,
+          "action": [
+            0.024229444563388824,
+            0.3973373770713806,
+            -0.1023646891117096,
+            -0.3810102343559265,
+            0.03269154950976372,
+            -0.46238386631011963,
+            -0.030950352549552917
+          ],
+          "gate": 0.06906753778457642,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 54,
+          "position_m": 0.12707407388368805,
+          "orientation_deg": 13.460824036636781,
+          "action": [
+            0.012933038175106049,
+            0.3851720094680786,
+            -0.11319157481193542,
+            -0.3382568657398224,
+            0.0446283221244812,
+            -0.39561453461647034,
+            -0.03959045559167862
+          ],
+          "gate": 0.07068317383527756,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 55,
+          "position_m": 0.15020856261547627,
+          "orientation_deg": 14.420635379110411,
+          "action": [
+            0.0035041645169258118,
+            0.36553052067756653,
+            -0.11756522953510284,
+            -0.28809601068496704,
+            0.057444747537374496,
+            -0.3464665114879608,
+            -0.04740726575255394
+          ],
+          "gate": 0.0721595510840416,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 56,
+          "position_m": 0.17128150163591999,
+          "orientation_deg": 15.248862809699402,
+          "action": [
+            4.182010889053345e-05,
+            0.34047842025756836,
+            -0.11638705432415009,
+            -0.23333093523979187,
+            0.07067975401878357,
+            -0.3109106421470642,
+            -0.05334959551692009
+          ],
+          "gate": 0.0733482614159584,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 57,
+          "position_m": 0.18930939166600216,
+          "orientation_deg": 15.87124790317364,
+          "action": [
+            0.00040636956691741943,
+            0.30868279933929443,
+            -0.1101842075586319,
+            -0.17568439245224,
+            0.08314967155456543,
+            -0.28440651297569275,
+            -0.05744786933064461
+          ],
+          "gate": 0.07412806898355484,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 58,
+          "position_m": 0.20487559064099614,
+          "orientation_deg": 16.32060941424511,
+          "action": [
+            0.002338878810405731,
+            0.2893078923225403,
+            -0.09816890954971313,
+            -0.12078505754470825,
+            0.09407764673233032,
+            -0.2615715265274048,
+            -0.05910877510905266
+          ],
+          "gate": 0.07530657947063446,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 59,
+          "position_m": 0.21796602936463716,
+          "orientation_deg": 16.575476163020266,
+          "action": [
+            0.0050870925188064575,
+            0.27018555998802185,
+            -0.08391266316175461,
+            -0.07011350989341736,
+            0.10470394045114517,
+            -0.24583415687084198,
+            -0.056695833802223206
+          ],
+          "gate": 0.07627449929714203,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 60,
+          "position_m": 0.2286941012440943,
+          "orientation_deg": 16.63807840031077,
+          "action": [
+            0.0056655555963516235,
+            0.25157079100608826,
+            -0.06959027051925659,
+            -0.02415543794631958,
+            0.11339893937110901,
+            -0.23203952610492706,
+            -0.05149443447589874
+          ],
+          "gate": 0.07709954679012299,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 61,
+          "position_m": 0.23722232644660285,
+          "orientation_deg": 16.51853958167294,
+          "action": [
+            0.004122033715248108,
+            0.23376622796058655,
+            -0.05874123424291611,
+            0.016734052449464798,
+            0.11985880136489868,
+            -0.2195507287979126,
+            -0.04375877231359482
+          ],
+          "gate": 0.07778600603342056,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 62,
+          "position_m": 0.24389538087893878,
+          "orientation_deg": 16.243521606456657,
+          "action": [
+            0.0012635886669158936,
+            0.2189333736896515,
+            -0.05084086209535599,
+            0.05222702771425247,
+            0.12405577301979065,
+            -0.20747628808021545,
+            -0.03394509106874466
+          ],
+          "gate": 0.07843486219644547,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 63,
+          "position_m": 0.24900446220340486,
+          "orientation_deg": 15.838803127980041,
+          "action": [
+            -0.0026476606726646423,
+            0.2059689611196518,
+            -0.045507654547691345,
+            0.0825955867767334,
+            0.1260921210050583,
+            -0.1954873651266098,
+            -0.023009207099676132
+          ],
+          "gate": 0.07902346551418304,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 64,
+          "position_m": 0.2527977716027455,
+          "orientation_deg": 15.332675527686357,
+          "action": [
+            -0.008133143186569214,
+            0.19406843185424805,
+            -0.04205578565597534,
+            0.10871772468090057,
+            0.12592004239559174,
+            -0.1815086305141449,
+            -0.01129995472729206
+          ],
+          "gate": 0.07957056164741516,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 65,
+          "position_m": 0.2554961233297625,
+          "orientation_deg": 14.747753637359063,
+          "action": [
+            -0.013869620859622955,
+            0.18348190188407898,
+            -0.040456123650074005,
+            0.13077260553836823,
+            0.12391465902328491,
+            -0.16823336482048035,
+            -0.0007171966135501862
+          ],
+          "gate": 0.08008133620023727,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 66,
+          "position_m": 0.257323004323152,
+          "orientation_deg": 14.106419386879741,
+          "action": [
+            -0.019067242741584778,
+            0.17452113330364227,
+            -0.04042533040046692,
+            0.14884653687477112,
+            0.12041084468364716,
+            -0.15649394690990448,
+            0.007239570841193199
+          ],
+          "gate": 0.08057563006877899,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 67,
+          "position_m": 0.25848907180018443,
+          "orientation_deg": 13.434470638624832,
+          "action": [
+            -0.02438213676214218,
+            0.16683584451675415,
+            -0.04127754271030426,
+            0.16368043422698975,
+            0.11560002714395523,
+            -0.14404208958148956,
+            0.012941049411892891
+          ],
+          "gate": 0.08108454942703247,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 68,
+          "position_m": 0.25916722246084267,
+          "orientation_deg": 12.754788848006601,
+          "action": [
+            -0.030071251094341278,
+            0.1600409746170044,
+            -0.04259724169969559,
+            0.17590132355690002,
+            0.10981173068284988,
+            -0.13045567274093628,
+            0.01659000851213932
+          ],
+          "gate": 0.08162041753530502,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 69,
+          "position_m": 0.259498162728741,
+          "orientation_deg": 12.086555681234506,
+          "action": [
+            -0.0357968732714653,
+            0.15400946140289307,
+            -0.044203005731105804,
+            0.1858692765235901,
+            0.10359285026788712,
+            -0.11646943539381027,
+            0.017442218959331512
+          ],
+          "gate": 0.08219128102064133,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 70,
+          "position_m": 0.25963323726480786,
+          "orientation_deg": 11.448832534938159,
+          "action": [
+            -0.041415005922317505,
+            0.14905430376529694,
+            -0.04575733095407486,
+            0.19387146830558777,
+            0.0973883718252182,
+            -0.10211781412363052,
+            0.01559809036552906
+          ],
+          "gate": 0.082829050719738,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 71,
+          "position_m": 0.2596777182564795,
+          "orientation_deg": 10.85588121559766,
+          "action": [
+            -0.04669499397277832,
+            0.1447046399116516,
+            -0.047051891684532166,
+            0.20017153024673462,
+            0.09168729186058044,
+            -0.0880102664232254,
+            0.010901909321546555
+          ],
+          "gate": 0.08352090418338776,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 72,
+          "position_m": 0.2597111848556945,
+          "orientation_deg": 10.323160945685196,
+          "action": [
+            -0.05237124115228653,
+            0.14046205580234528,
+            -0.047606565058231354,
+            0.20556499063968658,
+            0.08672641962766647,
+            -0.07218784838914871,
+            0.00469280406832695
+          ],
+          "gate": 0.08428504317998886,
+          "cursor": 16,
+          "reason": "running"
+        },
+        {
+          "step": 73,
+          "position_m": 0.2597131624463932,
+          "orientation_deg": 9.922287144866402,
+          "action": [
+            -0.05790723115205765,
+            0.13638903200626373,
+            -0.04739192873239517,
+            0.2101021111011505,
+            0.08287554234266281,
+            -0.056494154036045074,
+            -0.0028878580778837204
+          ],
+          "gate": 0.08511454612016678,
+          "cursor": 16,
+          "reason": "collision"
+        }
+      ],
+      "terminal_contacts": [
+        {
+          "body": "panel",
+          "other": "wall",
+          "link": -1,
+          "distance_m": -0.00021387874213623422
+        }
+      ]
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102000,
+      "trace": [
+        {
+          "step": 1,
+          "position_m": 0.5086572372097627,
+          "orientation_deg": 39.12605555031811,
+          "action": [
+            -0.7061215043067932,
+            -0.08790822327136993,
+            -0.12620045244693756,
+            -0.20719125866889954,
+            0.08837668597698212,
+            0.02283168025314808,
+            0.034061431884765625
+          ],
+          "gate": 0.033999957144260406,
+          "cursor": 1,
+          "reason": "running"
+        },
+        {
+          "step": 2,
+          "position_m": 0.45743044509365977,
+          "orientation_deg": 35.01778275952565,
+          "action": [
+            -0.8564524054527283,
+            -0.17261648178100586,
+            -0.19799204170703888,
+            -0.3168575167655945,
+            0.1659134477376938,
+            0.06787437200546265,
+            0.05102954059839249
+          ],
+          "gate": 0.03310166299343109,
+          "cursor": 2,
+          "reason": "running"
+        },
+        {
+          "step": 3,
+          "position_m": 0.40135742739330377,
+          "orientation_deg": 30.401118011850972,
+          "action": [
+            -0.8923445343971252,
+            -0.15831254422664642,
+            -0.2516697645187378,
+            -0.3605177402496338,
+            0.22365233302116394,
+            0.10699564963579178,
+            0.05128919705748558
+          ],
+          "gate": 0.03496337682008743,
+          "cursor": 3,
+          "reason": "running"
+        },
+        {
+          "step": 4,
+          "position_m": 0.34378709753917547,
+          "orientation_deg": 25.554241394384636,
+          "action": [
+            -0.8792938590049744,
+            -0.12496744096279144,
+            -0.2966011166572571,
+            -0.3613390326499939,
+            0.26059091091156006,
+            0.12844939529895782,
+            0.03869345784187317
+          ],
+          "gate": 0.038486167788505554,
+          "cursor": 3,
+          "reason": "running"
+        },
+        {
+          "step": 5,
+          "position_m": 0.288953882912246,
+          "orientation_deg": 20.82041439933753,
+          "action": [
+            -0.8138507008552551,
+            -0.09537568688392639,
+            -0.3249095380306244,
+            -0.3405073285102844,
+            0.2819715440273285,
+            0.1293344646692276,
+            0.020280756056308746
+          ],
+          "gate": 0.04246770218014717,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 6,
+          "position_m": 0.23680799475235212,
+          "orientation_deg": 16.19988550383239,
+          "action": [
+            -0.7678506374359131,
+            -0.04982493445277214,
+            -0.3476794958114624,
+            -0.30901622772216797,
+            0.28214946389198303,
+            0.11460517346858978,
+            -0.008528856560587883
+          ],
+          "gate": 0.04750034585595131,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 7,
+          "position_m": 0.19102591715727266,
+          "orientation_deg": 11.99337669559181,
+          "action": [
+            -0.6665374040603638,
+            0.004146777093410492,
+            -0.35087963938713074,
+            -0.28062430024147034,
+            0.26572147011756897,
+            0.0809304267168045,
+            -0.039714302867650986
+          ],
+          "gate": 0.052833717316389084,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 8,
+          "position_m": 0.15223304748816513,
+          "orientation_deg": 8.418047047660014,
+          "action": [
+            -0.4935736060142517,
+            0.12360115349292755,
+            -0.3410699963569641,
+            -0.26157721877098083,
+            0.2352863848209381,
+            0.021519342437386513,
+            -0.07211253046989441
+          ],
+          "gate": 0.0596245601773262,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 9,
+          "position_m": 0.11850664107024657,
+          "orientation_deg": 5.449203529176383,
+          "action": [
+            -0.32764360308647156,
+            0.24800527095794678,
+            -0.32191571593284607,
+            -0.25321832299232483,
+            0.18952840566635132,
+            -0.05087580531835556,
+            -0.10162846744060516
+          ],
+          "gate": 0.06655702739953995,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 10,
+          "position_m": 0.08849383916833847,
+          "orientation_deg": 3.2276298533454395,
+          "action": [
+            -0.13475874066352844,
+            0.3921200633049011,
+            -0.30311819911003113,
+            -0.25551170110702515,
+            0.13123977184295654,
+            -0.12995484471321106,
+            -0.12469621002674103
+          ],
+          "gate": 0.07411489635705948,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 11,
+          "position_m": 0.06520311194414015,
+          "orientation_deg": 2.7169783016110385,
+          "action": [
+            0.02850978821516037,
+            0.5230911374092102,
+            -0.281053364276886,
+            -0.26380646228790283,
+            0.06466304510831833,
+            -0.20445816218852997,
+            -0.13631375133991241
+          ],
+          "gate": 0.08176546543836594,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 12,
+          "position_m": 0.06143260018577178,
+          "orientation_deg": 4.001687295114499,
+          "action": [
+            0.11930249631404877,
+            0.5151990652084351,
+            -0.2626514732837677,
+            -0.25560322403907776,
+            0.00770212709903717,
+            -0.2618432641029358,
+            -0.13575591146945953
+          ],
+          "gate": 0.08444392681121826,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 13,
+          "position_m": 0.07522370866691798,
+          "orientation_deg": 5.7312238251783905,
+          "action": [
+            0.15451961755752563,
+            0.4953703284263611,
+            -0.23961395025253296,
+            -0.24267607927322388,
+            -0.04617045074701309,
+            -0.29234325885772705,
+            -0.11924783140420914
+          ],
+          "gate": 0.08806755393743515,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 14,
+          "position_m": 0.09671981220295663,
+          "orientation_deg": 7.52094877655346,
+          "action": [
+            0.16132742166519165,
+            0.4692264497280121,
+            -0.2120663970708847,
+            -0.22652865946292877,
+            -0.0971454307436943,
+            -0.29478901624679565,
+            -0.08834661543369293
+          ],
+          "gate": 0.09142772853374481,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 15,
+          "position_m": 0.11899992728145205,
+          "orientation_deg": 9.198882446765912,
+          "action": [
+            0.1490662693977356,
+            0.41860175132751465,
+            -0.18388321995735168,
+            -0.20294389128684998,
+            -0.13723909854888916,
+            -0.27402833104133606,
+            -0.047301869839429855
+          ],
+          "gate": 0.09319287538528442,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 16,
+          "position_m": 0.13911356680840714,
+          "orientation_deg": 10.67458727426443,
+          "action": [
+            0.1251443773508072,
+            0.35997211933135986,
+            -0.15875814855098724,
+            -0.16975624859333038,
+            -0.15842203795909882,
+            -0.23727774620056152,
+            -0.002619498409330845
+          ],
+          "gate": 0.09333918988704681,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 17,
+          "position_m": 0.15646656780203863,
+          "orientation_deg": 11.893588615975723,
+          "action": [
+            0.09645850211381912,
+            0.3183944821357727,
+            -0.13847616314888,
+            -0.128223717212677,
+            -0.1604381948709488,
+            -0.20787668228149414,
+            0.039715491235256195
+          ],
+          "gate": 0.09266368299722672,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 18,
+          "position_m": 0.1710303303071827,
+          "orientation_deg": 12.822716604492868,
+          "action": [
+            0.07266992330551147,
+            0.2860521376132965,
+            -0.12188712507486343,
+            -0.08484745770692825,
+            -0.14673812687397003,
+            -0.18710672855377197,
+            0.07578963786363602
+          ],
+          "gate": 0.09228817373514175,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 19,
+          "position_m": 0.18282141079672115,
+          "orientation_deg": 13.449400396522728,
+          "action": [
+            0.05512397363781929,
+            0.2568616271018982,
+            -0.10880506783723831,
+            -0.04272764176130295,
+            -0.12109072506427765,
+            -0.1718856692314148,
+            0.10223276913166046
+          ],
+          "gate": 0.0917850211262703,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 20,
+          "position_m": 0.19201951094595227,
+          "orientation_deg": 13.792313454809284,
+          "action": [
+            0.042467307299375534,
+            0.230936199426651,
+            -0.09892205148935318,
+            -0.00395791232585907,
+            -0.08769860863685608,
+            -0.15977129340171814,
+            0.11659404635429382
+          ],
+          "gate": 0.09125394374132156,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 21,
+          "position_m": 0.19902517464191347,
+          "orientation_deg": 13.898285123047861,
+          "action": [
+            0.033235400915145874,
+            0.2100919634103775,
+            -0.09173761308193207,
+            0.029807832092046738,
+            -0.05068695917725563,
+            -0.14924736320972443,
+            0.11873231828212738
+          ],
+          "gate": 0.09089724719524384,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 22,
+          "position_m": 0.20415059163339097,
+          "orientation_deg": 13.820158494695608,
+          "action": [
+            0.0254640132188797,
+            0.1915610134601593,
+            -0.08670223504304886,
+            0.05831579864025116,
+            -0.01365295797586441,
+            -0.13814842700958252,
+            0.1078278198838234
+          ],
+          "gate": 0.09066910296678543,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 23,
+          "position_m": 0.20766563347348108,
+          "orientation_deg": 13.612098214733212,
+          "action": [
+            0.017796874046325684,
+            0.17421233654022217,
+            -0.08303616940975189,
+            0.08184908330440521,
+            0.02012401446700096,
+            -0.12539011240005493,
+            0.08562175929546356
+          ],
+          "gate": 0.09059476852416992,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 24,
+          "position_m": 0.20981603179002126,
+          "orientation_deg": 13.324899846487112,
+          "action": [
+            0.009863220155239105,
+            0.15775005519390106,
+            -0.08027470111846924,
+            0.1008400097489357,
+            0.048312313854694366,
+            -0.11126764118671417,
+            0.05516006797552109
+          ],
+          "gate": 0.09069739282131195,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 25,
+          "position_m": 0.21082551043198502,
+          "orientation_deg": 13.006460666649884,
+          "action": [
+            0.0012277737259864807,
+            0.14196443557739258,
+            -0.07779691368341446,
+            0.11604882776737213,
+            0.06938283145427704,
+            -0.09503252059221268,
+            0.019970063120126724
+          ],
+          "gate": 0.0910014882683754,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 26,
+          "position_m": 0.21092380400383529,
+          "orientation_deg": 12.700893404278302,
+          "action": [
+            -0.007926352322101593,
+            0.12733018398284912,
+            -0.0750490054488182,
+            0.12801656126976013,
+            0.08255808055400848,
+            -0.07732781022787094,
+            -0.016502927988767624
+          ],
+          "gate": 0.09153171628713608,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 27,
+          "position_m": 0.2103350815187355,
+          "orientation_deg": 12.446041323504284,
+          "action": [
+            -0.017590656876564026,
+            0.11402703076601028,
+            -0.0714937373995781,
+            0.1373625099658966,
+            0.0877421647310257,
+            -0.05827607959508896,
+            -0.050358038395643234
+          ],
+          "gate": 0.09228425472974777,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 28,
+          "position_m": 0.20923102088298037,
+          "orientation_deg": 12.266181218981938,
+          "action": [
+            -0.02740658074617386,
+            0.101799376308918,
+            -0.06731704622507095,
+            0.14479252696037292,
+            0.08590284734964371,
+            -0.03865305334329605,
+            -0.07782576978206635
+          ],
+          "gate": 0.09319772571325302,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 29,
+          "position_m": 0.2077579816863797,
+          "orientation_deg": 12.173958782445448,
+          "action": [
+            -0.03737408667802811,
+            0.09066102653741837,
+            -0.06188260763883591,
+            0.15090250968933105,
+            0.07763287425041199,
+            -0.018788762390613556,
+            -0.0967441275715828
+          ],
+          "gate": 0.09423895925283432,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 30,
+          "position_m": 0.20604214381632624,
+          "orientation_deg": 12.166464655089761,
+          "action": [
+            -0.047002874314785004,
+            0.08089037984609604,
+            -0.055184461176395416,
+            0.15610216557979584,
+            0.06434737890958786,
+            0.0003468543291091919,
+            -0.1053459495306015
+          ],
+          "gate": 0.09536030143499374,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 31,
+          "position_m": 0.204192132204054,
+          "orientation_deg": 12.225949119011357,
+          "action": [
+            -0.05589951574802399,
+            0.07273191213607788,
+            -0.04718717932701111,
+            0.16063451766967773,
+            0.047554079443216324,
+            0.017879776656627655,
+            -0.10298651456832886
+          ],
+          "gate": 0.0965106189250946,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 32,
+          "position_m": 0.2022982598656512,
+          "orientation_deg": 12.324209637381916,
+          "action": [
+            -0.06384902447462082,
+            0.06627748161554337,
+            -0.0380159392952919,
+            0.16467374563217163,
+            0.028959855437278748,
+            0.03344070166349411,
+            -0.09029903262853622
+          ],
+          "gate": 0.09764035791158676,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 33,
+          "position_m": 0.20043205601332317,
+          "orientation_deg": 12.429288239879691,
+          "action": [
+            -0.07072961330413818,
+            0.061486244201660156,
+            -0.027724847197532654,
+            0.16823309659957886,
+            0.010118871927261353,
+            0.04665736109018326,
+            -0.06950406730175018
+          ],
+          "gate": 0.09870654344558716,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 34,
+          "position_m": 0.19864738897972034,
+          "orientation_deg": 12.51083534069804,
+          "action": [
+            -0.07649676501750946,
+            0.05821835994720459,
+            -0.01653936505317688,
+            0.17130091786384583,
+            -0.007403209805488586,
+            0.057517435401678085,
+            -0.043224185705184937
+          ],
+          "gate": 0.09967561066150665,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 35,
+          "position_m": 0.1969829439486767,
+          "orientation_deg": 12.54367330037588,
+          "action": [
+            -0.08097600191831589,
+            0.056367941200733185,
+            -0.004758395254611969,
+            0.17368972301483154,
+            -0.022308725863695145,
+            0.06553620100021362,
+            -0.01444555725902319
+          ],
+          "gate": 0.100520558655262,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 36,
+          "position_m": 0.19546785841025693,
+          "orientation_deg": 12.510661801426735,
+          "action": [
+            -0.08390340209007263,
+            0.05585293471813202,
+            0.007012300193309784,
+            0.17516377568244934,
+            -0.033325910568237305,
+            0.07035589218139648,
+            0.013915525749325752
+          ],
+          "gate": 0.10122473537921906,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 37,
+          "position_m": 0.19412278812172892,
+          "orientation_deg": 12.409528093003134,
+          "action": [
+            -0.0858481377363205,
+            0.056161463260650635,
+            0.019475847482681274,
+            0.1755068004131317,
+            -0.04074100777506828,
+            0.0727204978466034,
+            0.03742906451225281
+          ],
+          "gate": 0.10180884599685669,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 38,
+          "position_m": 0.1929554151113247,
+          "orientation_deg": 12.248126832596947,
+          "action": [
+            -0.08763735741376877,
+            0.05648229271173477,
+            0.03162289410829544,
+            0.1752668023109436,
+            -0.0433344841003418,
+            0.07555479556322098,
+            0.054902687668800354
+          ],
+          "gate": 0.10229834169149399,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 39,
+          "position_m": 0.19194894806826915,
+          "orientation_deg": 12.03660390226646,
+          "action": [
+            -0.0892200842499733,
+            0.056524209678173065,
+            0.043056633323431015,
+            0.17443624138832092,
+            -0.04123462364077568,
+            0.07813812792301178,
+            0.06552568078041077
+          ],
+          "gate": 0.10270840674638748,
+          "cursor": 4,
+          "reason": "running"
+        },
+        {
+          "step": 40,
+          "position_m": 0.19116807694159385,
+          "orientation_deg": 11.831413641129409,
+          "action": [
+            -0.08953415602445602,
+            0.05662349611520767,
+            0.05406690016388893,
+            0.17243586480617523,
+            -0.03543427959084511,
+            0.0776967778801918,
+            0.06618066132068634
+          ],
+          "gate": 0.10306710749864578,
+          "cursor": 4,
+          "reason": "collision"
+        }
+      ],
+      "terminal_contacts": [
+        {
+          "body": "panel",
+          "other": "wall",
+          "link": -1,
+          "distance_m": 7.457927429030441e-05
+        }
+      ]
+    }
+  ]
+}

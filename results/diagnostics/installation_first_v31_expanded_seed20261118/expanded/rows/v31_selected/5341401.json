@@ -1,0 +1,129 @@
+{
+  "seed": 5341401,
+  "controller": "enhanced",
+  "reason": "success",
+  "steps": 202,
+  "position_m": 0.009991932094739598,
+  "orientation_deg": 1.1285400134659869,
+  "reward": 293.4485903716292,
+  "zero_command_steps": 0,
+  "stationary_steps": 0,
+  "wall_seconds": 237.70353918,
+  "physics_elapsed_s": 10.099999999999747,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 3,
+  "recovery_actions": 128,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.0747187584986544,
+      "accepted": false
+    },
+    {
+      "step": 52,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.0747207421237586,
+      "accepted": false
+    },
+    {
+      "step": 64,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.06453806713664,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          1,
+          5
+        ],
+        [
+          -0.4,
+          -0.4
+        ]
+      ],
+      "predicted_end_cost": 0.5889936963164701,
+      "predicted_gain": 1.4755443708201699,
+      "plan_steps": 60
+    },
+    {
+      "step": 133,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.5852559193457851,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          1,
+          5
+        ],
+        [
+          -0.4,
+          0.4
+        ]
+      ],
+      "predicted_end_cost": 0.3963125135185069,
+      "predicted_gain": 0.18894340582727825,
+      "plan_steps": 60
+    },
+    {
+      "step": 193,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.42910752633620697,
+      "accepted": true,
+      "mode": "bias",
+      "parameter": [
+        5,
+        0.4
+      ],
+      "predicted_end_cost": 0.012355540771797511,
+      "predicted_gain": 0.41675198556440946,
+      "plan_steps": 9
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 36889,
+  "vertical_plan_events": [],
+  "installation_events": [
+    {
+      "step": 40,
+      "mode": "reject_reference_escape",
+      "candidate_mode": "paired"
+    },
+    {
+      "step": 52,
+      "mode": "reject_reference_escape",
+      "candidate_mode": "paired"
+    }
+  ],
+  "passage_count": 0,
+  "success_with_weaving": false,
+  "arm": "v31_selected",
+  "obstacle_count": 4,
+  "model_key": "v31",
+  "controller_key": "installation",
+  "case_sha256": "ca4b2b1b1fd4499c5e2454f9572b9cf343cf4006c775aa7fd81b04e95e60cb3e",
+  "max_obstacle_speed_m_s": 0.14778535189029762,
+  "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+  "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+  "timeout_diagnosis": {
+    "primary": "success",
+    "flags": {
+      "waiting": false,
+      "stale_reference": false,
+      "terminal_precision": true
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.0,
+    "zero_command_fraction": 0.0,
+    "reference_telemetry_available": true,
+    "reference_index_start": 1,
+    "reference_index_end": 44,
+    "final_reference_distance_rad": 0.016600945020426125,
+    "final_position_m": 0.009991932094739598,
+    "final_orientation_deg": 1.1285400134659869,
+    "reference_state_inferred": false
+  }
+}

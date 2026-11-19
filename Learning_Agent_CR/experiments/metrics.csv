@@ -1,0 +1,3 @@
+mode,episodes,success,collision,timeout,joint_limit,planning_failure,success_rate,collision_rate,timeout_rate,mean_steps,mean_success_steps,zero_command_steps,stationary_steps,mean_initial_planning_s,mean_control_wall_s,mean_total_wall_s,successful_with_verified_weaving,success_and_weaving_rate,success_95ci_lower,success_95ci_upper,success_and_weaving_95ci_lower,success_and_weaving_95ci_upper
+ppo_progress,64,43,1,20,0,0,0.671875,0.015625,0.3125,194.875,174.67441860465115,5335,5335,0.0,68.23759301117236,69.0012311380312,9,0.140625,0.5499887622745426,0.7742960423291224,0.07578487006414436,0.24616508394637426
+ppo,64,0,64,0,0,0,0.0,1.0,0.0,11.53125,,0,0,0.0,0.008559010843470105,0.051495193999926414,0,0.0,0.0,0.056626022971156334,0.0,0.056626022971156334

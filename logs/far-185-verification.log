@@ -1,0 +1,54 @@
+pybullet build time: Jan 29 2025 23:17:20
+far_start: 10/100
+far_start: 20/100
+far_start: 30/100
+far_start: 40/100
+far_start: 50/100
+far_start: 60/100
+far_start: 70/100
+far_start: 80/100
+far_start: 90/100
+far_start: 100/100
+{
+  "episodes": 100,
+  "original_mean_distance_m": 0.48574746317600204,
+  "initial_distance_mean_m": 1.8416338641631744,
+  "initial_distance_min_m": 1.8332999606388776,
+  "initial_distance_max_m": 1.8494523748213596,
+  "success_count": 100,
+  "collision_count": 0,
+  "ik_failure_count": 0,
+  "planning_failure_count": 0,
+  "blocked_direct_paths": 100,
+  "successful_detours": 100,
+  "mean_steps": 48.94,
+  "mean_final_position_error_m": 0.003912623846925287,
+  "mean_final_orientation_error_deg": 0.057237052935084236
+}
+far_three_obstacles: 10/100
+far_three_obstacles: 20/100
+far_three_obstacles: 30/100
+far_three_obstacles: 40/100
+far_three_obstacles: 50/100
+far_three_obstacles: 60/100
+far_three_obstacles: 70/100
+far_three_obstacles: 80/100
+far_three_obstacles: 90/100
+far_three_obstacles: 100/100
+{
+  "episodes": 100,
+  "original_mean_distance_m": 0.48574746317600204,
+  "initial_distance_mean_m": 1.8416338641631744,
+  "initial_distance_min_m": 1.8332999606388776,
+  "initial_distance_max_m": 1.8494523748213596,
+  "success_count": 100,
+  "collision_count": 0,
+  "ik_failure_count": 0,
+  "planning_failure_count": 0,
+  "blocked_direct_paths": 100,
+  "successful_detours": 100,
+  "mean_steps": 54.59,
+  "mean_final_position_error_m": 0.003745668544265829,
+  "mean_final_orientation_error_deg": 0.0843509568613461
+}
+Recorded physical executions and detour audits in results/raw/far_185_random_three

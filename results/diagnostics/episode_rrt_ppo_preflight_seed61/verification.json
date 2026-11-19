@@ -1,0 +1,17 @@
+{
+  "training_performed": false,
+  "full_regression_tests_passed": 128,
+  "additional_integration_test_passed": 1,
+  "ppo_model_sha256": "886301e03bae2c1c7058dc5efb55bcba40190f407cd4171cbf517730a259207c",
+  "code_hashes": {
+    "configs/episode_rrt_ppo.yaml": "552fa6d6f4a29d9e310f2e4677f3bc9f366d75217ee9076bda6bdfa044315e7b",
+    "configs/safety_first_ppo.yaml": "7c0fe2609e557cd6ac9cef54ffd05368ddbebb43aad4623c8bd63efd6b10f755",
+    "scripts/train_episode_rrt_ppo.py": "e13ac72765fa16acc4b8827d1bd70411ec1fcf0c10a7e44540073c194fc66376",
+    "scripts/select_safety_first_ppo.py": "7baf0649bc5b5940a30bada48781d50d32da13d1c2d00edbb82d3dda636e028a",
+    "scripts/demo_autonomous_ppo.py": "416946fce918796fdc0a49edb1e26772cfc708cf8cbb4fe15310741509b66e09",
+    "scripts/demo_episode_mixture.py": "b1fcb538d3cc0b63686f9afc8581968be7d38ca327c8804edb5fe26aea2ab7d6",
+    "src/wall_panel_rl/rl/episode_policy.py": "88ebde6d3889103bfe929f7392669259a792fd202d00807491529266d8413cc7",
+    "src/wall_panel_rl/rl/episode_imitation.py": "0b593e7673290babe7b6ac25ffd79e6c2fe9edeb92620213ecfc5581b9d8e518"
+  },
+  "formal_training_outputs_exist": false
+}

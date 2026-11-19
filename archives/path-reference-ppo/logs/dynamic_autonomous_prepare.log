@@ -1,0 +1,66 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "settings": {
+    "source": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+    "output": "models/dynamic_autonomous_pilot_seed61",
+    "data": "data/dynamic_autonomous_pilot_seed61",
+    "environment": "configs/ppo_dynamic_clean.yaml",
+    "release": "releases/path_reference_bc_20261025",
+    "seed": 61,
+    "additional_timesteps": 10000,
+    "workers": 4,
+    "n_steps": 250,
+    "batch_size": 100,
+    "n_epochs": 3,
+    "learning_rate": 0.0001,
+    "clip_range": 0.05,
+    "target_kl": 0.005,
+    "eval_every": 5000,
+    "residual_scale": 2.0,
+    "joint_margin": 0.01,
+    "progress_weight": 2.0,
+    "mixture": {
+      "alignment": 0.2,
+      "static": 0.3,
+      "dynamic": 0.5
+    },
+    "train_scenes": 128,
+    "train_start_seed": 500000,
+    "validation_scenes": 10,
+    "validation_start_seed": 610000
+  },
+  "source_steps": 5000,
+  "additional_steps": 10000,
+  "source_sha256": "6d44a37e5e778944b1e10622ed7ad2016678878f1f6f00a6922a456f01354e73",
+  "prior_and_critic_transferred": true,
+  "optimizer_reset_for_new_architecture": true,
+  "online_avoidance_planner": false,
+  "reference": "obstacle-free RRT only at scene generation",
+  "residual_initial_output": 0.0,
+  "actor_trainable": {
+    "residual.0.weight": 4928,
+    "residual.0.bias": 64,
+    "residual.2.weight": 4096,
+    "residual.2.bias": 64,
+    "residual.4.weight": 448,
+    "residual.4.bias": 7
+  },
+  "difficulty": "first 20% easy; ramp to full at 80%; final 20% full",
+  "mixture_unit": "episodes; alignment splits equally near/far",
+  "validation": "same frozen scenarios and obstacle-free reference for all methods",
+  "test_seeds_211000_211099_used": false,
+  "mode": "prepare"
+}
+prepared train 10
+prepared train 20
+prepared train 30
+prepared train 40
+prepared train 50
+prepared train 60
+prepared train 70
+prepared train 80
+prepared train 90
+prepared train 100
+prepared train 110
+prepared train 120
+prepared validation_full 10

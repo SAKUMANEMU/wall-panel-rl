@@ -1,0 +1,37 @@
+seed: 101
+source_model: results/diagnostics/four_dynamic_speed_v9_fast02_seed71/selected_model.zip
+source_report: results/diagnostics/four_dynamic_speed_v9_fast02_seed71
+preparation_report: results/diagnostics/four_staggered_dynamic_preparation_v11_seed91
+data_root: data/four_staggered_dynamic_v11_seed91
+report_root: results/diagnostics/four_dynamic_corrections_v12_seed101
+output_root: data/four_dynamic_corrections_v12_seed101
+workers: 4
+correction_episodes: 32
+maximum_attempts: 80
+handoff_leads:
+- 16
+- 8
+label_head_steps: 16
+anchor_stride: 3
+bc_report: results/diagnostics/four_dynamic_correction_bc_v12_seed101
+bc_models: models/four_dynamic_correction_bc_v12_seed101
+bc_learning_rates:
+- 1.0e-06
+- 3.0e-06
+bc_updates: 200
+bc_checkpoints:
+- 0
+- 1
+- 5
+- 10
+- 25
+- 50
+- 100
+- 200
+batch_size: 128
+anchor_weight: 5.0
+maximum_step_kl: 0.0005
+maximum_source_kl: 0.005
+ppo_steps_if_bc_improves: 2000
+ppo_report: results/diagnostics/four_dynamic_correction_ppo_v12_seed101
+ppo_models: models/four_dynamic_correction_ppo_v12_seed101

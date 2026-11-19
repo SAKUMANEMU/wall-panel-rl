@@ -1,0 +1,14 @@
+# Corrective run: zero inactive input columns and protect original one-static actor.
+base_config: configs/two_static_warmup.yaml
+teacher_root: data/two_static_warmup_v1_seed61/teacher
+teacher_replay: results/diagnostics/two_static_warmup_v1_seed61/teacher_replay.json
+validation_root: data/two_static_warmup_v1_seed61
+data_root: data/protected_two_static_v2_seed61
+model_root: models/protected_two_static_v2_seed61
+report_root: results/diagnostics/protected_two_static_v2_seed61
+fresh_seed_start: 1010000
+fresh_targets: 100
+maximum_generation_attempts: 300
+bc_updates: 2500
+bc_checkpoints: [500, 1000, 2500]
+ppo_steps: 10000

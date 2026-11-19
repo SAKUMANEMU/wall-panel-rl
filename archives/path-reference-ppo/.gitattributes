@@ -1,0 +1,2 @@
+# Python's CSV writer uses CRLF. Preserve experiment bytes and allow CR at EOL.
+*.csv -text whitespace=trailing-space,space-before-tab,cr-at-eol

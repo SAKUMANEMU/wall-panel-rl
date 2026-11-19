@@ -1,0 +1,21 @@
+source_report: data/static_expansion_v1_seed61/three_stage_source
+initial_model: results/diagnostics/episode_rrt_ppo_v1_seed61/selected_model.zip
+train_scenes: data/staged_avoidance_v3_seed61/one_static/train.json
+heldout_scenes: results/diagnostics/clearance_ppo_v3_seed61/collision_diagnosis.json
+validation_cases: data/static_expansion_v1_seed61/three_validation.json
+output_root: models/static_three_rrt_ppo_v1_seed61
+report_root: results/diagnostics/static_three_rrt_ppo_v1_seed61
+evaluation_output: results/diagnostics/static_expansion_v1_seed61/three_preflight_unused
+expert_probability: 0.5
+seed: 61
+ppo_steps: 10000
+ppo_eval_every: 5000
+ppo_learning_rate: 0.0001
+auxiliary_bc:
+  weight: 0.1
+  learning_rate: 1.0e-05
+  updates_per_rollout: 1
+  batch_size: 100
+  capacity: 50000
+  maximum_kl: 0.005
+  checkpoint_every: 5000

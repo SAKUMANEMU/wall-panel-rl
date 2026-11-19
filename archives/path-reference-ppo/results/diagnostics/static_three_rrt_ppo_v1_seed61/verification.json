@@ -1,0 +1,29 @@
+{
+  "source_file_unchanged": true,
+  "source_code_unchanged": true,
+  "export_hash_matches": true,
+  "exact_ppo_budget": true,
+  "frozen_prior_parameters_unchanged": true,
+  "rrt_step_accounting": true,
+  "pool_contains_successful_teacher_labels_only": true,
+  "auxiliary_update_accounting": true,
+  "distinct_checkpoints": true,
+  "selected_auxiliary_state_matches_model": true,
+  "selected_checkpoint_bc_updates": 0,
+  "selected_auxiliary_sha256": "42de813240b645a33ae5a65e71c3fad8189477a3b83738d5a0e5cf765f9ebeaa",
+  "stored_ppo_counters": {
+    "initial": 40000,
+    "selected": 40000,
+    "final": 50000
+  },
+  "successful_rrt_label_transitions": 5055,
+  "ppo_steps_in_incomplete_episodes": 190,
+  "ppo_recovery_events": {
+    "observed_transitions": 10000,
+    "recovery_attempt_events": 0,
+    "recovery_success_events": 0,
+    "stall_penalty_events": 0,
+    "stall_penalty_sum": 0.0,
+    "wall_penalty_sum": -84.25694139977972
+  }
+}

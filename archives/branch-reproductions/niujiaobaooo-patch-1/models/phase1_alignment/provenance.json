@@ -1,0 +1,9 @@
+{
+  "config": "configs/phase1_alignment.yaml",
+  "seed": 42,
+  "total_timesteps": 30000,
+  "run_name": "phase1_alignment",
+  "device": "cpu",
+  "render": false,
+  "resume": "models/phase1_precision/final_model.zip"
+}

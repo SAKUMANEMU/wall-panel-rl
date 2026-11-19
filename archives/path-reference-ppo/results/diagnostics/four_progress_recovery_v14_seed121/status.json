@@ -1,0 +1,137 @@
+{
+  "status": "completed",
+  "optimizer_updates": 0,
+  "static_episodes": 0,
+  "phase": "complete",
+  "updated_at": "2026-11-05T22:14:01.796971+08:00",
+  "processed": 100,
+  "total": 100,
+  "outcomes": {
+    "episodes": 100,
+    "success": 96,
+    "collision": 1,
+    "timeout": 3,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "summary": {
+    "validation_baseline": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 0,
+      "timeout": 8,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "validation_recovery": {
+      "episodes": 64,
+      "success": 62,
+      "collision": 0,
+      "timeout": 2,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "validation_mixture_baseline": {
+      "episodes": 64,
+      "success": 57,
+      "collision": 0,
+      "timeout": 5,
+      "joint_limit": 0,
+      "planning_failure": 2
+    },
+    "validation_mixture_recovery": {
+      "episodes": 64,
+      "success": 61,
+      "collision": 0,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 2
+    },
+    "training_baseline": {
+      "episodes": 24,
+      "success": 20,
+      "collision": 1,
+      "timeout": 3,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "training_recovery": {
+      "episodes": 24,
+      "success": 23,
+      "collision": 1,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "validation_gate_passed": true,
+    "independent_test": {
+      "performed": true,
+      "baseline": {
+        "episodes": 100,
+        "success": 76,
+        "collision": 3,
+        "timeout": 21,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "recovery": {
+        "episodes": 100,
+        "success": 96,
+        "collision": 1,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "paired": {
+        "success -> success": 76,
+        "timeout -> success": 18,
+        "collision -> collision": 1,
+        "collision -> success": 2,
+        "timeout -> timeout": 3
+      },
+      "old_successes_preserved": true,
+      "no_tuning_after_test": true
+    },
+    "old_successes_preserved": true,
+    "source_unchanged": true,
+    "optimizer_updates": 0,
+    "neural_weights_changed": false,
+    "pure_ppo": false,
+    "global_rrt_fallback": false,
+    "default_old_controller_preserved": true,
+    "real_step_limit": 240
+  },
+  "process_exited": true,
+  "verification": {
+    "archived_code_and_frozen_inputs_verified": true,
+    "model_unchanged": true,
+    "optimizer_updates": 0,
+    "static_episodes": 0,
+    "unchanged_real_step_limit": 240,
+    "old_validation_successes_unchanged": true,
+    "validation_paired": {
+      "success -> success": 56,
+      "timeout -> success": 6,
+      "timeout -> timeout": 2
+    },
+    "new_test_disjoint_from_all_previous_ids": true,
+    "old_test_successes_unchanged": true,
+    "no_tuning_after_test": true,
+    "validation_compute": {
+      "baseline_mean_wall_s": 8.030297277249986,
+      "recovery_mean_wall_s": 11.369239445953156,
+      "baseline_zero_waits": 1505,
+      "recovery_zero_waits": 950,
+      "local_recovery_actions": 289,
+      "forecast_cache_hits": 3
+    },
+    "independent_compute": {
+      "baseline_mean_wall_s": 9.454646045620011,
+      "recovery_mean_wall_s": 14.152297443040078,
+      "baseline_zero_waits": 2876,
+      "recovery_zero_waits": 1599,
+      "local_recovery_actions": 559,
+      "forecast_cache_hits": 7
+    }
+  }
+}

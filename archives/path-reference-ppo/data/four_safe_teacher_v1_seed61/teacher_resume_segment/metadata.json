@@ -1,0 +1,28 @@
+{
+  "requested_layouts": 12,
+  "episodes": 12,
+  "transitions": 751,
+  "attempts": 12,
+  "accepted_seeds": [
+    1020054,
+    1020055,
+    1020056,
+    1020057,
+    1020058,
+    1020059,
+    1020060,
+    1020061,
+    1020062,
+    1020063,
+    1020064,
+    1020065
+  ],
+  "unresolved_train_seeds": [],
+  "all_accepted_pre_and_post_verified": true,
+  "all_accepted_physically_successful": true,
+  "original_reference_preserved": true,
+  "one_route_per_layout": true,
+  "teacher_sha256": "a0537132dafe575063798c35f1f40735af4ac3cf3bda51cc19376edad9677750",
+  "ready_for_bc": true,
+  "training_steps": 0
+}

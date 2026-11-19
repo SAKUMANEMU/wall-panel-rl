@@ -1,0 +1,18 @@
+comparison_report: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_candidate_comparison_v3_seed61
+model: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/selected_model.zip
+parent_report: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61
+regression_banks:
+  previous_100: data/clearance_ppo_v3_seed61/independent_cases.json
+  recent_100: data/static_candidate_comparison_v3_seed61/fresh_cases.json
+report_root: /home/johnsonchen/wall-panel-rl/results/diagnostics/reference_handoff_ablation_v3_seed61
+validation_cases: data/staged_avoidance_v3_seed61/one_static/validation_staged.json
+variants:
+  baseline:
+    recovery_radius: 0.3
+    terminal_radius: 0.2
+  recovery_wider:
+    recovery_radius: 0.45
+    terminal_radius: 0.2
+  terminal_earlier:
+    recovery_radius: 0.3
+    terminal_radius: 0.4

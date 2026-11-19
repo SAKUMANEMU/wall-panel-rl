@@ -1,0 +1,69 @@
+{
+  "ppo_transitions": 10000,
+  "rrt_transitions": 10131,
+  "total_physics_transitions": 20131,
+  "episode_starts": {
+    "rrt": 149,
+    "ppo": 145
+  },
+  "completed_by_controller": {
+    "rrt": {
+      "success": 149
+    },
+    "ppo": {
+      "success": 57,
+      "collision": 73,
+      "timeout": 11
+    }
+  },
+  "selected": {
+    "ppo_steps": 0,
+    "ppo": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 8,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture": {
+      "episodes": 64,
+      "success": 60,
+      "collision": 4,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 24,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 36,
+        "collision": 4,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      56,
+      -8,
+      0
+    ]
+  },
+  "bc_auxiliary_updates": 10,
+  "bc_rejected_updates": 0,
+  "on_policy_data_separated": true,
+  "probability_not_quota": true,
+  "source_unchanged": true,
+  "independent_test": false,
+  "default_model_preserved": true
+}

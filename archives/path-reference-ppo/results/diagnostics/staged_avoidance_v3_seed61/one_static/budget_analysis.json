@@ -1,0 +1,697 @@
+{
+  "training_performed": false,
+  "model_sha256": "47dfbe75135a8041cd652143f118d5860c7edb73c1f2aa108b20df4033fe092c",
+  "teacher_forced_avoidance": {
+    "train": {
+      "episodes": [
+        0,
+        1,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        20,
+        21,
+        23,
+        26,
+        29,
+        33,
+        35,
+        38,
+        39,
+        40,
+        41,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        57,
+        59,
+        62,
+        64,
+        65,
+        67,
+        68,
+        69,
+        71,
+        72,
+        74,
+        75,
+        76,
+        77,
+        79,
+        80,
+        81,
+        86,
+        87,
+        88,
+        89,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "scene_count": 36,
+      "transitions": 3363,
+      "mse": 0.013602780178189278,
+      "rmse_action": 0.11663095653057098,
+      "mae_action": 0.0644693374633789,
+      "gate_mean": 0.03910452499985695,
+      "residual_mean_abs": 0.2587035894393921
+    },
+    "heldout": {
+      "episodes": [
+        6,
+        15,
+        18,
+        19,
+        22,
+        28,
+        30,
+        31,
+        32,
+        34,
+        37,
+        42,
+        56,
+        66,
+        70,
+        78,
+        83,
+        91
+      ],
+      "scene_count": 9,
+      "transitions": 987,
+      "mse": 0.016037607565522194,
+      "rmse_action": 0.12663967907428741,
+      "mae_action": 0.06966176629066467,
+      "gate_mean": 0.0385596789419651,
+      "residual_mean_abs": 0.25001537799835205
+    }
+  },
+  "closed_loop_on_collected_scenes": [
+    {
+      "split": "train",
+      "method": "stored_expert_actions",
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0
+    },
+    {
+      "split": "train",
+      "method": "bc_closed_loop",
+      "episodes": 10,
+      "success": 0,
+      "collision": 10,
+      "timeout": 0,
+      "joint_limit": 0
+    },
+    {
+      "split": "heldout",
+      "method": "stored_expert_actions",
+      "episodes": 9,
+      "success": 9,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0
+    },
+    {
+      "split": "heldout",
+      "method": "bc_closed_loop",
+      "episodes": 9,
+      "success": 0,
+      "collision": 9,
+      "timeout": 0,
+      "joint_limit": 0
+    }
+  ],
+  "episodes": [
+    {
+      "split": "train",
+      "episode": 0,
+      "seed": 800048,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 49,
+      "position_error_m": 0.0005094605526069091,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "train",
+      "episode": 0,
+      "seed": 800048,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 24,
+      "position_error_m": 1.2513048794731836,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.0006684015406722367
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "train",
+      "episode": 1,
+      "seed": 800049,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 49,
+      "position_error_m": 0.0005824206028788275,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "train",
+      "episode": 1,
+      "seed": 800049,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 24,
+      "position_error_m": 1.2925434515383434,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.0011041664910623234
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "train",
+      "episode": 5,
+      "seed": 800006,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 61,
+      "position_error_m": 0.0007358070011569274,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "train",
+      "episode": 5,
+      "seed": 800006,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 28,
+      "position_error_m": 1.2241565009627555,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.0011937758981668718
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "train",
+      "episode": 8,
+      "seed": 800005,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 48,
+      "position_error_m": 0.0010117703650680948,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "train",
+      "episode": 8,
+      "seed": 800005,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 25,
+      "position_error_m": 1.298239049955535,
+      "contacts": [],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "train",
+      "episode": 9,
+      "seed": 800009,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 62,
+      "position_error_m": 0.001071455281961337,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "train",
+      "episode": 9,
+      "seed": 800009,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 118,
+      "position_error_m": 1.6048318794492598,
+      "contacts": [
+        {
+          "body": "arm",
+          "other": "self",
+          "links": [
+            4,
+            6
+          ],
+          "distance": -0.0001457734038995272
+        },
+        {
+          "body": "arm",
+          "other": "self",
+          "links": [
+            6,
+            4
+          ],
+          "distance": -0.0001457734038995261
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "train",
+      "episode": 10,
+      "seed": 800026,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 58,
+      "position_error_m": 0.0005059982669459619,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "train",
+      "episode": 10,
+      "seed": 800026,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 25,
+      "position_error_m": 1.257566473509429,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.0005850160094642686
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "train",
+      "episode": 11,
+      "seed": 800036,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 47,
+      "position_error_m": 0.0014605296178497402,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "train",
+      "episode": 11,
+      "seed": 800036,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 23,
+      "position_error_m": 1.3003600395526622,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.00022807407893141022
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "train",
+      "episode": 12,
+      "seed": 800008,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 55,
+      "position_error_m": 0.0012995688876854144,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "train",
+      "episode": 12,
+      "seed": 800008,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 24,
+      "position_error_m": 1.2669295300337247,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.0005440519332114164
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "train",
+      "episode": 13,
+      "seed": 800011,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 58,
+      "position_error_m": 0.0005007522245112791,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "train",
+      "episode": 13,
+      "seed": 800011,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 28,
+      "position_error_m": 1.2345101397967648,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.0020099899170686053
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "train",
+      "episode": 14,
+      "seed": 800001,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 53,
+      "position_error_m": 0.0006843979076587473,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "train",
+      "episode": 14,
+      "seed": 800001,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 23,
+      "position_error_m": 1.2797996792684836,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.005258721677217634
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "heldout",
+      "episode": 6,
+      "seed": 800052,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 61,
+      "position_error_m": 0.00038771555812592147,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "heldout",
+      "episode": 6,
+      "seed": 800052,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 23,
+      "position_error_m": 1.2892708243214968,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.0046287427272961035
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "heldout",
+      "episode": 19,
+      "seed": 800055,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 52,
+      "position_error_m": 0.0005892840484316047,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "heldout",
+      "episode": 19,
+      "seed": 800055,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 24,
+      "position_error_m": 1.2955361854299483,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.0018876805586429779
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "heldout",
+      "episode": 22,
+      "seed": 800019,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 69,
+      "position_error_m": 0.0010622260631495614,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "heldout",
+      "episode": 22,
+      "seed": 800019,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 23,
+      "position_error_m": 1.2754287892808482,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.0030289710709501838
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "heldout",
+      "episode": 31,
+      "seed": 800045,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 51,
+      "position_error_m": 0.0007109309598109234,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "heldout",
+      "episode": 31,
+      "seed": 800045,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 23,
+      "position_error_m": 1.2849683830266097,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.004130697443725536
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "heldout",
+      "episode": 32,
+      "seed": 800022,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 54,
+      "position_error_m": 0.0004088497283863556,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "heldout",
+      "episode": 32,
+      "seed": 800022,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 23,
+      "position_error_m": 1.2704462151541778,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.00021908821796648025
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "heldout",
+      "episode": 34,
+      "seed": 800057,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 51,
+      "position_error_m": 0.0010665654610615286,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "heldout",
+      "episode": 34,
+      "seed": 800057,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 22,
+      "position_error_m": 1.2984815630601252,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.003432721445028284
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "heldout",
+      "episode": 37,
+      "seed": 800042,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 51,
+      "position_error_m": 0.0010414382586182945,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "heldout",
+      "episode": 37,
+      "seed": 800042,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 26,
+      "position_error_m": 1.3182485666472274,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.0004439582211251444
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "heldout",
+      "episode": 42,
+      "seed": 800010,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 61,
+      "position_error_m": 0.0009483554754765366,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "heldout",
+      "episode": 42,
+      "seed": 800010,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 22,
+      "position_error_m": 1.2784840001589246,
+      "contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_0",
+          "link": -1,
+          "distance": -0.0022721095478653495
+        }
+      ],
+      "replay_observation_max_error": null
+    },
+    {
+      "split": "heldout",
+      "episode": 66,
+      "seed": 800062,
+      "method": "stored_expert_actions",
+      "reason": "success",
+      "steps": 49,
+      "position_error_m": 0.0005428540488512342,
+      "contacts": [],
+      "replay_observation_max_error": 0.0
+    },
+    {
+      "split": "heldout",
+      "episode": 66,
+      "seed": 800062,
+      "method": "bc_closed_loop",
+      "reason": "collision",
+      "steps": 24,
+      "position_error_m": 1.2603112834443204,
+      "contacts": [],
+      "replay_observation_max_error": null
+    }
+  ]
+}

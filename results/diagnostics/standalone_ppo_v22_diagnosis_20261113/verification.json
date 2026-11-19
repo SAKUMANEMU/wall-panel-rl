@@ -1,0 +1,12 @@
+{
+  "frozen_inputs_unchanged": true,
+  "training_performed": false,
+  "interface_cases_checked": 4,
+  "rollouts": 372,
+  "no_obstacle_clearance_recorded_as_null": true,
+  "final_diagnostic_code_sha256": "f48ca88d4c4185aeb3738fd64d2eaa146ba59db9c945302f43a3a23d8f32d863",
+  "canonical_reference_replays": 144,
+  "canonical_replays_exactly_matched": true,
+  "paired_generator_probe_cases": 2,
+  "report_complete": true
+}

@@ -1,0 +1,2 @@
+pybullet build time: Jan 29 2025 23:17:20
+{"method": "RRT + BC waypoint tracking", "seed": 81009, "reason": "success", "steps": 56, "planning_seconds": 1.6164689360000466, "position_error_m": 0.0033308859773720696, "orientation_error_deg": 0.09352792962771048}

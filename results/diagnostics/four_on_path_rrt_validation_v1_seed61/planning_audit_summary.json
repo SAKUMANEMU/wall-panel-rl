@@ -1,0 +1,26 @@
+{
+  "primary_recheck_failures": [
+    {
+      "seed": 1018018,
+      "reason": "collision"
+    },
+    {
+      "seed": 1018025,
+      "reason": "collision"
+    },
+    {
+      "seed": 1018029,
+      "reason": "success"
+    },
+    {
+      "seed": 1018087,
+      "reason": "success"
+    }
+  ],
+  "primary_success_and_recheck_passed": 95,
+  "scenes_with_success_and_recheck_passed": 97,
+  "scenes_without_success_and_recheck_passed": [
+    1018029,
+    1018087
+  ]
+}

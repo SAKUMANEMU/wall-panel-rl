@@ -1,0 +1,104 @@
+[
+  {
+    "policy": "v21",
+    "recovery_variant": "original",
+    "metrics": {
+      "episodes": 32,
+      "success": 24,
+      "collision": 1,
+      "timeout": 7,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.75,
+      "mean_waiting_fraction": 0.15956945738289016,
+      "mean_stationary_fraction": 0.15956945738289016,
+      "timeout_mean_position_m": 0.7909709786554812,
+      "timeout_mean_orientation_deg": 68.56491506283825
+    }
+  },
+  {
+    "policy": "v21",
+    "recovery_variant": "early",
+    "metrics": {
+      "episodes": 32,
+      "success": 27,
+      "collision": 0,
+      "timeout": 5,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.84375,
+      "mean_waiting_fraction": 0.13599295930883953,
+      "mean_stationary_fraction": 0.13599295930883953,
+      "timeout_mean_position_m": 0.6855723636286853,
+      "timeout_mean_orientation_deg": 67.79026890567732
+    }
+  },
+  {
+    "policy": "v21",
+    "recovery_variant": "diverse",
+    "metrics": {
+      "episodes": 32,
+      "success": 32,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 1.0,
+      "mean_waiting_fraction": 0.060226977404541845,
+      "mean_stationary_fraction": 0.060226977404541845,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null
+    }
+  },
+  {
+    "policy": "v22",
+    "recovery_variant": "original",
+    "metrics": {
+      "episodes": 32,
+      "success": 26,
+      "collision": 0,
+      "timeout": 6,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.8125,
+      "mean_waiting_fraction": 0.13897632506756763,
+      "mean_stationary_fraction": 0.13897632506756763,
+      "timeout_mean_position_m": 0.6975898519899001,
+      "timeout_mean_orientation_deg": 68.52611161668678
+    }
+  },
+  {
+    "policy": "v22",
+    "recovery_variant": "early",
+    "metrics": {
+      "episodes": 32,
+      "success": 25,
+      "collision": 2,
+      "timeout": 5,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.78125,
+      "mean_waiting_fraction": 0.1174623542320994,
+      "mean_stationary_fraction": 0.1174623542320994,
+      "timeout_mean_position_m": 0.6536340661724698,
+      "timeout_mean_orientation_deg": 59.17907262804025
+    }
+  },
+  {
+    "policy": "v22",
+    "recovery_variant": "diverse",
+    "metrics": {
+      "episodes": 32,
+      "success": 31,
+      "collision": 0,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.96875,
+      "mean_waiting_fraction": 0.06180360016347322,
+      "mean_stationary_fraction": 0.06180360016347322,
+      "timeout_mean_position_m": 0.19304613342500251,
+      "timeout_mean_orientation_deg": 107.13226651501705
+    }
+  }
+]

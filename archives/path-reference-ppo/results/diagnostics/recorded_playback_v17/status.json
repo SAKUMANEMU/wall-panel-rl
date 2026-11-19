@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "updated_at": "2026-11-06T13:47:02.173404+08:00",
+  "process_exited": true,
+  "controller_or_model_changes": false,
+  "default_mode": "recorded",
+  "target_fps": 60,
+  "playback_speed": 0.6,
+  "tests_passed": 7,
+  "gui_all_frames_on_time": true,
+  "recording": "results/replays/vertical_1144004.json"
+}

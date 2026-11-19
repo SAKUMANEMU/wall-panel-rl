@@ -1,0 +1,24 @@
+# Code-only preparation: the entry point checks this file unless --train is given.
+environment_configs:
+  clean: configs/ppo_dynamic_clean.yaml
+  noise: configs/ppo_dynamic_noise.yaml
+source_models:
+  clean: models/dynamic70_study/ppo_clean/alignment_final_model.zip
+  noise: models/dynamic70_study/ppo_noise/alignment_final_model.zip
+train_scenes: models/dynamic70_study/scenes/train.json
+validation_scenes: models/dynamic70_study/scenes/validation.json
+output_root: models/dynamic70_mixed_pilot
+additional_timesteps: 50000
+seed: 42
+workers: 4
+n_steps: 250
+batch_size: 100
+eval_every: 10000
+# Probabilities per episode, not proportions of collected transitions.
+mixture:
+  alignment: 0.30
+  static: 0.30
+  dynamic: 0.40
+# Remaining fraction of the reference joint path. No goal-pose reset shortcut.
+alignment_remaining_fraction: [0.02, 0.15]
+validation_alignment_remaining_fraction: 0.10

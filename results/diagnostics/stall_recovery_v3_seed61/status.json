@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-30T13:44:49.347266+08:00",
+  "runner_pid": 8318,
+  "bc_budget": 10000,
+  "ppo_budget": 10000,
+  "phase": "complete",
+  "updated_at": "2026-10-30T13:51:58.492645+08:00",
+  "generated": 100,
+  "correction_successes": 40,
+  "correction_attempts": 40,
+  "bc_update": 10000,
+  "validation_target": {
+    "episodes": 20,
+    "success": 14,
+    "collision": 3,
+    "joint_limit": 0,
+    "timeout": 3,
+    "timeout_mean_position_m": 0.2582700081934266,
+    "timeout_mean_orientation_deg": 14.378679527998921,
+    "successful_mean_steps": 66.64285714285714,
+    "mean_reward": 251.34330026609877
+  },
+  "ppo_additional_steps": 10000,
+  "winner_locked": "ppo_stall",
+  "evaluated_model": "ppo_stall",
+  "independent_target": {
+    "episodes": 100,
+    "success": 78,
+    "collision": 13,
+    "joint_limit": 0,
+    "timeout": 9
+  },
+  "finished_at": "2026-10-30T13:51:58.492635+08:00"
+}

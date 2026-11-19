@@ -1,0 +1,47 @@
+[
+  {
+    "seed": 1070000,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "seed": 1070002,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "seed": 1070003,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "seed": 1070006,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "seed": 1070008,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "seed": 1070009,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "seed": 1070011,
+    "stage": "nominal_reference",
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "seed": 1070012,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "seed": 1070013,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  }
+]

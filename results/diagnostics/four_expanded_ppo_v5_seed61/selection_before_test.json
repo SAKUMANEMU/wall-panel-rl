@@ -1,0 +1,28 @@
+{
+  "additional_ppo_steps": 10000,
+  "new_validation": {
+    "episodes": 64,
+    "success": 56,
+    "collision": 8,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "old_validation": {
+    "episodes": 32,
+    "success": 23,
+    "collision": 9,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "score": [
+    1,
+    56,
+    -8,
+    0,
+    23,
+    -9
+  ],
+  "sha256": "7194d7515ffe59e3b6d60562b0ebd7e38d6f3cd52ed35a67c7b624c23891e0e1"
+}

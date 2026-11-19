@@ -1,0 +1,26 @@
+{
+  "source_unchanged": true,
+  "archived_code_and_input_hashes_verified": true,
+  "train_evaluation_disjoint": true,
+  "verified_teacher_episodes": 58,
+  "all_accepted_teachers_physically_replayed": true,
+  "initial_expert_pairs": 4267,
+  "final_expert_pairs": 8558,
+  "ppo_completed_episode_steps": 4742,
+  "ppo_unfinished_episode_steps": 258,
+  "paired_mixture_cache_verified": true,
+  "fixed_target_motion_verified": true,
+  "selected_equals_source": false,
+  "independent_test_performed": true,
+  "selected_auxiliary_state_counter_matches": true,
+  "selected_auxiliary_state": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/models/four_large_motion_ppo_v10_seed81/selected_auxiliary_state.pt",
+  "validation_paired_outcomes": {
+    "success -> success": 54,
+    "collision -> collision": 9,
+    "collision -> success": 1
+  },
+  "rescued_validation_seeds": [
+    1102062
+  ],
+  "lost_validation_success_seeds": []
+}

@@ -1,0 +1,180 @@
+{
+  "winner_by_original_validation": "targeted_mix",
+  "selected": {
+    "original_only": {
+      "selected_additional_updates": 0,
+      "selected_cumulative_bc_updates": 10000,
+      "validation": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 44.7,
+          "mean_reward": 323.6269572600657
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 8.4,
+          "mean_reward": 160.82514630407536
+        },
+        "five_full_diagnostic": {
+          "episodes": 10,
+          "success": 0,
+          "collision": 10,
+          "joint_limit": 0,
+          "timeout": 0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": null,
+          "mean_reward": -14.69797915399713
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 10,
+          "collision": 9,
+          "joint_limit": 0,
+          "timeout": 1,
+          "timeout_mean_position_m": 1.5109055477582276,
+          "timeout_mean_orientation_deg": 179.75452946702484,
+          "successful_mean_steps": 53.1,
+          "mean_reward": 166.16098874995296
+        }
+      },
+      "passed_bc_gate": false
+    },
+    "targeted_mix": {
+      "selected_additional_updates": 10000,
+      "selected_cumulative_bc_updates": 20000,
+      "validation": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 44.7,
+          "mean_reward": 323.6269572600657
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": 8.4,
+          "mean_reward": 160.82514630407536
+        },
+        "five_full_diagnostic": {
+          "episodes": 10,
+          "success": 0,
+          "collision": 10,
+          "joint_limit": 0,
+          "timeout": 0,
+          "timeout_mean_position_m": null,
+          "timeout_mean_orientation_deg": null,
+          "successful_mean_steps": null,
+          "mean_reward": 11.282372025469257
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 13,
+          "collision": 2,
+          "joint_limit": 0,
+          "timeout": 5,
+          "timeout_mean_position_m": 0.27417970143319287,
+          "timeout_mean_orientation_deg": 65.02447964964355,
+          "successful_mean_steps": 65.07692307692308,
+          "mean_reward": 243.49765479231806
+        }
+      },
+      "passed_bc_gate": true
+    }
+  },
+  "independent": {
+    "baseline": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "joint_limit": 0,
+        "timeout": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "joint_limit": 0,
+        "timeout": 0
+      },
+      "stage_target": {
+        "episodes": 100,
+        "success": 36,
+        "collision": 61,
+        "joint_limit": 1,
+        "timeout": 2
+      }
+    },
+    "original_only": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "joint_limit": 0,
+        "timeout": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "joint_limit": 0,
+        "timeout": 0
+      },
+      "stage_target": {
+        "episodes": 100,
+        "success": 36,
+        "collision": 61,
+        "joint_limit": 1,
+        "timeout": 2
+      }
+    },
+    "targeted_mix": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "joint_limit": 0,
+        "timeout": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "joint_limit": 0,
+        "timeout": 0
+      },
+      "stage_target": {
+        "episodes": 100,
+        "success": 60,
+        "collision": 13,
+        "joint_limit": 0,
+        "timeout": 27
+      }
+    }
+  },
+  "ppo_environment_steps": 0,
+  "export_sha256": "c7466d30b17cfe403797769601705536e1005362af9601a05cef25076bd49967"
+}

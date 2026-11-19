@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "updated_at": "2026-11-06T13:32:03.738419+08:00",
+  "O2_z_offset_m": -0.05,
+  "source_model_weights_unchanged": true,
+  "model_sha256": "f059554915581537e35b57f7226346577ea4bfbc99cb1db0946b75ae2c539aba",
+  "no_training": true,
+  "all_3_selected_examples_successful": true,
+  "scope": "Selected demonstration regression checks, not an independent success-rate test",
+  "rows": [
+    {
+      "seed": 1144002,
+      "reason": "success",
+      "steps": 134,
+      "position_m": 0.00036716302556301475,
+      "orientation_deg": 0.026161927175233315
+    },
+    {
+      "seed": 1144004,
+      "reason": "success",
+      "steps": 118,
+      "position_m": 0.00018862838187899155,
+      "orientation_deg": 0.016500505713235393
+    },
+    {
+      "seed": 1144008,
+      "reason": "success",
+      "steps": 201,
+      "position_m": 0.0005326177003394801,
+      "orientation_deg": 0.047224774150836625
+    }
+  ],
+  "saved_scene_adjustment_idempotent": true
+}

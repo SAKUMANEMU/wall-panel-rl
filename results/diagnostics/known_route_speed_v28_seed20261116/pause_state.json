@@ -1,0 +1,104 @@
+{
+  "status": "resumed_from_checkpoint",
+  "requested_by": "user",
+  "paused_at": "2026-11-16T15:00:02.355150+08:00",
+  "method": "SIGSTOP_process_group",
+  "pgid": 4964,
+  "pid": 4964,
+  "members": [
+    {
+      "pid": 4964,
+      "state": "T",
+      "start_ticks": "128918"
+    },
+    {
+      "pid": 5148,
+      "state": "T",
+      "start_ticks": "185776"
+    },
+    {
+      "pid": 5164,
+      "state": "T",
+      "start_ticks": "185883"
+    },
+    {
+      "pid": 5165,
+      "state": "T",
+      "start_ticks": "185883"
+    },
+    {
+      "pid": 5168,
+      "state": "T",
+      "start_ticks": "185883"
+    },
+    {
+      "pid": 7973,
+      "state": "T",
+      "start_ticks": "626093"
+    },
+    {
+      "pid": 7976,
+      "state": "T",
+      "start_ticks": "626202"
+    }
+  ],
+  "original_status_files": {
+    "pipeline_status.json": {
+      "status": "running",
+      "phase": "train_and_evaluate",
+      "pid": 4964,
+      "updated_at": "2026-11-16T13:34:59.586959+08:00",
+      "child_pid": 5148
+    },
+    "training/status.json": {
+      "status": "running",
+      "pid": 5148,
+      "started_at": "2026-11-16T13:35:00.620254+08:00",
+      "phase": "evaluate_ppo_8192",
+      "updated_at": "2026-11-16T14:58:58.054047+08:00",
+      "evaluation_completed": 9,
+      "evaluation_planned": 16,
+      "teacher_completed": 4,
+      "teacher_planned": 4,
+      "successful_teacher_episodes": 3,
+      "teacher_transitions": 548,
+      "bc_updates": 1000,
+      "bc_updates_planned": 1000,
+      "bc_loss": 0.009462407790124416,
+      "ppo_steps_completed": 8192,
+      "ppo_steps_planned": 65536,
+      "ppo_episodes": 79,
+      "training_counts": {
+        "2": {
+          "success": 0,
+          "collision": 18,
+          "timeout": 1,
+          "joint_limit": 0
+        },
+        "3": {
+          "success": 0,
+          "collision": 12,
+          "timeout": 4,
+          "joint_limit": 0
+        },
+        "4": {
+          "success": 0,
+          "collision": 16,
+          "timeout": 4,
+          "joint_limit": 0
+        },
+        "5": {
+          "success": 0,
+          "collision": 18,
+          "timeout": 6,
+          "joint_limit": 0
+        }
+      }
+    }
+  },
+  "ppo_checkpoint": "/home/johnsonchen/wall-panel-rl/results/diagnostics/known_route_speed_v28_seed20261116/training/models/ppo_8192.zip",
+  "checkpoint_exists": true,
+  "resumed_at": "2026-11-16T16:09:40.684838+08:00",
+  "resume_pid": 4459,
+  "original_processes_unavailable": true
+}

@@ -1,0 +1,348 @@
+{
+  "metrics": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 8,
+      "collision": 1,
+      "joint_limit": 0,
+      "timeout": 1
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0
+    },
+    "stage_target": {
+      "episodes": 20,
+      "success": 2,
+      "collision": 18,
+      "joint_limit": 0,
+      "timeout": 0
+    }
+  },
+  "rows": [
+    {
+      "suite": "stage_target",
+      "seed": 900000,
+      "reason": "success",
+      "steps": 66,
+      "position_m": 0.00040644221141202235,
+      "orientation_deg": 0.03312535235903869
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900001,
+      "reason": "collision",
+      "steps": 61,
+      "position_m": 0.2764965545809299,
+      "orientation_deg": 17.01932844765921
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900002,
+      "reason": "collision",
+      "steps": 57,
+      "position_m": 0.3613412420772436,
+      "orientation_deg": 35.414105893294455
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900003,
+      "reason": "success",
+      "steps": 58,
+      "position_m": 0.00014590795380927543,
+      "orientation_deg": 0.014511340386020895
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900004,
+      "reason": "collision",
+      "steps": 58,
+      "position_m": 0.3082600688003221,
+      "orientation_deg": 19.508825789434344
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900005,
+      "reason": "collision",
+      "steps": 59,
+      "position_m": 0.24920273142682955,
+      "orientation_deg": 14.625685657730243
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900006,
+      "reason": "collision",
+      "steps": 65,
+      "position_m": 0.3236378921796248,
+      "orientation_deg": 20.401677087345035
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900007,
+      "reason": "collision",
+      "steps": 55,
+      "position_m": 0.2990901805682166,
+      "orientation_deg": 17.926292608418105
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900008,
+      "reason": "collision",
+      "steps": 56,
+      "position_m": 0.3202868274748957,
+      "orientation_deg": 20.52578203008959
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900009,
+      "reason": "collision",
+      "steps": 65,
+      "position_m": 0.26098707869574833,
+      "orientation_deg": 15.320817746495923
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900010,
+      "reason": "collision",
+      "steps": 65,
+      "position_m": 0.26660846783262815,
+      "orientation_deg": 15.889671852875942
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900011,
+      "reason": "collision",
+      "steps": 61,
+      "position_m": 0.2452976145279801,
+      "orientation_deg": 14.16071889112723
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900012,
+      "reason": "collision",
+      "steps": 55,
+      "position_m": 0.2962531371652106,
+      "orientation_deg": 18.390769797595887
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900013,
+      "reason": "collision",
+      "steps": 75,
+      "position_m": 0.25611495240755355,
+      "orientation_deg": 13.417624956008977
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900014,
+      "reason": "collision",
+      "steps": 59,
+      "position_m": 0.28950532368539117,
+      "orientation_deg": 18.094811557997524
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900015,
+      "reason": "collision",
+      "steps": 41,
+      "position_m": 0.5096851229896636,
+      "orientation_deg": 67.79469904550731
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900016,
+      "reason": "collision",
+      "steps": 58,
+      "position_m": 0.3019418738350256,
+      "orientation_deg": 19.23426923112286
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900017,
+      "reason": "collision",
+      "steps": 67,
+      "position_m": 0.2404868236538051,
+      "orientation_deg": 12.88916161508873
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900018,
+      "reason": "collision",
+      "steps": 60,
+      "position_m": 0.25731426500687204,
+      "orientation_deg": 14.540625132336347
+    },
+    {
+      "suite": "stage_target",
+      "seed": 900019,
+      "reason": "collision",
+      "steps": 57,
+      "position_m": 0.2847738341442539,
+      "orientation_deg": 17.37691575665838
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101000,
+      "reason": "success",
+      "steps": 42,
+      "position_m": 0.000508268809294195,
+      "orientation_deg": 0.03594086891386337
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101001,
+      "reason": "success",
+      "steps": 45,
+      "position_m": 0.00031912896882559387,
+      "orientation_deg": 0.022911459210329003
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101002,
+      "reason": "success",
+      "steps": 42,
+      "position_m": 0.003078644172740458,
+      "orientation_deg": 0.28584882112290455
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101003,
+      "reason": "success",
+      "steps": 47,
+      "position_m": 0.00016156444689296263,
+      "orientation_deg": 0.012188724477765133
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101004,
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.19071047900860785,
+      "orientation_deg": 20.933550555621228
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101005,
+      "reason": "success",
+      "steps": 44,
+      "position_m": 0.008910340405067512,
+      "orientation_deg": 0.647923221077303
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101006,
+      "reason": "success",
+      "steps": 43,
+      "position_m": 0.0011804288352906382,
+      "orientation_deg": 0.07827597232703222
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101007,
+      "reason": "success",
+      "steps": 44,
+      "position_m": 0.004787247114356038,
+      "orientation_deg": 0.4127770761667688
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101008,
+      "reason": "collision",
+      "steps": 41,
+      "position_m": 0.19387896867878282,
+      "orientation_deg": 14.975826083455656
+    },
+    {
+      "suite": "alignment_far",
+      "seed": 101009,
+      "reason": "success",
+      "steps": 42,
+      "position_m": 0.0008046498886613463,
+      "orientation_deg": 0.05957752966671132
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102000,
+      "reason": "success",
+      "steps": 9,
+      "position_m": 0.00018285483336376884,
+      "orientation_deg": 0.012772316450093517
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102001,
+      "reason": "success",
+      "steps": 7,
+      "position_m": 0.0038285192646464,
+      "orientation_deg": 0.28621634210179353
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102002,
+      "reason": "success",
+      "steps": 6,
+      "position_m": 0.007375653349699438,
+      "orientation_deg": 0.5403357955652426
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102003,
+      "reason": "success",
+      "steps": 9,
+      "position_m": 0.00903217166279652,
+      "orientation_deg": 0.6401812087008125
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102004,
+      "reason": "success",
+      "steps": 9,
+      "position_m": 0.0006665938026849119,
+      "orientation_deg": 0.04564896986309483
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102005,
+      "reason": "success",
+      "steps": 7,
+      "position_m": 0.009591741191036427,
+      "orientation_deg": 0.6753689715778473
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102006,
+      "reason": "success",
+      "steps": 7,
+      "position_m": 0.004414489572809827,
+      "orientation_deg": 0.3177320512854141
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102007,
+      "reason": "success",
+      "steps": 9,
+      "position_m": 0.00128503242169975,
+      "orientation_deg": 0.08767677810663956
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102008,
+      "reason": "success",
+      "steps": 9,
+      "position_m": 0.0011478905656579956,
+      "orientation_deg": 0.0780673678587353
+    },
+    {
+      "suite": "alignment_near",
+      "seed": 102009,
+      "reason": "success",
+      "steps": 9,
+      "position_m": 0.0008124982422124941,
+      "orientation_deg": 0.056068769722143585
+    }
+  ],
+  "used_for_selection": false
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "four_predictive_safety_v13_seed111",
+  "used_at": "2026-11-05T21:25:48.068183+08:00",
+  "test_cases_sha256": "db2682a2ac9099a89893429f19352f6a464077320e6ee9a6a3fa6bd1f357d148",
+  "purpose": "Locked source PPO versus PPO + predictive safety paired evaluation",
+  "no_tuning_after_test": true,
+  "must_not_be_relabelled_as_fresh_test_for_later_models": true
+}

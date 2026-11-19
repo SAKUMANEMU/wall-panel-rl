@@ -1,0 +1,513 @@
+{
+  "episodes": 100,
+  "transitions": {
+    "success -> success": 86,
+    "timeout -> timeout": 4,
+    "collision -> collision": 3,
+    "success -> timeout": 4,
+    "collision -> timeout": 1,
+    "collision -> success": 2
+  },
+  "rows": [
+    {
+      "seed": 1002000,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002001,
+      "retained": "timeout",
+      "candidate": "timeout"
+    },
+    {
+      "seed": 1002002,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002003,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002004,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002005,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002006,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002007,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002008,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002009,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002010,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002011,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002012,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002013,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002014,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002015,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002016,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002017,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002018,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002019,
+      "retained": "timeout",
+      "candidate": "timeout"
+    },
+    {
+      "seed": 1002020,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002021,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002022,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002023,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002024,
+      "retained": "collision",
+      "candidate": "collision"
+    },
+    {
+      "seed": 1002025,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002026,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002027,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002028,
+      "retained": "success",
+      "candidate": "timeout"
+    },
+    {
+      "seed": 1002029,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002030,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002031,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002032,
+      "retained": "collision",
+      "candidate": "timeout"
+    },
+    {
+      "seed": 1002033,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002034,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002035,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002036,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002037,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002038,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002039,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002040,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002041,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002042,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002043,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002044,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002045,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002046,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002047,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002048,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002049,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002050,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002051,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002052,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002053,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002054,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002055,
+      "retained": "collision",
+      "candidate": "collision"
+    },
+    {
+      "seed": 1002056,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002057,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002058,
+      "retained": "collision",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002059,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002060,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002061,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002062,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002063,
+      "retained": "timeout",
+      "candidate": "timeout"
+    },
+    {
+      "seed": 1002064,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002065,
+      "retained": "collision",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002066,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002067,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002068,
+      "retained": "success",
+      "candidate": "timeout"
+    },
+    {
+      "seed": 1002069,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002070,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002071,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002072,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002073,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002074,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002075,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002076,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002077,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002078,
+      "retained": "success",
+      "candidate": "timeout"
+    },
+    {
+      "seed": 1002079,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002080,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002081,
+      "retained": "collision",
+      "candidate": "collision"
+    },
+    {
+      "seed": 1002082,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002083,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002084,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002085,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002086,
+      "retained": "success",
+      "candidate": "timeout"
+    },
+    {
+      "seed": 1002087,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002088,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002089,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002090,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002091,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002092,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002093,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002094,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002095,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002096,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002097,
+      "retained": "success",
+      "candidate": "success"
+    },
+    {
+      "seed": 1002098,
+      "retained": "timeout",
+      "candidate": "timeout"
+    },
+    {
+      "seed": 1002099,
+      "retained": "success",
+      "candidate": "success"
+    }
+  ]
+}

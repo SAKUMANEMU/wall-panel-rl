@@ -1,0 +1,62 @@
+[
+  {
+    "seed": 1032019,
+    "step": 155,
+    "actual_cursor_path_points": 45,
+    "index": 3,
+    "nearest_forward_segment_offset": 41,
+    "nearest_forward_segment_distance_rad": 0.5881385642542546,
+    "current_segment_distance_rad": 3.183629423581937,
+    "extended_radius_rad": 0.45
+  },
+  {
+    "seed": 1032019,
+    "step": 175,
+    "actual_cursor_path_points": 45,
+    "index": 3,
+    "nearest_forward_segment_offset": 41,
+    "nearest_forward_segment_distance_rad": 0.5873461872439494,
+    "current_segment_distance_rad": 3.184660807380377,
+    "extended_radius_rad": 0.45
+  },
+  {
+    "seed": 1032019,
+    "step": 195,
+    "actual_cursor_path_points": 45,
+    "index": 3,
+    "nearest_forward_segment_offset": 41,
+    "nearest_forward_segment_distance_rad": 0.5869801525127869,
+    "current_segment_distance_rad": 3.1854915218054587,
+    "extended_radius_rad": 0.45
+  },
+  {
+    "seed": 1032057,
+    "step": 156,
+    "actual_cursor_path_points": 47,
+    "index": 5,
+    "nearest_forward_segment_offset": 41,
+    "nearest_forward_segment_distance_rad": 0.6490539609435627,
+    "current_segment_distance_rad": 3.1085892745178625,
+    "extended_radius_rad": 0.45
+  },
+  {
+    "seed": 1032057,
+    "step": 176,
+    "actual_cursor_path_points": 47,
+    "index": 5,
+    "nearest_forward_segment_offset": 41,
+    "nearest_forward_segment_distance_rad": 0.6492032769734185,
+    "current_segment_distance_rad": 3.110141315860124,
+    "extended_radius_rad": 0.45
+  },
+  {
+    "seed": 1032057,
+    "step": 196,
+    "actual_cursor_path_points": 47,
+    "index": 5,
+    "nearest_forward_segment_offset": 41,
+    "nearest_forward_segment_distance_rad": 0.6493549698834058,
+    "current_segment_distance_rad": 3.1112242144663296,
+    "extended_radius_rad": 0.45
+  }
+]

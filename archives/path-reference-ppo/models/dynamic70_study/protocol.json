@@ -1,0 +1,24 @@
+{
+  "training_seed": 42,
+  "pilot_steps": 50000,
+  "steps_per_condition": 1000000,
+  "phases": {
+    "alignment": 200000,
+    "static": 200000,
+    "dynamic": 600000
+  },
+  "train_scenes": 128,
+  "validation_scenes": 10,
+  "test_scenes": 100,
+  "noise": {
+    "position_std": 0.005,
+    "orientation_std_deg": 0.5
+  },
+  "selection": "Validation success rate, then mean reward; only final dynamic-phase checkpoints",
+  "observation": "70; each obstacle: relative position(3), size(3), world velocity(3), presence(1)",
+  "rollout_steps_per_worker": 250,
+  "workers": 4,
+  "batch_size": 100,
+  "device": "cpu",
+  "torch_threads": 1
+}

@@ -1,0 +1,26 @@
+{
+  "trajectory_frames": 240,
+  "exact_trajectory_match": true,
+  "result": {
+    "seed": 1166026,
+    "controller": "enhanced",
+    "reason": "success",
+    "steps": 239,
+    "position_m": 0.001167060353012071,
+    "orientation_deg": 0.09415794542244889,
+    "reward": 263.5921896760332,
+    "zero_command_steps": 134,
+    "stationary_steps": 134,
+    "wall_seconds": 58.15820736100068,
+    "physics_elapsed_s": 11.949999999999642,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "reference_preserved": true,
+    "local_rescues": 3,
+    "recovery_actions": 76,
+    "passage_count": 3,
+    "success_with_weaving": true
+  },
+  "checkpoint_sha256": "f059554915581537e35b57f7226346577ea4bfbc99cb1db0946b75ae2c539aba",
+  "source_model_unchanged": true
+}

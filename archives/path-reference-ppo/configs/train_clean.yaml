@@ -1,0 +1,5 @@
+extends: base.yaml
+obstacles:
+  stage: C
+robot:
+  near_start_probability: 0.25

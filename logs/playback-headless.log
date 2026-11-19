@@ -1,0 +1,47 @@
+pybullet build time: Jan 29 2025 23:17:20
+Scenario seed: 10002
+GUI playback speed: 0.6x
+Initial distance: 0.941 m; obstacles: 3
+step=1 position=0.9253 m orientation=69.35 deg collision=False success=False
+step=2 position=0.9097 m orientation=67.39 deg collision=False success=False
+step=3 position=0.8948 m orientation=65.61 deg collision=False success=False
+step=4 position=0.8807 m orientation=64.05 deg collision=False success=False
+step=5 position=0.8677 m orientation=62.73 deg collision=False success=False
+step=6 position=0.8557 m orientation=61.67 deg collision=False success=False
+step=7 position=0.8163 m orientation=58.55 deg collision=False success=False
+step=8 position=0.7768 m orientation=55.48 deg collision=False success=False
+step=9 position=0.7387 m orientation=52.58 deg collision=False success=False
+step=10 position=0.7024 m orientation=49.87 deg collision=False success=False
+step=11 position=0.6683 m orientation=47.39 deg collision=False success=False
+step=12 position=0.6370 m orientation=45.18 deg collision=False success=False
+step=13 position=0.6091 m orientation=43.28 deg collision=False success=False
+step=14 position=0.5731 m orientation=41.08 deg collision=False success=False
+step=15 position=0.5378 m orientation=39.02 deg collision=False success=False
+step=16 position=0.5039 m orientation=37.14 deg collision=False success=False
+step=17 position=0.4718 m orientation=35.46 deg collision=False success=False
+step=18 position=0.4222 m orientation=31.91 deg collision=False success=False
+step=19 position=0.3714 m orientation=28.23 deg collision=False success=False
+step=20 position=0.3199 m orientation=24.45 deg collision=False success=False
+step=21 position=0.2677 m orientation=20.59 deg collision=False success=False
+step=22 position=0.2150 m orientation=16.63 deg collision=False success=False
+step=23 position=0.1619 m orientation=12.60 deg collision=False success=False
+step=24 position=0.1085 m orientation=8.49 deg collision=False success=False
+step=25 position=0.0549 m orientation=4.31 deg collision=False success=False
+step=26 position=0.0018 m orientation=0.07 deg collision=False success=True
+{
+  "seed": 10002,
+  "success": true,
+  "collision": false,
+  "joint_limit_violation": false,
+  "planning_success": true,
+  "ik_success": true,
+  "position_error_m": 0.0017530795519946126,
+  "orientation_error_deg": 0.0688616215587957,
+  "steps": 26,
+  "joint_path_length_rad": 1.792832424179819,
+  "cartesian_path_length_m": 1.2327343462310782,
+  "planning_time_s": 0.4972938979999526,
+  "execution_time_s": 0.08850852299974576,
+  "simulated_time_s": 1.3,
+  "cumulative_reward": 207.24549408938148
+}

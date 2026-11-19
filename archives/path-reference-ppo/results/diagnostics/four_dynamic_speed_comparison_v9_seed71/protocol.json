@@ -1,0 +1,161 @@
+{
+  "comparison": {
+    "arms": [
+      "configs/four_dynamic_speed_slow01.yaml",
+      "configs/four_dynamic_speed_fast02.yaml"
+    ],
+    "report_root": "results/diagnostics/four_dynamic_speed_comparison_v9_seed71",
+    "static_probability": 0.1,
+    "expected_source_added_ppo_steps": 2000,
+    "validation_only": true
+  },
+  "arm_specs": [
+    {
+      "source_report": "results/diagnostics/four_dynamic_ppo_v8_seed61",
+      "source_model": "results/diagnostics/four_dynamic_ppo_v8_seed61/selected_model.zip",
+      "source_data": "data/four_expanded_v5_seed61",
+      "motion_profile": "configs/four_slow_dynamic.yaml",
+      "data_root": "data/four_dynamic_v8_seed61",
+      "model_root": "models/four_dynamic_speed_v9_slow01_seed71",
+      "report_root": "results/diagnostics/four_dynamic_speed_v9_slow01_seed71",
+      "preparation_report": "results/diagnostics/four_dynamic_preparation_v8_seed61",
+      "seed": 71,
+      "train_count": 192,
+      "validation_count": 64,
+      "test_count": 0,
+      "new_train_seed": 1050000,
+      "validation_seed": 1062000,
+      "test_seed": 1064000,
+      "preparation_workers": 4,
+      "expert_probability": 0.5,
+      "static_probability": 0.1,
+      "curriculum_speeds": [
+        0.01
+      ],
+      "steps": 2000,
+      "evaluate_every": 1000,
+      "workers": 4,
+      "n_steps": 250,
+      "batch_size": 100,
+      "n_epochs": 3,
+      "learning_rate": 3e-06,
+      "clip_range": 0.05,
+      "target_kl": 0.005,
+      "vf_coef": 0.1,
+      "reward_scale": 0.01,
+      "hard_training_fraction": 0.25,
+      "independent_test_only_on_validation_improvement": true,
+      "auxiliary_bc": {
+        "weight": 0.05,
+        "learning_rate": 1e-06,
+        "updates_per_rollout": 1,
+        "batch_size": 64,
+        "capacity": 50000,
+        "maximum_kl": 0.003,
+        "checkpoint_every": 1000
+      },
+      "resume_auxiliary_state": "models/four_dynamic_ppo_v8_seed61/auxiliary_bc/aux_2000.pt",
+      "validation_expert_cache": "results/diagnostics/four_dynamic_ppo_v8_seed61/validation_expert_cache.json",
+      "evaluation_seed": 61,
+      "validation_target_speed": 0.02,
+      "run_independent_test": false,
+      "comparison_arm": "slow01",
+      "initial_source_added_ppo_steps": 2000
+    },
+    {
+      "source_report": "results/diagnostics/four_dynamic_ppo_v8_seed61",
+      "source_model": "results/diagnostics/four_dynamic_ppo_v8_seed61/selected_model.zip",
+      "source_data": "data/four_expanded_v5_seed61",
+      "motion_profile": "configs/four_slow_dynamic.yaml",
+      "data_root": "data/four_dynamic_v8_seed61",
+      "model_root": "models/four_dynamic_speed_v9_fast02_seed71",
+      "report_root": "results/diagnostics/four_dynamic_speed_v9_fast02_seed71",
+      "preparation_report": "results/diagnostics/four_dynamic_preparation_v8_seed61",
+      "seed": 71,
+      "train_count": 192,
+      "validation_count": 64,
+      "test_count": 0,
+      "new_train_seed": 1050000,
+      "validation_seed": 1062000,
+      "test_seed": 1064000,
+      "preparation_workers": 4,
+      "expert_probability": 0.5,
+      "static_probability": 0.1,
+      "curriculum_speeds": [
+        0.02
+      ],
+      "steps": 2000,
+      "evaluate_every": 1000,
+      "workers": 4,
+      "n_steps": 250,
+      "batch_size": 100,
+      "n_epochs": 3,
+      "learning_rate": 3e-06,
+      "clip_range": 0.05,
+      "target_kl": 0.005,
+      "vf_coef": 0.1,
+      "reward_scale": 0.01,
+      "hard_training_fraction": 0.25,
+      "independent_test_only_on_validation_improvement": true,
+      "auxiliary_bc": {
+        "weight": 0.05,
+        "learning_rate": 1e-06,
+        "updates_per_rollout": 1,
+        "batch_size": 64,
+        "capacity": 50000,
+        "maximum_kl": 0.003,
+        "checkpoint_every": 1000
+      },
+      "resume_auxiliary_state": "models/four_dynamic_ppo_v8_seed61/auxiliary_bc/aux_2000.pt",
+      "validation_expert_cache": "results/diagnostics/four_dynamic_ppo_v8_seed61/validation_expert_cache.json",
+      "evaluation_seed": 61,
+      "validation_target_speed": 0.02,
+      "run_independent_test": false,
+      "comparison_arm": "fast02",
+      "initial_source_added_ppo_steps": 2000
+    }
+  ],
+  "source": {
+    "source_model_sha256": "3db6ed2ff1211381ee5ad2bbe983a65f4313ef793daa25a0a8043c71f67da14d",
+    "source_aux_sha256": "605099ca554e14f27c82913f246fab9de04c06c5e87d81ad4f32f3cf5906e999",
+    "ppo_counter": 62000,
+    "ppo_updates": 66,
+    "ppo_optimizer_sha256": "60ef7c5a6c22ac056d8f210ebb3d4e2877ae3ed7db88472dc78320fc31a1955a",
+    "bc_optimizer_sha256": "e9abc95a04ae60e2798e8f2386cb6275f57ff5ccb85276b25f0506b918d525df",
+    "bc_rng_sha256": "aef381cdece6a6c975a8621036cfc427188abd129371dd64d5f324c6a0b78bec",
+    "bc_pool_size": 1467,
+    "bc_inherited_updates": 2,
+    "expected_target": {
+      "episodes": 64,
+      "success": 43,
+      "collision": 18,
+      "timeout": 3,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "expected_static_frozen": {
+      "episodes": 64,
+      "success": 44,
+      "collision": 16,
+      "timeout": 4,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "expected_legacy_static": {
+      "episodes": 64,
+      "success": 57,
+      "collision": 7,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    }
+  },
+  "runner_sha256": "374e09155544e73013132b85e46a1a8a4a9d22052f05cfe25a63f96c8d71b167",
+  "configuration_hashes": {
+    "configs/four_dynamic_speed_comparison.yaml": "85b8d6aa9f05cd02c1769732f11b30fbc0192dd9548223cb537fc026c86f5eb4",
+    "configs/four_dynamic_speed_slow01.yaml": "79aa439090292e5ac3030f2e54b50943505703f9f6afdd25ba40cd4c07a1c732",
+    "configs/four_dynamic_speed_fast02.yaml": "902b81d2f46cd9fdb556c1e9163008534fbdb3a25df1135ff829fac0de4980ef"
+  },
+  "source_state_rule": "Matched 62000 PPO counter and BC aux_2000 snapshot; fresh physical episodes for both arms",
+  "test_rule": "Do not reevaluate the used100-case test during speed screening"
+}

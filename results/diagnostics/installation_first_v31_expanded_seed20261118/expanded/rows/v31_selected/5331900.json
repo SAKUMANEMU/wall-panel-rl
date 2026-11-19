@@ -1,0 +1,63 @@
+{
+  "seed": 5331900,
+  "controller": "enhanced",
+  "reason": "success",
+  "steps": 77,
+  "position_m": 0.0005799739841344091,
+  "orientation_deg": 0.03919901177554187,
+  "reward": 303.62791387856157,
+  "zero_command_steps": 0,
+  "stationary_steps": 0,
+  "wall_seconds": 83.80223635899995,
+  "physics_elapsed_s": 3.8500000000000862,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 1,
+  "recovery_actions": 37,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "collision",
+      "baseline_short_cost": 1.990496872063889,
+      "accepted": true,
+      "mode": "goal",
+      "parameter": 1.0,
+      "predicted_end_cost": 0.0006620722024157572,
+      "predicted_gain": 1.9898347998614732,
+      "plan_steps": 37
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 14150,
+  "vertical_plan_events": [],
+  "installation_events": [],
+  "passage_count": 2,
+  "success_with_weaving": false,
+  "arm": "v31_selected",
+  "obstacle_count": 3,
+  "model_key": "v31",
+  "controller_key": "installation",
+  "case_sha256": "44b71bc6dd5e61f86b067a79909ccfba0eff293c27598e3653c6cd2ee23d055a",
+  "max_obstacle_speed_m_s": 0.20652545148679352,
+  "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+  "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+  "timeout_diagnosis": {
+    "primary": "success",
+    "flags": {
+      "waiting": false,
+      "stale_reference": false,
+      "terminal_precision": true
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.0,
+    "zero_command_fraction": 0.0,
+    "reference_telemetry_available": true,
+    "reference_index_start": 2,
+    "reference_index_end": 45,
+    "final_reference_distance_rad": 0.0006884452329987811,
+    "final_position_m": 0.0005799739841344091,
+    "final_orientation_deg": 0.03919901177554187,
+    "reference_state_inferred": false
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "count": 5,
+    "seed": 3510000,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.302607060999435
+  },
+  {
+    "count": 5,
+    "seed": 3510001,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.216193821000161
+  },
+  {
+    "count": 5,
+    "seed": 3510002,
+    "geometry_valid": true,
+    "seconds": 2.694245278999915
+  },
+  {
+    "count": 2,
+    "seed": 3480000,
+    "geometry_valid": true,
+    "seconds": 1.8074252970000089
+  },
+  {
+    "count": 3,
+    "seed": 3490000,
+    "geometry_valid": true,
+    "seconds": 1.9230780880006932
+  },
+  {
+    "count": 4,
+    "seed": 3500000,
+    "geometry_valid": true,
+    "seconds": 1.5780766759999096
+  }
+]

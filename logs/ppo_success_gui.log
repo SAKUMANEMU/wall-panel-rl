@@ -1,0 +1,72 @@
+pybullet build time: Jan 29 2025 23:17:20
+step=1 position=0.4057 m orientation=29.32 deg collision=False success=False
+step=2 position=0.3078 m orientation=21.23 deg collision=False success=False
+step=3 position=0.2086 m orientation=13.53 deg collision=False success=False
+step=4 position=0.1358 m orientation=7.90 deg collision=False success=False
+step=5 position=0.0726 m orientation=3.85 deg collision=False success=False
+step=6 position=0.0445 m orientation=2.49 deg collision=False success=False
+step=7 position=0.0207 m orientation=2.26 deg collision=False success=False
+step=8 position=0.0105 m orientation=2.15 deg collision=False success=False
+step=9 position=0.0058 m orientation=1.90 deg collision=False success=True
+{
+  "seed": 10002,
+  "success": true,
+  "collision": false,
+  "joint_limit_violation": false,
+  "planning_success": NaN,
+  "ik_success": NaN,
+  "position_error_m": 0.00576035612391577,
+  "orientation_error_deg": 1.9020570678052229,
+  "steps": 9,
+  "joint_path_length_rad": 0.7384642438223373,
+  "cartesian_path_length_m": 0.5211597720587073,
+  "planning_time_s": 0.0,
+  "execution_time_s": 0.5298805369999968,
+  "simulated_time_s": 0.45,
+  "cumulative_reward": 156.70614031159863
+}
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+X11 functions dynamically loaded using dlopen/dlsym OK!
+X11 functions dynamically loaded using dlopen/dlsym OK!
+Creating context
+Created GL 3.3 context
+Direct GLX rendering context obtained
+Making context current
+GL_VENDOR=Mesa
+GL_RENDERER=llvmpipe (LLVM 20.1.2, 256 bits)
+GL_VERSION=4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2
+GL_SHADING_LANGUAGE_VERSION=4.50
+pthread_getconcurrency()=0
+Version = 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2
+Vendor = Mesa
+Renderer = llvmpipe (LLVM 20.1.2, 256 bits)
+b3Printf: Selected demo: Physics Server
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+MotionThreadFunc thread started
+ven = Mesa
+ven = Mesa
+numActiveThreads = 0
+stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphore destroyed
+destroy main semaphore
+main semaphore destroyed
+finished
+numActiveThreads = 0
+btShutDownExampleBrowser stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphore destroyed
+destroy main semaphore
+main semaphore destroyed

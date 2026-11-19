@@ -1,0 +1,8 @@
+{
+  "after_independent_test": true,
+  "default_predictive_demo": "scripts/demo_predictive_dynamic.py",
+  "explicit_new_demo": "scripts/demo_progress_dynamic.py",
+  "previous_v13_entry": "scripts/demo_predictive_dynamic_v13.py",
+  "controller_parameters_unchanged_from_test": true,
+  "neural_weights_changed": false
+}

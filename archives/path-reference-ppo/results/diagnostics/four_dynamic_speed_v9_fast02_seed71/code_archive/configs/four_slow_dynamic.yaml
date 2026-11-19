@@ -1,0 +1,16 @@
+# Dedicated inference/functional-validation profile. No training is launched.
+source_report: results/diagnostics/four_expanded_ppo_v5_seed61
+expert_probability: 0.5
+motion:
+  # Euclidean displacement from the anchor, not 5 cm on EACH axis.
+  amplitude_m: 0.05
+  # Upper bound on the Euclidean velocity of each obstacle.
+  max_speed_m_s: 0.02
+  frequency_fraction: [0.65, 1.0]
+  seed_offset: 9000000
+placement_attempts: 20
+preflight:
+  cases: 8
+  first_scene_seed: 1040000
+  controller_seed: 61
+  report_root: results/diagnostics/four_slow_dynamic_preflight_v1_seed61

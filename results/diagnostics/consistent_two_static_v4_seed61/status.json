@@ -1,0 +1,59 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-03T22:11:46.541451+08:00",
+  "runner_pid": 7201,
+  "default_model_preserved": true,
+  "automatic_dynamic_stage": false,
+  "phase": "complete",
+  "updated_at": "2026-11-03T22:26:29.499856+08:00",
+  "initial_new_validation": {
+    "episodes": 64,
+    "success": 58,
+    "collision": 3,
+    "timeout": 3,
+    "joint_limit": 0
+  },
+  "initial_legacy_validation": {
+    "episodes": 20,
+    "success": 15,
+    "collision": 4,
+    "timeout": 1,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "saved_layouts": 80,
+  "saved_episodes": 80,
+  "audited_layouts": 182,
+  "canonical_successes": 182,
+  "failing_layouts": 47,
+  "route_conflict_layouts": 166,
+  "attempted": 112,
+  "successes": 99,
+  "bc_updates": 3000,
+  "new_validation": {
+    "episodes": 64,
+    "success": 21,
+    "collision": 43,
+    "timeout": 0,
+    "joint_limit": 0
+  },
+  "legacy_validation": {
+    "episodes": 20,
+    "success": 6,
+    "collision": 14,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "selected_bc_update": 0,
+  "candidate_sha256": "7cabf0e9aba568179ab13002f089f208233b7481d91d9364f16dac28f1dd1a26",
+  "ppo_started": false,
+  "test": {
+    "episodes": 100,
+    "success": 87,
+    "collision": 6,
+    "timeout": 7,
+    "joint_limit": 0,
+    "planning_failure": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "running",
+  "training_steps": 0,
+  "started_at": "2026-11-04T01:41:14.869585+08:00",
+  "phase": "collect_verified_teacher",
+  "updated_at": "2026-11-04T01:55:25.674559+08:00",
+  "cases": 64,
+  "generation_rejections": 3,
+  "layouts_completed": 52,
+  "episodes": 52,
+  "attempts": 52
+}

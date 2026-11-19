@@ -1,0 +1,9 @@
+base_scenes: data/staged_avoidance_v3_seed61/one_static
+initial_model: models/clearance_ppo_v3_seed61/wall_feedback/ppo/best_model.zip
+output_root: models/static_stability_v3_seed61
+parent_report: /home/johnsonchen/wall-panel-rl/results/diagnostics/clearance_ppo_v3_seed61
+ppo_eval_every: 5000
+ppo_learning_rate: 0.0001
+ppo_steps: 10000
+regression_cases: data/clearance_ppo_v3_seed61/independent_cases.json
+report_root: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61

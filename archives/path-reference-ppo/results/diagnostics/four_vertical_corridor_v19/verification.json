@@ -1,0 +1,70 @@
+{
+  "source_model_sha256": "f059554915581537e35b57f7226346577ea4bfbc99cb1db0946b75ae2c539aba",
+  "model_weights_changed": false,
+  "optimizer_updates": 0,
+  "controller": "PPO + prediction + progress recovery",
+  "uses_global_rrt": false,
+  "source_config_and_target_unchanged_except_scene_layout": true,
+  "real_step_limit": 240,
+  "seed": 1166026,
+  "original_phase_steps": 239,
+  "original_phase_reason": "success",
+  "original_phase_reproduced_frame_for_frame": true,
+  "fresh_generator_reproduced_same_geometry": true,
+  "post_O2_translation_height_guards": {
+    "anchor_height_span_m": 0.6694576660445439,
+    "minimum_adjacent_delta_m": 0.32809624527596026,
+    "checked_after_O2_translation": true
+  },
+  "whole_panel_verified_passages": [
+    {
+      "slot": 0,
+      "frame": 169,
+      "time_s": 8.449999999999841,
+      "side": "below",
+      "panel_z": 1.1113992367212426,
+      "box_z": 1.3161426017713957,
+      "xy_distance_m": 0.007994349454846417,
+      "vertical_clearance_m": 0.03040354666298542
+    },
+    {
+      "slot": 1,
+      "frame": 191,
+      "time_s": 9.549999999999779,
+      "side": "above",
+      "panel_z": 1.2110233880915635,
+      "box_z": 0.9220127062306587,
+      "xy_distance_m": 0.13640825497376854,
+      "vertical_clearance_m": 0.1267529117420763
+    },
+    {
+      "slot": 3,
+      "frame": 237,
+      "time_s": 11.849999999999648,
+      "side": "below",
+      "panel_z": 0.5583781653231621,
+      "box_z": 1.1835099593283274,
+      "xy_distance_m": 0.14382242728269828,
+      "vertical_clearance_m": 0.37933392367930974
+    }
+  ],
+  "new_semantic_tests_passed": 3,
+  "full_and_excerpt_replay_verified": true,
+  "demonstration_search_only": true,
+  "code_hashes": {
+    "configs/four_vertical_corridor.yaml": "56cb0ff9e10afc3911d611268d2e2509b1ecae246343ec5420fef31a198da7ac",
+    "configs/four_vertical_weave.yaml": "992cc0f1578630ee88bdf31f9ddd77f75e222ef46308bca26d84ca00a818f845",
+    "configs/four_progress_controller.json": "038bc83f9f088c30bf967bb12603f06a1a09c59eaf079e70b064af631fabd23a",
+    "scripts/demo_vertical_weave.py": "943917ba71a5880505e2e73b10f2606a66f5540ff54af937508e364a52b1fd3b",
+    "scripts/demo_vertical_weave_v18.py": "ed6acd1533a5b08ef41af0d633b5c27d3ac7bca024206b47b2e8c903f4aa7760",
+    "scripts/demo_autonomous_ppo.py": "411d8932b498bdf7d0b748da5239c1cb6719ccf89d68424f3d822b82df169e4b",
+    "scripts/probe_vertical_corridor.py": "8dda11536a49c95ac77d75870862506a1da536f217ac4762cb19b8b5f6097242",
+    "scripts/probe_corridor_phases.py": "6575271dc1874b26f2d8a2bf394f965567f97df8ccc3483c578c0b6c945f7b3f",
+    "scripts/plot_vertical_corridor.py": "d3f3fb2f71292563eada1dcf41d9a0ac6a6533efcb6c41148c38f8b4be16830e",
+    "src/wall_panel_rl/rl/vertical_corridor.py": "ca14ba30debea19812d7fbb968d4982859aa2952bfbeef36a998f2c4f36be1e1",
+    "src/wall_panel_rl/rl/motion_aware_placement.py": "be7e5e62f0570e6448cf055d9675177781cd192b43dad16e89adf4378c009917",
+    "src/wall_panel_rl/rl/demo_scene_adjustments.py": "817ad72bdb153a9328c739037c1d189bc7b584cce2506df8d19c0176ebcc65b0",
+    "src/wall_panel_rl/rl/progress_recovery.py": "6766d19fd8e4d16a5b7294e4e3ce5afd35a57cbdfd2724e917f80c6b412fd236",
+    "tests/test_vertical_passages.py": "519d489ab8331df82a7b86cb533314fea2c880f913869b9b39220cf83d68f527"
+  }
+}

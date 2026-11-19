@@ -1,0 +1,69 @@
+{
+  "model": "/home/johnsonchen/wall-panel-rl/experiments/variable_weaving_v26/models/current_ppo.zip",
+  "label": "source_ppo",
+  "metrics": {
+    "all": {
+      "episodes": 16,
+      "success": 1,
+      "collision": 10,
+      "timeout": 5,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.0625,
+      "mean_passage_count": 0.25,
+      "success_with_weaving": 0,
+      "mean_task_error": 1.689586447774138
+    },
+    "by_count": {
+      "2": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 2,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 1.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.9801938967458192
+      },
+      "3": {
+        "episodes": 4,
+        "success": 1,
+        "collision": 3,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.25,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.0542441308297432
+      },
+      "4": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 4,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.94612221659564
+      },
+      "5": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 1,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.77778554692535
+      }
+    }
+  },
+  "successful_teacher_transitions": 522
+}

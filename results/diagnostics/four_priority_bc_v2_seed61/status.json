@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-04T13:57:51.038718+08:00",
+  "ppo_steps": 0,
+  "phase": "complete",
+  "updated_at": "2026-11-04T13:58:48.496931+08:00",
+  "training_layouts": 64,
+  "training_transitions": 3973,
+  "updates_budget": 4000,
+  "additional_bc_updates": 4000,
+  "total_bc_updates": 5000,
+  "four": {
+    "episodes": 32,
+    "success": 17,
+    "collision": 15,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "selected_total_bc_updates": 1000,
+  "validation": {
+    "episodes": 32,
+    "success": 17,
+    "collision": 15,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "test": null
+}

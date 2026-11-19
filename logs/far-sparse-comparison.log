@@ -1,0 +1,59 @@
+pybullet build time: Jan 29 2025 23:17:20
+clean seed=10000 success=True collision=False
+clean seed=10001 success=True collision=False
+clean seed=10002 success=True collision=False
+clean seed=10003 success=True collision=False
+clean seed=10004 success=True collision=False
+clean seed=10005 success=True collision=False
+clean seed=10006 success=True collision=False
+clean seed=10007 success=True collision=False
+clean seed=10008 success=True collision=False
+clean seed=10009 success=True collision=False
+clean seed=10010 success=True collision=False
+clean seed=10011 success=True collision=False
+clean seed=10012 success=True collision=False
+clean seed=10013 success=True collision=False
+clean seed=10014 success=True collision=False
+clean seed=10015 success=True collision=False
+clean seed=10016 success=True collision=False
+clean seed=10017 success=True collision=False
+clean seed=10018 success=True collision=False
+clean seed=10019 success=True collision=False
+noise seed=10000 success=True collision=False
+noise seed=10001 success=True collision=False
+noise seed=10002 success=True collision=False
+noise seed=10003 success=True collision=False
+noise seed=10004 success=True collision=False
+noise seed=10005 success=True collision=False
+noise seed=10006 success=False collision=False
+noise seed=10007 success=True collision=False
+noise seed=10008 success=False collision=False
+noise seed=10009 success=False collision=False
+noise seed=10010 success=True collision=False
+noise seed=10011 success=True collision=False
+noise seed=10012 success=False collision=False
+noise seed=10013 success=False collision=False
+noise seed=10014 success=True collision=False
+noise seed=10015 success=True collision=False
+noise seed=10016 success=True collision=False
+noise seed=10017 success=False collision=False
+noise seed=10018 success=False collision=False
+noise seed=10019 success=False collision=False
+{
+  "clean": {
+    "episodes": 20,
+    "successes": 20,
+    "collisions": 0,
+    "planning_failures": 0,
+    "mean_final_position_error_m": 0.0035716561404776407,
+    "mean_final_orientation_error_deg": 0.07760396106941828
+  },
+  "noise": {
+    "episodes": 20,
+    "successes": 12,
+    "collisions": 0,
+    "planning_failures": 0,
+    "mean_final_position_error_m": 0.01043032223815068,
+    "mean_final_orientation_error_deg": 0.8910647914623286
+  }
+}

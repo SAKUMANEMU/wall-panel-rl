@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "additional_steps": 256,
+  "all_four_larger_obstacle_counts_used": true,
+  "finite_parameters": true,
+  "actor_parameters_updated": true,
+  "save_reload_identical": true,
+  "source_unchanged": true
+}

@@ -1,0 +1,8 @@
+# Geometry-only scene expansion; guide identities are frozen in the run protocol.
+start_randomization_rad: 0.03
+global_xy_shift_m: 0.12
+local_xy_jitter_m: 0.02
+global_z_shift_m: [-0.12, 0.65]
+swept_z_bounds_m: [0.02, 1.65]
+transform_attempts: 16
+guide_mixture: {high: 0.5, low: 0.5}

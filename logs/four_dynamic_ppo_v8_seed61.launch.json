@@ -1,0 +1,21 @@
+{
+  "pid": 5330,
+  "started_at": "2026-11-05T13:21:29.661183+08:00",
+  "cwd": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo",
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "scripts/train_four_dynamic_ppo.py",
+    "--train"
+  ],
+  "log": "/home/johnsonchen/wall-panel-rl/logs/four_dynamic_ppo_v8_seed61.log",
+  "ppo_budget": 5000,
+  "expert_probability": 0.5,
+  "static_probability": 0.3,
+  "curriculum_speeds": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "learning_rate": 3e-06
+}

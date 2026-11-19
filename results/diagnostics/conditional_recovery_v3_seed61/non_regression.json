@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": {
+    "validation": true,
+    "combined_200": true,
+    "alignment_retained": true
+  }
+}

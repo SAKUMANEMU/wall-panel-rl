@@ -1,0 +1,17 @@
+source_model: results/diagnostics/four_obstacle_bc_v1_seed61/final_candidate.zip
+source_report: results/diagnostics/four_obstacle_bc_v1_seed61
+teacher_report: results/diagnostics/four_safe_teacher_v1_seed61
+model_root: models/four_priority_ppo_v4_seed61
+report_root: results/diagnostics/four_priority_ppo_v4_seed61
+seed: 61
+steps: 10000
+workers: 4
+n_steps: 250
+batch_size: 100
+n_epochs: 3
+learning_rate: 0.00001
+clip_range: 0.05
+target_kl: 0.005
+vf_coef: 0.1
+reward_scale: 0.01
+evaluate_every: 2000

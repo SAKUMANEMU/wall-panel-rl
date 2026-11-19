@@ -1,0 +1,103 @@
+{
+  "seed": 5330200,
+  "controller": "enhanced",
+  "reason": "success",
+  "steps": 174,
+  "position_m": 0.0002326916142719609,
+  "orientation_deg": 0.017614024314349296,
+  "reward": 297.23561453429875,
+  "zero_command_steps": 3,
+  "stationary_steps": 3,
+  "wall_seconds": 283.96019648499714,
+  "physics_elapsed_s": 8.699999999999827,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 3,
+  "recovery_actions": 123,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.02660806090477,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          1,
+          3
+        ],
+        [
+          -0.4,
+          -0.4
+        ]
+      ],
+      "predicted_end_cost": 0.8325851385313053,
+      "predicted_gain": 1.1940229223734646,
+      "plan_steps": 60
+    },
+    {
+      "step": 110,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.8711348258972156,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          1,
+          3
+        ],
+        [
+          0.4,
+          -0.4
+        ]
+      ],
+      "predicted_end_cost": 0.521925916358749,
+      "predicted_gain": 0.3492089095384666,
+      "plan_steps": 60
+    },
+    {
+      "step": 165,
+      "baseline_forecast": "collision",
+      "baseline_short_cost": 0.6150722847858987,
+      "accepted": true,
+      "mode": "goal",
+      "parameter": 1.0,
+      "predicted_end_cost": 0.0003367311118018392,
+      "predicted_gain": 0.6147355536740968,
+      "plan_steps": 9
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 46426,
+  "vertical_plan_events": [],
+  "installation_events": [],
+  "passage_count": 2,
+  "success_with_weaving": false,
+  "arm": "v31_selected",
+  "obstacle_count": 3,
+  "model_key": "v31",
+  "controller_key": "installation",
+  "case_sha256": "98c120b9d97ea3564530074df4d13e59af2eb1439a2bd76128dfd42b222a7d0d",
+  "max_obstacle_speed_m_s": 0.20463098344153477,
+  "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+  "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+  "timeout_diagnosis": {
+    "primary": "success",
+    "flags": {
+      "waiting": false,
+      "stale_reference": false,
+      "terminal_precision": true
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.0,
+    "zero_command_fraction": 0.0,
+    "reference_telemetry_available": true,
+    "reference_index_start": 5,
+    "reference_index_end": 47,
+    "final_reference_distance_rad": 0.0003254156014666415,
+    "final_position_m": 0.0002326916142719609,
+    "final_orientation_deg": 0.017614024314349296,
+    "reference_state_inferred": false
+  }
+}

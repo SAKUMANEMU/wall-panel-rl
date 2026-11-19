@@ -1,0 +1,13 @@
+{
+  "pid": 10492,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "/home/johnsonchen/wall-panel-rl/experiments/timeout_recovery_v24/scripts/run_timeout_study.py",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/timeout_recovery_v24_seed20261113",
+    "--workers",
+    "2"
+  ],
+  "cwd": "/home/johnsonchen/wall-panel-rl/experiments/timeout_recovery_v24",
+  "log": "/home/johnsonchen/wall-panel-rl/results/diagnostics/timeout_recovery_v24_seed20261113.log"
+}

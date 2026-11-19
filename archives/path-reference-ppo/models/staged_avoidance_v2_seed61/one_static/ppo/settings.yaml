@@ -1,0 +1,80 @@
+action_std: 0.1
+active_stage: &id001
+  amplitude: 0.05
+  count: 1
+  mode: static
+  name: one_static
+  speed: 0.02
+additional_timesteps: 10000
+batch_size: 100
+clearance_distance: 0.08
+clearance_weight: 0.5
+clip_range: 0.05
+data: data/staged_avoidance_v2_seed61/one_static
+data_root: data/staged_avoidance_v2_seed61
+environment: configs/ppo_dynamic_clean.yaml
+eval_every: 5000
+gate:
+  consecutive_checks: 2
+  maximum_collision_rate: 0.1
+  minimum_alignment_episodes: 10
+  minimum_alignment_success_rate: 0.9
+  minimum_episodes: 20
+  minimum_success_rate: 0.8
+initial_prior_gate: 0.5
+joint_margin: 0.01
+learning_rate: 0.0001
+mixture:
+  alignment: 0.2
+  dynamic: 0.5
+  static: 0.3
+n_epochs: 3
+n_steps: 250
+output: models/staged_avoidance_v2_seed61/one_static/ppo
+output_root: models/staged_avoidance_v2_seed61
+progress_weight: 0.25
+release: releases/path_reference_bc_20261025
+residual_scale: 2.0
+seed: 61
+source_first: models/waypoint_ppo_pilot_seed61/best_model.zip
+source_model: models/waypoint_ppo_pilot_seed61/best_model.zip
+stage_index: 0
+stage_output: models/staged_avoidance_v2_seed61/one_static
+stages:
+- *id001
+- amplitude: 0.05
+  count: 1
+  mode: dynamic
+  name: one_dynamic
+  speed: 0.02
+- amplitude: 0.1
+  count: 3
+  mode: dynamic
+  name: three_dynamic
+  speed: 0.05
+- amplitude: 0.1
+  count: 5
+  mode: dynamic
+  name: five_dynamic_low
+  speed: 0.05
+- amplitude: 0.4
+  count: 5
+  mode: dynamic
+  name: five_dynamic_full
+  speed: 0.4
+target_kl: 0.005
+teacher:
+  alignment_episodes: 20
+  avoidance_episodes: 80
+  batch_size: 256
+  learning_rate: 0.001
+  maximum_attempts: 500
+  minimum_unique_scenes: 10
+  updates: 2000
+train_scenes: 64
+train_seed_base: 800000
+train_start_seed: 800000
+validation_scenes: 20
+validation_seed_base: 900000
+validation_start_seed: 900000
+workers: 4

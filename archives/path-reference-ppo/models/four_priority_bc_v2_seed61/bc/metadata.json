@@ -1,0 +1,154 @@
+{
+  "updates": 4000,
+  "selected": {
+    "additional_bc_updates": 0,
+    "training_mse": 0.01715807057917118,
+    "four": {
+      "episodes": 32,
+      "success": 17,
+      "collision": 15,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      17,
+      -15,
+      0
+    ]
+  },
+  "history": [
+    {
+      "additional_bc_updates": 0,
+      "training_mse": 0.01715807057917118,
+      "four": {
+        "episodes": 32,
+        "success": 17,
+        "collision": 15,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        1,
+        17,
+        -15,
+        0
+      ]
+    },
+    {
+      "additional_bc_updates": 250,
+      "training_mse": 0.01693873479962349,
+      "four": {
+        "episodes": 32,
+        "success": 13,
+        "collision": 19,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        0,
+        13,
+        -19,
+        0
+      ]
+    },
+    {
+      "additional_bc_updates": 500,
+      "training_mse": 0.0168524868786335,
+      "four": {
+        "episodes": 32,
+        "success": 16,
+        "collision": 16,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        0,
+        16,
+        -16,
+        0
+      ]
+    },
+    {
+      "additional_bc_updates": 1000,
+      "training_mse": 0.016730014234781265,
+      "four": {
+        "episodes": 32,
+        "success": 14,
+        "collision": 17,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        0,
+        14,
+        -17,
+        -1
+      ]
+    },
+    {
+      "additional_bc_updates": 2000,
+      "training_mse": 0.016544172540307045,
+      "four": {
+        "episodes": 32,
+        "success": 7,
+        "collision": 25,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        0,
+        7,
+        -25,
+        0
+      ]
+    },
+    {
+      "additional_bc_updates": 3000,
+      "training_mse": 0.016401328146457672,
+      "four": {
+        "episodes": 32,
+        "success": 9,
+        "collision": 23,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        0,
+        9,
+        -23,
+        0
+      ]
+    },
+    {
+      "additional_bc_updates": 4000,
+      "training_mse": 0.01607496850192547,
+      "four": {
+        "episodes": 32,
+        "success": 17,
+        "collision": 15,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        1,
+        17,
+        -15,
+        0
+      ]
+    }
+  ],
+  "four_task_sampling_probability": 1.0,
+  "old_two_used_for_selection": false,
+  "frozen_base_critic_and_std_unchanged": true,
+  "ppo_steps": 0,
+  "fresh_bc_optimizer": true
+}

@@ -1,0 +1,133 @@
+{
+  "training_performed": false,
+  "frozen_inputs_unchanged": true,
+  "canonical_replays_matched": 144,
+  "interface_representative_cases_checked": 4,
+  "main_diagnostic_rollouts": 372,
+  "paired_generator_probe_cases": 2,
+  "controls_fresh32": {
+    "dynamic": {
+      "episodes": 32,
+      "success": 0,
+      "collision": 32,
+      "timeout": 0,
+      "planning_failure": 0,
+      "joint_limit": 0
+    },
+    "zero": {
+      "episodes": 32,
+      "success": 0,
+      "collision": 0,
+      "timeout": 32,
+      "planning_failure": 0,
+      "joint_limit": 0
+    },
+    "no_obstacles": {
+      "episodes": 32,
+      "success": 32,
+      "collision": 0,
+      "timeout": 0,
+      "planning_failure": 0,
+      "joint_limit": 0
+    },
+    "static": {
+      "episodes": 32,
+      "success": 0,
+      "collision": 30,
+      "timeout": 2,
+      "planning_failure": 0,
+      "joint_limit": 0
+    },
+    "rrt": {
+      "episodes": 32,
+      "success": 32,
+      "collision": 0,
+      "timeout": 0,
+      "planning_failure": 0,
+      "joint_limit": 0
+    }
+  },
+  "scene_distributions": {
+    "train": {
+      "scenes": 100,
+      "mean_anchor_z_m": 0.9751885945761678,
+      "mean_anchor_y_m": 0.5112613684524742,
+      "case_mean_anchor_z_range_m": [
+        0.874142711535,
+        1.0546689697432572
+      ],
+      "preliminary_outcomes": {
+        "success": 100
+      },
+      "negative_anchor_count": 0
+    },
+    "validation": {
+      "scenes": 16,
+      "mean_anchor_z_m": 0.9741586133491943,
+      "mean_anchor_y_m": 0.511191349015384,
+      "case_mean_anchor_z_range_m": [
+        0.9348699900235062,
+        1.0102052343285168
+      ],
+      "preliminary_outcomes": {
+        "success": 16
+      },
+      "negative_anchor_count": 0
+    },
+    "old64": {
+      "scenes": 64,
+      "mean_anchor_z_m": 0.9634813214877366,
+      "mean_anchor_y_m": 0.5250018598337907,
+      "case_mean_anchor_z_range_m": [
+        0.884286462399131,
+        1.0463347074868286
+      ],
+      "preliminary_outcomes": {
+        "success": 64
+      },
+      "negative_anchor_count": 0
+    },
+    "fresh32": {
+      "scenes": 32,
+      "mean_anchor_z_m": 0.26328504437056693,
+      "mean_anchor_y_m": 0.7387032571205061,
+      "case_mean_anchor_z_range_m": [
+        -0.01005045123902108,
+        0.907362457190992
+      ],
+      "preliminary_outcomes": {
+        "success": 14,
+        "timeout": 18
+      },
+      "negative_anchor_count": 30
+    }
+  },
+  "fresh_case_mean_anchor_z_outside_train_range": 31,
+  "selected_fresh_first_collision_episode_pairs": {
+    "panel-O3": 16,
+    "panel-O1": 10,
+    "panel-O2": 3,
+    "panel-wall": 1,
+    "arm-O2": 1,
+    "arm-O3": 1
+  },
+  "selected_fresh_collision_step_median": 20.5,
+  "selected_fresh_collision_time_median_s": 1.0104166666666643,
+  "selected_fresh_initial_collisions": 0,
+  "selected_fresh_projected_action_episodes": 0,
+  "selected_training_outcomes": {
+    "episodes": 100,
+    "success": 30,
+    "collision": 46,
+    "timeout": 24,
+    "planning_failure": 0,
+    "joint_limit": 0
+  },
+  "source_training_outcomes_from_collection": {
+    "collision": 36,
+    "timeout": 33,
+    "success": 31
+  },
+  "conclusion": "Avoidance policy learning/coverage failure with a strong generator-conditioned placement distribution shift; no train/eval action-interface mismatch found in the performed checks.",
+  "test_bank_status": "Inspected diagnostic set; future development requires a different untouched final test bank."
+}

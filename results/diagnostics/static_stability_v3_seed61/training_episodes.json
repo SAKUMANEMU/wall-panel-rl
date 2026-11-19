@@ -1,0 +1,16 @@
+{
+  "alignment": {
+    "episodes": 25,
+    "reasons": {
+      "success": 25
+    }
+  },
+  "static": {
+    "episodes": 110,
+    "reasons": {
+      "collision": 35,
+      "success": 64,
+      "timeout": 11
+    }
+  }
+}

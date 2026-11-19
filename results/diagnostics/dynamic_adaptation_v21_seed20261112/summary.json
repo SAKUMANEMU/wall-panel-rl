@@ -1,0 +1,95 @@
+{
+  "selected": "ppo_24576",
+  "early_recovery_selected": false,
+  "source_model_unchanged": true,
+  "ppo_additional_steps": 32768,
+  "training_scenes": 100,
+  "validation_scenes": 16,
+  "teacher_successes": 100,
+  "teacher_transitions": 6843,
+  "source_validation": {
+    "ppo": {
+      "episodes": 16,
+      "success": 0,
+      "collision": 16,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.0,
+      "mean_waiting_fraction": 0.0,
+      "mean_stationary_fraction": 0.0,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null
+    },
+    "enhanced": {
+      "episodes": 16,
+      "success": 9,
+      "collision": 2,
+      "timeout": 5,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.5625,
+      "mean_waiting_fraction": 0.45374679819061414,
+      "mean_stationary_fraction": 0.45374679819061414,
+      "timeout_mean_position_m": 0.5787220081928439,
+      "timeout_mean_orientation_deg": 72.20936182760991
+    }
+  },
+  "selected_validation": {
+    "ppo": {
+      "episodes": 16,
+      "success": 9,
+      "collision": 5,
+      "timeout": 2,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.5625,
+      "mean_waiting_fraction": 0.0,
+      "mean_stationary_fraction": 0.0,
+      "timeout_mean_position_m": 0.25474381637389504,
+      "timeout_mean_orientation_deg": 18.950978022802786
+    },
+    "enhanced": {
+      "episodes": 16,
+      "success": 16,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 1.0,
+      "mean_waiting_fraction": 0.02062807881773399,
+      "mean_stationary_fraction": 0.02062807881773399,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null
+    }
+  },
+  "regression64": {
+    "ppo": {
+      "episodes": 64,
+      "success": 14,
+      "collision": 31,
+      "timeout": 19,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.21875,
+      "mean_waiting_fraction": 0.0,
+      "mean_stationary_fraction": 0.0,
+      "timeout_mean_position_m": 0.3898228738133483,
+      "timeout_mean_orientation_deg": 29.900116494838443
+    },
+    "enhanced": {
+      "episodes": 64,
+      "success": 64,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 1.0,
+      "mean_waiting_fraction": 0.09167865860263655,
+      "mean_stationary_fraction": 0.09167865860263655,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null
+    }
+  },
+  "final_test_performed": false
+}

@@ -1,0 +1,7 @@
+variant,additional_steps,episodes,success,collision,timeout,joint_limit,eligible_no_regression,bc_gate
+control,0,20,14,3,3,0,True,True
+control,5000,20,12,4,4,0,False,True
+control,10000,20,10,3,7,0,False,True
+wall_feedback,0,20,14,3,3,0,True,True
+wall_feedback,5000,20,14,2,4,0,False,True
+wall_feedback,10000,20,16,2,2,0,True,True

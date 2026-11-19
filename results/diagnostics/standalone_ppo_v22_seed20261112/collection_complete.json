@@ -1,0 +1,13 @@
+{
+  "initial_training_scenes": 100,
+  "initial_labels": 22451,
+  "dagger_training_scenes": 100,
+  "dagger_labels": 11383,
+  "already_completed_supervised_updates_before_stop_request": 3000,
+  "new_supervised_updates_since_stop_request": 0,
+  "ppo_steps": 0,
+  "collection_model": "/home/johnsonchen/wall-panel-rl/experiments/standalone_ppo_v22/models/current_ppo.zip",
+  "collection_model_sha256": "9dde7d9e800bd70afa2f8ac98357abed2ad8778b579f7823c187937040ae76b1",
+  "all_existing_checkpoints_unchanged": true,
+  "requires_explicit_instruction_before_training": true
+}

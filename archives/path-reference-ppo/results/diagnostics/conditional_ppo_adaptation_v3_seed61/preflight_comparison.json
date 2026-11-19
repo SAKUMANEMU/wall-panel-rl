@@ -1,0 +1,48 @@
+{
+  "same_weights_original_controller": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0
+    },
+    "stage_target": {
+      "episodes": 20,
+      "success": 16,
+      "collision": 2,
+      "joint_limit": 0,
+      "timeout": 2
+    }
+  },
+  "same_weights_conditional_controller": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0
+    },
+    "stage_target": {
+      "episodes": 20,
+      "success": 18,
+      "collision": 2,
+      "timeout": 0,
+      "joint_limit": 0
+    }
+  }
+}

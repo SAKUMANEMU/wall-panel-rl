@@ -1,0 +1,14 @@
+{
+  "reason": "Refine diagnosed stale-reference escape before any model update",
+  "model_updates_performed": false,
+  "stopped_process_group": 13557,
+  "prior_status": {
+    "status": "running",
+    "pid": 13558,
+    "started_at": "2026-11-18T18:43:28.422416+08:00",
+    "phase": "evaluate_v29_controller_on_closer",
+    "updated_at": "2026-11-18T18:45:40.316716+08:00",
+    "evaluation_completed": 4,
+    "evaluation_planned": 8
+  }
+}

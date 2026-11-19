@@ -1,0 +1,54 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "mode": "run",
+  "study": {
+    "parent_report": "/home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61",
+    "model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/selected_model.zip",
+    "validation_cases": "data/staged_avoidance_v3_seed61/one_static/validation_staged.json",
+    "regression_banks": {
+      "previous_100": "data/clearance_ppo_v3_seed61/independent_cases.json",
+      "recent_100": "data/static_candidate_comparison_v3_seed61/fresh_cases.json"
+    },
+    "report_root": "/home/johnsonchen/wall-panel-rl/results/diagnostics/conditional_recovery_v3_seed61",
+    "data_root": "data/conditional_recovery_v3_seed61",
+    "conditional_recovery": {
+      "window": 30,
+      "min_steps": 60,
+      "position_epsilon": 0.001,
+      "orientation_epsilon_deg": 0.1,
+      "max_joint_displacement": 0.02,
+      "min_reference_distance": 0.2,
+      "extended_radius": 0.45,
+      "max_attempts": 3,
+      "max_recoveries": 1,
+      "cooldown": 20
+    },
+    "independent_start_seed": 1004000,
+    "independent_scenes": 100,
+    "maximum_generation_attempts": 1000
+  }
+}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "validation", "updated_at": "2026-10-30T15:17:51.343387+08:00", "variant": "baseline"}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:17:57.440555+08:00", "variant": "baseline", "bank": "previous_100"}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:18:18.151429+08:00", "variant": "baseline", "bank": "previous_100", "target": {"episodes": 100, "success": 92, "collision": 4, "timeout": 4, "joint_limit": 0}}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:18:18.151596+08:00", "variant": "baseline", "bank": "recent_100", "target": {"episodes": 100, "success": 92, "collision": 4, "timeout": 4, "joint_limit": 0}}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:18:39.227778+08:00", "variant": "baseline", "bank": "recent_100", "target": {"episodes": 100, "success": 90, "collision": 6, "timeout": 4, "joint_limit": 0}}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "validation", "updated_at": "2026-10-30T15:18:39.228182+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 90, "collision": 6, "timeout": 4, "joint_limit": 0}}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:18:45.160727+08:00", "variant": "conditional", "bank": "previous_100", "target": {"episodes": 100, "success": 90, "collision": 6, "timeout": 4, "joint_limit": 0}}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:19:05.508096+08:00", "variant": "conditional", "bank": "previous_100", "target": {"episodes": 100, "success": 94, "collision": 4, "timeout": 2, "joint_limit": 0}}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:19:05.508264+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 4, "timeout": 2, "joint_limit": 0}}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:19:26.153740+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "freeze_fresh_test", "updated_at": "2026-10-30T15:19:26.157655+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T15:19:42.304366+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 10}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T15:19:57.603309+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 20}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T15:20:15.339559+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 30}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T15:20:30.087107+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 40}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T15:20:46.533926+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 50}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T15:21:01.269374+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 60}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T15:21:17.221537+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 70}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T15:21:33.192391+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 80}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T15:21:48.138571+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 90}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T15:22:03.484251+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 100}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "fresh_test", "updated_at": "2026-10-30T15:22:03.690303+08:00", "variant": "baseline", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 100}
+CONDITIONAL {"status": "running", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "fresh_test", "updated_at": "2026-10-30T15:22:23.798362+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 100}
+CONDITIONAL {"status": "completed", "runner_pid": 38787, "started_at": "2026-10-30T15:17:51.343367+08:00", "training_performed": false, "automatic_adoption": false, "phase": "complete", "updated_at": "2026-10-30T15:22:44.491249+08:00", "variant": "conditional", "bank": "recent_100", "target": {"episodes": 100, "success": 94, "collision": 6, "timeout": 0, "joint_limit": 0}, "generated": 100, "non_regression_passed": true, "finished_at": "2026-10-30T15:22:44.491228+08:00"}

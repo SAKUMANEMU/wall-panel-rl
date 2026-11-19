@@ -1,0 +1,64 @@
+{
+  "model_sha256": "d65a8cfb4650fa6ec63b1fb633fcf90d8068b19f5a0556073ab26e46a0915ac2",
+  "model_unchanged": true,
+  "training_updates_executed": 0,
+  "observation_dim": 77,
+  "action_dim": 7,
+  "teacher_episodes": 100,
+  "teacher_transitions": 5945,
+  "teacher_mse": 1.3687862692249309e-13,
+  "loaded_trainable_parameters": {
+    "tracking_gain_raw": 7,
+    "tracking_bias": 7,
+    "tracking_velocity": 7,
+    "mlp_extractor.value_net.0.weight": 9856,
+    "mlp_extractor.value_net.0.bias": 128,
+    "mlp_extractor.value_net.2.weight": 16384,
+    "mlp_extractor.value_net.2.bias": 128,
+    "value_net.weight": 128,
+    "value_net.bias": 1
+  },
+  "loaded_frozen_parameters": {
+    "log_std": 7,
+    "action_net.weight": 539,
+    "action_net.bias": 7
+  },
+  "actor_ignores_target_and_obstacles_features_14_to_69": true,
+  "std": [
+    0.019999999552965164,
+    0.019999999552965164,
+    0.019999999552965164,
+    0.019999999552965164,
+    0.019999999552965164,
+    0.019999999552965164,
+    0.019999999552965164
+  ],
+  "near_limit_forward_action": [
+    0.014322362840175629,
+    0.014324743300676346,
+    0.01432268787175417,
+    0.014324693009257317,
+    0.014322696253657341,
+    0.01432477030903101,
+    0.01432409044355154
+  ],
+  "near_limit_predict_action": [
+    -0.1289164125919342,
+    -0.12890957295894623,
+    -0.1289164125919342,
+    -0.12890957295894623,
+    -0.1289164125919342,
+    -0.12890957295894623,
+    -0.1289164125919342
+  ],
+  "forward_predict_max_difference": 0.14324049651622772,
+  "predict_matches_external_guard": true,
+  "loaded_ppo_hyperparameters": {
+    "n_steps": 250,
+    "batch_size": 50,
+    "learning_rate": 0.003,
+    "n_epochs": 10,
+    "target_kl": null,
+    "ent_coef": 0.0
+  }
+}

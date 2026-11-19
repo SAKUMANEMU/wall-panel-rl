@@ -1,0 +1,13 @@
+{
+  "pid": 6122,
+  "started_at": "2026-11-05T00:40:45.774307+08:00",
+  "cwd": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo",
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "scripts/verify_four_slow_dynamic.py",
+    "--run"
+  ],
+  "training_steps": 0,
+  "log": "/home/johnsonchen/wall-panel-rl/logs/four_slow_dynamic_preflight_v1_seed61.log"
+}

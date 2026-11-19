@@ -1,0 +1,20 @@
+{
+  "pid": 4235,
+  "process_group": 4235,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "/home/johnsonchen/wall-panel-rl/experiments/construction_site_v29/scripts/resume_known_training.py",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training",
+    "--checkpoint",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training/models/ppo_32768.zip"
+  ],
+  "started_at": "2026-11-18T00:02:04.273298+08:00",
+  "log": "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/resume_20261118_000204.log",
+  "checkpoint": "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training/models/ppo_32768.zip",
+  "resumed_from_ppo_steps": 32768,
+  "remaining_ppo_steps": 32768,
+  "resume_after_reboot": true,
+  "optimizer_restore_check_passed": true
+}

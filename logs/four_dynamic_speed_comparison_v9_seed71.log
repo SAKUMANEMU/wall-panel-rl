@@ -1,0 +1,7 @@
+pybullet build time: Jan 29 2025 23:17:20
+{'mode': 'run', 'arms': [('slow01', 0.01), ('fast02', 0.02)], 'ppo_steps_per_arm': 2000, 'dynamic_probability': 0.9, 'static_probability': 0.1, 'expert_probability': 0.5, 'independent_test': False}
+SPEED_COMPARISON_START slow01 /home/johnsonchen/wall-panel-rl/logs/four_dynamic_speed_v9_slow01_seed71.log
+SPEED_COMPARISON_FINISHED slow01
+SPEED_COMPARISON_START fast02 /home/johnsonchen/wall-panel-rl/logs/four_dynamic_speed_v9_fast02_seed71.log
+SPEED_COMPARISON_FINISHED fast02
+SPEED_COMPARISON_COMPLETE /home/johnsonchen/wall-panel-rl/results/diagnostics/four_dynamic_speed_comparison_v9_seed71

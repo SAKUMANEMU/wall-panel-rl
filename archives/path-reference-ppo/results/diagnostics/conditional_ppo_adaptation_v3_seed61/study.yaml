@@ -1,0 +1,13 @@
+base_scenes: data/staged_avoidance_v3_seed61/one_static
+conditional_report: /home/johnsonchen/wall-panel-rl/results/diagnostics/conditional_recovery_v3_seed61
+initial_model: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/selected_model.zip
+output_root: models/conditional_ppo_adaptation_v3_seed61
+ppo_eval_every: 5000
+ppo_learning_rate: 0.0001
+ppo_steps: 10000
+regression_banks:
+  latest_100: data/conditional_recovery_v3_seed61/fresh_cases.json
+  previous_100: data/clearance_ppo_v3_seed61/independent_cases.json
+  recent_100: data/static_candidate_comparison_v3_seed61/fresh_cases.json
+report_root: /home/johnsonchen/wall-panel-rl/results/diagnostics/conditional_ppo_adaptation_v3_seed61
+training_manifest: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/manifest.json

@@ -1,0 +1,22 @@
+conditional_recovery:
+  cooldown: 20
+  extended_radius: 0.45
+  max_attempts: 3
+  max_joint_displacement: 0.02
+  max_recoveries: 1
+  min_reference_distance: 0.2
+  min_steps: 60
+  orientation_epsilon_deg: 0.1
+  position_epsilon: 0.001
+  window: 30
+data_root: data/conditional_recovery_v3_seed61
+independent_scenes: 100
+independent_start_seed: 1004000
+maximum_generation_attempts: 1000
+model: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/selected_model.zip
+parent_report: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61
+regression_banks:
+  previous_100: data/clearance_ppo_v3_seed61/independent_cases.json
+  recent_100: data/static_candidate_comparison_v3_seed61/fresh_cases.json
+report_root: /home/johnsonchen/wall-panel-rl/results/diagnostics/conditional_recovery_v3_seed61
+validation_cases: data/staged_avoidance_v3_seed61/one_static/validation_staged.json

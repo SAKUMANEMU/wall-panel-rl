@@ -1,0 +1,956 @@
+[
+  {
+    "seed": 4120100,
+    "count": 2,
+    "reason": "success",
+    "steps": 215,
+    "accepted_for_bc": true,
+    "position_m": 0.00020344516092172615,
+    "orientation_deg": 0.013163250355381063,
+    "attempt": 0,
+    "route_seed": 35120100,
+    "wall_seconds": 191.6701470980006,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "success",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": true
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": 0.0,
+      "reference_telemetry_available": true,
+      "reference_index_start": 20,
+      "reference_index_end": 43,
+      "final_reference_distance_rad": 0.0002329552685878478,
+      "final_position_m": 0.00020344516092172615,
+      "final_orientation_deg": 0.013163250355381063,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4120100,
+        "count": 2,
+        "reason": "success",
+        "steps": 215,
+        "accepted_for_bc": true,
+        "position_m": 0.00020344516092172615,
+        "orientation_deg": 0.013163250355381063,
+        "attempt": 0,
+        "route_seed": 35120100,
+        "wall_seconds": 191.6701470980006,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "success",
+          "flags": {
+            "waiting": false,
+            "stale_reference": false,
+            "terminal_precision": true
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 20,
+          "reference_index_end": 43,
+          "final_reference_distance_rad": 0.0002329552685878478,
+          "final_position_m": 0.00020344516092172615,
+          "final_orientation_deg": 0.013163250355381063,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4120000,
+    "count": 2,
+    "reason": "success",
+    "steps": 235,
+    "accepted_for_bc": true,
+    "position_m": 0.003441764301379051,
+    "orientation_deg": 0.23264044996098734,
+    "attempt": 0,
+    "route_seed": 35120000,
+    "wall_seconds": 323.88494103999983,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "success",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": true
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": 0.0,
+      "reference_telemetry_available": true,
+      "reference_index_start": 4,
+      "reference_index_end": 44,
+      "final_reference_distance_rad": 0.004073146018727278,
+      "final_position_m": 0.003441764301379051,
+      "final_orientation_deg": 0.23264044996098734,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4120000,
+        "count": 2,
+        "reason": "success",
+        "steps": 235,
+        "accepted_for_bc": true,
+        "position_m": 0.003441764301379051,
+        "orientation_deg": 0.23264044996098734,
+        "attempt": 0,
+        "route_seed": 35120000,
+        "wall_seconds": 323.88494103999983,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "success",
+          "flags": {
+            "waiting": false,
+            "stale_reference": false,
+            "terminal_precision": true
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 4,
+          "reference_index_end": 44,
+          "final_reference_distance_rad": 0.004073146018727278,
+          "final_position_m": 0.003441764301379051,
+          "final_orientation_deg": 0.23264044996098734,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4130101,
+    "count": 3,
+    "reason": "success",
+    "steps": 159,
+    "accepted_for_bc": true,
+    "position_m": 0.006877875254770416,
+    "orientation_deg": 0.4351401287309329,
+    "attempt": 0,
+    "route_seed": 35130101,
+    "wall_seconds": 30.904692345999138,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "success",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": true
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": 0.0,
+      "reference_telemetry_available": true,
+      "reference_index_start": 3,
+      "reference_index_end": 43,
+      "final_reference_distance_rad": 0.03432953663007429,
+      "final_position_m": 0.006877875254770416,
+      "final_orientation_deg": 0.4351401287309329,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4130101,
+        "count": 3,
+        "reason": "success",
+        "steps": 159,
+        "accepted_for_bc": true,
+        "position_m": 0.006877875254770416,
+        "orientation_deg": 0.4351401287309329,
+        "attempt": 0,
+        "route_seed": 35130101,
+        "wall_seconds": 30.904692345999138,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "success",
+          "flags": {
+            "waiting": false,
+            "stale_reference": false,
+            "terminal_precision": true
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 3,
+          "reference_index_end": 43,
+          "final_reference_distance_rad": 0.03432953663007429,
+          "final_position_m": 0.006877875254770416,
+          "final_orientation_deg": 0.4351401287309329,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4130001,
+    "count": 3,
+    "reason": "timeout",
+    "steps": 240,
+    "accepted_for_bc": false,
+    "position_m": 0.5974097349027385,
+    "orientation_deg": 47.43533074856033,
+    "attempt": 1,
+    "route_seed": 35130002,
+    "wall_seconds": 252.461378729,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "stale_reference",
+      "flags": {
+        "waiting": false,
+        "stale_reference": true,
+        "terminal_precision": false
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": 0.0,
+      "reference_telemetry_available": true,
+      "reference_index_start": 7,
+      "reference_index_end": 7,
+      "final_reference_distance_rad": 2.080886045195037,
+      "final_position_m": 0.5974097349027385,
+      "final_orientation_deg": 47.43533074856033,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4130001,
+        "count": 3,
+        "reason": "timeout",
+        "steps": 240,
+        "accepted_for_bc": false,
+        "position_m": 1.7885329852682335,
+        "orientation_deg": 144.15496695421027,
+        "attempt": 0,
+        "route_seed": 35130001,
+        "wall_seconds": 254.94751694700062,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "insufficient_progress",
+          "flags": {
+            "waiting": false,
+            "stale_reference": false,
+            "terminal_precision": false
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 1,
+          "reference_index_end": 3,
+          "final_reference_distance_rad": 0.09457580626066228,
+          "final_position_m": 1.7885329852682335,
+          "final_orientation_deg": 144.15496695421027,
+          "reference_state_inferred": false
+        }
+      },
+      {
+        "seed": 4130001,
+        "count": 3,
+        "reason": "timeout",
+        "steps": 240,
+        "accepted_for_bc": false,
+        "position_m": 0.5974097349027385,
+        "orientation_deg": 47.43533074856033,
+        "attempt": 1,
+        "route_seed": 35130002,
+        "wall_seconds": 252.461378729,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "stale_reference",
+          "flags": {
+            "waiting": false,
+            "stale_reference": true,
+            "terminal_precision": false
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 7,
+          "reference_index_end": 7,
+          "final_reference_distance_rad": 2.080886045195037,
+          "final_position_m": 0.5974097349027385,
+          "final_orientation_deg": 47.43533074856033,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4130200,
+    "count": 3,
+    "reason": "timeout",
+    "steps": 240,
+    "accepted_for_bc": false,
+    "position_m": 1.306553913392331,
+    "orientation_deg": 165.0143487450803,
+    "attempt": 1,
+    "route_seed": 35130201,
+    "wall_seconds": 178.16998383800092,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "waiting",
+      "flags": {
+        "waiting": true,
+        "stale_reference": true,
+        "terminal_precision": false
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.775,
+      "zero_command_fraction": 0.7804878048780488,
+      "reference_telemetry_available": true,
+      "reference_index_start": 1,
+      "reference_index_end": 1,
+      "final_reference_distance_rad": 2.013460244146495,
+      "final_position_m": 1.306553913392331,
+      "final_orientation_deg": 165.0143487450803,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4130200,
+        "count": 3,
+        "reason": "timeout",
+        "steps": 240,
+        "accepted_for_bc": false,
+        "position_m": 1.037115427791555,
+        "orientation_deg": 144.79333839634265,
+        "attempt": 0,
+        "route_seed": 35130200,
+        "wall_seconds": 178.68135688800066,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "waiting",
+          "flags": {
+            "waiting": true,
+            "stale_reference": true,
+            "terminal_precision": false
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.55,
+          "zero_command_fraction": 0.5609756097560976,
+          "reference_telemetry_available": true,
+          "reference_index_start": 1,
+          "reference_index_end": 1,
+          "final_reference_distance_rad": 2.3465519663877727,
+          "final_position_m": 1.037115427791555,
+          "final_orientation_deg": 144.79333839634265,
+          "reference_state_inferred": false
+        }
+      },
+      {
+        "seed": 4130200,
+        "count": 3,
+        "reason": "timeout",
+        "steps": 240,
+        "accepted_for_bc": false,
+        "position_m": 1.306553913392331,
+        "orientation_deg": 165.0143487450803,
+        "attempt": 1,
+        "route_seed": 35130201,
+        "wall_seconds": 178.16998383800092,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "waiting",
+          "flags": {
+            "waiting": true,
+            "stale_reference": true,
+            "terminal_precision": false
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.775,
+          "zero_command_fraction": 0.7804878048780488,
+          "reference_telemetry_available": true,
+          "reference_index_start": 1,
+          "reference_index_end": 1,
+          "final_reference_distance_rad": 2.013460244146495,
+          "final_position_m": 1.306553913392331,
+          "final_orientation_deg": 165.0143487450803,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4140000,
+    "count": 4,
+    "reason": "success",
+    "steps": 140,
+    "accepted_for_bc": true,
+    "position_m": 0.009238044289390108,
+    "orientation_deg": 0.7645833248397873,
+    "attempt": 0,
+    "route_seed": 35140000,
+    "wall_seconds": 207.64900216999922,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "success",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": true
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": 0.0,
+      "reference_telemetry_available": true,
+      "reference_index_start": 13,
+      "reference_index_end": 44,
+      "final_reference_distance_rad": 0.054917674523699486,
+      "final_position_m": 0.009238044289390108,
+      "final_orientation_deg": 0.7645833248397873,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4140000,
+        "count": 4,
+        "reason": "success",
+        "steps": 140,
+        "accepted_for_bc": true,
+        "position_m": 0.009238044289390108,
+        "orientation_deg": 0.7645833248397873,
+        "attempt": 0,
+        "route_seed": 35140000,
+        "wall_seconds": 207.64900216999922,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "success",
+          "flags": {
+            "waiting": false,
+            "stale_reference": false,
+            "terminal_precision": true
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 13,
+          "reference_index_end": 44,
+          "final_reference_distance_rad": 0.054917674523699486,
+          "final_position_m": 0.009238044289390108,
+          "final_orientation_deg": 0.7645833248397873,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4130300,
+    "count": 3,
+    "reason": "timeout",
+    "steps": 240,
+    "accepted_for_bc": false,
+    "position_m": 1.4401870483307062,
+    "orientation_deg": 120.6048494820483,
+    "attempt": 1,
+    "route_seed": 35130301,
+    "wall_seconds": 103.40282043400111,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "waiting",
+      "flags": {
+        "waiting": true,
+        "stale_reference": true,
+        "terminal_precision": false
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.5,
+      "zero_command_fraction": 0.5121951219512195,
+      "reference_telemetry_available": true,
+      "reference_index_start": 1,
+      "reference_index_end": 1,
+      "final_reference_distance_rad": 1.369097429237369,
+      "final_position_m": 1.4401870483307062,
+      "final_orientation_deg": 120.6048494820483,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4130300,
+        "count": 3,
+        "reason": "timeout",
+        "steps": 240,
+        "accepted_for_bc": false,
+        "position_m": 0.7621995717724894,
+        "orientation_deg": 54.740608039040765,
+        "attempt": 0,
+        "route_seed": 35130300,
+        "wall_seconds": 160.08526353300113,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "insufficient_progress",
+          "flags": {
+            "waiting": false,
+            "stale_reference": false,
+            "terminal_precision": false
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 1,
+          "reference_index_end": 12,
+          "final_reference_distance_rad": 1.541116708538616,
+          "final_position_m": 0.7621995717724894,
+          "final_orientation_deg": 54.740608039040765,
+          "reference_state_inferred": false
+        }
+      },
+      {
+        "seed": 4130300,
+        "count": 3,
+        "reason": "timeout",
+        "steps": 240,
+        "accepted_for_bc": false,
+        "position_m": 1.4401870483307062,
+        "orientation_deg": 120.6048494820483,
+        "attempt": 1,
+        "route_seed": 35130301,
+        "wall_seconds": 103.40282043400111,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "waiting",
+          "flags": {
+            "waiting": true,
+            "stale_reference": true,
+            "terminal_precision": false
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.5,
+          "zero_command_fraction": 0.5121951219512195,
+          "reference_telemetry_available": true,
+          "reference_index_start": 1,
+          "reference_index_end": 1,
+          "final_reference_distance_rad": 1.369097429237369,
+          "final_position_m": 1.4401870483307062,
+          "final_orientation_deg": 120.6048494820483,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4140200,
+    "count": 4,
+    "reason": "success",
+    "steps": 206,
+    "accepted_for_bc": true,
+    "position_m": 0.0013379154084973601,
+    "orientation_deg": 0.0904218713618721,
+    "attempt": 1,
+    "route_seed": 35140201,
+    "wall_seconds": 215.81936381500054,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "success",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": true
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": 0.0,
+      "reference_telemetry_available": true,
+      "reference_index_start": 1,
+      "reference_index_end": 45,
+      "final_reference_distance_rad": 0.0015821144280696283,
+      "final_position_m": 0.0013379154084973601,
+      "final_orientation_deg": 0.0904218713618721,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4140200,
+        "count": 4,
+        "reason": "timeout",
+        "steps": 240,
+        "accepted_for_bc": false,
+        "position_m": 0.6079398186201322,
+        "orientation_deg": 40.05543236433128,
+        "attempt": 0,
+        "route_seed": 35140200,
+        "wall_seconds": 71.27277632299956,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "waiting",
+          "flags": {
+            "waiting": true,
+            "stale_reference": true,
+            "terminal_precision": false
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.875,
+          "zero_command_fraction": 0.8780487804878049,
+          "reference_telemetry_available": true,
+          "reference_index_start": 15,
+          "reference_index_end": 15,
+          "final_reference_distance_rad": 1.161498897895745,
+          "final_position_m": 0.6079398186201322,
+          "final_orientation_deg": 40.05543236433128,
+          "reference_state_inferred": false
+        }
+      },
+      {
+        "seed": 4140200,
+        "count": 4,
+        "reason": "success",
+        "steps": 206,
+        "accepted_for_bc": true,
+        "position_m": 0.0013379154084973601,
+        "orientation_deg": 0.0904218713618721,
+        "attempt": 1,
+        "route_seed": 35140201,
+        "wall_seconds": 215.81936381500054,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "success",
+          "flags": {
+            "waiting": false,
+            "stale_reference": false,
+            "terminal_precision": true
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 1,
+          "reference_index_end": 45,
+          "final_reference_distance_rad": 0.0015821144280696283,
+          "final_position_m": 0.0013379154084973601,
+          "final_orientation_deg": 0.0904218713618721,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4140100,
+    "count": 4,
+    "reason": "success",
+    "steps": 229,
+    "accepted_for_bc": true,
+    "position_m": 0.00030313613799850733,
+    "orientation_deg": 0.02322525770868912,
+    "attempt": 1,
+    "route_seed": 35140101,
+    "wall_seconds": 245.80047888900117,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "success",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": true
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": 0.0,
+      "reference_telemetry_available": true,
+      "reference_index_start": 32,
+      "reference_index_end": 45,
+      "final_reference_distance_rad": 0.0009696766353440113,
+      "final_position_m": 0.00030313613799850733,
+      "final_orientation_deg": 0.02322525770868912,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4140100,
+        "count": 4,
+        "reason": "collision",
+        "steps": 163,
+        "accepted_for_bc": false,
+        "position_m": 1.7854630976274455,
+        "orientation_deg": 139.23807917738415,
+        "attempt": 0,
+        "route_seed": 35140100,
+        "wall_seconds": 152.4075671699993,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "collision",
+          "flags": {
+            "waiting": true,
+            "stale_reference": true,
+            "terminal_precision": false
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.525,
+          "zero_command_fraction": 0.5121951219512195,
+          "reference_telemetry_available": true,
+          "reference_index_start": 2,
+          "reference_index_end": 2,
+          "final_reference_distance_rad": 0.9931648628574015,
+          "final_position_m": 1.7854630976274455,
+          "final_orientation_deg": 139.23807917738415,
+          "reference_state_inferred": false
+        }
+      },
+      {
+        "seed": 4140100,
+        "count": 4,
+        "reason": "success",
+        "steps": 229,
+        "accepted_for_bc": true,
+        "position_m": 0.00030313613799850733,
+        "orientation_deg": 0.02322525770868912,
+        "attempt": 1,
+        "route_seed": 35140101,
+        "wall_seconds": 245.80047888900117,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "success",
+          "flags": {
+            "waiting": false,
+            "stale_reference": false,
+            "terminal_precision": true
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 32,
+          "reference_index_end": 45,
+          "final_reference_distance_rad": 0.0009696766353440113,
+          "final_position_m": 0.00030313613799850733,
+          "final_orientation_deg": 0.02322525770868912,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4140300,
+    "count": 4,
+    "reason": "collision",
+    "steps": 87,
+    "accepted_for_bc": false,
+    "position_m": 1.7715812287644488,
+    "orientation_deg": 139.1328913351484,
+    "attempt": 1,
+    "route_seed": 35140301,
+    "wall_seconds": 34.50947260599969,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "collision",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": false
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": 0.0,
+      "reference_telemetry_available": true,
+      "reference_index_start": 1,
+      "reference_index_end": 5,
+      "final_reference_distance_rad": 0.16935988158104326,
+      "final_position_m": 1.7715812287644488,
+      "final_orientation_deg": 139.1328913351484,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4140300,
+        "count": 4,
+        "reason": "timeout",
+        "steps": 240,
+        "accepted_for_bc": false,
+        "position_m": 0.5636986615280632,
+        "orientation_deg": 37.1372490629574,
+        "attempt": 0,
+        "route_seed": 35140300,
+        "wall_seconds": 97.86969496600068,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "stale_reference",
+          "flags": {
+            "waiting": false,
+            "stale_reference": true,
+            "terminal_precision": false
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 14,
+          "reference_index_end": 14,
+          "final_reference_distance_rad": 1.4164915529295827,
+          "final_position_m": 0.5636986615280632,
+          "final_orientation_deg": 37.1372490629574,
+          "reference_state_inferred": false
+        }
+      },
+      {
+        "seed": 4140300,
+        "count": 4,
+        "reason": "collision",
+        "steps": 87,
+        "accepted_for_bc": false,
+        "position_m": 1.7715812287644488,
+        "orientation_deg": 139.1328913351484,
+        "attempt": 1,
+        "route_seed": 35140301,
+        "wall_seconds": 34.50947260599969,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "collision",
+          "flags": {
+            "waiting": false,
+            "stale_reference": false,
+            "terminal_precision": false
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 1,
+          "reference_index_end": 5,
+          "final_reference_distance_rad": 0.16935988158104326,
+          "final_position_m": 1.7715812287644488,
+          "final_orientation_deg": 139.1328913351484,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4150007,
+    "count": 5,
+    "reason": "success",
+    "steps": 139,
+    "accepted_for_bc": true,
+    "position_m": 0.006044087433124824,
+    "orientation_deg": 0.39776102584787676,
+    "attempt": 0,
+    "route_seed": 35150007,
+    "wall_seconds": 170.11894757400114,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "success",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": true
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": 0.0,
+      "reference_telemetry_available": true,
+      "reference_index_start": 1,
+      "reference_index_end": 48,
+      "final_reference_distance_rad": 0.06511264090569402,
+      "final_position_m": 0.006044087433124824,
+      "final_orientation_deg": 0.39776102584787676,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4150007,
+        "count": 5,
+        "reason": "success",
+        "steps": 139,
+        "accepted_for_bc": true,
+        "position_m": 0.006044087433124824,
+        "orientation_deg": 0.39776102584787676,
+        "attempt": 0,
+        "route_seed": 35150007,
+        "wall_seconds": 170.11894757400114,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "success",
+          "flags": {
+            "waiting": false,
+            "stale_reference": false,
+            "terminal_precision": true
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 1,
+          "reference_index_end": 48,
+          "final_reference_distance_rad": 0.06511264090569402,
+          "final_position_m": 0.006044087433124824,
+          "final_orientation_deg": 0.39776102584787676,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  },
+  {
+    "seed": 4150105,
+    "count": 5,
+    "reason": "success",
+    "steps": 177,
+    "accepted_for_bc": true,
+    "position_m": 0.00023647401753632875,
+    "orientation_deg": 0.01494269954620369,
+    "attempt": 0,
+    "route_seed": 35150105,
+    "wall_seconds": 285.7815901169997,
+    "uses_global_rrt": false,
+    "diagnosis": {
+      "primary": "success",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": true
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": 0.0,
+      "reference_telemetry_available": true,
+      "reference_index_start": 2,
+      "reference_index_end": 53,
+      "final_reference_distance_rad": 0.00036870003982779657,
+      "final_position_m": 0.00023647401753632875,
+      "final_orientation_deg": 0.01494269954620369,
+      "reference_state_inferred": false
+    },
+    "attempts": [
+      {
+        "seed": 4150105,
+        "count": 5,
+        "reason": "success",
+        "steps": 177,
+        "accepted_for_bc": true,
+        "position_m": 0.00023647401753632875,
+        "orientation_deg": 0.01494269954620369,
+        "attempt": 0,
+        "route_seed": 35150105,
+        "wall_seconds": 285.7815901169997,
+        "uses_global_rrt": false,
+        "diagnosis": {
+          "primary": "success",
+          "flags": {
+            "waiting": false,
+            "stale_reference": false,
+            "terminal_precision": true
+          },
+          "window_steps": 40,
+          "stationary_fraction": 0.0,
+          "zero_command_fraction": 0.0,
+          "reference_telemetry_available": true,
+          "reference_index_start": 2,
+          "reference_index_end": 53,
+          "final_reference_distance_rad": 0.00036870003982779657,
+          "final_position_m": 0.00023647401753632875,
+          "final_orientation_deg": 0.01494269954620369,
+          "reference_state_inferred": false
+        }
+      }
+    ]
+  }
+]

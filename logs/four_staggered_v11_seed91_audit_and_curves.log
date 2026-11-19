@@ -1,0 +1,106 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "report": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/results/diagnostics/four_staggered_dynamic_ppo_v11_seed91",
+  "selected": {
+    "ppo_steps": 0,
+    "curriculum_level": 0,
+    "curriculum_speed": 0.1,
+    "curriculum_amplitude": 0.15,
+    "target": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": null,
+    "legacy_static": null,
+    "mixture": {
+      "episodes": 64,
+      "success": 42,
+      "collision": 19,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 2
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 2
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 20,
+        "collision": 19,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "all_metrics": {
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 36,
+        "collision": 27,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.110": {
+        "episodes": 64,
+        "success": 38,
+        "collision": 25,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.120": {
+        "episodes": 64,
+        "success": 37,
+        "collision": 26,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    }
+  },
+  "test": {
+    "performed": false,
+    "reason": "No validation-improving checkpoint selected; reserved test remains unused"
+  },
+  "verification": {
+    "source_unchanged": true,
+    "archived_code_and_input_hashes_verified": true,
+    "train_evaluation_disjoint": true,
+    "verified_teacher_episodes": 70,
+    "all_accepted_teachers_physically_replayed": true,
+    "initial_expert_pairs": 3948,
+    "final_expert_pairs": 9385,
+    "ppo_completed_episode_steps": 4774,
+    "ppo_unfinished_episode_steps": 226,
+    "paired_mixture_cache_verified": true,
+    "fixed_target_motion_verified": true,
+    "selected_equals_source": true,
+    "independent_test_performed": false,
+    "selected_auxiliary_state_counter_matches": true,
+    "selected_auxiliary_state": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/models/four_staggered_dynamic_ppo_v11_seed91/selected_auxiliary_state.pt",
+    "validation_paired_outcomes": {
+      "success -> success": 37,
+      "collision -> collision": 26,
+      "timeout -> timeout": 1
+    },
+    "rescued_validation_seeds": [],
+    "lost_validation_success_seeds": []
+  }
+}

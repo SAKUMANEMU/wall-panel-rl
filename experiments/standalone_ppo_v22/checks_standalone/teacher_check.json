@@ -1,0 +1,51 @@
+[
+  {
+    "kind": "full_enhanced_teacher",
+    "seed": 1212005,
+    "controller": "enhanced",
+    "reason": "success",
+    "steps": 107,
+    "position_m": 0.0004178947904894479,
+    "orientation_deg": 0.03871375973771148,
+    "wall_seconds": 11.185083841999585,
+    "accepted_for_imitation": true,
+    "reference_preserved": true
+  },
+  {
+    "kind": "student_visited_states",
+    "seed": 1212005,
+    "reason": "collision",
+    "steps": 3,
+    "corrective_labels": 3,
+    "no_safe_label_states": 0,
+    "position_m": 1.824141647571699,
+    "orientation_deg": 148.3270964290689,
+    "trace": [
+      {
+        "step": 1,
+        "teacher_changed_action": true,
+        "teacher_safe_horizon": true,
+        "position_m": 1.8373356111342685,
+        "reference_index": 1,
+        "clearance_m": 0.023426032143175193
+      },
+      {
+        "step": 2,
+        "teacher_changed_action": true,
+        "teacher_safe_horizon": true,
+        "position_m": 1.828456583131068,
+        "reference_index": 1,
+        "clearance_m": 0.004930609037896959
+      },
+      {
+        "step": 3,
+        "teacher_changed_action": true,
+        "teacher_safe_horizon": true,
+        "position_m": 1.824141647571699,
+        "reference_index": 2,
+        "clearance_m": -0.002267120520647772
+      }
+    ],
+    "reference_preserved": true
+  }
+]

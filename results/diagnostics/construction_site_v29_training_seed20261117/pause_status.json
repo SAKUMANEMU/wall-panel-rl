@@ -1,0 +1,114 @@
+{
+  "status": "resumed",
+  "paused_at": "2026-11-17T22:15:53.446563+08:00",
+  "reason": "User requested pause for computer reboot",
+  "process_group": 18165,
+  "verified_processes": [
+    {
+      "pid": 18165,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -u /home/johnsonchen/wall-panel-rl/experiments/construction_site_v29/scripts/run_site_pipeline.py --config /home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training_config.yaml --output /home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117"
+    },
+    {
+      "pid": 18375,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -u /home/johnsonchen/wall-panel-rl/experiments/construction_site_v29/scripts/run_variable_training.py --config /home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training_config.yaml --scenes /home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/scenes --output /home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training"
+    },
+    {
+      "pid": 18391,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.resource_tracker import main;main(7)"
+    },
+    {
+      "pid": 18392,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=8, pipe_handle=12) --multiprocessing-fork"
+    },
+    {
+      "pid": 18395,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=8, pipe_handle=14) --multiprocessing-fork"
+    },
+    {
+      "pid": 22081,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=8, pipe_handle=20) --multiprocessing-fork"
+    },
+    {
+      "pid": 22082,
+      "state": "T",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=8, pipe_handle=20) --multiprocessing-fork"
+    }
+  ],
+  "status_at_pause": {
+    "pipeline_status.json": {
+      "status": "running",
+      "pid": 18165,
+      "started_at": "2026-11-17T18:12:51.005085+08:00",
+      "output": "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117",
+      "config": "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training_config.yaml",
+      "phase": "train_and_evaluate",
+      "updated_at": "2026-11-17T18:16:02.902648+08:00",
+      "child_pid": 18375,
+      "command": [
+        "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+        "-u",
+        "/home/johnsonchen/wall-panel-rl/experiments/construction_site_v29/scripts/run_variable_training.py",
+        "--config",
+        "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training_config.yaml",
+        "--scenes",
+        "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/scenes",
+        "--output",
+        "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training"
+      ],
+      "resumed_at": "2026-11-17T21:40:02.495797+08:00"
+    },
+    "training/status.json": {
+      "status": "running",
+      "pid": 18375,
+      "started_at": "2026-11-17T18:16:04.022090+08:00",
+      "phase": "evaluate_ppo_32768",
+      "updated_at": "2026-11-17T22:15:24.703902+08:00",
+      "evaluation_completed": 10,
+      "evaluation_planned": 16,
+      "teacher_completed": 12,
+      "teacher_planned": 12,
+      "successful_teacher_episodes": 4,
+      "teacher_transitions": 407,
+      "bc_updates": 1000,
+      "bc_updates_planned": 1000,
+      "bc_loss": 0.008019843138754368,
+      "ppo_steps_completed": 32768,
+      "ppo_steps_planned": 65536,
+      "ppo_episodes": 423,
+      "training_counts": {
+        "2": {
+          "success": 0,
+          "collision": 97,
+          "timeout": 0,
+          "joint_limit": 0
+        },
+        "3": {
+          "success": 0,
+          "collision": 117,
+          "timeout": 1,
+          "joint_limit": 0
+        },
+        "4": {
+          "success": 0,
+          "collision": 70,
+          "timeout": 26,
+          "joint_limit": 0
+        },
+        "5": {
+          "success": 0,
+          "collision": 103,
+          "timeout": 9,
+          "joint_limit": 0
+        }
+      }
+    }
+  },
+  "resumed_at": "2026-11-18T00:02:04.273298+08:00",
+  "resume_pid": 4235
+}

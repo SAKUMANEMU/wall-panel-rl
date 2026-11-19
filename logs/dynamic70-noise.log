@@ -1,0 +1,128 @@
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+ppo_noise alignment 10000 fps 632.1
+ppo_noise alignment 20000 fps 624.4
+ppo_noise alignment 30000 fps 603.0
+ppo_noise alignment 40000 fps 578.2
+/home/johnsonchen/wall-panel-rl/.conda-env/lib/python3.11/site-packages/stable_baselines3/common/save_util.py:284: UserWarning: Path 'models/dynamic70_study/ppo_noise/checkpoints' does not exist. Will create it.
+  warnings.warn(f"Path '{path.parent}' does not exist. Will create it.")
+ppo_noise alignment 50000 fps 565.8
+ppo_noise alignment 60000 fps 551.9
+ppo_noise alignment 70000 fps 543.2
+ppo_noise alignment 80000 fps 548.7
+ppo_noise alignment 90000 fps 550.0
+ppo_noise alignment 100000 fps 545.9
+ppo_noise alignment 110000 fps 541.7
+ppo_noise alignment 120000 fps 538.5
+ppo_noise alignment 130000 fps 537.4
+ppo_noise alignment 140000 fps 542.3
+ppo_noise alignment 150000 fps 542.0
+ppo_noise alignment 160000 fps 536.5
+ppo_noise alignment 170000 fps 531.6
+ppo_noise alignment 180000 fps 528.1
+ppo_noise alignment 190000 fps 523.5
+ppo_noise alignment 200000 fps 523.6
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+ppo_noise static 210000 fps 433.5
+ppo_noise static 220000 fps 417.0
+ppo_noise static 230000 fps 416.9
+ppo_noise static 240000 fps 430.7
+ppo_noise static 250000 fps 431.8
+ppo_noise static 260000 fps 428.3
+ppo_noise static 270000 fps 427.3
+ppo_noise static 280000 fps 425.9
+ppo_noise static 290000 fps 430.4
+ppo_noise static 300000 fps 436.8
+ppo_noise static 310000 fps 437.0
+ppo_noise static 320000 fps 437.5
+ppo_noise static 330000 fps 437.6
+ppo_noise static 340000 fps 439.7
+ppo_noise static 350000 fps 441.9
+ppo_noise static 360000 fps 441.0
+ppo_noise static 370000 fps 440.5
+ppo_noise static 380000 fps 439.8
+ppo_noise static 390000 fps 441.9
+ppo_noise static 400000 fps 441.4
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+ppo_noise dynamic 410000 fps 394.9
+ppo_noise dynamic 420000 fps 393.4
+ppo_noise dynamic 430000 fps 407.5
+ppo_noise dynamic 440000 fps 408.7
+validation {'steps': 450000, 'success_rate': 0.0, 'mean_reward': 79.4338869606144}
+ppo_noise dynamic 450000 fps 401.7
+ppo_noise dynamic 460000 fps 397.0
+ppo_noise dynamic 470000 fps 395.8
+ppo_noise dynamic 480000 fps 401.4
+ppo_noise dynamic 490000 fps 399.2
+validation {'steps': 500000, 'success_rate': 0.0, 'mean_reward': 97.83738008040227}
+ppo_noise dynamic 500000 fps 389.7
+ppo_noise dynamic 510000 fps 391.1
+ppo_noise dynamic 520000 fps 397.1
+ppo_noise dynamic 530000 fps 397.1
+ppo_noise dynamic 540000 fps 396.9
+validation {'steps': 550000, 'success_rate': 0.0, 'mean_reward': 149.59008273260287}
+ppo_noise dynamic 550000 fps 390.2
+ppo_noise dynamic 560000 fps 391.7
+ppo_noise dynamic 570000 fps 391.3
+ppo_noise dynamic 580000 fps 391.2
+ppo_noise dynamic 590000 fps 392.2
+validation {'steps': 600000, 'success_rate': 0.0, 'mean_reward': 151.5604815686839}
+ppo_noise dynamic 600000 fps 388.5
+ppo_noise dynamic 610000 fps 388.2
+ppo_noise dynamic 620000 fps 387.6
+ppo_noise dynamic 630000 fps 389.7
+ppo_noise dynamic 640000 fps 390.2
+validation {'steps': 650000, 'success_rate': 0.0, 'mean_reward': 158.75660553315896}
+ppo_noise dynamic 650000 fps 385.6
+ppo_noise dynamic 660000 fps 385.6
+ppo_noise dynamic 670000 fps 386.2
+ppo_noise dynamic 680000 fps 388.4
+ppo_noise dynamic 690000 fps 388.5
+validation {'steps': 700000, 'success_rate': 0.0, 'mean_reward': 159.51944417962724}
+ppo_noise dynamic 700000 fps 385.5
+ppo_noise dynamic 710000 fps 386.5
+ppo_noise dynamic 720000 fps 387.4
+ppo_noise dynamic 730000 fps 389.3
+ppo_noise dynamic 740000 fps 391.8
+validation {'steps': 750000, 'success_rate': 0.0, 'mean_reward': 146.88088456509954}
+ppo_noise dynamic 750000 fps 390.2
+ppo_noise dynamic 760000 fps 391.1
+ppo_noise dynamic 770000 fps 392.0
+ppo_noise dynamic 780000 fps 393.2
+ppo_noise dynamic 790000 fps 394.2
+validation {'steps': 800000, 'success_rate': 0.0, 'mean_reward': 80.33772881704306}
+ppo_noise dynamic 800000 fps 394.7
+ppo_noise dynamic 810000 fps 397.1
+ppo_noise dynamic 820000 fps 398.7
+ppo_noise dynamic 830000 fps 399.6
+ppo_noise dynamic 840000 fps 400.7
+validation {'steps': 850000, 'success_rate': 0.0, 'mean_reward': 106.66969144097857}
+ppo_noise dynamic 850000 fps 399.8
+ppo_noise dynamic 860000 fps 400.8
+ppo_noise dynamic 870000 fps 402.3
+ppo_noise dynamic 880000 fps 403.3
+ppo_noise dynamic 890000 fps 404.1
+validation {'steps': 900000, 'success_rate': 0.0, 'mean_reward': 163.82315791770117}
+ppo_noise dynamic 900000 fps 402.8
+ppo_noise dynamic 910000 fps 404.0
+ppo_noise dynamic 920000 fps 405.8
+ppo_noise dynamic 930000 fps 406.7
+ppo_noise dynamic 940000 fps 407.5
+validation {'steps': 950000, 'success_rate': 0.0, 'mean_reward': 170.77602527624236}
+ppo_noise dynamic 950000 fps 406.0
+ppo_noise dynamic 960000 fps 406.8
+ppo_noise dynamic 970000 fps 407.5
+ppo_noise dynamic 980000 fps 408.4
+ppo_noise dynamic 990000 fps 409.7
+validation {'steps': 1000000, 'success_rate': 0.0, 'mean_reward': 129.71975108135626}
+ppo_noise dynamic 1000000 fps 408.5
+FINISHED models/dynamic70_study/ppo_noise 1000000

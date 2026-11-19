@@ -1,0 +1,25 @@
+#{"t_start": 1793339378.8783884, "env_id": "None"}
+r,l,t,termination_reason,curriculum_task,reward_stall
+16.230979,23,17.197121,collision,static,0.0
+302.710791,62,17.507267,success,static,0.0
+-37.09767,9,17.55225,collision,alignment,0.0
+110.823919,3,17.568769,success,alignment,0.0
+107.586966,6,17.603616,success,alignment,0.0
+16.833843,21,17.706165,collision,static,0.0
+178.929895,240,18.76482,timeout,static,0.0
+129.33344,52,19.029435,collision,static,0.0
+101.03014,44,19.256046,collision,static,0.0
+21.057498,23,19.373866,collision,static,0.0
+21.452192,24,19.502426,collision,static,0.0
+181.623455,240,20.421718,timeout,static,0.0
+182.948695,240,21.397625,timeout,static,0.0
+174.690837,240,22.333185,timeout,static,0.0
+185.882947,240,37.919093,timeout,static,0.0
+107.483194,101,38.508504,collision,static,0.0
+305.238116,58,38.801291,success,static,0.0
+54.732133,216,40.003332,collision,static,0.0
+64.598497,46,40.240563,collision,static,0.0
+301.579715,64,40.562175,success,static,0.0
+121.476341,52,40.865532,collision,static,0.0
+148.670418,240,42.098568,timeout,static,0.0
+305.601839,52,42.380998,success,static,0.0

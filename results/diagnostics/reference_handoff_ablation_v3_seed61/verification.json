@@ -1,0 +1,9 @@
+{
+  "source_model_unchanged": true,
+  "source_terminal_radius_still": 0.2,
+  "all_policy_tensor_fingerprints_match": true,
+  "case_and_code_hashes_unchanged": true,
+  "training_performed": false,
+  "default_configuration_changed": false,
+  "both_treatments_rejected": true
+}

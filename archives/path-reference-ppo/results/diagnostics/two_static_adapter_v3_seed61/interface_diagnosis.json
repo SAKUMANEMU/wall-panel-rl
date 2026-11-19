@@ -1,0 +1,21 @@
+{
+  "training_rows": 6073,
+  "batch_rows": 2048,
+  "second_present_fraction": 1.0,
+  "second_relative_position_std": [
+    0.5805885195732117,
+    0.3364410698413849,
+    0.2400856912136078
+  ],
+  "teacher_action_mse": 0.01555582880973816,
+  "base_saturation_fraction": 0.0,
+  "base_change_when_second_moved_15cm": 0.0,
+  "base_change_when_slots_swapped": 0.02329288236796856,
+  "prior_gate_mean": 0.0847439169883728,
+  "residual_abs_mean": 0.2774648666381836,
+  "gradient_norms_new_input_columns": {
+    "residual.0.weight": 0.0258822962641716,
+    "prior_gate.0.weight": 0.0029103225097060204
+  },
+  "finding": "Second slot is populated; gradients are nonzero. Zero-initialized source ignores it. Frozen downstream layers restrict adaptation; swapping changes frozen base response."
+}

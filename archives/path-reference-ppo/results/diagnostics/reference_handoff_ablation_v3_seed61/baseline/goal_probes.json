@@ -1,0 +1,12 @@
+[
+  {
+    "obstacle_present": false,
+    "initial_success": true,
+    "max_action": 1.707800038275309e-06
+  },
+  {
+    "obstacle_present": true,
+    "initial_success": true,
+    "max_action": 1.7077998109016335e-06
+  }
+]

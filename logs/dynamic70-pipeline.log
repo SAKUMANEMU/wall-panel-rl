@@ -1,0 +1,4 @@
+{'phase': 'preparing', 'updated_unix': 1792737680.699908}
+{'phase': 'pilot', 'updated_unix': 1792737920.7040527, 'budget': 50000}
+{'phase': 'formal_training', 'updated_unix': 1792738006.7670429, 'pilot': {'steps': 50000, 'elapsed_seconds': 84.15474510192871, 'seed': 42, 'phases': [['alignment', 40000], ['static', 5000], ['dynamic', 5000]], 'pilot': True}, 'budget_per_condition': 1000000}
+{'phase': 'evaluation', 'updated_unix': 1792740336.7996888, 'episodes': 600}

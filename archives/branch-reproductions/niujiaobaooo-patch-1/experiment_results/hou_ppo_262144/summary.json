@@ -1,0 +1,36 @@
+{
+  "run_id": "ppo_static_100k_confirmed_20261027_eval100",
+  "training_run": "ppo_static_100k_confirmed_20261027",
+  "evaluation_model": "models/ppo_static_100k_confirmed_20261027/best/best_model.zip",
+  "evaluation_config": "results/raw/ppo_static_100k_confirmed_20261027_eval100/config.yaml",
+  "evaluation_seed_start": 10000,
+  "evaluation_seed_end": 10099,
+  "episodes": 100,
+  "success_count": 57,
+  "success_rate_percent": 57.0,
+  "collision_count": 14,
+  "collision_rate_percent": 14.0,
+  "joint_limit_violation_count": 0,
+  "timeout_or_other_failure_count": 29,
+  "mean_episode_reward": 95.03127939646492,
+  "mean_episode_length_steps": 67.47,
+  "failure_reasons": {
+    "collision": 14,
+    "joint_limit_violation": 0,
+    "timeout_or_other": 29
+  },
+  "training": {
+    "requested_additional_timesteps": 100000,
+    "actual_additional_timesteps": 100352,
+    "starting_timesteps": 161792,
+    "total_model_timesteps": 262144,
+    "wall_clock_seconds": 464.02,
+    "additional_steps_per_second": 216.2665402353347,
+    "validation_best_checkpoint_timestep": 231792,
+    "best_checkpoint_validation_mean_reward": 149.6219002,
+    "best_checkpoint_validation_std_reward": 5.844248002333452
+  },
+  "checkpoint_sha256": "9c0b5dc2bf67f8696fdbb4735d240663db9fc12c1f5551624a4f075fcee9cd67",
+  "evaluation_noise": "clean",
+  "environment": "Stage C static obstacles; PyBullet DIRECT; ppo_env Python 3.10.12"
+}

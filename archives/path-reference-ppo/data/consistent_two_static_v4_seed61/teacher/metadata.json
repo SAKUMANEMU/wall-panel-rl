@@ -1,0 +1,10 @@
+{
+  "parent_selected_episodes": 138,
+  "removed_old_two_static_training_episodes": 118,
+  "episodes": 419,
+  "transitions": 17805,
+  "correction_priority_start": 320,
+  "source_sha256": "ae43f92d88d91a74d05944d2f38027a73586534b7ae071676e6913f994948880",
+  "new_sha256": "93f1ed98188a332c4480962ecebd5afb5b028d30ad7c91d4c2bac4169e7c5a98",
+  "teacher_sha256": "290a918af242a76e242af90a3760e7b4ec7e246d204745b4a7ba3702d6b0ace6"
+}

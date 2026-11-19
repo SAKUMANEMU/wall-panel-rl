@@ -1,0 +1,13 @@
+{
+  "pid": 6198,
+  "cwd": "/home/johnsonchen/wall-panel-rl/experiments/variable_weaving_large_v27",
+  "script": "/home/johnsonchen/wall-panel-rl/results/diagnostics/variable_weaving_large_v27_seed20261116/retrain_pipeline.py",
+  "output": "/home/johnsonchen/wall-panel-rl/results/diagnostics/variable_weaving_large_v27_seed20261116",
+  "started_at": "2026-11-16T00:29:40.162114+08:00",
+  "stages": [
+    "scene_generation",
+    "BC_warm_start",
+    "PPO_65536_steps",
+    "independent_evaluation"
+  ]
+}

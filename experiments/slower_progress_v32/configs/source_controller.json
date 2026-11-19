@@ -1,0 +1,51 @@
+{
+  "selected": {
+    "horizon": 12
+  },
+  "gains": [
+    1.0,
+    0.75,
+    0.4,
+    0.0,
+    -0.25,
+    -0.75
+  ],
+  "recovery": {
+    "minimum_step": 40,
+    "window": 16,
+    "minimum_progress": 0.012,
+    "cooldown": 12,
+    "maximum_rescues": 6,
+    "horizon": 60,
+    "commit_steps": 8,
+    "goal_gains": [
+      0.4,
+      0.7,
+      1.0
+    ],
+    "joint_bias": 0.4,
+    "minimum_predicted_gain": 0.015,
+    "protect_baseline_success": true,
+    "allow_temporary_detour": false
+  },
+  "controller": "PPO + predictive safety + local progress recovery",
+  "pure_ppo": false,
+  "weights_changed": false,
+  "comparison_report": "results/diagnostics/four_progress_recovery_v14_seed121",
+  "recovery_strategy": "installation_v31",
+  "installation": {
+    "enabled": true,
+    "maximum_rejoin_distance_rad": 0.65,
+    "wait_steps": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "minimum_task_gain": 0.02,
+    "finish_horizon": 80,
+    "terminal_position_m": 0.12,
+    "deadline_remaining_steps": 64,
+    "finish_retry_steps": 12
+  }
+}

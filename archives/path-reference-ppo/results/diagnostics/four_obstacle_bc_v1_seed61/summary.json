@@ -1,0 +1,120 @@
+{
+  "baseline": {
+    "four": {
+      "episodes": 32,
+      "success": 4,
+      "collision": 28,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "two": {
+      "episodes": 20,
+      "success": 15,
+      "collision": 4,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "one": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 18,
+        "collision": 0,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "one_rows_identical": true
+  },
+  "selected_bc": {
+    "update": 25,
+    "training_mse": {
+      "four_static": 0.022037655115127563,
+      "two_static": 0.00023198813141789287,
+      "one_static": 2.4952258865325478e-17,
+      "alignment": 0.0
+    },
+    "four": {
+      "episodes": 32,
+      "success": 7,
+      "collision": 25,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "two": {
+      "episodes": 20,
+      "success": 16,
+      "collision": 4,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "one": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 18,
+        "collision": 0,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "one_rows_identical": true,
+    "score": [
+      1,
+      -25,
+      7,
+      0
+    ],
+    "eligible": true
+  },
+  "bc_updates_run": 1000,
+  "ppo_started": false,
+  "ppo_steps": 0,
+  "ready_for_ppo_pilot": false,
+  "learned_validation_gain": true,
+  "frozen_state_unchanged": true,
+  "zero_one_actions_identical": true,
+  "test_used_for_selection": false,
+  "new_test_evaluated": false,
+  "source_unchanged": true,
+  "default_model_preserved": true,
+  "selected_model_sha256": "5a98adb8b9accd8f0180372212f8d30a82e64710385b27bde1bd8f77cfee67ef",
+  "final_candidate_sha256": "653c3275885a43eeff851a7c8aecdb4647a5608eb5f0ca0663ff227a01d2d405",
+  "training_pool_sha256": "604641e03237dd2330798c4c8aa9042923213c3b6a7749ab05f690c2b37d2856"
+}

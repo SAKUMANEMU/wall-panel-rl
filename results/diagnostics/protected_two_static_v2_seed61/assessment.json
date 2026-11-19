@@ -1,0 +1,9 @@
+{
+  "candidate_validation_eligible": false,
+  "two_holdout_passed": true,
+  "one_regression_safety_not_worse": true,
+  "two_updated_ppo_checks_passed": false,
+  "two_task_ready": false,
+  "dynamic_progression_ready": false,
+  "default_model_preserved": true
+}

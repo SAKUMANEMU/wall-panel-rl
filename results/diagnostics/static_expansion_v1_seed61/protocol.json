@@ -1,0 +1,32 @@
+{
+  "study": {
+    "source_report": "results/diagnostics/episode_rrt_ppo_v1_seed61",
+    "initial_model": "results/diagnostics/episode_rrt_ppo_v1_seed61/selected_model.zip",
+    "base_training_config": "configs/episode_rrt_ppo.yaml",
+    "raw_validation": "data/staged_avoidance_v3_seed61/one_static/validation_full.json",
+    "alignment_validation": "data/staged_avoidance_v3_seed61/one_static/validation_staged.json",
+    "data_root": "data/static_expansion_v1_seed61",
+    "report_root": "results/diagnostics/static_expansion_v1_seed61",
+    "three_training_config": "configs/static_three_rrt_ppo.yaml",
+    "three_output_root": "models/static_three_rrt_ppo_v1_seed61",
+    "three_report_root": "results/diagnostics/static_three_rrt_ppo_v1_seed61",
+    "fresh_seed_start": 1006000,
+    "fresh_targets": 100,
+    "maximum_generation_attempts": 300,
+    "ppo_steps": 10000,
+    "ppo_eval_every": 5000,
+    "seed": 61
+  },
+  "source_sha256": "e13b364d121c333087893d631c4ca42786ebc731be1cb239512434cc0b5979fd",
+  "training_and_selection_do_not_receive_fresh_banks": true,
+  "one_fresh_gate": {
+    "minimum_episodes": 20,
+    "minimum_alignment_episodes": 10,
+    "minimum_success_rate": 0.8,
+    "maximum_collision_rate": 0.1,
+    "minimum_alignment_success_rate": 0.9,
+    "consecutive_checks": 2
+  },
+  "auxiliary_optimizer_fresh_for_three_stage": true,
+  "placement_rejections_reported_without_policy_or_expert_filtering": true
+}

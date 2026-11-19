@@ -1,0 +1,24 @@
+{
+  "seed": 1144002,
+  "reason": "success",
+  "steps": 70,
+  "position_m": 0.0005366311052735686,
+  "orientation_deg": 0.039325327082685504,
+  "anchor_height_span_m": 0.4757749296074321,
+  "upward_travel_m": 0.8037781699534345,
+  "downward_travel_m": 0.5570684354996019,
+  "reference_departure_up_m": 0.6204101041266208,
+  "reference_departure_down_m": 0.000258013929433365,
+  "recovery_actions": 0,
+  "scope": "Eight development scenes; reused source references; not an independent success-rate estimate",
+  "selection": "Successful example maximizing measured two-sided vertical departure from reference",
+  "outcomes": {
+    "success": 8,
+    "collision": 0,
+    "timeout": 0
+  },
+  "model_weights_changed": false,
+  "optimizer_updates": 0,
+  "real_step_limit": 240,
+  "profile": "configs/four_vertical_weave.yaml"
+}

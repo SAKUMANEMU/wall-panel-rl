@@ -1,0 +1,1 @@
+Archived tests assert the old 77-observation interface and frozen v27/earlier checkpoint metrics. Run the unchanged active copies from their original experiment folders. They are retained here for reference; v28 tests the new 167-observation interface separately.

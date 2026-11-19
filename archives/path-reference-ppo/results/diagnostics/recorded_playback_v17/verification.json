@@ -1,0 +1,35 @@
+{
+  "recording": "results/replays/vertical_1144004.json",
+  "recording_sha256": "609076cff7ec9f8f4b4d8df8295f3074dcbb3d760f1f4c5223b5028fc2420e6b",
+  "real_frames": 119,
+  "physical_steps": 118,
+  "same_outcome_errors_actions_and_all_recorded_poses_as_v16": true,
+  "all_joint_panel_orientation_and_four_obstacle_poses_verified": true,
+  "playback_no_physical_steps": true,
+  "replay_process_imported_no_torch_or_sb3": true,
+  "model_weights_unchanged": true,
+  "tests": {
+    "new_replay_tests": 5,
+    "historical_demo_regressions": 2,
+    "all_passed": true
+  },
+  "scope": "Playback engineering check, not a new success-rate evaluation",
+  "code_hashes": {
+    "scripts/demo_autonomous_ppo.py": "0009bb323dc1beb3c146965351ccca325f1712b7a166a0732e5d8a4f3b563a50",
+    "scripts/replay_episode.py": "522e813bc842627145f9b80b9d37a183d8498bcca2c0396d6d6b07fe688f29c7",
+    "src/wall_panel_rl/visualization/__init__.py": "0965385686765ee40982b21ac56bb0b9af7967bfc43b0b61a02fdc297ef40d4b",
+    "src/wall_panel_rl/visualization/episode_replay.py": "4ece903085c2f51266e4a7a56998ec35e3198c104b48a0ca9d639125596a0a21",
+    "tests/test_episode_replay.py": "ba2454063219454812be4254eaaf0a67dcfefa16937a4ce4403f3a4b508cc663",
+    "docs/RECORDED_PLAYBACK.md": "02d5f2897a557f681833ea422b55bbdc11d239e715c836deef562c73e163249d"
+  },
+  "graphical_playback": {
+    "requested_fps": 60.0,
+    "target_playback_duration_s": 9.833333333333309,
+    "playback_wall_s": 9.841933631000302,
+    "scheduled_frames": 591,
+    "presented_frames": 591,
+    "skipped_frames": 0,
+    "mean_pose_update_ms": 4.936983588830458,
+    "completed": true
+  }
+}

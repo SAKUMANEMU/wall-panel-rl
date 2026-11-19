@@ -1,0 +1,172 @@
+{
+  "ppo_transitions": 5000,
+  "rrt_transitions": 4771,
+  "verification_replay_transitions": 4291,
+  "rollout_physics_transitions": 9771,
+  "total_training_and_replay_physics": 14062,
+  "episode_starts": {
+    "rrt": 63,
+    "ppo": 64
+  },
+  "completed_by_controller": {
+    "rrt": {
+      "success": 58,
+      "timeout": 2,
+      "planning_failure": 3
+    },
+    "ppo": {
+      "success": 34,
+      "collision": 20,
+      "timeout": 6
+    }
+  },
+  "completed_by_task": {
+    "dynamic": 113,
+    "static": 10
+  },
+  "verified_expert_episodes": 58,
+  "bc_auxiliary_updates": 5,
+  "bc_rejected_updates": 0,
+  "bc_total_accepted_updates": 9,
+  "bc_total_rejected_updates": 0,
+  "bc_restoration": {
+    "restored": true,
+    "source_state": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/models/four_dynamic_speed_v9_fast02_seed71/auxiliary_bc/final_aux_state.pt",
+    "source_state_sha256": "bc6078f25f9326924c456227a9afc1a8f4253a8a8f25fe6868108f3c2cf4f208",
+    "ppo_counter": 64000,
+    "pool_size": 4267,
+    "accepted_updates": 4,
+    "rejected_updates": 0,
+    "optimizer_sha256": "af11d2c3a04ef3c897a16242207203092c3de9d1a7685f407af56c1394bcfbf5",
+    "rng_sha256": "1ef60759742f79d23c6e92ee788db8134d193ce43ed9142983a393a05d4d5341",
+    "weights_unchanged_by_restoration": true
+  },
+  "selected": {
+    "ppo_steps": 2000,
+    "curriculum_level": 1,
+    "curriculum_speed": 0.075,
+    "curriculum_amplitude": 0.125,
+    "target": {
+      "episodes": 64,
+      "success": 55,
+      "collision": 9,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": {
+      "episodes": 64,
+      "success": 53,
+      "collision": 10,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "legacy_static": {
+      "episodes": 64,
+      "success": 57,
+      "collision": 7,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 6,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 1
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 1
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 34,
+        "collision": 6,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      55,
+      -9,
+      0
+    ],
+    "all_metrics": {
+      "dynamic_0.075": {
+        "episodes": 64,
+        "success": 56,
+        "collision": 8,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 55,
+        "collision": 9,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "static_frozen": {
+        "episodes": 64,
+        "success": 53,
+        "collision": 10,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "legacy_static": {
+        "episodes": 64,
+        "success": 57,
+        "collision": 7,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    }
+  },
+  "selected_equals_source": false,
+  "source_unchanged": true,
+  "independent_test": {
+    "performed": true,
+    "source": {
+      "episodes": 100,
+      "success": 76,
+      "collision": 19,
+      "timeout": 5,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "selected": {
+      "episodes": 100,
+      "success": 76,
+      "collision": 20,
+      "timeout": 4,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "selected_ppo_steps": 2000,
+    "paired": {
+      "collision -> collision": 19,
+      "success -> success": 75,
+      "timeout -> timeout": 4,
+      "timeout -> success": 1,
+      "success -> collision": 1
+    },
+    "no_tuning_after_test": true
+  },
+  "default_model_preserved": true,
+  "final_curriculum_level": 2
+}

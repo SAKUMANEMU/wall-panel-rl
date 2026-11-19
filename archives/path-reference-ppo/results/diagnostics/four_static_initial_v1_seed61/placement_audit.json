@@ -1,0 +1,802 @@
+[
+  {
+    "seed": 1018000,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.20355061872485047
+  },
+  {
+    "seed": 1018001,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2754719367469513
+  },
+  {
+    "seed": 1018002,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.3721249171730047
+  },
+  {
+    "seed": 1018003,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2637346170068154
+  },
+  {
+    "seed": 1018004,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2838372327337654
+  },
+  {
+    "seed": 1018005,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.30231931150180225
+  },
+  {
+    "seed": 1018006,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.26096292585103126
+  },
+  {
+    "seed": 1018007,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.27732793379901843
+  },
+  {
+    "seed": 1018008,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.22250554956610474
+  },
+  {
+    "seed": 1018009,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2518009577078882
+  },
+  {
+    "seed": 1018010,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2361062310113808
+  },
+  {
+    "seed": 1018011,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.27290175396818306
+  },
+  {
+    "seed": 1018012,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2941283987445575
+  },
+  {
+    "seed": 1018013,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.25804648971600375
+  },
+  {
+    "seed": 1018014,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.31933500133067383
+  },
+  {
+    "seed": 1018015,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.34128981213740806
+  },
+  {
+    "seed": 1018016,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.3082819457447055
+  },
+  {
+    "seed": 1018017,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.22746626027809955
+  },
+  {
+    "seed": 1018018,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.4171573139317523
+  },
+  {
+    "seed": 1018019,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.30056325508657217
+  },
+  {
+    "seed": 1018020,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.26400748795334456
+  },
+  {
+    "seed": 1018021,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2506737528115391
+  },
+  {
+    "seed": 1018022,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2773767785835261
+  },
+  {
+    "seed": 1018023,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.26256150199824513
+  },
+  {
+    "seed": 1018024,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.24922174656832594
+  },
+  {
+    "seed": 1018025,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2711007334599605
+  },
+  {
+    "seed": 1018026,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2698357029193854
+  },
+  {
+    "seed": 1018027,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.3109540218775696
+  },
+  {
+    "seed": 1018028,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2734797580626738
+  },
+  {
+    "seed": 1018029,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2799452120316128
+  },
+  {
+    "seed": 1018030,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.254496509432386
+  },
+  {
+    "seed": 1018031,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.266942891022015
+  },
+  {
+    "seed": 1018032,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.30534427471981196
+  },
+  {
+    "seed": 1018033,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.27557524868888167
+  },
+  {
+    "seed": 1018034,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.30036519536536654
+  },
+  {
+    "seed": 1018035,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.32202671475490746
+  },
+  {
+    "seed": 1018036,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.3032973358780596
+  },
+  {
+    "seed": 1018037,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.25609875604108795
+  },
+  {
+    "seed": 1018038,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.25796831292535594
+  },
+  {
+    "seed": 1018039,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.28408139613397093
+  },
+  {
+    "seed": 1018040,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.30205574939309365
+  },
+  {
+    "seed": 1018041,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2589431897242458
+  },
+  {
+    "seed": 1018042,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2733274845957646
+  },
+  {
+    "seed": 1018043,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.29345926465814215
+  },
+  {
+    "seed": 1018044,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.27735536659824955
+  },
+  {
+    "seed": 1018045,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.30671864866893417
+  },
+  {
+    "seed": 1018046,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.26981468234854433
+  },
+  {
+    "seed": 1018047,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2703602079135216
+  },
+  {
+    "seed": 1018048,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.27360596051949304
+  },
+  {
+    "seed": 1018049,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.28783940604084246
+  },
+  {
+    "seed": 1018050,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.24305397658455155
+  },
+  {
+    "seed": 1018051,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.24639398257079012
+  },
+  {
+    "seed": 1018052,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.24666039407045817
+  },
+  {
+    "seed": 1018053,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2894597587375377
+  },
+  {
+    "seed": 1018054,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.25281301327474737
+  },
+  {
+    "seed": 1018055,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.26188018681014613
+  },
+  {
+    "seed": 1018056,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.283619169585557
+  },
+  {
+    "seed": 1018057,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.3011833126817531
+  },
+  {
+    "seed": 1018058,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.24117681495806037
+  },
+  {
+    "seed": 1018059,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.27608482792406386
+  },
+  {
+    "seed": 1018060,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.32946331161319836
+  },
+  {
+    "seed": 1018061,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.24880770040298444
+  },
+  {
+    "seed": 1018062,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2518419230086421
+  },
+  {
+    "seed": 1018063,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.27826200980824406
+  },
+  {
+    "seed": 1018064,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.24807071636769906
+  },
+  {
+    "seed": 1018065,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.24663488100531705
+  },
+  {
+    "seed": 1018066,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.25116238408272307
+  },
+  {
+    "seed": 1018067,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.25609182138036274
+  },
+  {
+    "seed": 1018068,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.26487167418096
+  },
+  {
+    "seed": 1018069,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.26026067348114224
+  },
+  {
+    "seed": 1018070,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2797261115016229
+  },
+  {
+    "seed": 1018071,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.24349363839282673
+  },
+  {
+    "seed": 1018072,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2444704596333319
+  },
+  {
+    "seed": 1018073,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.3045226292330891
+  },
+  {
+    "seed": 1018074,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.23778300032117453
+  },
+  {
+    "seed": 1018075,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.22064270375959427
+  },
+  {
+    "seed": 1018076,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2778579749351935
+  },
+  {
+    "seed": 1018077,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2660145201293052
+  },
+  {
+    "seed": 1018078,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.25568504135063075
+  },
+  {
+    "seed": 1018079,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.24474110099180352
+  },
+  {
+    "seed": 1018080,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.30219377374444567
+  },
+  {
+    "seed": 1018081,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.23640742689902738
+  },
+  {
+    "seed": 1018082,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.29281080530968134
+  },
+  {
+    "seed": 1018083,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2545971076103304
+  },
+  {
+    "seed": 1018084,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2869055924402761
+  },
+  {
+    "seed": 1018085,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.25290611876390723
+  },
+  {
+    "seed": 1018086,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.3451780664537096
+  },
+  {
+    "seed": 1018087,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2478574772666556
+  },
+  {
+    "seed": 1018088,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.27575080084536163
+  },
+  {
+    "seed": 1018089,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.265659963993807
+  },
+  {
+    "seed": 1018090,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2826623786878566
+  },
+  {
+    "seed": 1018091,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.3216089494373433
+  },
+  {
+    "seed": 1018092,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2760069776029944
+  },
+  {
+    "seed": 1018093,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.3068151057128494
+  },
+  {
+    "seed": 1018094,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.30791326444720823
+  },
+  {
+    "seed": 1018095,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2555267284547291
+  },
+  {
+    "seed": 1018096,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.28402993321779224
+  },
+  {
+    "seed": 1018097,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2949789033922465
+  },
+  {
+    "seed": 1018098,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2360272844723988
+  },
+  {
+    "seed": 1018099,
+    "obstacles": 4,
+    "static": true,
+    "start_valid": true,
+    "goal_valid": true,
+    "minimum_box_gap_m": 0.2186505601359276
+  }
+]

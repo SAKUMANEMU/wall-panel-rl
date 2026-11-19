@@ -1,0 +1,30 @@
+{
+  "pid": 14110,
+  "process_group": 14110,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "/home/johnsonchen/wall-panel-rl/experiments/installation_first_v31/scripts/run_site_pipeline.py",
+    "--config",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118/training_config.yaml",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118",
+    "--existing-scenes",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118/scenes"
+  ],
+  "started_at": "2026-11-18T18:50:37.399496+08:00",
+  "source_model_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+  "bc_updates_max": 500,
+  "ppo_steps_if_bc_improves": 8192,
+  "teacher_quotas": {
+    "2": 2,
+    "3": 4,
+    "4": 4,
+    "5": 2
+  },
+  "fresh_test_scenes": 8,
+  "source_is_v29_selected_model": true,
+  "regression_tests_passed": 42,
+  "teacher_interface_check_passed": true,
+  "actual_reference_escape_reproduction_passed": true
+}

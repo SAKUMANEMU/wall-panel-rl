@@ -1,0 +1,163 @@
+{
+  "frozen_source_files_checked": 45,
+  "frozen_source_files_changed": [],
+  "model_sha256": "9dde7d9e800bd70afa2f8ac98357abed2ad8778b579f7823c187937040ae76b1",
+  "validated_layouts": [
+    {
+      "layout_seed": 1231416,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.11138402893370863,
+        "maximum_swept_z_m": 1.132449976332661,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    },
+    {
+      "layout_seed": 1231417,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.1518459808325851,
+        "maximum_swept_z_m": 0.9619164087702832,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    },
+    {
+      "layout_seed": 1231418,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.22773067171446693,
+        "maximum_swept_z_m": 1.1012323042779246,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    },
+    {
+      "layout_seed": 1231419,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.17103765229174692,
+        "maximum_swept_z_m": 1.0930384827090718,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    },
+    {
+      "layout_seed": 1231420,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.1594807932647568,
+        "maximum_swept_z_m": 1.0335055681226988,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    },
+    {
+      "layout_seed": 1231421,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.059588695932837416,
+        "maximum_swept_z_m": 1.1292232658692785,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    },
+    {
+      "layout_seed": 1231422,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.09306258321958916,
+        "maximum_swept_z_m": 1.1981714950791493,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    },
+    {
+      "layout_seed": 1231423,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.15551974476050812,
+        "maximum_swept_z_m": 1.0259616043954498,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    },
+    {
+      "layout_seed": 1231424,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.08357172648334327,
+        "maximum_swept_z_m": 1.2014211353569029,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    },
+    {
+      "layout_seed": 1231425,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.145336787294455,
+        "maximum_swept_z_m": 0.9841213880219802,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    },
+    {
+      "layout_seed": 1231426,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.15449373450945636,
+        "maximum_swept_z_m": 0.9821873506944049,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    },
+    {
+      "layout_seed": 1231427,
+      "start_target_and_policy_reference_unchanged": true,
+      "four_dynamic_obstacles": true,
+      "workspace": {
+        "minimum_swept_z_m": 0.05127196394271627,
+        "maximum_swept_z_m": 1.1005654757572794,
+        "allowed_z_bounds_m": [
+          0.02,
+          1.65
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "completed": true,
+  "episodes": 40,
+  "transitions": 339,
+  "teacher_sha256": "4556675495bb4ebb2cbb8091a869fd445fe341098e63bc353fe7932760c8948d",
+  "model_sha256": "cbe26edc2a25fc1f58c779fbeec3e99b0627a316d67f773182697ff56b0b1824",
+  "training_scenes_only": true,
+  "prefixes_are_not_labels": true,
+  "fixed_endpoint_expert": true,
+  "settings": {
+    "source_first": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+    "output_root": "models/bc_budget_v3_seed61",
+    "data_root": "data/staged_avoidance_v3_seed61",
+    "interface_contract": "reference_preserving_v3",
+    "terminal_radius": 0.2,
+    "reference_recovery": {
+      "radius": 0.3,
+      "min_distance": 0.08,
+      "improvement": 0.02
+    },
+    "environment": "configs/ppo_dynamic_clean.yaml",
+    "release": "releases/path_reference_bc_20261025",
+    "seed": 61,
+    "additional_timesteps": 10000,
+    "workers": 4,
+    "n_steps": 250,
+    "batch_size": 100,
+    "n_epochs": 3,
+    "learning_rate": 0.0001,
+    "clip_range": 0.05,
+    "target_kl": 0.005,
+    "eval_every": 5000,
+    "residual_scale": 2.0,
+    "initial_prior_gate": 0.5,
+    "action_std": 0.1,
+    "progress_weight": 0.25,
+    "joint_margin": 0.01,
+    "clearance_distance": 0.08,
+    "clearance_weight": 0.5,
+    "mixture": {
+      "alignment": 0.2,
+      "static": 0.3,
+      "dynamic": 0.5
+    },
+    "train_scenes": 64,
+    "validation_scenes": 20,
+    "train_seed_base": 800000,
+    "validation_seed_base": 900000,
+    "teacher": {
+      "alignment_episodes": 20,
+      "avoidance_episodes": 80,
+      "maximum_attempts": 500,
+      "minimum_unique_scenes": 10,
+      "updates": 10000,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "terminal_weight": 2.0,
+      "gate_retention_weight": 0.01,
+      "residual_weight": 0.001,
+      "closed_loop_updates": [
+        2000,
+        4000,
+        6000,
+        8000,
+        10000
+      ]
+    },
+    "bc_gate": {
+      "minimum_episodes": 20,
+      "minimum_alignment_episodes": 10,
+      "minimum_success_rate": 0.5,
+      "maximum_collision_rate": 0.25,
+      "minimum_alignment_success_rate": 0.9,
+      "maximum_goal_action": 0.005
+    },
+    "gate": {
+      "minimum_episodes": 20,
+      "minimum_alignment_episodes": 10,
+      "minimum_success_rate": 0.8,
+      "maximum_collision_rate": 0.1,
+      "minimum_alignment_success_rate": 0.9,
+      "consecutive_checks": 2
+    },
+    "stages": [
+      {
+        "name": "one_static",
+        "count": 1,
+        "mode": "static",
+        "amplitude": 0.05,
+        "speed": 0.02
+      },
+      {
+        "name": "one_dynamic",
+        "count": 1,
+        "mode": "dynamic",
+        "amplitude": 0.05,
+        "speed": 0.02
+      },
+      {
+        "name": "three_dynamic",
+        "count": 3,
+        "mode": "dynamic",
+        "amplitude": 0.1,
+        "speed": 0.05
+      },
+      {
+        "name": "five_dynamic_low",
+        "count": 5,
+        "mode": "dynamic",
+        "amplitude": 0.1,
+        "speed": 0.05
+      },
+      {
+        "name": "five_dynamic_full",
+        "count": 5,
+        "mode": "dynamic",
+        "amplitude": 0.4,
+        "speed": 0.4
+      }
+    ],
+    "active_stage": {
+      "name": "one_static",
+      "count": 1,
+      "mode": "static",
+      "amplitude": 0.05,
+      "speed": 0.02
+    },
+    "stage_index": 0,
+    "train_start_seed": 800000,
+    "validation_start_seed": 900000,
+    "data": "data/staged_avoidance_v3_seed61/one_static",
+    "stage_output": "models/targeted_bc_v3_seed61/targeted_mix",
+    "output": "models/targeted_bc_v3_seed61/targeted_mix/ppo",
+    "source_model": "models/waypoint_ppo_pilot_seed61/best_model.zip"
+  },
+  "environment_config": {
+    "simulation": {
+      "timestep": 0.004166666666666667,
+      "substeps": 12,
+      "max_steps": 240,
+      "gravity": -9.81
+    },
+    "robot": {
+      "urdf": "assets/robot/kuka_iiwa/model.urdf",
+      "end_effector": 6,
+      "goal_q": [
+        0.0,
+        0.65,
+        0.0,
+        -1.3,
+        0.0,
+        -0.38,
+        0.0
+      ],
+      "start_offset": [
+        2.65,
+        0.9,
+        0.0,
+        1.15,
+        0.0,
+        0.25,
+        0.0
+      ],
+      "start_randomization": 0.03,
+      "near_start_probability": 0.0,
+      "near_start_randomization": 0.035,
+      "start_position_distance_range": [
+        1.8,
+        1.9
+      ]
+    },
+    "panel": {
+      "dimensions": [
+        0.3,
+        0.2,
+        0.03
+      ],
+      "mass": 0.25,
+      "offset": [
+        0.0,
+        0.0,
+        0.14
+      ],
+      "orientation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "target": {
+      "position_tolerance": 0.01,
+      "orientation_tolerance_deg": 2.0,
+      "wall_clearance": 0.025,
+      "wall_thickness": 0.04
+    },
+    "controller": {
+      "max_joint_increment_deg": 4.0,
+      "position_gain": 0.3,
+      "velocity_gain": 1.0,
+      "force": 250.0
+    },
+    "collision": {
+      "margin": 0.0,
+      "planning_clearance": 0.005,
+      "edge_resolution": 0.035
+    },
+    "obstacles": {
+      "stage": "C",
+      "max_count": 5,
+      "min_count": 5,
+      "dimensions": [
+        0.12,
+        0.12,
+        0.18
+      ],
+      "center": [
+        0.5,
+        0.25,
+        0.35
+      ],
+      "randomization": [
+        0.22,
+        0.3,
+        0.22
+      ],
+      "max_placement_attempts": 360,
+      "dimensions_by_obstacle": [
+        [
+          0.08,
+          0.08,
+          0.1
+        ],
+        [
+          0.1,
+          0.09,
+          0.13
+        ],
+        [
+          0.12,
+          0.1,
+          0.16
+        ],
+        [
+          0.09,
+          0.12,
+          0.14
+        ],
+        [
+          0.14,
+          0.12,
+          0.18
+        ]
+      ],
+      "min_obstacle_gap": 0.1,
+      "dynamic": {
+        "enabled": true,
+        "placement": "rrt_path",
+        "motion_mode": "random_3d",
+        "amplitude": 0.4,
+        "max_speed": 0.4,
+        "lateral_offset": 0.0
+      },
+      "freeze_motion": false
+    },
+    "noise": {
+      "position_std": 0.0,
+      "orientation_std_deg": 0.0
+    },
+    "reward": {
+      "position_progress": 100.0,
+      "orientation_progress": 12.0,
+      "action": 0.015,
+      "step": 0.05,
+      "collision": -50.0,
+      "joint_limit": -30.0,
+      "success": 100.0
+    },
+    "ppo": {
+      "learning_rate": 0.0003,
+      "n_steps": 250,
+      "batch_size": 100,
+      "n_epochs": 10,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip_range": 0.2,
+      "ent_coef": 0.0,
+      "log_std_init": -1.0,
+      "net_arch": [
+        128,
+        128
+      ],
+      "total_timesteps": 1000000,
+      "eval_freq": 50000,
+      "eval_episodes": 10
+    },
+    "rrt": {
+      "step_size": 0.22,
+      "goal_bias": 0.15,
+      "max_iterations": 6000,
+      "timeout": 15.0,
+      "shortcut_attempts": 40,
+      "ik_attempts": 12,
+      "ik_iterations": 200,
+      "ik_position_tolerance": 0.004,
+      "ik_orientation_tolerance_deg": 1.0,
+      "waypoint_tolerance": 0.008,
+      "dynamic_mode": "timed",
+      "timed_timeout": 30.0,
+      "dynamic_lookahead_steps": 3,
+      "dynamic_retry_steps": 5
+    },
+    "seed": 42,
+    "evaluation": {
+      "episodes": 100,
+      "start_seed": 50000
+    },
+    "demo": {
+      "playback_speed": 0.5,
+      "camera_distance": 2.8,
+      "camera_target": [
+        0.0,
+        0.0,
+        0.6
+      ]
+    },
+    "observation": {
+      "obstacle_velocity": true
+    }
+  },
+  "warmup_steps": [
+    140,
+    160,
+    147,
+    134,
+    160,
+    160,
+    160,
+    145,
+    157,
+    145,
+    133,
+    157,
+    157,
+    157,
+    133,
+    152,
+    157,
+    124,
+    154,
+    145,
+    145,
+    130,
+    145,
+    137,
+    145,
+    145,
+    133,
+    133,
+    157,
+    133,
+    160,
+    121,
+    133,
+    121,
+    121,
+    121,
+    121,
+    133,
+    154,
+    121
+  ]
+}

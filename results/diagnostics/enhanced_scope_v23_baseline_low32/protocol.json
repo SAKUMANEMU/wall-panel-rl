@@ -1,0 +1,138 @@
+{
+  "mode": "enhanced",
+  "episodes": 32,
+  "model_sha256": "9dde7d9e800bd70afa2f8ac98357abed2ad8778b579f7823c187937040ae76b1",
+  "selection_seed": 181,
+  "assignments": [
+    {
+      "seed": 1225004,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225006,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225010,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225015,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225022,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225025,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225034,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225050,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225055,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225056,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225060,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225071,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225075,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225076,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225079,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225095,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225104,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225108,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225113,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225114,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225130,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225145,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225162,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225174,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225180,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225194,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225204,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225210,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225217,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225219,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225221,
+      "mode": "enhanced"
+    },
+    {
+      "seed": 1225224,
+      "mode": "enhanced"
+    }
+  ],
+  "training_performed": false,
+  "source_results_overwritten": false
+}

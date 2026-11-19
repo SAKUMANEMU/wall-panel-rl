@@ -1,0 +1,17 @@
+{
+  "attempts": 285,
+  "accepted": 64,
+  "rejected": 220,
+  "unused_valid_candidates": 1,
+  "rejection_reasons": {
+    "Could not fit four motion-safe anchors in the original path intervals": 202,
+    "Final height stagger too small after the O2 translation": 11,
+    "Cannot build a complete nominal route: timeout": 5,
+    "Obstacle motion bounds violate sparse box spacing": 2
+  },
+  "accepted_preliminary_outcomes": {
+    "success": 64
+  },
+  "minimum_final_height_span_m": 0.35704414238858684,
+  "minimum_final_adjacent_height_delta_m": 0.14034722182932602
+}

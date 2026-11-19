@@ -1,0 +1,13 @@
+{
+  "collision_episodes": 79,
+  "episodes_by_contact_category": {
+    "panel / obstacle": 72,
+    "arm / obstacle": 5,
+    "panel / wall": 2
+  },
+  "unit": "episodes with at least one contact in category; categories may overlap",
+  "unknown_episodes": 0,
+  "substep_replayed_episodes": 22,
+  "train_only": true,
+  "optimizer_updates": 0
+}

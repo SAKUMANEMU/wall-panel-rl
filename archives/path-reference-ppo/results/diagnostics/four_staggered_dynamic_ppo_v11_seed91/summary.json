@@ -1,0 +1,125 @@
+{
+  "ppo_transitions": 5000,
+  "rrt_transitions": 5881,
+  "verification_replay_transitions": 5641,
+  "rollout_physics_transitions": 10881,
+  "total_training_and_replay_physics": 16522,
+  "episode_starts": {
+    "rrt": 80,
+    "ppo": 96
+  },
+  "completed_by_controller": {
+    "rrt": {
+      "planning_failure": 8,
+      "success": 71,
+      "timeout": 1
+    },
+    "ppo": {
+      "collision": 62,
+      "success": 28,
+      "timeout": 2
+    }
+  },
+  "completed_by_task": {
+    "dynamic": 172
+  },
+  "verified_expert_episodes": 70,
+  "bc_auxiliary_updates": 5,
+  "bc_rejected_updates": 0,
+  "bc_total_accepted_updates": 5,
+  "bc_total_rejected_updates": 0,
+  "bc_restoration": {
+    "restored": true,
+    "source_state": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/models/four_staggered_dynamic_bc_v11_seed91/selected_auxiliary_state.pt",
+    "source_state_sha256": "d63c6fd1c856263bed85590c45b1ccc8abe4c3bf644ed565b7d4bd8ea8960196",
+    "ppo_counter": 64000,
+    "pool_size": 3948,
+    "accepted_updates": 0,
+    "rejected_updates": 0,
+    "optimizer_sha256": "0d89fde5f16ab47aa947a532b471d9d22304c2be8d89915b4185cf60f82cbff7",
+    "rng_sha256": "8f01b5e59611b759b57cd4fcfee2a66487c8b9f415e2c78797fcc3b8d62c642c",
+    "weights_unchanged_by_restoration": true
+  },
+  "selected": {
+    "ppo_steps": 0,
+    "curriculum_level": 0,
+    "curriculum_speed": 0.1,
+    "curriculum_amplitude": 0.15,
+    "target": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": null,
+    "legacy_static": null,
+    "mixture": {
+      "episodes": 64,
+      "success": 42,
+      "collision": 19,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 2
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 2
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 20,
+        "collision": 19,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "all_metrics": {
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 36,
+        "collision": 27,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.110": {
+        "episodes": 64,
+        "success": 38,
+        "collision": 25,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.120": {
+        "episodes": 64,
+        "success": 37,
+        "collision": 26,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    }
+  },
+  "selected_equals_source": true,
+  "source_unchanged": true,
+  "independent_test": {
+    "performed": false,
+    "reason": "No validation-improving checkpoint selected; reserved test remains unused"
+  },
+  "default_model_preserved": true,
+  "final_curriculum_level": 0
+}

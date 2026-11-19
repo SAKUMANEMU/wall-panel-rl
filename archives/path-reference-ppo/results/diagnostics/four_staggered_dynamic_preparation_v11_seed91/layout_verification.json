@@ -1,0 +1,12 @@
+{
+  "layouts": 356,
+  "all_dynamic": true,
+  "alternating_vertical_offsets": true,
+  "vertical_offset_abs_range_m": [
+    0.030025712557921747,
+    0.06999096468385252
+  ],
+  "minimum_anchor_height_span_m": 0.15057982453736313,
+  "minimum_adjacent_height_difference_m": 0.040006398416550626,
+  "maximum_analytic_speed_norm_m_s": 0.11867471593399097
+}

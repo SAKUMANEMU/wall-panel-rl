@@ -1,0 +1,9 @@
+{
+  "episodes": 100,
+  "transitions": {
+    "success -> success": 82,
+    "collision -> collision": 6,
+    "success -> collision": 5,
+    "timeout -> timeout": 7
+  }
+}

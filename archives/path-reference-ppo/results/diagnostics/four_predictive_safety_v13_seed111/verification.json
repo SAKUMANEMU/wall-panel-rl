@@ -1,0 +1,19 @@
+{
+  "archived_code_and_frozen_inputs_verified": true,
+  "model_source_unchanged": true,
+  "optimizer_updates": 0,
+  "controller_is_pure_ppo": false,
+  "parameter_selection_train_only": true,
+  "original_validation_successes_unchanged": true,
+  "independent_test_performed": true,
+  "all_original_test_successes_unchanged": true,
+  "common_rrt_rows_identical": true,
+  "validation_paired_outcomes": {
+    "success -> success": 37,
+    "collision -> timeout": 7,
+    "collision -> success": 19,
+    "timeout -> timeout": 1
+  },
+  "selected_horizon": 12,
+  "discarded_prediction_steps": 110514
+}

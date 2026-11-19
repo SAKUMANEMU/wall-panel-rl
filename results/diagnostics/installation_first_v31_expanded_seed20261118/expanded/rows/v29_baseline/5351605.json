@@ -1,0 +1,83 @@
+{
+  "seed": 5351605,
+  "controller": "enhanced",
+  "reason": "success",
+  "steps": 118,
+  "position_m": 0.0001719868151312599,
+  "orientation_deg": 0.011612131967030584,
+  "reward": 295.8294425300077,
+  "zero_command_steps": 0,
+  "stationary_steps": 0,
+  "wall_seconds": 234.7838700530001,
+  "physics_elapsed_s": 5.899999999999985,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 2,
+  "recovery_actions": 78,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "collision",
+      "baseline_short_cost": 2.0296495918739192,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          3,
+          5
+        ],
+        [
+          0.4,
+          0.4
+        ]
+      ],
+      "predicted_end_cost": 1.9190901492344137,
+      "predicted_gain": 0.11055944263950557,
+      "plan_steps": 60
+    },
+    {
+      "step": 94,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.010012038275823,
+      "accepted": true,
+      "mode": "goal",
+      "parameter": 1.0,
+      "predicted_end_cost": 0.00019630720745135221,
+      "predicted_gain": 2.0098157310683717,
+      "plan_steps": 24
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 35804,
+  "vertical_plan_events": [],
+  "installation_events": [],
+  "passage_count": 0,
+  "success_with_weaving": false,
+  "arm": "v29_baseline",
+  "obstacle_count": 5,
+  "model_key": "v29",
+  "controller_key": "old",
+  "case_sha256": "7e8492cf4cb27769c1d3aebf1941a41786c4b9f5bec681d97bbb54a76dbf9448",
+  "max_obstacle_speed_m_s": 0.20313112999390653,
+  "model_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+  "runtime_sha256": "07f9ed1f2e60a65dc5b97b3459ce5b8e59c29c75e6b529a3f75a7ec171cee5f6",
+  "timeout_diagnosis": {
+    "primary": "success",
+    "flags": {
+      "waiting": false,
+      "stale_reference": false,
+      "terminal_precision": true
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.0,
+    "zero_command_fraction": 0.0,
+    "reference_telemetry_available": true,
+    "reference_index_start": 3,
+    "reference_index_end": 44,
+    "final_reference_distance_rad": 0.00020667144281622077,
+    "final_position_m": 0.0001719868151312599,
+    "final_orientation_deg": 0.011612131967030584,
+    "reference_state_inferred": false
+  }
+}

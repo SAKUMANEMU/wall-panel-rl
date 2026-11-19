@@ -1,0 +1,440 @@
+[
+  {
+    "ppo_steps": 0,
+    "curriculum_level": 0,
+    "curriculum_speed": 0.1,
+    "curriculum_amplitude": 0.15,
+    "target": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": null,
+    "legacy_static": null,
+    "mixture": {
+      "episodes": 64,
+      "success": 42,
+      "collision": 19,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 2
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 2
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 20,
+        "collision": 19,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "all_metrics": {
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 36,
+        "collision": 27,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.110": {
+        "episodes": 64,
+        "success": 38,
+        "collision": 25,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.120": {
+        "episodes": 64,
+        "success": 37,
+        "collision": 26,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "next_curriculum_level": 0
+  },
+  {
+    "ppo_steps": 1000,
+    "curriculum_level": 0,
+    "curriculum_speed": 0.1,
+    "curriculum_amplitude": 0.15,
+    "target": {
+      "episodes": 64,
+      "success": 36,
+      "collision": 27,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": null,
+    "legacy_static": null,
+    "mixture": {
+      "episodes": 64,
+      "success": 43,
+      "collision": 18,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 2
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 2
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 21,
+        "collision": 18,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      0,
+      36,
+      -27,
+      -1
+    ],
+    "all_metrics": {
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 35,
+        "collision": 27,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.120": {
+        "episodes": 64,
+        "success": 36,
+        "collision": 27,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "advance_gate": {
+      "passed": false,
+      "checks": {
+        "current": false,
+        "target": false
+      }
+    },
+    "next_curriculum_level": 0
+  },
+  {
+    "ppo_steps": 2000,
+    "curriculum_level": 0,
+    "curriculum_speed": 0.1,
+    "curriculum_amplitude": 0.15,
+    "target": {
+      "episodes": 64,
+      "success": 35,
+      "collision": 28,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": null,
+    "legacy_static": null,
+    "mixture": {
+      "episodes": 64,
+      "success": 42,
+      "collision": 19,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 2
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 2
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 20,
+        "collision": 19,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      0,
+      35,
+      -28,
+      -1
+    ],
+    "all_metrics": {
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 34,
+        "collision": 27,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.120": {
+        "episodes": 64,
+        "success": 35,
+        "collision": 28,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "advance_gate": {
+      "passed": false,
+      "checks": {
+        "current": false,
+        "target": false
+      }
+    },
+    "next_curriculum_level": 0
+  },
+  {
+    "ppo_steps": 3000,
+    "curriculum_level": 0,
+    "curriculum_speed": 0.1,
+    "curriculum_amplitude": 0.15,
+    "target": {
+      "episodes": 64,
+      "success": 36,
+      "collision": 27,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": null,
+    "legacy_static": null,
+    "mixture": {
+      "episodes": 64,
+      "success": 42,
+      "collision": 19,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 2
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 2
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 20,
+        "collision": 19,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      0,
+      36,
+      -27,
+      -1
+    ],
+    "all_metrics": {
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 34,
+        "collision": 28,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.120": {
+        "episodes": 64,
+        "success": 36,
+        "collision": 27,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "advance_gate": {
+      "passed": false,
+      "checks": {
+        "current": false,
+        "target": false
+      }
+    },
+    "next_curriculum_level": 0
+  },
+  {
+    "ppo_steps": 4000,
+    "curriculum_level": 0,
+    "curriculum_speed": 0.1,
+    "curriculum_amplitude": 0.15,
+    "target": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": null,
+    "legacy_static": null,
+    "mixture": {
+      "episodes": 64,
+      "success": 42,
+      "collision": 19,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 2
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 2
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 20,
+        "collision": 19,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "all_metrics": {
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 33,
+        "collision": 28,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.120": {
+        "episodes": 64,
+        "success": 37,
+        "collision": 26,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "advance_gate": {
+      "passed": false,
+      "checks": {
+        "current": false,
+        "target": true
+      }
+    },
+    "next_curriculum_level": 0
+  },
+  {
+    "ppo_steps": 5000,
+    "curriculum_level": 0,
+    "curriculum_speed": 0.1,
+    "curriculum_amplitude": 0.15,
+    "target": {
+      "episodes": 64,
+      "success": 36,
+      "collision": 27,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": null,
+    "legacy_static": null,
+    "mixture": {
+      "episodes": 64,
+      "success": 42,
+      "collision": 19,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 2
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 2
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 20,
+        "collision": 19,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      0,
+      36,
+      -27,
+      -1
+    ],
+    "all_metrics": {
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 36,
+        "collision": 26,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.120": {
+        "episodes": 64,
+        "success": 36,
+        "collision": 27,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "next_curriculum_level": 0
+  }
+]

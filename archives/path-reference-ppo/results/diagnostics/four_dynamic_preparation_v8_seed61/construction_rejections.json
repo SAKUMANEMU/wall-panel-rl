@@ -1,0 +1,416 @@
+[
+  {
+    "split": "train",
+    "seed": 1020000,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1020004,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds overlap the start or goal"
+  },
+  {
+    "split": "train",
+    "seed": 1020008,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "train",
+    "seed": 1020011,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1020024,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1020049,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "train",
+    "seed": 1020053,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1020054,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1020062,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030012,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030014,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030021,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030026,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030032,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030038,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "train",
+    "seed": 1030048,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "train",
+    "seed": 1030051,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030052,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030057,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "train",
+    "seed": 1030058,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "train",
+    "seed": 1030069,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030074,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030076,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030086,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "train",
+    "seed": 1030087,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds overlap the start or goal"
+  },
+  {
+    "split": "train",
+    "seed": 1030088,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030092,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "train",
+    "seed": 1030093,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "train",
+    "seed": 1030099,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1030102,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1050004,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "train",
+    "seed": 1050006,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1050008,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1050028,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1050030,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "train",
+    "seed": 1050032,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "validation",
+    "seed": 1062003,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "validation",
+    "seed": 1062006,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "validation",
+    "seed": 1062008,
+    "stage": "nominal_reference",
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "split": "validation",
+    "seed": 1062021,
+    "stage": "nominal_reference",
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "split": "validation",
+    "seed": 1062028,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "validation",
+    "seed": 1062031,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "validation",
+    "seed": 1062037,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "validation",
+    "seed": 1062038,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "validation",
+    "seed": 1062040,
+    "stage": "nominal_reference",
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "split": "validation",
+    "seed": 1062043,
+    "stage": "nominal_reference",
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "split": "validation",
+    "seed": 1062047,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "validation",
+    "seed": 1062058,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "validation",
+    "seed": 1062069,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "validation",
+    "seed": 1062072,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "validation",
+    "seed": 1062073,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "validation",
+    "seed": 1062080,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064000,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064006,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064010,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064016,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064023,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064041,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064043,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064050,
+    "stage": "nominal_reference",
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064062,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064065,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064067,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064079,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064080,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064088,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064102,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064108,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1064114,
+    "stage": "geometry",
+    "reason": "Obstacle motion bounds intersect the wall"
+  }
+]

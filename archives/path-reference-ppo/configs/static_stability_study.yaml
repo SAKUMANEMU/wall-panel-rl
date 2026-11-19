@@ -1,0 +1,10 @@
+# One continuation only. No reward/hyperparameter changes, no dynamic training.
+parent_report: /home/johnsonchen/wall-panel-rl/results/diagnostics/clearance_ppo_v3_seed61
+initial_model: models/clearance_ppo_v3_seed61/wall_feedback/ppo/best_model.zip
+base_scenes: data/staged_avoidance_v3_seed61/one_static
+regression_cases: data/clearance_ppo_v3_seed61/independent_cases.json
+output_root: models/static_stability_v3_seed61
+report_root: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61
+ppo_steps: 10000
+ppo_eval_every: 5000
+ppo_learning_rate: 0.0001

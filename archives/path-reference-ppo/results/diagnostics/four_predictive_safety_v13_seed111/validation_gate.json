@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "source": {
+    "episodes": 64,
+    "success": 37,
+    "collision": 26,
+    "timeout": 1,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "safety": {
+    "episodes": 64,
+    "success": 56,
+    "collision": 0,
+    "timeout": 8,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "original_successes_preserved": true,
+  "horizon": 12,
+  "locked_before_test": true
+}

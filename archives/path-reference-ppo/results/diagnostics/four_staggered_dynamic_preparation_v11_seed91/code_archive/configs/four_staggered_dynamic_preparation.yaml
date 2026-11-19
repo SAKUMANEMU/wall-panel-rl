@@ -1,0 +1,80 @@
+source_report: results/diagnostics/four_dynamic_speed_v9_fast02_seed71
+source_model: results/diagnostics/four_dynamic_speed_v9_fast02_seed71/selected_model.zip
+source_data: data/four_expanded_v5_seed61
+motion_profile: configs/four_staggered_dynamic_scene.yaml
+data_root: data/four_staggered_dynamic_v11_seed91
+model_root: models/four_staggered_dynamic_ppo_v11_seed91
+report_root: results/diagnostics/four_staggered_dynamic_ppo_v11_seed91
+preparation_report: results/diagnostics/four_staggered_dynamic_preparation_v11_seed91
+seed: 91
+train_count: 192
+validation_count: 64
+test_count: 100
+new_train_seed: 1110000
+validation_seed: 1122000
+test_seed: 1124000
+preparation_workers: 4
+expert_probability: 0.5
+static_probability: 0.0
+curriculum_speeds:
+- 0.1
+- 0.11
+- 0.12
+steps: 5000
+evaluate_every: 1000
+workers: 4
+n_steps: 250
+batch_size: 100
+n_epochs: 3
+learning_rate: 3.0e-06
+clip_range: 0.05
+target_kl: 0.005
+vf_coef: 0.1
+reward_scale: 0.01
+hard_training_fraction: 0.25
+independent_test_only_on_validation_improvement: true
+auxiliary_bc:
+  weight: 0.05
+  learning_rate: 1.0e-06
+  updates_per_rollout: 1
+  batch_size: 64
+  capacity: 50000
+  maximum_kl: 0.003
+  checkpoint_every: 1000
+resume_auxiliary_state: models/four_dynamic_speed_v9_fast02_seed71/auxiliary_bc/final_aux_state.pt
+evaluation_seed: 61
+validation_target_speed: 0.12
+run_independent_test: true
+source_train_cases: data/four_large_motion_v10_seed81/train_cases.json
+source_sampling_file: data/four_large_motion_v10_seed81/sampling.json
+curriculum_amplitudes:
+- 0.15
+- 0.165
+- 0.18
+validation_target_amplitude: 0.18
+exclude_case_banks:
+- results/diagnostics/four_dynamic_faster_preflight_v1_seed61/cases.json
+- results/diagnostics/four_dynamic_faster_preflight_v2_seed61/cases.json
+- data/four_large_motion_v10_seed81/validation_cases.json
+- data/four_large_motion_v10_seed81/test_cases.json
+dynamic_only: true
+warmup:
+  report_root: results/diagnostics/four_staggered_dynamic_bc_v11_seed91
+  model_root: models/four_staggered_dynamic_bc_v11_seed91
+  teacher_episodes: 48
+  teacher_attempts: 120
+  teacher_workers: 4
+  phase_variants: 3
+  updates: 200
+  checkpoints:
+  - 0
+  - 25
+  - 50
+  - 100
+  - 200
+  learning_rate: 1.0e-05
+  batch_size: 128
+  head_probability: 0.5
+  head_steps: 8
+  maximum_step_kl: 0.003
+  maximum_source_kl: 0.02

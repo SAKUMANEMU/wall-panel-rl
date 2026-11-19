@@ -1,0 +1,21 @@
+[
+  {
+    "seed": 1209000,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "seed": 1209001,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "seed": 1209002,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "seed": 1209003,
+    "geometry_valid": true
+  }
+]

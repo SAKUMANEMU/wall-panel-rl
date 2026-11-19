@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "baseline": {
+    "episodes": 64,
+    "success": 56,
+    "collision": 0,
+    "timeout": 8,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "recovery": {
+    "episodes": 64,
+    "success": 62,
+    "collision": 0,
+    "timeout": 2,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "old_successes_preserved": true,
+  "locked_before_test": true
+}

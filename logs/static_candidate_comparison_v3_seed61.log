@@ -1,0 +1,34 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "mode": "run",
+  "study": {
+    "parent_report": "/home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61",
+    "retained_model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/selected_model.zip",
+    "candidate_model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/final_candidate_unselected.zip",
+    "validation_cases": "data/staged_avoidance_v3_seed61/one_static/validation_staged.json",
+    "known_cases": "data/clearance_ppo_v3_seed61/independent_cases.json",
+    "data_root": "data/static_candidate_comparison_v3_seed61",
+    "report_root": "/home/johnsonchen/wall-panel-rl/results/diagnostics/static_candidate_comparison_v3_seed61",
+    "independent_start_seed": 1002000,
+    "independent_scenes": 100,
+    "maximum_generation_attempts": 1000,
+    "diagnostic_horizon": 480
+  }
+}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "validation_diagnosis", "updated_at": "2026-10-30T14:42:45.469978+08:00", "model": "retained"}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "validation_diagnosis", "updated_at": "2026-10-30T14:42:51.014746+08:00", "model": "candidate"}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T14:43:22.263487+08:00", "model": "candidate", "generated": 10}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T14:43:40.134351+08:00", "model": "candidate", "generated": 20}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T14:43:59.292215+08:00", "model": "candidate", "generated": 30}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T14:44:15.582798+08:00", "model": "candidate", "generated": 40}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T14:44:34.019599+08:00", "model": "candidate", "generated": 50}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T14:44:50.759146+08:00", "model": "candidate", "generated": 60}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T14:45:08.214378+08:00", "model": "candidate", "generated": 70}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T14:45:23.505426+08:00", "model": "candidate", "generated": 80}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T14:45:39.612675+08:00", "model": "candidate", "generated": 90}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T14:45:55.559474+08:00", "model": "candidate", "generated": 100}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "expanded_evaluation", "updated_at": "2026-10-30T14:45:55.791158+08:00", "model": "retained", "generated": 100, "bank": "known"}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "expanded_evaluation", "updated_at": "2026-10-30T14:46:16.614872+08:00", "model": "candidate", "generated": 100, "bank": "known"}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "expanded_evaluation", "updated_at": "2026-10-30T14:46:38.519479+08:00", "model": "retained", "generated": 100, "bank": "fresh"}
+COMPARE {"status": "running", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "expanded_evaluation", "updated_at": "2026-10-30T14:46:59.478120+08:00", "model": "candidate", "generated": 100, "bank": "fresh"}
+COMPARE {"status": "completed", "runner_pid": 37550, "started_at": "2026-10-30T14:42:45.458092+08:00", "training_performed": false, "phase": "complete", "updated_at": "2026-10-30T14:47:22.165465+08:00", "model": "candidate", "generated": 100, "bank": "fresh", "finished_at": "2026-10-30T14:47:22.165446+08:00"}

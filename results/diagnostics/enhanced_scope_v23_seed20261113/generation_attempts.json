@@ -1,0 +1,2042 @@
+[
+  {
+    "guide": "high",
+    "seed": 1231000,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231001,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231002,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231003,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231004,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231005,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231006,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231007,
+    "geometry_valid": false,
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "guide": "high",
+    "seed": 1231008,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231009,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231010,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231011,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231013,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231015,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231017,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231019,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231021,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231023,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231025,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231027,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231029,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231031,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231033,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231035,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231012,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231014,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231016,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231018,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231037,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231039,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231041,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231043,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231020,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231022,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231024,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231026,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231045,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231047,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231049,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231051,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231028,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231030,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "guide": "high",
+    "seed": 1231032,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation"
+  },
+  {
+    "guide": "high",
+    "seed": 1231034,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231053,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231055,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231057,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231059,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231036,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231038,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231040,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231042,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231061,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231063,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231065,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231067,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231044,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231046,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231048,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231050,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231069,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231071,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231073,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231075,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231052,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231054,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "guide": "high",
+    "seed": 1231056,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231058,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231077,
+    "geometry_valid": false,
+    "reason": "Expanded geometry transform budget exhausted: Obstacle motion bounds intersect the wall"
+  },
+  {
+    "guide": "low",
+    "seed": 1231079,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231081,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231083,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231060,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231062,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231064,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231066,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231085,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231087,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231089,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231091,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231068,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231070,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231072,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "guide": "high",
+    "seed": 1231074,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231093,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231095,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231097,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231099,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231076,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231078,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231080,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231082,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231101,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231103,
+    "geometry_valid": false,
+    "reason": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "guide": "low",
+    "seed": 1231105,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231107,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231084,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231086,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231088,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231090,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231109,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231111,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231113,
+    "geometry_valid": false,
+    "reason": "Expanded geometry transform budget exhausted: Obstacle motion bounds intersect the wall"
+  },
+  {
+    "guide": "low",
+    "seed": 1231115,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231092,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231094,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231096,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231098,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231117,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231119,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231121,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231123,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231100,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231102,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231104,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "guide": "high",
+    "seed": 1231106,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231125,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231127,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231129,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231131,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation"
+  },
+  {
+    "guide": "high",
+    "seed": 1231108,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231110,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231112,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231114,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231133,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231135,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231137,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231139,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231116,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231118,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231120,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231122,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231141,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231143,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231145,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231147,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231124,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231126,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231128,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231130,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231149,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231151,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231153,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231155,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231132,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231134,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231136,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231138,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231157,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231159,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231161,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231163,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231140,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231142,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231144,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231146,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231165,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231167,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231169,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231171,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231148,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231150,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231152,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231154,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "guide": "low",
+    "seed": 1231173,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231175,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231177,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231179,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231156,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231158,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231160,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231162,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231181,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231183,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231185,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231187,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231164,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231166,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231168,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231170,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231189,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231191,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231193,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231195,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231172,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231174,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231176,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231197,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231199,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231201,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231203,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231178,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231180,
+    "geometry_valid": true
+  },
+  {
+    "guide": "high",
+    "seed": 1231182,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231205,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231207,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231209,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231211,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "guide": "high",
+    "seed": 1231184,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231213,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation"
+  },
+  {
+    "guide": "low",
+    "seed": 1231215,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231217,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231219,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231186,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231221,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231223,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231225,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231227,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231188,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231229,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231231,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231233,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231235,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231190,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231237,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231239,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231241,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231243,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231192,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231245,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231247,
+    "geometry_valid": false,
+    "reason": "Expanded geometry transform budget exhausted: Obstacle motion bounds overlap the start or goal"
+  },
+  {
+    "guide": "low",
+    "seed": 1231249,
+    "geometry_valid": false,
+    "reason": "Expanded geometry transform budget exhausted: Obstacle motion bounds overlap the start or goal"
+  },
+  {
+    "guide": "low",
+    "seed": 1231251,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231194,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231253,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231255,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231257,
+    "geometry_valid": false,
+    "reason": "Expanded geometry transform budget exhausted: Obstacle motion bounds intersect the wall"
+  },
+  {
+    "guide": "low",
+    "seed": 1231259,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "high",
+    "seed": 1231196,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231261,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231263,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231265,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231267,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231269,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231271,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231273,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231275,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231277,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231279,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231281,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231283,
+    "geometry_valid": false,
+    "reason": "Expanded geometry transform budget exhausted: Obstacle motion bounds overlap the start or goal"
+  },
+  {
+    "guide": "low",
+    "seed": 1231285,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231287,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231289,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231291,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231293,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231295,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231297,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231299,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231301,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231303,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231305,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231307,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231309,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231311,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231313,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231315,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231317,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231319,
+    "geometry_valid": false,
+    "reason": "Expanded geometry transform budget exhausted: Obstacle motion bounds overlap the start or goal"
+  },
+  {
+    "guide": "low",
+    "seed": 1231321,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231323,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231325,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231327,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231329,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231331,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231333,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231335,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231337,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231339,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231341,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231343,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231345,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231347,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231349,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231351,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231353,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231355,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231357,
+    "geometry_valid": false,
+    "reason": "Expanded geometry transform budget exhausted: Obstacle motion bounds overlap the start or goal"
+  },
+  {
+    "guide": "low",
+    "seed": 1231359,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231361,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231363,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231365,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231367,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231369,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231371,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231373,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231375,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231377,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231379,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231381,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231383,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231385,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231387,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231389,
+    "geometry_valid": false,
+    "reason": "Expanded geometry transform budget exhausted: Obstacle motion bounds overlap the start or goal"
+  },
+  {
+    "guide": "low",
+    "seed": 1231391,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231393,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231395,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231397,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231399,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231401,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231403,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231405,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231407,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231409,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231411,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231413,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231415,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231417,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231419,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231421,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231423,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231425,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231427,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231429,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231431,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231433,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231435,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231437,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231439,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "guide": "low",
+    "seed": 1231441,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231443,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231445,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231447,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231449,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231451,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231453,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231455,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231457,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231459,
+    "geometry_valid": false,
+    "reason": "Expanded geometry transform budget exhausted: Obstacle motion bounds intersect the wall"
+  },
+  {
+    "guide": "low",
+    "seed": 1231461,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231463,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231465,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231467,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231469,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231471,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231473,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231475,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231477,
+    "geometry_valid": true
+  },
+  {
+    "guide": "low",
+    "seed": 1231479,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231481,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231483,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231485,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231487,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231489,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231491,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231493,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231495,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "guide": "low",
+    "seed": 1231497,
+    "geometry_valid": true
+  }
+]

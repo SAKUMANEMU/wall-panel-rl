@@ -1,0 +1,12 @@
+{
+  "config": "configs/eval_noise.yaml",
+  "clean_model": "models/ppo_clean/best/best_model.zip",
+  "noise_model": "models/ppo_noise/best/best_model.zip",
+  "methods": [
+    "rrt",
+    "ppo_clean",
+    "ppo_noise"
+  ],
+  "episodes": null,
+  "run_id": "main_noise"
+}

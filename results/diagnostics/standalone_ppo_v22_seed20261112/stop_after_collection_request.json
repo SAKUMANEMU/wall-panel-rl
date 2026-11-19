@@ -1,0 +1,9 @@
+{
+  "request": "Finish collection, stop background work; no additional supervised or PPO updates",
+  "already_completed_supervised_updates": 3000,
+  "ppo_updates_started": false,
+  "interrupted_collection_scenes": 92,
+  "collection_model": "/home/johnsonchen/wall-panel-rl/experiments/standalone_ppo_v22/models/current_ppo.zip",
+  "previous_pid": 19760,
+  "additional_optimizer_updates_permitted": false
+}

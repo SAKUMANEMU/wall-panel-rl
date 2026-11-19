@@ -1,0 +1,10 @@
+{
+  "config": "configs/base.yaml",
+  "clean_model": "models/phase1_precision/final_model.zip",
+  "noise_model": "models/ppo_noise/final_model.zip",
+  "methods": [
+    "ppo_clean"
+  ],
+  "episodes": 10,
+  "run_id": "phase1_diagnostic"
+}

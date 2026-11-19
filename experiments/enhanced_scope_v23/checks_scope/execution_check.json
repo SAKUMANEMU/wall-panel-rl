@@ -1,0 +1,74 @@
+{
+  "baseline_exact_reproduction": true,
+  "source_sha256": "9dde7d9e800bd70afa2f8ac98357abed2ad8778b579f7823c187937040ae76b1",
+  "baseline_result": {
+    "seed": 1188001,
+    "controller": "enhanced",
+    "reason": "success",
+    "steps": 141,
+    "position_m": 0.00023281440697152007,
+    "orientation_deg": 0.006254584441014372,
+    "reward": 301.95049761891005,
+    "zero_command_steps": 9,
+    "stationary_steps": 9,
+    "wall_seconds": 29.945373849000134,
+    "physics_elapsed_s": 7.04999999999992,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "reference_preserved": true,
+    "local_rescues": 1,
+    "recovery_actions": 5,
+    "recovery_events": [
+      {
+        "step": 136,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 0.2047343948430293,
+        "accepted": true,
+        "mode": "goal",
+        "parameter": 1.0,
+        "predicted_end_cost": 0.00024591397799228525,
+        "predicted_gain": 0.20448848086503701,
+        "plan_steps": 5
+      }
+    ],
+    "no_safe_action_calls": 0,
+    "prediction_steps": 3412,
+    "passage_count": 0,
+    "success_with_weaving": false
+  },
+  "diverse_interface_result": {
+    "seed": 1188001,
+    "controller": "enhanced",
+    "reason": "success",
+    "steps": 139,
+    "position_m": 0.0002356254445570168,
+    "orientation_deg": 0.01121015345238892,
+    "reward": 301.3282615028823,
+    "zero_command_steps": 6,
+    "stationary_steps": 6,
+    "wall_seconds": 41.275478842999746,
+    "physics_elapsed_s": 6.949999999999926,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "reference_preserved": true,
+    "local_rescues": 1,
+    "recovery_actions": 5,
+    "recovery_events": [
+      {
+        "step": 134,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 0.23511476412357166,
+        "accepted": true,
+        "mode": "goal",
+        "parameter": 1.0,
+        "predicted_end_cost": 0.0002591039350447763,
+        "predicted_gain": 0.23485566018852688,
+        "plan_steps": 5
+      }
+    ],
+    "no_safe_action_calls": 0,
+    "prediction_steps": 4852,
+    "passage_count": 0,
+    "success_with_weaving": false
+  }
+}

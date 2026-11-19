@@ -1,0 +1,10 @@
+{
+  "controller": "ppo",
+  "seed": 1182091503,
+  "reason": "success",
+  "steps": 75,
+  "amplitude_bound_m": 0.1,
+  "speed_bound_m_s": 0.05,
+  "model_report": "four_dynamic_speed_v9_fast02_seed71",
+  "training_performed": false
+}

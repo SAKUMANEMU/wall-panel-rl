@@ -1,0 +1,23 @@
+{
+  "stage": "adaptation_pipeline_started",
+  "new_training_started": false,
+  "initialization": {
+    "source": "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training/models/selected_model.zip",
+    "source_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+    "policy_observations": 167,
+    "new_training_started": false
+  },
+  "physical_constraints_preserved": true,
+  "obstacle_lateral_limit_before_m": 0.15,
+  "obstacle_lateral_limit_after_m": 0.1,
+  "train_scenes": 24,
+  "validation_scenes": 8,
+  "test_scenes": 8,
+  "planned_bc_updates": 500,
+  "planned_ppo_steps": 8192,
+  "source_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+  "launched_at": "2026-11-18T16:23:59.497100+08:00",
+  "regression_tests_passed": 36,
+  "training_pipeline_started": true,
+  "model_updates_started_at_last_check": false
+}

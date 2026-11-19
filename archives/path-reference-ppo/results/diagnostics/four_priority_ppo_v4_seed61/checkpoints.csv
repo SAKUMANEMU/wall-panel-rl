@@ -1,0 +1,7 @@
+additional_ppo_steps,selected,episodes,success,collision,timeout,joint_limit,planning_failure
+0,False,32,17,15,0,0,0
+2000,False,32,19,13,0,0,0
+4000,False,32,21,11,0,0,0
+6000,False,32,21,11,0,0,0
+8000,False,32,21,11,0,0,0
+10000,True,32,22,10,0,0,0

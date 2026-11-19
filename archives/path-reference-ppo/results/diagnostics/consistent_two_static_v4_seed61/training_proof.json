@@ -1,0 +1,8 @@
+{
+  "bc_updates_completed": 3000,
+  "raw_final_adapter_parameter_change_l2": 7.688762664794922,
+  "selected_adapter_parameter_change_l2": 0.0,
+  "raw_and_selected_original_actors_frozen": true,
+  "selected_bc_update": 0,
+  "ppo_started": false
+}

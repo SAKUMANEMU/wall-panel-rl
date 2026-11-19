@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "training_seed": 1212005,
+  "labels": 110,
+  "bc_updates": 4,
+  "ppo_steps": 256,
+  "auxiliary_accepted": 1,
+  "auxiliary_rejected": 0,
+  "source_unchanged": true,
+  "validation_or_test_used_for_training": false
+}

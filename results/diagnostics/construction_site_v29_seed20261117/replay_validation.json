@@ -1,0 +1,68 @@
+{
+  "requested_fps": 30.0,
+  "effective_fps": 30.0,
+  "timing_mode": "smooth",
+  "adaptive_fps": true,
+  "playback_speed": 0.6,
+  "recorded_duration_s": 9.199999999999799,
+  "target_playback_duration_s": 15.333333333332998,
+  "playback_wall_s": 15.405679266999869,
+  "actual_playback_speed": 0.5971823663567302,
+  "scheduled_frames": 461,
+  "presented_frames": 461,
+  "skipped_frames": 0,
+  "mean_pose_update_ms": 1.5685727721890608,
+  "p95_pose_update_ms": 3.764364999369718,
+  "p95_frame_interval_ms": 33.832524351146276,
+  "max_frame_interval_ms": 47.380239999256446,
+  "completed": true,
+  "physics_steps_during_playback": 0,
+  "controller_calls_during_playback": 0,
+  "poses_precomputed": true,
+  "batched_joint_update": true,
+  "real_time": true,
+  "recorded_result": {
+    "seed": 3480000,
+    "controller": "enhanced",
+    "reason": "success",
+    "steps": 184,
+    "position_m": 0.0008737302313856595,
+    "orientation_deg": 0.05293555517112848,
+    "reward": 289.0861379298204,
+    "zero_command_steps": 14,
+    "stationary_steps": 14,
+    "wall_seconds": 128.06400232000033,
+    "physics_elapsed_s": 9.199999999999799,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "reference_preserved": true,
+    "local_rescues": 1,
+    "recovery_actions": 48,
+    "recovery_events": [
+      {
+        "step": 40,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 0.8562745374250087,
+        "accepted": false
+      },
+      {
+        "step": 86,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 0.698239034247016,
+        "accepted": true,
+        "mode": "lookahead",
+        "parameter": [
+          3,
+          0.7
+        ],
+        "predicted_end_cost": 0.005642625087233781,
+        "predicted_gain": 0.6925964091597823,
+        "plan_steps": 59
+      }
+    ],
+    "no_safe_action_calls": 0,
+    "prediction_steps": 27992,
+    "passage_count": 0,
+    "success_with_weaving": false
+  }
+}

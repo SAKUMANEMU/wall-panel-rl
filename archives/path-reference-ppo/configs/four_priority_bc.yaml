@@ -1,0 +1,18 @@
+previous_report: results/diagnostics/four_obstacle_bc_v1_seed61
+initial_model: results/diagnostics/four_obstacle_bc_v1_seed61/final_candidate.zip
+initial_bc_updates: 1000
+teacher_report: results/diagnostics/four_safe_teacher_v1_seed61
+teacher: data/four_safe_teacher_v1_seed61/teacher/teacher.npz
+model_root: models/four_priority_bc_v2_seed61
+report_root: results/diagnostics/four_priority_bc_v2_seed61
+seed: 61
+ppo_steps: 0
+evaluate_reserved_test_after_improvement: true
+bc:
+  updates: 4000
+  checkpoints: [250, 500, 1000, 2000, 3000, 4000]
+  batch_size: 256
+  learning_rate: 0.00005
+  terminal_weight: 0.2
+  adapter_weight: 0.001
+  correction_weight: 3.0

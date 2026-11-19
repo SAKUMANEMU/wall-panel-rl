@@ -1,0 +1,5 @@
+pybullet build time: Jan 29 2025 23:17:20
+{'mode': 'run', 'initial_model': 'models/consistent_two_static_v4_seed61/initialized_model.zip', 'count': 4}
+FOUR_INITIAL {"status": "running", "phase": "paired_two_static", "training_performed": false, "started_at": "2026-11-03T22:37:33.370517+08:00", "updated_at": "2026-11-03T22:37:33.937424+08:00"}
+FOUR_INITIAL {"status": "running", "phase": "paired_four_static", "training_performed": false, "started_at": "2026-11-03T22:37:33.370517+08:00", "updated_at": "2026-11-03T22:38:00.001543+08:00"}
+FOUR_INITIAL {"status": "completed", "phase": "complete", "training_performed": false, "started_at": "2026-11-03T22:37:33.370517+08:00", "updated_at": "2026-11-03T22:38:25.958122+08:00", "four_static": {"episodes": 100, "success": 82, "collision": 11, "timeout": 7, "joint_limit": 0, "planning_failure": 0}}

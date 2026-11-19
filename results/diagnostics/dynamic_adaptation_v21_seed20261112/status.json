@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "pid": 6401,
+  "started_at": "2026-11-12T15:11:43.142122+08:00",
+  "phase": "complete",
+  "updated_at": "2026-11-12T15:55:15.973543+08:00",
+  "valid_scenes": 116,
+  "target_scenes": 116,
+  "attempts": 576,
+  "batch_completed": 64,
+  "batch_total": 64,
+  "training_scenes": 100,
+  "validation_scenes": 16,
+  "teacher_completed": 100,
+  "teacher_planned": 100,
+  "teacher_successes": 100,
+  "teacher_transitions": 6843,
+  "evaluation_model": "regression64",
+  "bc_updates": 2000,
+  "bc_updates_planned": 2000,
+  "ppo_completed_steps": 32768,
+  "ppo_planned_steps": 32768
+}

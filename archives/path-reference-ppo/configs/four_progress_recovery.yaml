@@ -1,0 +1,31 @@
+seed: 121
+source_model: results/diagnostics/four_dynamic_speed_v9_fast02_seed71/selected_model.zip
+preparation_report: results/diagnostics/four_staggered_dynamic_preparation_v11_seed91
+motion_profile: configs/four_staggered_dynamic_scene.yaml
+old_report: results/diagnostics/four_predictive_safety_v13_seed111
+data_root: data/four_staggered_dynamic_v11_seed91
+fresh_test_root: data/four_progress_recovery_test_v14_seed121
+report_root: results/diagnostics/four_progress_recovery_v14_seed121
+preparation_root: results/diagnostics/four_progress_recovery_test_v14_seed121
+fresh_test_count: 100
+fresh_test_seed: 1144000
+workers: 4
+horizon: 12
+gains: [1.0, 0.75, 0.4, 0.0, -0.25, -0.75]
+recovery:
+  minimum_step: 100
+  window: 24
+  minimum_progress: 0.012
+  cooldown: 24
+  maximum_rescues: 3
+  horizon: 36
+  commit_steps: 8
+  goal_gains: [0.4, 0.7, 1.0]
+  joint_bias: 0.4
+  minimum_predicted_gain: 0.015
+  protect_baseline_success: true
+train_case_count: 24
+validation_gate:
+  collision_maximum: 0
+  require_success_increase: true
+  preserve_old_successes: true

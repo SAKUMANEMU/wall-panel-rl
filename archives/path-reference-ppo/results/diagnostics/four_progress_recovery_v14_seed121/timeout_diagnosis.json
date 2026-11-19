@@ -1,0 +1,43 @@
+{
+  "source": "Previously used v13 test results; development diagnosis only, not a fresh v14 test",
+  "counts": {
+    "prolonged_wait": 16,
+    "near_unmodified_policy_stall": 3,
+    "mixed_slow_progress": 3
+  },
+  "seeds": {
+    "prolonged_wait": [
+      1124003,
+      1124032,
+      1124046,
+      1124063,
+      1124070,
+      1124074,
+      1124113,
+      1124184,
+      1124210,
+      1124213,
+      1124302,
+      1124327,
+      1124344,
+      1124395,
+      1124400,
+      1124423
+    ],
+    "near_unmodified_policy_stall": [
+      1124199,
+      1124270,
+      1124426
+    ],
+    "mixed_slow_progress": [
+      1124023,
+      1124089,
+      1124207
+    ]
+  },
+  "position_error_range_m": [
+    0.18525760611240863,
+    0.8085583454676971
+  ],
+  "zero_collision_free_candidate_failures": true
+}

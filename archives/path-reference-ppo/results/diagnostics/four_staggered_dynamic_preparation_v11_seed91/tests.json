@@ -1,0 +1,21 @@
+{
+  "distinct_passed": 22,
+  "failed": 0,
+  "runs": [
+    {
+      "passed": 21,
+      "duration_seconds": 29.3
+    },
+    {
+      "passed": 5,
+      "duration_seconds": 4.03,
+      "includes_one_new_case": true
+    }
+  ],
+  "file_hashes": {
+    "tests/test_staggered_dynamic.py": "3d0012045d8378e05e304c3d87d6ab126831a4ceb24559984ae2834031522189",
+    "tests/test_large_motion_training.py": "f89d53897601b85385dc844f4fe2cbff5fcbcf29d7b77e768a42ccb0d563fc88",
+    "tests/test_dynamic_four_training.py": "fae3e44e65ee08df34da48dd56b85f495e4c975030728aa015c05c112fcee312",
+    "tests/test_imitation_continuation.py": "89b01f71d09e8cbcba536599f11215c50bba12f0832c22dbdee6afca72417477"
+  }
+}

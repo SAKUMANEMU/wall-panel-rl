@@ -1,0 +1,10 @@
+{
+  "code_and_input_hashes_match": true,
+  "splits_disjoint": true,
+  "ppo_transitions": 10000,
+  "only_policy_training": true,
+  "two_used_for_selection": false,
+  "test_selected_after_freeze": true,
+  "test_used_for_selection": false,
+  "base_actor_and_std_unchanged": true
+}

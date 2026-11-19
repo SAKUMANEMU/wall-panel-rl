@@ -1,0 +1,148 @@
+pybullet build time: Jan 29 2025 23:17:20
+collision:
+  edge_resolution: 0.035
+  margin: 0.0
+  planning_clearance: 0.005
+controller:
+  force: 250.0
+  max_joint_increment_deg: 4.0
+  position_gain: 0.3
+  velocity_gain: 1.0
+evaluation:
+  episodes: 100
+  start_seed: 10000
+noise:
+  orientation_std_deg: 0.5
+  position_std: 0.005
+obstacles:
+  center:
+  - 0.5
+  - 0.25
+  - 0.35
+  dimensions:
+  - 0.12
+  - 0.12
+  - 0.18
+  max_count: 3
+  max_placement_attempts: 150
+  min_count: 1
+  randomization:
+  - 0.22
+  - 0.3
+  - 0.22
+  stage: C
+panel:
+  dimensions:
+  - 0.3
+  - 0.2
+  - 0.03
+  mass: 0.25
+  offset:
+  - 0.0
+  - 0.0
+  - 0.14
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+ppo:
+  batch_size: 64
+  clip_range: 0.2
+  ent_coef: 0.0
+  eval_episodes: 5
+  eval_freq: 10000
+  gae_lambda: 0.95
+  gamma: 0.99
+  learning_rate: 0.0003
+  log_std_init: -1.0
+  n_epochs: 10
+  n_steps: 1024
+  net_arch:
+  - 128
+  - 128
+  total_timesteps: 100000
+reward:
+  action: 0.015
+  collision: -50.0
+  joint_limit: -30.0
+  orientation_progress: 12.0
+  position_progress: 100.0
+  step: 0.05
+  success: 100.0
+robot:
+  end_effector: 6
+  goal_q:
+  - 0.0
+  - 0.65
+  - 0.0
+  - -1.3
+  - 0.0
+  - -0.38
+  - 0.0
+  near_start_probability: 0.0
+  near_start_randomization: 0.035
+  start_offset:
+  - 0.45
+  - -0.12
+  - 0.15
+  - 0.12
+  - -0.12
+  - 0.1
+  - 0.15
+  start_randomization: 0.12
+  urdf: assets/robot/kuka_iiwa/model.urdf
+rrt:
+  goal_bias: 0.15
+  ik_attempts: 12
+  ik_iterations: 200
+  ik_orientation_tolerance_deg: 1.0
+  ik_position_tolerance: 0.004
+  max_iterations: 3000
+  shortcut_attempts: 40
+  step_size: 0.22
+  timeout: 5.0
+  waypoint_tolerance: 0.008
+seed: 42
+simulation:
+  gravity: -9.81
+  max_steps: 160
+  substeps: 12
+  timestep: 0.004166666666666667
+target:
+  orientation_tolerance_deg: 2.0
+  position_tolerance: 0.01
+  wall_clearance: 0.025
+  wall_thickness: 0.04
+
+rrt: 10/100; success=70.0%
+rrt: 20/100; success=55.0%
+rrt: 30/100; success=66.7%
+rrt: 40/100; success=67.5%
+rrt: 50/100; success=68.0%
+rrt: 60/100; success=68.3%
+rrt: 70/100; success=70.0%
+rrt: 80/100; success=68.8%
+rrt: 90/100; success=70.0%
+rrt: 100/100; success=73.0%
+ppo_clean: 10/100; success=50.0%
+ppo_clean: 20/100; success=50.0%
+ppo_clean: 30/100; success=50.0%
+ppo_clean: 40/100; success=55.0%
+ppo_clean: 50/100; success=56.0%
+ppo_clean: 60/100; success=58.3%
+ppo_clean: 70/100; success=57.1%
+ppo_clean: 80/100; success=60.0%
+ppo_clean: 90/100; success=61.1%
+ppo_clean: 100/100; success=58.0%
+ppo_noise: 10/100; success=40.0%
+ppo_noise: 20/100; success=25.0%
+ppo_noise: 30/100; success=26.7%
+ppo_noise: 40/100; success=25.0%
+ppo_noise: 50/100; success=24.0%
+ppo_noise: 60/100; success=21.7%
+ppo_noise: 70/100; success=22.9%
+ppo_noise: 80/100; success=25.0%
+ppo_noise: 90/100; success=23.3%
+ppo_noise: 100/100; success=21.0%
+Saved 300 episodes to results/raw/main_noise

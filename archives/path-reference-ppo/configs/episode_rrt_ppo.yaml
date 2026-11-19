@@ -1,0 +1,24 @@
+# Each actual episode independently chooses RRT (0.5) or PPO (0.5).
+# No training/evaluation is started without the corresponding CLI flag.
+source_report: results/diagnostics/safety_first_ppo_20261102
+initial_model: results/diagnostics/safety_first_ppo_20261102/selected_model.zip
+train_scenes: data/staged_avoidance_v3_seed61/one_static/train.json
+heldout_scenes: results/diagnostics/clearance_ppo_v3_seed61/collision_diagnosis.json
+validation_cases: data/staged_avoidance_v3_seed61/one_static/validation_staged.json
+output_root: models/episode_rrt_ppo_v1_seed61
+report_root: results/diagnostics/episode_rrt_ppo_v1_seed61
+evaluation_output: results/diagnostics/episode_rrt_ppo_preflight_seed61
+expert_probability: 0.50
+seed: 61
+# SB3 counts only on-policy PPO transitions; RRT steps are additional and logged.
+ppo_steps: 10000
+ppo_eval_every: 5000
+ppo_learning_rate: 0.0001
+auxiliary_bc:
+  weight: 0.10
+  learning_rate: 0.00001
+  updates_per_rollout: 1
+  batch_size: 100
+  capacity: 50000
+  maximum_kl: 0.005
+  checkpoint_every: 5000

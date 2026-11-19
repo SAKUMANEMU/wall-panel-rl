@@ -1,0 +1,7 @@
+bank,model,episodes,success,collision,joint_limit,timeout
+known,retained,100,92,4,0,4
+known,candidate,100,86,6,0,8
+fresh,retained,100,90,6,0,4
+fresh,candidate,100,88,3,0,9
+combined_descriptive,retained,200,182,10,0,8
+combined_descriptive,candidate,200,174,9,0,17

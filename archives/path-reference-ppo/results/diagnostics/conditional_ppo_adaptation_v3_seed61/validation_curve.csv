@@ -1,0 +1,4 @@
+additional_steps,episodes,success,collision,timeout,joint_limit
+0,20,18,2,0,0
+5000,20,16,1,3,0
+10000,20,17,0,3,0

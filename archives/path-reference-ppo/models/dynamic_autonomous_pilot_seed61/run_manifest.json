@@ -1,0 +1,22 @@
+{
+  "base_commit": "3c0cd199d50898638141de05ec2d5fcaea07b60f",
+  "source_sha256": {
+    "scripts/train_dynamic_autonomous.py": "b633c8e7b8f690c1461bb3416155ab9412b5afc79771306fb0b31b29901db6ac",
+    "src/wall_panel_rl/rl/autonomous_dynamic_ppo.py": "854ef62cc19c3856311d45de0def548415a7295cff3c9d2cc9d30b629c6b6118",
+    "src/wall_panel_rl/rl/waypoint_ppo.py": "e16f12cbb7042aaa06d63907e048aa17e4252fa3df0c32a544739cc4c2946bf3",
+    "configs/dynamic_autonomous_pilot.yaml": "d400f776cdbceecede246aec846ee720fb921a150847894ea1482bfbb0dfd931"
+  },
+  "source_model_unchanged": true,
+  "packages": {
+    "torch": "2.5.1+cpu",
+    "stable-baselines3": "2.8.0",
+    "gymnasium": "1.2.3",
+    "numpy": "1.24.3",
+    "pybullet": "3.2.7"
+  },
+  "tests": "........................................                                 [100%]\n40 passed in 51.27s",
+  "workers": "pybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\nFour autonomous workers reset/step passed; no learning updates.",
+  "training_complete": true,
+  "online_avoidance_planner": false,
+  "independent_test_executed": false
+}

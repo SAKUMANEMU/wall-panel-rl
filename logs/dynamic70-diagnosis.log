@@ -1,0 +1,24 @@
+pybullet build time: Jan 29 2025 23:17:20
+clean best dynamic 10
+clean best frozen 20
+clean best no_obstacles 30
+clean final dynamic 40
+noise best dynamic 50
+noise best frozen 60
+noise best no_obstacles 70
+noise final dynamic 80
+condition  checkpoint  variant       reason   
+clean      best        dynamic       collision     2
+                                     timeout       8
+                       frozen        collision     1
+                                     timeout       9
+                       no_obstacles  timeout      10
+           final       dynamic       collision    10
+noise      best        dynamic       collision     1
+                                     timeout       9
+                       frozen        collision     1
+                                     timeout       9
+                       no_obstacles  timeout      10
+           final       dynamic       collision     3
+                                     success       1
+                                     timeout       6

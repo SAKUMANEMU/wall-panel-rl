@@ -1,0 +1,7 @@
+additional_steps,controller,episodes,success,collision,timeout,joint_limit,planning_failure
+0,ppo,20,0,1,17,2,0
+0,mixture,20,8,1,10,1,0
+5000,ppo,20,0,14,6,0,0
+5000,mixture,20,8,9,3,0,0
+10000,ppo,20,0,20,0,0,0
+10000,mixture,20,8,12,0,0,0

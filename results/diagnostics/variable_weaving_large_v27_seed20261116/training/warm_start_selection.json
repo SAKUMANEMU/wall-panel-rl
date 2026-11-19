@@ -1,0 +1,69 @@
+{
+  "model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/variable_weaving_large_v27_seed20261116/training/models/bc_250.zip",
+  "label": "bc_250",
+  "metrics": {
+    "all": {
+      "episodes": 16,
+      "success": 0,
+      "collision": 14,
+      "timeout": 2,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.0,
+      "mean_passage_count": 0.0,
+      "success_with_weaving": 0,
+      "mean_task_error": 1.5154027953704228
+    },
+    "by_count": {
+      "2": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 4,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.617894458081086
+      },
+      "3": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 3,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.1833036399085488
+      },
+      "4": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 3,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 2.026295920599443
+      },
+      "5": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 4,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.234117162892613
+      }
+    }
+  },
+  "successful_teacher_transitions": 428
+}

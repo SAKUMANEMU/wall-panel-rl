@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "checks": {
+    "valid_exclusive_counts": true,
+    "enough_target_episodes": true,
+    "success": true,
+    "collision": true,
+    "no_joint_limits": true,
+    "alignment_samples": true,
+    "alignment_retained": true,
+    "alignment_collision_free": true,
+    "goal_convergence": true
+  },
+  "rates": {
+    "success": 0.9,
+    "collision": 0.1,
+    "joint_limit": 0.0,
+    "timeout": 0.0
+  },
+  "alignment": {
+    "alignment_far": 1.0,
+    "alignment_near": 1.0
+  },
+  "metrics": {
+    "dynamic_ppo": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 18,
+        "collision": 2,
+        "timeout": 0,
+        "joint_limit": 0
+      }
+    }
+  },
+  "goal_probes": [
+    {
+      "obstacle_present": false,
+      "initial_success": true,
+      "max_action": 1.707800038275309e-06
+    },
+    {
+      "obstacle_present": true,
+      "initial_success": true,
+      "max_action": 1.7077998109016335e-06
+    }
+  ],
+  "training_performed": false,
+  "execution_wrapper": "ConditionalRecoveryEnv",
+  "evaluated_with_training_shaping": false
+}

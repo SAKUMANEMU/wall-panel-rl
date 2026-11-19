@@ -1,0 +1,7 @@
+[
+  {
+    "bank": "validation",
+    "seed": 1032039,
+    "reason": "Cannot build a complete nominal route: timeout"
+  }
+]

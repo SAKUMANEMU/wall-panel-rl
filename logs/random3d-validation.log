@@ -1,0 +1,13 @@
+pybullet build time: Jan 29 2025 23:17:20
+Traceback (most recent call last):
+  File "/home/johnsonchen/wall-panel-rl/scripts/verify_dynamic.py", line 45, in <module>
+    main()
+  File "/home/johnsonchen/wall-panel-rl/scripts/verify_dynamic.py", line 28, in main
+    result, trajectory = rollout(e, 'rrt', seed)
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johnsonchen/wall-panel-rl/src/wall_panel_rl/utils/metrics.py", line 8, in rollout
+    observation, info = env.reset(seed=seed, options={"noise_seed": seed + 1000000})
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/johnsonchen/wall-panel-rl/src/wall_panel_rl/envs/wall_panel_env.py", line 332, in reset
+    raise RuntimeError(
+RuntimeError: Could not place obstacle without start/goal overlap

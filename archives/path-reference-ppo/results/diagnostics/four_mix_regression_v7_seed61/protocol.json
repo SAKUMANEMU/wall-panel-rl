@@ -1,0 +1,20 @@
+{
+  "source": "results/diagnostics/four_episode_mix_v6_seed61",
+  "checkpoint_hashes": {
+    "models/four_episode_mix_v6_seed61/checkpoints/ppo_0.zip": "3c9fb81ac0475606732fb2e0f3ffd7a9dd81eccb070b277a2a33a43026473104",
+    "models/four_episode_mix_v6_seed61/checkpoints/ppo_5000.zip": "5bf9de9cc15e119ee81264d482873e9964b2b4cded65c0c6276e08573b93bf12",
+    "models/four_episode_mix_v6_seed61/checkpoints/ppo_10000.zip": "db3d8d776a5d0635d962360ceb5f2326a67b53fba916678b6e2ecccdbe8b3110"
+  },
+  "validation_sha256": "7abde3a02af9f38df5d69b5bd21abc760089f3836513c4ac8f8f4ad61ec84b9b",
+  "lost_scene_seeds": [
+    1032003,
+    1032019,
+    1032030,
+    1032056,
+    1032057,
+    1032059
+  ],
+  "same_observation_action_comparison": true,
+  "training_steps": 0,
+  "code_sha256": "c11f4c0b53810df9a8db2e195ae14f78c3f567ce22ace7d97da502e42a538ec3"
+}

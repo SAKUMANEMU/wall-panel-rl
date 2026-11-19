@@ -1,0 +1,8 @@
+{
+  "train_scenes": 128,
+  "validation_cases": 50,
+  "failed_generation": 0,
+  "reference": "obstacle-free; no execution planner",
+  "training_phase_randomization": true,
+  "full_envelope_endpoint_placement": true
+}

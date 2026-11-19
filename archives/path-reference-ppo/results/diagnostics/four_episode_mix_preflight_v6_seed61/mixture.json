@@ -1,0 +1,153 @@
+{
+  "mode": "mixture",
+  "probability": 0.5,
+  "selection_seed": 61,
+  "training_performed": false,
+  "independent_test": false,
+  "rows": [
+    {
+      "controller": "rrt",
+      "seed": 1032000,
+      "task": "static",
+      "reason": "success",
+      "steps": 61,
+      "reward": 303.337053748623,
+      "position_m": 0.0006199794229841953,
+      "orientation_deg": 0.044622636727069925,
+      "planning_seconds": 9.288373787999262,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0,
+      "suite": "stage_target"
+    },
+    {
+      "controller": "ppo",
+      "seed": 1032001,
+      "task": "static",
+      "reason": "success",
+      "steps": 64,
+      "reward": 302.0878461530521,
+      "position_m": 0.006044072166012126,
+      "orientation_deg": 0.33350636807683975,
+      "planning_seconds": 0.0,
+      "online_avoidance_planner": false,
+      "conditional_recoveries": 0,
+      "suite": "stage_target"
+    },
+    {
+      "controller": "ppo",
+      "seed": 1032002,
+      "task": "static",
+      "reason": "success",
+      "steps": 72,
+      "reward": 302.89401029782647,
+      "position_m": 0.0007639672071356203,
+      "orientation_deg": 0.10150898424260806,
+      "planning_seconds": 0.0,
+      "online_avoidance_planner": false,
+      "conditional_recoveries": 0,
+      "suite": "stage_target"
+    },
+    {
+      "controller": "ppo",
+      "seed": 1032003,
+      "task": "static",
+      "reason": "success",
+      "steps": 69,
+      "reward": 303.999690403926,
+      "position_m": 0.0009303182635121958,
+      "orientation_deg": 0.08144272132902179,
+      "planning_seconds": 0.0,
+      "online_avoidance_planner": false,
+      "conditional_recoveries": 0,
+      "suite": "stage_target"
+    },
+    {
+      "controller": "rrt",
+      "seed": 1032004,
+      "task": "static",
+      "reason": "success",
+      "steps": 57,
+      "reward": 301.19369667697885,
+      "position_m": 0.0004243846746603339,
+      "orientation_deg": 0.04920127173146142,
+      "planning_seconds": 8.758609099999376,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0,
+      "suite": "stage_target"
+    },
+    {
+      "controller": "ppo",
+      "seed": 1032005,
+      "task": "static",
+      "reason": "collision",
+      "steps": 51,
+      "reward": 89.72740617804473,
+      "position_m": 0.563305556722639,
+      "orientation_deg": 34.4821984125614,
+      "planning_seconds": 0.0,
+      "online_avoidance_planner": false,
+      "conditional_recoveries": 0,
+      "suite": "stage_target"
+    },
+    {
+      "controller": "ppo",
+      "seed": 1032006,
+      "task": "static",
+      "reason": "collision",
+      "steps": 45,
+      "reward": 85.61406645470356,
+      "position_m": 0.5984077608434978,
+      "orientation_deg": 40.97341268640744,
+      "planning_seconds": 0.0,
+      "online_avoidance_planner": false,
+      "conditional_recoveries": 0,
+      "suite": "stage_target"
+    },
+    {
+      "controller": "ppo",
+      "seed": 1032007,
+      "task": "static",
+      "reason": "success",
+      "steps": 67,
+      "reward": 303.4355806230563,
+      "position_m": 0.0027756179276697338,
+      "orientation_deg": 0.22811427159960018,
+      "planning_seconds": 0.0,
+      "online_avoidance_planner": false,
+      "conditional_recoveries": 0,
+      "suite": "stage_target"
+    }
+  ],
+  "metrics": {
+    "stage_target": {
+      "episodes": 8,
+      "success": 6,
+      "collision": 2,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    }
+  },
+  "by_controller": {
+    "rrt": {
+      "episodes": 2,
+      "success": 2,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "ppo": {
+      "episodes": 6,
+      "success": 4,
+      "collision": 2,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    }
+  },
+  "expert_branch": "RRT-Connect",
+  "expert_is_bc_network": false,
+  "ownership_unit": "episode",
+  "probability_is_not_an_exact_quota": true
+}

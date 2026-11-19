@@ -1,0 +1,17 @@
+{
+  "pid": 4663,
+  "started_at": "2026-11-04T23:54:16.188575+08:00",
+  "cwd": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo",
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "scripts/train_four_episode_mix.py",
+    "--config",
+    "configs/four_episode_mix_nobc.yaml",
+    "--train"
+  ],
+  "log": "/home/johnsonchen/wall-panel-rl/logs/four_episode_mix_nobc_v7_seed61.log",
+  "ppo_budget": 5000,
+  "expert_probability": 0.5,
+  "auxiliary_updates_per_rollout": 0
+}

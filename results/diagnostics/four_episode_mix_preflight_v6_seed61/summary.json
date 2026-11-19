@@ -1,0 +1,42 @@
+{
+  "source_model_sha256": "7194d7515ffe59e3b6d60562b0ebd7e38d6f3cd52ed35a67c7b624c23891e0e1",
+  "cases": 8,
+  "expert_probability": 0.5,
+  "episode_branch_unit": true,
+  "controllers": {
+    "mixture": {
+      "metrics": {
+        "stage_target": {
+          "episodes": 8,
+          "success": 6,
+          "collision": 2,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        }
+      },
+      "by_controller": {
+        "rrt": {
+          "episodes": 2,
+          "success": 2,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "ppo": {
+          "episodes": 6,
+          "success": 4,
+          "collision": 2,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        }
+      }
+    }
+  },
+  "training_performed": false,
+  "independent_test": false,
+  "limited_functional_preflight": true,
+  "verified_training_wrapper_pairs": 56
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-06",
+  "pytest": {
+    "passed": 16,
+    "failed": 0,
+    "relocated_duration_s": 1.97
+  },
+  "dependency_check": "No broken requirements found.",
+  "relocated_root_and_policy_import_verified": true,
+  "exact_original_module_copies": 39,
+  "full_validation_study_rerun_for_packaging": false,
+  "fresh_conda_install_performed": false
+}

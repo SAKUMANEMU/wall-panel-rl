@@ -1,0 +1,157 @@
+{
+  "seed": 5350825,
+  "controller": "enhanced",
+  "reason": "timeout",
+  "steps": 240,
+  "position_m": 0.9908221688685919,
+  "orientation_deg": 162.62875296399736,
+  "reward": 45.35222624898501,
+  "zero_command_steps": 66,
+  "stationary_steps": 66,
+  "wall_seconds": 339.7351802840003,
+  "physics_elapsed_s": 11.99999999999964,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 3,
+  "recovery_actions": 68,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.000242719998878,
+      "accepted": false
+    },
+    {
+      "step": 52,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.0641193982791592,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          0,
+          2
+        ],
+        [
+          0.4,
+          -0.4
+        ]
+      ],
+      "predicted_end_cost": 1.9540451094373772,
+      "predicted_gain": 0.11007428884178205,
+      "plan_steps": 60
+    },
+    {
+      "step": 112,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.6489553409474789,
+      "accepted": false
+    },
+    {
+      "step": 124,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.6410488297590935,
+      "accepted": false
+    },
+    {
+      "step": 136,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.6224238785509433,
+      "accepted": false
+    },
+    {
+      "step": 148,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.6000368588458898,
+      "accepted": false
+    },
+    {
+      "step": 160,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.5031820822155708,
+      "accepted": false
+    },
+    {
+      "step": 172,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.3973018743445782,
+      "accepted": false
+    },
+    {
+      "step": 184,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.381687833513779,
+      "accepted": false
+    },
+    {
+      "step": 196,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.381687833513779,
+      "accepted": false
+    },
+    {
+      "step": 208,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.381687833513779,
+      "accepted": false
+    },
+    {
+      "step": 220,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.381687833513779,
+      "accepted": true,
+      "mode": "goal",
+      "parameter": 0.4,
+      "predicted_end_cost": 0.907337167665643,
+      "predicted_gain": 0.474350665848136,
+      "plan_steps": 20
+    },
+    {
+      "step": 232,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.3314310325847007,
+      "accepted": false,
+      "mode": "bias",
+      "parameter": [
+        0,
+        -0.4
+      ],
+      "predicted_end_cost": 1.1148531511367699,
+      "predicted_gain": 0.2165778814479309,
+      "plan_steps": 8
+    }
+  ],
+  "no_safe_action_calls": 11,
+  "prediction_steps": 51298,
+  "vertical_plan_events": [],
+  "installation_events": [],
+  "passage_count": 0,
+  "success_with_weaving": false,
+  "arm": "v31_selected",
+  "obstacle_count": 5,
+  "model_key": "v31",
+  "controller_key": "installation",
+  "case_sha256": "6c0851a44392d1b1ae606b45f36496ce3fce948745cd117fa5f7b4b7413f9d4d",
+  "max_obstacle_speed_m_s": 0.2083143939829444,
+  "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+  "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+  "timeout_diagnosis": {
+    "primary": "stale_reference",
+    "flags": {
+      "waiting": false,
+      "stale_reference": true,
+      "terminal_precision": false
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.275,
+    "zero_command_fraction": 0.2682926829268293,
+    "reference_telemetry_available": true,
+    "reference_index_start": 1,
+    "reference_index_end": 1,
+    "final_reference_distance_rad": 3.051237717858405,
+    "final_position_m": 0.9908221688685919,
+    "final_orientation_deg": 162.62875296399736,
+    "reference_state_inferred": false
+  }
+}

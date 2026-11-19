@@ -1,0 +1,137 @@
+[
+  {
+    "additional_ppo_steps": 0,
+    "new_validation": {
+      "episodes": 64,
+      "success": 51,
+      "collision": 13,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "old_validation": {
+      "episodes": 32,
+      "success": 22,
+      "collision": 10,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      51,
+      -13,
+      0,
+      22,
+      -10
+    ]
+  },
+  {
+    "additional_ppo_steps": 5000,
+    "new_validation": {
+      "episodes": 64,
+      "success": 52,
+      "collision": 11,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "old_validation": {
+      "episodes": 32,
+      "success": 22,
+      "collision": 10,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      52,
+      -11,
+      -1,
+      22,
+      -10
+    ]
+  },
+  {
+    "additional_ppo_steps": 10000,
+    "new_validation": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 8,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "old_validation": {
+      "episodes": 32,
+      "success": 23,
+      "collision": 9,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      56,
+      -8,
+      0,
+      23,
+      -9
+    ]
+  },
+  {
+    "additional_ppo_steps": 15000,
+    "new_validation": {
+      "episodes": 64,
+      "success": 49,
+      "collision": 11,
+      "timeout": 4,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "old_validation": {
+      "episodes": 32,
+      "success": 22,
+      "collision": 10,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      49,
+      -11,
+      -4,
+      22,
+      -10
+    ]
+  },
+  {
+    "additional_ppo_steps": 20000,
+    "new_validation": {
+      "episodes": 64,
+      "success": 46,
+      "collision": 11,
+      "timeout": 7,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "old_validation": {
+      "episodes": 32,
+      "success": 22,
+      "collision": 10,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      46,
+      -11,
+      -7,
+      22,
+      -10
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pilot alignment 10000 fps 800.9
+pilot alignment 20000 fps 817.9
+pilot alignment 30000 fps 824.7
+pilot alignment 40000 fps 834.4
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+/home/johnsonchen/wall-panel-rl/.conda-env/lib/python3.11/site-packages/stable_baselines3/common/save_util.py:284: UserWarning: Path 'models/dynamic70_study/pilot/checkpoints' does not exist. Will create it.
+  warnings.warn(f"Path '{path.parent}' does not exist. Will create it.")
+validation {'steps': 50000, 'success_rate': 0.0, 'mean_reward': 42.933751673875584}
+pilot dynamic 50000 fps 498.9
+FINISHED models/dynamic70_study/pilot 50000

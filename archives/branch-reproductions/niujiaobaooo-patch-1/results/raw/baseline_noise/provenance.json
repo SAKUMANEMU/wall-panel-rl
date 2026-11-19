@@ -1,0 +1,10 @@
+{
+  "config": "configs/eval_noise.yaml",
+  "clean_model": "models/ppo_clean/final_model.zip",
+  "noise_model": "models/ppo_noise/final_model.zip",
+  "methods": [
+    "rrt"
+  ],
+  "episodes": 100,
+  "run_id": "baseline_noise"
+}

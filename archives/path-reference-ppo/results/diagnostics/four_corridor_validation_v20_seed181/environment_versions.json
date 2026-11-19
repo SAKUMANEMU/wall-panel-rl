@@ -1,0 +1,13 @@
+{
+  "python": "3.11.5 (main, Sep 11 2023, 13:54:46) [GCC 11.2.0]",
+  "packages": {
+    "numpy": "1.24.3",
+    "scipy": "1.11.1",
+    "torch": "2.5.1+cpu",
+    "pybullet": "3.2.7",
+    "gymnasium": "1.2.3",
+    "stable-baselines3": "2.8.0",
+    "matplotlib": "3.7.2",
+    "PyYAML": "6.0"
+  }
+}

@@ -1,0 +1,704 @@
+{
+  "variants": {
+    "baseline": {
+      "parameters": {
+        "recovery_radius": 0.3,
+        "terminal_radius": 0.2
+      },
+      "validation": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 16,
+          "collision": 2,
+          "joint_limit": 0,
+          "timeout": 2
+        }
+      },
+      "regression": {
+        "previous_100": {
+          "alignment_far": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "stage_target": {
+            "episodes": 100,
+            "success": 92,
+            "collision": 4,
+            "joint_limit": 0,
+            "timeout": 4
+          }
+        },
+        "recent_100": {
+          "alignment_far": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "stage_target": {
+            "episodes": 100,
+            "success": 90,
+            "collision": 6,
+            "joint_limit": 0,
+            "timeout": 4
+          }
+        }
+      },
+      "focus": [
+        {
+          "seed": 900002,
+          "reason": "timeout",
+          "steps": 240,
+          "position_m": 0.28827830106660973,
+          "orientation_deg": 17.036636612514084,
+          "last40": {
+            "seed": 900002,
+            "kind": "moving_without_task_progress",
+            "position_m": 0.28827830106660973,
+            "orientation_deg": 17.036636612514084,
+            "joint_travel_last40_rad": 0.023564037605466052,
+            "joint_displacement_last40_rad": 0.023562741339421746,
+            "position_progress_last40_m": -0.013672833761917746,
+            "orientation_progress_last40_deg": -1.1937350788773777,
+            "mean_action_norm_last40": 0.00870324462885037,
+            "mean_cancellation_ratio_last40": 0.008397107107587126,
+            "strong_action_cancellation": true,
+            "reference_index_change_last40": 0,
+            "cursor_at_final_waypoint": false,
+            "reference_distance_rad": 2.528025873691446,
+            "route_distance_rad": 0.39533071681709075,
+            "reference_recoveries": 0,
+            "wall_clearance_capped_m": 0.019167372449101425,
+            "goal_max_joint_error_rad": 0.22319281455957063
+          }
+        },
+        {
+          "seed": 900003,
+          "reason": "timeout",
+          "steps": 240,
+          "position_m": 0.1991011368687219,
+          "orientation_deg": 12.350687157001184,
+          "last40": {
+            "seed": 900003,
+            "kind": "nearly_stationary",
+            "position_m": 0.1991011368687219,
+            "orientation_deg": 12.350687157001184,
+            "joint_travel_last40_rad": 0.003817179228815803,
+            "joint_displacement_last40_rad": 0.00380768718516967,
+            "position_progress_last40_m": -0.0011498230014669875,
+            "orientation_progress_last40_deg": -0.05392984967239833,
+            "mean_action_norm_last40": 0.0014200423756847158,
+            "mean_cancellation_ratio_last40": 0.00622196539029264,
+            "strong_action_cancellation": true,
+            "reference_index_change_last40": 0,
+            "cursor_at_final_waypoint": false,
+            "reference_distance_rad": 0.7551962357374771,
+            "route_distance_rad": 0.421641155008671,
+            "reference_recoveries": 2,
+            "wall_clearance_capped_m": 0.05892893115616999,
+            "goal_max_joint_error_rad": 0.2072660155854097
+          }
+        },
+        {
+          "seed": 900005,
+          "reason": "collision",
+          "steps": 59,
+          "position_m": 0.21937969752897649,
+          "orientation_deg": 13.185184844178849,
+          "last40": {
+            "seed": 900005,
+            "kind": "slow_task_progress",
+            "position_m": 0.21937969752897649,
+            "orientation_deg": 13.185184844178849,
+            "joint_travel_last40_rad": 2.495938591148191,
+            "joint_displacement_last40_rad": 2.016467687395375,
+            "position_progress_last40_m": 1.065825387933705,
+            "orientation_progress_last40_deg": 89.78882744459509,
+            "mean_action_norm_last40": 0.9404077559709549,
+            "mean_cancellation_ratio_last40": 0.6838781914675692,
+            "strong_action_cancellation": false,
+            "reference_index_change_last40": 0,
+            "cursor_at_final_waypoint": false,
+            "reference_distance_rad": 2.5756361783073722,
+            "route_distance_rad": 0.3227014423256921,
+            "reference_recoveries": 0,
+            "wall_clearance_capped_m": 0.018735044987192237,
+            "goal_max_joint_error_rad": 0.29221542604372464
+          }
+        },
+        {
+          "seed": 900015,
+          "reason": "collision",
+          "steps": 41,
+          "position_m": 0.5096851229896636,
+          "orientation_deg": 67.79469904550731,
+          "last40": {
+            "seed": 900015,
+            "kind": "slow_task_progress",
+            "position_m": 0.5096851229896636,
+            "orientation_deg": 67.79469904550731,
+            "joint_travel_last40_rad": 2.6747686378604096,
+            "joint_displacement_last40_rad": 2.3866277918871526,
+            "position_progress_last40_m": 1.2872978190711069,
+            "orientation_progress_last40_deg": 83.17650083026716,
+            "mean_action_norm_last40": 1.001114983856678,
+            "mean_cancellation_ratio_last40": 0.8376014064987773,
+            "strong_action_cancellation": false,
+            "reference_index_change_last40": 11,
+            "cursor_at_final_waypoint": false,
+            "reference_distance_rad": 2.0852022082129795,
+            "route_distance_rad": 1.2611897017022893,
+            "reference_recoveries": 2,
+            "wall_clearance_capped_m": 0.022605153005266346,
+            "goal_max_joint_error_rad": 1.0423543607190071
+          }
+        }
+      ],
+      "goal_probes": [
+        {
+          "obstacle_present": false,
+          "initial_success": true,
+          "max_action": 1.707800038275309e-06
+        },
+        {
+          "obstacle_present": true,
+          "initial_success": true,
+          "max_action": 1.7077998109016335e-06
+        }
+      ],
+      "combined_200": {
+        "episodes": 200,
+        "success": 182,
+        "collision": 10,
+        "timeout": 8,
+        "joint_limit": 0
+      },
+      "policy_tensors_unchanged": true,
+      "paired_validation": {
+        "success -> success": 16,
+        "timeout -> timeout": 2,
+        "collision -> collision": 2
+      },
+      "paired_regression": {
+        "previous_100": {
+          "success -> success": 92,
+          "timeout -> timeout": 4,
+          "collision -> collision": 4
+        },
+        "recent_100": {
+          "success -> success": 90,
+          "timeout -> timeout": 4,
+          "collision -> collision": 6
+        }
+      },
+      "non_regression_eligible": true
+    },
+    "recovery_wider": {
+      "parameters": {
+        "recovery_radius": 0.45,
+        "terminal_radius": 0.2
+      },
+      "validation": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 17,
+          "collision": 3,
+          "joint_limit": 0,
+          "timeout": 0
+        }
+      },
+      "regression": {
+        "previous_100": {
+          "alignment_far": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "stage_target": {
+            "episodes": 100,
+            "success": 79,
+            "collision": 15,
+            "joint_limit": 0,
+            "timeout": 6
+          }
+        },
+        "recent_100": {
+          "alignment_far": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "stage_target": {
+            "episodes": 100,
+            "success": 82,
+            "collision": 12,
+            "joint_limit": 0,
+            "timeout": 6
+          }
+        }
+      },
+      "focus": [
+        {
+          "seed": 900002,
+          "reason": "success",
+          "steps": 70,
+          "position_m": 0.000825779584636613,
+          "orientation_deg": 0.05103803115336292,
+          "last40": {
+            "seed": 900002,
+            "kind": "slow_task_progress",
+            "position_m": 0.000825779584636613,
+            "orientation_deg": 0.05103803115336292,
+            "joint_travel_last40_rad": 2.578053379892312,
+            "joint_displacement_last40_rad": 1.9910700532095205,
+            "position_progress_last40_m": 1.094133800318899,
+            "orientation_progress_last40_deg": 96.08382875813498,
+            "mean_action_norm_last40": 0.951623123139143,
+            "mean_cancellation_ratio_last40": 0.8859714011877216,
+            "strong_action_cancellation": false,
+            "reference_index_change_last40": 40,
+            "cursor_at_final_waypoint": true,
+            "reference_distance_rad": 0.03457458274519105,
+            "route_distance_rad": 0.013174331541970669,
+            "reference_recoveries": 7,
+            "wall_clearance_capped_m": 0.02228691963338495,
+            "goal_max_joint_error_rad": 0.020915170077700163
+          }
+        },
+        {
+          "seed": 900003,
+          "reason": "success",
+          "steps": 88,
+          "position_m": 0.002017304627983957,
+          "orientation_deg": 0.3352860268697366,
+          "last40": {
+            "seed": 900003,
+            "kind": "slow_task_progress",
+            "position_m": 0.002017304627983957,
+            "orientation_deg": 0.3352860268697366,
+            "joint_travel_last40_rad": 1.659375006181839,
+            "joint_displacement_last40_rad": 0.618238088009907,
+            "position_progress_last40_m": 0.40603386758130433,
+            "orientation_progress_last40_deg": 29.09697228083004,
+            "mean_action_norm_last40": 0.6276074089109898,
+            "mean_cancellation_ratio_last40": 0.8787994502929279,
+            "strong_action_cancellation": false,
+            "reference_index_change_last40": 9,
+            "cursor_at_final_waypoint": true,
+            "reference_distance_rad": 0.07118506914002054,
+            "route_distance_rad": 0.06825805777071009,
+            "reference_recoveries": 5,
+            "wall_clearance_capped_m": 0.02717852992841665,
+            "goal_max_joint_error_rad": 0.05496730867129095
+          }
+        },
+        {
+          "seed": 900005,
+          "reason": "collision",
+          "steps": 48,
+          "position_m": 0.34447568474394513,
+          "orientation_deg": 21.3151164900946,
+          "last40": {
+            "seed": 900005,
+            "kind": "slow_task_progress",
+            "position_m": 0.34447568474394513,
+            "orientation_deg": 21.3151164900946,
+            "joint_travel_last40_rad": 2.8471022340779633,
+            "joint_displacement_last40_rad": 2.1474839097800187,
+            "position_progress_last40_m": 1.3359756060322048,
+            "orientation_progress_last40_deg": 109.04505417804094,
+            "mean_action_norm_last40": 1.057852068543434,
+            "mean_cancellation_ratio_last40": 0.805386636736279,
+            "strong_action_cancellation": false,
+            "reference_index_change_last40": 29,
+            "cursor_at_final_waypoint": false,
+            "reference_distance_rad": 0.16963917770278725,
+            "route_distance_rad": 0.1613651744288872,
+            "reference_recoveries": 4,
+            "wall_clearance_capped_m": 0.010059265075647784,
+            "goal_max_joint_error_rad": 0.44681859973163146
+          }
+        },
+        {
+          "seed": 900015,
+          "reason": "collision",
+          "steps": 42,
+          "position_m": 0.5038120159473483,
+          "orientation_deg": 69.15810780029219,
+          "last40": {
+            "seed": 900015,
+            "kind": "slow_task_progress",
+            "position_m": 0.5038120159473483,
+            "orientation_deg": 69.15810780029219,
+            "joint_travel_last40_rad": 2.708096945822622,
+            "joint_displacement_last40_rad": 2.405302970446799,
+            "position_progress_last40_m": 1.3012350225027642,
+            "orientation_progress_last40_deg": 80.4606871763036,
+            "mean_action_norm_last40": 1.0085453361272811,
+            "mean_cancellation_ratio_last40": 0.8416873256646543,
+            "strong_action_cancellation": false,
+            "reference_index_change_last40": 13,
+            "cursor_at_final_waypoint": false,
+            "reference_distance_rad": 2.030926546248839,
+            "route_distance_rad": 1.2926728514411403,
+            "reference_recoveries": 3,
+            "wall_clearance_capped_m": 0.002488599412190035,
+            "goal_max_joint_error_rad": 1.0072631942790768
+          }
+        }
+      ],
+      "goal_probes": [
+        {
+          "obstacle_present": false,
+          "initial_success": true,
+          "max_action": 1.707800038275309e-06
+        },
+        {
+          "obstacle_present": true,
+          "initial_success": true,
+          "max_action": 1.7077998109016335e-06
+        }
+      ],
+      "combined_200": {
+        "episodes": 200,
+        "success": 161,
+        "collision": 27,
+        "timeout": 12,
+        "joint_limit": 0
+      },
+      "policy_tensors_unchanged": true,
+      "paired_validation": {
+        "success -> success": 15,
+        "timeout -> success": 2,
+        "collision -> collision": 2,
+        "success -> collision": 1
+      },
+      "paired_regression": {
+        "previous_100": {
+          "success -> success": 76,
+          "success -> collision": 12,
+          "timeout -> timeout": 2,
+          "success -> timeout": 4,
+          "collision -> success": 2,
+          "timeout -> collision": 1,
+          "collision -> collision": 2,
+          "timeout -> success": 1
+        },
+        "recent_100": {
+          "success -> success": 75,
+          "timeout -> success": 3,
+          "success -> collision": 10,
+          "success -> timeout": 5,
+          "timeout -> timeout": 1,
+          "collision -> collision": 2,
+          "collision -> success": 4
+        }
+      },
+      "non_regression_eligible": false
+    },
+    "terminal_earlier": {
+      "parameters": {
+        "recovery_radius": 0.3,
+        "terminal_radius": 0.4
+      },
+      "validation": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 8,
+          "collision": 1,
+          "joint_limit": 0,
+          "timeout": 1
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 2,
+          "collision": 18,
+          "joint_limit": 0,
+          "timeout": 0
+        }
+      },
+      "regression": {
+        "previous_100": {
+          "alignment_far": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "success": 9,
+            "collision": 1,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "stage_target": {
+            "episodes": 100,
+            "success": 11,
+            "collision": 89,
+            "joint_limit": 0,
+            "timeout": 0
+          }
+        },
+        "recent_100": {
+          "alignment_far": {
+            "episodes": 10,
+            "success": 8,
+            "collision": 2,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "joint_limit": 0,
+            "timeout": 0
+          },
+          "stage_target": {
+            "episodes": 100,
+            "success": 14,
+            "collision": 86,
+            "joint_limit": 0,
+            "timeout": 0
+          }
+        }
+      },
+      "focus": [
+        {
+          "seed": 900002,
+          "reason": "collision",
+          "steps": 57,
+          "position_m": 0.3613412420772436,
+          "orientation_deg": 35.414105893294455,
+          "last40": {
+            "seed": 900002,
+            "kind": "slow_task_progress",
+            "position_m": 0.3613412420772436,
+            "orientation_deg": 35.414105893294455,
+            "joint_travel_last40_rad": 2.6038145330147393,
+            "joint_displacement_last40_rad": 1.9915360676643457,
+            "position_progress_last40_m": 0.9858692378526431,
+            "orientation_progress_last40_deg": 70.01243936676104,
+            "mean_action_norm_last40": 0.9696742922067643,
+            "mean_cancellation_ratio_last40": 0.6825597014695223,
+            "strong_action_cancellation": false,
+            "reference_index_change_last40": 0,
+            "cursor_at_final_waypoint": false,
+            "reference_distance_rad": 2.3253116439880337,
+            "route_distance_rad": 0.4599073181425128,
+            "reference_recoveries": 0,
+            "wall_clearance_capped_m": 0.0057345349709440946,
+            "goal_max_joint_error_rad": 0.3120632690626024
+          }
+        },
+        {
+          "seed": 900003,
+          "reason": "success",
+          "steps": 58,
+          "position_m": 0.00014590795380927543,
+          "orientation_deg": 0.014511340386020895,
+          "last40": {
+            "seed": 900003,
+            "kind": "slow_task_progress",
+            "position_m": 0.00014590795380927543,
+            "orientation_deg": 0.014511340386020895,
+            "joint_travel_last40_rad": 2.693351725706719,
+            "joint_displacement_last40_rad": 2.1796741507505497,
+            "position_progress_last40_m": 1.3210325739135416,
+            "orientation_progress_last40_deg": 102.60805277147526,
+            "mean_action_norm_last40": 0.9879938330501318,
+            "mean_cancellation_ratio_last40": 0.7665982103935238,
+            "strong_action_cancellation": false,
+            "reference_index_change_last40": 38,
+            "cursor_at_final_waypoint": true,
+            "reference_distance_rad": 0.015713151069336396,
+            "route_distance_rad": 0.0018776603677533074,
+            "reference_recoveries": 4,
+            "wall_clearance_capped_m": 0.023115199230542803,
+            "goal_max_joint_error_rad": 0.009511152451872036
+          }
+        },
+        {
+          "seed": 900005,
+          "reason": "collision",
+          "steps": 59,
+          "position_m": 0.24920273142682955,
+          "orientation_deg": 14.625685657730243,
+          "last40": {
+            "seed": 900005,
+            "kind": "slow_task_progress",
+            "position_m": 0.24920273142682955,
+            "orientation_deg": 14.625685657730243,
+            "joint_travel_last40_rad": 2.4855005688236336,
+            "joint_displacement_last40_rad": 1.9772317696112205,
+            "position_progress_last40_m": 1.0474953353483265,
+            "orientation_progress_last40_deg": 88.48903936832232,
+            "mean_action_norm_last40": 0.9305072084069252,
+            "mean_cancellation_ratio_last40": 0.6771689436665411,
+            "strong_action_cancellation": false,
+            "reference_index_change_last40": 0,
+            "cursor_at_final_waypoint": false,
+            "reference_distance_rad": 2.538564950531611,
+            "route_distance_rad": 0.3412359786698405,
+            "reference_recoveries": 0,
+            "wall_clearance_capped_m": 0.01854132694932019,
+            "goal_max_joint_error_rad": 0.33324272520609377
+          }
+        },
+        {
+          "seed": 900015,
+          "reason": "collision",
+          "steps": 41,
+          "position_m": 0.5096851229896636,
+          "orientation_deg": 67.79469904550731,
+          "last40": {
+            "seed": 900015,
+            "kind": "slow_task_progress",
+            "position_m": 0.5096851229896636,
+            "orientation_deg": 67.79469904550731,
+            "joint_travel_last40_rad": 2.6747686378604096,
+            "joint_displacement_last40_rad": 2.3866277918871526,
+            "position_progress_last40_m": 1.2872978190711069,
+            "orientation_progress_last40_deg": 83.17650083026716,
+            "mean_action_norm_last40": 1.001114983856678,
+            "mean_cancellation_ratio_last40": 0.8376014064987773,
+            "strong_action_cancellation": false,
+            "reference_index_change_last40": 11,
+            "cursor_at_final_waypoint": false,
+            "reference_distance_rad": 2.0852022082129795,
+            "route_distance_rad": 1.2611897017022893,
+            "reference_recoveries": 2,
+            "wall_clearance_capped_m": 0.022605153005266346,
+            "goal_max_joint_error_rad": 1.0423543607190071
+          }
+        }
+      ],
+      "goal_probes": [
+        {
+          "obstacle_present": false,
+          "initial_success": true,
+          "max_action": 1.7078830296668457e-06
+        },
+        {
+          "obstacle_present": true,
+          "initial_success": true,
+          "max_action": 1.7078830296668457e-06
+        }
+      ],
+      "combined_200": {
+        "episodes": 200,
+        "success": 25,
+        "collision": 175,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "policy_tensors_unchanged": true,
+      "paired_validation": {
+        "success -> success": 1,
+        "success -> collision": 15,
+        "timeout -> collision": 1,
+        "timeout -> success": 1,
+        "collision -> collision": 2
+      },
+      "paired_regression": {
+        "previous_100": {
+          "success -> collision": 84,
+          "success -> success": 8,
+          "timeout -> success": 2,
+          "collision -> collision": 3,
+          "collision -> success": 1,
+          "timeout -> collision": 2
+        },
+        "recent_100": {
+          "success -> collision": 80,
+          "timeout -> success": 1,
+          "success -> success": 10,
+          "timeout -> collision": 3,
+          "collision -> collision": 3,
+          "collision -> success": 3
+        }
+      },
+      "non_regression_eligible": false
+    }
+  },
+  "training_performed": false,
+  "model_file_unchanged": true,
+  "network_tensors_unchanged": true,
+  "default_configuration_changed": false,
+  "controller_hyperparameters_changed_during_inference_only": true,
+  "combined_200_are_regression_not_new_independent_test": true,
+  "automatic_adoption": false
+}

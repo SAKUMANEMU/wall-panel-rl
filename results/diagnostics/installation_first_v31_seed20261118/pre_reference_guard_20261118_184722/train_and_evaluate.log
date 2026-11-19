@@ -1,0 +1,10 @@
+pybullet build time: Jan 29 2025 23:17:20
+{"status": "running", "pid": 13558, "started_at": "2026-11-18T18:43:28.422416+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:43:28.447800+08:00", "evaluation_completed": 0, "evaluation_planned": 8}
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+{"status": "running", "pid": 13558, "started_at": "2026-11-18T18:43:28.422416+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:44:09.923554+08:00", "evaluation_completed": 1, "evaluation_planned": 8}
+{"status": "running", "pid": 13558, "started_at": "2026-11-18T18:43:28.422416+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:44:15.589728+08:00", "evaluation_completed": 2, "evaluation_planned": 8}
+{"status": "running", "pid": 13558, "started_at": "2026-11-18T18:43:28.422416+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:45:28.515426+08:00", "evaluation_completed": 3, "evaluation_planned": 8}
+{"status": "running", "pid": 13558, "started_at": "2026-11-18T18:43:28.422416+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:45:40.316716+08:00", "evaluation_completed": 4, "evaluation_planned": 8}
+/home/johnsonchen/wall-panel-rl/.conda-env/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 5 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

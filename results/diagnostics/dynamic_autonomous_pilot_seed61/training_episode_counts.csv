@@ -1,0 +1,6 @@
+curriculum_task,termination_reason,episodes
+alignment,success,142
+dynamic,collision,372
+dynamic,success,4
+static,collision,242
+static,success,7

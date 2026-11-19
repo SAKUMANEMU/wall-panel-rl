@@ -1,0 +1,51 @@
+{
+  "seed": 61,
+  "joint_margin": 0.01,
+  "progress_weight": 0.25,
+  "interface_contract": "reference_preserving_v3",
+  "terminal_radius": 0.2,
+  "reference_recovery": {
+    "radius": 0.3,
+    "min_distance": 0.08,
+    "improvement": 0.02
+  },
+  "conditional_recovery": {
+    "window": 30,
+    "min_steps": 60,
+    "position_epsilon": 0.001,
+    "orientation_epsilon_deg": 0.1,
+    "max_joint_displacement": 0.02,
+    "min_reference_distance": 0.2,
+    "extended_radius": 0.45,
+    "max_attempts": 3,
+    "max_recoveries": 1,
+    "cooldown": 20
+  },
+  "clearance_distance": 0.08,
+  "clearance_weight": 0.5,
+  "active_stage": {
+    "name": "four_slow_dynamic",
+    "count": 4,
+    "mode": "dynamic",
+    "amplitude": 0.18,
+    "speed": 0.12
+  },
+  "mixture": {
+    "alignment": 0.0,
+    "static": 0.0,
+    "dynamic": 1.0
+  },
+  "additional_timesteps": 10000,
+  "workers": 4,
+  "on_path_obstacles": {
+    "fractions": [
+      0.38,
+      0.58,
+      0.18,
+      0.76
+    ],
+    "fraction_jitter": 0.065,
+    "center_jitter_m": 0.01,
+    "attempts_per_obstacle": 100
+  }
+}

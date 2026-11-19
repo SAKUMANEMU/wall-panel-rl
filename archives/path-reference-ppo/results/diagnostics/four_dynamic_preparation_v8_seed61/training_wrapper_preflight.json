@@ -1,0 +1,50 @@
+{
+  "records": [
+    {
+      "controller": "rrt",
+      "seed": 1020002,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 69,
+      "reward": 300.71777445122507,
+      "position_m": 0.0008183530180528399,
+      "orientation_deg": 0.06889780225490846,
+      "planning_seconds": 1.6030217249999623,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0,
+      "planner_seed": 2000381672,
+      "pre_verified": true,
+      "post_time_verified": true,
+      "physical_replay_verified": true,
+      "replay_steps": 69,
+      "replay_max_error": 9.159339953157541e-16,
+      "verification_seconds": 1.0382444239999131,
+      "reference_preserved": true,
+      "accepted_for_imitation": true,
+      "dynamic_planning_mode": "timed",
+      "replans": 0,
+      "hold_steps": 0,
+      "scheduled_waits": 0,
+      "speed_m_s": 0.005,
+      "curriculum_level": 0
+    },
+    {
+      "controller": "ppo",
+      "seed": 1020002,
+      "task": "static",
+      "reason": "collision",
+      "steps": 28,
+      "reward": 30.564645023647223,
+      "position_m": 1.1112332948791388,
+      "orientation_deg": 87.77401002783868,
+      "planning_seconds": 0.0,
+      "online_avoidance_planner": false,
+      "conditional_recoveries": 0,
+      "speed_m_s": 0.0,
+      "curriculum_level": 0
+    }
+  ],
+  "verified_bc_pairs": 69,
+  "optimizer_steps": 0,
+  "source_unchanged": true
+}

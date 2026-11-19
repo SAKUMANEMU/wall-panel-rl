@@ -1,0 +1,42 @@
+{
+  "phase": "completed",
+  "updated_at": "2026-11-05T14:47:39.147757+08:00",
+  "training_steps": 0,
+  "episodes": 8,
+  "summary": {
+    "episodes": 8,
+    "expert_probability": 0.5,
+    "training_steps": 0,
+    "source_unchanged": true,
+    "model_weights_and_update_counter_unchanged": true,
+    "independent_test": false,
+    "by_controller": {
+      "rrt": {
+        "success": 2
+      },
+      "ppo": {
+        "collision": 3,
+        "success": 2,
+        "timeout": 1
+      }
+    },
+    "total_outcomes": {
+      "success": 4,
+      "collision": 3,
+      "timeout": 1
+    },
+    "scene_construction_rejections": 136,
+    "rejections_by_stage": {
+      "geometry": 132,
+      "nominal_reference": 4
+    },
+    "planning_paused_time_and_restored_scene": true,
+    "original_reference_preserved": true,
+    "motion_bounds_verified": true,
+    "max_displacement_from_anchor_m": 0.1486995587993148,
+    "max_observed_speed_m_s": 0.08974718407877691,
+    "all_executed_cases_moved_in_xyz": true,
+    "default_static_model_and_entries_preserved": true
+  },
+  "process_exited": true
+}

@@ -1,0 +1,110 @@
+{
+  "training_performed": false,
+  "teacher_sha256": "3f53007184f4aa11c0b516db9275770b61cacd13322767da7ca25b614611bd7a",
+  "sampled_corrections": 10,
+  "success": 10,
+  "max_observation_error": 0.0,
+  "prefixes_not_labels": true,
+  "rows": [
+    {
+      "episode": 1,
+      "seed": 800197,
+      "prefix_steps": 12,
+      "labelled_steps": 44,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 56,
+      "original_total_steps": 56
+    },
+    {
+      "episode": 123,
+      "seed": 800196,
+      "prefix_steps": 8,
+      "labelled_steps": 46,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 54,
+      "original_total_steps": 54
+    },
+    {
+      "episode": 252,
+      "seed": 800060,
+      "prefix_steps": 5,
+      "labelled_steps": 46,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 51,
+      "original_total_steps": 51
+    },
+    {
+      "episode": 343,
+      "seed": 800082,
+      "prefix_steps": 9,
+      "labelled_steps": 41,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 50,
+      "original_total_steps": 50
+    },
+    {
+      "episode": 493,
+      "seed": 800065,
+      "prefix_steps": 5,
+      "labelled_steps": 46,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 51,
+      "original_total_steps": 51
+    },
+    {
+      "episode": 617,
+      "seed": 800214,
+      "prefix_steps": 9,
+      "labelled_steps": 42,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 51,
+      "original_total_steps": 51
+    },
+    {
+      "episode": 702,
+      "seed": 800180,
+      "prefix_steps": 12,
+      "labelled_steps": 62,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 74,
+      "original_total_steps": 74
+    },
+    {
+      "episode": 840,
+      "seed": 800098,
+      "prefix_steps": 5,
+      "labelled_steps": 47,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 52,
+      "original_total_steps": 52
+    },
+    {
+      "episode": 927,
+      "seed": 800155,
+      "prefix_steps": 6,
+      "labelled_steps": 48,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 54,
+      "original_total_steps": 54
+    },
+    {
+      "episode": 994,
+      "seed": 800224,
+      "prefix_steps": 8,
+      "labelled_steps": 47,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 55,
+      "original_total_steps": 55
+    }
+  ]
+}

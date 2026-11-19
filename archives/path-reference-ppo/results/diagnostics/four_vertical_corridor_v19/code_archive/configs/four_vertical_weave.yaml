@@ -1,0 +1,18 @@
+# Larger alternating heights; obstacle speed/amplitude and controller unchanged.
+source_report: results/diagnostics/four_dynamic_speed_v9_fast02_seed71
+expert_probability: 0.5
+motion:
+  amplitude_m: 0.18
+  max_speed_m_s: 0.12
+  frequency_fraction: [0.65, 1.0]
+  seed_offset: 9000000
+placement_attempts: 100
+motion_aware_placement: true
+anchor_restarts: 12
+# Demo labels O1/O2/O3/O4: lower the complete O2 trajectory by 5 cm.
+# Applied after placement; the full moving bounds are checked again.
+demo_obstacle_height_offsets_m: [0.0, -0.05, 0.0, 0.0]
+height_stagger:
+  offset_m: [0.08, 0.14]
+  min_span_m: 0.24
+  min_adjacent_delta_m: 0.10

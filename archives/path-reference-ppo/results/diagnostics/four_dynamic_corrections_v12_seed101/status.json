@@ -1,0 +1,39 @@
+{
+  "status": "completed",
+  "optimizer_updates": 0,
+  "static_episodes": 0,
+  "phase": "complete",
+  "updated_at": "2026-11-05T20:51:23.643502+08:00",
+  "processed": 192,
+  "total": 192,
+  "outcomes": {
+    "success": 110,
+    "collision": 79,
+    "timeout": 3
+  },
+  "accepted": 32,
+  "target": 32,
+  "attempts": 32,
+  "summary": {
+    "verified_corrections": 32,
+    "corrected_layouts": 32,
+    "head_training_pairs": 507,
+    "full_verified_suffix_pairs": 1998,
+    "success_anchor_states": 2675,
+    "nonzero_time_corrections": 21,
+    "source_outcomes": {
+      "success": 110,
+      "collision": 79,
+      "timeout": 3
+    },
+    "attempts": 32,
+    "attempt_outcomes": {
+      "success": 32
+    },
+    "train_only": true,
+    "dynamic_only": true,
+    "reference_and_clock_preserved": true,
+    "optimizer_updates": 0,
+    "source_unchanged": true
+  }
+}

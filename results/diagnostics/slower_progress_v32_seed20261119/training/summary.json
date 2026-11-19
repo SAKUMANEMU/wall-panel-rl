@@ -1,0 +1,423 @@
+{
+  "selected_label": "ppo_8192",
+  "validation": {
+    "all": {
+      "episodes": 16,
+      "success": 11,
+      "collision": 1,
+      "timeout": 4,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.6875,
+      "mean_passage_count": 0.375,
+      "success_with_weaving": 1,
+      "mean_task_error": 0.2747254848974055
+    },
+    "by_count": {
+      "2": {
+        "episodes": 4,
+        "success": 3,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 0.5,
+        "success_with_weaving": 1,
+        "mean_task_error": 0.18164419406937274
+      },
+      "3": {
+        "episodes": 4,
+        "success": 3,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 1.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.12724800088344904
+      },
+      "4": {
+        "episodes": 4,
+        "success": 3,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.26983409936860236
+      },
+      "5": {
+        "episodes": 4,
+        "success": 2,
+        "collision": 1,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.5,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.520175645268198
+      }
+    }
+  },
+  "evaluation_mode": "enhanced_only",
+  "independent_test_enhanced": {
+    "all": {
+      "episodes": 40,
+      "success": 22,
+      "collision": 7,
+      "timeout": 11,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.55,
+      "mean_passage_count": 0.35,
+      "success_with_weaving": 2,
+      "mean_task_error": 0.5774814904256457
+    },
+    "by_count": {
+      "2": {
+        "episodes": 10,
+        "success": 5,
+        "collision": 3,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.5,
+        "mean_passage_count": 0.4,
+        "success_with_weaving": 2,
+        "mean_task_error": 0.6003953865028452
+      },
+      "3": {
+        "episodes": 10,
+        "success": 9,
+        "collision": 1,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.9,
+        "mean_passage_count": 0.6,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.21002528857626368
+      },
+      "4": {
+        "episodes": 10,
+        "success": 4,
+        "collision": 1,
+        "timeout": 5,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.4,
+        "mean_passage_count": 0.4,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.5854900420544709
+      },
+      "5": {
+        "episodes": 10,
+        "success": 4,
+        "collision": 2,
+        "timeout": 4,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.4,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.914015244569003
+      }
+    }
+  },
+  "independent_test_source": {
+    "all": {
+      "episodes": 40,
+      "success": 20,
+      "collision": 4,
+      "timeout": 16,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.5,
+      "mean_passage_count": 0.4,
+      "success_with_weaving": 2,
+      "mean_task_error": 0.5404248574719895
+    },
+    "by_count": {
+      "2": {
+        "episodes": 10,
+        "success": 6,
+        "collision": 2,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.6,
+        "mean_passage_count": 0.6,
+        "success_with_weaving": 2,
+        "mean_task_error": 0.5525367552535554
+      },
+      "3": {
+        "episodes": 10,
+        "success": 7,
+        "collision": 0,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.7,
+        "mean_passage_count": 0.6,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.227917205628234
+      },
+      "4": {
+        "episodes": 10,
+        "success": 3,
+        "collision": 0,
+        "timeout": 7,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.3,
+        "mean_passage_count": 0.4,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.543767411867693
+      },
+      "5": {
+        "episodes": 10,
+        "success": 4,
+        "collision": 2,
+        "timeout": 4,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.4,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.8374780571384759
+      }
+    }
+  },
+  "paired_test": {
+    "selected": {
+      "all": {
+        "episodes": 40,
+        "success": 22,
+        "collision": 7,
+        "timeout": 11,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.55,
+        "success_wilson95": [
+          0.39829091798932054,
+          0.6929469218909508
+        ]
+      },
+      "by_count": {
+        "2": {
+          "episodes": 10,
+          "success": 5,
+          "collision": 3,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.5,
+          "success_wilson95": [
+            0.236593090512564,
+            0.7634069094874361
+          ]
+        },
+        "3": {
+          "episodes": 10,
+          "success": 9,
+          "collision": 1,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.9,
+          "success_wilson95": [
+            0.5958499732047615,
+            0.9821237869049271
+          ]
+        },
+        "4": {
+          "episodes": 10,
+          "success": 4,
+          "collision": 1,
+          "timeout": 5,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.4,
+          "success_wilson95": [
+            0.16818032970623614,
+            0.6873262302663417
+          ]
+        },
+        "5": {
+          "episodes": 10,
+          "success": 4,
+          "collision": 2,
+          "timeout": 4,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.4,
+          "success_wilson95": [
+            0.16818032970623614,
+            0.6873262302663417
+          ]
+        }
+      },
+      "by_max_obstacle_speed": {
+        "low_0.04_to_0.10": {
+          "episodes": 1,
+          "success": 1,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "success_wilson95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "medium_0.10_to_0.16": {
+          "episodes": 20,
+          "success": 10,
+          "collision": 4,
+          "timeout": 6,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.5,
+          "success_wilson95": [
+            0.2992980081982123,
+            0.7007019918017877
+          ]
+        },
+        "high_0.16_to_0.22": {
+          "episodes": 19,
+          "success": 11,
+          "collision": 3,
+          "timeout": 5,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.5789473684210527,
+          "success_wilson95": [
+            0.3627590353425504,
+            0.7685810871754576
+          ]
+        }
+      }
+    },
+    "v31_source_same_slow_scenes": {
+      "all": {
+        "episodes": 40,
+        "success": 20,
+        "collision": 4,
+        "timeout": 16,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.5,
+        "success_wilson95": [
+          0.35199526933465386,
+          0.6480047306653461
+        ]
+      },
+      "by_count": {
+        "2": {
+          "episodes": 10,
+          "success": 6,
+          "collision": 2,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.6,
+          "success_wilson95": [
+            0.31267376973365824,
+            0.8318196702937638
+          ]
+        },
+        "3": {
+          "episodes": 10,
+          "success": 7,
+          "collision": 0,
+          "timeout": 3,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.7,
+          "success_wilson95": [
+            0.39677814746114537,
+            0.8922087325936989
+          ]
+        },
+        "4": {
+          "episodes": 10,
+          "success": 3,
+          "collision": 0,
+          "timeout": 7,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.3,
+          "success_wilson95": [
+            0.10779126740630099,
+            0.6032218525388546
+          ]
+        },
+        "5": {
+          "episodes": 10,
+          "success": 4,
+          "collision": 2,
+          "timeout": 4,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.4,
+          "success_wilson95": [
+            0.16818032970623614,
+            0.6873262302663417
+          ]
+        }
+      },
+      "by_max_obstacle_speed": {
+        "low_0.04_to_0.10": {
+          "episodes": 1,
+          "success": 1,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "success_wilson95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "medium_0.10_to_0.16": {
+          "episodes": 20,
+          "success": 9,
+          "collision": 1,
+          "timeout": 10,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.45,
+          "success_wilson95": [
+            0.2581978582556243,
+            0.6579146575496577
+          ]
+        },
+        "high_0.16_to_0.22": {
+          "episodes": 19,
+          "success": 10,
+          "collision": 3,
+          "timeout": 6,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.5263157894736842,
+          "success_wilson95": [
+            0.3170780924511316,
+            0.7267019483882042
+          ]
+        }
+      }
+    }
+  },
+  "training_performed": true,
+  "source_model_unchanged": true,
+  "controller_variant": null,
+  "bc_updates_performed": 500,
+  "ppo_started": true
+}

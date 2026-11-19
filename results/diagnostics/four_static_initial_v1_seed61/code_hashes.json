@@ -1,0 +1,8 @@
+{
+  "configs/four_static_initial.yaml": "ffee4761d88ed011766aa7cf68a6727ebf4502c9c225650261c84680b2a762cc",
+  "scripts/run_four_static_initial.py": "8592cc5bd550f1b4ba4def49e873b584f23b47bb5b0f6d3c3938694a502ac6f5",
+  "scripts/demo_autonomous_ppo.py": "4264ab005ca645ccbbb0334fa3e595aa583ac96071ab01bc9509aaf52ea3deb2",
+  "scripts/demo_four_static.py": "89bcb43ca23d14052721dcdd509bc20372836422670a49950fb06b4ff89d616b",
+  "src/wall_panel_rl/rl/static_demo_scene.py": "bd3b4b24e019d3f74678022257557c335e511d5f8f39830a9485b38e9af74a8b",
+  "src/wall_panel_rl/rl/avoidance_curriculum.py": "e0395f69fa75a4734d8e212d46d08e371c31e6019a6ee30a409f8abe50779563"
+}

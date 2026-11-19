@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "canonical",
+    "seed": 800000,
+    "max_error": 0.0,
+    "reason": "success"
+  },
+  {
+    "kind": "canonical",
+    "seed": 800001,
+    "max_error": 0.0,
+    "reason": "success"
+  },
+  {
+    "kind": "consistent_correction",
+    "seed": 800002,
+    "max_error": 0.0,
+    "reason": "success"
+  },
+  {
+    "kind": "consistent_correction",
+    "seed": 800002,
+    "max_error": 0.0,
+    "reason": "success"
+  }
+]

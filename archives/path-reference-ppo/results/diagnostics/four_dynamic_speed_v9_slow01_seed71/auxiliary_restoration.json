@@ -1,0 +1,12 @@
+{
+  "restored": true,
+  "source_state": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/models/four_dynamic_ppo_v8_seed61/auxiliary_bc/aux_2000.pt",
+  "source_state_sha256": "605099ca554e14f27c82913f246fab9de04c06c5e87d81ad4f32f3cf5906e999",
+  "ppo_counter": 62000,
+  "pool_size": 1467,
+  "accepted_updates": 2,
+  "rejected_updates": 0,
+  "optimizer_sha256": "e9abc95a04ae60e2798e8f2386cb6275f57ff5ccb85276b25f0506b918d525df",
+  "rng_sha256": "aef381cdece6a6c975a8621036cfc427188abd129371dd64d5f324c6a0b78bec",
+  "weights_unchanged_by_restoration": true
+}

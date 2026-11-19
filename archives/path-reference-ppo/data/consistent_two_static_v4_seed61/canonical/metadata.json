@@ -1,0 +1,17 @@
+{
+  "completed": true,
+  "episodes": 281,
+  "transitions": 12228,
+  "canonical_episodes": 182,
+  "correction_episodes": 99,
+  "failing_layouts": 47,
+  "correction_layouts": 44,
+  "route_conflict_layouts": 166,
+  "successful_planner_candidates": 546,
+  "unsafe_candidate_routes_rejected": 7,
+  "attempted_layouts": 182,
+  "attempts": 294,
+  "prefixes_are_not_labels": true,
+  "canonical_tail_reused": true,
+  "teacher_sha256": "93f1ed98188a332c4480962ecebd5afb5b028d30ad7c91d4c2bac4169e7c5a98"
+}

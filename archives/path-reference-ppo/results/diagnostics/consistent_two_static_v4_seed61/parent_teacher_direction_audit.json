@@ -1,0 +1,393 @@
+{
+  "paired_layouts": 64,
+  "pairs_with_opposing_initial_directions": 21,
+  "mean_initial_action_mse": 0.02454441765030424,
+  "identical_input_pairs": 0,
+  "interpretation": "The two demonstrations use phase-jittered obstacle positions. Direction disagreement alone does not prove contradictory labels at identical input. New audit replans identical frozen scenes with three planner seeds.",
+  "pairs": [
+    {
+      "seed": 800000,
+      "obstacle_feature_max_difference": 0.04919010400772095,
+      "initial_action_mse": 0.06993710249662399,
+      "opposing_active_joint_fraction": 0.25
+    },
+    {
+      "seed": 800001,
+      "obstacle_feature_max_difference": 0.03747975826263428,
+      "initial_action_mse": 0.00791384931653738,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800002,
+      "obstacle_feature_max_difference": 0.018095016479492188,
+      "initial_action_mse": 0.0,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800003,
+      "obstacle_feature_max_difference": 0.050156354904174805,
+      "initial_action_mse": 0.002496404806151986,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800004,
+      "obstacle_feature_max_difference": 0.027875125408172607,
+      "initial_action_mse": 0.022785162553191185,
+      "opposing_active_joint_fraction": 0.16666666666666666
+    },
+    {
+      "seed": 800005,
+      "obstacle_feature_max_difference": 0.045910656452178955,
+      "initial_action_mse": 0.00230915448628366,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800006,
+      "obstacle_feature_max_difference": 0.04654271900653839,
+      "initial_action_mse": 0.0019167161080986261,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800007,
+      "obstacle_feature_max_difference": 0.05020284652709961,
+      "initial_action_mse": 0.009286426939070225,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800008,
+      "obstacle_feature_max_difference": 0.03755044937133789,
+      "initial_action_mse": 0.008430279791355133,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800009,
+      "obstacle_feature_max_difference": 0.04810488224029541,
+      "initial_action_mse": 0.12013660371303558,
+      "opposing_active_joint_fraction": 0.25
+    },
+    {
+      "seed": 800010,
+      "obstacle_feature_max_difference": 0.052606433629989624,
+      "initial_action_mse": 0.002414630725979805,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800011,
+      "obstacle_feature_max_difference": 0.03612169623374939,
+      "initial_action_mse": 0.02227812446653843,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800012,
+      "obstacle_feature_max_difference": 0.0490415096282959,
+      "initial_action_mse": 0.01129723247140646,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800013,
+      "obstacle_feature_max_difference": 0.0570186972618103,
+      "initial_action_mse": 0.07147379964590073,
+      "opposing_active_joint_fraction": 0.4
+    },
+    {
+      "seed": 800014,
+      "obstacle_feature_max_difference": 0.05562102794647217,
+      "initial_action_mse": 0.0,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800015,
+      "obstacle_feature_max_difference": 0.049482062458992004,
+      "initial_action_mse": 0.0,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800016,
+      "obstacle_feature_max_difference": 0.04092627763748169,
+      "initial_action_mse": 0.11437640339136124,
+      "opposing_active_joint_fraction": 0.5
+    },
+    {
+      "seed": 800017,
+      "obstacle_feature_max_difference": 0.05570676922798157,
+      "initial_action_mse": 0.10772037506103516,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800018,
+      "obstacle_feature_max_difference": 0.050633080303668976,
+      "initial_action_mse": 0.012943059206008911,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800019,
+      "obstacle_feature_max_difference": 0.054546892642974854,
+      "initial_action_mse": 0.1569865196943283,
+      "opposing_active_joint_fraction": 0.2
+    },
+    {
+      "seed": 800020,
+      "obstacle_feature_max_difference": 0.04174095392227173,
+      "initial_action_mse": 0.016027111560106277,
+      "opposing_active_joint_fraction": 0.16666666666666666
+    },
+    {
+      "seed": 800021,
+      "obstacle_feature_max_difference": 0.04952612519264221,
+      "initial_action_mse": 0.004854245577007532,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800022,
+      "obstacle_feature_max_difference": 0.02317023277282715,
+      "initial_action_mse": 0.005733273923397064,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800023,
+      "obstacle_feature_max_difference": 0.03888404369354248,
+      "initial_action_mse": 0.004125657025724649,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800024,
+      "obstacle_feature_max_difference": 0.054657578468322754,
+      "initial_action_mse": 0.11103491485118866,
+      "opposing_active_joint_fraction": 0.5
+    },
+    {
+      "seed": 800025,
+      "obstacle_feature_max_difference": 0.041278839111328125,
+      "initial_action_mse": 0.00337600358761847,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800026,
+      "obstacle_feature_max_difference": 0.03872193396091461,
+      "initial_action_mse": 0.001523640239611268,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800027,
+      "obstacle_feature_max_difference": 0.053228214383125305,
+      "initial_action_mse": 0.12273945659399033,
+      "opposing_active_joint_fraction": 0.2
+    },
+    {
+      "seed": 800028,
+      "obstacle_feature_max_difference": 0.03530538082122803,
+      "initial_action_mse": 0.022840579971671104,
+      "opposing_active_joint_fraction": 0.3333333333333333
+    },
+    {
+      "seed": 800029,
+      "obstacle_feature_max_difference": 0.02234625816345215,
+      "initial_action_mse": 0.004294759128242731,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800030,
+      "obstacle_feature_max_difference": 0.05280256271362305,
+      "initial_action_mse": 0.025657182559370995,
+      "opposing_active_joint_fraction": 0.2
+    },
+    {
+      "seed": 800031,
+      "obstacle_feature_max_difference": 0.05766880512237549,
+      "initial_action_mse": 0.0,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800032,
+      "obstacle_feature_max_difference": 0.04069031774997711,
+      "initial_action_mse": 0.0,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800033,
+      "obstacle_feature_max_difference": 0.048137158155441284,
+      "initial_action_mse": 0.017239218577742577,
+      "opposing_active_joint_fraction": 0.2
+    },
+    {
+      "seed": 800034,
+      "obstacle_feature_max_difference": 0.02517840266227722,
+      "initial_action_mse": 0.0,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800035,
+      "obstacle_feature_max_difference": 0.04527914524078369,
+      "initial_action_mse": 0.025837766006588936,
+      "opposing_active_joint_fraction": 0.25
+    },
+    {
+      "seed": 800036,
+      "obstacle_feature_max_difference": 0.04560735821723938,
+      "initial_action_mse": 0.04397601634263992,
+      "opposing_active_joint_fraction": 0.25
+    },
+    {
+      "seed": 800037,
+      "obstacle_feature_max_difference": 0.03386768698692322,
+      "initial_action_mse": 0.02336755394935608,
+      "opposing_active_joint_fraction": 0.4
+    },
+    {
+      "seed": 800038,
+      "obstacle_feature_max_difference": 0.054425954818725586,
+      "initial_action_mse": 0.02823643945157528,
+      "opposing_active_joint_fraction": 0.25
+    },
+    {
+      "seed": 800039,
+      "obstacle_feature_max_difference": 0.05488964915275574,
+      "initial_action_mse": 0.002311764284968376,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800040,
+      "obstacle_feature_max_difference": 0.056234851479530334,
+      "initial_action_mse": 0.0035925451666116714,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800041,
+      "obstacle_feature_max_difference": 0.0501781702041626,
+      "initial_action_mse": 0.0021258157212287188,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800042,
+      "obstacle_feature_max_difference": 0.05164094269275665,
+      "initial_action_mse": 0.007203987799584866,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800043,
+      "obstacle_feature_max_difference": 0.04404258728027344,
+      "initial_action_mse": 0.014300652779638767,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800044,
+      "obstacle_feature_max_difference": 0.05315852165222168,
+      "initial_action_mse": 0.11873715370893478,
+      "opposing_active_joint_fraction": 0.5714285714285714
+    },
+    {
+      "seed": 800045,
+      "obstacle_feature_max_difference": 0.05691254138946533,
+      "initial_action_mse": 0.0004446183447726071,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800046,
+      "obstacle_feature_max_difference": 0.04217921942472458,
+      "initial_action_mse": 0.008388787508010864,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800047,
+      "obstacle_feature_max_difference": 0.052795276045799255,
+      "initial_action_mse": 0.04071201756596565,
+      "opposing_active_joint_fraction": 0.25
+    },
+    {
+      "seed": 800048,
+      "obstacle_feature_max_difference": 0.047766804695129395,
+      "initial_action_mse": 0.00018778941011987627,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800049,
+      "obstacle_feature_max_difference": 0.04406309127807617,
+      "initial_action_mse": 0.0009301711688749492,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800050,
+      "obstacle_feature_max_difference": 0.05411350727081299,
+      "initial_action_mse": 0.0003243451355956495,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800051,
+      "obstacle_feature_max_difference": 0.023911118507385254,
+      "initial_action_mse": 0.005684330128133297,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800052,
+      "obstacle_feature_max_difference": 0.04600107669830322,
+      "initial_action_mse": 0.05315928906202316,
+      "opposing_active_joint_fraction": 0.42857142857142855
+    },
+    {
+      "seed": 800053,
+      "obstacle_feature_max_difference": 0.049812376499176025,
+      "initial_action_mse": 0.00048040086403489113,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800054,
+      "obstacle_feature_max_difference": 0.030088067054748535,
+      "initial_action_mse": 0.003171756863594055,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800055,
+      "obstacle_feature_max_difference": 0.025932908058166504,
+      "initial_action_mse": 0.03293732553720474,
+      "opposing_active_joint_fraction": 0.16666666666666666
+    },
+    {
+      "seed": 800056,
+      "obstacle_feature_max_difference": 0.04744189977645874,
+      "initial_action_mse": 0.011406864039599895,
+      "opposing_active_joint_fraction": 0.2
+    },
+    {
+      "seed": 800057,
+      "obstacle_feature_max_difference": 0.05665421485900879,
+      "initial_action_mse": 0.0,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800058,
+      "obstacle_feature_max_difference": 0.02047419548034668,
+      "initial_action_mse": 0.009050513617694378,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800059,
+      "obstacle_feature_max_difference": 0.05419912934303284,
+      "initial_action_mse": 0.04128177836537361,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800060,
+      "obstacle_feature_max_difference": 0.04023289680480957,
+      "initial_action_mse": 0.008562233299016953,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800061,
+      "obstacle_feature_max_difference": 0.05511006712913513,
+      "initial_action_mse": 0.0,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800062,
+      "obstacle_feature_max_difference": 0.05470481514930725,
+      "initial_action_mse": 0.0,
+      "opposing_active_joint_fraction": 0.0
+    },
+    {
+      "seed": 800063,
+      "obstacle_feature_max_difference": 0.04067310690879822,
+      "initial_action_mse": 0.0002829250297509134,
+      "opposing_active_joint_fraction": 0.0
+    }
+  ]
+}

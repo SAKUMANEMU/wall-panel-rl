@@ -1,0 +1,230 @@
+{
+  "validation_timeout_comparison": {
+    "validation_transitions": {
+      "success -> success": 16,
+      "timeout -> timeout": 2,
+      "collision -> timeout": 2
+    },
+    "candidate_timeouts": [
+      {
+        "seed": 900002,
+        "kind": "moving_without_task_progress",
+        "position_m": 0.31649902630144633,
+        "orientation_deg": 20.028453323744937,
+        "joint_travel_last40_rad": 0.037002663648501216,
+        "joint_displacement_last40_rad": 0.03699863254591366,
+        "position_progress_last40_m": -0.021086671970712734,
+        "orientation_progress_last40_deg": -1.865976798829955,
+        "mean_action_norm_last40": 0.013672285177744926,
+        "mean_cancellation_ratio_last40": 0.013169164083294271,
+        "strong_action_cancellation": true,
+        "reference_index_change_last40": 0,
+        "cursor_at_final_waypoint": false,
+        "reference_distance_rad": 2.499039497537088,
+        "route_distance_rad": 0.40029434026356125,
+        "reference_recoveries": 0,
+        "wall_clearance_capped_m": 0.013270171282264256,
+        "goal_max_joint_error_rad": 0.2524461119893807,
+        "retained_reason": "timeout",
+        "extended_reason": "timeout",
+        "extended_steps": 480,
+        "extended_position_m": 0.3350260473067369,
+        "extended_orientation_deg": 21.65624663715157
+      },
+      {
+        "seed": 900003,
+        "kind": "moving_without_task_progress",
+        "position_m": 0.23252239471037098,
+        "orientation_deg": 11.716428452400647,
+        "joint_travel_last40_rad": 0.018386582754854736,
+        "joint_displacement_last40_rad": 0.018384485421990046,
+        "position_progress_last40_m": -0.011161287489767552,
+        "orientation_progress_last40_deg": -0.9425525560919503,
+        "mean_action_norm_last40": 0.006784518528729677,
+        "mean_cancellation_ratio_last40": 0.00660102738400567,
+        "strong_action_cancellation": true,
+        "reference_index_change_last40": 0,
+        "cursor_at_final_waypoint": false,
+        "reference_distance_rad": 2.5784250568651803,
+        "route_distance_rad": 0.39103524870225875,
+        "reference_recoveries": 0,
+        "wall_clearance_capped_m": 0.031999094999657446,
+        "goal_max_joint_error_rad": 0.24083193561649097,
+        "retained_reason": "timeout",
+        "extended_reason": "timeout",
+        "extended_steps": 480,
+        "extended_position_m": 0.23992740832254025,
+        "extended_orientation_deg": 12.341435776148911
+      },
+      {
+        "seed": 900005,
+        "kind": "nearly_stationary",
+        "position_m": 0.08954078018927789,
+        "orientation_deg": 7.491355646027941,
+        "joint_travel_last40_rad": 0.00289381453590405,
+        "joint_displacement_last40_rad": 0.0028933972827068373,
+        "position_progress_last40_m": -0.0012905553406208498,
+        "orientation_progress_last40_deg": 0.18618318474796336,
+        "mean_action_norm_last40": 0.0010640132139087654,
+        "mean_cancellation_ratio_last40": 0.0009876397327163405,
+        "strong_action_cancellation": true,
+        "reference_index_change_last40": 0,
+        "cursor_at_final_waypoint": false,
+        "reference_distance_rad": 2.838242926173936,
+        "route_distance_rad": 0.41574133445038763,
+        "reference_recoveries": 0,
+        "wall_clearance_capped_m": 0.03762191346934405,
+        "goal_max_joint_error_rad": 0.35819688125389204,
+        "retained_reason": "collision",
+        "extended_reason": "timeout",
+        "extended_steps": 480,
+        "extended_position_m": 0.09000278743351582,
+        "extended_orientation_deg": 7.430376062477459
+      },
+      {
+        "seed": 900015,
+        "kind": "slow_task_progress",
+        "position_m": 0.3467453577749404,
+        "orientation_deg": 96.18632466152711,
+        "joint_travel_last40_rad": 0.4345046452056043,
+        "joint_displacement_last40_rad": 0.428591977301525,
+        "position_progress_last40_m": 0.21003932569407524,
+        "orientation_progress_last40_deg": 17.692477607160228,
+        "mean_action_norm_last40": 0.1614699799567461,
+        "mean_cancellation_ratio_last40": 0.11264418974939497,
+        "strong_action_cancellation": false,
+        "reference_index_change_last40": 0,
+        "cursor_at_final_waypoint": false,
+        "reference_distance_rad": 3.5960473926376464,
+        "route_distance_rad": 1.8986365839154589,
+        "reference_recoveries": 2,
+        "wall_clearance_capped_m": 0.1,
+        "goal_max_joint_error_rad": 1.7053010456892257,
+        "retained_reason": "collision",
+        "extended_reason": "timeout",
+        "extended_steps": 480,
+        "extended_position_m": 0.30598905977982055,
+        "extended_orientation_deg": 81.13207385946424
+      }
+    ],
+    "model_switch_performed": false
+  },
+  "results": {
+    "known": {
+      "retained": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "stage_target": {
+          "episodes": 100,
+          "success": 92,
+          "collision": 4,
+          "joint_limit": 0,
+          "timeout": 4
+        }
+      },
+      "candidate": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "stage_target": {
+          "episodes": 100,
+          "success": 86,
+          "collision": 6,
+          "joint_limit": 0,
+          "timeout": 8
+        }
+      }
+    },
+    "fresh": {
+      "retained": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "stage_target": {
+          "episodes": 100,
+          "success": 90,
+          "collision": 6,
+          "joint_limit": 0,
+          "timeout": 4
+        }
+      },
+      "candidate": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "joint_limit": 0,
+          "timeout": 0
+        },
+        "stage_target": {
+          "episodes": 100,
+          "success": 88,
+          "collision": 3,
+          "joint_limit": 0,
+          "timeout": 9
+        }
+      }
+    }
+  },
+  "combined_200_case_descriptive_results": {
+    "retained": {
+      "episodes": 200,
+      "success": 182,
+      "collision": 10,
+      "timeout": 8,
+      "joint_limit": 0
+    },
+    "candidate": {
+      "episodes": 200,
+      "success": 174,
+      "collision": 9,
+      "timeout": 17,
+      "joint_limit": 0
+    }
+  },
+  "combined_is_pure_independent_test": false,
+  "training_performed": false,
+  "model_switch_performed": false,
+  "model_hashes_unchanged": true
+}

@@ -1,0 +1,50 @@
+{
+  "source_validation": {
+    "episodes": 32,
+    "success": 17,
+    "collision": 15,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "selected_bc": {
+    "additional_bc_updates": 0,
+    "training_mse": 0.021975187584757805,
+    "four": {
+      "episodes": 32,
+      "success": 17,
+      "collision": 15,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      17,
+      -15,
+      0
+    ]
+  },
+  "additional_bc_updates_run": 4000,
+  "selected_total_bc_updates": 1000,
+  "validation_improved": false,
+  "two_diagnostic": {
+    "episodes": 20,
+    "success": 8,
+    "collision": 6,
+    "timeout": 6,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "two_used_for_selection": false,
+  "test_evaluated": false,
+  "test_used_for_selection": false,
+  "test_source": null,
+  "test_selected": null,
+  "frozen_state_unchanged": true,
+  "zero_one_actions_identical": true,
+  "source_unchanged": true,
+  "default_model_preserved": true,
+  "ppo_steps": 0,
+  "selected_model_sha256": "5c6956d0508942a8cd5ba5b39add3c7852075a91fdf288975a75d03c086e7c96"
+}
