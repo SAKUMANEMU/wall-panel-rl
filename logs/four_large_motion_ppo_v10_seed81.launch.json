@@ -1,0 +1,6 @@
+{
+  "pid": 15785,
+  "started_at": "2026-11-05T15:12:29.253805+08:00",
+  "log": "/home/johnsonchen/wall-panel-rl/logs/four_large_motion_ppo_v10_seed81.log",
+  "configuration": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/configs/four_large_motion_training.yaml"
+}

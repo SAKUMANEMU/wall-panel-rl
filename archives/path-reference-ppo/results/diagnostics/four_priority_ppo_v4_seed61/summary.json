@@ -1,0 +1,57 @@
+{
+  "ppo_steps_run": 10000,
+  "bc_updates": 0,
+  "source_validation": {
+    "episodes": 32,
+    "success": 17,
+    "collision": 15,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "selected": {
+    "additional_ppo_steps": 10000,
+    "four": {
+      "episodes": 32,
+      "success": 22,
+      "collision": 10,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      22,
+      -10,
+      0
+    ]
+  },
+  "validation_improved": true,
+  "test_evaluated": true,
+  "test_source": {
+    "episodes": 64,
+    "success": 37,
+    "collision": 27,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "test_selected": {
+    "episodes": 64,
+    "success": 51,
+    "collision": 13,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "test_used_for_selection": false,
+  "training_episodes": {
+    "success": 37,
+    "collision": 132,
+    "timeout": 14
+  },
+  "training_completed_transitions": 9662,
+  "base_actor_and_std_unchanged": true,
+  "source_unchanged": true,
+  "default_model_preserved": true
+}

@@ -1,0 +1,14 @@
+{
+  "completed": true,
+  "episodes": 256,
+  "transitions": 12215,
+  "group_counts": {
+    "alignment": 64,
+    "one_static": 64,
+    "two_static": 128
+  },
+  "source_sha256": "e13b364d121c333087893d631c4ca42786ebc731be1cb239512434cc0b5979fd",
+  "teacher_sha256": "ae43f92d88d91a74d05944d2f38027a73586534b7ae071676e6913f994948880",
+  "raw_scenes": "data/staged_avoidance_v3_seed61/one_static/train.json",
+  "controller": "RRT for one/two-static, frozen reference servo for alignment"
+}

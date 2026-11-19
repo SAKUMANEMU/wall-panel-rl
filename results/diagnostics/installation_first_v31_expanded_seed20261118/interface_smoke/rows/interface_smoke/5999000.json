@@ -1,0 +1,60 @@
+{
+  "seed": 5999000,
+  "controller": "enhanced",
+  "reason": "success",
+  "steps": 1,
+  "position_m": 1.3224338052106236e-06,
+  "orientation_deg": 0.0002775231059457475,
+  "reward": 99.94980604343415,
+  "zero_command_steps": 0,
+  "stationary_steps": 1,
+  "wall_seconds": 0.02305364499989082,
+  "physics_elapsed_s": 0.049999999999999996,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 0,
+  "recovery_actions": 1,
+  "recovery_events": [],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 1,
+  "vertical_plan_events": [],
+  "installation_events": [
+    {
+      "step": 0,
+      "mode": "terminal_pose",
+      "gain": 0.7,
+      "predicted_success": true,
+      "predicted_end_cost": 1.9036768391043452e-06,
+      "plan_steps": 1
+    }
+  ],
+  "passage_count": 0,
+  "success_with_weaving": false,
+  "arm": "interface_smoke",
+  "obstacle_count": 2,
+  "model_key": "v31",
+  "controller_key": "installation",
+  "case_sha256": "6cb568ee8e52a5d4be2ccadb9cdc2f4926dca79c18288c01956018a760f6b949",
+  "max_obstacle_speed_m_s": 0.0785239064034017,
+  "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+  "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+  "timeout_diagnosis": {
+    "primary": "success",
+    "flags": {
+      "waiting": true,
+      "stale_reference": false,
+      "terminal_precision": true
+    },
+    "window_steps": 1,
+    "stationary_fraction": 1.0,
+    "zero_command_fraction": 0.0,
+    "reference_telemetry_available": true,
+    "reference_index_start": 1,
+    "reference_index_end": 1,
+    "final_reference_distance_rad": 1.002204901682257e-06,
+    "final_position_m": 1.3224338052106236e-06,
+    "final_orientation_deg": 0.0002775231059457475,
+    "reference_state_inferred": false
+  }
+}

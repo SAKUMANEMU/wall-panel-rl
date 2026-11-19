@@ -1,0 +1,21 @@
+{
+  "additional_steps": 10000,
+  "starting_steps": 15000,
+  "elapsed_seconds": 54.997780084609985,
+  "initial_model_sha256": "ffd01130882e250fa08aa4f5c554cf354b2129e9521e35705966b4c38dfbdadd",
+  "stall_reward": {
+    "window": 20,
+    "position_epsilon": 0.001,
+    "orientation_epsilon_deg": 0.1,
+    "path_epsilon": 0.01,
+    "joint_displacement": 0.02,
+    "weight": 0.1
+  },
+  "automatic_stage_advance": false,
+  "training_wall_reward": {
+    "distance": 0.02,
+    "weight": 1.0
+  },
+  "bc_optimizer_used_for_ppo": false,
+  "ppo_optimizer": "loaded original PPO state; BC Adam is separate"
+}

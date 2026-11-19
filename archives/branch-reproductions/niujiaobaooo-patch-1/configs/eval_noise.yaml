@@ -1,0 +1,3 @@
+extends: train_noise.yaml
+robot:
+  near_start_probability: 0.0

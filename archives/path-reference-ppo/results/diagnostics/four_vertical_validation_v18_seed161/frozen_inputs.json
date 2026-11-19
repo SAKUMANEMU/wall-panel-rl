@@ -1,0 +1,9 @@
+{
+  "validation_bank_sha256": "468b253f04f381f93fc00a0e7ff8d604dc37263a66c1330f6b2488f7bacd46bb",
+  "mixture_assignments_sha256": "f1a42803fe9add8b604d9a798a8021b339b31fd764ba04dd31bbf6617d1182ea",
+  "no_outcome_evaluations_before_freeze": true,
+  "accepted": 64,
+  "rejected": 121,
+  "mixture_rrt_episodes": 30,
+  "mixture_progress_episodes": 34
+}

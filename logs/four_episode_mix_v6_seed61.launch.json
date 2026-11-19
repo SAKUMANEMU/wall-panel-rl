@@ -1,0 +1,14 @@
+{
+  "pid": 11003,
+  "started_at": "2026-11-04T15:26:09.549276+08:00",
+  "cwd": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo",
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "scripts/train_four_episode_mix.py",
+    "--train"
+  ],
+  "log": "/home/johnsonchen/wall-panel-rl/logs/four_episode_mix_v6_seed61.log",
+  "ppo_budget": 10000,
+  "expert_probability": 0.5
+}

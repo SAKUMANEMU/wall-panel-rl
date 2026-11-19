@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "pid": 4690,
+  "started_at": "2026-11-18T16:00:06.750838+08:00",
+  "phase": "complete",
+  "updated_at": "2026-11-18T16:01:56.842065+08:00",
+  "completed": 40,
+  "planned": 40,
+  "latest_count": 5,
+  "latest_seed": 4350102
+}

@@ -1,0 +1,244 @@
+{
+  "modes": {
+    "ppo": {
+      "outcomes": {
+        "episodes": 64,
+        "success": 40,
+        "collision": 23,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.625,
+        "collision_rate": 0.359375,
+        "timeout_rate": 0.015625,
+        "mean_steps": 57.078125,
+        "mean_success_steps": 72.8,
+        "zero_command_steps": 0,
+        "stationary_steps": 0,
+        "mean_initial_planning_s": 0.0,
+        "mean_control_wall_s": 0.039738546172216616,
+        "mean_total_wall_s": 0.2374741647655938
+      },
+      "timeout_categories": {
+        "slow_or_ineffective_progress": 1
+      },
+      "timeout_mean_position_m": 0.47413359657832155,
+      "timeout_mean_orientation_deg": 80.63830825387025,
+      "timeout_position_outside": 1,
+      "timeout_orientation_outside": 1,
+      "collision_pairs": {
+        "panel-O4": 4,
+        "panel-O3": 12
+      },
+      "terminal_contact_unavailable": 7,
+      "timeout_seeds": [
+        1166172
+      ],
+      "collision_seeds": [
+        1166001,
+        1166003,
+        1166006,
+        1166013,
+        1166023,
+        1166042,
+        1166054,
+        1166058,
+        1166059,
+        1166072,
+        1166085,
+        1166091,
+        1166099,
+        1166101,
+        1166112,
+        1166114,
+        1166115,
+        1166154,
+        1166157,
+        1166165,
+        1166170,
+        1166171,
+        1166177
+      ],
+      "planning_failure_seeds": [],
+      "planning_failure_timing": {
+        "configured_initial_budget_s": 30.0,
+        "near_initial_time_budget": 0,
+        "initial_planning_s": [],
+        "interpretation": "Elapsed near a wall-clock budget suggests search-budget exhaustion, not a proof of geometric infeasibility."
+      }
+    },
+    "rrt": {
+      "outcomes": {
+        "episodes": 64,
+        "success": 55,
+        "collision": 1,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 8,
+        "success_rate": 0.859375,
+        "collision_rate": 0.015625,
+        "timeout_rate": 0.0,
+        "mean_steps": 67.234375,
+        "mean_success_steps": 76.2909090909091,
+        "zero_command_steps": 22,
+        "stationary_steps": 265,
+        "mean_initial_planning_s": 12.672605629531255,
+        "mean_control_wall_s": 1.637901417515586,
+        "mean_total_wall_s": 14.542956075781262
+      },
+      "timeout_categories": {},
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null,
+      "timeout_position_outside": 0,
+      "timeout_orientation_outside": 0,
+      "collision_pairs": {},
+      "terminal_contact_unavailable": 1,
+      "timeout_seeds": [],
+      "collision_seeds": [
+        1166154
+      ],
+      "planning_failure_seeds": [
+        1166000,
+        1166001,
+        1166048,
+        1166068,
+        1166140,
+        1166160,
+        1166165,
+        1166182
+      ],
+      "planning_failure_timing": {
+        "configured_initial_budget_s": 30.0,
+        "near_initial_time_budget": 6,
+        "initial_planning_s": [
+          28.90635791600016,
+          28.771215786000084,
+          29.542873248000433,
+          28.985522202000084,
+          29.342556606000016,
+          29.87774720799962,
+          28.46878299400032,
+          27.91088935300013
+        ],
+        "interpretation": "Elapsed near a wall-clock budget suggests search-budget exhaustion, not a proof of geometric infeasibility."
+      }
+    },
+    "ppo_progress": {
+      "outcomes": {
+        "episodes": 64,
+        "success": 63,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.984375,
+        "collision_rate": 0.0,
+        "timeout_rate": 0.015625,
+        "mean_steps": 94.890625,
+        "mean_success_steps": 92.58730158730158,
+        "zero_command_steps": 1022,
+        "stationary_steps": 1022,
+        "mean_initial_planning_s": 0.0,
+        "mean_control_wall_s": 9.589438398968909,
+        "mean_total_wall_s": 9.953715287281263
+      },
+      "timeout_categories": {
+        "slow_or_ineffective_progress": 1
+      },
+      "timeout_mean_position_m": 0.352265343807563,
+      "timeout_mean_orientation_deg": 35.47143684398477,
+      "timeout_position_outside": 1,
+      "timeout_orientation_outside": 1,
+      "collision_pairs": {},
+      "terminal_contact_unavailable": 0,
+      "timeout_seeds": [
+        1166054
+      ],
+      "collision_seeds": [],
+      "planning_failure_seeds": [],
+      "planning_failure_timing": {
+        "configured_initial_budget_s": 30.0,
+        "near_initial_time_budget": 0,
+        "initial_planning_s": [],
+        "interpretation": "Elapsed near a wall-clock budget suggests search-budget exhaustion, not a proof of geometric infeasibility."
+      }
+    },
+    "mixture": {
+      "outcomes": {
+        "episodes": 64,
+        "success": 58,
+        "collision": 1,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 4,
+        "success_rate": 0.90625,
+        "collision_rate": 0.015625,
+        "timeout_rate": 0.015625,
+        "mean_steps": 80.9375,
+        "mean_success_steps": 83.32758620689656,
+        "zero_command_steps": 474,
+        "stationary_steps": 638,
+        "mean_initial_planning_s": 6.49912465007813,
+        "mean_control_wall_s": 6.2885284816251215,
+        "mean_total_wall_s": 13.083961375015626
+      },
+      "timeout_categories": {
+        "slow_or_ineffective_progress": 1
+      },
+      "timeout_mean_position_m": 0.352265343807563,
+      "timeout_mean_orientation_deg": 35.47143684398477,
+      "timeout_position_outside": 1,
+      "timeout_orientation_outside": 1,
+      "collision_pairs": {},
+      "terminal_contact_unavailable": 1,
+      "timeout_seeds": [
+        1166054
+      ],
+      "collision_seeds": [
+        1166154
+      ],
+      "planning_failure_seeds": [
+        1166000,
+        1166140,
+        1166165,
+        1166182
+      ],
+      "planning_failure_timing": {
+        "configured_initial_budget_s": 30.0,
+        "near_initial_time_budget": 2,
+        "initial_planning_s": [
+          28.90635791600016,
+          29.342556606000016,
+          28.46878299400032,
+          27.91088935300013
+        ],
+        "interpretation": "Elapsed near a wall-clock budget suggests search-budget exhaustion, not a proof of geometric infeasibility."
+      }
+    }
+  },
+  "paired_transitions": {
+    "ppo_to_ppo_progress": {
+      "success -> success": 40,
+      "collision -> success": 22,
+      "collision -> timeout": 1,
+      "timeout -> success": 1
+    },
+    "rrt_to_ppo_progress": {
+      "planning_failure -> success": 8,
+      "success -> success": 54,
+      "success -> timeout": 1,
+      "collision -> success": 1
+    }
+  },
+  "original_ppo_successes": 40,
+  "preserved_original_successes": 40,
+  "target_position_tolerance_m": 0.01,
+  "target_orientation_tolerance_deg": 2.0,
+  "category_rule": {
+    "zero_command": "max(abs(requested_joint_action)) < 1e-8",
+    "stationary": "max(abs(actual_joint_delta)) < 1e-4 rad per real control step",
+    "near_goal_timeout": "both terminal errors within3 times actual success tolerances",
+    "waiting_timeout": "otherwise zero commands or stationary steps at least25% of real steps",
+    "wall_time": "Includes CPU prediction/planning; measured under4 concurrent workers, not a real-time deployment benchmark"
+  }
+}

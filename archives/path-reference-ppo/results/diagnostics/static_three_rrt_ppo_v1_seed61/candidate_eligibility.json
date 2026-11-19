@@ -1,0 +1,13 @@
+{
+  "eligible": false,
+  "all_checkpoints_ineligible": true,
+  "diagnostic_only": true,
+  "thresholds": {
+    "minimum_episodes": 20,
+    "minimum_alignment_episodes": 10,
+    "minimum_success_rate": 0.8,
+    "maximum_collision_rate": 0.1,
+    "minimum_alignment_success_rate": 0.9,
+    "consecutive_checks": 2
+  }
+}

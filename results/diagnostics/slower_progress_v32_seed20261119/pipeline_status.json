@@ -1,0 +1,23 @@
+{
+  "experiment": "slower_progress_v32",
+  "status": "completed",
+  "pid": 6939,
+  "started_at": "2026-11-19T03:11:23.988822+08:00",
+  "output": "/home/johnsonchen/wall-panel-rl/results/diagnostics/slower_progress_v32_seed20261119",
+  "config": "/home/johnsonchen/wall-panel-rl/experiments/slower_progress_v32/configs/variable_weaving.yaml",
+  "phase": "complete",
+  "updated_at": "2026-11-19T06:32:22.049982+08:00",
+  "child_pid": 7056,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "/home/johnsonchen/wall-panel-rl/experiments/slower_progress_v32/scripts/run_variable_training.py",
+    "--config",
+    "/home/johnsonchen/wall-panel-rl/experiments/slower_progress_v32/configs/variable_weaving.yaml",
+    "--scenes",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/slower_progress_v32_seed20261119/scenes",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/slower_progress_v32_seed20261119/training"
+  ],
+  "source_model_unchanged": true
+}

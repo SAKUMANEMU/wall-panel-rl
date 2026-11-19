@@ -1,0 +1,38 @@
+{
+  "records": [
+    {
+      "controller": "rrt",
+      "seed": 1020000,
+      "task": "static",
+      "reason": "success",
+      "steps": 56,
+      "reward": 305.13704569721466,
+      "position_m": 0.0008183536852814168,
+      "orientation_deg": 0.06889788712828797,
+      "planning_seconds": 8.510531939999964,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0,
+      "planner_seed": 2000381672,
+      "pre_verified": true,
+      "post_verified": true,
+      "reference_preserved": true,
+      "accepted_for_imitation": true
+    },
+    {
+      "controller": "ppo",
+      "seed": 1020000,
+      "task": "static",
+      "reason": "success",
+      "steps": 73,
+      "reward": 302.96528108431664,
+      "position_m": 0.0032497369610115954,
+      "orientation_deg": 0.18712314305462385,
+      "planning_seconds": 0.0,
+      "online_avoidance_planner": false,
+      "conditional_recoveries": 0
+    }
+  ],
+  "verified_bc_pairs": 56,
+  "ppo_updates": 0,
+  "note": "functional training-wrapper execution only; source weights unchanged"
+}

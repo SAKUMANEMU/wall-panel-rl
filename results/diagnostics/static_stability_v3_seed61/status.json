@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-30T14:26:13.014901+08:00",
+  "runner_pid": 36352,
+  "additional_budget": 10000,
+  "automatic_stage_advance": false,
+  "phase": "complete",
+  "updated_at": "2026-10-30T14:28:03.262172+08:00",
+  "ppo_additional_steps": 10000,
+  "validation_target": {
+    "episodes": 20,
+    "success": 16,
+    "collision": 0,
+    "joint_limit": 0,
+    "timeout": 4,
+    "timeout_mean_position_m": 0.2463268897440089,
+    "timeout_mean_orientation_deg": 33.85564052092516,
+    "successful_mean_steps": 65.125,
+    "mean_reward": 275.48103384181644
+  },
+  "selected_additional_steps": 0,
+  "evaluated_model": "selected",
+  "regression_target": {
+    "episodes": 100,
+    "success": 92,
+    "collision": 4,
+    "joint_limit": 0,
+    "timeout": 4
+  },
+  "promotion_passed": false,
+  "finished_at": "2026-10-30T14:28:03.262161+08:00"
+}

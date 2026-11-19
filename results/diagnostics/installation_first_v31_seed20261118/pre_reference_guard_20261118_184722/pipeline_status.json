@@ -1,0 +1,21 @@
+{
+  "status": "running",
+  "pid": 13557,
+  "started_at": "2026-11-18T18:43:27.330999+08:00",
+  "output": "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118",
+  "config": "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118/training_config.yaml",
+  "phase": "train_and_evaluate",
+  "updated_at": "2026-11-18T18:43:27.335514+08:00",
+  "child_pid": 13558,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "/home/johnsonchen/wall-panel-rl/experiments/installation_first_v31/scripts/run_variable_training.py",
+    "--config",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118/training_config.yaml",
+    "--scenes",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118/scenes",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118/training"
+  ]
+}

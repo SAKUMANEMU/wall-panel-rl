@@ -1,0 +1,98 @@
+{
+  "seed": 5341100,
+  "controller": "enhanced",
+  "reason": "collision",
+  "steps": 153,
+  "position_m": 0.7863709245355853,
+  "orientation_deg": 55.44494856890373,
+  "reward": 53.48582105271005,
+  "zero_command_steps": 20,
+  "stationary_steps": 20,
+  "wall_seconds": 176.02017027800002,
+  "physics_elapsed_s": 7.604166666666555,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 1,
+  "recovery_actions": 56,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.0625278395951474,
+      "accepted": false
+    },
+    {
+      "step": 52,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.061302973804702,
+      "accepted": false
+    },
+    {
+      "step": 64,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.0608960754907133,
+      "accepted": true,
+      "mode": "goal",
+      "parameter": 0.4,
+      "predicted_end_cost": 0.8957540740530505,
+      "predicted_gain": 1.1651420014376628,
+      "plan_steps": 60
+    },
+    {
+      "step": 134,
+      "baseline_forecast": "collision",
+      "baseline_short_cost": 0.9024945532707399,
+      "accepted": false
+    },
+    {
+      "step": 146,
+      "baseline_forecast": "collision",
+      "baseline_short_cost": 0.9024945532707399,
+      "accepted": false
+    }
+  ],
+  "no_safe_action_calls": 13,
+  "prediction_steps": 27635,
+  "vertical_plan_events": [],
+  "installation_events": [
+    {
+      "step": 40,
+      "mode": "reject_reference_escape",
+      "candidate_mode": "paired"
+    },
+    {
+      "step": 52,
+      "mode": "reject_reference_escape",
+      "candidate_mode": "paired"
+    }
+  ],
+  "passage_count": 0,
+  "success_with_weaving": false,
+  "arm": "v31_selected",
+  "obstacle_count": 4,
+  "model_key": "v31",
+  "controller_key": "installation",
+  "case_sha256": "8b588b4c904b94c63d0ab2d6bb04980dc4daeea349a92b0be5629172b3bda257",
+  "max_obstacle_speed_m_s": 0.17576253054113192,
+  "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+  "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+  "timeout_diagnosis": {
+    "primary": "collision",
+    "flags": {
+      "waiting": true,
+      "stale_reference": true,
+      "terminal_precision": false
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.5,
+    "zero_command_fraction": 0.4878048780487805,
+    "reference_telemetry_available": true,
+    "reference_index_start": 2,
+    "reference_index_end": 2,
+    "final_reference_distance_rad": 2.117377716314536,
+    "final_position_m": 0.7863709245355853,
+    "final_orientation_deg": 55.44494856890373,
+    "reference_state_inferred": false
+  }
+}

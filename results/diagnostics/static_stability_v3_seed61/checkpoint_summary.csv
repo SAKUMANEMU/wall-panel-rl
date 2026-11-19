@@ -1,0 +1,4 @@
+additional_steps,episodes,success,collision,timeout,joint_limit,alignment_success
+0,20,16,2,2,0,20
+5000,20,15,1,4,0,20
+10000,20,16,0,4,0,20

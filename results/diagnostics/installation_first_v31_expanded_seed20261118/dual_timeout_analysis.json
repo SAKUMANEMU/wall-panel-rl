@@ -1,0 +1,1628 @@
+{
+  "original_evidence": [
+    {
+      "seed": 4720000,
+      "termination": "timeout",
+      "control_steps": 240,
+      "simulation_seconds": 11.99999999999964,
+      "final_position_m": 0.5638199751989419,
+      "final_orientation_deg": 41.02041945622913,
+      "zero_command_steps": 40,
+      "stationary_steps": 40,
+      "longest_zero_command_runs": [
+        {
+          "first_step": 190,
+          "last_step": 205,
+          "steps": 16
+        },
+        {
+          "first_step": 176,
+          "last_step": 186,
+          "steps": 11
+        },
+        {
+          "first_step": 41,
+          "last_step": 43,
+          "steps": 3
+        },
+        {
+          "first_step": 38,
+          "last_step": 39,
+          "steps": 2
+        },
+        {
+          "first_step": 45,
+          "last_step": 46,
+          "steps": 2
+        }
+      ],
+      "longest_unchanged_reference_runs": [
+        {
+          "first_step": 26,
+          "last_step": 132,
+          "steps": 107
+        },
+        {
+          "first_step": 169,
+          "last_step": 207,
+          "steps": 39
+        },
+        {
+          "first_step": 13,
+          "last_step": 24,
+          "steps": 12
+        },
+        {
+          "first_step": 209,
+          "last_step": 217,
+          "steps": 9
+        },
+        {
+          "first_step": 219,
+          "last_step": 227,
+          "steps": 9
+        }
+      ],
+      "first_reference_advance_step": 6,
+      "reference_final_index": 32,
+      "reference_count": 45,
+      "final_current_reference_distance_rad": 0.08601902430017866,
+      "nearest_forward_reference_index": 32,
+      "nearest_forward_reference_distance_rad": 0.08601902430017866,
+      "best_task_cost_step": 240,
+      "minimum_task_cost": 0.6497329408061827,
+      "minimum_recorded_obstacle_clearance_capped_m": 0.0012152895178118989,
+      "obstacle_speeds_m_s": [
+        0.049747945314315374,
+        0.0785239064034017
+      ],
+      "accepted_recovery_windows": [
+        {
+          "start_step": 52,
+          "end_step": 112,
+          "mode": "bias",
+          "reference_advance": 0,
+          "observed_task_cost_change": 0.5215152595472843,
+          "interpretation": "Observed time window, not proof that every proposed action was executed"
+        },
+        {
+          "start_step": 112,
+          "end_step": 172,
+          "mode": "lookahead",
+          "reference_advance": 24,
+          "observed_task_cost_change": 0.6309305049263014,
+          "interpretation": "Observed time window, not proof that every proposed action was executed"
+        }
+      ],
+      "installation_events": [],
+      "reference_escape_rejections": 0,
+      "trace_every_40_steps": [
+        {
+          "step": 0,
+          "time_s": 0.0,
+          "reference_index": 1,
+          "reference_distance_rad": 0.07463018115237917,
+          "position_error_m": 1.835568501420739,
+          "orientation_error_deg": 150.44617337216692
+        },
+        {
+          "step": 40,
+          "time_s": 1.9999999999999942,
+          "reference_index": 4,
+          "reference_distance_rad": 0.08116277755628878,
+          "position_error_m": 1.7549868505068442,
+          "orientation_error_deg": 136.55358599767192
+        },
+        {
+          "step": 80,
+          "time_s": 4.000000000000093,
+          "reference_index": 4,
+          "reference_distance_rad": 0.6320396995194593,
+          "position_error_m": 1.5134846251828542,
+          "orientation_error_deg": 125.97507183608575
+        },
+        {
+          "step": 120,
+          "time_s": 5.99999999999998,
+          "reference_index": 4,
+          "reference_distance_rad": 1.4003713365112498,
+          "position_error_m": 1.3081614858718877,
+          "orientation_error_deg": 115.88584884038197
+        },
+        {
+          "step": 160,
+          "time_s": 7.999999999999866,
+          "reference_index": 25,
+          "reference_distance_rad": 0.022823109292244136,
+          "position_error_m": 0.9086282797012546,
+          "orientation_error_deg": 61.494336272558705
+        },
+        {
+          "step": 200,
+          "time_s": 9.999999999999753,
+          "reference_index": 28,
+          "reference_distance_rad": 0.0437738166868193,
+          "position_error_m": 0.7623418427219557,
+          "orientation_error_deg": 52.2707918257395
+        },
+        {
+          "step": 240,
+          "time_s": 11.99999999999964,
+          "reference_index": 32,
+          "reference_distance_rad": 0.08601902430017866,
+          "position_error_m": 0.5638199751989419,
+          "orientation_error_deg": 41.02041945622913
+        }
+      ],
+      "original_diagnosis": {
+        "primary": "insufficient_progress",
+        "flags": {
+          "waiting": false,
+          "stale_reference": false,
+          "terminal_precision": false
+        },
+        "window_steps": 40,
+        "stationary_fraction": 0.125,
+        "zero_command_fraction": 0.14634146341463414,
+        "reference_telemetry_available": true,
+        "reference_index_start": 28,
+        "reference_index_end": 32,
+        "final_reference_distance_rad": 0.08601902430017866,
+        "final_position_m": 0.5638199751989419,
+        "final_orientation_deg": 41.02041945622913,
+        "reference_state_inferred": false
+      }
+    },
+    {
+      "seed": 4720100,
+      "termination": "timeout",
+      "control_steps": 240,
+      "simulation_seconds": 11.99999999999964,
+      "final_position_m": 0.40936119359813994,
+      "final_orientation_deg": 56.78181364554943,
+      "zero_command_steps": 19,
+      "stationary_steps": 19,
+      "longest_zero_command_runs": [
+        {
+          "first_step": 30,
+          "last_step": 39,
+          "steps": 10
+        },
+        {
+          "first_step": 76,
+          "last_step": 82,
+          "steps": 7
+        },
+        {
+          "first_step": 96,
+          "last_step": 96,
+          "steps": 1
+        },
+        {
+          "first_step": 106,
+          "last_step": 106,
+          "steps": 1
+        }
+      ],
+      "longest_unchanged_reference_runs": [
+        {
+          "first_step": 25,
+          "last_step": 134,
+          "steps": 110
+        },
+        {
+          "first_step": 136,
+          "last_step": 240,
+          "steps": 105
+        },
+        {
+          "first_step": 1,
+          "last_step": 9,
+          "steps": 9
+        },
+        {
+          "first_step": 17,
+          "last_step": 23,
+          "steps": 7
+        },
+        {
+          "first_step": 11,
+          "last_step": 15,
+          "steps": 5
+        }
+      ],
+      "first_reference_advance_step": 10,
+      "reference_final_index": 5,
+      "reference_count": 48,
+      "final_current_reference_distance_rad": 3.268223649119483,
+      "nearest_forward_reference_index": 44,
+      "nearest_forward_reference_distance_rad": 0.965502018199604,
+      "best_task_cost_step": 226,
+      "minimum_task_cost": 0.510537704370387,
+      "minimum_recorded_obstacle_clearance_capped_m": 0.0005736429927722985,
+      "obstacle_speeds_m_s": [
+        0.07080519530611563,
+        0.07769386950384291
+      ],
+      "accepted_recovery_windows": [
+        {
+          "start_step": 136,
+          "end_step": 196,
+          "mode": "paired",
+          "reference_advance": 0,
+          "observed_task_cost_change": 0.8873479805216995,
+          "interpretation": "Observed time window, not proof that every proposed action was executed"
+        },
+        {
+          "start_step": 196,
+          "end_step": 240,
+          "mode": "paired",
+          "reference_advance": 0,
+          "observed_task_cost_change": 0.6301832506347825,
+          "interpretation": "Observed time window, not proof that every proposed action was executed"
+        }
+      ],
+      "installation_events": [
+        {
+          "step": 40,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "paired"
+        },
+        {
+          "step": 52,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "paired"
+        },
+        {
+          "step": 64,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "paired"
+        },
+        {
+          "step": 88,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "paired"
+        },
+        {
+          "step": 100,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "bias"
+        },
+        {
+          "step": 112,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "bias"
+        },
+        {
+          "step": 124,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "paired"
+        }
+      ],
+      "reference_escape_rejections": 7,
+      "trace_every_40_steps": [
+        {
+          "step": 0,
+          "time_s": 0.0,
+          "reference_index": 1,
+          "reference_distance_rad": 0.07455490833686636,
+          "position_error_m": 1.83985386619908,
+          "orientation_error_deg": 151.35691084187138
+        },
+        {
+          "step": 40,
+          "time_s": 1.9999999999999942,
+          "reference_index": 4,
+          "reference_distance_rad": 0.11613793591669287,
+          "position_error_m": 1.7784441651845109,
+          "orientation_error_deg": 140.8756625153828
+        },
+        {
+          "step": 80,
+          "time_s": 4.000000000000093,
+          "reference_index": 4,
+          "reference_distance_rad": 0.20313837420483213,
+          "position_error_m": 1.8128666917482577,
+          "orientation_error_deg": 146.6891694524864
+        },
+        {
+          "step": 120,
+          "time_s": 5.99999999999998,
+          "reference_index": 4,
+          "reference_distance_rad": 0.11085344525652949,
+          "position_error_m": 1.7745304556582935,
+          "orientation_error_deg": 139.87412364638692
+        },
+        {
+          "step": 160,
+          "time_s": 7.999999999999866,
+          "reference_index": 5,
+          "reference_distance_rad": 1.0693886706817408,
+          "position_error_m": 1.373157724477763,
+          "orientation_error_deg": 143.70371438651742
+        },
+        {
+          "step": 200,
+          "time_s": 9.999999999999753,
+          "reference_index": 5,
+          "reference_distance_rad": 1.9222326191257213,
+          "position_error_m": 0.8388121236501807,
+          "orientation_error_deg": 110.98910999976735
+        },
+        {
+          "step": 240,
+          "time_s": 11.99999999999964,
+          "reference_index": 5,
+          "reference_distance_rad": 3.268223649119483,
+          "position_error_m": 0.40936119359813994,
+          "orientation_error_deg": 56.78181364554943
+        }
+      ],
+      "original_diagnosis": {
+        "primary": "stale_reference",
+        "flags": {
+          "waiting": false,
+          "stale_reference": true,
+          "terminal_precision": false
+        },
+        "window_steps": 40,
+        "stationary_fraction": 0.0,
+        "zero_command_fraction": 0.0,
+        "reference_telemetry_available": true,
+        "reference_index_start": 5,
+        "reference_index_end": 5,
+        "final_reference_distance_rad": 3.268223649119483,
+        "final_position_m": 0.40936119359813994,
+        "final_orientation_deg": 56.78181364554943,
+        "reference_state_inferred": false
+      }
+    }
+  ],
+  "counterfactuals_complete": true,
+  "counterfactual_rows": [
+    {
+      "seed": 4720000,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 1.0571210056116458,
+      "orientation_deg": 105.81506297936257,
+      "reward": 31.14453175868662,
+      "zero_command_steps": 121,
+      "stationary_steps": 121,
+      "wall_seconds": 109.96654791699984,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 2,
+      "recovery_actions": 20,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.02167214885781,
+          "accepted": false
+        },
+        {
+          "step": 52,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.021673145562815,
+          "accepted": false
+        },
+        {
+          "step": 64,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.021674142012194,
+          "accepted": false
+        },
+        {
+          "step": 76,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0312984842739628,
+          "accepted": false
+        },
+        {
+          "step": 88,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0423445392246147,
+          "accepted": false
+        },
+        {
+          "step": 100,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.051149638758757,
+          "accepted": false
+        },
+        {
+          "step": 112,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0614045913401204,
+          "accepted": false
+        },
+        {
+          "step": 124,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.071681700095761,
+          "accepted": false
+        },
+        {
+          "step": 136,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.08165823223527,
+          "accepted": false
+        },
+        {
+          "step": 148,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.08940506363445,
+          "accepted": false
+        },
+        {
+          "step": 160,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0849776049299478,
+          "accepted": false
+        },
+        {
+          "step": 172,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.059384429066308,
+          "accepted": false
+        },
+        {
+          "step": 184,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.035045098757286,
+          "accepted": false
+        },
+        {
+          "step": 196,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.035045098757286,
+          "accepted": false
+        },
+        {
+          "step": 208,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.035045098757286,
+          "accepted": true,
+          "mode": "bias",
+          "parameter": [
+            5,
+            0.4
+          ],
+          "predicted_end_cost": 1.2787395552750502,
+          "predicted_gain": 0.7563055434822359,
+          "plan_steps": 32
+        },
+        {
+          "step": 228,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.2787395552750502,
+          "accepted": false,
+          "mode": "paired",
+          "parameter": [
+            [
+              0,
+              2
+            ],
+            [
+              -0.4,
+              -0.4
+            ]
+          ],
+          "predicted_end_cost": 0.8550770927015046,
+          "predicted_gain": 0.4236624625735457,
+          "plan_steps": 12
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 21816,
+      "vertical_plan_events": [],
+      "installation_events": [
+        {
+          "step": 196,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "bias"
+        }
+      ],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "arm": "v29_model__installation",
+      "obstacle_count": 2,
+      "model_key": "v29",
+      "controller_key": "installation",
+      "case_sha256": "411bb45122c090e2014f3ece77b2d34a9c3204b792187d903a0cb30059074e74",
+      "max_obstacle_speed_m_s": 0.0785239064034017,
+      "model_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+      "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+      "timeout_diagnosis": {
+        "primary": "stale_reference",
+        "flags": {
+          "waiting": false,
+          "stale_reference": true,
+          "terminal_precision": false
+        },
+        "window_steps": 40,
+        "stationary_fraction": 0.1,
+        "zero_command_fraction": 0.12195121951219512,
+        "reference_telemetry_available": true,
+        "reference_index_start": 5,
+        "reference_index_end": 5,
+        "final_reference_distance_rad": 2.0274170177108792,
+        "final_position_m": 1.0571210056116458,
+        "final_orientation_deg": 105.81506297936257,
+        "reference_state_inferred": false
+      }
+    },
+    {
+      "seed": 4720000,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 1.4396526551141153,
+      "orientation_deg": 148.4847193053825,
+      "reward": -16.30423782076669,
+      "zero_command_steps": 115,
+      "stationary_steps": 115,
+      "wall_seconds": 102.92193805599891,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 2,
+      "recovery_actions": 32,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.02167214885781,
+          "accepted": false
+        },
+        {
+          "step": 52,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.021673145562815,
+          "accepted": false
+        },
+        {
+          "step": 64,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.021674142012194,
+          "accepted": false
+        },
+        {
+          "step": 76,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0312984842739628,
+          "accepted": false
+        },
+        {
+          "step": 88,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0423445392246147,
+          "accepted": false
+        },
+        {
+          "step": 100,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.051149638758757,
+          "accepted": false
+        },
+        {
+          "step": 112,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0614045913401204,
+          "accepted": false
+        },
+        {
+          "step": 124,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.071681700095761,
+          "accepted": false
+        },
+        {
+          "step": 136,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.08165823223527,
+          "accepted": false
+        },
+        {
+          "step": 148,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.08940506363445,
+          "accepted": false
+        },
+        {
+          "step": 160,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0849776049299478,
+          "accepted": false
+        },
+        {
+          "step": 172,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.059384429066308,
+          "accepted": false
+        },
+        {
+          "step": 184,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.035045098757286,
+          "accepted": false
+        },
+        {
+          "step": 196,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.035045098757286,
+          "accepted": true,
+          "mode": "bias",
+          "parameter": [
+            2,
+            -0.4
+          ],
+          "predicted_end_cost": 1.7506383240075367,
+          "predicted_gain": 0.2844067747497494,
+          "plan_steps": 44
+        },
+        {
+          "step": 228,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.7506383240075367,
+          "accepted": false,
+          "mode": "bias",
+          "parameter": [
+            3,
+            -0.4
+          ],
+          "predicted_end_cost": 1.0720820052199684,
+          "predicted_gain": 0.6785563187875683,
+          "plan_steps": 12
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 20352,
+      "vertical_plan_events": [],
+      "installation_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "arm": "v29_model__old",
+      "obstacle_count": 2,
+      "model_key": "v29",
+      "controller_key": "old",
+      "case_sha256": "411bb45122c090e2014f3ece77b2d34a9c3204b792187d903a0cb30059074e74",
+      "max_obstacle_speed_m_s": 0.0785239064034017,
+      "model_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+      "runtime_sha256": "07f9ed1f2e60a65dc5b97b3459ce5b8e59c29c75e6b529a3f75a7ec171cee5f6",
+      "timeout_diagnosis": {
+        "primary": "stale_reference",
+        "flags": {
+          "waiting": false,
+          "stale_reference": true,
+          "terminal_precision": false
+        },
+        "window_steps": 40,
+        "stationary_fraction": 0.0,
+        "zero_command_fraction": 0.0,
+        "reference_telemetry_available": true,
+        "reference_index_start": 5,
+        "reference_index_end": 5,
+        "final_reference_distance_rad": 1.8548328602784092,
+        "final_position_m": 1.4396526551141153,
+        "final_orientation_deg": 148.4847193053825,
+        "reference_state_inferred": false
+      }
+    },
+    {
+      "seed": 4720000,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.5638199751989419,
+      "orientation_deg": 41.02041945622913,
+      "reward": 110.60446043797444,
+      "zero_command_steps": 40,
+      "stationary_steps": 40,
+      "wall_seconds": 314.51055480099967,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 2,
+      "recovery_actions": 109,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.016206949061999,
+          "accepted": false
+        },
+        {
+          "step": 52,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.016208420763786,
+          "accepted": true,
+          "mode": "bias",
+          "parameter": [
+            3,
+            0.4
+          ],
+          "predicted_end_cost": 1.51365786443585,
+          "predicted_gain": 0.5025505563279358,
+          "plan_steps": 60
+        },
+        {
+          "step": 112,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.8407958455481999,
+          "accepted": true,
+          "mode": "lookahead",
+          "parameter": [
+            12,
+            0.4
+          ],
+          "predicted_end_cost": 0.7351453671793582,
+          "predicted_gain": 1.1056504783688417,
+          "plan_steps": 60
+        },
+        {
+          "step": 173,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7079254950004817,
+          "accepted": false
+        },
+        {
+          "step": 185,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6497329408061827,
+          "accepted": false
+        },
+        {
+          "step": 197,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6497329408061827,
+          "accepted": false
+        },
+        {
+          "step": 209,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6497329408061827,
+          "accepted": false
+        },
+        {
+          "step": 221,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6497329408061827,
+          "accepted": false
+        },
+        {
+          "step": 233,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6497329408061827,
+          "accepted": false
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 59558,
+      "vertical_plan_events": [],
+      "installation_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "arm": "v31_model__installation",
+      "obstacle_count": 2,
+      "model_key": "v31",
+      "controller_key": "installation",
+      "case_sha256": "411bb45122c090e2014f3ece77b2d34a9c3204b792187d903a0cb30059074e74",
+      "max_obstacle_speed_m_s": 0.0785239064034017,
+      "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+      "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+      "timeout_diagnosis": {
+        "primary": "insufficient_progress",
+        "flags": {
+          "waiting": false,
+          "stale_reference": false,
+          "terminal_precision": false
+        },
+        "window_steps": 40,
+        "stationary_fraction": 0.125,
+        "zero_command_fraction": 0.14634146341463414,
+        "reference_telemetry_available": true,
+        "reference_index_start": 28,
+        "reference_index_end": 32,
+        "final_reference_distance_rad": 0.08601902430017866,
+        "final_position_m": 0.5638199751989419,
+        "final_orientation_deg": 41.02041945622913,
+        "reference_state_inferred": false
+      }
+    },
+    {
+      "seed": 4720000,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.5638199751989419,
+      "orientation_deg": 41.02041945622913,
+      "reward": 110.60446043797444,
+      "zero_command_steps": 40,
+      "stationary_steps": 40,
+      "wall_seconds": 315.99525361999986,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 2,
+      "recovery_actions": 109,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.016206949061999,
+          "accepted": false
+        },
+        {
+          "step": 52,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.016208420763786,
+          "accepted": true,
+          "mode": "bias",
+          "parameter": [
+            3,
+            0.4
+          ],
+          "predicted_end_cost": 1.51365786443585,
+          "predicted_gain": 0.5025505563279358,
+          "plan_steps": 60
+        },
+        {
+          "step": 112,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.8407958455481999,
+          "accepted": true,
+          "mode": "lookahead",
+          "parameter": [
+            12,
+            0.4
+          ],
+          "predicted_end_cost": 0.7351453671793582,
+          "predicted_gain": 1.1056504783688417,
+          "plan_steps": 60
+        },
+        {
+          "step": 173,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7079254950004817,
+          "accepted": false
+        },
+        {
+          "step": 185,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6497329408061827,
+          "accepted": false
+        },
+        {
+          "step": 197,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6497329408061827,
+          "accepted": false
+        },
+        {
+          "step": 209,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6497329408061827,
+          "accepted": false
+        },
+        {
+          "step": 221,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6497329408061827,
+          "accepted": false
+        },
+        {
+          "step": 233,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6497329408061827,
+          "accepted": false
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 58997,
+      "vertical_plan_events": [],
+      "installation_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "arm": "v31_model__old",
+      "obstacle_count": 2,
+      "model_key": "v31",
+      "controller_key": "old",
+      "case_sha256": "411bb45122c090e2014f3ece77b2d34a9c3204b792187d903a0cb30059074e74",
+      "max_obstacle_speed_m_s": 0.0785239064034017,
+      "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+      "runtime_sha256": "07f9ed1f2e60a65dc5b97b3459ce5b8e59c29c75e6b529a3f75a7ec171cee5f6",
+      "timeout_diagnosis": {
+        "primary": "insufficient_progress",
+        "flags": {
+          "waiting": false,
+          "stale_reference": false,
+          "terminal_precision": false
+        },
+        "window_steps": 40,
+        "stationary_fraction": 0.125,
+        "zero_command_fraction": 0.14634146341463414,
+        "reference_telemetry_available": true,
+        "reference_index_start": 28,
+        "reference_index_end": 32,
+        "final_reference_distance_rad": 0.08601902430017866,
+        "final_position_m": 0.5638199751989419,
+        "final_orientation_deg": 41.02041945622913,
+        "reference_state_inferred": false
+      }
+    },
+    {
+      "seed": 4720100,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.40038715065908714,
+      "orientation_deg": 31.34408615020891,
+      "reward": 138.25802439042033,
+      "zero_command_steps": 108,
+      "stationary_steps": 108,
+      "wall_seconds": 296.73381991399947,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 3,
+      "recovery_actions": 66,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.095857909961687,
+          "accepted": true,
+          "mode": "bias",
+          "parameter": [
+            3,
+            0.4
+          ],
+          "predicted_end_cost": 0.8304718784971512,
+          "predicted_gain": 1.2653860314645358,
+          "plan_steps": 60
+        },
+        {
+          "step": 117,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7638719730704098,
+          "accepted": false
+        },
+        {
+          "step": 129,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7638787208145211,
+          "accepted": false
+        },
+        {
+          "step": 141,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7638854676446813,
+          "accepted": false
+        },
+        {
+          "step": 153,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7638922135607116,
+          "accepted": false
+        },
+        {
+          "step": 165,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7638989585624325,
+          "accepted": false
+        },
+        {
+          "step": 177,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7444976097039324,
+          "accepted": false
+        },
+        {
+          "step": 189,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7393433141177158,
+          "accepted": false
+        },
+        {
+          "step": 201,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7393433141177158,
+          "accepted": false
+        },
+        {
+          "step": 213,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7393433141177158,
+          "accepted": true,
+          "mode": "persistent",
+          "parameter": [
+            [
+              0,
+              2
+            ],
+            [
+              -0.28,
+              -0.28
+            ]
+          ],
+          "predicted_end_cost": 0.6917726259128821,
+          "predicted_gain": 0.04757068820483368,
+          "plan_steps": 27
+        },
+        {
+          "step": 228,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.4660340511810751,
+          "accepted": false,
+          "mode": "paired",
+          "parameter": [
+            [
+              3,
+              5
+            ],
+            [
+              -0.4,
+              -0.4
+            ]
+          ],
+          "predicted_end_cost": 0.1911995243646107,
+          "predicted_gain": 0.27483452681646436,
+          "plan_steps": 12
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 59830,
+      "vertical_plan_events": [],
+      "installation_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "arm": "v29_model__installation",
+      "obstacle_count": 2,
+      "model_key": "v29",
+      "controller_key": "installation",
+      "case_sha256": "2dd8259a6a416681149b8b8a9024697044f6cfa577d957ff14a7548afbb8dc85",
+      "max_obstacle_speed_m_s": 0.07769386950384291,
+      "model_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+      "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+      "timeout_diagnosis": {
+        "primary": "stale_reference",
+        "flags": {
+          "waiting": false,
+          "stale_reference": true,
+          "terminal_precision": false
+        },
+        "window_steps": 40,
+        "stationary_fraction": 0.325,
+        "zero_command_fraction": 0.34146341463414637,
+        "reference_telemetry_available": true,
+        "reference_index_start": 4,
+        "reference_index_end": 4,
+        "final_reference_distance_rad": 2.8943641078843587,
+        "final_position_m": 0.40038715065908714,
+        "final_orientation_deg": 31.34408615020891,
+        "reference_state_inferred": false
+      }
+    },
+    {
+      "seed": 4720100,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.40038715065908714,
+      "orientation_deg": 31.34408615020891,
+      "reward": 138.25802439042033,
+      "zero_command_steps": 108,
+      "stationary_steps": 108,
+      "wall_seconds": 282.369890512,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 3,
+      "recovery_actions": 66,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.095857909961687,
+          "accepted": true,
+          "mode": "bias",
+          "parameter": [
+            3,
+            0.4
+          ],
+          "predicted_end_cost": 0.8304718784971512,
+          "predicted_gain": 1.2653860314645358,
+          "plan_steps": 60
+        },
+        {
+          "step": 117,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7638719730704098,
+          "accepted": false
+        },
+        {
+          "step": 129,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7638787208145211,
+          "accepted": false
+        },
+        {
+          "step": 141,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7638854676446813,
+          "accepted": false
+        },
+        {
+          "step": 153,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7638922135607116,
+          "accepted": false
+        },
+        {
+          "step": 165,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7638989585624325,
+          "accepted": false
+        },
+        {
+          "step": 177,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7444976097039324,
+          "accepted": false
+        },
+        {
+          "step": 189,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7393433141177158,
+          "accepted": false
+        },
+        {
+          "step": 201,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7393433141177158,
+          "accepted": false
+        },
+        {
+          "step": 213,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.7393433141177158,
+          "accepted": true,
+          "mode": "persistent",
+          "parameter": [
+            [
+              0,
+              2
+            ],
+            [
+              -0.28,
+              -0.28
+            ]
+          ],
+          "predicted_end_cost": 0.6917726259128821,
+          "predicted_gain": 0.04757068820483368,
+          "plan_steps": 27
+        },
+        {
+          "step": 228,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.4660340511810751,
+          "accepted": false,
+          "mode": "paired",
+          "parameter": [
+            [
+              3,
+              5
+            ],
+            [
+              -0.4,
+              -0.4
+            ]
+          ],
+          "predicted_end_cost": 0.1911995243646107,
+          "predicted_gain": 0.27483452681646436,
+          "plan_steps": 12
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 59688,
+      "vertical_plan_events": [],
+      "installation_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "arm": "v29_model__old",
+      "obstacle_count": 2,
+      "model_key": "v29",
+      "controller_key": "old",
+      "case_sha256": "2dd8259a6a416681149b8b8a9024697044f6cfa577d957ff14a7548afbb8dc85",
+      "max_obstacle_speed_m_s": 0.07769386950384291,
+      "model_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+      "runtime_sha256": "07f9ed1f2e60a65dc5b97b3459ce5b8e59c29c75e6b529a3f75a7ec171cee5f6",
+      "timeout_diagnosis": {
+        "primary": "stale_reference",
+        "flags": {
+          "waiting": false,
+          "stale_reference": true,
+          "terminal_precision": false
+        },
+        "window_steps": 40,
+        "stationary_fraction": 0.325,
+        "zero_command_fraction": 0.34146341463414637,
+        "reference_telemetry_available": true,
+        "reference_index_start": 4,
+        "reference_index_end": 4,
+        "final_reference_distance_rad": 2.8943641078843587,
+        "final_position_m": 0.40038715065908714,
+        "final_orientation_deg": 31.34408615020891,
+        "reference_state_inferred": false
+      }
+    },
+    {
+      "seed": 4720100,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.40936119359813994,
+      "orientation_deg": 56.78181364554943,
+      "reward": 96.77594758547365,
+      "zero_command_steps": 19,
+      "stationary_steps": 19,
+      "wall_seconds": 138.28904684900044,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 3,
+      "recovery_actions": 92,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.096056074809384,
+          "accepted": false
+        },
+        {
+          "step": 52,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.079576935091876,
+          "accepted": false
+        },
+        {
+          "step": 64,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.061747414333037,
+          "accepted": false
+        },
+        {
+          "step": 76,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0458159771588638,
+          "accepted": false
+        },
+        {
+          "step": 88,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0271156322939676,
+          "accepted": false
+        },
+        {
+          "step": 100,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0078650175304396,
+          "accepted": false
+        },
+        {
+          "step": 112,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.002336444168138,
+          "accepted": false
+        },
+        {
+          "step": 124,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.002338022849641,
+          "accepted": false
+        },
+        {
+          "step": 136,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.00976597103927,
+          "accepted": true,
+          "mode": "paired",
+          "parameter": [
+            [
+              3,
+              5
+            ],
+            [
+              0.4,
+              -0.4
+            ]
+          ],
+          "predicted_end_cost": 1.1584679966371643,
+          "predicted_gain": 0.8512979744021059,
+          "plan_steps": 60
+        },
+        {
+          "step": 196,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.6253834975699157,
+          "accepted": true,
+          "mode": "paired",
+          "parameter": [
+            [
+              0,
+              2
+            ],
+            [
+              0.4,
+              0.4
+            ]
+          ],
+          "predicted_end_cost": 0.5282847460023817,
+          "predicted_gain": 0.097098751567534,
+          "plan_steps": 44
+        },
+        {
+          "step": 228,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.5282847460023817,
+          "accepted": false,
+          "mode": "paired",
+          "parameter": [
+            [
+              3,
+              5
+            ],
+            [
+              -0.4,
+              0.4
+            ]
+          ],
+          "predicted_end_cost": 0.24682321812461117,
+          "predicted_gain": 0.28146152787777057,
+          "plan_steps": 12
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 25184,
+      "vertical_plan_events": [],
+      "installation_events": [
+        {
+          "step": 40,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "paired"
+        },
+        {
+          "step": 52,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "paired"
+        },
+        {
+          "step": 64,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "paired"
+        },
+        {
+          "step": 88,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "paired"
+        },
+        {
+          "step": 100,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "bias"
+        },
+        {
+          "step": 112,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "bias"
+        },
+        {
+          "step": 124,
+          "mode": "reject_reference_escape",
+          "candidate_mode": "paired"
+        }
+      ],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "arm": "v31_model__installation",
+      "obstacle_count": 2,
+      "model_key": "v31",
+      "controller_key": "installation",
+      "case_sha256": "2dd8259a6a416681149b8b8a9024697044f6cfa577d957ff14a7548afbb8dc85",
+      "max_obstacle_speed_m_s": 0.07769386950384291,
+      "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+      "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+      "timeout_diagnosis": {
+        "primary": "stale_reference",
+        "flags": {
+          "waiting": false,
+          "stale_reference": true,
+          "terminal_precision": false
+        },
+        "window_steps": 40,
+        "stationary_fraction": 0.0,
+        "zero_command_fraction": 0.0,
+        "reference_telemetry_available": true,
+        "reference_index_start": 5,
+        "reference_index_end": 5,
+        "final_reference_distance_rad": 3.268223649119483,
+        "final_position_m": 0.40936119359813994,
+        "final_orientation_deg": 56.78181364554943,
+        "reference_state_inferred": false
+      }
+    },
+    {
+      "seed": 4720100,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.6694817558257672,
+      "orientation_deg": 179.40395104618614,
+      "reward": 80.65364382422256,
+      "zero_command_steps": 55,
+      "stationary_steps": 55,
+      "wall_seconds": 407.73332153999945,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 4,
+      "recovery_actions": 124,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.096056074809384,
+          "accepted": true,
+          "mode": "paired",
+          "parameter": [
+            [
+              1,
+              3
+            ],
+            [
+              0.4,
+              0.4
+            ]
+          ],
+          "predicted_end_cost": 1.4238101046698364,
+          "predicted_gain": 0.6722459701395476,
+          "plan_steps": 60
+        },
+        {
+          "step": 104,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.4333599645920145,
+          "accepted": true,
+          "mode": "paired",
+          "parameter": [
+            [
+              3,
+              5
+            ],
+            [
+              0.4,
+              -0.4
+            ]
+          ],
+          "predicted_end_cost": 1.1002552180905418,
+          "predicted_gain": 0.3331047465014727,
+          "plan_steps": 60
+        },
+        {
+          "step": 164,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.1217426063410252,
+          "accepted": false
+        },
+        {
+          "step": 176,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.1300903281384969,
+          "accepted": false
+        },
+        {
+          "step": 188,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.1356117631973737,
+          "accepted": false
+        },
+        {
+          "step": 200,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.1356117631973737,
+          "accepted": false
+        },
+        {
+          "step": 212,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.1356117631973737,
+          "accepted": false
+        },
+        {
+          "step": 224,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.1356117631973737,
+          "accepted": true,
+          "mode": "persistent",
+          "parameter": [
+            [
+              1,
+              3
+            ],
+            [
+              0.28,
+              -0.28
+            ]
+          ],
+          "predicted_end_cost": 0.9989743790409782,
+          "predicted_gain": 0.13663738415639548,
+          "plan_steps": 16
+        },
+        {
+          "step": 236,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.045224512246888,
+          "accepted": false,
+          "mode": "persistent",
+          "parameter": [
+            [
+              3,
+              5
+            ],
+            [
+              -0.28,
+              -0.28
+            ]
+          ],
+          "predicted_end_cost": 0.9675796345213078,
+          "predicted_gain": 0.07764487772558015,
+          "plan_steps": 4
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 78744,
+      "vertical_plan_events": [],
+      "installation_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "arm": "v31_model__old",
+      "obstacle_count": 2,
+      "model_key": "v31",
+      "controller_key": "old",
+      "case_sha256": "2dd8259a6a416681149b8b8a9024697044f6cfa577d957ff14a7548afbb8dc85",
+      "max_obstacle_speed_m_s": 0.07769386950384291,
+      "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+      "runtime_sha256": "07f9ed1f2e60a65dc5b97b3459ce5b8e59c29c75e6b529a3f75a7ec171cee5f6",
+      "timeout_diagnosis": {
+        "primary": "waiting",
+        "flags": {
+          "waiting": true,
+          "stale_reference": true,
+          "terminal_precision": false
+        },
+        "window_steps": 40,
+        "stationary_fraction": 0.6,
+        "zero_command_fraction": 0.6097560975609756,
+        "reference_telemetry_available": true,
+        "reference_index_start": 4,
+        "reference_index_end": 4,
+        "final_reference_distance_rad": 4.040278849802099,
+        "final_position_m": 0.6694817558257672,
+        "final_orientation_deg": 179.40395104618614,
+        "reference_state_inferred": false
+      }
+    }
+  ]
+}

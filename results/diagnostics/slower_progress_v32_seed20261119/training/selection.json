@@ -1,0 +1,71 @@
+{
+  "label": "ppo_8192",
+  "model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/slower_progress_v32_seed20261119/training/models/ppo_8192.zip",
+  "metrics": {
+    "all": {
+      "episodes": 16,
+      "success": 11,
+      "collision": 1,
+      "timeout": 4,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.6875,
+      "mean_passage_count": 0.375,
+      "success_with_weaving": 1,
+      "mean_task_error": 0.2747254848974055
+    },
+    "by_count": {
+      "2": {
+        "episodes": 4,
+        "success": 3,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 0.5,
+        "success_with_weaving": 1,
+        "mean_task_error": 0.18164419406937274
+      },
+      "3": {
+        "episodes": 4,
+        "success": 3,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 1.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.12724800088344904
+      },
+      "4": {
+        "episodes": 4,
+        "success": 3,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.26983409936860236
+      },
+      "5": {
+        "episodes": 4,
+        "success": 2,
+        "collision": 1,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.5,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.520175645268198
+      }
+    }
+  },
+  "selection_uses_validation_only": true,
+  "completed_ppo_steps": 16384,
+  "controller_variant": null
+}

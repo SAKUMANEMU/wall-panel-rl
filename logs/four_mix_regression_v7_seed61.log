@@ -1,0 +1,8 @@
+pybullet build time: Jan 29 2025 23:17:20
+MIX_DIAG 1032003 collision
+MIX_DIAG 1032019 timeout
+MIX_DIAG 1032030 timeout
+MIX_DIAG 1032056 collision
+MIX_DIAG 1032057 timeout
+MIX_DIAG 1032059 collision
+{'lost_success_scenes': [1032003, 1032019, 1032030, 1032056, 1032057, 1032059], 'final_failure_counts': {'collision': 3, 'timeout': 3}, 'all_reason_step_replays_match': True, 'original_reference_preserved': True, 'training_steps': 0, 'repeated_initial_label_groups': 35, 'opposing_initial_label_groups': 32, 'all_checkpoints_unchanged': True}

@@ -1,0 +1,1997 @@
+[
+  {
+    "seed": 1188000,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.317074004999995
+  },
+  {
+    "seed": 1188001,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.532225580999693,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188002,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5561261780003406
+  },
+  {
+    "seed": 1188003,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5122303130001455
+  },
+  {
+    "seed": 1188004,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2718621659996643
+  },
+  {
+    "seed": 1188005,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.568635502999314,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188006,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.035114297000291,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188007,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.628351413999553,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188008,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.145672775000094,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188009,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.529439340999488
+  },
+  {
+    "seed": 1188010,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.917791097999725
+  },
+  {
+    "seed": 1188011,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.308259913999791
+  },
+  {
+    "seed": 1188012,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.827264802999707
+  },
+  {
+    "seed": 1188013,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.14210171600007
+  },
+  {
+    "seed": 1188014,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.0925703929997326
+  },
+  {
+    "seed": 1188015,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation",
+    "generation_wall_s": 5.867727869000191
+  },
+  {
+    "seed": 1188016,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.3896898530001636
+  },
+  {
+    "seed": 1188017,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.6094726680003077
+  },
+  {
+    "seed": 1188018,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.374352605999775
+  },
+  {
+    "seed": 1188019,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.522968057000071
+  },
+  {
+    "seed": 1188020,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.965232591000131
+  },
+  {
+    "seed": 1188021,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation",
+    "generation_wall_s": 23.67283687500003
+  },
+  {
+    "seed": 1188022,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 3.020205736999742
+  },
+  {
+    "seed": 1188023,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.7736366269991777
+  },
+  {
+    "seed": 1188024,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout",
+    "generation_wall_s": 2.519341373000316
+  },
+  {
+    "seed": 1188025,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.778302419999818
+  },
+  {
+    "seed": 1188026,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.554183575000025,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188027,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation",
+    "generation_wall_s": 10.856277827000667
+  },
+  {
+    "seed": 1188028,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 22.743773235000845,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188029,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 31.284702443000242
+  },
+  {
+    "seed": 1188030,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2937119609996444
+  },
+  {
+    "seed": 1188031,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 3.3447258919995875
+  },
+  {
+    "seed": 1188032,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.1133474179996483
+  },
+  {
+    "seed": 1188033,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 5.842188311999962
+  },
+  {
+    "seed": 1188034,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2894228500008467
+  },
+  {
+    "seed": 1188035,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.556666412000595,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188036,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5323809290002828
+  },
+  {
+    "seed": 1188037,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5876635889999307
+  },
+  {
+    "seed": 1188038,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.1669635110001764
+  },
+  {
+    "seed": 1188039,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.3977607380002155
+  },
+  {
+    "seed": 1188040,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.7993337729994892
+  },
+  {
+    "seed": 1188041,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.0975244490000478
+  },
+  {
+    "seed": 1188042,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.3973770000002332
+  },
+  {
+    "seed": 1188043,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.3414805769998566
+  },
+  {
+    "seed": 1188044,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2813949490000596
+  },
+  {
+    "seed": 1188045,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.373032849999618,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188046,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.69375710300028
+  },
+  {
+    "seed": 1188047,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.1488462490005986
+  },
+  {
+    "seed": 1188048,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.1843287309993684
+  },
+  {
+    "seed": 1188049,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.851450170000135,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188050,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.9399788539994915
+  },
+  {
+    "seed": 1188051,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation",
+    "generation_wall_s": 6.609176752000167
+  },
+  {
+    "seed": 1188052,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2591938839996146
+  },
+  {
+    "seed": 1188053,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.133672056999785
+  },
+  {
+    "seed": 1188054,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.7534469719994377
+  },
+  {
+    "seed": 1188055,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.480300766000255
+  },
+  {
+    "seed": 1188056,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout",
+    "generation_wall_s": 2.4148789300006683
+  },
+  {
+    "seed": 1188057,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 37.41605207900011
+  },
+  {
+    "seed": 1188058,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5086070289999043
+  },
+  {
+    "seed": 1188059,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.25520243200026
+  },
+  {
+    "seed": 1188060,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 11.283300404999864
+  },
+  {
+    "seed": 1188061,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.918193667000196
+  },
+  {
+    "seed": 1188062,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.916479519999484
+  },
+  {
+    "seed": 1188063,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.628110765999736,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188064,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 15.807102357000076
+  },
+  {
+    "seed": 1188065,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.0523673420002524
+  },
+  {
+    "seed": 1188066,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 5.927897845000189
+  },
+  {
+    "seed": 1188067,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.365976581999348
+  },
+  {
+    "seed": 1188068,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.197119785000723,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188069,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.134643358000176
+  },
+  {
+    "seed": 1188070,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.4505707600001188
+  },
+  {
+    "seed": 1188071,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.8553675359999033
+  },
+  {
+    "seed": 1188072,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.1916808100004346
+  },
+  {
+    "seed": 1188073,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.314404118999846
+  },
+  {
+    "seed": 1188074,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 7.974220484000398
+  },
+  {
+    "seed": 1188075,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.128731013000106,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188076,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.80340802200044
+  },
+  {
+    "seed": 1188077,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.237518154999634
+  },
+  {
+    "seed": 1188078,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.6694148639999185
+  },
+  {
+    "seed": 1188079,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.0375872300000992
+  },
+  {
+    "seed": 1188080,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.9345791830000962
+  },
+  {
+    "seed": 1188081,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.36477221000041,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188082,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 6.261679049999657
+  },
+  {
+    "seed": 1188083,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.0605636959999174
+  },
+  {
+    "seed": 1188084,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2490232870004547
+  },
+  {
+    "seed": 1188085,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.859804539999459
+  },
+  {
+    "seed": 1188086,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 7.033586730999559,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188087,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.6089104500006215
+  },
+  {
+    "seed": 1188088,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.217524315999981
+  },
+  {
+    "seed": 1188089,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2691769359998943
+  },
+  {
+    "seed": 1188090,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 34.62388437699974,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188091,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2787612330002958
+  },
+  {
+    "seed": 1188092,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.46555632000036
+  },
+  {
+    "seed": 1188093,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.530504689000736
+  },
+  {
+    "seed": 1188094,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.6637392740003634
+  },
+  {
+    "seed": 1188095,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.9373250250000638
+  },
+  {
+    "seed": 1188096,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.0361263999993753
+  },
+  {
+    "seed": 1188097,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.0368198160003885
+  },
+  {
+    "seed": 1188098,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.048062270999253,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188099,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.15155261200016,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188100,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2311083280001185
+  },
+  {
+    "seed": 1188101,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5487055419998796
+  },
+  {
+    "seed": 1188102,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.894099922999885
+  },
+  {
+    "seed": 1188103,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 23.409714075999545
+  },
+  {
+    "seed": 1188104,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.3345400979997066
+  },
+  {
+    "seed": 1188105,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.4675216410005305
+  },
+  {
+    "seed": 1188106,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.543038094999247,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188107,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.4969580509996376
+  },
+  {
+    "seed": 1188108,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.1574438319994442
+  },
+  {
+    "seed": 1188109,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.343421284000215,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188110,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2753280030001406
+  },
+  {
+    "seed": 1188111,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.7901987930008545
+  },
+  {
+    "seed": 1188112,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.423510842999349,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188113,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.4413158859997566
+  },
+  {
+    "seed": 1188114,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.50891960700028,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188115,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.3352792599998793
+  },
+  {
+    "seed": 1188116,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.605218971000795
+  },
+  {
+    "seed": 1188117,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.66614447899974,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188118,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.3357577149999997
+  },
+  {
+    "seed": 1188119,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.8957046940004147
+  },
+  {
+    "seed": 1188120,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.9240545290003865,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188121,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.241731656999946,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188122,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.468680516999484,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188123,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.745654237999588,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188124,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout",
+    "generation_wall_s": 2.328264405000482
+  },
+  {
+    "seed": 1188125,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.001218355999299,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188126,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.754992606999622
+  },
+  {
+    "seed": 1188127,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.359968755999944
+  },
+  {
+    "seed": 1188128,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 5.806112590999874
+  },
+  {
+    "seed": 1188129,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.177932081000108
+  },
+  {
+    "seed": 1188130,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.8018299129998923
+  },
+  {
+    "seed": 1188131,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.4403330949999145
+  },
+  {
+    "seed": 1188132,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.394484131000354
+  },
+  {
+    "seed": 1188133,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.477605047999532,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188134,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.934820700000273
+  },
+  {
+    "seed": 1188135,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.448194868000428
+  },
+  {
+    "seed": 1188136,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2172253530006856
+  },
+  {
+    "seed": 1188137,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 8.955816783000046
+  },
+  {
+    "seed": 1188138,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.3941880630000014
+  },
+  {
+    "seed": 1188139,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.7230681010005355
+  },
+  {
+    "seed": 1188140,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 46.478131486000166
+  },
+  {
+    "seed": 1188141,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.363350664999416
+  },
+  {
+    "seed": 1188142,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.134611645000405,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188143,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.43096287499975
+  },
+  {
+    "seed": 1188144,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.196128632000182
+  },
+  {
+    "seed": 1188145,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.2322258799995325,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188146,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5151148049999392
+  },
+  {
+    "seed": 1188147,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.7088945460000105
+  },
+  {
+    "seed": 1188148,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.781831190000048
+  },
+  {
+    "seed": 1188149,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.509412653000254
+  },
+  {
+    "seed": 1188150,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.0770912350008075
+  },
+  {
+    "seed": 1188151,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5603798699994513
+  },
+  {
+    "seed": 1188152,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.1253310709998914
+  },
+  {
+    "seed": 1188153,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.012664732000303
+  },
+  {
+    "seed": 1188154,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout",
+    "generation_wall_s": 2.8361385759999393
+  },
+  {
+    "seed": 1188155,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.7625123150000945
+  },
+  {
+    "seed": 1188156,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.1628889829999025
+  },
+  {
+    "seed": 1188157,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 6.454752519999602
+  },
+  {
+    "seed": 1188158,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.818528960000549
+  },
+  {
+    "seed": 1188159,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.856905710000319,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188160,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 7.632443540000168
+  },
+  {
+    "seed": 1188161,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.9113860670004215,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188162,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 16.448321607000253,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188163,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.7480970260003232
+  },
+  {
+    "seed": 1188164,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.005229196000073
+  },
+  {
+    "seed": 1188165,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.7632418789999065
+  },
+  {
+    "seed": 1188166,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.547270031000153
+  },
+  {
+    "seed": 1188167,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.1897750179996365
+  },
+  {
+    "seed": 1188168,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 16.71317030099999
+  },
+  {
+    "seed": 1188169,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.3923638549995303
+  },
+  {
+    "seed": 1188170,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation",
+    "generation_wall_s": 48.761243623000155
+  },
+  {
+    "seed": 1188171,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.273999773000469
+  },
+  {
+    "seed": 1188172,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.543071064999822,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188173,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 3.3079224269995393
+  },
+  {
+    "seed": 1188174,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.240726097999868
+  },
+  {
+    "seed": 1188175,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.336512545000005
+  },
+  {
+    "seed": 1188176,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.244472737999786,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188177,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout",
+    "generation_wall_s": 2.320415111999864
+  },
+  {
+    "seed": 1188178,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 11.202308247000474
+  },
+  {
+    "seed": 1188179,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5850446100002955
+  },
+  {
+    "seed": 1188180,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.294914508999682
+  },
+  {
+    "seed": 1188181,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 19.51099134099968
+  },
+  {
+    "seed": 1188182,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.684979392999594,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188183,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.118480434999583
+  },
+  {
+    "seed": 1188184,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.684093756999573
+  },
+  {
+    "seed": 1188185,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.277186985000299,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188186,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.532587331999821
+  },
+  {
+    "seed": 1188187,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.553378180999971
+  },
+  {
+    "seed": 1188188,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.690136442000039
+  },
+  {
+    "seed": 1188189,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.911563462999766,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188190,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.9926105559998177
+  },
+  {
+    "seed": 1188191,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5000291369997285
+  },
+  {
+    "seed": 1188192,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.6037898189997577
+  },
+  {
+    "seed": 1188193,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.974321826999585
+  },
+  {
+    "seed": 1188194,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 55.84198449199994,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188195,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.149884577999728
+  },
+  {
+    "seed": 1188196,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 63.71049486100037
+  },
+  {
+    "seed": 1188197,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.555192912000166
+  },
+  {
+    "seed": 1188198,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.6172533380004097
+  },
+  {
+    "seed": 1188199,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.730276717999914,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188200,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 30.224638407000384
+  },
+  {
+    "seed": 1188201,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 16.57427148700026,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188202,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2173768599996038
+  },
+  {
+    "seed": 1188203,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 31.734753549000743
+  },
+  {
+    "seed": 1188204,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.4956726340005844
+  },
+  {
+    "seed": 1188205,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.965688966000016
+  },
+  {
+    "seed": 1188206,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.9482185810002193
+  },
+  {
+    "seed": 1188207,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 11.927152170000227
+  },
+  {
+    "seed": 1188208,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.863894250000158,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188209,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 7.344082517000061,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188210,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.8860590819995195
+  },
+  {
+    "seed": 1188211,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.6532145500004845
+  },
+  {
+    "seed": 1188212,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 19.28092776199992,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188213,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.603981959000521
+  },
+  {
+    "seed": 1188214,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation",
+    "generation_wall_s": 8.187469400000737
+  },
+  {
+    "seed": 1188215,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 3.5200278049996996
+  },
+  {
+    "seed": 1188216,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 7.068588873999943,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188217,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 3.5888944719999927
+  },
+  {
+    "seed": 1188218,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation",
+    "generation_wall_s": 8.129377938999824
+  },
+  {
+    "seed": 1188219,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 7.311892914999589
+  },
+  {
+    "seed": 1188220,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 3.325178828999924
+  },
+  {
+    "seed": 1188221,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 6.58814415300003
+  },
+  {
+    "seed": 1188222,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 3.254100850999748
+  },
+  {
+    "seed": 1188223,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 18.94736738099982,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188224,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.558754553999279,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188225,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Obstacle motion bounds violate sparse box spacing",
+    "generation_wall_s": 8.229740392000167
+  },
+  {
+    "seed": 1188226,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 99.86300134400062
+  },
+  {
+    "seed": 1188227,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2367147060003845
+  },
+  {
+    "seed": 1188228,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5487384939997355
+  },
+  {
+    "seed": 1188229,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation",
+    "generation_wall_s": 7.633971616999588
+  },
+  {
+    "seed": 1188230,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.5850540000001274
+  },
+  {
+    "seed": 1188231,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 7.194694324000011,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188232,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 7.279018807999819,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188233,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 7.63432723599999,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188234,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 3.800094865999199
+  },
+  {
+    "seed": 1188235,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.561492705999626
+  },
+  {
+    "seed": 1188236,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.150136723000287
+  },
+  {
+    "seed": 1188237,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.633347140999831
+  },
+  {
+    "seed": 1188238,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.399849278000147
+  },
+  {
+    "seed": 1188239,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 7.843248446999496
+  },
+  {
+    "seed": 1188240,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.932367475999854
+  },
+  {
+    "seed": 1188241,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 16.208462106999832,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188242,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.9114498819999426
+  },
+  {
+    "seed": 1188243,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.393388413000139
+  },
+  {
+    "seed": 1188244,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.560069952000049,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188245,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.885720461999881
+  },
+  {
+    "seed": 1188246,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.282436602999951
+  },
+  {
+    "seed": 1188247,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.1671024100005525
+  },
+  {
+    "seed": 1188248,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.377517603000342
+  },
+  {
+    "seed": 1188249,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.628072327999689,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188250,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2098071240006902
+  },
+  {
+    "seed": 1188251,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 27.112832623999566
+  },
+  {
+    "seed": 1188252,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.374942727999951
+  },
+  {
+    "seed": 1188253,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Obstacle motion bounds violate sparse box spacing",
+    "generation_wall_s": 2.353672078999807
+  },
+  {
+    "seed": 1188254,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 22.931752218999463,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188255,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.4121461150007235
+  },
+  {
+    "seed": 1188256,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.406326104999607
+  },
+  {
+    "seed": 1188257,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.742916404000425,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188258,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 6.42342631000065,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188259,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.4816362090004986
+  },
+  {
+    "seed": 1188260,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.551600118999886
+  },
+  {
+    "seed": 1188261,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.632289547000255,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188262,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.1986865700000635,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188263,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.2735041659998387
+  },
+  {
+    "seed": 1188264,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation",
+    "generation_wall_s": 6.990737269999954
+  },
+  {
+    "seed": 1188265,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 32.39924269699986
+  },
+  {
+    "seed": 1188266,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.500024181000299
+  },
+  {
+    "seed": 1188267,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 15.808637678000196
+  },
+  {
+    "seed": 1188268,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.3166224740007237
+  },
+  {
+    "seed": 1188269,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.599452991000362
+  },
+  {
+    "seed": 1188270,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.8452728229995046
+  },
+  {
+    "seed": 1188271,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.516159782000614,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188272,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation",
+    "generation_wall_s": 25.011930812000173
+  },
+  {
+    "seed": 1188273,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 81.73338072399929
+  },
+  {
+    "seed": 1188274,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 7.466209721999803,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188275,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Final height stagger too small after the O2 translation",
+    "generation_wall_s": 14.999694547000217
+  },
+  {
+    "seed": 1188276,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.4914719590005916
+  },
+  {
+    "seed": 1188277,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 46.88591964900024,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188278,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.1975719600004595
+  },
+  {
+    "seed": 1188279,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.9914740710000842
+  },
+  {
+    "seed": 1188280,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.93710218599972,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188281,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 2.055648392999501
+  },
+  {
+    "seed": 1188282,
+    "accepted": false,
+    "geometry_valid": false,
+    "reason": "Could not fit four motion-safe anchors in the original path intervals",
+    "generation_wall_s": 1.7522138399999676
+  },
+  {
+    "seed": 1188283,
+    "accepted": true,
+    "geometry_valid": true,
+    "generation_wall_s": 5.716718261999631,
+    "preliminary_reason": "success"
+  },
+  {
+    "seed": 1188284,
+    "accepted": false,
+    "geometry_valid": true,
+    "generation_wall_s": 5.786332683000182,
+    "preliminary_reason": "success"
+  }
+]

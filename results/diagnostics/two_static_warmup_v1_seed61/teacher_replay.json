@@ -1,0 +1,17 @@
+[
+  {
+    "group": "two_static",
+    "max_error": 0.0,
+    "reason": "success"
+  },
+  {
+    "group": "one_static",
+    "max_error": 0.0,
+    "reason": "success"
+  },
+  {
+    "group": "alignment",
+    "max_error": 0.0,
+    "reason": "success"
+  }
+]

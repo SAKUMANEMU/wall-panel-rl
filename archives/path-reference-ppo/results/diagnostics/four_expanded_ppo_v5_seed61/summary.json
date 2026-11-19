@@ -1,0 +1,105 @@
+{
+  "ppo_steps_run": 20000,
+  "selected": {
+    "additional_ppo_steps": 10000,
+    "new_validation": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 8,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "old_validation": {
+      "episodes": 32,
+      "success": 23,
+      "collision": 9,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      56,
+      -8,
+      0,
+      23,
+      -9
+    ]
+  },
+  "baseline_new_validation": {
+    "episodes": 64,
+    "success": 51,
+    "collision": 13,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "test_source": {
+    "episodes": 100,
+    "success": 74,
+    "collision": 25,
+    "timeout": 1,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "test_selected": {
+    "episodes": 100,
+    "success": 84,
+    "collision": 16,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "sensor_noise": {
+    "episodes": 100,
+    "success": 84,
+    "collision": 16,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "action_noise": {
+    "episodes": 100,
+    "success": 57,
+    "collision": 35,
+    "timeout": 8,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "old64_source": {
+    "episodes": 64,
+    "success": 51,
+    "collision": 13,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "old64_selected": {
+    "episodes": 64,
+    "success": 55,
+    "collision": 9,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "training_episodes": {
+    "collision": 172,
+    "success": 124,
+    "timeout": 19
+  },
+  "training_completed_transitions": 19760,
+  "hard_training_layouts": 57,
+  "continuation": {
+    "optimizer_state_preserved": true,
+    "optimizer_sha256": "b36be544fee13b47b039d2cbd10d0561ad62ee6afdd7c7ddc8d86d17320ea305",
+    "value_network_preserved": true,
+    "source_counter": 50000
+  },
+  "base_actor_and_std_unchanged": true,
+  "source_unchanged": true,
+  "test_used_for_selection": false,
+  "old64_used_for_selection": false,
+  "bc_updates": 0,
+  "default_model_preserved": true
+}

@@ -1,0 +1,43 @@
+{
+  "resumed_at": "2026-11-17T21:40:02.495797+08:00",
+  "process_group": 18165,
+  "checkpoint_reload": false,
+  "in_memory_state_preserved": true,
+  "processes": [
+    {
+      "pid": 18165,
+      "state": "S",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -u /home/johnsonchen/wall-panel-rl/experiments/construction_site_v29/scripts/run_site_pipeline.py --config /home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training_config.yaml --output /home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117"
+    },
+    {
+      "pid": 18375,
+      "state": "S",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -u /home/johnsonchen/wall-panel-rl/experiments/construction_site_v29/scripts/run_variable_training.py --config /home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training_config.yaml --scenes /home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/scenes --output /home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training"
+    },
+    {
+      "pid": 18391,
+      "state": "S",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.resource_tracker import main;main(7)"
+    },
+    {
+      "pid": 18392,
+      "state": "R",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=8, pipe_handle=12) --multiprocessing-fork"
+    },
+    {
+      "pid": 18395,
+      "state": "R",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=8, pipe_handle=14) --multiprocessing-fork"
+    },
+    {
+      "pid": 22081,
+      "state": "S",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=8, pipe_handle=20) --multiprocessing-fork"
+    },
+    {
+      "pid": 22082,
+      "state": "S",
+      "command": "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=8, pipe_handle=20) --multiprocessing-fork"
+    }
+  ]
+}

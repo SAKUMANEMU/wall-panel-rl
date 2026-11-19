@@ -1,0 +1,178 @@
+{
+  "initialization": {
+    "episodes": 99,
+    "success": 24,
+    "collision": 75,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "rrt_primary": {
+    "episodes": 99,
+    "success": 97,
+    "collision": 2,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "rrt_primary_plans_found": 99,
+  "rrt_retries": {
+    "episodes": 4,
+    "success": 4,
+    "collision": 0,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "feasibility": {
+    "scenes": 99,
+    "primary": {
+      "episodes": 99,
+      "success": 97,
+      "collision": 2,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "retry_trials": {
+      "episodes": 4,
+      "success": 4,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "scenes_with_any_found_plan": 99,
+    "scenes_with_any_successful_execution": 99,
+    "unresolved_scene_seeds": [],
+    "failure_is_not_a_proof_of_infeasibility": true
+  },
+  "paired_initialization_to_rrt": {
+    "collision -> success": 73,
+    "success -> success": 24,
+    "collision -> collision": 2
+  },
+  "collision_details": {
+    "initialization": {
+      "collision_episodes": 75,
+      "dominant_contact_categories": {
+        "obstacle/panel": 75
+      },
+      "dominant_obstacle_slots": {
+        "3": 47,
+        "4": 27,
+        "2": 1
+      },
+      "episodes_with_contact_by_body": {
+        "panel": 75
+      },
+      "body_counts_can_overlap": true,
+      "first_collision_steps": [
+        6,
+        41,
+        42,
+        6,
+        6,
+        5,
+        6,
+        41,
+        38,
+        7,
+        7,
+        42,
+        10,
+        37,
+        8,
+        8,
+        38,
+        6,
+        7,
+        7,
+        8,
+        35,
+        38,
+        6,
+        43,
+        5,
+        41,
+        7,
+        6,
+        6,
+        41,
+        6,
+        45,
+        5,
+        42,
+        42,
+        5,
+        6,
+        7,
+        6,
+        5,
+        41,
+        6,
+        40,
+        5,
+        5,
+        5,
+        40,
+        7,
+        6,
+        43,
+        6,
+        6,
+        6,
+        5,
+        6,
+        40,
+        6,
+        7,
+        7,
+        5,
+        38,
+        42,
+        45,
+        39,
+        4,
+        38,
+        6,
+        7,
+        38,
+        7,
+        6,
+        42,
+        5,
+        35
+      ]
+    },
+    "rrt_primary": {
+      "collision_episodes": 2,
+      "dominant_contact_categories": {
+        "obstacle/panel": 2
+      },
+      "dominant_obstacle_slots": {
+        "3": 1,
+        "4": 1
+      },
+      "episodes_with_contact_by_body": {
+        "panel": 2
+      },
+      "body_counts_can_overlap": true,
+      "first_collision_steps": [
+        9,
+        45
+      ]
+    },
+    "rrt_retries": {
+      "collision_episodes": 0,
+      "dominant_contact_categories": {},
+      "dominant_obstacle_slots": {},
+      "episodes_with_contact_by_body": {},
+      "body_counts_can_overlap": true,
+      "first_collision_steps": []
+    }
+  },
+  "source_model_unchanged": true,
+  "scene_bank_unchanged": true,
+  "training_steps": 0
+}

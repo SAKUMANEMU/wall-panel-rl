@@ -1,0 +1,66 @@
+{
+  "training_updates_executed": 0,
+  "output_directory_created": false,
+  "released_weights_unchanged": true,
+  "unit_tests": "..................................                                       [100%]\n34 passed in 49.36s",
+  "multiprocess_smoke": "pybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\nFour workers reset/step passed; no model learning.",
+  "effective_plan": {
+    "mode": "check_only",
+    "settings": {
+      "release": "releases/path_reference_bc_20261025",
+      "output": "models/waypoint_ppo_pilot_seed61",
+      "seed": 61,
+      "additional_timesteps": 10000,
+      "workers": 4,
+      "n_steps": 250,
+      "batch_size": 100,
+      "n_epochs": 3,
+      "learning_rate": 1e-05,
+      "clip_range": 0.05,
+      "target_kl": 0.005,
+      "action_std": 0.02,
+      "eval_every": 5000,
+      "progress_weight": 2.0,
+      "joint_margin": 0.01,
+      "train_seed_range": [
+        300000,
+        400000
+      ]
+    },
+    "source_sha256": "d65a8cfb4650fa6ec63b1fb633fcf90d8068b19f5a0556073ab26e46a0915ac2",
+    "source_steps": 0,
+    "validation_cases": 110,
+    "trainable": {
+      "tracking_gain_raw": 7,
+      "tracking_bias": 7,
+      "mlp_extractor.value_net.0.weight": 9856,
+      "mlp_extractor.value_net.0.bias": 128,
+      "mlp_extractor.value_net.2.weight": 16384,
+      "mlp_extractor.value_net.2.bias": 128,
+      "value_net.weight": 128,
+      "value_net.bias": 1
+    },
+    "action_processing": "raw Gaussian -> SB3 box clipping -> environment joint-margin projection",
+    "training_actor": "14 gain/bias coefficients; velocity/std frozen; critic enabled",
+    "validation": "shared-path ordinary/BC/PPO; post-update and final saved reload",
+    "independent_test_executed": false,
+    "optimizer_state_entries": 0,
+    "effective_ppo": {
+      "learning_rate": 1e-05,
+      "clip_range": 0.05,
+      "target_kl": 0.005,
+      "n_epochs": 3,
+      "batch_size": 100,
+      "n_steps": 250,
+      "std": [
+        0.019999999552965164,
+        0.019999999552965164,
+        0.019999999552965164,
+        0.019999999552965164,
+        0.019999999552965164,
+        0.019999999552965164,
+        0.019999999552965164
+      ]
+    }
+  }
+}

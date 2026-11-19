@@ -1,0 +1,43 @@
+{
+  "all_four_physical_anchors_intersect_guide": true,
+  "timed_intersection_count": 3,
+  "obstacles": [
+    {
+      "slot": 0,
+      "anchor_intersects_panel": true,
+      "anchor_intersects_arm": false,
+      "timed_guide_intersection": {
+        "frame": 18,
+        "time_s": 0.899999999999998,
+        "minimum_contact_distance_m": -0.01365442179787921
+      }
+    },
+    {
+      "slot": 1,
+      "anchor_intersects_panel": true,
+      "anchor_intersects_arm": false,
+      "timed_guide_intersection": {
+        "frame": 28,
+        "time_s": 1.3999999999999964,
+        "minimum_contact_distance_m": -0.0043005480949879216
+      }
+    },
+    {
+      "slot": 2,
+      "anchor_intersects_panel": true,
+      "anchor_intersects_arm": false,
+      "timed_guide_intersection": null
+    },
+    {
+      "slot": 3,
+      "anchor_intersects_panel": true,
+      "anchor_intersects_arm": false,
+      "timed_guide_intersection": {
+        "frame": 49,
+        "time_s": 2.4500000000000166,
+        "minimum_contact_distance_m": -0.0015601384210491656
+      }
+    }
+  ],
+  "physics_steps_during_audit": 0
+}

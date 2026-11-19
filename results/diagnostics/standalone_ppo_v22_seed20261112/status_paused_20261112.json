@@ -1,0 +1,22 @@
+{
+  "status": "paused",
+  "pid": 21478,
+  "started_at": "2026-11-12T16:38:41.909427+08:00",
+  "phase": "collection_complete_training_paused",
+  "updated_at": "2026-11-12T17:37:54.083117+08:00",
+  "batch_completed": 4,
+  "batch_total": 4,
+  "valid_test_scenes": 32,
+  "test_target": 32,
+  "evaluating": "distill_3000",
+  "collected_scenes": 100,
+  "collection_scenes": 100,
+  "labels": 11383,
+  "supervised_updates": 3000,
+  "supervised_planned": 3000,
+  "loss": 0.003210446098819375,
+  "ppo_updates_started": false,
+  "optimizer_updates_disabled": true,
+  "ppo_steps": 0,
+  "background_work_finished": true
+}

@@ -1,0 +1,38 @@
+{
+  "all64_cases_identical_across_modes": true,
+  "all_outcomes_in_denominator": true,
+  "scene_seeds_disjoint_from_previous_banks": true,
+  "mixture_assignments_frozen_before_outcomes_and_verified": true,
+  "no_branch_substitution": true,
+  "runtime_code_and_model_hashes_verified": true,
+  "reference_paths_and_model_parameters_unchanged": true,
+  "original_ppo_successes_preserved": 40,
+  "original_ppo_successes": 40,
+  "optimizer_updates": 0,
+  "final_test_episodes": 0,
+  "physical_rollouts": 192,
+  "mixture_reused_episodes": 64,
+  "paired_transitions": {
+    "ppo_to_ppo_progress": {
+      "success -> success": 40,
+      "collision -> success": 22,
+      "collision -> timeout": 1,
+      "timeout -> success": 1
+    },
+    "rrt_to_ppo_progress": {
+      "planning_failure -> success": 8,
+      "success -> success": 54,
+      "success -> timeout": 1,
+      "collision -> success": 1
+    }
+  },
+  "semantic_validation_tests": {
+    "passed": 2,
+    "tests": [
+      "mixture_keeps_selected_failures",
+      "precision_waiting_and_stagnation_categories"
+    ]
+  },
+  "plots_visually_verified": true,
+  "frozen_validation_bank_copy_sha256": "468b253f04f381f93fc00a0e7ff8d604dc37263a66c1330f6b2488f7bacd46bb"
+}

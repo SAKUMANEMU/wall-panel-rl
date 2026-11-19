@@ -1,0 +1,27 @@
+#{"t_start": 1793340791.4625266, "env_id": "None"}
+r,l,t,termination_reason,curriculum_task,reward_stall,reward_wall_clearance
+319.376867,66,13.270936,success,alignment,0.0,0.0
+109.531147,57,13.561414,collision,static,0.0,-0.0
+171.461295,240,14.830606,timeout,static,0.0,-0.0
+176.113402,240,15.870717,timeout,static,0.0,-0.0
+111.947813,50,16.100865,collision,static,0.0,-0.0
+128.489598,57,16.406338,collision,static,0.0,-0.0
+318.875321,72,16.817998,success,alignment,0.0,0.0
+177.676118,240,18.081966,timeout,static,0.0,-0.0
+128.310585,50,18.339226,collision,static,0.0,-0.0
+108.150193,70,18.686486,collision,static,0.0,-0.0
+303.392705,76,18.983829,success,static,0.0,0.0
+96.465152,50,33.245397,collision,static,0.0,-0.0
+303.960159,61,33.544974,success,static,0.0,0.0
+86.852476,240,34.759419,timeout,static,0.0,-0.0
+186.277114,240,35.935449,timeout,static,0.0,-0.0
+304.723647,59,36.205139,success,static,0.0,0.0
+112.431907,50,36.447242,collision,static,0.0,-0.0
+56.343739,107,36.980433,collision,static,0.0,-0.0
+120.297112,56,37.198442,collision,static,0.0,-0.0
+124.361312,8,37.231415,success,alignment,0.0,0.0
+303.696917,56,37.461694,success,static,0.0,0.0
+302.011777,99,37.846439,success,static,0.0,0.0
+125.019646,14,37.962544,success,alignment,0.0,0.0
+126.601192,52,38.23334,collision,static,0.0,-0.0
+302.376955,63,38.567705,success,static,0.0,0.0

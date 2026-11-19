@@ -1,0 +1,38 @@
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+1/32 complete: {'episodes': 1, 'success': 0, 'collision': 0, 'timeout': 1, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.0, 'success_with_weaving': 0, 'success_and_weaving_rate': 0.0}
+2/32 complete: {'episodes': 2, 'success': 0, 'collision': 0, 'timeout': 2, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.0, 'success_with_weaving': 0, 'success_and_weaving_rate': 0.0}
+3/32 complete: {'episodes': 3, 'success': 0, 'collision': 0, 'timeout': 3, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.0, 'success_with_weaving': 0, 'success_and_weaving_rate': 0.0}
+4/32 complete: {'episodes': 4, 'success': 0, 'collision': 0, 'timeout': 4, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.0, 'success_with_weaving': 0, 'success_and_weaving_rate': 0.0}
+5/32 complete: {'episodes': 5, 'success': 0, 'collision': 0, 'timeout': 5, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.0, 'success_with_weaving': 0, 'success_and_weaving_rate': 0.0}
+6/32 complete: {'episodes': 6, 'success': 0, 'collision': 1, 'timeout': 5, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.0, 'success_with_weaving': 0, 'success_and_weaving_rate': 0.0}
+7/32 complete: {'episodes': 7, 'success': 1, 'collision': 1, 'timeout': 5, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.14285714285714285, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.14285714285714285}
+8/32 complete: {'episodes': 8, 'success': 2, 'collision': 1, 'timeout': 5, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.25, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.125}
+9/32 complete: {'episodes': 9, 'success': 2, 'collision': 1, 'timeout': 6, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.2222222222222222, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.1111111111111111}
+10/32 complete: {'episodes': 10, 'success': 3, 'collision': 1, 'timeout': 6, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.3, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.1}
+11/32 complete: {'episodes': 11, 'success': 4, 'collision': 1, 'timeout': 6, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.36363636363636365, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.09090909090909091}
+12/32 complete: {'episodes': 12, 'success': 5, 'collision': 1, 'timeout': 6, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.4166666666666667, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.08333333333333333}
+13/32 complete: {'episodes': 13, 'success': 5, 'collision': 1, 'timeout': 7, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.38461538461538464, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.07692307692307693}
+14/32 complete: {'episodes': 14, 'success': 5, 'collision': 1, 'timeout': 8, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.35714285714285715, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.07142857142857142}
+15/32 complete: {'episodes': 15, 'success': 5, 'collision': 1, 'timeout': 9, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.3333333333333333, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.06666666666666667}
+16/32 complete: {'episodes': 16, 'success': 5, 'collision': 1, 'timeout': 10, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.3125, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.0625}
+17/32 complete: {'episodes': 17, 'success': 5, 'collision': 1, 'timeout': 11, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.29411764705882354, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.058823529411764705}
+18/32 complete: {'episodes': 18, 'success': 6, 'collision': 1, 'timeout': 11, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.3333333333333333, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.05555555555555555}
+19/32 complete: {'episodes': 19, 'success': 6, 'collision': 1, 'timeout': 12, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.3157894736842105, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.05263157894736842}
+20/32 complete: {'episodes': 20, 'success': 6, 'collision': 1, 'timeout': 13, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.3, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.05}
+21/32 complete: {'episodes': 21, 'success': 7, 'collision': 1, 'timeout': 13, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.3333333333333333, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.047619047619047616}
+22/32 complete: {'episodes': 22, 'success': 7, 'collision': 1, 'timeout': 14, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.3181818181818182, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.045454545454545456}
+23/32 complete: {'episodes': 23, 'success': 8, 'collision': 1, 'timeout': 14, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.34782608695652173, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.043478260869565216}
+24/32 complete: {'episodes': 24, 'success': 9, 'collision': 1, 'timeout': 14, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.375, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.041666666666666664}
+25/32 complete: {'episodes': 25, 'success': 9, 'collision': 1, 'timeout': 15, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.36, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.04}
+26/32 complete: {'episodes': 26, 'success': 10, 'collision': 1, 'timeout': 15, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.38461538461538464, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.038461538461538464}
+27/32 complete: {'episodes': 27, 'success': 11, 'collision': 1, 'timeout': 15, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.4074074074074074, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.037037037037037035}
+28/32 complete: {'episodes': 28, 'success': 12, 'collision': 1, 'timeout': 15, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.42857142857142855, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.03571428571428571}
+29/32 complete: {'episodes': 29, 'success': 12, 'collision': 1, 'timeout': 16, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.41379310344827586, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.034482758620689655}
+30/32 complete: {'episodes': 30, 'success': 12, 'collision': 1, 'timeout': 17, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.4, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.03333333333333333}
+31/32 complete: {'episodes': 31, 'success': 13, 'collision': 1, 'timeout': 17, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.41935483870967744, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.03225806451612903}
+32/32 complete: {'episodes': 32, 'success': 13, 'collision': 1, 'timeout': 18, 'joint_limit': 0, 'planning_failure': 0, 'success_rate': 0.40625, 'success_with_weaving': 1, 'success_and_weaving_rate': 0.03125}
+Evaluation saved: /home/johnsonchen/wall-panel-rl/results/diagnostics/enhanced_scope_v23_baseline_low32

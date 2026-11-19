@@ -1,0 +1,28 @@
+# Bounded correction study. Fixed validation selects; a new test is scored last.
+base_config: configs/two_static_warmup.yaml
+data_root: data/two_static_adapter_v3_seed61
+model_root: models/two_static_adapter_v3_seed61
+report_root: results/diagnostics/two_static_adapter_v3_seed61
+teacher_root: data/two_static_warmup_v1_seed61/teacher
+validation_root: data/two_static_warmup_v1_seed61
+fresh_seed_start: 1012000
+fresh_targets: 100
+maximum_generation_attempts: 300
+adapter_hidden: 128
+adapter_scale: 2.0
+maximum_correction_attempts: 96
+handoff_leads: [12, 24]
+bc:
+  updates: 3000
+  checkpoints: [100, 250, 500, 1000, 2000, 3000]
+  batch_size: 256
+  learning_rate: 0.0001
+  task_weights: {two_static: 0.80, one_static: 0.10, alignment: 0.10}
+  terminal_weight: 1.0
+  gate_retention_weight: 0.0
+  residual_weight: 0.0
+  adapter_weight: 0.001
+  correction_weight: 10.0
+  swap_two_obstacles_probability: 0.0
+ppo_steps: 10000
+ppo_eval_every: 5000

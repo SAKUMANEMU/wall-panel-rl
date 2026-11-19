@@ -1,0 +1,8 @@
+{
+  "floor_z": 0.1,
+  "ceiling_z": 1.1,
+  "minimum_recorded_panel_lower_z": 0.12660838527497287,
+  "maximum_recorded_panel_upper_z": 0.8416966547725013,
+  "physics_collision_checks_include_all_substeps": true,
+  "new_training_performed": false
+}

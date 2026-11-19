@@ -1,0 +1,148 @@
+{
+  "seed": 5340300,
+  "controller": "enhanced",
+  "reason": "timeout",
+  "steps": 240,
+  "position_m": 0.8292775583652088,
+  "orientation_deg": 96.6628316206537,
+  "reward": 75.41890005230057,
+  "zero_command_steps": 34,
+  "stationary_steps": 34,
+  "wall_seconds": 172.93746083099995,
+  "physics_elapsed_s": 11.99999999999964,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 3,
+  "recovery_actions": 80,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.112602564280087,
+      "accepted": false
+    },
+    {
+      "step": 52,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.1126031212705496,
+      "accepted": false
+    },
+    {
+      "step": 64,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.1116925038428147,
+      "accepted": false
+    },
+    {
+      "step": 76,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.10599288787165,
+      "accepted": false
+    },
+    {
+      "step": 88,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.1053472998370353,
+      "accepted": false
+    },
+    {
+      "step": 100,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.1053510700107423,
+      "accepted": false
+    },
+    {
+      "step": 112,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.105354839723711,
+      "accepted": false
+    },
+    {
+      "step": 124,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.105358608975866,
+      "accepted": false
+    },
+    {
+      "step": 136,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.099217112027222,
+      "accepted": true,
+      "mode": "bias",
+      "parameter": [
+        1,
+        -0.4
+      ],
+      "predicted_end_cost": 2.04424782094004,
+      "predicted_gain": 0.05496929108718218,
+      "plan_steps": 60
+    },
+    {
+      "step": 196,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.1631434860214744,
+      "accepted": false
+    },
+    {
+      "step": 208,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.1631434860214744,
+      "accepted": true,
+      "mode": "bias",
+      "parameter": [
+        4,
+        0.4
+      ],
+      "predicted_end_cost": 1.031727719494964,
+      "predicted_gain": 0.13141576652651055,
+      "plan_steps": 32
+    },
+    {
+      "step": 228,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.031727719494964,
+      "accepted": false,
+      "mode": "bias",
+      "parameter": [
+        0,
+        -0.4
+      ],
+      "predicted_end_cost": 0.833950255775727,
+      "predicted_gain": 0.19777746371923688,
+      "plan_steps": 12
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 28445,
+  "vertical_plan_events": [],
+  "installation_events": [],
+  "passage_count": 0,
+  "success_with_weaving": false,
+  "arm": "v29_baseline",
+  "obstacle_count": 4,
+  "model_key": "v29",
+  "controller_key": "old",
+  "case_sha256": "e41d8a7ff232282519a02bb707017ea8ccd06247f63dad1ef19b6cf983128c34",
+  "max_obstacle_speed_m_s": 0.1462560903833909,
+  "model_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+  "runtime_sha256": "07f9ed1f2e60a65dc5b97b3459ce5b8e59c29c75e6b529a3f75a7ec171cee5f6",
+  "timeout_diagnosis": {
+    "primary": "stale_reference",
+    "flags": {
+      "waiting": false,
+      "stale_reference": true,
+      "terminal_precision": false
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.0,
+    "zero_command_fraction": 0.0,
+    "reference_telemetry_available": true,
+    "reference_index_start": 1,
+    "reference_index_end": 1,
+    "final_reference_distance_rad": 2.5191466065614176,
+    "final_position_m": 0.8292775583652088,
+    "final_orientation_deg": 96.6628316206537,
+    "reference_state_inferred": false
+  }
+}

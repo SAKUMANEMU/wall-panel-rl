@@ -1,0 +1,45 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "training": {
+    "source_steps": 5000,
+    "additional_steps": 10000,
+    "total_steps": 15000,
+    "elapsed_seconds": 35.06051278114319
+  },
+  "completed_training_episodes": 767,
+  "training_counts": [
+    {
+      "task": "alignment",
+      "reason": "success",
+      "episodes": 142
+    },
+    {
+      "task": "dynamic",
+      "reason": "collision",
+      "episodes": 372
+    },
+    {
+      "task": "dynamic",
+      "reason": "success",
+      "episodes": 4
+    },
+    {
+      "task": "static",
+      "reason": "collision",
+      "episodes": 242
+    },
+    {
+      "task": "static",
+      "reason": "success",
+      "episodes": 7
+    }
+  ],
+  "initial_validation_states_mean_absolute_action_change": 0.004076775527958359,
+  "initial_validation_states_max_absolute_action_change": 0.011543427594006062,
+  "observed_motion_bounds": {
+    "max_amplitude": 0.4,
+    "max_speed": 0.3999999999999999
+  },
+  "online_avoidance_planner": false,
+  "independent_test_executed": false
+}

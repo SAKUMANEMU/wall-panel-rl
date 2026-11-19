@@ -1,0 +1,324 @@
+{
+  "train_only": true,
+  "optimizer_updates": 0,
+  "source_outcomes_reproduced": true,
+  "rows": [
+    {
+      "seed": 1020046,
+      "reason": "collision",
+      "steps": 4,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_2",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.0005615944150993066
+        }
+      ]
+    },
+    {
+      "seed": 1020051,
+      "reason": "collision",
+      "steps": 42,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_3",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.00047149435138142047
+        }
+      ]
+    },
+    {
+      "seed": 1030040,
+      "reason": "collision",
+      "steps": 43,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_1",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -8.550269136966568e-05
+        }
+      ]
+    },
+    {
+      "seed": 1050034,
+      "reason": "collision",
+      "steps": 8,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_2",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.0014792394250494436
+        }
+      ]
+    },
+    {
+      "seed": 1090001,
+      "reason": "collision",
+      "steps": 49,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_3",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.00016306235641595738
+        }
+      ]
+    },
+    {
+      "seed": 1110008,
+      "reason": "collision",
+      "steps": 59,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_3",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -3.347491589691942e-05
+        }
+      ]
+    },
+    {
+      "seed": 1110053,
+      "reason": "collision",
+      "steps": 51,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_3",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.00021935210982656207
+        }
+      ]
+    },
+    {
+      "seed": 1110133,
+      "reason": "collision",
+      "steps": 39,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_3",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.00035380797077777526
+        }
+      ]
+    },
+    {
+      "seed": 1110142,
+      "reason": "collision",
+      "steps": 8,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_2",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.0033064773948330616
+        }
+      ]
+    },
+    {
+      "seed": 1110317,
+      "reason": "collision",
+      "steps": 95,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "wall",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -6.354809621958689e-05
+        }
+      ]
+    },
+    {
+      "seed": 1110419,
+      "reason": "collision",
+      "steps": 6,
+      "execution_substep_contacts": [
+        {
+          "body": "arm",
+          "other": "obstacle_2",
+          "link": 6,
+          "other_link": -1,
+          "distance_m": -0.0002790682648872363
+        }
+      ]
+    },
+    {
+      "seed": 1110434,
+      "reason": "collision",
+      "steps": 8,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_2",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.0004711101386862815
+        }
+      ]
+    },
+    {
+      "seed": 1110440,
+      "reason": "collision",
+      "steps": 7,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_2",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.00017601267012934407
+        }
+      ]
+    },
+    {
+      "seed": 1110470,
+      "reason": "collision",
+      "steps": 51,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_3",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -3.6489704663863605e-06
+        }
+      ]
+    },
+    {
+      "seed": 1110478,
+      "reason": "collision",
+      "steps": 98,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_3",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.00013741115932961362
+        }
+      ]
+    },
+    {
+      "seed": 1110646,
+      "reason": "collision",
+      "steps": 11,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_2",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.00012310671662305516
+        }
+      ]
+    },
+    {
+      "seed": 1110686,
+      "reason": "collision",
+      "steps": 5,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_2",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -4.3648076575766805e-05
+        }
+      ]
+    },
+    {
+      "seed": 1110708,
+      "reason": "collision",
+      "steps": 53,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_3",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.00020910441945893901
+        }
+      ]
+    },
+    {
+      "seed": 1110766,
+      "reason": "collision",
+      "steps": 57,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_3",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.0010469115910952675
+        },
+        {
+          "body": "panel",
+          "other": "obstacle_3",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -3.913645871100879e-05
+        }
+      ]
+    },
+    {
+      "seed": 1110788,
+      "reason": "collision",
+      "steps": 8,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_2",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.00047264870605123743
+        }
+      ]
+    },
+    {
+      "seed": 1110795,
+      "reason": "collision",
+      "steps": 44,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "obstacle_3",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.0005982679517003708
+        }
+      ]
+    },
+    {
+      "seed": 1110812,
+      "reason": "collision",
+      "steps": 96,
+      "execution_substep_contacts": [
+        {
+          "body": "panel",
+          "other": "wall",
+          "link": -1,
+          "other_link": -1,
+          "distance_m": -0.0001586271666350443
+        }
+      ]
+    }
+  ],
+  "resolved": 22,
+  "remaining_unresolved": 0
+}

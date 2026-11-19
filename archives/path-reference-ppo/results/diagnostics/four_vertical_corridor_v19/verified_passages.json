@@ -1,0 +1,79 @@
+{
+  "ordered_alternating_passages": [
+    {
+      "slot": 0,
+      "frame": 169,
+      "time_s": 8.449999999999841,
+      "side": "below",
+      "panel_z": 1.1113992367212426,
+      "box_z": 1.3161426017713957,
+      "xy_distance_m": 0.007994349454846417,
+      "vertical_clearance_m": 0.03040354666298542
+    },
+    {
+      "slot": 1,
+      "frame": 191,
+      "time_s": 9.549999999999779,
+      "side": "above",
+      "panel_z": 1.2110233880915635,
+      "box_z": 0.9220127062306587,
+      "xy_distance_m": 0.13640825497376854,
+      "vertical_clearance_m": 0.1267529117420763
+    },
+    {
+      "slot": 3,
+      "frame": 237,
+      "time_s": 11.849999999999648,
+      "side": "below",
+      "panel_z": 0.5583781653231621,
+      "box_z": 1.1835099593283274,
+      "xy_distance_m": 0.14382242728269828,
+      "vertical_clearance_m": 0.37933392367930974
+    }
+  ],
+  "passage_count": 3,
+  "xy_radius_m": 0.24,
+  "whole_panel_vertical_margin_m": 0.01,
+  "minimum_actual_alternating_height_change_m": 0.07,
+  "nearest_xy_observations": [
+    {
+      "slot": 2,
+      "frame": 159,
+      "xy_distance_m": 0.026148850696495314,
+      "panel_z": 0.8161041037817788,
+      "box_z": 0.47940635046885843,
+      "panel_above_clearance_m": 0.1398346663549781,
+      "panel_below_clearance_m": -0.5335608402708626
+    },
+    {
+      "slot": 0,
+      "frame": 169,
+      "xy_distance_m": 0.007994349454846417,
+      "panel_z": 1.1113992367212426,
+      "box_z": 1.3161426017713957,
+      "panel_above_clearance_m": -0.37908318343732067,
+      "panel_below_clearance_m": 0.03040354666298542
+    },
+    {
+      "slot": 1,
+      "frame": 191,
+      "xy_distance_m": 0.13640825497376854,
+      "panel_z": 1.2110233880915635,
+      "box_z": 0.9220127062306587,
+      "panel_above_clearance_m": 0.1267529117420763,
+      "panel_below_clearance_m": -0.45126845197973353
+    },
+    {
+      "slot": 3,
+      "frame": 237,
+      "xy_distance_m": 0.14382242728269828,
+      "panel_z": 0.5583781653231621,
+      "box_z": 1.1835099593283274,
+      "panel_above_clearance_m": -0.8709296643310207,
+      "panel_below_clearance_m": 0.37933392367930974
+    }
+  ],
+  "upward_travel_m": 0.9748146733505316,
+  "downward_travel_m": 0.7639589133540772,
+  "height_range_m": 0.9201394010925574
+}

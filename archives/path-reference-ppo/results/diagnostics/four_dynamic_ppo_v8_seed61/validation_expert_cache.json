@@ -1,0 +1,575 @@
+{
+  "owners": [
+    {
+      "seed": 1062000,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062001,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062002,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062004,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062005,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062007,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062009,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062010,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062011,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062012,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062013,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062014,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062015,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062016,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062017,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062018,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062019,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062020,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062022,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062023,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062024,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062025,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062026,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062027,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062029,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062030,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062032,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062033,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062034,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062035,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062036,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062039,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062041,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062042,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062044,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062045,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062046,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062048,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062049,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062050,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062051,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062052,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062053,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062054,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062055,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062056,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062057,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062059,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062060,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062061,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062062,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062063,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062064,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062065,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062066,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062067,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062068,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062070,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062071,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062074,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062075,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062076,
+      "controller": "rrt"
+    },
+    {
+      "seed": 1062077,
+      "controller": "ppo"
+    },
+    {
+      "seed": 1062078,
+      "controller": "ppo"
+    }
+  ],
+  "rrt_rows": [
+    {
+      "controller": "rrt",
+      "seed": 1062000,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 88,
+      "reward": 300.9370883586999,
+      "position_m": 0.0014618543788370694,
+      "orientation_deg": 0.09841773244905663,
+      "planning_seconds": 9.101247187000126,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062005,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 78,
+      "reward": 302.54589897767494,
+      "position_m": 0.0011526406663414058,
+      "orientation_deg": 0.08022418910480489,
+      "planning_seconds": 1.8444048769999881,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062011,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 65,
+      "reward": 302.23811293303083,
+      "position_m": 0.0011378017159754355,
+      "orientation_deg": 0.07547519005392211,
+      "planning_seconds": 1.691237373000149,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062017,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 82,
+      "reward": 301.8827727530978,
+      "position_m": 0.0006028145909485686,
+      "orientation_deg": 0.03554848284214573,
+      "planning_seconds": 1.9992212439999548,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062018,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 79,
+      "reward": 301.1498218094954,
+      "position_m": 0.00015138913201970694,
+      "orientation_deg": 0.014031272774944393,
+      "planning_seconds": 2.209369820999882,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062019,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 99,
+      "reward": 299.9545266600942,
+      "position_m": 0.0014375284430888295,
+      "orientation_deg": 0.10499494524836318,
+      "planning_seconds": 2.184419165999998,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062022,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 180,
+      "reward": 271.07322920710493,
+      "position_m": 0.000721402322782885,
+      "orientation_deg": 0.06332926456595443,
+      "planning_seconds": 6.316660746000025,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062023,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 67,
+      "reward": 302.87096385601683,
+      "position_m": 0.0007292119888650199,
+      "orientation_deg": 0.08062312694740063,
+      "planning_seconds": 1.579911594000123,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062029,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 82,
+      "reward": 302.7780541564547,
+      "position_m": 0.0006359493020882258,
+      "orientation_deg": 0.07800865961448684,
+      "planning_seconds": 2.2501125870001033,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062034,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 79,
+      "reward": 303.4978473697269,
+      "position_m": 8.404386038352144e-05,
+      "orientation_deg": 0.044637723402350886,
+      "planning_seconds": 1.9300220820000504,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062035,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 72,
+      "reward": 302.53653598501967,
+      "position_m": 0.0009422997308707641,
+      "orientation_deg": 0.07216010803329236,
+      "planning_seconds": 16.210424889000024,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062041,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 74,
+      "reward": 303.5334354455093,
+      "position_m": 7.658921692362906e-05,
+      "orientation_deg": 0.042647999655261906,
+      "planning_seconds": 1.7739976790001037,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062042,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 71,
+      "reward": 301.3759374057156,
+      "position_m": 0.004153960583036838,
+      "orientation_deg": 0.26276043899052054,
+      "planning_seconds": 9.154182009999886,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062044,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 79,
+      "reward": 300.4212981428726,
+      "position_m": 0.0009150462960996457,
+      "orientation_deg": 0.06910664802656842,
+      "planning_seconds": 1.624442763000161,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062046,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 68,
+      "reward": 303.67499445220574,
+      "position_m": 0.0008339836469978432,
+      "orientation_deg": 0.06435675048489166,
+      "planning_seconds": 1.65453344499997,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062048,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 73,
+      "reward": 303.843906323341,
+      "position_m": 0.0003493749724464781,
+      "orientation_deg": 0.038368972275831574,
+      "planning_seconds": 1.8094615349998548,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062053,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 71,
+      "reward": 303.3278270852122,
+      "position_m": 0.00023556804959602452,
+      "orientation_deg": 0.030974652105888005,
+      "planning_seconds": 1.4758071850001215,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062054,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 77,
+      "reward": 299.9968460782058,
+      "position_m": 0.0003674290457135332,
+      "orientation_deg": 0.06460758139233623,
+      "planning_seconds": 2.328450275000023,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062062,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 67,
+      "reward": 300.52349560685184,
+      "position_m": 0.0006754044853499726,
+      "orientation_deg": 0.04987339542536916,
+      "planning_seconds": 1.7764895279999564,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062064,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 77,
+      "reward": 299.3727962944778,
+      "position_m": 0.0007352502398357998,
+      "orientation_deg": 0.06632605530083678,
+      "planning_seconds": 1.8127425830000448,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062066,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 74,
+      "reward": 303.4160728807816,
+      "position_m": 0.0008204483238682026,
+      "orientation_deg": 0.06598694600814688,
+      "planning_seconds": 1.6124313389998406,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062070,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 97,
+      "reward": 301.07592295201005,
+      "position_m": 0.0009438404703615294,
+      "orientation_deg": 0.06435232551977624,
+      "planning_seconds": 23.334759089999807,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062075,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 86,
+      "reward": 301.8611797190765,
+      "position_m": 0.0029607753635186532,
+      "orientation_deg": 0.20711940880022225,
+      "planning_seconds": 2.4704351679999945,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    },
+    {
+      "controller": "rrt",
+      "seed": 1062076,
+      "task": "dynamic",
+      "reason": "success",
+      "steps": 65,
+      "reward": 302.4954349168618,
+      "position_m": 0.0009579490657724113,
+      "orientation_deg": 0.06530611666095977,
+      "planning_seconds": 1.7405379780000203,
+      "online_avoidance_planner": true,
+      "conditional_recoveries": 0
+    }
+  ],
+  "note": "Independent expert branch physically executed once; reused unchanged in paired mixture comparisons. Never a training demonstration."
+}

@@ -1,0 +1,351 @@
+[
+  {
+    "seed": 1166004,
+    "construction_rejection": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "seed": 1166003,
+    "construction_rejection": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "seed": 1166001,
+    "construction_rejection": "Obstacle motion bounds violate sparse box spacing"
+  },
+  {
+    "seed": 1166012,
+    "construction_rejection": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "seed": 1166006,
+    "construction_rejection": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "seed": 1166007,
+    "reason": "timeout",
+    "steps": 240,
+    "position_m": 0.513041431244708,
+    "orientation_deg": 73.94721728737865,
+    "controller": "ppo_progress",
+    "recovery_actions": 56,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "real_step_limit": 240,
+    "ordered_alternating_passages": [],
+    "passage_count": 0,
+    "xy_radius_m": 0.24,
+    "whole_panel_vertical_margin_m": 0.01,
+    "minimum_actual_alternating_height_change_m": 0.07,
+    "nearest_xy_observations": [
+      {
+        "slot": 2,
+        "frame": 11,
+        "xy_distance_m": 0.11028091759437457,
+        "panel_z": 0.45972598151431926,
+        "box_z": 0.6488562112794638,
+        "panel_above_clearance_m": -0.40509984655674486,
+        "panel_below_clearance_m": -0.02683938702645569
+      },
+      {
+        "slot": 0,
+        "frame": 25,
+        "xy_distance_m": 0.10740051174282307,
+        "panel_z": 0.7948040597245051,
+        "box_z": 1.2633592561086804,
+        "panel_above_clearance_m": -0.6948491198132082,
+        "panel_below_clearance_m": 0.24226127295514233
+      },
+      {
+        "slot": 1,
+        "frame": 208,
+        "xy_distance_m": 0.0798887505587366,
+        "panel_z": 0.7667892608115922,
+        "box_z": 0.9978250063221236,
+        "panel_above_clearance_m": -0.4387643264616135,
+        "panel_below_clearance_m": 0.02330716455944931
+      },
+      {
+        "slot": 3,
+        "frame": 240,
+        "xy_distance_m": 0.3659972789414765,
+        "panel_z": 0.793812718208897,
+        "box_z": 1.0918747691579425,
+        "panel_above_clearance_m": -0.4852047901622224,
+        "panel_below_clearance_m": 0.11091931173586839
+      }
+    ],
+    "upward_travel_m": 0.7922038618156523,
+    "downward_travel_m": 0.3248776119218798,
+    "height_range_m": 0.5838734693073376
+  },
+  {
+    "seed": 1166015,
+    "reason": "success",
+    "steps": 131,
+    "position_m": 0.0077879982381244515,
+    "orientation_deg": 0.6514526891167404,
+    "controller": "ppo_progress",
+    "recovery_actions": 16,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "real_step_limit": 240,
+    "ordered_alternating_passages": [],
+    "passage_count": 0,
+    "xy_radius_m": 0.24,
+    "whole_panel_vertical_margin_m": 0.01,
+    "minimum_actual_alternating_height_change_m": 0.07,
+    "nearest_xy_observations": [
+      {
+        "slot": 2,
+        "frame": 13,
+        "xy_distance_m": 0.14510466383888876,
+        "panel_z": 0.5313391347545449,
+        "box_z": 0.6483988380946258,
+        "panel_above_clearance_m": -0.3354131658899539,
+        "panel_below_clearance_m": -0.101293759209792
+      },
+      {
+        "slot": 0,
+        "frame": 23,
+        "xy_distance_m": 0.08173954183647489,
+        "panel_z": 0.8023245496507532,
+        "box_z": 1.2027602582045225,
+        "panel_above_clearance_m": -0.6260711376979833,
+        "panel_below_clearance_m": 0.17480027940955525
+      },
+      {
+        "slot": 1,
+        "frame": 105,
+        "xy_distance_m": 0.2161728649505014,
+        "panel_z": 0.5771504803343598,
+        "box_z": 0.9112265371401282,
+        "panel_above_clearance_m": -0.5308130421169133,
+        "panel_below_clearance_m": 0.13733907149462354
+      },
+      {
+        "slot": 3,
+        "frame": 114,
+        "xy_distance_m": 0.09616230025153245,
+        "panel_z": 0.5812594525618527,
+        "box_z": 1.1456456506436994,
+        "panel_above_clearance_m": -0.8345625594113587,
+        "panel_below_clearance_m": 0.29420983675233453
+      }
+    ],
+    "upward_travel_m": 0.9362589135962756,
+    "downward_travel_m": 0.6951180582655359,
+    "height_range_m": 0.5892636592957059
+  },
+  {
+    "seed": 1166000,
+    "reason": "timeout",
+    "steps": 240,
+    "position_m": 0.36669825480874174,
+    "orientation_deg": 69.22799569785538,
+    "controller": "ppo_progress",
+    "recovery_actions": 57,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "real_step_limit": 240,
+    "ordered_alternating_passages": [],
+    "passage_count": 0,
+    "xy_radius_m": 0.24,
+    "whole_panel_vertical_margin_m": 0.01,
+    "minimum_actual_alternating_height_change_m": 0.07,
+    "nearest_xy_observations": [
+      {
+        "slot": 2,
+        "frame": 155,
+        "xy_distance_m": 0.10694013314092075,
+        "panel_z": 0.34630431594819105,
+        "box_z": 0.49921964941393404,
+        "panel_above_clearance_m": -0.3712884594505263,
+        "panel_below_clearance_m": -0.06545779251904035
+      },
+      {
+        "slot": 0,
+        "frame": 166,
+        "xy_distance_m": 0.1734917339592699,
+        "panel_z": 0.4313566566688245,
+        "box_z": 1.1752347018644647,
+        "panel_above_clearance_m": -0.9853931450313882,
+        "panel_below_clearance_m": 0.502362945359892
+      },
+      {
+        "slot": 1,
+        "frame": 184,
+        "xy_distance_m": 0.31427987890262116,
+        "panel_z": 0.5369179217196858,
+        "box_z": 0.8512544891942012,
+        "panel_above_clearance_m": -0.5410049370572596,
+        "panel_below_clearance_m": 0.08766819789177133
+      },
+      {
+        "slot": 3,
+        "frame": 216,
+        "xy_distance_m": 0.05406190956936286,
+        "panel_z": 0.7931884285491948,
+        "box_z": 1.0746580270840098,
+        "panel_above_clearance_m": -0.4642870700821292,
+        "panel_below_clearance_m": 0.09865212698750084
+      }
+    ],
+    "upward_travel_m": 0.6256511732114395,
+    "downward_travel_m": 0.166857052288866,
+    "height_range_m": 0.556853740657887
+  },
+  {
+    "seed": 1166023,
+    "construction_rejection": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "seed": 1166024,
+    "construction_rejection": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "seed": 1166013,
+    "reason": "timeout",
+    "steps": 240,
+    "position_m": 0.08882170168441879,
+    "orientation_deg": 14.935551226478323,
+    "controller": "ppo_progress",
+    "recovery_actions": 95,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "real_step_limit": 240,
+    "ordered_alternating_passages": [],
+    "passage_count": 0,
+    "xy_radius_m": 0.24,
+    "whole_panel_vertical_margin_m": 0.01,
+    "minimum_actual_alternating_height_change_m": 0.07,
+    "nearest_xy_observations": [
+      {
+        "slot": 2,
+        "frame": 43,
+        "xy_distance_m": 0.12102605243007257,
+        "panel_z": 0.4798497317832088,
+        "box_z": 0.5850285410005873,
+        "panel_above_clearance_m": -0.32116563205111776,
+        "panel_below_clearance_m": -0.11080801361636064
+      },
+      {
+        "slot": 0,
+        "frame": 55,
+        "xy_distance_m": 0.11951433095020024,
+        "panel_z": 0.7052447964368794,
+        "box_z": 1.050290258210807,
+        "panel_above_clearance_m": -0.5773769414190284,
+        "panel_below_clearance_m": 0.11271398212882658
+      },
+      {
+        "slot": 1,
+        "frame": 92,
+        "xy_distance_m": 0.21662250198202454,
+        "panel_z": 0.9116553717340526,
+        "box_z": 0.8976872545469519,
+        "panel_above_clearance_m": -0.18024403074405265,
+        "panel_below_clearance_m": -0.2081802651182543
+      },
+      {
+        "slot": 3,
+        "frame": 186,
+        "xy_distance_m": 0.0879790326424413,
+        "panel_z": 0.6837951968939606,
+        "box_z": 1.0741709698420312,
+        "panel_above_clearance_m": -0.6225491947699643,
+        "panel_below_clearance_m": 0.15820235112617687
+      }
+    ],
+    "upward_travel_m": 0.8993558666199994,
+    "downward_travel_m": 0.6576797395098088,
+    "height_range_m": 0.8993161729860522
+  },
+  {
+    "seed": 1166026,
+    "reason": "success",
+    "steps": 239,
+    "position_m": 0.001167060353012071,
+    "orientation_deg": 0.09415794542244889,
+    "controller": "ppo_progress",
+    "recovery_actions": 76,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "real_step_limit": 240,
+    "ordered_alternating_passages": [
+      {
+        "slot": 0,
+        "frame": 165,
+        "time_s": 8.249999999999853,
+        "side": "below",
+        "panel_z": 1.0292431115470946,
+        "box_z": 1.3144745658276953,
+        "xy_distance_m": 0.20927404771945565,
+        "vertical_clearance_m": 0.1009735676105194
+      },
+      {
+        "slot": 1,
+        "frame": 186,
+        "time_s": 9.299999999999793,
+        "side": "above",
+        "panel_z": 1.1607282109283599,
+        "box_z": 0.9085205978273206,
+        "xy_distance_m": 0.23781863103190343,
+        "vertical_clearance_m": 0.07817725467582898
+      },
+      {
+        "slot": 3,
+        "frame": 227,
+        "time_s": 11.349999999999676,
+        "side": "below",
+        "panel_z": 0.5877570539835533,
+        "box_z": 1.1599483381620035,
+        "xy_distance_m": 0.2348433944082065,
+        "vertical_clearance_m": 0.3225313282569262
+      }
+    ],
+    "passage_count": 3,
+    "xy_radius_m": 0.24,
+    "whole_panel_vertical_margin_m": 0.01,
+    "minimum_actual_alternating_height_change_m": 0.07,
+    "nearest_xy_observations": [
+      {
+        "slot": 2,
+        "frame": 159,
+        "xy_distance_m": 0.026148850696495314,
+        "panel_z": 0.8161041037817788,
+        "box_z": 0.47940635046885843,
+        "panel_above_clearance_m": 0.1398346663549781,
+        "panel_below_clearance_m": -0.5335608402708626
+      },
+      {
+        "slot": 0,
+        "frame": 169,
+        "xy_distance_m": 0.007994349454846417,
+        "panel_z": 1.1113992367212426,
+        "box_z": 1.3161426017713957,
+        "panel_above_clearance_m": -0.37908318343732067,
+        "panel_below_clearance_m": 0.03040354666298542
+      },
+      {
+        "slot": 1,
+        "frame": 191,
+        "xy_distance_m": 0.13640825497376854,
+        "panel_z": 1.2110233880915635,
+        "box_z": 0.9220127062306587,
+        "panel_above_clearance_m": 0.1267529117420763,
+        "panel_below_clearance_m": -0.45126845197973353
+      },
+      {
+        "slot": 3,
+        "frame": 237,
+        "xy_distance_m": 0.14382242728269828,
+        "panel_z": 0.5583781653231621,
+        "box_z": 1.1835099593283274,
+        "panel_above_clearance_m": -0.8709296643310207,
+        "panel_below_clearance_m": 0.37933392367930974
+      }
+    ],
+    "upward_travel_m": 0.9748146733505316,
+    "downward_travel_m": 0.7639589133540772,
+    "height_range_m": 0.9201394010925574
+  }
+]

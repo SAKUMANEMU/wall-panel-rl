@@ -1,0 +1,20 @@
+{
+  "seed": 1166026,
+  "controller": "rrt",
+  "reason": "success",
+  "steps": 73,
+  "position_m": 0.0005109308884520315,
+  "orientation_deg": 0.042899826463625154,
+  "reward": 302.7456606851726,
+  "zero_command_steps": 0,
+  "stationary_steps": 0,
+  "wall_seconds": 9.506872578000184,
+  "physics_elapsed_s": 3.6500000000000763,
+  "weights_changed": false,
+  "uses_global_rrt": true,
+  "reference_preserved": true,
+  "local_rescues": 0,
+  "recovery_actions": 0,
+  "passage_count": 0,
+  "success_with_weaving": false
+}

@@ -1,0 +1,11 @@
+{
+  "model": "selected_model.zip",
+  "controller": "ppo",
+  "seed": 1040000,
+  "task": "dynamic",
+  "reason": "success",
+  "steps": 73,
+  "position_m": 0.00341027266594295,
+  "orientation_deg": 0.2044387545633817,
+  "training_performed": false
+}

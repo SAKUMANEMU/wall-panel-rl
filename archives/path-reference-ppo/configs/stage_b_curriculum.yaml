@@ -1,0 +1,3 @@
+extends: stage_b.yaml
+robot:
+  near_start_probability: 0.25

@@ -1,0 +1,20 @@
+{
+  "variant": "same_data_10k",
+  "selected_update": 10000,
+  "passed_bc_gate": false,
+  "source_checkpoint": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/models/bc_budget_v3_seed61/same_data_10k/bc/model.zip",
+  "export": "/home/johnsonchen/wall-panel-rl/results/diagnostics/bc_budget_v3_seed61/best_bc_model.zip",
+  "sha256": "2bab0363d89c2bc04eca2c679ef4265120c36bcc9492b4cb9b8787b6b307602f",
+  "metrics": {
+    "episodes": 20,
+    "success": 10,
+    "collision": 9,
+    "joint_limit": 0,
+    "timeout": 1,
+    "timeout_mean_position_m": 1.5109055477582276,
+    "timeout_mean_orientation_deg": 179.75452946702484,
+    "successful_mean_steps": 53.1,
+    "mean_reward": 166.16098874995296
+  },
+  "definition": "ReferencePreservingPolicy in .worktrees/path-reference-ppo; no new PPO training"
+}

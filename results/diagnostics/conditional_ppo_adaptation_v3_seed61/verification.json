@@ -1,0 +1,22 @@
+{
+  "source_file_unchanged": true,
+  "inputs_unchanged": true,
+  "training_code_unchanged": true,
+  "selected_file_matches_export": true,
+  "selected_tensors_equal_source": true,
+  "final_tensors_updated": true,
+  "frozen_parameter_count": 6,
+  "frozen_parameters_unchanged": true,
+  "stored_ppo_counters": {
+    "initial": 25000,
+    "selected": 25000,
+    "final": 35000
+  },
+  "regression_per_episode_identical": {
+    "previous_100": true,
+    "recent_100": true,
+    "latest_100": true
+  },
+  "selected_model_requires_conditional_controller": true,
+  "automatic_stage_advance": false
+}

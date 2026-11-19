@@ -1,0 +1,22 @@
+{
+  "pid": 6401,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "/home/johnsonchen/wall-panel-rl/experiments/dynamic_adaptation_v21/scripts/run_adaptation.py",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/dynamic_adaptation_v21_seed20261112",
+    "--train-scenes",
+    "100",
+    "--validation-scenes",
+    "16",
+    "--workers",
+    "4",
+    "--steps",
+    "32768",
+    "--checkpoint-every",
+    "8192"
+  ],
+  "cwd": "/home/johnsonchen/wall-panel-rl/experiments/dynamic_adaptation_v21",
+  "log": "/home/johnsonchen/wall-panel-rl/results/diagnostics/dynamic_adaptation_v21_seed20261112.log",
+  "output": "/home/johnsonchen/wall-panel-rl/results/diagnostics/dynamic_adaptation_v21_seed20261112"
+}

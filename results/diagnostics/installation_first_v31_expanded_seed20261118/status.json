@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "pid": 4284,
+  "started_at": "2026-11-19T01:16:05.765677+08:00",
+  "phase": "complete",
+  "updated_at": "2026-11-19T02:59:47.687665+08:00",
+  "generation_completed": 80,
+  "generation_planned": 80,
+  "evaluation_completed": 160,
+  "evaluation_planned": 160,
+  "metrics": {
+    "v31_selected": {
+      "episodes": 80,
+      "success": 35,
+      "collision": 8,
+      "timeout": 37,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.4375,
+      "success_wilson95": [
+        0.33413860916143806,
+        0.5465886570305026
+      ]
+    },
+    "v29_baseline": {
+      "episodes": 80,
+      "success": 29,
+      "collision": 8,
+      "timeout": 43,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.3625,
+      "success_wilson95": [
+        0.2657079306444915,
+        0.4718920549777783
+      ]
+    }
+  },
+  "training_performed": false
+}

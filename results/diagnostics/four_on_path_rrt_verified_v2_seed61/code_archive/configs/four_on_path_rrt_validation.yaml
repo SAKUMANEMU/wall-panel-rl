@@ -1,0 +1,6 @@
+source_report: results/diagnostics/four_static_on_path_v1_seed61
+cases: data/four_static_on_path_v1_seed61/cases.json
+report_root: results/diagnostics/four_on_path_rrt_validation_v1_seed61
+primary_planner_seed_offset: 100000
+retry_planner_seed_offsets: [200000, 300000]
+training_steps: 0

@@ -1,0 +1,10 @@
+{
+  "updates": 2000,
+  "transitions": 6843,
+  "successful_scenes": 100,
+  "initial_loss": 0.012188494857400655,
+  "final_loss": 0.009094827556982637,
+  "prior_critic_std_frozen": true,
+  "ppo_steps_added": 0,
+  "new_ppo_optimizer": true
+}

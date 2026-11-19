@@ -1,0 +1,77 @@
+{
+  "selected_directory": "/home/johnsonchen/wall-panel-rl/results/diagnostics/on_path_weaving_v25_seed1231415/timed_crossing_demo",
+  "demo_file": "/home/johnsonchen/wall-panel-rl/experiments/timeout_recovery_v24/demo/on_path_weaving_v25.json",
+  "reason": "Successful physical execution with three measured alternating vertical passages and a real timed conflict on the old trajectory",
+  "result": {
+    "seed": 1231415,
+    "controller": "enhanced",
+    "reason": "success",
+    "steps": 77,
+    "position_m": 0.0003320160717820779,
+    "orientation_deg": 0.024417858980552244,
+    "reward": 308.28093871056626,
+    "zero_command_steps": 6,
+    "stationary_steps": 6,
+    "wall_seconds": 36.64138212199987,
+    "physics_elapsed_s": 3.8500000000000862,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "reference_preserved": true,
+    "local_rescues": 1,
+    "recovery_actions": 24,
+    "recovery_events": [
+      {
+        "step": 48,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 1.0985941625360003,
+        "accepted": true,
+        "mode": "goal",
+        "parameter": 0.7,
+        "predicted_end_cost": 0.00909329241120453,
+        "predicted_gain": 1.0895008701247957,
+        "plan_steps": 28
+      }
+    ],
+    "no_safe_action_calls": 0,
+    "prediction_steps": 10227,
+    "passage_count": 3,
+    "success_with_weaving": true
+  },
+  "geometry": {
+    "all_four_physical_anchors_intersect_guide": true,
+    "timed_intersection_count": 1,
+    "obstacles": [
+      {
+        "slot": 0,
+        "anchor_intersects_panel": true,
+        "anchor_intersects_arm": false,
+        "timed_guide_intersection": {
+          "frame": 30,
+          "time_s": 1.499999999999996,
+          "minimum_contact_distance_m": -0.005523451045964397
+        }
+      },
+      {
+        "slot": 1,
+        "anchor_intersects_panel": false,
+        "anchor_intersects_arm": true,
+        "timed_guide_intersection": null
+      },
+      {
+        "slot": 2,
+        "anchor_intersects_panel": true,
+        "anchor_intersects_arm": false,
+        "timed_guide_intersection": null
+      },
+      {
+        "slot": 3,
+        "anchor_intersects_panel": true,
+        "anchor_intersects_arm": true,
+        "timed_guide_intersection": null
+      }
+    ],
+    "physics_steps_during_audit": 0
+  },
+  "independent_success_rate_benchmark": false,
+  "training_performed": false
+}

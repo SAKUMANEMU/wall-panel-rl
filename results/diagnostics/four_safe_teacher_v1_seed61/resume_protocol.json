@@ -1,0 +1,28 @@
+{
+  "resumed_at": "2026-11-04T13:35:28.681290+08:00",
+  "completed_layouts": 52,
+  "preserved_episodes": 52,
+  "preserved_transitions": 3222,
+  "partial_teacher_sha256": "f6e1f9be1bb6e436f4b50ba6fa91ad12f586ded0dc360da30381f5abe355973b",
+  "partial_attempts_sha256": "7404d2304dbc2b85b1d6ce686958493095c0aafa2ac8de5a25a3730d1a65e394",
+  "original_protocol_sha256": "bf23b355cbbee752edba1038f8df334db8676ddaa51d1dd34f1d4d76a17aef9e",
+  "remaining_train_seeds": [
+    1020054,
+    1020055,
+    1020056,
+    1020057,
+    1020058,
+    1020059,
+    1020060,
+    1020061,
+    1020062,
+    1020063,
+    1020064,
+    1020065
+  ],
+  "code_hashes": {
+    "scripts/resume_four_safe_teacher.py": "faeb756644142e2c77b6a3c6984fe8f7816098b34b6daea3898e896d84d0e2ae"
+  },
+  "same_configuration_and_seed_rule": true,
+  "training_steps": 0
+}

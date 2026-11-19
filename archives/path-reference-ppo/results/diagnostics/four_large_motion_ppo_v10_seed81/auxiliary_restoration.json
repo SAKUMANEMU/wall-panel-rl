@@ -1,0 +1,12 @@
+{
+  "restored": true,
+  "source_state": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/models/four_dynamic_speed_v9_fast02_seed71/auxiliary_bc/final_aux_state.pt",
+  "source_state_sha256": "bc6078f25f9326924c456227a9afc1a8f4253a8a8f25fe6868108f3c2cf4f208",
+  "ppo_counter": 64000,
+  "pool_size": 4267,
+  "accepted_updates": 4,
+  "rejected_updates": 0,
+  "optimizer_sha256": "af11d2c3a04ef3c897a16242207203092c3de9d1a7685f407af56c1394bcfbf5",
+  "rng_sha256": "1ef60759742f79d23c6e92ee788db8134d193ce43ed9142983a393a05d4d5341",
+  "weights_unchanged_by_restoration": true
+}

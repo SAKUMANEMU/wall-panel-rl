@@ -1,0 +1,10 @@
+# Count-only change using the retained, untrained multi-obstacle adapter.
+source_report: results/diagnostics/consistent_two_static_v4_seed61
+initial_model: models/consistent_two_static_v4_seed61/initialized_model.zip
+full_scene_bank: data/consistent_two_static_v4_seed61/test_full.json
+data_root: data/four_static_initial_v1_seed61
+report_root: results/diagnostics/four_static_initial_v1_seed61
+obstacle_count: 4
+mode: static
+seed: 61
+training_steps: 0

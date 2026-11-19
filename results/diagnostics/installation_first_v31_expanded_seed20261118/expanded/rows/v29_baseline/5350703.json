@@ -1,0 +1,152 @@
+{
+  "seed": 5350703,
+  "controller": "enhanced",
+  "reason": "timeout",
+  "steps": 240,
+  "position_m": 1.5538017767665093,
+  "orientation_deg": 179.73965944029663,
+  "reward": -0.3249163380940142,
+  "zero_command_steps": 101,
+  "stationary_steps": 101,
+  "wall_seconds": 352.2338018249993,
+  "physics_elapsed_s": 11.99999999999964,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 2,
+  "recovery_actions": 58,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.1467913934565477,
+      "accepted": true,
+      "mode": "bias",
+      "parameter": [
+        0,
+        -0.4
+      ],
+      "predicted_end_cost": 1.7809103625018097,
+      "predicted_gain": 0.365881030954738,
+      "plan_steps": 60
+    },
+    {
+      "step": 98,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.898835686642895,
+      "accepted": false
+    },
+    {
+      "step": 110,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.8926820800559634,
+      "accepted": false
+    },
+    {
+      "step": 122,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.8926819885014714,
+      "accepted": false
+    },
+    {
+      "step": 134,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.8926819093411253,
+      "accepted": false
+    },
+    {
+      "step": 146,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.8926818301809396,
+      "accepted": false
+    },
+    {
+      "step": 158,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.8926817510209166,
+      "accepted": false
+    },
+    {
+      "step": 170,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.8926816718610542,
+      "accepted": false
+    },
+    {
+      "step": 182,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9302476392040875,
+      "accepted": false
+    },
+    {
+      "step": 194,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9302476392040875,
+      "accepted": false
+    },
+    {
+      "step": 206,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9302476392040875,
+      "accepted": false
+    },
+    {
+      "step": 218,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9302476392040875,
+      "accepted": false
+    },
+    {
+      "step": 230,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9302476392040875,
+      "accepted": false,
+      "mode": "persistent",
+      "parameter": [
+        [
+          1,
+          3
+        ],
+        [
+          -0.28,
+          -0.28
+        ]
+      ],
+      "predicted_end_cost": 1.8094081208312431,
+      "predicted_gain": 0.12083951837284435,
+      "plan_steps": 10
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 55053,
+  "vertical_plan_events": [],
+  "installation_events": [],
+  "passage_count": 0,
+  "success_with_weaving": false,
+  "arm": "v29_baseline",
+  "obstacle_count": 5,
+  "model_key": "v29",
+  "controller_key": "old",
+  "case_sha256": "e4ca705e6ab0d549ad117484459eafd85040469c109946819de98d8fdb232da4",
+  "max_obstacle_speed_m_s": 0.18067377951055502,
+  "model_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+  "runtime_sha256": "07f9ed1f2e60a65dc5b97b3459ce5b8e59c29c75e6b529a3f75a7ec171cee5f6",
+  "timeout_diagnosis": {
+    "primary": "waiting",
+    "flags": {
+      "waiting": true,
+      "stale_reference": true,
+      "terminal_precision": false
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.75,
+    "zero_command_fraction": 0.7560975609756098,
+    "reference_telemetry_available": true,
+    "reference_index_start": 1,
+    "reference_index_end": 1,
+    "final_reference_distance_rad": 2.160966321974395,
+    "final_position_m": 1.5538017767665093,
+    "final_orientation_deg": 179.73965944029663,
+    "reference_state_inferred": false
+  }
+}

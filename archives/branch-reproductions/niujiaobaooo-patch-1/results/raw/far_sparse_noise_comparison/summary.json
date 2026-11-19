@@ -1,0 +1,18 @@
+{
+  "clean": {
+    "episodes": 20,
+    "successes": 20,
+    "collisions": 0,
+    "planning_failures": 0,
+    "mean_final_position_error_m": 0.0035716561404776407,
+    "mean_final_orientation_error_deg": 0.07760396106941828
+  },
+  "noise": {
+    "episodes": 20,
+    "successes": 12,
+    "collisions": 0,
+    "planning_failures": 0,
+    "mean_final_position_error_m": 0.01043032223815068,
+    "mean_final_orientation_error_deg": 0.8910647914623286
+  }
+}

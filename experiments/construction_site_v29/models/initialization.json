@@ -1,0 +1,6 @@
+{
+  "source": "/home/johnsonchen/wall-panel-rl/results/diagnostics/known_route_speed_v28_seed20261116/training/models/selected_model.zip",
+  "source_sha256": "24f47248e81db8ed1839e8c33967c6c7b5f1e0968a02811b08d70fe07710e856",
+  "policy_observations": 167,
+  "new_training_started": false
+}

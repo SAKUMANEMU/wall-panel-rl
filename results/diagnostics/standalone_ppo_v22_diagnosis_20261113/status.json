@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "pid": 6531,
+  "started_at": "2026-11-13T13:38:04.739055+08:00",
+  "phase": "diagnosis_report_complete",
+  "updated_at": "2026-11-13T13:39:23.245551+08:00",
+  "batch_completed": 32,
+  "batch_total": 32,
+  "training_performed": false
+}

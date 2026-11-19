@@ -1,0 +1,67 @@
+{
+  "two_static": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "stage_target": {
+      "episodes": 100,
+      "success": 87,
+      "collision": 6,
+      "timeout": 7,
+      "joint_limit": 0,
+      "planning_failure": 0
+    }
+  },
+  "four_static": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "stage_target": {
+      "episodes": 100,
+      "success": 82,
+      "collision": 11,
+      "timeout": 7,
+      "joint_limit": 0,
+      "planning_failure": 0
+    }
+  },
+  "source_sha256": "9fcf8ab4249cc7feb1d5257501bb33f47dfee5345fc66343344e15f9e8372257",
+  "model_unchanged": true,
+  "training_steps": 0,
+  "new_obstacle_inputs_ignored_by_initialization": true,
+  "active_count": 4,
+  "mode": "static",
+  "paired_scene_count": 100,
+  "original_indices": [
+    2,
+    3,
+    1,
+    4
+  ]
+}

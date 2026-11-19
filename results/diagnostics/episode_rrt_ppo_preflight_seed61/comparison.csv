@@ -1,0 +1,4 @@
+controller,episodes,success,collision,timeout,joint_limit,planning_failure,rrt_episodes,ppo_episodes
+ppo,20,17,0,3,0,0,0,20
+rrt,20,20,0,0,0,0,20,0
+mixture,20,18,0,2,0,0,8,12

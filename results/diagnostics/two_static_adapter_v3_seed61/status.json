@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-03T21:09:43.852137+08:00",
+  "runner_pid": 4842,
+  "automatic_dynamic_stage": false,
+  "default_model_preserved": true,
+  "phase": "complete",
+  "updated_at": "2026-11-03T21:24:37.588553+08:00",
+  "accepted": 100,
+  "rejected": 0,
+  "initial_two": {
+    "episodes": 20,
+    "success": 15,
+    "collision": 4,
+    "timeout": 1,
+    "joint_limit": 0
+  },
+  "layouts": 54,
+  "second_blocks_one_rrt": 29,
+  "policy_failures": 4,
+  "attempts": 36,
+  "successes": 36,
+  "bc_updates": 3000,
+  "two_validation": {
+    "episodes": 20,
+    "success": 14,
+    "collision": 6,
+    "timeout": 0,
+    "joint_limit": 0
+  },
+  "one_validation": {
+    "episodes": 20,
+    "success": 18,
+    "collision": 0,
+    "timeout": 2,
+    "joint_limit": 0
+  },
+  "sensitivity": {
+    "mean_action_change_15cm": 0.023004677146673203,
+    "max_action_change_15cm": 0.046772878617048264,
+    "adapter_mean_abs_correction": 0.05341514199972153
+  },
+  "selected_bc_update": 250,
+  "ppo_additional_steps": 10000,
+  "validation_target": {
+    "episodes": 20,
+    "success": 14,
+    "collision": 4,
+    "timeout": 2,
+    "joint_limit": 0
+  },
+  "selected_ppo_steps": 0,
+  "ppo_started": true,
+  "candidate_sha256": "2bcdb8d73d46c5cb14149dca6504567b1d6ea93c4ec4caf6625694179ce92acd",
+  "two_test": {
+    "episodes": 100,
+    "success": 76,
+    "collision": 14,
+    "timeout": 10,
+    "joint_limit": 0,
+    "planning_failure": 0
+  }
+}

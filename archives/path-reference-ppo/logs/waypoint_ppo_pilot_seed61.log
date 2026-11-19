@@ -1,0 +1,67 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "mode": "train",
+  "settings": {
+    "release": "releases/path_reference_bc_20261025",
+    "output": "models/waypoint_ppo_pilot_seed61",
+    "seed": 61,
+    "additional_timesteps": 10000,
+    "workers": 4,
+    "n_steps": 250,
+    "batch_size": 100,
+    "n_epochs": 3,
+    "learning_rate": 1e-05,
+    "clip_range": 0.05,
+    "target_kl": 0.005,
+    "action_std": 0.02,
+    "eval_every": 5000,
+    "progress_weight": 2.0,
+    "joint_margin": 0.01,
+    "train_seed_range": [
+      300000,
+      400000
+    ]
+  },
+  "source_sha256": "d65a8cfb4650fa6ec63b1fb633fcf90d8068b19f5a0556073ab26e46a0915ac2",
+  "source_steps": 0,
+  "validation_cases": 110,
+  "trainable": {
+    "tracking_gain_raw": 7,
+    "tracking_bias": 7,
+    "mlp_extractor.value_net.0.weight": 9856,
+    "mlp_extractor.value_net.0.bias": 128,
+    "mlp_extractor.value_net.2.weight": 16384,
+    "mlp_extractor.value_net.2.bias": 128,
+    "value_net.weight": 128,
+    "value_net.bias": 1
+  },
+  "action_processing": "raw Gaussian -> SB3 box clipping -> environment joint-margin projection",
+  "training_actor": "14 gain/bias coefficients; velocity/std frozen; critic enabled",
+  "validation": "shared-path ordinary/BC/PPO; post-update and final saved reload",
+  "independent_test_executed": false,
+  "optimizer_state_entries": 0,
+  "effective_ppo": {
+    "learning_rate": 1e-05,
+    "clip_range": 0.05,
+    "target_kl": 0.005,
+    "n_epochs": 3,
+    "batch_size": 100,
+    "n_steps": 250,
+    "std": [
+      0.019999999552965164,
+      0.019999999552965164,
+      0.019999999552965164,
+      0.019999999552965164,
+      0.019999999552965164,
+      0.019999999552965164,
+      0.019999999552965164
+    ]
+  }
+}
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+{"kind": "baseline", "additional_steps": 0, "total_steps": 0, "metrics": {"ordinary": {"static": {"episodes": 90, "success_rate": 0.9888888888888889, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.011111111111111112, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 60.02247191011236, "mean_reward": 420.1839725684425}, "alignment_far": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.4, "mean_reward": 404.41121285165156}, "alignment_near": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.5, "mean_reward": 174.88937546692586}}, "bc": {"static": {"episodes": 90, "success_rate": 0.9888888888888889, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.011111111111111112, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 60.02247191011236, "mean_reward": 420.1685610923609}, "alignment_far": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.4, "mean_reward": 404.56600281674366}, "alignment_near": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.5, "mean_reward": 174.8893751932938}}, "ppo": {"static": {"episodes": 90, "success_rate": 0.9888888888888889, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.011111111111111112, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 60.02247191011236, "mean_reward": 420.1685610923609}, "alignment_far": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.4, "mean_reward": 404.56600281674366}, "alignment_near": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.5, "mean_reward": 174.8893751932938}}}}
+{"kind": "post_update", "additional_steps": 5000, "total_steps": 5000, "metrics": {"ordinary": {"static": {"episodes": 90, "success_rate": 0.9888888888888889, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.011111111111111112, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 60.02247191011236, "mean_reward": 420.1839725684425}, "alignment_far": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.4, "mean_reward": 404.41121285165156}, "alignment_near": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.5, "mean_reward": 174.88937546692586}}, "bc": {"static": {"episodes": 90, "success_rate": 0.9888888888888889, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.011111111111111112, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 60.02247191011236, "mean_reward": 420.1685610923609}, "alignment_far": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.4, "mean_reward": 404.56600281674366}, "alignment_near": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.5, "mean_reward": 174.8893751932938}}, "ppo": {"static": {"episodes": 90, "success_rate": 0.9888888888888889, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.011111111111111112, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 60.01123595505618, "mean_reward": 420.16149814440223}, "alignment_far": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.3, "mean_reward": 404.5629826173852}, "alignment_near": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.5, "mean_reward": 174.88431827377792}}}}
+{"kind": "final_saved_reload", "additional_steps": 10000, "total_steps": 10000, "metrics": {"ordinary": {"static": {"episodes": 90, "success_rate": 0.9888888888888889, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.011111111111111112, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 60.02247191011236, "mean_reward": 420.1839725684425}, "alignment_far": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.4, "mean_reward": 404.41121285165156}, "alignment_near": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.5, "mean_reward": 174.88937546692586}}, "bc": {"static": {"episodes": 90, "success_rate": 0.9888888888888889, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.011111111111111112, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 60.02247191011236, "mean_reward": 420.1685610923609}, "alignment_far": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.4, "mean_reward": 404.56600281674366}, "alignment_near": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.5, "mean_reward": 174.8893751932938}}, "ppo": {"static": {"episodes": 90, "success_rate": 0.9888888888888889, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.011111111111111112, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 60.02247191011236, "mean_reward": 420.1538023048356}, "alignment_far": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.3, "mean_reward": 404.53215671266645}, "alignment_near": {"episodes": 10, "success_rate": 1.0, "collision_rate": 0.0, "timeout_rate": 0.0, "joint_limit_rate": 0.0, "planning_failure_rate": 0.0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.5, "mean_reward": 174.88703843054975}}}}

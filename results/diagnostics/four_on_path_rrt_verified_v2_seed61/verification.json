@@ -1,0 +1,9 @@
+{
+  "all_found_primary_paths_preverified": true,
+  "all_found_primary_paths_postcheck_passed": true,
+  "regression_case_bank_unchanged": true,
+  "original_initialization_reproduced": true,
+  "training_steps": 0,
+  "finite_sampling_resolution_rad": 0.005,
+  "continuous_collision_certificate": false
+}

@@ -1,0 +1,37 @@
+{
+  "pid": 6939,
+  "process_group": 6939,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "/home/johnsonchen/wall-panel-rl/experiments/slower_progress_v32/scripts/run_site_pipeline.py",
+    "--config",
+    "/home/johnsonchen/wall-panel-rl/experiments/slower_progress_v32/configs/variable_weaving.yaml",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/slower_progress_v32_seed20261119"
+  ],
+  "started_at": "2026-11-19T03:11:22.951978+08:00",
+  "output": "/home/johnsonchen/wall-panel-rl/results/diagnostics/slower_progress_v32_seed20261119",
+  "log": "/home/johnsonchen/wall-panel-rl/results/diagnostics/slower_progress_v32_seed20261119/pipeline.log",
+  "experiment": "/home/johnsonchen/wall-panel-rl/experiments/slower_progress_v32",
+  "phase_order": [
+    "generate_scenes",
+    "collect_bc_teachers",
+    "bc_warm_start",
+    "ppo_training",
+    "independent_test"
+  ],
+  "train_cases": 32,
+  "validation_cases": 16,
+  "test_cases": 40,
+  "paired_test_episodes": 80,
+  "ppo_steps_planned": 16384,
+  "bc_updates_planned": 500,
+  "workers": 4,
+  "regression_tests_passed": 53,
+  "physical_ppo_interface_steps": 64,
+  "speed_range_m_s": [
+    0.04,
+    0.18
+  ]
+}

@@ -1,0 +1,10 @@
+variant,additional,episodes,success,collision,timeout,joint_limit,gate_passed
+bc_low_lr,0,20,13,2,5,0,True
+bc_low_lr,2000,20,6,14,0,0,False
+bc_low_lr,4000,20,7,13,0,0,False
+bc_low_lr,6000,20,12,8,0,0,False
+bc_low_lr,8000,20,4,16,0,0,False
+bc_low_lr,10000,20,1,19,0,0,False
+ppo_stall,0,20,13,2,5,0,True
+ppo_stall,5000,20,13,2,5,0,True
+ppo_stall,10000,20,14,3,3,0,True

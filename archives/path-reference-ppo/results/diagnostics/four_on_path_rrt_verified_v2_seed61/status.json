@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-04T01:23:55.845785+08:00",
+  "training_steps": 0,
+  "scenes": 99,
+  "phase": "complete",
+  "updated_at": "2026-11-04T01:40:56.144193+08:00",
+  "completed": 99,
+  "metrics": {
+    "episodes": 99,
+    "success": 99,
+    "collision": 0,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "plans_found": 99,
+  "failed_primary_scenes": 0,
+  "completed_retry_trials": 0,
+  "rrt_primary": {
+    "episodes": 99,
+    "success": 99,
+    "collision": 0,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "feasible_by_execution": 99
+}

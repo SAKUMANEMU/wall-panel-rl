@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "additional_ppo_steps": 8192,
+  "finite_parameters": true,
+  "optimizer_updated": true,
+  "frozen_tracking_prior_unchanged": true,
+  "training_counts": {
+    "2": {
+      "success": 0,
+      "collision": 18,
+      "timeout": 1,
+      "joint_limit": 0
+    },
+    "3": {
+      "success": 0,
+      "collision": 12,
+      "timeout": 4,
+      "joint_limit": 0
+    },
+    "4": {
+      "success": 0,
+      "collision": 16,
+      "timeout": 4,
+      "joint_limit": 0
+    },
+    "5": {
+      "success": 0,
+      "collision": 18,
+      "timeout": 6,
+      "joint_limit": 0
+    }
+  },
+  "convergence_claim": false
+}

@@ -1,0 +1,197 @@
+{
+  "selected_label": "ppo_32768",
+  "validation": {
+    "all": {
+      "episodes": 16,
+      "success": 1,
+      "collision": 10,
+      "timeout": 5,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.0625,
+      "mean_passage_count": 0.125,
+      "success_with_weaving": 0,
+      "mean_task_error": 1.5679392313342184
+    },
+    "by_count": {
+      "2": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 2,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.5,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.877914117767843
+      },
+      "3": {
+        "episodes": 4,
+        "success": 1,
+        "collision": 3,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.25,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.0404924289491264
+      },
+      "4": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 4,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.950743986263548
+      },
+      "5": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 1,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.402606392356357
+      }
+    }
+  },
+  "independent_test_ppo": {
+    "all": {
+      "episodes": 16,
+      "success": 0,
+      "collision": 12,
+      "timeout": 4,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.0,
+      "mean_passage_count": 0.125,
+      "success_with_weaving": 0,
+      "mean_task_error": 1.5342380201673032
+    },
+    "by_count": {
+      "2": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 3,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.5,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.865683349093917
+      },
+      "3": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 3,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.3216186839474602
+      },
+      "4": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 3,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.6136194474883068
+      },
+      "5": {
+        "episodes": 4,
+        "success": 0,
+        "collision": 3,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.3360306001395283
+      }
+    }
+  },
+  "independent_test_enhanced": {
+    "all": {
+      "episodes": 16,
+      "success": 15,
+      "collision": 0,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.9375,
+      "mean_passage_count": 0.625,
+      "success_with_weaving": 3,
+      "mean_task_error": 0.011694952533010197
+    },
+    "by_count": {
+      "2": {
+        "episodes": 4,
+        "success": 4,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 1.0,
+        "mean_passage_count": 1.5,
+        "success_with_weaving": 3,
+        "mean_task_error": 0.005299769056205304
+      },
+      "3": {
+        "episodes": 4,
+        "success": 4,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 1.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.004428256394563746
+      },
+      "4": {
+        "episodes": 4,
+        "success": 3,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 1.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.034600048419625676
+      },
+      "5": {
+        "episodes": 4,
+        "success": 4,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 1.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.002451736261646059
+      }
+    }
+  },
+  "training_performed": true,
+  "source_model_unchanged": true
+}

@@ -1,0 +1,9 @@
+{
+  "guide": "/home/johnsonchen/wall-panel-rl/results/diagnostics/timeout_recovery_v24_seed20261113/recordings/expanded_test_selected/1231415.json",
+  "guide_sha256": "e76a8b6a5d7ea1e7f653cb60846ecd3215c68210edce4aa3dbe452da02f3ad52",
+  "model": "/home/johnsonchen/wall-panel-rl/experiments/timeout_recovery_v24/models/current_ppo.zip",
+  "model_sha256": "9dde7d9e800bd70afa2f8ac98357abed2ad8778b579f7823c187937040ae76b1",
+  "training_performed": false,
+  "demonstration_layout_study": true,
+  "independent_success_rate_benchmark": false
+}

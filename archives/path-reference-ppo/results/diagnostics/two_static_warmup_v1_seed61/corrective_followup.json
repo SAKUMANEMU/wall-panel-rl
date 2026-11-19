@@ -1,0 +1,5 @@
+{
+  "corrective_report": "results/diagnostics/protected_two_static_v2_seed61",
+  "reason": "Previously inactive obstacle input initialization; preserve original one-static actor",
+  "first_trial_models_and_metrics_preserved": true
+}

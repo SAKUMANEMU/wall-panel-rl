@@ -1,0 +1,16 @@
+{
+  "pid": 4964,
+  "cwd": "/home/johnsonchen/wall-panel-rl/experiments/known_route_speed_v28",
+  "script": "/home/johnsonchen/wall-panel-rl/results/diagnostics/known_route_speed_v28_seed20261116/training_pipeline.py",
+  "output": "/home/johnsonchen/wall-panel-rl/results/diagnostics/known_route_speed_v28_seed20261116",
+  "started_at": "2026-11-16T13:25:31.013689+08:00",
+  "observations": 167,
+  "actions": 7,
+  "speed_range_m_s": [
+    0.03,
+    0.18
+  ],
+  "speed_changes": "once per obstacle per episode",
+  "formal_evaluation": "enhanced_only",
+  "planned_ppo_steps": 65536
+}

@@ -1,0 +1,586 @@
+[
+  {
+    "ppo_steps": 0,
+    "curriculum_level": 0,
+    "curriculum_speed": 0.05,
+    "curriculum_amplitude": 0.1,
+    "target": {
+      "episodes": 64,
+      "success": 54,
+      "collision": 10,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": {
+      "episodes": 64,
+      "success": 52,
+      "collision": 11,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "legacy_static": {
+      "episodes": 64,
+      "success": 57,
+      "collision": 7,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 6,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 1
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 1
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 34,
+        "collision": 6,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      54,
+      -10,
+      0
+    ],
+    "all_metrics": {
+      "dynamic_0.050": {
+        "episodes": 64,
+        "success": 56,
+        "collision": 8,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.075": {
+        "episodes": 64,
+        "success": 55,
+        "collision": 9,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 54,
+        "collision": 10,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "static_frozen": {
+        "episodes": 64,
+        "success": 52,
+        "collision": 11,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "legacy_static": {
+        "episodes": 64,
+        "success": 57,
+        "collision": 7,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "next_curriculum_level": 0
+  },
+  {
+    "ppo_steps": 1000,
+    "curriculum_level": 0,
+    "curriculum_speed": 0.05,
+    "curriculum_amplitude": 0.1,
+    "target": {
+      "episodes": 64,
+      "success": 54,
+      "collision": 10,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": {
+      "episodes": 64,
+      "success": 52,
+      "collision": 11,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "legacy_static": {
+      "episodes": 64,
+      "success": 57,
+      "collision": 7,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 6,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 1
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 1
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 34,
+        "collision": 6,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      54,
+      -10,
+      0
+    ],
+    "all_metrics": {
+      "dynamic_0.050": {
+        "episodes": 64,
+        "success": 56,
+        "collision": 8,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 54,
+        "collision": 10,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "static_frozen": {
+        "episodes": 64,
+        "success": 52,
+        "collision": 11,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "legacy_static": {
+        "episodes": 64,
+        "success": 57,
+        "collision": 7,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "advance_gate": {
+      "passed": true,
+      "checks": {
+        "current": true,
+        "static": true,
+        "target": true,
+        "legacy_static": true
+      }
+    },
+    "next_curriculum_level": 1
+  },
+  {
+    "ppo_steps": 2000,
+    "curriculum_level": 1,
+    "curriculum_speed": 0.075,
+    "curriculum_amplitude": 0.125,
+    "target": {
+      "episodes": 64,
+      "success": 55,
+      "collision": 9,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": {
+      "episodes": 64,
+      "success": 53,
+      "collision": 10,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "legacy_static": {
+      "episodes": 64,
+      "success": 57,
+      "collision": 7,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 6,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 1
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 1
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 34,
+        "collision": 6,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      55,
+      -9,
+      0
+    ],
+    "all_metrics": {
+      "dynamic_0.075": {
+        "episodes": 64,
+        "success": 56,
+        "collision": 8,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 55,
+        "collision": 9,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "static_frozen": {
+        "episodes": 64,
+        "success": 53,
+        "collision": 10,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "legacy_static": {
+        "episodes": 64,
+        "success": 57,
+        "collision": 7,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "advance_gate": {
+      "passed": true,
+      "checks": {
+        "current": true,
+        "static": true,
+        "target": true,
+        "legacy_static": true
+      }
+    },
+    "next_curriculum_level": 2
+  },
+  {
+    "ppo_steps": 3000,
+    "curriculum_level": 2,
+    "curriculum_speed": 0.1,
+    "curriculum_amplitude": 0.15,
+    "target": {
+      "episodes": 64,
+      "success": 55,
+      "collision": 9,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": {
+      "episodes": 64,
+      "success": 53,
+      "collision": 10,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "legacy_static": {
+      "episodes": 64,
+      "success": 57,
+      "collision": 7,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 6,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 1
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 1
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 34,
+        "collision": 6,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      55,
+      -9,
+      0
+    ],
+    "all_metrics": {
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 55,
+        "collision": 9,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "static_frozen": {
+        "episodes": 64,
+        "success": 53,
+        "collision": 10,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "legacy_static": {
+        "episodes": 64,
+        "success": 57,
+        "collision": 7,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "next_curriculum_level": 2
+  },
+  {
+    "ppo_steps": 4000,
+    "curriculum_level": 2,
+    "curriculum_speed": 0.1,
+    "curriculum_amplitude": 0.15,
+    "target": {
+      "episodes": 64,
+      "success": 55,
+      "collision": 9,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": {
+      "episodes": 64,
+      "success": 53,
+      "collision": 10,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "legacy_static": {
+      "episodes": 64,
+      "success": 57,
+      "collision": 7,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 6,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 1
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 1
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 34,
+        "collision": 6,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      55,
+      -9,
+      0
+    ],
+    "all_metrics": {
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 55,
+        "collision": 9,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "static_frozen": {
+        "episodes": 64,
+        "success": 53,
+        "collision": 10,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "legacy_static": {
+        "episodes": 64,
+        "success": 57,
+        "collision": 7,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "next_curriculum_level": 2
+  },
+  {
+    "ppo_steps": 5000,
+    "curriculum_level": 2,
+    "curriculum_speed": 0.1,
+    "curriculum_amplitude": 0.15,
+    "target": {
+      "episodes": 64,
+      "success": 55,
+      "collision": 9,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": {
+      "episodes": 64,
+      "success": 53,
+      "collision": 10,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "legacy_static": {
+      "episodes": 64,
+      "success": 57,
+      "collision": 7,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 6,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 1
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 22,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 1
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 34,
+        "collision": 6,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      55,
+      -9,
+      0
+    ],
+    "all_metrics": {
+      "dynamic_0.100": {
+        "episodes": 64,
+        "success": 55,
+        "collision": 9,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "static_frozen": {
+        "episodes": 64,
+        "success": 53,
+        "collision": 10,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "legacy_static": {
+        "episodes": 64,
+        "success": 57,
+        "collision": 7,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "next_curriculum_level": 2
+  }
+]

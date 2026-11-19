@@ -1,0 +1,20 @@
+{
+  "steps": 1000000,
+  "elapsed_seconds": 2326.0903322696686,
+  "seed": 42,
+  "phases": [
+    [
+      "alignment",
+      200000
+    ],
+    [
+      "static",
+      200000
+    ],
+    [
+      "dynamic",
+      600000
+    ]
+  ],
+  "pilot": false
+}

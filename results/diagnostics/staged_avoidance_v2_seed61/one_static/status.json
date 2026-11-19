@@ -1,0 +1,17 @@
+{
+  "stage": "one_static",
+  "started_at": "2026-10-27T12:45:27.020762+08:00",
+  "runner_pid": 4260,
+  "ppo_budget": 10000,
+  "automatic_stage_advance": false,
+  "completed_phases": [
+    "prepare",
+    "teacher",
+    "bc",
+    "ppo"
+  ],
+  "status": "completed",
+  "phase": "ppo",
+  "phase_started_at": "2026-10-27T12:50:15.702712+08:00",
+  "finished_at": "2026-10-27T12:51:18.656136+08:00"
+}

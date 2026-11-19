@@ -1,0 +1,32 @@
+{
+  "selected": "ppo_24576",
+  "model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/dynamic_adaptation_v21_seed20261112/models/ppo_24576.zip",
+  "metrics": {
+    "ppo": {
+      "episodes": 16,
+      "success": 9,
+      "collision": 5,
+      "timeout": 2,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.5625,
+      "mean_waiting_fraction": 0.0,
+      "mean_stationary_fraction": 0.0,
+      "timeout_mean_position_m": 0.25474381637389504,
+      "timeout_mean_orientation_deg": 18.950978022802786
+    },
+    "enhanced": {
+      "episodes": 16,
+      "success": 16,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 1.0,
+      "mean_waiting_fraction": 0.02062807881773399,
+      "mean_stationary_fraction": 0.02062807881773399,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null
+    }
+  }
+}

@@ -1,0 +1,7 @@
+group,variant,episodes,success,collision,timeout,joint_limit
+validation,baseline,20,16,2,2,0
+validation,conditional,20,18,2,0,0
+combined_200,baseline,200,182,10,8,0
+combined_200,conditional,200,188,10,2,0
+fresh_test,baseline,100,93,4,3,0
+fresh_test,conditional,100,94,4,2,0

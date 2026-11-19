@@ -1,0 +1,31 @@
+{
+  "status": "failed",
+  "started_at": "2026-11-03T21:40:39.196651+08:00",
+  "runner_pid": 6127,
+  "default_model_preserved": true,
+  "automatic_dynamic_stage": false,
+  "phase": "failed",
+  "updated_at": "2026-11-03T21:55:37.603791+08:00",
+  "accepted": 100,
+  "rejected": 0,
+  "initial_new_validation": {
+    "episodes": 64,
+    "success": 58,
+    "collision": 3,
+    "timeout": 3,
+    "joint_limit": 0
+  },
+  "initial_legacy_validation": {
+    "episodes": 20,
+    "success": 15,
+    "collision": 4,
+    "timeout": 1,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "audited_layouts": 80,
+  "canonical_successes": 80,
+  "failing_layouts": 16,
+  "route_conflict_layouts": 74,
+  "error": "ValueError('Unsafe canonical edge')"
+}

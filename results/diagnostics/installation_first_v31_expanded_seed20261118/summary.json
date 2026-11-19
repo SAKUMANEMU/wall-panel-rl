@@ -1,0 +1,237 @@
+{
+  "complete": true,
+  "fresh_scenes": 80,
+  "paired_episodes": 160,
+  "training_performed": false,
+  "model_weights_unchanged": true,
+  "metrics": {
+    "v31_selected": {
+      "all": {
+        "episodes": 80,
+        "success": 35,
+        "collision": 8,
+        "timeout": 37,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.4375,
+        "success_wilson95": [
+          0.33413860916143806,
+          0.5465886570305026
+        ]
+      },
+      "by_count": {
+        "2": {
+          "episodes": 20,
+          "success": 12,
+          "collision": 1,
+          "timeout": 7,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.6,
+          "success_wilson95": [
+            0.3865815007622531,
+            0.781193467627183
+          ]
+        },
+        "3": {
+          "episodes": 20,
+          "success": 9,
+          "collision": 0,
+          "timeout": 11,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.45,
+          "success_wilson95": [
+            0.2581978582556243,
+            0.6579146575496577
+          ]
+        },
+        "4": {
+          "episodes": 20,
+          "success": 8,
+          "collision": 3,
+          "timeout": 9,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.4,
+          "success_wilson95": [
+            0.21880653237281705,
+            0.6134184992377469
+          ]
+        },
+        "5": {
+          "episodes": 20,
+          "success": 6,
+          "collision": 4,
+          "timeout": 10,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.3,
+          "success_wilson95": [
+            0.1454772448676043,
+            0.5189728183535235
+          ]
+        }
+      },
+      "by_max_obstacle_speed": {
+        "low_0.04_to_0.10": {
+          "episodes": 5,
+          "success": 1,
+          "collision": 0,
+          "timeout": 4,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.2,
+          "success_wilson95": [
+            0.03622410863243014,
+            0.6244653702374747
+          ]
+        },
+        "medium_0.10_to_0.16": {
+          "episodes": 19,
+          "success": 13,
+          "collision": 0,
+          "timeout": 6,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.6842105263157895,
+          "success_wilson95": [
+            0.46010407675327475,
+            0.8463562091220773
+          ]
+        },
+        "high_0.16_to_0.22": {
+          "episodes": 56,
+          "success": 21,
+          "collision": 8,
+          "timeout": 27,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.375,
+          "success_wilson95": [
+            0.260102143264709,
+            0.5059463409149819
+          ]
+        }
+      }
+    },
+    "v29_baseline": {
+      "all": {
+        "episodes": 80,
+        "success": 29,
+        "collision": 8,
+        "timeout": 43,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.3625,
+        "success_wilson95": [
+          0.2657079306444915,
+          0.4718920549777783
+        ]
+      },
+      "by_count": {
+        "2": {
+          "episodes": 20,
+          "success": 13,
+          "collision": 2,
+          "timeout": 5,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.65,
+          "success_wilson95": [
+            0.43285427668523624,
+            0.818808175898918
+          ]
+        },
+        "3": {
+          "episodes": 20,
+          "success": 5,
+          "collision": 1,
+          "timeout": 14,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.25,
+          "success_wilson95": [
+            0.11186170140766569,
+            0.468700877618744
+          ]
+        },
+        "4": {
+          "episodes": 20,
+          "success": 4,
+          "collision": 4,
+          "timeout": 12,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.2,
+          "success_wilson95": [
+            0.08065766257979806,
+            0.41601743225189364
+          ]
+        },
+        "5": {
+          "episodes": 20,
+          "success": 7,
+          "collision": 1,
+          "timeout": 12,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.35,
+          "success_wilson95": [
+            0.18119182410108206,
+            0.5671457233147638
+          ]
+        }
+      },
+      "by_max_obstacle_speed": {
+        "low_0.04_to_0.10": {
+          "episodes": 5,
+          "success": 2,
+          "collision": 0,
+          "timeout": 3,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.4,
+          "success_wilson95": [
+            0.11762077423264783,
+            0.769275718723987
+          ]
+        },
+        "medium_0.10_to_0.16": {
+          "episodes": 19,
+          "success": 6,
+          "collision": 2,
+          "timeout": 11,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.3157894736842105,
+          "success_wilson95": [
+            0.1536437908779228,
+            0.5398959232467253
+          ]
+        },
+        "high_0.16_to_0.22": {
+          "episodes": 56,
+          "success": 21,
+          "collision": 6,
+          "timeout": 29,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.375,
+          "success_wilson95": [
+            0.260102143264709,
+            0.5059463409149819
+          ]
+        }
+      }
+    }
+  },
+  "paired": {
+    "matched_completed": 80,
+    "both_success": 17,
+    "v31_only_success": 18,
+    "v29_only_success": 12,
+    "both_failed": 33,
+    "paired_success_rate_difference": 0.075
+  }
+}

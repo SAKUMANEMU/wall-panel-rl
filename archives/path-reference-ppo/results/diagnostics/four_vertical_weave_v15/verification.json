@@ -1,0 +1,60 @@
+{
+  "scenes": 8,
+  "all_dynamic": true,
+  "outcomes": {
+    "success": 8,
+    "collision": 0,
+    "timeout": 0
+  },
+  "alternating_offset_m": [
+    0.08,
+    0.14
+  ],
+  "minimum_anchor_height_span_m": 0.24,
+  "minimum_adjacent_height_delta_m": 0.1,
+  "unchanged_motion_bounds": [
+    0.18,
+    0.12
+  ],
+  "real_step_limit": 240,
+  "neural_weights_unchanged": true,
+  "model_sha256": "f059554915581537e35b57f7226346577ea4bfbc99cb1db0946b75ae2c539aba",
+  "scope": "Selected development demonstration only; not a fresh independent test",
+  "input_hashes": {
+    "configs/four_vertical_weave.yaml": "fc00781cd09b780f58f7eb4a36e5636c032c5c7839ac5b53da0aa0a7e57dc394",
+    "configs/four_progress_controller.json": "038bc83f9f088c30bf967bb12603f06a1a09c59eaf079e70b064af631fabd23a",
+    "scripts/check_vertical_weave.py": "e44572f70694dd392152b2e93a4728f1745081aa7e278254703594ebc1f72c1f",
+    "scripts/demo_vertical_weave.py": "ed6acd1533a5b08ef41af0d633b5c27d3ac7bca024206b47b2e8c903f4aa7760",
+    "scripts/demo_autonomous_ppo.py": "445ec93c4dfdde99e5e3ecd09e1ea6fb9be822c3cda0a05d546a1fc51b3585f7",
+    "scripts/plot_vertical_weave.py": "9dc1da7c0ed2c4d44e9da7897dda4159de0fda9f96edbcf543a8fbe40b2adb6a",
+    "src/wall_panel_rl/rl/progress_recovery.py": "6766d19fd8e4d16a5b7294e4e3ce5afd35a57cbdfd2724e917f80c6b412fd236",
+    "src/wall_panel_rl/rl/motion_aware_placement.py": "be7e5e62f0570e6448cf055d9675177781cd192b43dad16e89adf4378c009917",
+    "scripts/probe_vertical_passage.py": "eb9ac520d6910d85cc9e2fcfe234d4ba21e813acb0d63447a8e74f7d49ec5bb7",
+    "scripts/demo_progress_dynamic.py": "afebcbc2110666b8ee45a4c037cb4f1c41afa950d6c031d2028f375bfc062478",
+    "scripts/demo_predictive_dynamic.py": "85db39f36908cf6e48d4d09dc75245cd511f1622c7c6538156dd9e2f3a6fe037"
+  },
+  "initial_example_reproduced": {
+    "seed": 1144002,
+    "controller": "ppo_progress",
+    "steps": 70,
+    "reason": "success"
+  },
+  "recorded_example_reproduced": {
+    "seed": 1144002,
+    "controller": "ppo_progress",
+    "steps": 141,
+    "reason": "success",
+    "position_m": 0.000746392131659997,
+    "orientation_deg": 0.052321647460901545,
+    "predictive_interventions": 36,
+    "recovery_actions": 16
+  },
+  "demonstration_search": {
+    "source_routes": 4,
+    "geometry_rejections": 1,
+    "feasible": 3,
+    "successful": 3,
+    "not_an_independent_test": true
+  },
+  "selected_placement_route": "measured previous execution; original observation reference unchanged"
+}

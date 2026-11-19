@@ -1,0 +1,36 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "mode": "run",
+  "study": {
+    "conditional_report": "/home/johnsonchen/wall-panel-rl/results/diagnostics/conditional_recovery_v3_seed61",
+    "initial_model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/selected_model.zip",
+    "training_manifest": "/home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/manifest.json",
+    "base_scenes": "data/staged_avoidance_v3_seed61/one_static",
+    "regression_banks": {
+      "previous_100": "data/clearance_ppo_v3_seed61/independent_cases.json",
+      "recent_100": "data/static_candidate_comparison_v3_seed61/fresh_cases.json",
+      "latest_100": "data/conditional_recovery_v3_seed61/fresh_cases.json"
+    },
+    "output_root": "models/conditional_ppo_adaptation_v3_seed61",
+    "report_root": "/home/johnsonchen/wall-panel-rl/results/diagnostics/conditional_ppo_adaptation_v3_seed61",
+    "ppo_steps": 10000,
+    "ppo_eval_every": 5000,
+    "ppo_learning_rate": 0.0001
+  }
+}
+ADAPT {"status": "running", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "preflight", "updated_at": "2026-10-30T15:45:01.884910+08:00"}
+ADAPT {"status": "running", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "ppo", "updated_at": "2026-10-30T15:45:13.716362+08:00", "ppo_additional_steps": 0}
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+ADAPT {"status": "running", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "ppo", "updated_at": "2026-10-30T15:45:30.156136+08:00", "ppo_additional_steps": 0, "validation_target": {"episodes": 20, "success": 18, "collision": 2, "timeout": 0, "joint_limit": 0}}
+ADAPT {"status": "running", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "ppo", "updated_at": "2026-10-30T15:45:42.667117+08:00", "ppo_additional_steps": 5000, "validation_target": {"episodes": 20, "success": 16, "collision": 1, "timeout": 3, "joint_limit": 0}}
+ADAPT {"status": "running", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "ppo", "updated_at": "2026-10-30T15:45:55.222141+08:00", "ppo_additional_steps": 10000, "validation_target": {"episodes": 20, "success": 17, "collision": 0, "timeout": 3, "joint_limit": 0}}
+ADAPT {"status": "running", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "regression", "updated_at": "2026-10-30T15:45:55.667971+08:00", "ppo_additional_steps": 10000, "validation_target": {"episodes": 20, "success": 17, "collision": 0, "timeout": 3, "joint_limit": 0}, "model": "conditional_before", "bank": "previous_100"}
+ADAPT {"status": "running", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "regression", "updated_at": "2026-10-30T15:46:16.616419+08:00", "ppo_additional_steps": 10000, "validation_target": {"episodes": 20, "success": 17, "collision": 0, "timeout": 3, "joint_limit": 0}, "model": "conditional_before", "bank": "recent_100"}
+ADAPT {"status": "running", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "regression", "updated_at": "2026-10-30T15:46:37.816976+08:00", "ppo_additional_steps": 10000, "validation_target": {"episodes": 20, "success": 17, "collision": 0, "timeout": 3, "joint_limit": 0}, "model": "conditional_before", "bank": "latest_100"}
+ADAPT {"status": "running", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "regression", "updated_at": "2026-10-30T15:46:58.615662+08:00", "ppo_additional_steps": 10000, "validation_target": {"episodes": 20, "success": 17, "collision": 0, "timeout": 3, "joint_limit": 0}, "model": "conditional_selected", "bank": "previous_100"}
+ADAPT {"status": "running", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "regression", "updated_at": "2026-10-30T15:47:19.747713+08:00", "ppo_additional_steps": 10000, "validation_target": {"episodes": 20, "success": 17, "collision": 0, "timeout": 3, "joint_limit": 0}, "model": "conditional_selected", "bank": "recent_100"}
+ADAPT {"status": "running", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "regression", "updated_at": "2026-10-30T15:47:41.140852+08:00", "ppo_additional_steps": 10000, "validation_target": {"episodes": 20, "success": 17, "collision": 0, "timeout": 3, "joint_limit": 0}, "model": "conditional_selected", "bank": "latest_100"}
+ADAPT {"status": "completed", "started_at": "2026-10-30T15:45:01.167091+08:00", "runner_pid": 41405, "additional_budget": 10000, "automatic_stage_advance": false, "phase": "complete", "updated_at": "2026-10-30T15:48:02.309450+08:00", "ppo_additional_steps": 10000, "validation_target": {"episodes": 20, "success": 17, "collision": 0, "timeout": 3, "joint_limit": 0}, "model": "conditional_selected", "bank": "latest_100", "promotion_passed": true, "finished_at": "2026-10-30T15:48:02.309434+08:00"}

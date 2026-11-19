@@ -1,0 +1,5 @@
+extends: far_three_obstacles.yaml
+# Target-observation noise; geometry and initial-state sampling are unchanged.
+noise:
+  position_std: 0.005
+  orientation_std_deg: 0.5

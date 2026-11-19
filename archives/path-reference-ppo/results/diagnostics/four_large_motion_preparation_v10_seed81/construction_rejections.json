@@ -1,0 +1,368 @@
+[
+  {
+    "split": "train",
+    "seed": 1020016,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1020017,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1020019,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1020026,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1020029,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1020060,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1020064,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1030000,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1030003,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1030043,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1030044,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1030059,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1030089,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1030111,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1030121,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1030122,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1050009,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1050033,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "train",
+    "seed": 1090007,
+    "stage": "nominal_reference",
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "split": "train",
+    "seed": 1090016,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102003,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102010,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102011,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102052,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102053,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102054,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102056,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102061,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102063,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102072,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102074,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102075,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "validation",
+    "seed": 1102076,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104002,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104007,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104010,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104022,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104023,
+    "stage": "nominal_reference",
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104024,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104025,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104027,
+    "stage": "nominal_reference",
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104040,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104042,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104043,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104044,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104045,
+    "stage": "nominal_reference",
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104046,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104053,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104057,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104058,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104071,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104077,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104080,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104084,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104087,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104092,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104096,
+    "stage": "nominal_reference",
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104106,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104113,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104115,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  },
+  {
+    "split": "reserved_test",
+    "seed": 1104118,
+    "stage": "geometry",
+    "reason": "Could not fit four motion-safe anchors in the original path intervals"
+  }
+]

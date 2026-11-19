@@ -1,0 +1,12 @@
+{
+  "cases": 3,
+  "O2_translation_m": [
+    0,
+    0,
+    -0.05
+  ],
+  "other_obstacles_unchanged": true,
+  "dimensions_motion_phase_and_robot_endpoints_unchanged": true,
+  "full_motion_bounds_placement_passed": true,
+  "frozen_source_cases_unmodified": true
+}

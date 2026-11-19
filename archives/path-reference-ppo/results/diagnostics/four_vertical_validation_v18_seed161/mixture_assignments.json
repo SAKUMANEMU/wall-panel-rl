@@ -1,0 +1,258 @@
+[
+  {
+    "seed": 1166000,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166001,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166003,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166004,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166006,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166007,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166012,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166013,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166015,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166023,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166024,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166026,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166035,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166037,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166039,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166042,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166048,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166050,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166054,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166058,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166059,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166060,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166065,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166068,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166072,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166074,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166082,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166083,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166085,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166088,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166091,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166099,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166101,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166102,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166112,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166114,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166115,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166117,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166125,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166128,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166129,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166130,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166133,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166135,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166136,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166140,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166146,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166150,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166152,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166154,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166157,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166158,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166160,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166161,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166164,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166165,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166168,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166170,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166171,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166172,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166174,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166177,
+    "mode": "rrt"
+  },
+  {
+    "seed": 1166178,
+    "mode": "ppo_progress"
+  },
+  {
+    "seed": 1166182,
+    "mode": "rrt"
+  }
+]

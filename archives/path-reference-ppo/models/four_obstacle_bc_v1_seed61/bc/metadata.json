@@ -1,0 +1,734 @@
+{
+  "updates": 1000,
+  "selected": {
+    "update": 25,
+    "training_mse": {
+      "four_static": 0.022037655115127563,
+      "two_static": 0.00023198813141789287,
+      "one_static": 2.4952258865325478e-17,
+      "alignment": 0.0
+    },
+    "four": {
+      "episodes": 32,
+      "success": 7,
+      "collision": 25,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "two": {
+      "episodes": 20,
+      "success": 16,
+      "collision": 4,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "one": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 18,
+        "collision": 0,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "one_rows_identical": true,
+    "score": [
+      1,
+      -25,
+      7,
+      0
+    ],
+    "eligible": true
+  },
+  "history": [
+    {
+      "update": 0,
+      "training_mse": {
+        "four_static": 0.022779075428843498,
+        "two_static": 2.036485250008807e-17,
+        "one_static": 2.4952258865325478e-17,
+        "alignment": 0.0
+      },
+      "four": {
+        "episodes": 32,
+        "success": 4,
+        "collision": 28,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "two": {
+        "episodes": 20,
+        "success": 15,
+        "collision": 4,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "one": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 18,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0
+        }
+      },
+      "one_rows_identical": true,
+      "score": [
+        1,
+        -28,
+        4,
+        0
+      ],
+      "eligible": true
+    },
+    {
+      "update": 25,
+      "training_mse": {
+        "four_static": 0.022037655115127563,
+        "two_static": 0.00023198813141789287,
+        "one_static": 2.4952258865325478e-17,
+        "alignment": 0.0
+      },
+      "four": {
+        "episodes": 32,
+        "success": 7,
+        "collision": 25,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "two": {
+        "episodes": 20,
+        "success": 16,
+        "collision": 4,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "one": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 18,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0
+        }
+      },
+      "one_rows_identical": true,
+      "score": [
+        1,
+        -25,
+        7,
+        0
+      ],
+      "eligible": true
+    },
+    {
+      "update": 50,
+      "training_mse": {
+        "four_static": 0.02159915864467621,
+        "two_static": 0.0003627116384450346,
+        "one_static": 2.4952258865325478e-17,
+        "alignment": 0.0
+      },
+      "four": {
+        "episodes": 32,
+        "success": 4,
+        "collision": 28,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "two": {
+        "episodes": 20,
+        "success": 13,
+        "collision": 4,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "one": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 18,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0
+        }
+      },
+      "one_rows_identical": true,
+      "score": [
+        0,
+        -28,
+        4,
+        0
+      ],
+      "eligible": false
+    },
+    {
+      "update": 100,
+      "training_mse": {
+        "four_static": 0.021121414378285408,
+        "two_static": 0.000510015815962106,
+        "one_static": 2.4952258865325478e-17,
+        "alignment": 0.0
+      },
+      "four": {
+        "episodes": 32,
+        "success": 5,
+        "collision": 27,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "two": {
+        "episodes": 20,
+        "success": 13,
+        "collision": 4,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "one": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 18,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0
+        }
+      },
+      "one_rows_identical": true,
+      "score": [
+        0,
+        -27,
+        5,
+        0
+      ],
+      "eligible": false
+    },
+    {
+      "update": 250,
+      "training_mse": {
+        "four_static": 0.02006993256509304,
+        "two_static": 0.0008823245880194008,
+        "one_static": 2.4952258865325478e-17,
+        "alignment": 0.0
+      },
+      "four": {
+        "episodes": 32,
+        "success": 8,
+        "collision": 23,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "two": {
+        "episodes": 20,
+        "success": 14,
+        "collision": 5,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "one": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 18,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0
+        }
+      },
+      "one_rows_identical": true,
+      "score": [
+        0,
+        -23,
+        8,
+        -1
+      ],
+      "eligible": false
+    },
+    {
+      "update": 500,
+      "training_mse": {
+        "four_static": 0.019207386299967766,
+        "two_static": 0.001414445461705327,
+        "one_static": 2.4952258865325478e-17,
+        "alignment": 0.0
+      },
+      "four": {
+        "episodes": 32,
+        "success": 16,
+        "collision": 16,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "two": {
+        "episodes": 20,
+        "success": 13,
+        "collision": 5,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "one": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 18,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0
+        }
+      },
+      "one_rows_identical": true,
+      "score": [
+        0,
+        -16,
+        16,
+        0
+      ],
+      "eligible": false
+    },
+    {
+      "update": 1000,
+      "training_mse": {
+        "four_static": 0.018341779708862305,
+        "two_static": 0.0019463339122012258,
+        "one_static": 2.4952258865325478e-17,
+        "alignment": 0.0
+      },
+      "four": {
+        "episodes": 32,
+        "success": 17,
+        "collision": 15,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "two": {
+        "episodes": 20,
+        "success": 8,
+        "collision": 6,
+        "timeout": 6,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "one": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 18,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0
+        }
+      },
+      "one_rows_identical": true,
+      "score": [
+        0,
+        -15,
+        17,
+        0
+      ],
+      "eligible": false
+    }
+  ],
+  "frozen_base_critic_and_std_unchanged": true,
+  "ppo_steps": 0,
+  "task_weights": {
+    "four_static": 0.8,
+    "two_static": 0.1,
+    "one_static": 0.05,
+    "alignment": 0.05
+  },
+  "training_scene_seeds": [
+    800000,
+    800001,
+    800002,
+    800003,
+    800004,
+    800005,
+    800006,
+    800007,
+    800008,
+    800009,
+    800011,
+    800012,
+    800013,
+    800014,
+    800016,
+    800017,
+    800018,
+    800020,
+    800021,
+    800023,
+    800024,
+    800025,
+    800026,
+    800027,
+    800028,
+    800029,
+    800030,
+    800031,
+    800032,
+    800033,
+    800034,
+    800035,
+    800036,
+    800037,
+    800038,
+    800039,
+    800040,
+    800041,
+    800043,
+    800044,
+    800046,
+    800047,
+    800048,
+    800049,
+    800050,
+    800051,
+    800053,
+    800054,
+    800056,
+    800058,
+    800059,
+    800060,
+    800061,
+    800063,
+    1014000,
+    1014001,
+    1014002,
+    1014003,
+    1014004,
+    1014005,
+    1014006,
+    1014007,
+    1014008,
+    1014009,
+    1014010,
+    1014011,
+    1014012,
+    1014013,
+    1014014,
+    1014015,
+    1014016,
+    1014017,
+    1014018,
+    1014019,
+    1014020,
+    1014021,
+    1014022,
+    1014023,
+    1014024,
+    1014025,
+    1014026,
+    1014027,
+    1014028,
+    1014029,
+    1014030,
+    1014031,
+    1014032,
+    1014033,
+    1014034,
+    1014035,
+    1014036,
+    1014037,
+    1014038,
+    1014039,
+    1014040,
+    1014041,
+    1014042,
+    1014043,
+    1014044,
+    1014045,
+    1014046,
+    1014047,
+    1014048,
+    1014049,
+    1014050,
+    1014051,
+    1014052,
+    1014053,
+    1014054,
+    1014055,
+    1014056,
+    1014057,
+    1014058,
+    1014059,
+    1014060,
+    1014061,
+    1014062,
+    1014063,
+    1014064,
+    1014065,
+    1014066,
+    1014067,
+    1014068,
+    1014069,
+    1014070,
+    1014071,
+    1014072,
+    1014073,
+    1014074,
+    1014075,
+    1014076,
+    1014077,
+    1014078,
+    1014079,
+    1014080,
+    1014081,
+    1014082,
+    1014083,
+    1014084,
+    1014085,
+    1014086,
+    1014087,
+    1014088,
+    1014089,
+    1014090,
+    1014091,
+    1014092,
+    1014093,
+    1014094,
+    1014095,
+    1014096,
+    1014097,
+    1014098,
+    1014099,
+    1014100,
+    1014101,
+    1014102,
+    1014103,
+    1014104,
+    1014105,
+    1014106,
+    1014107,
+    1014108,
+    1014109,
+    1014110,
+    1014111,
+    1014112,
+    1014113,
+    1014114,
+    1014115,
+    1014116,
+    1014117,
+    1014118,
+    1014119,
+    1014120,
+    1014121,
+    1014122,
+    1014123,
+    1014124,
+    1014125,
+    1014126,
+    1014127,
+    1020000,
+    1020001,
+    1020002,
+    1020003,
+    1020004,
+    1020006,
+    1020007,
+    1020008,
+    1020009,
+    1020010,
+    1020011,
+    1020012,
+    1020013,
+    1020014,
+    1020015,
+    1020016,
+    1020017,
+    1020018,
+    1020019,
+    1020020,
+    1020021,
+    1020022,
+    1020023,
+    1020024,
+    1020025,
+    1020026,
+    1020027,
+    1020028,
+    1020029,
+    1020030,
+    1020031,
+    1020032,
+    1020033,
+    1020035,
+    1020036,
+    1020037,
+    1020038,
+    1020039,
+    1020040,
+    1020041,
+    1020042,
+    1020043,
+    1020044,
+    1020045,
+    1020046,
+    1020047,
+    1020048,
+    1020049,
+    1020050,
+    1020051,
+    1020052,
+    1020053,
+    1020054,
+    1020055,
+    1020056,
+    1020057,
+    1020058,
+    1020059,
+    1020060,
+    1020061,
+    1020062,
+    1020063,
+    1020064,
+    1020065
+  ],
+  "retention_labels": "initial frozen policy actions, not old RRT actions"
+}

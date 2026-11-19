@@ -1,0 +1,38 @@
+[
+  {
+    "seed": 2630000,
+    "count": 3,
+    "reason": "success",
+    "steps": 196,
+    "accepted_for_bc": true,
+    "wall_seconds": 19.82296526399989,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 2640000,
+    "count": 4,
+    "reason": "success",
+    "steps": 129,
+    "accepted_for_bc": true,
+    "wall_seconds": 27.312891969999896,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 2620000,
+    "count": 2,
+    "reason": "success",
+    "steps": 92,
+    "accepted_for_bc": true,
+    "wall_seconds": 58.06569005599988,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 2650000,
+    "count": 5,
+    "reason": "success",
+    "steps": 105,
+    "accepted_for_bc": true,
+    "wall_seconds": 84.46062803599989,
+    "uses_global_rrt": false
+  }
+]

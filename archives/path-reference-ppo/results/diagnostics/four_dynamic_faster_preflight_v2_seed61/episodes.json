@@ -1,0 +1,370 @@
+[
+  {
+    "controller": "rrt",
+    "seed": 1080009,
+    "task": "dynamic",
+    "reason": "success",
+    "steps": 84,
+    "reward": 300.52134879720734,
+    "position_m": 0.0013466317561100227,
+    "orientation_deg": 0.09330157086100606,
+    "planning_seconds": 2.267958658999305,
+    "online_avoidance_planner": true,
+    "conditional_recoveries": 0,
+    "max_displacement_from_anchor_m": 0.14859186443697378,
+    "max_observed_speed_m_s": 0.08323837229578221,
+    "obstacle_axis_ranges_m": [
+      [
+        0.16164224310409223,
+        0.12647679958766744,
+        0.050809489063750046
+      ],
+      [
+        0.1320365339856555,
+        0.1024316945487248,
+        0.11001825543338961
+      ],
+      [
+        0.131296983578312,
+        0.14498678300824208,
+        0.09652792762577228
+      ],
+      [
+        0.1283234237955282,
+        0.16957113966865334,
+        0.13241904669245685
+      ]
+    ],
+    "physics_elapsed_s": 4.200000000000082,
+    "planning_paused_time_and_restored_scene": true,
+    "original_reference_preserved": true,
+    "obstacle_count": 4,
+    "known_motion": true,
+    "dynamic_planning_mode": "timed",
+    "replans": 0,
+    "hold_steps": 0,
+    "scheduled_waits": 0
+  },
+  {
+    "controller": "ppo",
+    "seed": 1080012,
+    "task": "dynamic",
+    "reason": "collision",
+    "steps": 43,
+    "reward": 66.12436715032777,
+    "position_m": 0.7322711767359649,
+    "orientation_deg": 65.83355653238377,
+    "planning_seconds": 0.0,
+    "online_avoidance_planner": false,
+    "conditional_recoveries": 0,
+    "max_displacement_from_anchor_m": 0.12074285450560533,
+    "max_observed_speed_m_s": 0.08289408481300621,
+    "obstacle_axis_ranges_m": [
+      [
+        0.07693761579676354,
+        0.051626861134646096,
+        0.050689249667349334
+      ],
+      [
+        0.08533030367290007,
+        0.018656140802150945,
+        0.09660064069000751
+      ],
+      [
+        0.04039331890569331,
+        0.08931994771959062,
+        0.09235508955092286
+      ],
+      [
+        0.09885444479010719,
+        0.09382431869993921,
+        0.0875225930887169
+      ]
+    ],
+    "physics_elapsed_s": 2.1166666666666667,
+    "planning_paused_time_and_restored_scene": true,
+    "original_reference_preserved": true,
+    "obstacle_count": 4,
+    "known_motion": true,
+    "dynamic_planning_mode": "timed",
+    "replans": 0,
+    "hold_steps": 0,
+    "scheduled_waits": 0
+  },
+  {
+    "controller": "ppo",
+    "seed": 1080031,
+    "task": "dynamic",
+    "reason": "collision",
+    "steps": 43,
+    "reward": 79.20253997628569,
+    "position_m": 0.6453502471067687,
+    "orientation_deg": 46.00750061210726,
+    "planning_seconds": 0.0,
+    "online_avoidance_planner": false,
+    "conditional_recoveries": 0,
+    "max_displacement_from_anchor_m": 0.13862979004141157,
+    "max_observed_speed_m_s": 0.08472788071630821,
+    "obstacle_axis_ranges_m": [
+      [
+        0.051913817945464596,
+        0.05062328890540124,
+        0.11578505484272006
+      ],
+      [
+        0.10971553663568245,
+        0.08080291829065434,
+        0.03677118188393924
+      ],
+      [
+        0.09459475452409033,
+        0.09074643041465924,
+        0.03904123002664617
+      ],
+      [
+        0.020622129013000312,
+        0.09682890349030022,
+        0.0588373353326368
+      ]
+    ],
+    "physics_elapsed_s": 2.145833333333335,
+    "planning_paused_time_and_restored_scene": true,
+    "original_reference_preserved": true,
+    "obstacle_count": 4,
+    "known_motion": true,
+    "dynamic_planning_mode": "timed",
+    "replans": 0,
+    "hold_steps": 0,
+    "scheduled_waits": 0
+  },
+  {
+    "controller": "ppo",
+    "seed": 1080055,
+    "task": "dynamic",
+    "reason": "success",
+    "steps": 63,
+    "reward": 302.2231396625461,
+    "position_m": 0.00454337018970494,
+    "orientation_deg": 0.28185429544007107,
+    "planning_seconds": 0.0,
+    "online_avoidance_planner": false,
+    "conditional_recoveries": 0,
+    "max_displacement_from_anchor_m": 0.1486995587993148,
+    "max_observed_speed_m_s": 0.08142008618699537,
+    "obstacle_axis_ranges_m": [
+      [
+        0.06249338243309853,
+        0.04559016753131606,
+        0.05408742034892372
+      ],
+      [
+        0.13527115437639792,
+        0.05651244620082363,
+        0.08603352916330775
+      ],
+      [
+        0.05316585360109227,
+        0.05211796982006023,
+        0.1052619300371021
+      ],
+      [
+        0.05354923953338786,
+        0.14916013373076098,
+        0.08521601043793192
+      ]
+    ],
+    "physics_elapsed_s": 3.1500000000000514,
+    "planning_paused_time_and_restored_scene": true,
+    "original_reference_preserved": true,
+    "obstacle_count": 4,
+    "known_motion": true,
+    "dynamic_planning_mode": "timed",
+    "replans": 0,
+    "hold_steps": 0,
+    "scheduled_waits": 0
+  },
+  {
+    "controller": "rrt",
+    "seed": 1080080,
+    "task": "dynamic",
+    "reason": "success",
+    "steps": 81,
+    "reward": 299.61036109552657,
+    "position_m": 0.0006556041709219489,
+    "orientation_deg": 0.06913348283266424,
+    "planning_seconds": 1.5749212450000414,
+    "online_avoidance_planner": true,
+    "conditional_recoveries": 0,
+    "max_displacement_from_anchor_m": 0.145507169422858,
+    "max_observed_speed_m_s": 0.08974718407877691,
+    "obstacle_axis_ranges_m": [
+      [
+        0.1503974604777888,
+        0.0876112827316694,
+        0.0915813275872771
+      ],
+      [
+        0.07748141745556869,
+        0.12462927648035205,
+        0.13973502918032554
+      ],
+      [
+        0.1269350703318195,
+        0.11468886813893375,
+        0.07826483280907226
+      ],
+      [
+        0.12327056052290053,
+        0.08788873205216119,
+        0.1340451102993152
+      ]
+    ],
+    "physics_elapsed_s": 4.05000000000009,
+    "planning_paused_time_and_restored_scene": true,
+    "original_reference_preserved": true,
+    "obstacle_count": 4,
+    "known_motion": true,
+    "dynamic_planning_mode": "timed",
+    "replans": 0,
+    "hold_steps": 0,
+    "scheduled_waits": 0
+  },
+  {
+    "controller": "ppo",
+    "seed": 1080113,
+    "task": "dynamic",
+    "reason": "timeout",
+    "steps": 240,
+    "reward": 169.74536454088593,
+    "position_m": 0.20481757853431087,
+    "orientation_deg": 3.2171623130514346,
+    "planning_seconds": 0.0,
+    "online_avoidance_planner": false,
+    "conditional_recoveries": 0,
+    "max_displacement_from_anchor_m": 0.14445997332868374,
+    "max_observed_speed_m_s": 0.085445103531812,
+    "obstacle_axis_ranges_m": [
+      [
+        0.18353777218060413,
+        0.18237833799552594,
+        0.1518117888674445
+      ],
+      [
+        0.16277713472801603,
+        0.17615718169474526,
+        0.18018125291330456
+      ],
+      [
+        0.19636176891016166,
+        0.16588977020898754,
+        0.154642150544179
+      ],
+      [
+        0.20273196512981417,
+        0.16900623233815731,
+        0.12848035246710388
+      ]
+    ],
+    "physics_elapsed_s": 11.99999999999964,
+    "planning_paused_time_and_restored_scene": true,
+    "original_reference_preserved": true,
+    "obstacle_count": 4,
+    "known_motion": true,
+    "dynamic_planning_mode": "timed",
+    "replans": 0,
+    "hold_steps": 0,
+    "scheduled_waits": 0
+  },
+  {
+    "controller": "ppo",
+    "seed": 1080142,
+    "task": "dynamic",
+    "reason": "collision",
+    "steps": 7,
+    "reward": -36.372855454305544,
+    "position_m": 1.7196230023694727,
+    "orientation_deg": 136.8331807681834,
+    "planning_seconds": 0.0,
+    "online_avoidance_planner": false,
+    "conditional_recoveries": 0,
+    "max_displacement_from_anchor_m": 0.12835480903368884,
+    "max_observed_speed_m_s": 0.06722794202054155,
+    "obstacle_axis_ranges_m": [
+      [
+        0.015117948963271857,
+        0.011304218123070253,
+        0.007287904306809645
+      ],
+      [
+        0.007915178658277733,
+        0.0022381025906059726,
+        0.011483750590752906
+      ],
+      [
+        0.015013085129596315,
+        0.013361204177619102,
+        0.011169787362954597
+      ],
+      [
+        0.005324693574497941,
+        0.007183738712810472,
+        0.015952851281874736
+      ]
+    ],
+    "physics_elapsed_s": 0.3458333333333333,
+    "planning_paused_time_and_restored_scene": true,
+    "original_reference_preserved": true,
+    "obstacle_count": 4,
+    "known_motion": true,
+    "dynamic_planning_mode": "timed",
+    "replans": 0,
+    "hold_steps": 0,
+    "scheduled_waits": 0
+  },
+  {
+    "controller": "ppo",
+    "seed": 1080143,
+    "task": "dynamic",
+    "reason": "success",
+    "steps": 75,
+    "reward": 302.8642765609936,
+    "position_m": 0.0012143207873126407,
+    "orientation_deg": 0.13018006033049245,
+    "planning_seconds": 0.0,
+    "online_avoidance_planner": false,
+    "conditional_recoveries": 0,
+    "max_displacement_from_anchor_m": 0.14022711124200032,
+    "max_observed_speed_m_s": 0.07941141956515962,
+    "obstacle_axis_ranges_m": [
+      [
+        0.11039818453845829,
+        0.1284847267381657,
+        0.09272160594142831
+      ],
+      [
+        0.05944153498066468,
+        0.11553505303642142,
+        0.10129774524342383
+      ],
+      [
+        0.14039960116534733,
+        0.035583819291901686,
+        0.073018083432151
+      ],
+      [
+        0.14721430681579373,
+        0.12370953745116225,
+        0.08533387265393189
+      ]
+    ],
+    "physics_elapsed_s": 3.7500000000000813,
+    "planning_paused_time_and_restored_scene": true,
+    "original_reference_preserved": true,
+    "obstacle_count": 4,
+    "known_motion": true,
+    "dynamic_planning_mode": "timed",
+    "replans": 0,
+    "hold_steps": 0,
+    "scheduled_waits": 0
+  }
+]

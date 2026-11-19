@@ -1,0 +1,12 @@
+# Evaluation only. Fixed models; never train or select by the new test results.
+parent_report: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61
+retained_model: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/selected_model.zip
+candidate_model: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/final_candidate_unselected.zip
+validation_cases: data/staged_avoidance_v3_seed61/one_static/validation_staged.json
+known_cases: data/clearance_ppo_v3_seed61/independent_cases.json
+data_root: data/static_candidate_comparison_v3_seed61
+report_root: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_candidate_comparison_v3_seed61
+independent_start_seed: 1002000
+independent_scenes: 100
+maximum_generation_attempts: 1000
+diagnostic_horizon: 480

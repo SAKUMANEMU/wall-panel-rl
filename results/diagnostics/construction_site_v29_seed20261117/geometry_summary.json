@@ -1,0 +1,38 @@
+{
+  "counts": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "physical_site_bounds_checked": true,
+  "new_training_started": false,
+  "generation_spec": {
+    "amplitude_m": 0.18,
+    "max_speed_m_s": 0.22,
+    "vertical_offsets_m": [
+      0.1,
+      0.2
+    ],
+    "size_scale": [
+      1.1687500000000002,
+      1.58125
+    ],
+    "fraction_jitter": 0.035,
+    "xy_jitter_m": 0.025,
+    "restarts": 24,
+    "attempts_per_obstacle": 160,
+    "max_seed_attempts_per_case": 100,
+    "swept_z_bounds_m": [
+      0.115,
+      1.085
+    ],
+    "speed_range_m_s": [
+      0.04,
+      0.22
+    ],
+    "seed_base": 3400000,
+    "route_parameters_known": true,
+    "corridor_lateral_offset_m": 0.15
+  }
+}

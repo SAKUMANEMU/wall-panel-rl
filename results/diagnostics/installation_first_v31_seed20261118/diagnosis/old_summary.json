@@ -1,0 +1,48 @@
+[
+  {
+    "seed": 4140000,
+    "reason": "success",
+    "diagnosis": {
+      "primary": "success",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": true
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": null,
+      "reference_telemetry_available": false,
+      "reference_index_start": null,
+      "reference_index_end": null,
+      "final_reference_distance_rad": null,
+      "final_position_m": 0.006065780528830232,
+      "final_orientation_deg": 0.5261361710332932,
+      "reference_state_inferred": false
+    },
+    "zero_steps": 0
+  },
+  {
+    "seed": 4130001,
+    "reason": "timeout",
+    "diagnosis": {
+      "primary": "insufficient_progress",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": false
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.325,
+      "zero_command_fraction": null,
+      "reference_telemetry_available": false,
+      "reference_index_start": null,
+      "reference_index_end": null,
+      "final_reference_distance_rad": null,
+      "final_position_m": 0.6366007444079066,
+      "final_orientation_deg": 86.2554931634467,
+      "reference_state_inferred": false
+    },
+    "zero_steps": 104
+  }
+]

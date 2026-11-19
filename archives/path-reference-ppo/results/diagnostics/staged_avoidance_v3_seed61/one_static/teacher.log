@@ -1,0 +1,131 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "mode": "collect_teacher",
+  "stage": {
+    "name": "one_static",
+    "count": 1,
+    "mode": "static",
+    "amplitude": 0.05,
+    "speed": 0.02
+  },
+  "source": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+  "source_exists": true,
+  "data": "data/staged_avoidance_v3_seed61/one_static",
+  "bc_output": "models/staged_avoidance_v3_seed61/one_static/bc",
+  "ppo_output": "models/staged_avoidance_v3_seed61/one_static/ppo",
+  "ppo_additional_steps": 10000,
+  "action_std": 0.1,
+  "prior_gate_initial": 0.5,
+  "waypoint_reward": 0.25,
+  "clearance_distance": 0.08,
+  "clearance_weight": 0.5,
+  "gate": {
+    "minimum_episodes": 20,
+    "minimum_alignment_episodes": 10,
+    "minimum_success_rate": 0.8,
+    "maximum_collision_rate": 0.1,
+    "minimum_alignment_success_rate": 0.9,
+    "consecutive_checks": 2
+  },
+  "automatic_stage_advance": false
+}
+teacher 1 {'alignment': 0, 'avoidance': 1} success
+teacher 2 {'alignment': 0, 'avoidance': 2} success
+teacher 3 {'alignment': 1, 'avoidance': 2} success
+teacher 4 {'alignment': 2, 'avoidance': 2} success
+teacher 5 {'alignment': 3, 'avoidance': 2} success
+teacher 6 {'alignment': 3, 'avoidance': 3} success
+teacher 7 {'alignment': 3, 'avoidance': 4} success
+teacher 8 {'alignment': 3, 'avoidance': 5} success
+teacher 9 {'alignment': 3, 'avoidance': 6} success
+teacher 10 {'alignment': 3, 'avoidance': 7} success
+teacher 11 {'alignment': 3, 'avoidance': 8} success
+teacher 12 {'alignment': 3, 'avoidance': 9} success
+teacher 13 {'alignment': 3, 'avoidance': 10} success
+teacher 14 {'alignment': 3, 'avoidance': 11} success
+teacher 15 {'alignment': 3, 'avoidance': 12} success
+teacher 16 {'alignment': 3, 'avoidance': 13} success
+teacher 17 {'alignment': 3, 'avoidance': 14} success
+teacher 18 {'alignment': 3, 'avoidance': 15} success
+teacher 19 {'alignment': 3, 'avoidance': 16} success
+teacher 20 {'alignment': 3, 'avoidance': 17} success
+teacher 21 {'alignment': 3, 'avoidance': 18} success
+teacher 22 {'alignment': 3, 'avoidance': 19} success
+teacher 23 {'alignment': 3, 'avoidance': 20} success
+teacher 24 {'alignment': 3, 'avoidance': 21} success
+teacher 25 {'alignment': 4, 'avoidance': 21} success
+teacher 26 {'alignment': 5, 'avoidance': 21} success
+teacher 27 {'alignment': 5, 'avoidance': 22} success
+teacher 28 {'alignment': 6, 'avoidance': 22} success
+teacher 29 {'alignment': 6, 'avoidance': 23} success
+teacher 30 {'alignment': 6, 'avoidance': 24} success
+teacher 31 {'alignment': 6, 'avoidance': 25} success
+teacher 32 {'alignment': 6, 'avoidance': 26} success
+teacher 33 {'alignment': 6, 'avoidance': 27} success
+teacher 34 {'alignment': 6, 'avoidance': 28} success
+teacher 35 {'alignment': 6, 'avoidance': 29} success
+teacher 36 {'alignment': 6, 'avoidance': 30} success
+teacher 37 {'alignment': 7, 'avoidance': 30} success
+teacher 38 {'alignment': 7, 'avoidance': 31} success
+teacher 39 {'alignment': 7, 'avoidance': 32} success
+teacher 40 {'alignment': 7, 'avoidance': 33} success
+teacher 41 {'alignment': 7, 'avoidance': 34} success
+teacher 42 {'alignment': 7, 'avoidance': 35} success
+teacher 43 {'alignment': 7, 'avoidance': 36} success
+teacher 44 {'alignment': 8, 'avoidance': 36} success
+teacher 45 {'alignment': 8, 'avoidance': 37} success
+teacher 46 {'alignment': 8, 'avoidance': 38} success
+teacher 47 {'alignment': 8, 'avoidance': 39} success
+teacher 48 {'alignment': 8, 'avoidance': 40} success
+teacher 49 {'alignment': 8, 'avoidance': 41} success
+teacher 50 {'alignment': 8, 'avoidance': 42} success
+teacher 51 {'alignment': 9, 'avoidance': 42} success
+teacher 52 {'alignment': 9, 'avoidance': 43} success
+teacher 53 {'alignment': 9, 'avoidance': 44} success
+teacher 54 {'alignment': 9, 'avoidance': 45} success
+teacher 55 {'alignment': 9, 'avoidance': 46} success
+teacher 56 {'alignment': 9, 'avoidance': 47} success
+teacher 57 {'alignment': 9, 'avoidance': 48} success
+teacher 58 {'alignment': 9, 'avoidance': 49} success
+teacher 59 {'alignment': 10, 'avoidance': 49} success
+teacher 60 {'alignment': 10, 'avoidance': 50} success
+teacher 61 {'alignment': 11, 'avoidance': 50} success
+teacher 62 {'alignment': 12, 'avoidance': 50} success
+teacher 63 {'alignment': 12, 'avoidance': 51} success
+teacher 64 {'alignment': 13, 'avoidance': 51} success
+teacher 65 {'alignment': 13, 'avoidance': 52} success
+teacher 66 {'alignment': 13, 'avoidance': 53} success
+teacher 67 {'alignment': 13, 'avoidance': 54} success
+teacher 68 {'alignment': 13, 'avoidance': 55} success
+teacher 69 {'alignment': 13, 'avoidance': 56} success
+teacher 70 {'alignment': 13, 'avoidance': 57} success
+teacher 71 {'alignment': 13, 'avoidance': 58} success
+teacher 72 {'alignment': 13, 'avoidance': 59} success
+teacher 73 {'alignment': 13, 'avoidance': 60} success
+teacher 74 {'alignment': 14, 'avoidance': 60} success
+teacher 75 {'alignment': 14, 'avoidance': 61} success
+teacher 76 {'alignment': 14, 'avoidance': 62} success
+teacher 77 {'alignment': 14, 'avoidance': 63} success
+teacher 78 {'alignment': 14, 'avoidance': 64} success
+teacher 79 {'alignment': 14, 'avoidance': 65} success
+teacher 80 {'alignment': 14, 'avoidance': 66} success
+teacher 81 {'alignment': 14, 'avoidance': 67} success
+teacher 82 {'alignment': 14, 'avoidance': 68} success
+teacher 83 {'alignment': 15, 'avoidance': 68} success
+teacher 84 {'alignment': 15, 'avoidance': 69} success
+teacher 85 {'alignment': 16, 'avoidance': 69} success
+teacher 86 {'alignment': 17, 'avoidance': 69} success
+teacher 87 {'alignment': 17, 'avoidance': 70} success
+teacher 88 {'alignment': 17, 'avoidance': 71} success
+teacher 89 {'alignment': 17, 'avoidance': 72} success
+teacher 90 {'alignment': 17, 'avoidance': 73} success
+teacher 91 {'alignment': 18, 'avoidance': 73} success
+teacher 92 {'alignment': 18, 'avoidance': 74} success
+teacher 93 {'alignment': 19, 'avoidance': 74} success
+teacher 94 {'alignment': 20, 'avoidance': 74} success
+teacher 95 {'alignment': 20, 'avoidance': 75} success
+teacher 96 {'alignment': 20, 'avoidance': 76} success
+teacher 97 {'alignment': 20, 'avoidance': 77} success
+teacher 98 {'alignment': 20, 'avoidance': 78} success
+teacher 99 {'alignment': 20, 'avoidance': 79} success
+teacher 100 {'alignment': 20, 'avoidance': 80} success

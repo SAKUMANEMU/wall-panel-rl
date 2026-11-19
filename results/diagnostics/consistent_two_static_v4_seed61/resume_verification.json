@@ -1,0 +1,15 @@
+{
+  "restored_episodes": 80,
+  "restored_transitions": 4214,
+  "arrays_bitwise_identical": {
+    "obs": true,
+    "actions": true,
+    "raw_actions": true,
+    "seeds": true,
+    "tasks": true,
+    "terminal_obs": true,
+    "terminal_actions": true,
+    "offsets": true
+  },
+  "frozen_bank_hashes_valid": true
+}

@@ -1,0 +1,100 @@
+{
+  "sha256": "c68ecbf51b81e49c83875bde8b0774f5e46d8097af0523e817392e633eb1f6c8",
+  "selected_variant": "wall_feedback",
+  "policy": "ReferencePreservingPolicy",
+  "observation_dimension": 77,
+  "action_dimension": 7,
+  "additional_ppo_steps_this_run": 10000,
+  "ppo_steps_after_bc_in_lineage": 20000,
+  "stored_ppo_timesteps": 25000,
+  "bc_updates_in_lineage": 20000,
+  "frozen_prior_and_std_verified": true,
+  "validation": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null,
+      "successful_mean_steps": 44.7,
+      "mean_reward": 323.6269572600657
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null,
+      "successful_mean_steps": 8.4,
+      "mean_reward": 160.82514630407536
+    },
+    "five_full_diagnostic": {
+      "episodes": 10,
+      "success": 0,
+      "collision": 10,
+      "joint_limit": 0,
+      "timeout": 0,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null,
+      "successful_mean_steps": null,
+      "mean_reward": -7.934677918352842
+    },
+    "stage_target": {
+      "episodes": 20,
+      "success": 16,
+      "collision": 2,
+      "joint_limit": 0,
+      "timeout": 2,
+      "timeout_mean_position_m": 0.24368971896766584,
+      "timeout_mean_orientation_deg": 14.693661884757635,
+      "successful_mean_steps": 66.5625,
+      "mean_reward": 270.81144965667073
+    }
+  },
+  "independent_test": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0
+    },
+    "stage_target": {
+      "episodes": 100,
+      "success": 92,
+      "collision": 4,
+      "joint_limit": 0,
+      "timeout": 4
+    }
+  },
+  "training_wall_reward": {
+    "distance": 0.02,
+    "weight": 1.0
+  },
+  "training_stall_reward": {
+    "window": 20,
+    "position_epsilon": 0.001,
+    "orientation_epsilon_deg": 0.1,
+    "path_epsilon": 0.01,
+    "joint_displacement": 0.02,
+    "weight": 0.1
+  },
+  "evaluation_reward_unchanged": true,
+  "promotion_passed": false,
+  "selected_single_check_passed": true,
+  "test_bank_sha256": "b0d100e8d70a35b59ca81ac7c5ef9474f6630da008804c59050be0e94ea01f96",
+  "code_unchanged_during_training": true,
+  "only_training_weight_changed": true,
+  "execution": "StagedAvoidanceEnv with original obstacle-free reference; no online avoidance planner"
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "constructed_at_goal": true,
+  "included_in_evaluation_denominator": false,
+  "selected_runtime_used": true,
+  "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+  "actual_physical_result": "success",
+  "steps": 1
+}

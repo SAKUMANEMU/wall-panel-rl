@@ -1,0 +1,106 @@
+{
+  "seed": 5320300,
+  "controller": "enhanced",
+  "reason": "success",
+  "steps": 201,
+  "position_m": 0.0003631499020866856,
+  "orientation_deg": 0.026523133465318,
+  "reward": 284.48776888126633,
+  "zero_command_steps": 79,
+  "stationary_steps": 79,
+  "wall_seconds": 75.63839676600037,
+  "physics_elapsed_s": 10.04999999999975,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 1,
+  "recovery_actions": 24,
+  "recovery_events": [
+    {
+      "step": 78,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.7957177185347017,
+      "accepted": false
+    },
+    {
+      "step": 90,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.7957286082400828,
+      "accepted": false
+    },
+    {
+      "step": 102,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.7957394965150273,
+      "accepted": false
+    },
+    {
+      "step": 114,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.7957503833597173,
+      "accepted": false
+    },
+    {
+      "step": 126,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.6771573317674238,
+      "accepted": false
+    },
+    {
+      "step": 138,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.6659119168701557,
+      "accepted": false
+    },
+    {
+      "step": 150,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.6922854438578008,
+      "accepted": true,
+      "mode": "persistent",
+      "parameter": [
+        [
+          0
+        ],
+        [
+          0.28
+        ]
+      ],
+      "predicted_end_cost": 0.007618907405107217,
+      "predicted_gain": 0.6846665364526936,
+      "plan_steps": 41
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 13940,
+  "vertical_plan_events": [],
+  "installation_events": [],
+  "passage_count": 0,
+  "success_with_weaving": false,
+  "arm": "v29_baseline",
+  "obstacle_count": 2,
+  "model_key": "v29",
+  "controller_key": "old",
+  "case_sha256": "3f14e1c0e666a481dde661d8fde84cc40c41a0c59f1725ddddd64088a817dacd",
+  "max_obstacle_speed_m_s": 0.13356927732232649,
+  "model_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+  "runtime_sha256": "07f9ed1f2e60a65dc5b97b3459ce5b8e59c29c75e6b529a3f75a7ec171cee5f6",
+  "timeout_diagnosis": {
+    "primary": "success",
+    "flags": {
+      "waiting": false,
+      "stale_reference": false,
+      "terminal_precision": true
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.0,
+    "zero_command_fraction": 0.0,
+    "reference_telemetry_available": true,
+    "reference_index_start": 29,
+    "reference_index_end": 43,
+    "final_reference_distance_rad": 0.0004549147450530741,
+    "final_position_m": 0.0003631499020866856,
+    "final_orientation_deg": 0.026523133465318,
+    "reference_state_inferred": false
+  }
+}

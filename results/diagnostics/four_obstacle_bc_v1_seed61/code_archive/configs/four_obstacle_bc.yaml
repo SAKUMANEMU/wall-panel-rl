@@ -1,0 +1,20 @@
+teacher_report: results/diagnostics/four_safe_teacher_v1_seed61
+teacher: data/four_safe_teacher_v1_seed61/teacher/teacher.npz
+retention_teacher: data/consistent_two_static_v4_seed61/teacher/teacher.npz
+old_heldout_metadata: results/diagnostics/clearance_ppo_v3_seed61/collision_diagnosis.json
+one_validation: data/two_static_warmup_v1_seed61/one_validation.json
+two_validation: data/two_static_warmup_v1_seed61/two_validation.json
+model_root: models/four_obstacle_bc_v1_seed61
+report_root: results/diagnostics/four_obstacle_bc_v1_seed61
+seed: 61
+maximum_success_drop: 2
+ppo_steps: 0
+bc:
+  updates: 1000
+  checkpoints: [25, 50, 100, 250, 500, 1000]
+  batch_size: 256
+  learning_rate: 0.00005
+  task_weights: {four_static: 0.80, two_static: 0.10, one_static: 0.05, alignment: 0.05}
+  terminal_weight: 0.2
+  adapter_weight: 0.001
+  correction_weight: 3.0

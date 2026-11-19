@@ -1,0 +1,64 @@
+{
+  "status": "completed",
+  "phase": "complete",
+  "summary": {
+    "source_validation": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "selected_bc": {
+      "arm": 0,
+      "learning_rate": 1e-06,
+      "bc_updates": 0,
+      "metrics": {
+        "episodes": 64,
+        "success": 37,
+        "collision": 26,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        1,
+        37,
+        -26,
+        -1
+      ],
+      "accepted_updates": 0,
+      "rejected_updates": 0
+    },
+    "bc_improved": false,
+    "ppo_started": false,
+    "ppo_skipped_reason": "Corrective BC did not improve validation; original source retained",
+    "correction_data": {
+      "verified_corrections": 32,
+      "corrected_layouts": 32,
+      "head_training_pairs": 507,
+      "full_verified_suffix_pairs": 1998,
+      "success_anchor_states": 2675,
+      "nonzero_time_corrections": 21,
+      "source_outcomes": {
+        "success": 110,
+        "collision": 79,
+        "timeout": 3
+      },
+      "attempts": 32,
+      "attempt_outcomes": {
+        "success": 32
+      },
+      "train_only": true,
+      "dynamic_only": true,
+      "reference_and_clock_preserved": true,
+      "optimizer_updates": 0,
+      "source_unchanged": true
+    },
+    "independent_test_evaluated_during_bc": false,
+    "source_unchanged": true,
+    "archived_code_and_inputs_verified": true,
+    "static_training_episodes": 0
+  }
+}

@@ -1,0 +1,17 @@
+...F.................                                                    [100%]
+=================================== FAILURES ===================================
+________________ test_dynamic_physical_execution_and_replanning ________________
+
+    def test_dynamic_physical_execution_and_replanning():
+        e = make_env()
+        try:
+            e.reset(seed=10002)
+            c = ClassicalController(e,10002)
+>           assert c.planning_success
+E           assert False
+E            +  where False = <wall_panel_rl.baselines.classical.ClassicalController object at 0x7f50d40d9f50>.planning_success
+
+tests/test_dynamic_obstacles.py:61: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_dynamic_obstacles.py::test_dynamic_physical_execution_and_replanning
+1 failed, 20 passed in 28.83s

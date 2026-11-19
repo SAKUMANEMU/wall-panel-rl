@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-04T13:46:36.453911+08:00",
+  "ppo_steps": 0,
+  "phase": "complete",
+  "updated_at": "2026-11-04T13:48:28.872393+08:00",
+  "updates_budget": 1000,
+  "group_episodes": {
+    "four_static": 64,
+    "two_static": 281,
+    "one_static": 54,
+    "alignment": 54
+  },
+  "bc_updates": 1000,
+  "four": {
+    "episodes": 32,
+    "success": 17,
+    "collision": 15,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "two": {
+    "episodes": 20,
+    "success": 8,
+    "collision": 6,
+    "timeout": 6,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "eligible": false,
+  "selected_bc_update": 25,
+  "ready_for_ppo_pilot": false
+}

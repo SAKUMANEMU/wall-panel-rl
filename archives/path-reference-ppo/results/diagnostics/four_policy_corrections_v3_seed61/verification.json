@@ -1,0 +1,48 @@
+{
+  "teacher": {
+    "episodes": 171,
+    "transitions": 8406,
+    "correction_episodes": 107,
+    "corrected_layouts": 38,
+    "teacher_sha256": "e41af82144be87573ea05111a0375f2e5d46bc1562b570b5ec48cfc3ba274e12",
+    "ready_for_bc": true,
+    "original64_arrays_preserved": true,
+    "training_steps": 0
+  },
+  "attempt_outcomes": {
+    "success": 107,
+    "no_verified_connector": 4,
+    "timeout": 2
+  },
+  "source_train_outcomes": {
+    "bc1000": {
+      "success": 34,
+      "collision": 30
+    },
+    "bc5000": {
+      "success": 36,
+      "collision": 26,
+      "timeout": 2
+    }
+  },
+  "canonical_routes_verified": 64,
+  "original_arrays_exact": true,
+  "train_only": true,
+  "replay": [
+    {
+      "seed": 1020001,
+      "maximum_error": 0.0,
+      "reason": "success"
+    },
+    {
+      "seed": 1020001,
+      "maximum_error": 0.0,
+      "reason": "success"
+    },
+    {
+      "seed": 1020002,
+      "maximum_error": 0.0,
+      "reason": "success"
+    }
+  ]
+}

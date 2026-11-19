@@ -1,0 +1,147 @@
+{
+  "seed": 5340300,
+  "controller": "enhanced",
+  "reason": "success",
+  "steps": 240,
+  "position_m": 0.006077683616173095,
+  "orientation_deg": 0.9229979530807261,
+  "reward": 291.4859445025485,
+  "zero_command_steps": 0,
+  "stationary_steps": 0,
+  "wall_seconds": 259.356635201,
+  "physics_elapsed_s": 11.99999999999964,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 4,
+  "recovery_actions": 148,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "collision",
+      "baseline_short_cost": 2.036162546276226,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          1,
+          5
+        ],
+        [
+          -0.4,
+          -0.4
+        ]
+      ],
+      "predicted_end_cost": 1.0645692844636496,
+      "predicted_gain": 0.9715932618125764,
+      "plan_steps": 60
+    },
+    {
+      "step": 125,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.4418504669495974,
+      "accepted": false
+    },
+    {
+      "step": 137,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.48839349117491004,
+      "accepted": false
+    },
+    {
+      "step": 149,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.5529313697967516,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          0,
+          2
+        ],
+        [
+          0.4,
+          0.4
+        ]
+      ],
+      "predicted_end_cost": 0.5214441309489392,
+      "predicted_gain": 0.03148723884781246,
+      "plan_steps": 60
+    },
+    {
+      "step": 209,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.6456851174884712,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          1,
+          5
+        ],
+        [
+          -0.4,
+          0.4
+        ]
+      ],
+      "predicted_end_cost": 0.37955016546787945,
+      "predicted_gain": 0.2661349520205918,
+      "plan_steps": 31
+    },
+    {
+      "step": 228,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.37955016546787945,
+      "accepted": true,
+      "mode": "bias",
+      "parameter": [
+        5,
+        0.4
+      ],
+      "predicted_end_cost": 0.0023425181173397334,
+      "predicted_gain": 0.37720764735053974,
+      "plan_steps": 12
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 39566,
+  "vertical_plan_events": [],
+  "installation_events": [
+    {
+      "step": 237,
+      "mode": "terminal_pose",
+      "gain": 0.7,
+      "predicted_success": true,
+      "predicted_end_cost": 0.008010806008624312,
+      "plan_steps": 3
+    }
+  ],
+  "passage_count": 0,
+  "success_with_weaving": false,
+  "arm": "v31_selected",
+  "obstacle_count": 4,
+  "model_key": "v31",
+  "controller_key": "installation",
+  "case_sha256": "e41d8a7ff232282519a02bb707017ea8ccd06247f63dad1ef19b6cf983128c34",
+  "max_obstacle_speed_m_s": 0.1462560903833909,
+  "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+  "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+  "timeout_diagnosis": {
+    "primary": "success",
+    "flags": {
+      "waiting": false,
+      "stale_reference": false,
+      "terminal_precision": true
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.0,
+    "zero_command_fraction": 0.0,
+    "reference_telemetry_available": true,
+    "reference_index_start": 1,
+    "reference_index_end": 44,
+    "final_reference_distance_rad": 0.031028545993048138,
+    "final_position_m": 0.006077683616173095,
+    "final_orientation_deg": 0.9229979530807261,
+    "reference_state_inferred": false
+  }
+}

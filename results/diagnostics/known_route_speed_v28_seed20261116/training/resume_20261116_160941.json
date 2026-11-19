@@ -1,0 +1,13 @@
+{
+  "resumed_at": "2026-11-16T16:09:41.759701+08:00",
+  "pid": 4459,
+  "checkpoint": "/home/johnsonchen/wall-panel-rl/results/diagnostics/known_route_speed_v28_seed20261116/training/models/ppo_8192.zip",
+  "checkpoint_sha256": "e3cbb3d989b6577cece4a7a21e117ad24600f83b490ebd4f95c01261eb6a7555",
+  "completed_ppo_steps": 8192,
+  "remaining_ppo_steps": 57344,
+  "optimizer_restored": true,
+  "environment_rng_reinitialized": true,
+  "bitwise_continuation": false,
+  "training_seed_after_resume": 20269308,
+  "original_protocol_preserved": true
+}

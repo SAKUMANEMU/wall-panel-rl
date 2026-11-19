@@ -1,0 +1,8 @@
+{
+  "observed_transitions": 10000,
+  "recovery_attempt_events": 0,
+  "recovery_success_events": 0,
+  "stall_penalty_events": 0,
+  "stall_penalty_sum": 0.0,
+  "wall_penalty_sum": -107.77941069573292
+}

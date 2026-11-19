@@ -1,0 +1,9 @@
+{
+  "verified_offline_episodes": 52,
+  "dynamic_only_pool_pairs": 3948,
+  "pool_exactly_matches_verified_teachers": true,
+  "no_heldout_labels": true,
+  "all_time_checks_and_replays_verified": true,
+  "archived_code_and_inputs_verified": true,
+  "source_unchanged": true
+}

@@ -1,0 +1,23 @@
+{
+  "outcomes": {
+    "success": 110,
+    "collision": 79,
+    "timeout": 3
+  },
+  "collision_stages": {
+    "middle": 52,
+    "early": 25,
+    "terminal": 2
+  },
+  "collision_components": {
+    "panel / obstacle_1": 5,
+    "panel / obstacle_2": 19,
+    "panel / obstacle_3": 28,
+    "arm / obstacle_3": 4,
+    "panel / obstacle_0": 1
+  },
+  "collision_component_unit": "terminal contact pairs; multiple pairs may belong to one episode",
+  "collision_episodes_without_pair_evidence": 22,
+  "source": "training cases only",
+  "evaluation_cases_used": false
+}

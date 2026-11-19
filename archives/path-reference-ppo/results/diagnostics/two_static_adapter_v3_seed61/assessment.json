@@ -1,0 +1,13 @@
+{
+  "bc_learning_gate_passed": true,
+  "selected_bc_updates": 250,
+  "selected_ppo_additional_steps": 0,
+  "selected_candidate_validation_eligible": false,
+  "new_test_gate_passed": false,
+  "ppo_stability_passed": false,
+  "learned_multi_obstacle_actions": true,
+  "default_model_preserved": true,
+  "automatic_dynamic_stage": false,
+  "new_test_not_worse_than_initialization": false,
+  "two_task_ready": false
+}

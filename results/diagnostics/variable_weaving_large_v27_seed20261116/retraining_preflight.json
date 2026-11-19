@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "linear_size_increase_factor": 1.25,
+  "counts": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "probability_per_count": 0.25,
+  "training_rng_seed": 20261115,
+  "new_train_validation_test_banks": true,
+  "planned_scenes": 80,
+  "bc_updates": 1000,
+  "ppo_steps": 65536,
+  "smoke_check": {
+    "passed": true,
+    "additional_steps": 256,
+    "all_four_larger_obstacle_counts_used": true,
+    "finite_parameters": true,
+    "actor_parameters_updated": true,
+    "save_reload_identical": true,
+    "source_unchanged": true
+  },
+  "initial_model_sha256": "9dde7d9e800bd70afa2f8ac98357abed2ad8778b579f7823c187937040ae76b1"
+}

@@ -1,0 +1,13 @@
+pybullet build time: Jan 29 2025 23:17:20
+Planning mode: timed
+10000 False False 0
+10001 True False 0
+10002 True False 0
+10003 True False 0
+10004 False False 0
+10005 True False 0
+10006 True False 0
+10007 True False 0
+10008 True False 0
+10009 False False 0
+{'episodes': 10, 'successes': 7, 'collisions': 0, 'planning_failures': 3, 'replans': 0, 'scheduled_waits': 164, 'successful_envelope_crossings': 7}

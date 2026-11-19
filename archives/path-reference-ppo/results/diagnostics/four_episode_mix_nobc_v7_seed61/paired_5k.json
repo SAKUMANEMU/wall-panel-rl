@@ -1,0 +1,15 @@
+{
+  "ppo": {
+    "success -> success": 50,
+    "success -> collision": 3,
+    "collision -> collision": 8,
+    "timeout -> timeout": 1,
+    "success -> timeout": 2
+  },
+  "mixture": {
+    "success -> success": 55,
+    "success -> collision": 3,
+    "collision -> collision": 4,
+    "success -> timeout": 2
+  }
+}

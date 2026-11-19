@@ -1,0 +1,7 @@
+arm,train_speed_m_s,additional_ppo_steps,total_added_since_v5,selected,target_success,target_collision,target_timeout,static_frozen_success,static_frozen_collision,static_frozen_timeout,legacy_static_success,legacy_static_collision,legacy_static_timeout,mixture_success,mixture_collision,mixture_timeout
+slow01,0.01,0,2000,False,43,18,3,44,16,4,57,7,0,51,11,2
+slow01,0.01,1000,3000,False,45,17,2,45,16,3,57,7,0,53,10,1
+slow01,0.01,2000,4000,True,47,15,2,45,15,4,57,7,0,53,10,1
+fast02,0.02,0,2000,False,43,18,3,44,16,4,57,7,0,51,11,2
+fast02,0.02,1000,3000,False,46,16,2,45,16,3,57,7,0,53,10,1
+fast02,0.02,2000,4000,True,47,15,2,46,15,3,57,7,0,54,9,1

@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "training_steps": 0,
+  "started_at": "2026-11-03T22:55:12.586008+08:00",
+  "phase": "complete",
+  "updated_at": "2026-11-03T22:56:01.241138+08:00",
+  "layouts": 100,
+  "accepted": 99,
+  "placement_failures": 1,
+  "valid_cases": 99,
+  "on_path": {
+    "episodes": 99,
+    "success": 24,
+    "collision": 75,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  }
+}

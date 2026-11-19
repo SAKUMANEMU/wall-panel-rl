@@ -1,0 +1,11 @@
+{
+  "source_file_unchanged": true,
+  "frozen_banks_unchanged": true,
+  "fresh_train_validation_disjoint": true,
+  "one_three_have_identical_scene_ids": true,
+  "fresh_target_count": 100,
+  "three_bank_used_for_checkpoint_selection": false,
+  "default_one_model_preserved": true,
+  "automatic_dynamic_stage": false,
+  "diagnostic_candidate_keeps_source_weights": true
+}

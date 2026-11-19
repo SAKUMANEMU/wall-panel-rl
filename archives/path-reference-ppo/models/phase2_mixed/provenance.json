@@ -1,0 +1,18 @@
+{
+  "config": "configs/stage_b_curriculum.yaml",
+  "seed": 42,
+  "total_timesteps": 50000,
+  "run_name": "phase2_mixed",
+  "device": "cpu",
+  "render": false,
+  "resume": "models/phase1_restored/final_model.zip",
+  "python": "3.11.5 (main, Sep 11 2023, 13:54:46) [GCC 11.2.0]",
+  "packages": {
+    "pybullet": "3.2.7",
+    "gymnasium": "1.2.3",
+    "stable-baselines3": "2.8.0",
+    "torch": "2.5.1+cpu",
+    "numpy": "1.24.3"
+  },
+  "source_model_sha256": "d3d6312b5a1943e0c12791a3ec69635f9775ea3f6db1c87e4fe5bef392beaa3a"
+}

@@ -1,0 +1,357 @@
+[
+  {
+    "update": 0,
+    "heldout_mse": {
+      "two_static": 0.02761068195104599,
+      "one_static": 0.012746386229991913,
+      "alignment": 0.0
+    },
+    "eligible": false,
+    "ppo_ready": false,
+    "score": [
+      0,
+      0,
+      -20,
+      0,
+      18,
+      0
+    ],
+    "checks": {
+      "two_gate": false,
+      "one_gate": true,
+      "one_zero_collision": true,
+      "goals": true,
+      "alignment_collision_free": true
+    },
+    "two": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 0,
+        "collision": 20,
+        "timeout": 0,
+        "joint_limit": 0
+      }
+    },
+    "one": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 18,
+        "collision": 0,
+        "timeout": 2,
+        "joint_limit": 0
+      }
+    }
+  },
+  {
+    "update": 1000,
+    "heldout_mse": {
+      "two_static": 0.0147468326613307,
+      "one_static": 0.011389191262423992,
+      "alignment": 0.0
+    },
+    "eligible": false,
+    "ppo_ready": false,
+    "score": [
+      0,
+      2,
+      -17,
+      0,
+      2,
+      -16
+    ],
+    "checks": {
+      "two_gate": false,
+      "one_gate": false,
+      "one_zero_collision": false,
+      "goals": true,
+      "alignment_collision_free": true
+    },
+    "two": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 2,
+        "collision": 17,
+        "timeout": 1,
+        "joint_limit": 0
+      }
+    },
+    "one": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 2,
+        "collision": 16,
+        "timeout": 2,
+        "joint_limit": 0
+      }
+    }
+  },
+  {
+    "update": 2500,
+    "heldout_mse": {
+      "two_static": 0.014439878985285759,
+      "one_static": 0.011269023641943932,
+      "alignment": 0.0
+    },
+    "eligible": false,
+    "ppo_ready": false,
+    "score": [
+      0,
+      7,
+      -12,
+      0,
+      6,
+      -13
+    ],
+    "checks": {
+      "two_gate": false,
+      "one_gate": false,
+      "one_zero_collision": false,
+      "goals": true,
+      "alignment_collision_free": true
+    },
+    "two": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 7,
+        "collision": 12,
+        "timeout": 1,
+        "joint_limit": 0
+      }
+    },
+    "one": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 6,
+        "collision": 13,
+        "timeout": 1,
+        "joint_limit": 0
+      }
+    }
+  },
+  {
+    "update": 5000,
+    "heldout_mse": {
+      "two_static": 0.014217032119631767,
+      "one_static": 0.011065363883972168,
+      "alignment": 0.0
+    },
+    "eligible": false,
+    "ppo_ready": false,
+    "score": [
+      0,
+      3,
+      -16,
+      0,
+      2,
+      -16
+    ],
+    "checks": {
+      "two_gate": false,
+      "one_gate": false,
+      "one_zero_collision": false,
+      "goals": true,
+      "alignment_collision_free": true
+    },
+    "two": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 3,
+        "collision": 16,
+        "timeout": 1,
+        "joint_limit": 0
+      }
+    },
+    "one": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 2,
+        "collision": 16,
+        "timeout": 2,
+        "joint_limit": 0
+      }
+    }
+  },
+  {
+    "update": 10000,
+    "heldout_mse": {
+      "two_static": 0.014218341559171677,
+      "one_static": 0.011042020283639431,
+      "alignment": 0.0
+    },
+    "eligible": false,
+    "ppo_ready": false,
+    "score": [
+      0,
+      4,
+      -16,
+      0,
+      2,
+      -16
+    ],
+    "checks": {
+      "two_gate": false,
+      "one_gate": false,
+      "one_zero_collision": false,
+      "goals": true,
+      "alignment_collision_free": true
+    },
+    "two": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 4,
+        "collision": 16,
+        "timeout": 0,
+        "joint_limit": 0
+      }
+    },
+    "one": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 2,
+        "collision": 16,
+        "timeout": 2,
+        "joint_limit": 0
+      }
+    }
+  }
+]

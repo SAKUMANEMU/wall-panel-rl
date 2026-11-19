@@ -1,0 +1,12 @@
+# All heights use the robot base coordinate frame, in meters.
+enabled: true
+floor_z: 0.1
+ceiling_z: 1.1
+slab_thickness: 0.12
+footprint:
+- 4.0
+- 4.0
+wall_width: 3.4
+cutaway_ceiling: true
+visual_details: true
+obstacle_style: construction_load

@@ -1,0 +1,31 @@
+{
+  "additional_ppo_steps": 65536,
+  "optimizer_epoch_updates": 384,
+  "ppo_episodes": 599,
+  "training_counts": {
+    "2": {
+      "success": 0,
+      "collision": 150,
+      "timeout": 4,
+      "joint_limit": 0
+    },
+    "3": {
+      "success": 0,
+      "collision": 144,
+      "timeout": 21,
+      "joint_limit": 0
+    },
+    "4": {
+      "success": 0,
+      "collision": 94,
+      "timeout": 41,
+      "joint_limit": 0
+    },
+    "5": {
+      "success": 0,
+      "collision": 78,
+      "timeout": 67,
+      "joint_limit": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "seed": 4140000,
+    "reason": "success",
+    "diagnosis": {
+      "primary": "success",
+      "flags": {
+        "waiting": false,
+        "stale_reference": false,
+        "terminal_precision": true
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.0,
+      "zero_command_fraction": 0.0,
+      "reference_telemetry_available": true,
+      "reference_index_start": 13,
+      "reference_index_end": 44,
+      "final_reference_distance_rad": 0.054917674523699486,
+      "final_position_m": 0.009238044289390108,
+      "final_orientation_deg": 0.7645833248397873,
+      "reference_state_inferred": false
+    }
+  },
+  {
+    "seed": 4130001,
+    "reason": "timeout",
+    "diagnosis": {
+      "primary": "stale_reference",
+      "flags": {
+        "waiting": false,
+        "stale_reference": true,
+        "terminal_precision": false
+      },
+      "window_steps": 40,
+      "stationary_fraction": 0.325,
+      "zero_command_fraction": 0.34146341463414637,
+      "reference_telemetry_available": true,
+      "reference_index_start": 1,
+      "reference_index_end": 1,
+      "final_reference_distance_rad": 2.7667224777821073,
+      "final_position_m": 0.6366007444079066,
+      "final_orientation_deg": 86.2554931634467,
+      "reference_state_inferred": false
+    }
+  }
+]

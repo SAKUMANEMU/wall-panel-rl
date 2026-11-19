@@ -1,0 +1,18 @@
+{
+  "new_passed": 8,
+  "failed": 0,
+  "runs": [
+    {
+      "passed": 5,
+      "seconds": 5.61
+    },
+    {
+      "passed": 3,
+      "seconds": 6.64
+    }
+  ],
+  "hashes": {
+    "tests/test_dynamic_corrections.py": "a705393b74157df17ee13bcc6b9407436e0626df6c5ee947f36d43f112c57741",
+    "tests/test_predictive_safety.py": "d2bb3a3d80f840aad6babd1f10fccd935a9b001e161fce78d779050b50cbd636"
+  }
+}

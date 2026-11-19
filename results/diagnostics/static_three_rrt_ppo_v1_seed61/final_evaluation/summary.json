@@ -1,0 +1,145 @@
+{
+  "model_sha256": "95944bcb7a4cdd7cc0d8724e6fed847e6218006f8a180eac801843ba1f96312a",
+  "training_performed": false,
+  "independent_test": false,
+  "controllers": {
+    "ppo": {
+      "metrics": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 0,
+          "collision": 1,
+          "timeout": 17,
+          "joint_limit": 2,
+          "planning_failure": 0
+        }
+      },
+      "by_controller": {
+        "rrt": {
+          "episodes": 0,
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "ppo": {
+          "episodes": 40,
+          "success": 20,
+          "collision": 1,
+          "timeout": 17,
+          "joint_limit": 2,
+          "planning_failure": 0
+        }
+      }
+    },
+    "rrt": {
+      "metrics": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 20,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        }
+      },
+      "by_controller": {
+        "rrt": {
+          "episodes": 40,
+          "success": 40,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "ppo": {
+          "episodes": 0,
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        }
+      }
+    },
+    "mixture": {
+      "metrics": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 8,
+          "collision": 1,
+          "timeout": 10,
+          "joint_limit": 1,
+          "planning_failure": 0
+        }
+      },
+      "by_controller": {
+        "rrt": {
+          "episodes": 16,
+          "success": 16,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0
+        },
+        "ppo": {
+          "episodes": 24,
+          "success": 12,
+          "collision": 1,
+          "timeout": 10,
+          "joint_limit": 1,
+          "planning_failure": 0
+        }
+      }
+    }
+  }
+}

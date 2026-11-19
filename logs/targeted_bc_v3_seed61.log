@@ -1,0 +1,208 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "mode": "run",
+  "study": {
+    "base_config": "configs/staged_avoidance.yaml",
+    "base_data": "data/staged_avoidance_v3_seed61/one_static",
+    "initial_model": "models/bc_budget_v3_seed61/same_data_10k/bc/checkpoints/bc_10000.zip",
+    "initial_state": "models/bc_budget_v3_seed61/same_data_10k/bc/checkpoints/bc_10000.bc_state.pt",
+    "initial_metadata": "models/bc_budget_v3_seed61/same_data_10k/bc/metadata.json",
+    "output_root": "models/targeted_bc_v3_seed61",
+    "data_root": "data/targeted_bc_v3_seed61",
+    "report_root": "/home/johnsonchen/wall-panel-rl/results/diagnostics/targeted_bc_v3_seed61",
+    "additional_updates": 10000,
+    "checkpoints": [
+      2000,
+      4000,
+      6000,
+      8000,
+      10000
+    ],
+    "correction_successes": 100,
+    "maximum_correction_attempts": 400,
+    "handoff_leads": [
+      2,
+      6,
+      12,
+      20,
+      32
+    ],
+    "independent_start_seed": 980000,
+    "independent_scenes": 100,
+    "maximum_generation_attempts": 1000
+  }
+}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "diagnose_validation", "updated_at": "2026-10-30T13:19:22.188373+08:00"}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "diagnose_validation", "updated_at": "2026-10-30T13:19:23.984886+08:00", "diagnosed": 10}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "diagnose_validation", "updated_at": "2026-10-30T13:19:26.907804+08:00", "diagnosed": 20}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "diagnose_train", "updated_at": "2026-10-30T13:19:27.021417+08:00", "diagnosed": 20}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "diagnose_train", "updated_at": "2026-10-30T13:19:28.788989+08:00", "diagnosed": 10}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "diagnose_train", "updated_at": "2026-10-30T13:19:30.810757+08:00", "diagnosed": 20}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "diagnose_train", "updated_at": "2026-10-30T13:19:32.913098+08:00", "diagnosed": 30}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "diagnose_train", "updated_at": "2026-10-30T13:19:34.585293+08:00", "diagnosed": 40}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "diagnose_train", "updated_at": "2026-10-30T13:19:36.377218+08:00", "diagnosed": 50}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:19:54.547221+08:00", "diagnosed": 50, "generated": 10}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:20:11.329828+08:00", "diagnosed": 50, "generated": 20}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:20:26.739010+08:00", "diagnosed": 50, "generated": 30}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:20:43.660598+08:00", "diagnosed": 50, "generated": 40}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:21:00.516621+08:00", "diagnosed": 50, "generated": 50}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:21:16.049936+08:00", "diagnosed": 50, "generated": 60}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:21:31.705938+08:00", "diagnosed": 50, "generated": 70}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:21:48.258647+08:00", "diagnosed": 50, "generated": 80}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:22:05.281299+08:00", "diagnosed": 50, "generated": 90}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "freeze_independent_bank", "updated_at": "2026-10-30T13:22:21.086507+08:00", "diagnosed": 50, "generated": 100}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:22:21.375913+08:00", "diagnosed": 50, "generated": 100}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:22:32.146539+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 10, "correction_attempts": 10}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:22:42.350175+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 18, "correction_attempts": 20}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:22:47.555416+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 28, "correction_attempts": 30}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:22:57.480906+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 37, "correction_attempts": 40}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:23:09.247539+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 46, "correction_attempts": 50}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:23:15.308427+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 55, "correction_attempts": 60}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:23:23.162011+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 65, "correction_attempts": 70}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:23:35.733219+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 75, "correction_attempts": 80}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:23:45.522921+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 83, "correction_attempts": 90}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:23:52.548126+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 93, "correction_attempts": 100}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "collect_corrections", "updated_at": "2026-10-30T13:23:56.724369+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "audit_corrections", "updated_at": "2026-10-30T13:23:56.900348+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107}
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "training_performed": false,
+  "teacher_sha256": "0b9580d51f5c8d6b69e210aa0b74f70d9d3ba49ce47f2d4d1957dce974fa9900",
+  "sampled_corrections": 10,
+  "success": 10,
+  "max_observation_error": 0.0,
+  "prefixes_not_labels": true,
+  "rows": [
+    {
+      "episode": 0,
+      "seed": 800002,
+      "prefix_steps": 18,
+      "labelled_steps": 45,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 63,
+      "original_total_steps": 63
+    },
+    {
+      "episode": 11,
+      "seed": 800018,
+      "prefix_steps": 21,
+      "labelled_steps": 30,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 51,
+      "original_total_steps": 51
+    },
+    {
+      "episode": 22,
+      "seed": 800037,
+      "prefix_steps": 24,
+      "labelled_steps": 27,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 51,
+      "original_total_steps": 51
+    },
+    {
+      "episode": 33,
+      "seed": 800002,
+      "prefix_steps": 17,
+      "labelled_steps": 44,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 61,
+      "original_total_steps": 61
+    },
+    {
+      "episode": 44,
+      "seed": 800018,
+      "prefix_steps": 18,
+      "labelled_steps": 32,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 50,
+      "original_total_steps": 50
+    },
+    {
+      "episode": 55,
+      "seed": 800037,
+      "prefix_steps": 20,
+      "labelled_steps": 42,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 62,
+      "original_total_steps": 62
+    },
+    {
+      "episode": 66,
+      "seed": 800063,
+      "prefix_steps": 69,
+      "labelled_steps": 54,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 123,
+      "original_total_steps": 123
+    },
+    {
+      "episode": 77,
+      "seed": 800014,
+      "prefix_steps": 17,
+      "labelled_steps": 37,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 54,
+      "original_total_steps": 54
+    },
+    {
+      "episode": 88,
+      "seed": 800035,
+      "prefix_steps": 14,
+      "labelled_steps": 40,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 54,
+      "original_total_steps": 54
+    },
+    {
+      "episode": 99,
+      "seed": 800061,
+      "prefix_steps": 66,
+      "labelled_steps": 32,
+      "reason": "success",
+      "max_observation_error": 0.0,
+      "total_steps": 98,
+      "original_total_steps": 98
+    }
+  ]
+}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_original_only", "updated_at": "2026-10-30T13:23:59.926852+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 0}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_original_only", "updated_at": "2026-10-30T13:24:12.824570+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 0, "validation_target": {"episodes": 20, "success": 10, "collision": 9, "joint_limit": 0, "timeout": 1, "timeout_mean_position_m": 1.5109055477582276, "timeout_mean_orientation_deg": 179.75452946702484, "successful_mean_steps": 53.1, "mean_reward": 166.16098874995296}}
+BC checkpoint 0 passed False target {'episodes': 20, 'success': 10, 'collision': 9, 'joint_limit': 0, 'timeout': 1, 'timeout_mean_position_m': 1.5109055477582276, 'timeout_mean_orientation_deg': 179.75452946702484, 'successful_mean_steps': 53.1, 'mean_reward': 166.16098874995296}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_original_only", "updated_at": "2026-10-30T13:24:27.270350+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 2000, "validation_target": {"episodes": 20, "success": 0, "collision": 20, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 29.81272373100294}}
+BC checkpoint 2000 passed False target {'episodes': 20, 'success': 0, 'collision': 20, 'joint_limit': 0, 'timeout': 0, 'timeout_mean_position_m': None, 'timeout_mean_orientation_deg': None, 'successful_mean_steps': None, 'mean_reward': 29.81272373100294}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_original_only", "updated_at": "2026-10-30T13:24:41.507164+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 4000, "validation_target": {"episodes": 20, "success": 0, "collision": 20, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 30.579803297702817}}
+BC checkpoint 4000 passed False target {'episodes': 20, 'success': 0, 'collision': 20, 'joint_limit': 0, 'timeout': 0, 'timeout_mean_position_m': None, 'timeout_mean_orientation_deg': None, 'successful_mean_steps': None, 'mean_reward': 30.579803297702817}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_original_only", "updated_at": "2026-10-30T13:24:55.807310+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 6000, "validation_target": {"episodes": 20, "success": 0, "collision": 19, "joint_limit": 0, "timeout": 1, "timeout_mean_position_m": 0.7809065049138773, "timeout_mean_orientation_deg": 55.970792075349706, "successful_mean_steps": null, "mean_reward": 25.63683923158045}}
+BC checkpoint 6000 passed False target {'episodes': 20, 'success': 0, 'collision': 19, 'joint_limit': 0, 'timeout': 1, 'timeout_mean_position_m': 0.7809065049138773, 'timeout_mean_orientation_deg': 55.970792075349706, 'successful_mean_steps': None, 'mean_reward': 25.63683923158045}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_original_only", "updated_at": "2026-10-30T13:25:11.403742+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 8000, "validation_target": {"episodes": 20, "success": 1, "collision": 17, "joint_limit": 0, "timeout": 2, "timeout_mean_position_m": 1.5254002609627837, "timeout_mean_orientation_deg": 178.69748364140645, "successful_mean_steps": 58.0, "mean_reward": 53.652435669152034}}
+BC checkpoint 8000 passed False target {'episodes': 20, 'success': 1, 'collision': 17, 'joint_limit': 0, 'timeout': 2, 'timeout_mean_position_m': 1.5254002609627837, 'timeout_mean_orientation_deg': 178.69748364140645, 'successful_mean_steps': 58.0, 'mean_reward': 53.652435669152034}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_original_only", "updated_at": "2026-10-30T13:25:25.875497+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 0, "collision": 19, "joint_limit": 0, "timeout": 1, "timeout_mean_position_m": 1.1564219186032298, "timeout_mean_orientation_deg": 110.20652656263955, "successful_mean_steps": null, "mean_reward": 25.570303794882136}}
+BC checkpoint 10000 passed False target {'episodes': 20, 'success': 0, 'collision': 19, 'joint_limit': 0, 'timeout': 1, 'timeout_mean_position_m': 1.1564219186032298, 'timeout_mean_orientation_deg': 110.20652656263955, 'successful_mean_steps': None, 'mean_reward': 25.570303794882136}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_targeted_mix", "updated_at": "2026-10-30T13:25:25.882656+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 0, "validation_target": {"episodes": 20, "success": 0, "collision": 19, "joint_limit": 0, "timeout": 1, "timeout_mean_position_m": 1.1564219186032298, "timeout_mean_orientation_deg": 110.20652656263955, "successful_mean_steps": null, "mean_reward": 25.570303794882136}}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_targeted_mix", "updated_at": "2026-10-30T13:25:38.878666+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 0, "validation_target": {"episodes": 20, "success": 10, "collision": 9, "joint_limit": 0, "timeout": 1, "timeout_mean_position_m": 1.5109055477582276, "timeout_mean_orientation_deg": 179.75452946702484, "successful_mean_steps": 53.1, "mean_reward": 166.16098874995296}}
+BC checkpoint 0 passed False target {'episodes': 20, 'success': 10, 'collision': 9, 'joint_limit': 0, 'timeout': 1, 'timeout_mean_position_m': 1.5109055477582276, 'timeout_mean_orientation_deg': 179.75452946702484, 'successful_mean_steps': 53.1, 'mean_reward': 166.16098874995296}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_targeted_mix", "updated_at": "2026-10-30T13:25:54.287864+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 2000, "validation_target": {"episodes": 20, "success": 0, "collision": 19, "joint_limit": 0, "timeout": 1, "timeout_mean_position_m": 0.46372510917656257, "timeout_mean_orientation_deg": 32.479670384841135, "successful_mean_steps": null, "mean_reward": 41.62471675464929}}
+BC checkpoint 2000 passed False target {'episodes': 20, 'success': 0, 'collision': 19, 'joint_limit': 0, 'timeout': 1, 'timeout_mean_position_m': 0.46372510917656257, 'timeout_mean_orientation_deg': 32.479670384841135, 'successful_mean_steps': None, 'mean_reward': 41.62471675464929}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_targeted_mix", "updated_at": "2026-10-30T13:26:11.153839+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 4000, "validation_target": {"episodes": 20, "success": 13, "collision": 7, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 56.46153846153846, "mean_reward": 221.8893245239073}}
+BC checkpoint 4000 passed False target {'episodes': 20, 'success': 13, 'collision': 7, 'joint_limit': 0, 'timeout': 0, 'timeout_mean_position_m': None, 'timeout_mean_orientation_deg': None, 'successful_mean_steps': 56.46153846153846, 'mean_reward': 221.8893245239073}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_targeted_mix", "updated_at": "2026-10-30T13:26:29.242556+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 6000, "validation_target": {"episodes": 20, "success": 1, "collision": 17, "joint_limit": 0, "timeout": 2, "timeout_mean_position_m": 0.9181430154870287, "timeout_mean_orientation_deg": 77.31026288493456, "successful_mean_steps": 70.0, "mean_reward": 44.77471209581448}}
+BC checkpoint 6000 passed False target {'episodes': 20, 'success': 1, 'collision': 17, 'joint_limit': 0, 'timeout': 2, 'timeout_mean_position_m': 0.9181430154870287, 'timeout_mean_orientation_deg': 77.31026288493456, 'successful_mean_steps': 70.0, 'mean_reward': 44.77471209581448}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_targeted_mix", "updated_at": "2026-10-30T13:26:46.638135+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 8000, "validation_target": {"episodes": 20, "success": 5, "collision": 13, "joint_limit": 0, "timeout": 2, "timeout_mean_position_m": 0.1335248728171745, "timeout_mean_orientation_deg": 32.51345404406208, "successful_mean_steps": 59.8, "mean_reward": 149.13101320755365}}
+BC checkpoint 8000 passed False target {'episodes': 20, 'success': 5, 'collision': 13, 'joint_limit': 0, 'timeout': 2, 'timeout_mean_position_m': 0.1335248728171745, 'timeout_mean_orientation_deg': 32.51345404406208, 'successful_mean_steps': 59.8, 'mean_reward': 149.13101320755365}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "bc_targeted_mix", "updated_at": "2026-10-30T13:27:04.905959+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 13, "collision": 2, "joint_limit": 0, "timeout": 5, "timeout_mean_position_m": 0.27417970143319287, "timeout_mean_orientation_deg": 65.02447964964355, "successful_mean_steps": 65.07692307692308, "mean_reward": 243.49765479231806}}
+BC checkpoint 10000 passed True target {'episodes': 20, 'success': 13, 'collision': 2, 'joint_limit': 0, 'timeout': 5, 'timeout_mean_position_m': 0.27417970143319287, 'timeout_mean_orientation_deg': 65.02447964964355, 'successful_mean_steps': 65.07692307692308, 'mean_reward': 243.49765479231806}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "independent_test", "updated_at": "2026-10-30T13:27:04.913591+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 13, "collision": 2, "joint_limit": 0, "timeout": 5, "timeout_mean_position_m": 0.27417970143319287, "timeout_mean_orientation_deg": 65.02447964964355, "successful_mean_steps": 65.07692307692308, "mean_reward": 243.49765479231806}}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "independent_test", "updated_at": "2026-10-30T13:27:22.236234+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 13, "collision": 2, "joint_limit": 0, "timeout": 5, "timeout_mean_position_m": 0.27417970143319287, "timeout_mean_orientation_deg": 65.02447964964355, "successful_mean_steps": 65.07692307692308, "mean_reward": 243.49765479231806}, "evaluated_model": "baseline", "independent_target": {"episodes": 100, "success": 36, "collision": 61, "joint_limit": 1, "timeout": 2}}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "independent_test", "updated_at": "2026-10-30T13:27:39.606894+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 13, "collision": 2, "joint_limit": 0, "timeout": 5, "timeout_mean_position_m": 0.27417970143319287, "timeout_mean_orientation_deg": 65.02447964964355, "successful_mean_steps": 65.07692307692308, "mean_reward": 243.49765479231806}, "evaluated_model": "original_only", "independent_target": {"episodes": 100, "success": 36, "collision": 61, "joint_limit": 1, "timeout": 2}}
+TARGETED {"status": "running", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "independent_test", "updated_at": "2026-10-30T13:28:10.894809+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 13, "collision": 2, "joint_limit": 0, "timeout": 5, "timeout_mean_position_m": 0.27417970143319287, "timeout_mean_orientation_deg": 65.02447964964355, "successful_mean_steps": 65.07692307692308, "mean_reward": 243.49765479231806}, "evaluated_model": "targeted_mix", "independent_target": {"episodes": 100, "success": 60, "collision": 13, "joint_limit": 0, "timeout": 27}}
+TARGETED {"status": "completed", "runner_pid": 6436, "started_at": "2026-10-30T13:19:22.064906+08:00", "ppo_environment_steps": 0, "additional_bc_updates_per_variant": 10000, "phase": "complete", "updated_at": "2026-10-30T13:28:10.895493+08:00", "diagnosed": 50, "generated": 100, "correction_successes": 100, "correction_attempts": 107, "bc_update": 10000, "validation_target": {"episodes": 20, "success": 13, "collision": 2, "joint_limit": 0, "timeout": 5, "timeout_mean_position_m": 0.27417970143319287, "timeout_mean_orientation_deg": 65.02447964964355, "successful_mean_steps": 65.07692307692308, "mean_reward": 243.49765479231806}, "evaluated_model": "targeted_mix", "independent_target": {"episodes": 100, "success": 60, "collision": 13, "joint_limit": 0, "timeout": 27}, "finished_at": "2026-10-30T13:28:10.895482+08:00"}

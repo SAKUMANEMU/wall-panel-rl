@@ -1,0 +1,9 @@
+{
+  "config": "configs/stage_b.yaml",
+  "seed": 42,
+  "total_timesteps": 30000,
+  "run_name": "phase2_obstacle",
+  "device": "cpu",
+  "render": false,
+  "resume": "models/phase1_restored/final_model.zip"
+}

@@ -1,0 +1,72 @@
+{
+  "seed": 5330900,
+  "controller": "enhanced",
+  "reason": "success",
+  "steps": 221,
+  "position_m": 0.00013748816082728937,
+  "orientation_deg": 0.00963487089861736,
+  "reward": 260.0650729883904,
+  "zero_command_steps": 17,
+  "stationary_steps": 17,
+  "wall_seconds": 78.70747021900024,
+  "physics_elapsed_s": 11.049999999999693,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 1,
+  "recovery_actions": 8,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9520983524364892,
+      "accepted": true,
+      "mode": "paired",
+      "parameter": [
+        [
+          3,
+          5
+        ],
+        [
+          -0.4,
+          -0.4
+        ]
+      ],
+      "predicted_end_cost": 0.524689578382164,
+      "predicted_gain": 1.4274087740543253,
+      "plan_steps": 60
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 12524,
+  "vertical_plan_events": [],
+  "installation_events": [],
+  "passage_count": 0,
+  "success_with_weaving": false,
+  "arm": "v29_baseline",
+  "obstacle_count": 3,
+  "model_key": "v29",
+  "controller_key": "old",
+  "case_sha256": "2c982bf60a23b85315211f472610f5d7381ad85605a82028fff1198d49a1eb7b",
+  "max_obstacle_speed_m_s": 0.17226904806734697,
+  "model_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+  "runtime_sha256": "07f9ed1f2e60a65dc5b97b3459ce5b8e59c29c75e6b529a3f75a7ec171cee5f6",
+  "timeout_diagnosis": {
+    "primary": "success",
+    "flags": {
+      "waiting": false,
+      "stale_reference": false,
+      "terminal_precision": true
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.0,
+    "zero_command_fraction": 0.0,
+    "reference_telemetry_available": true,
+    "reference_index_start": 3,
+    "reference_index_end": 45,
+    "final_reference_distance_rad": 0.0001464733998652866,
+    "final_position_m": 0.00013748816082728937,
+    "final_orientation_deg": 0.00963487089861736,
+    "reference_state_inferred": false
+  }
+}

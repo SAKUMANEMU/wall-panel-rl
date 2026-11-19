@@ -1,0 +1,138 @@
+{
+  "source_first": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+  "output_root": "models/bc_budget_v3_seed61",
+  "data_root": "data/staged_avoidance_v3_seed61",
+  "interface_contract": "reference_preserving_v3",
+  "terminal_radius": 0.2,
+  "reference_recovery": {
+    "radius": 0.3,
+    "min_distance": 0.08,
+    "improvement": 0.02
+  },
+  "environment": "configs/ppo_dynamic_clean.yaml",
+  "release": "releases/path_reference_bc_20261025",
+  "seed": 61,
+  "additional_timesteps": 10000,
+  "workers": 4,
+  "n_steps": 250,
+  "batch_size": 100,
+  "n_epochs": 3,
+  "learning_rate": 0.0001,
+  "clip_range": 0.05,
+  "target_kl": 0.005,
+  "eval_every": 5000,
+  "residual_scale": 2.0,
+  "initial_prior_gate": 0.5,
+  "action_std": 0.1,
+  "progress_weight": 0.25,
+  "joint_margin": 0.01,
+  "clearance_distance": 0.08,
+  "clearance_weight": 0.5,
+  "mixture": {
+    "alignment": 0.2,
+    "static": 0.3,
+    "dynamic": 0.5
+  },
+  "train_scenes": 64,
+  "validation_scenes": 20,
+  "train_seed_base": 800000,
+  "validation_seed_base": 900000,
+  "teacher": {
+    "alignment_episodes": 20,
+    "avoidance_episodes": 80,
+    "maximum_attempts": 500,
+    "minimum_unique_scenes": 10,
+    "updates": 10000,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "terminal_weight": 2.0,
+    "gate_retention_weight": 0.01,
+    "residual_weight": 0.001,
+    "closed_loop_updates": [
+      2000,
+      4000,
+      6000,
+      8000,
+      10000
+    ]
+  },
+  "bc_gate": {
+    "minimum_episodes": 20,
+    "minimum_alignment_episodes": 10,
+    "minimum_success_rate": 0.5,
+    "maximum_collision_rate": 0.25,
+    "minimum_alignment_success_rate": 0.9,
+    "maximum_goal_action": 0.005
+  },
+  "gate": {
+    "minimum_episodes": 20,
+    "minimum_alignment_episodes": 10,
+    "minimum_success_rate": 0.8,
+    "maximum_collision_rate": 0.1,
+    "minimum_alignment_success_rate": 0.9,
+    "consecutive_checks": 2
+  },
+  "stages": [
+    {
+      "name": "one_static",
+      "count": 1,
+      "mode": "static",
+      "amplitude": 0.05,
+      "speed": 0.02
+    },
+    {
+      "name": "one_dynamic",
+      "count": 1,
+      "mode": "dynamic",
+      "amplitude": 0.05,
+      "speed": 0.02
+    },
+    {
+      "name": "three_dynamic",
+      "count": 3,
+      "mode": "dynamic",
+      "amplitude": 0.1,
+      "speed": 0.05
+    },
+    {
+      "name": "five_dynamic_low",
+      "count": 5,
+      "mode": "dynamic",
+      "amplitude": 0.1,
+      "speed": 0.05
+    },
+    {
+      "name": "five_dynamic_full",
+      "count": 5,
+      "mode": "dynamic",
+      "amplitude": 0.4,
+      "speed": 0.4
+    }
+  ],
+  "active_stage": {
+    "name": "one_static",
+    "count": 1,
+    "mode": "static",
+    "amplitude": 0.05,
+    "speed": 0.02
+  },
+  "stage_index": 0,
+  "train_start_seed": 800000,
+  "validation_start_seed": 900000,
+  "data": "data/staged_avoidance_v3_seed61/one_static",
+  "stage_output": "models/targeted_bc_v3_seed61/targeted_mix",
+  "output": "models/targeted_bc_v3_seed61/targeted_mix/ppo",
+  "source_model": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+  "stall_reward": {
+    "window": 20,
+    "position_epsilon": 0.001,
+    "orientation_epsilon_deg": 0.1,
+    "path_epsilon": 0.01,
+    "joint_displacement": 0.02,
+    "weight": 0.1
+  },
+  "wall_reward": {
+    "distance": 0.02,
+    "weight": 1.0
+  }
+}

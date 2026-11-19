@@ -1,0 +1,727 @@
+[
+  {
+    "split": "train",
+    "count": 2,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4120100,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 2,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4120000,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 2,
+    "index": 2,
+    "attempts": [
+      {
+        "seed": 4120200,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 2,
+    "index": 3,
+    "attempts": [
+      {
+        "seed": 4120300,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 2,
+    "index": 4,
+    "attempts": [
+      {
+        "seed": 4120400,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 2,
+    "index": 5,
+    "attempts": [
+      {
+        "seed": 4120500,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 3,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4130000,
+        "geometry_valid": false,
+        "reason": "Could not place 3 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4130001,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 3,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4130100,
+        "geometry_valid": false,
+        "reason": "Could not place 3 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4130101,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 3,
+    "index": 2,
+    "attempts": [
+      {
+        "seed": 4130200,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 3,
+    "index": 3,
+    "attempts": [
+      {
+        "seed": 4130300,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 3,
+    "index": 4,
+    "attempts": [
+      {
+        "seed": 4130400,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 3,
+    "index": 5,
+    "attempts": [
+      {
+        "seed": 4130500,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 4,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4140000,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 4,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4140100,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 4,
+    "index": 2,
+    "attempts": [
+      {
+        "seed": 4140200,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 4,
+    "index": 3,
+    "attempts": [
+      {
+        "seed": 4140300,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 4,
+    "index": 4,
+    "attempts": [
+      {
+        "seed": 4140400,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 4,
+    "index": 5,
+    "attempts": [
+      {
+        "seed": 4140500,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 5,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4150100,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150101,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150102,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150103,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150104,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150105,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 5,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4150000,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150001,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150002,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150003,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150004,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150005,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150006,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150007,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 5,
+    "index": 2,
+    "attempts": [
+      {
+        "seed": 4150200,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150201,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 5,
+    "index": 4,
+    "attempts": [
+      {
+        "seed": 4150400,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150401,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150402,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150403,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 5,
+    "index": 5,
+    "attempts": [
+      {
+        "seed": 4150500,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150501,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150502,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150503,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "validation",
+    "count": 2,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4220000,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "validation",
+    "count": 2,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4220100,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "validation",
+    "count": 3,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4230000,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "validation",
+    "count": 3,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4230100,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "validation",
+    "count": 4,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4240000,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "validation",
+    "count": 4,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4240100,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "train",
+    "count": 5,
+    "index": 3,
+    "attempts": [
+      {
+        "seed": 4150300,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150301,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150302,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150303,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150304,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150305,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150306,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150307,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150308,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150309,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150310,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150311,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150312,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4150313,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "validation",
+    "count": 5,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4250100,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250101,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250102,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250103,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250104,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250105,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250106,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250107,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250108,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "test",
+    "count": 2,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4320000,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "validation",
+    "count": 5,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4250000,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250001,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250002,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250003,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250004,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250005,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250006,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250007,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250008,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250009,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4250010,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "test",
+    "count": 2,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4320100,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "test",
+    "count": 3,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4330000,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "test",
+    "count": 4,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4340000,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "test",
+    "count": 4,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4340100,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "test",
+    "count": 3,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4330100,
+        "geometry_valid": false,
+        "reason": "Could not place 3 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4330101,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "test",
+    "count": 5,
+    "index": 0,
+    "attempts": [
+      {
+        "seed": 4350000,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4350001,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4350002,
+        "geometry_valid": true
+      }
+    ]
+  },
+  {
+    "split": "test",
+    "count": 5,
+    "index": 1,
+    "attempts": [
+      {
+        "seed": 4350100,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4350101,
+        "geometry_valid": false,
+        "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes"
+      },
+      {
+        "seed": 4350102,
+        "geometry_valid": true
+      }
+    ]
+  }
+]

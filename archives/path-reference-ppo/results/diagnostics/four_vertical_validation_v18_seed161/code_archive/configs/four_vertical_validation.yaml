@@ -1,0 +1,14 @@
+seed: 161
+validation_count: 64
+first_scene_seed: 1166000
+maximum_generation_attempts: 3000
+workers: 4
+source_report: results/diagnostics/four_dynamic_speed_v9_fast02_seed71
+source_model: results/diagnostics/four_dynamic_speed_v9_fast02_seed71/selected_model.zip
+motion_profile: configs/four_vertical_weave.yaml
+controller_config: configs/four_progress_controller.json
+data_root: data/four_vertical_validation_v18_seed161
+report_root: results/diagnostics/four_vertical_validation_v18_seed161
+expert_probability: 0.5
+mixture_seed: 161
+# Validation only: no training, hyperparameter search, or final test episodes.

@@ -1,0 +1,10 @@
+{
+  "physical_check_passed": true,
+  "seed": 1225022,
+  "reason": "success",
+  "source_model_unchanged": true,
+  "global_rrt_used": false,
+  "pytest_passed": 27,
+  "pytest_failed": 0,
+  "case_is_development_example": true
+}

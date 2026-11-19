@@ -1,0 +1,14 @@
+extends: far_start.yaml
+# Exactly three boxes, with independently sampled positions on every reset.
+obstacles:
+  stage: C
+  min_count: 3
+  max_count: 3
+  dimensions: [0.10, 0.10, 0.14]
+  dimensions_by_obstacle:
+    - [0.08, 0.08, 0.10]
+    - [0.12, 0.10, 0.16]
+    - [0.16, 0.14, 0.20]
+  center: [0.50, 0.38, 0.48]
+  randomization: [0.35, 0.48, 0.26]
+  min_obstacle_gap: 0.15

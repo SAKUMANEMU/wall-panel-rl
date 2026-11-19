@@ -1,0 +1,35 @@
+{
+  "seed": 1231415,
+  "controller": "enhanced",
+  "reason": "success",
+  "steps": 76,
+  "position_m": 0.0001457792284965463,
+  "orientation_deg": 0.010374748817415664,
+  "reward": 309.8970449294412,
+  "zero_command_steps": 6,
+  "stationary_steps": 6,
+  "wall_seconds": 19.030698019999818,
+  "physics_elapsed_s": 3.8000000000000838,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 1,
+  "recovery_actions": 8,
+  "recovery_events": [
+    {
+      "step": 64,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.8992871971828987,
+      "accepted": true,
+      "mode": "goal",
+      "parameter": 1.0,
+      "predicted_end_cost": 0.0002778183062265915,
+      "predicted_gain": 0.8990093788766721,
+      "plan_steps": 11
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 5314,
+  "passage_count": 3,
+  "success_with_weaving": true
+}

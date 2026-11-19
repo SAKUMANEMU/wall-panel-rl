@@ -1,0 +1,10 @@
+# Re-rank existing checkpoints. No training; historical selection is preserved.
+source_report: results/diagnostics/conditional_ppo_adaptation_v3_seed61
+validation_cases: data/staged_avoidance_v3_seed61/one_static/validation_staged.json
+output_report: results/diagnostics/safety_first_ppo_20261102
+thresholds:
+  minimum_episodes: 20
+  minimum_alignment_episodes: 10
+  minimum_success_rate: 0.80
+  maximum_collision_rate: 0.10
+  minimum_alignment_success_rate: 0.90

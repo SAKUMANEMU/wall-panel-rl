@@ -1,0 +1,21 @@
+source_report: data/two_static_adapter_v3_seed61/warm_source
+initial_model: models/two_static_adapter_v3_seed61/bc/model.zip
+train_scenes: data/staged_avoidance_v3_seed61/one_static/train.json
+heldout_scenes: results/diagnostics/clearance_ppo_v3_seed61/collision_diagnosis.json
+validation_cases: data/two_static_adapter_v3_seed61/two_validation.json
+output_root: models/two_static_adapter_v3_seed61/ppo_run
+report_root: results/diagnostics/two_static_adapter_v3_seed61/ppo_run
+ppo_steps: 10000
+ppo_eval_every: 5000
+ppo_learning_rate: 5.0e-05
+expert_probability: 0.5
+seed: 61
+auxiliary_bc:
+  weight: 0.2
+  learning_rate: 1.0e-05
+  updates_per_rollout: 3
+  batch_size: 100
+  capacity: 50000
+  maximum_kl: 0.005
+  checkpoint_every: 5000
+multi_obstacle_adapter: true

@@ -1,0 +1,70 @@
+{
+  "model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118/training/models/bc_500.zip",
+  "label": "bc_500",
+  "metrics": {
+    "all": {
+      "episodes": 8,
+      "success": 5,
+      "collision": 0,
+      "timeout": 3,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.625,
+      "mean_passage_count": 0.0,
+      "success_with_weaving": 0,
+      "mean_task_error": 0.4650276117293053
+    },
+    "by_count": {
+      "2": {
+        "episodes": 2,
+        "success": 2,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 1.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.005328118388942277
+      },
+      "3": {
+        "episodes": 2,
+        "success": 1,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.5,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.38353631489975304
+      },
+      "4": {
+        "episodes": 2,
+        "success": 1,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.5,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.42914109665784445
+      },
+      "5": {
+        "episodes": 2,
+        "success": 1,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.5,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 1.0421049169706815
+      }
+    }
+  },
+  "successful_teacher_transitions": 1500,
+  "controller_variant": null
+}

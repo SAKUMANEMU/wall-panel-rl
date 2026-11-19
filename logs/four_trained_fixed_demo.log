@@ -1,0 +1,30 @@
+pybullet build time: Jan 29 2025 23:17:20
+Episode controller: ppo | seed=1022018 | obstacles=4 | noise={'position_std': 0.0, 'orientation_std_deg': 0.0}
+Model: /home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/results/diagnostics/four_priority_ppo_v4_seed61/selected_model.zip | playback=0.6x | online avoidance planner=False
+Execution wrapper: ConditionalRecoveryEnv
+step=10 position=1.6269m orientation=129.70deg reason=running
+step=20 position=1.3038m orientation=102.28deg reason=running
+step=30 position=0.9828m orientation=74.77deg reason=running
+step=40 position=0.6684m orientation=47.57deg reason=running
+step=50 position=0.3996m orientation=22.78deg reason=running
+step=60 position=0.0997m orientation=4.11deg reason=running
+step=62 position=0.0008m orientation=0.05deg reason=success
+{
+  "seed": 1022018,
+  "reason": "success",
+  "steps": 62,
+  "obstacle_count": 4,
+  "obstacle_motion": "static",
+  "scene_source": "frozen_bank",
+  "all_obstacles_on_nominal_path": true,
+  "position_m": 0.0008273784754266219,
+  "orientation_deg": 0.052236472301078404,
+  "reward": 302.90259049678593,
+  "online_avoidance_planner": false,
+  "model": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/results/diagnostics/four_priority_ppo_v4_seed61/selected_model.zip",
+  "controller": "ppo",
+  "planning_seconds": 0.0,
+  "execution_wrapper": "ConditionalRecoveryEnv",
+  "conditional_recovery_attempts": 0,
+  "conditional_recoveries": 0
+}

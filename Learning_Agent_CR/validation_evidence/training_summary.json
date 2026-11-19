@@ -1,0 +1,25 @@
+{
+  "additional_steps": 64,
+  "optimizer_epoch_updates": 3,
+  "total_checkpoint_steps": 64064,
+  "settings": {
+    "seed": 2026,
+    "steps": 2048,
+    "rollout_steps": 64,
+    "batch_size": 32,
+    "n_epochs": 3,
+    "learning_rate": 3e-06,
+    "clip_range": 0.05,
+    "target_kl": 0.005,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "ent_coef": 0.0,
+    "vf_coef": 0.1,
+    "max_grad_norm": 0.5,
+    "reward_scale": 0.01
+  },
+  "source_model_sha256": "f059554915581537e35b57f7226346577ea4bfbc99cb1db0946b75ae2c539aba",
+  "source_model_unchanged": true,
+  "validation_used_for_training": false,
+  "convergence_claim": false
+}

@@ -1,0 +1,26 @@
+{
+  "64_new_valid_scenes": true,
+  "prior_seeds_and_development_examples_excluded": true,
+  "identical_bank_for_both_modes": true,
+  "128_final_scene_rollouts": true,
+  "model_configuration_controller_and_code_unchanged": true,
+  "all_final_failures_counted_without_replacement": true,
+  "full_recordings_match_frozen_cases_and_counts": true,
+  "all64_paired_initial_states_exactly_identical": true,
+  "optimizer_updates": 0,
+  "final_test_episodes": 0,
+  "rate_denominator": 64,
+  "weaving_is_secondary_diagnostic_not_scene_filter": true,
+  "installation_success_95ci": {
+    "ppo_progress": [
+      0.5499887622745426,
+      0.7742960423291224
+    ],
+    "ppo": [
+      0.0,
+      0.056626022971156334
+    ]
+  },
+  "semantic_tests_passed": 4,
+  "plots_visually_verified": true
+}

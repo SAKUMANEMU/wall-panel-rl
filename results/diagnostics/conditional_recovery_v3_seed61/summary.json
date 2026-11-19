@@ -1,0 +1,275 @@
+{
+  "variants": {
+    "baseline": {
+      "validation": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 16,
+          "collision": 2,
+          "timeout": 2,
+          "joint_limit": 0
+        }
+      },
+      "regression": {
+        "previous_100": {
+          "alignment_far": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "timeout": 0,
+            "joint_limit": 0
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "timeout": 0,
+            "joint_limit": 0
+          },
+          "stage_target": {
+            "episodes": 100,
+            "success": 92,
+            "collision": 4,
+            "timeout": 4,
+            "joint_limit": 0
+          }
+        },
+        "recent_100": {
+          "alignment_far": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "timeout": 0,
+            "joint_limit": 0
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "timeout": 0,
+            "joint_limit": 0
+          },
+          "stage_target": {
+            "episodes": 100,
+            "success": 90,
+            "collision": 6,
+            "timeout": 4,
+            "joint_limit": 0
+          }
+        }
+      },
+      "combined_200": {
+        "episodes": 200,
+        "success": 182,
+        "collision": 10,
+        "timeout": 8,
+        "joint_limit": 0
+      }
+    },
+    "conditional": {
+      "validation": {
+        "alignment_far": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0
+        },
+        "alignment_near": {
+          "episodes": 10,
+          "success": 10,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0
+        },
+        "stage_target": {
+          "episodes": 20,
+          "success": 18,
+          "collision": 2,
+          "timeout": 0,
+          "joint_limit": 0
+        }
+      },
+      "regression": {
+        "previous_100": {
+          "alignment_far": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "timeout": 0,
+            "joint_limit": 0
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "timeout": 0,
+            "joint_limit": 0
+          },
+          "stage_target": {
+            "episodes": 100,
+            "success": 94,
+            "collision": 4,
+            "timeout": 2,
+            "joint_limit": 0
+          }
+        },
+        "recent_100": {
+          "alignment_far": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "timeout": 0,
+            "joint_limit": 0
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "success": 10,
+            "collision": 0,
+            "timeout": 0,
+            "joint_limit": 0
+          },
+          "stage_target": {
+            "episodes": 100,
+            "success": 94,
+            "collision": 6,
+            "timeout": 0,
+            "joint_limit": 0
+          }
+        }
+      },
+      "combined_200": {
+        "episodes": 200,
+        "success": 188,
+        "collision": 10,
+        "timeout": 2,
+        "joint_limit": 0
+      }
+    }
+  },
+  "comparisons": {
+    "validation": {
+      "paired_outcomes": {
+        "success -> success": 16,
+        "timeout -> success": 2,
+        "collision -> collision": 2
+      },
+      "untriggered_check": {
+        "identical_untriggered_episodes": 38,
+        "triggered_episodes": 2
+      }
+    },
+    "previous_100": {
+      "paired_outcomes": {
+        "success -> success": 92,
+        "timeout -> success": 2,
+        "timeout -> timeout": 2,
+        "collision -> collision": 4
+      },
+      "untriggered_check": {
+        "identical_untriggered_episodes": 118,
+        "triggered_episodes": 2
+      }
+    },
+    "recent_100": {
+      "paired_outcomes": {
+        "success -> success": 90,
+        "timeout -> success": 4,
+        "collision -> collision": 6
+      },
+      "untriggered_check": {
+        "identical_untriggered_episodes": 116,
+        "triggered_episodes": 4
+      }
+    },
+    "fresh_test": {
+      "paired_outcomes": {
+        "success -> success": 93,
+        "collision -> collision": 4,
+        "timeout -> timeout": 2,
+        "timeout -> success": 1
+      },
+      "untriggered_check": {
+        "identical_untriggered_episodes": 119,
+        "triggered_episodes": 1
+      }
+    }
+  },
+  "non_regression": {
+    "passed": true,
+    "checks": {
+      "validation": true,
+      "combined_200": true,
+      "alignment_retained": true
+    }
+  },
+  "fresh_test": {
+    "baseline": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 100,
+        "success": 93,
+        "collision": 4,
+        "timeout": 3,
+        "joint_limit": 0
+      }
+    },
+    "conditional": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 100,
+        "success": 94,
+        "collision": 4,
+        "timeout": 2,
+        "joint_limit": 0
+      }
+    }
+  },
+  "fresh_test_skipped_reason": null,
+  "model_file_unchanged": true,
+  "network_tensors_unchanged": true,
+  "terminal_radius_unchanged": true,
+  "training_performed": false,
+  "default_configuration_changed": false,
+  "automatic_adoption": false
+}

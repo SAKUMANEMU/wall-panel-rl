@@ -1,0 +1,267 @@
+{
+  "bc_updates": 2000,
+  "ppo_environment_steps": 0,
+  "source_steps": 5000,
+  "heldout_scene_mse": 0.009762692265212536,
+  "source_sha256": "6d44a37e5e778944b1e10622ed7ad2016678878f1f6f00a6922a456f01354e73",
+  "train_scene_seeds": [
+    800000,
+    800001,
+    800002,
+    800004,
+    800005,
+    800006,
+    800007,
+    800008,
+    800009,
+    800011,
+    800012,
+    800013,
+    800014,
+    800017,
+    800018,
+    800021,
+    800024,
+    800025,
+    800026,
+    800029,
+    800030,
+    800031,
+    800032,
+    800033,
+    800035,
+    800036,
+    800037,
+    800041,
+    800044,
+    800046,
+    800047,
+    800048,
+    800049,
+    800050,
+    800053,
+    800058,
+    800059,
+    800060,
+    800061,
+    800063
+  ],
+  "heldout_scene_seeds": [
+    800010,
+    800015,
+    800019,
+    800022,
+    800042,
+    800045,
+    800052,
+    800055,
+    800057,
+    800062
+  ],
+  "teacher_sha256": "13774a60d1dde96385a6b22ced2944809921e90f41b3b07e5c1ae46c74d341aa",
+  "actor_only_updates": true,
+  "critic_and_prior_unchanged": true,
+  "history": [
+    {
+      "update": 100,
+      "sampled_train_mse": 0.04493770748376846,
+      "heldout_scene_mse": 0.03443437069654465
+    },
+    {
+      "update": 200,
+      "sampled_train_mse": 0.03512735292315483,
+      "heldout_scene_mse": 0.028404805809259415
+    },
+    {
+      "update": 300,
+      "sampled_train_mse": 0.031896863132715225,
+      "heldout_scene_mse": 0.02700195275247097
+    },
+    {
+      "update": 400,
+      "sampled_train_mse": 0.02490915171802044,
+      "heldout_scene_mse": 0.02467261627316475
+    },
+    {
+      "update": 500,
+      "sampled_train_mse": 0.01954934000968933,
+      "heldout_scene_mse": 0.02197789028286934
+    },
+    {
+      "update": 600,
+      "sampled_train_mse": 0.018608849495649338,
+      "heldout_scene_mse": 0.019343599677085876
+    },
+    {
+      "update": 700,
+      "sampled_train_mse": 0.016045061871409416,
+      "heldout_scene_mse": 0.01781092956662178
+    },
+    {
+      "update": 800,
+      "sampled_train_mse": 0.016341431066393852,
+      "heldout_scene_mse": 0.01627594232559204
+    },
+    {
+      "update": 900,
+      "sampled_train_mse": 0.015982847660779953,
+      "heldout_scene_mse": 0.014906462281942368
+    },
+    {
+      "update": 1000,
+      "sampled_train_mse": 0.011724059469997883,
+      "heldout_scene_mse": 0.014032544568181038
+    },
+    {
+      "update": 1100,
+      "sampled_train_mse": 0.012032924219965935,
+      "heldout_scene_mse": 0.013034392148256302
+    },
+    {
+      "update": 1200,
+      "sampled_train_mse": 0.008717966265976429,
+      "heldout_scene_mse": 0.012239618226885796
+    },
+    {
+      "update": 1300,
+      "sampled_train_mse": 0.009365825913846493,
+      "heldout_scene_mse": 0.011843915097415447
+    },
+    {
+      "update": 1400,
+      "sampled_train_mse": 0.01197564322501421,
+      "heldout_scene_mse": 0.011289435438811779
+    },
+    {
+      "update": 1500,
+      "sampled_train_mse": 0.011545267887413502,
+      "heldout_scene_mse": 0.011192627251148224
+    },
+    {
+      "update": 1600,
+      "sampled_train_mse": 0.008944678120315075,
+      "heldout_scene_mse": 0.010588972829282284
+    },
+    {
+      "update": 1700,
+      "sampled_train_mse": 0.00798849668353796,
+      "heldout_scene_mse": 0.010267685167491436
+    },
+    {
+      "update": 1800,
+      "sampled_train_mse": 0.009310728870332241,
+      "heldout_scene_mse": 0.010141432285308838
+    },
+    {
+      "update": 1900,
+      "sampled_train_mse": 0.009223224595189095,
+      "heldout_scene_mse": 0.010004119947552681
+    },
+    {
+      "update": 2000,
+      "sampled_train_mse": 0.008257667534053326,
+      "heldout_scene_mse": 0.009762692265212536
+    }
+  ],
+  "settings": {
+    "source_first": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+    "output_root": "models/staged_avoidance_v2_seed61",
+    "data_root": "data/staged_avoidance_v2_seed61",
+    "environment": "configs/ppo_dynamic_clean.yaml",
+    "release": "releases/path_reference_bc_20261025",
+    "seed": 61,
+    "additional_timesteps": 10000,
+    "workers": 4,
+    "n_steps": 250,
+    "batch_size": 100,
+    "n_epochs": 3,
+    "learning_rate": 0.0001,
+    "clip_range": 0.05,
+    "target_kl": 0.005,
+    "eval_every": 5000,
+    "residual_scale": 2.0,
+    "initial_prior_gate": 0.5,
+    "action_std": 0.1,
+    "progress_weight": 0.25,
+    "joint_margin": 0.01,
+    "clearance_distance": 0.08,
+    "clearance_weight": 0.5,
+    "mixture": {
+      "alignment": 0.2,
+      "static": 0.3,
+      "dynamic": 0.5
+    },
+    "train_scenes": 64,
+    "validation_scenes": 20,
+    "train_seed_base": 800000,
+    "validation_seed_base": 900000,
+    "teacher": {
+      "alignment_episodes": 20,
+      "avoidance_episodes": 80,
+      "maximum_attempts": 500,
+      "minimum_unique_scenes": 10,
+      "updates": 2000,
+      "batch_size": 256,
+      "learning_rate": 0.001
+    },
+    "gate": {
+      "minimum_episodes": 20,
+      "minimum_alignment_episodes": 10,
+      "minimum_success_rate": 0.8,
+      "maximum_collision_rate": 0.1,
+      "minimum_alignment_success_rate": 0.9,
+      "consecutive_checks": 2
+    },
+    "stages": [
+      {
+        "name": "one_static",
+        "count": 1,
+        "mode": "static",
+        "amplitude": 0.05,
+        "speed": 0.02
+      },
+      {
+        "name": "one_dynamic",
+        "count": 1,
+        "mode": "dynamic",
+        "amplitude": 0.05,
+        "speed": 0.02
+      },
+      {
+        "name": "three_dynamic",
+        "count": 3,
+        "mode": "dynamic",
+        "amplitude": 0.1,
+        "speed": 0.05
+      },
+      {
+        "name": "five_dynamic_low",
+        "count": 5,
+        "mode": "dynamic",
+        "amplitude": 0.1,
+        "speed": 0.05
+      },
+      {
+        "name": "five_dynamic_full",
+        "count": 5,
+        "mode": "dynamic",
+        "amplitude": 0.4,
+        "speed": 0.4
+      }
+    ],
+    "active_stage": {
+      "name": "one_static",
+      "count": 1,
+      "mode": "static",
+      "amplitude": 0.05,
+      "speed": 0.02
+    },
+    "stage_index": 0,
+    "train_start_seed": 800000,
+    "validation_start_seed": 900000,
+    "data": "data/staged_avoidance_v2_seed61/one_static",
+    "stage_output": "models/staged_avoidance_v2_seed61/one_static",
+    "output": "models/staged_avoidance_v2_seed61/one_static/ppo",
+    "source_model": "models/waypoint_ppo_pilot_seed61/best_model.zip"
+  }
+}

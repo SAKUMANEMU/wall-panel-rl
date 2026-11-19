@@ -1,0 +1,7 @@
+arms:
+- configs/four_dynamic_speed_slow01.yaml
+- configs/four_dynamic_speed_fast02.yaml
+report_root: results/diagnostics/four_dynamic_speed_comparison_v9_seed71
+static_probability: 0.1
+expected_source_added_ppo_steps: 2000
+validation_only: true

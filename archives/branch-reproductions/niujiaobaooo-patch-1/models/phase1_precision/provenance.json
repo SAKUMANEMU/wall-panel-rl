@@ -1,0 +1,9 @@
+{
+  "config": "configs/base.yaml",
+  "seed": 42,
+  "total_timesteps": 50000,
+  "run_name": "phase1_precision",
+  "device": "cpu",
+  "render": false,
+  "resume": null
+}

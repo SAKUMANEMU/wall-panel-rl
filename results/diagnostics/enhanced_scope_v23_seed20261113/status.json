@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "pid": 9186,
+  "started_at": "2026-11-13T14:16:03.714172+08:00",
+  "phase": "complete",
+  "updated_at": "2026-11-13T16:56:29.707347+08:00",
+  "high_valid": 24,
+  "low_valid": 23,
+  "per_guide_target": 24,
+  "attempts": 347,
+  "batch_completed": 1,
+  "batch_total": 1,
+  "policy": "v21",
+  "recovery_variant": "diverse",
+  "completed_episodes": 64,
+  "planned_episodes": 64
+}

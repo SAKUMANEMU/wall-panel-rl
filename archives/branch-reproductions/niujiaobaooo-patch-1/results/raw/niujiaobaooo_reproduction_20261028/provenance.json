@@ -1,0 +1,10 @@
+{
+  "config": "configs/eval_clean.yaml",
+  "clean_model": "experiment_results/hou_ppo_262144/best_model.zip",
+  "noise_model": "models/ppo_noise/best/best_model.zip",
+  "methods": [
+    "ppo_clean"
+  ],
+  "episodes": 100,
+  "run_id": "niujiaobaooo_reproduction_20261028"
+}

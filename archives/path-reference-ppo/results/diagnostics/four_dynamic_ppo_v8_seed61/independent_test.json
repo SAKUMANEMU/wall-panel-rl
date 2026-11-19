@@ -1,0 +1,28 @@
+{
+  "performed": true,
+  "source": {
+    "episodes": 100,
+    "success": 77,
+    "collision": 22,
+    "timeout": 1,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "selected": {
+    "episodes": 100,
+    "success": 79,
+    "collision": 20,
+    "timeout": 1,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "selected_ppo_steps": 2000,
+  "paired": {
+    "success -> success": 75,
+    "collision -> collision": 18,
+    "timeout -> timeout": 1,
+    "collision -> success": 4,
+    "success -> collision": 2
+  },
+  "no_tuning_after_test": true
+}

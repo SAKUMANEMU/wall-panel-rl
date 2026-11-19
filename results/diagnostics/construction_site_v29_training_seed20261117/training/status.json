@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "pid": 4235,
+  "started_at": "2026-11-17T18:16:04.022090+08:00",
+  "phase": "complete",
+  "evaluation_completed": 16,
+  "evaluation_planned": 16,
+  "teacher_completed": 12,
+  "teacher_planned": 12,
+  "successful_teacher_episodes": 4,
+  "teacher_transitions": 407,
+  "bc_updates": 1000,
+  "bc_updates_planned": 1000,
+  "bc_loss": 0.008019843138754368,
+  "ppo_steps_completed": 65536,
+  "ppo_steps_planned": 65536,
+  "ppo_episodes": 817,
+  "training_counts": {
+    "2": {
+      "success": 0,
+      "collision": 196,
+      "timeout": 0,
+      "joint_limit": 0
+    },
+    "3": {
+      "success": 0,
+      "collision": 215,
+      "timeout": 3,
+      "joint_limit": 0
+    },
+    "4": {
+      "success": 0,
+      "collision": 137,
+      "timeout": 66,
+      "joint_limit": 0
+    },
+    "5": {
+      "success": 0,
+      "collision": 181,
+      "timeout": 19,
+      "joint_limit": 0
+    }
+  },
+  "resumed_at": "2026-11-18T00:02:05.365356+08:00",
+  "updated_at": "2026-11-18T02:32:40.781919+08:00",
+  "reused_evaluation_rows": 0
+}

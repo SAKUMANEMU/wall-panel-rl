@@ -1,0 +1,10 @@
+{
+  "code_and_inputs_match": true,
+  "splits_disjoint": true,
+  "optimizer_and_value_preserved": true,
+  "base_actor_and_std_unchanged": true,
+  "test_selected_after_freeze": true,
+  "test_used_for_selection": false,
+  "training_transitions": 20000,
+  "bc_updates": 0
+}

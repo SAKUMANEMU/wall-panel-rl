@@ -1,0 +1,219 @@
+{
+  "stage": {
+    "name": "one_static",
+    "count": 1,
+    "mode": "static",
+    "amplitude": 0.05,
+    "speed": 0.02
+  },
+  "cases": 50,
+  "target_cases": 20,
+  "seed_ranges_disjoint": true,
+  "full_diagnostic_used_for_promotion": false,
+  "interface_contract": "reference_preserving_v3",
+  "reference_recovery": {
+    "radius": 0.3,
+    "min_distance": 0.08,
+    "improvement": 0.02
+  },
+  "environment_config": {
+    "simulation": {
+      "timestep": 0.004166666666666667,
+      "substeps": 12,
+      "max_steps": 240,
+      "gravity": -9.81
+    },
+    "robot": {
+      "urdf": "assets/robot/kuka_iiwa/model.urdf",
+      "end_effector": 6,
+      "goal_q": [
+        0.0,
+        0.65,
+        0.0,
+        -1.3,
+        0.0,
+        -0.38,
+        0.0
+      ],
+      "start_offset": [
+        2.65,
+        0.9,
+        0.0,
+        1.15,
+        0.0,
+        0.25,
+        0.0
+      ],
+      "start_randomization": 0.03,
+      "near_start_probability": 0.0,
+      "near_start_randomization": 0.035,
+      "start_position_distance_range": [
+        1.8,
+        1.9
+      ]
+    },
+    "panel": {
+      "dimensions": [
+        0.3,
+        0.2,
+        0.03
+      ],
+      "mass": 0.25,
+      "offset": [
+        0.0,
+        0.0,
+        0.14
+      ],
+      "orientation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "target": {
+      "position_tolerance": 0.01,
+      "orientation_tolerance_deg": 2.0,
+      "wall_clearance": 0.025,
+      "wall_thickness": 0.04
+    },
+    "controller": {
+      "max_joint_increment_deg": 4.0,
+      "position_gain": 0.3,
+      "velocity_gain": 1.0,
+      "force": 250.0
+    },
+    "collision": {
+      "margin": 0.0,
+      "planning_clearance": 0.005,
+      "edge_resolution": 0.035
+    },
+    "obstacles": {
+      "stage": "C",
+      "max_count": 5,
+      "min_count": 5,
+      "dimensions": [
+        0.12,
+        0.12,
+        0.18
+      ],
+      "center": [
+        0.5,
+        0.25,
+        0.35
+      ],
+      "randomization": [
+        0.22,
+        0.3,
+        0.22
+      ],
+      "max_placement_attempts": 360,
+      "dimensions_by_obstacle": [
+        [
+          0.08,
+          0.08,
+          0.1
+        ],
+        [
+          0.1,
+          0.09,
+          0.13
+        ],
+        [
+          0.12,
+          0.1,
+          0.16
+        ],
+        [
+          0.09,
+          0.12,
+          0.14
+        ],
+        [
+          0.14,
+          0.12,
+          0.18
+        ]
+      ],
+      "min_obstacle_gap": 0.1,
+      "dynamic": {
+        "enabled": true,
+        "placement": "rrt_path",
+        "motion_mode": "random_3d",
+        "amplitude": 0.4,
+        "max_speed": 0.4,
+        "lateral_offset": 0.0
+      },
+      "freeze_motion": false
+    },
+    "noise": {
+      "position_std": 0.0,
+      "orientation_std_deg": 0.0
+    },
+    "reward": {
+      "position_progress": 100.0,
+      "orientation_progress": 12.0,
+      "action": 0.015,
+      "step": 0.05,
+      "collision": -50.0,
+      "joint_limit": -30.0,
+      "success": 100.0
+    },
+    "ppo": {
+      "learning_rate": 0.0003,
+      "n_steps": 250,
+      "batch_size": 100,
+      "n_epochs": 10,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip_range": 0.2,
+      "ent_coef": 0.0,
+      "log_std_init": -1.0,
+      "net_arch": [
+        128,
+        128
+      ],
+      "total_timesteps": 1000000,
+      "eval_freq": 50000,
+      "eval_episodes": 10
+    },
+    "rrt": {
+      "step_size": 0.22,
+      "goal_bias": 0.15,
+      "max_iterations": 6000,
+      "timeout": 15.0,
+      "shortcut_attempts": 40,
+      "ik_attempts": 12,
+      "ik_iterations": 200,
+      "ik_position_tolerance": 0.004,
+      "ik_orientation_tolerance_deg": 1.0,
+      "waypoint_tolerance": 0.008,
+      "dynamic_mode": "timed",
+      "timed_timeout": 30.0,
+      "dynamic_lookahead_steps": 3,
+      "dynamic_retry_steps": 5
+    },
+    "seed": 42,
+    "evaluation": {
+      "episodes": 100,
+      "start_seed": 50000
+    },
+    "demo": {
+      "playback_speed": 0.5,
+      "camera_distance": 2.8,
+      "camera_target": [
+        0.0,
+        0.0,
+        0.6
+      ]
+    },
+    "observation": {
+      "obstacle_velocity": true
+    }
+  },
+  "data_hashes": {
+    "train.json": "d9f6163fc3395195666c58837514ab4dd3cb283253b24d85e57b6528dbe3bf85",
+    "validation_full.json": "98a1443d0010a978d364a62aa5833f3d23e76bd64affe2511eb69b106dba7f6b",
+    "validation_staged.json": "28df756e2428131d39a5626321cb1e234e034594c4df08bdefa1d6d86c8c7fd3"
+  }
+}

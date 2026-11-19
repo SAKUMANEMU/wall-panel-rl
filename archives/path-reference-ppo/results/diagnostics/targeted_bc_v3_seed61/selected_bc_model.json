@@ -1,0 +1,37 @@
+{
+  "model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/targeted_bc_v3_seed61/selected_bc_model.zip",
+  "sha256": "c7466d30b17cfe403797769601705536e1005362af9601a05cef25076bd49967",
+  "policy": "ReferencePreservingPolicy",
+  "observation_dimension": 77,
+  "action_dimension": 7,
+  "cumulative_bc_updates": 20000,
+  "ppo_additional_steps": 0,
+  "validation": {
+    "episodes": 20,
+    "success": 13,
+    "collision": 2,
+    "joint_limit": 0,
+    "timeout": 5,
+    "timeout_mean_position_m": 0.27417970143319287,
+    "timeout_mean_orientation_deg": 65.02447964964355,
+    "successful_mean_steps": 65.07692307692308,
+    "mean_reward": 243.49765479231806
+  },
+  "independent_test": {
+    "episodes": 100,
+    "success": 60,
+    "collision": 13,
+    "joint_limit": 0,
+    "timeout": 27
+  },
+  "bc_gate_passed": true,
+  "training_code_unchanged": {
+    "scripts/run_targeted_bc.py": true,
+    "src/wall_panel_rl/rl/avoidance_imitation.py": true,
+    "src/wall_panel_rl/rl/avoidance_curriculum.py": true,
+    "scripts/staged_avoidance.py": true
+  },
+  "prior_and_critic_unchanged": true,
+  "test_bank_sha256": "802dbb0eba95cb21312fd37ae7fe7b7f45c50babd300aaa8820b72328c3abd62",
+  "execution_environment": "StagedAvoidanceEnv with obstacle-free reference, not raw WallPanelEnv or static collision-free RRT wrapper"
+}

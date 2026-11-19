@@ -1,0 +1,741 @@
+[
+  {
+    "count": 2,
+    "seed": 3420000,
+    "geometry_valid": false,
+    "reason": "Could not place 2 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.536361026999657
+  },
+  {
+    "count": 2,
+    "seed": 3420001,
+    "geometry_valid": false,
+    "reason": "Cannot build a complete nominal route: timeout",
+    "seconds": 2.5909988040002645
+  },
+  {
+    "count": 2,
+    "seed": 3420002,
+    "geometry_valid": true,
+    "seconds": 1.2798614249995808
+  },
+  {
+    "count": 3,
+    "seed": 3430000,
+    "geometry_valid": true,
+    "seconds": 1.7883558389994505
+  },
+  {
+    "count": 4,
+    "seed": 3440000,
+    "geometry_valid": false,
+    "reason": "Could not place 4 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.815718647999347
+  },
+  {
+    "count": 4,
+    "seed": 3440001,
+    "geometry_valid": true,
+    "seconds": 1.8677674179998576
+  },
+  {
+    "count": 5,
+    "seed": 3450000,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.3104797169999074
+  },
+  {
+    "count": 5,
+    "seed": 3450001,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.067557403999672
+  },
+  {
+    "count": 5,
+    "seed": 3450002,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.046689943000274
+  },
+  {
+    "count": 5,
+    "seed": 3450003,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.771050035999906
+  },
+  {
+    "count": 5,
+    "seed": 3450004,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.7756808680005634
+  },
+  {
+    "count": 5,
+    "seed": 3450005,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.8324229429999832
+  },
+  {
+    "count": 5,
+    "seed": 3450006,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.6314440719997947
+  },
+  {
+    "count": 5,
+    "seed": 3450007,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.253526297999997
+  },
+  {
+    "count": 5,
+    "seed": 3450008,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.7162278469995726
+  },
+  {
+    "count": 5,
+    "seed": 3450009,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.383646160999888
+  },
+  {
+    "count": 5,
+    "seed": 3450010,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.0736128290000124
+  },
+  {
+    "count": 5,
+    "seed": 3450011,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.210720131999551
+  },
+  {
+    "count": 5,
+    "seed": 3450012,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.8146525110005314
+  },
+  {
+    "count": 5,
+    "seed": 3450013,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9911812199998167
+  },
+  {
+    "count": 5,
+    "seed": 3450014,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.752811074999954
+  },
+  {
+    "count": 5,
+    "seed": 3450015,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.992596756000239
+  },
+  {
+    "count": 5,
+    "seed": 3450016,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9034523549998994
+  },
+  {
+    "count": 5,
+    "seed": 3450017,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.1411651400003393
+  },
+  {
+    "count": 5,
+    "seed": 3450018,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.0253095879998
+  },
+  {
+    "count": 5,
+    "seed": 3450019,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.323768987999756
+  },
+  {
+    "count": 5,
+    "seed": 3450020,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.384231428000021
+  },
+  {
+    "count": 5,
+    "seed": 3450021,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9574941289993149
+  },
+  {
+    "count": 5,
+    "seed": 3450022,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.0355834459996913
+  },
+  {
+    "count": 5,
+    "seed": 3450023,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.1951890109994565
+  },
+  {
+    "count": 5,
+    "seed": 3450024,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.900484026000413
+  },
+  {
+    "count": 5,
+    "seed": 3450025,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.0857632289998946
+  },
+  {
+    "count": 5,
+    "seed": 3450026,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.3021178549997785
+  },
+  {
+    "count": 5,
+    "seed": 3450027,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.8294711520002238
+  },
+  {
+    "count": 5,
+    "seed": 3450028,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.2790727980000156
+  },
+  {
+    "count": 5,
+    "seed": 3450029,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.6015824310006792
+  },
+  {
+    "count": 5,
+    "seed": 3450030,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.198510649000127
+  },
+  {
+    "count": 5,
+    "seed": 3450031,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.13776063899968
+  },
+  {
+    "count": 5,
+    "seed": 3450032,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.8296057309999014
+  },
+  {
+    "count": 5,
+    "seed": 3450033,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.1672245899999325
+  },
+  {
+    "count": 5,
+    "seed": 3450034,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.0360134060001656
+  },
+  {
+    "count": 5,
+    "seed": 3450035,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.09630013900005
+  },
+  {
+    "count": 5,
+    "seed": 3450036,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.1715240050007196
+  },
+  {
+    "count": 5,
+    "seed": 3450037,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.8120210730003237
+  },
+  {
+    "count": 5,
+    "seed": 3450038,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.2463806860005207
+  },
+  {
+    "count": 5,
+    "seed": 3450039,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.7479652020001595
+  },
+  {
+    "count": 5,
+    "seed": 3450040,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.886817405000329
+  },
+  {
+    "count": 5,
+    "seed": 3450041,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.7904253269998662
+  },
+  {
+    "count": 5,
+    "seed": 3450042,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.2881687779999993
+  },
+  {
+    "count": 5,
+    "seed": 3450043,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.8452333040004305
+  },
+  {
+    "count": 5,
+    "seed": 3450044,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.714143289000276
+  },
+  {
+    "count": 5,
+    "seed": 3450045,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9739110549999168
+  },
+  {
+    "count": 5,
+    "seed": 3450046,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.8312512680004147
+  },
+  {
+    "count": 5,
+    "seed": 3450047,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.3399033180003244
+  },
+  {
+    "count": 5,
+    "seed": 3450048,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.6281533139999738
+  },
+  {
+    "count": 5,
+    "seed": 3450049,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.1024498830001903
+  },
+  {
+    "count": 5,
+    "seed": 3450050,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.3416131009998935
+  },
+  {
+    "count": 5,
+    "seed": 3450051,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.8828860749999876
+  },
+  {
+    "count": 5,
+    "seed": 3450052,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.2921489549999023
+  },
+  {
+    "count": 5,
+    "seed": 3450053,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9763367810001
+  },
+  {
+    "count": 5,
+    "seed": 3450054,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.0033461749999333
+  },
+  {
+    "count": 5,
+    "seed": 3450055,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.0682697889997144
+  },
+  {
+    "count": 5,
+    "seed": 3450056,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9033476280001196
+  },
+  {
+    "count": 5,
+    "seed": 3450057,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.1402407579998908
+  },
+  {
+    "count": 5,
+    "seed": 3450058,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.1497685340000317
+  },
+  {
+    "count": 5,
+    "seed": 3450059,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.241542059000494
+  },
+  {
+    "count": 5,
+    "seed": 3450060,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.6291024249994734
+  },
+  {
+    "count": 5,
+    "seed": 3450061,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.758354371000678
+  },
+  {
+    "count": 5,
+    "seed": 3450062,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.545087749999766
+  },
+  {
+    "count": 5,
+    "seed": 3450063,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.083264164999491
+  },
+  {
+    "count": 5,
+    "seed": 3450064,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.0272934800004805
+  },
+  {
+    "count": 5,
+    "seed": 3450065,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.7632483660008802
+  },
+  {
+    "count": 5,
+    "seed": 3450066,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.2667290189992855
+  },
+  {
+    "count": 5,
+    "seed": 3450067,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.6826306840002871
+  },
+  {
+    "count": 5,
+    "seed": 3450068,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.3004483439999603
+  },
+  {
+    "count": 5,
+    "seed": 3450069,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.0079221010000765
+  },
+  {
+    "count": 5,
+    "seed": 3450070,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.0523834410005293
+  },
+  {
+    "count": 5,
+    "seed": 3450071,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.8781337230002464
+  },
+  {
+    "count": 5,
+    "seed": 3450072,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9853111259999423
+  },
+  {
+    "count": 5,
+    "seed": 3450073,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.866382301000158
+  },
+  {
+    "count": 5,
+    "seed": 3450074,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.6882098969999788
+  },
+  {
+    "count": 5,
+    "seed": 3450075,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.4752081380001982
+  },
+  {
+    "count": 5,
+    "seed": 3450076,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9434782930002257
+  },
+  {
+    "count": 5,
+    "seed": 3450077,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.5818031919998248
+  },
+  {
+    "count": 5,
+    "seed": 3450078,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.547245237000425
+  },
+  {
+    "count": 5,
+    "seed": 3450079,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9973850929991386
+  },
+  {
+    "count": 5,
+    "seed": 3450080,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.4189706750003097
+  },
+  {
+    "count": 5,
+    "seed": 3450081,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.2793141189995367
+  },
+  {
+    "count": 5,
+    "seed": 3450082,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.7688383909999175
+  },
+  {
+    "count": 5,
+    "seed": 3450083,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9478729599995859
+  },
+  {
+    "count": 5,
+    "seed": 3450084,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.7885704769996664
+  },
+  {
+    "count": 5,
+    "seed": 3450085,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.8310791389994847
+  },
+  {
+    "count": 5,
+    "seed": 3450086,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.775467133999882
+  },
+  {
+    "count": 5,
+    "seed": 3450087,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.3562001589998545
+  },
+  {
+    "count": 5,
+    "seed": 3450088,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9094450829998095
+  },
+  {
+    "count": 5,
+    "seed": 3450089,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.6363302620002287
+  },
+  {
+    "count": 5,
+    "seed": 3450090,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.163060074999521
+  },
+  {
+    "count": 5,
+    "seed": 3450091,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.2275134419996903
+  },
+  {
+    "count": 5,
+    "seed": 3450092,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.7105099609998433
+  },
+  {
+    "count": 5,
+    "seed": 3450093,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.472786516999804
+  },
+  {
+    "count": 5,
+    "seed": 3450094,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9280183009996108
+  },
+  {
+    "count": 5,
+    "seed": 3450095,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.2172643439998865
+  },
+  {
+    "count": 5,
+    "seed": 3450096,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9185132789998534
+  },
+  {
+    "count": 5,
+    "seed": 3450097,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.9110751839998557
+  },
+  {
+    "count": 5,
+    "seed": 3450098,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 2.5319127570001
+  },
+  {
+    "count": 5,
+    "seed": 3450099,
+    "geometry_valid": false,
+    "reason": "Could not place 5 sparse, swept-safe, physical on-route boxes",
+    "seconds": 1.979379615999278
+  }
+]

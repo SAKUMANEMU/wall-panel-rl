@@ -1,0 +1,24 @@
+# Fixed retained model. One bounded conditional inference rule versus original.
+parent_report: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61
+model: /home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/selected_model.zip
+validation_cases: data/staged_avoidance_v3_seed61/one_static/validation_staged.json
+regression_banks:
+  previous_100: data/clearance_ppo_v3_seed61/independent_cases.json
+  recent_100: data/static_candidate_comparison_v3_seed61/fresh_cases.json
+report_root: /home/johnsonchen/wall-panel-rl/results/diagnostics/conditional_recovery_v3_seed61
+data_root: data/conditional_recovery_v3_seed61
+conditional_recovery:
+  window: 30
+  min_steps: 60
+  position_epsilon: 0.001
+  orientation_epsilon_deg: 0.1
+  max_joint_displacement: 0.02
+  min_reference_distance: 0.20
+  extended_radius: 0.45
+  max_attempts: 3
+  max_recoveries: 1
+  cooldown: 20
+# Run a new fixed prospective test ONLY if known-case non-regression passes.
+independent_start_seed: 1004000
+independent_scenes: 100
+maximum_generation_attempts: 1000

@@ -1,0 +1,30 @@
+pybullet build time: Jan 29 2025 23:17:20
+Episode controller: rrt | seed=1018000 | obstacles=4 | noise={'position_std': 0.0, 'orientation_std_deg': 0.0}
+Model: /home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/results/diagnostics/four_static_on_path_v1_seed61/selected_model.zip | playback=0.6x | online avoidance planner=True
+Execution wrapper: ConditionalRecoveryEnv
+step=10 position=1.6878m orientation=132.13deg reason=running
+step=20 position=1.3715m orientation=98.84deg reason=running
+step=30 position=0.9671m orientation=69.21deg reason=running
+step=40 position=0.5685m orientation=49.56deg reason=running
+step=50 position=0.1719m orientation=41.75deg reason=running
+step=60 position=0.0313m orientation=4.41deg reason=running
+step=61 position=0.0008m orientation=0.07deg reason=success
+{
+  "seed": 1018000,
+  "reason": "success",
+  "steps": 61,
+  "obstacle_count": 4,
+  "obstacle_motion": "static",
+  "scene_source": "frozen_bank",
+  "all_obstacles_on_nominal_path": true,
+  "position_m": 0.0007528256660183643,
+  "orientation_deg": 0.07203967250888467,
+  "reward": 304.5547789457939,
+  "online_avoidance_planner": true,
+  "model": null,
+  "controller": "rrt",
+  "planning_seconds": 0.7323807849998047,
+  "execution_wrapper": "ConditionalRecoveryEnv",
+  "conditional_recovery_attempts": 0,
+  "conditional_recoveries": 0
+}

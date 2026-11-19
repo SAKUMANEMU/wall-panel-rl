@@ -1,0 +1,92 @@
+{
+  "policy": "ReferencePreservingPolicy",
+  "observation_dimension": 77,
+  "action_dimension": 7,
+  "selected_variant": "ppo_stall",
+  "sha256": "ffd01130882e250fa08aa4f5c554cf354b2129e9521e35705966b4c38dfbdadd",
+  "bc_updates_in_selected_lineage": 20000,
+  "additional_ppo_steps": 10000,
+  "stored_total_ppo_timesteps": 15000,
+  "prior_and_action_std_unchanged": true,
+  "validation": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null,
+      "successful_mean_steps": 44.7,
+      "mean_reward": 323.6269572600657
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null,
+      "successful_mean_steps": 8.4,
+      "mean_reward": 160.82514630407536
+    },
+    "five_full_diagnostic": {
+      "episodes": 10,
+      "success": 0,
+      "collision": 10,
+      "joint_limit": 0,
+      "timeout": 0,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null,
+      "successful_mean_steps": null,
+      "mean_reward": -3.4544748265996006
+    },
+    "stage_target": {
+      "episodes": 20,
+      "success": 14,
+      "collision": 3,
+      "joint_limit": 0,
+      "timeout": 3,
+      "timeout_mean_position_m": 0.2582700081934266,
+      "timeout_mean_orientation_deg": 14.378679527998921,
+      "successful_mean_steps": 66.64285714285714,
+      "mean_reward": 251.34330026609877
+    }
+  },
+  "independent_test": {
+    "alignment_far": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0
+    },
+    "alignment_near": {
+      "episodes": 10,
+      "success": 10,
+      "collision": 0,
+      "joint_limit": 0,
+      "timeout": 0
+    },
+    "stage_target": {
+      "episodes": 100,
+      "success": 78,
+      "collision": 13,
+      "joint_limit": 0,
+      "timeout": 9
+    }
+  },
+  "starting_model_sha256": "cbe26edc2a25fc1f58c779fbeec3e99b0627a316d67f773182697ff56b0b1824",
+  "code_unchanged_during_training": true,
+  "execution": "StagedAvoidanceEnv with obstacle-free reference; no online expert avoidance",
+  "training_only_stall_reward": {
+    "window": 20,
+    "position_epsilon": 0.001,
+    "orientation_epsilon_deg": 0.1,
+    "path_epsilon": 0.01,
+    "joint_displacement": 0.02,
+    "weight": 0.1
+  },
+  "test_bank_sha256": "cae88221a95a59f6cfb4f8ff63bb9647bc1495890605e6c7f82a127c9aad86ef"
+}

@@ -1,0 +1,22 @@
+{
+  "pid": 6176,
+  "process_group": 6176,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "/home/johnsonchen/wall-panel-rl/experiments/close_weaving_v30/scripts/run_site_pipeline.py",
+    "--config",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/close_weaving_v30_seed20261118/training_config.yaml",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/close_weaving_v30_seed20261118",
+    "--existing-scenes",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/close_weaving_v30_seed20261118/scenes"
+  ],
+  "started_at": "2026-11-18T16:23:59.497100+08:00",
+  "source_model_sha256": "3b0a4459766b259fb03a5314cfc05b08322c5683f8ba59d3208f0a0cd920d15b",
+  "ppo_steps": 8192,
+  "bc_updates_max": 500,
+  "formal_old_controller_baseline": true,
+  "workers": 2,
+  "existing_scene_bank": "/home/johnsonchen/wall-panel-rl/results/diagnostics/close_weaving_v30_seed20261118/scenes"
+}

@@ -1,0 +1,8 @@
+{
+  "same_keys": true,
+  "different_tensors": {},
+  "maximum_abs_difference": 0.0,
+  "original_bc_steps": 5000,
+  "comparison_bc_steps": 5000,
+  "note": "Model state comparison; zip timestamps/metadata may differ. No training."
+}

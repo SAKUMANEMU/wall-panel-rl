@@ -1,0 +1,7 @@
+{
+  "new_passed": 3,
+  "failed": 0,
+  "duration_seconds": 35.49,
+  "test_file": "tests/test_progress_recovery.py",
+  "sha256": "a9beeacf0569aa73347a80debcf5432af96b74e0c6b77c32914676aa1a926869"
+}

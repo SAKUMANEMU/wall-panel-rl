@@ -1,0 +1,110 @@
+[
+  {
+    "seed": 3720101,
+    "count": 2,
+    "reason": "success",
+    "steps": 91,
+    "accepted_for_bc": true,
+    "wall_seconds": 111.88860377499986,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 3720000,
+    "count": 2,
+    "reason": "timeout",
+    "steps": 240,
+    "accepted_for_bc": false,
+    "wall_seconds": 287.16897634999987,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 3720201,
+    "count": 2,
+    "reason": "timeout",
+    "steps": 240,
+    "accepted_for_bc": false,
+    "wall_seconds": 331.99284364399864,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 3730000,
+    "count": 3,
+    "reason": "success",
+    "steps": 156,
+    "accepted_for_bc": true,
+    "wall_seconds": 177.40233103100036,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 3730100,
+    "count": 3,
+    "reason": "timeout",
+    "steps": 240,
+    "accepted_for_bc": false,
+    "wall_seconds": 269.7121056319993,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 3730200,
+    "count": 3,
+    "reason": "timeout",
+    "steps": 240,
+    "accepted_for_bc": false,
+    "wall_seconds": 303.7888477339984,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 3740001,
+    "count": 4,
+    "reason": "success",
+    "steps": 74,
+    "accepted_for_bc": true,
+    "wall_seconds": 73.37693943600061,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 3740100,
+    "count": 4,
+    "reason": "timeout",
+    "steps": 240,
+    "accepted_for_bc": false,
+    "wall_seconds": 241.52546531400003,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 3750016,
+    "count": 5,
+    "reason": "collision",
+    "steps": 112,
+    "accepted_for_bc": false,
+    "wall_seconds": 43.4221730090012,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 3740200,
+    "count": 4,
+    "reason": "timeout",
+    "steps": 240,
+    "accepted_for_bc": false,
+    "wall_seconds": 276.944426864,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 3750104,
+    "count": 5,
+    "reason": "success",
+    "steps": 86,
+    "accepted_for_bc": true,
+    "wall_seconds": 61.745606734999456,
+    "uses_global_rrt": false
+  },
+  {
+    "seed": 3750201,
+    "count": 5,
+    "reason": "timeout",
+    "steps": 240,
+    "accepted_for_bc": false,
+    "wall_seconds": 107.82564346300023,
+    "uses_global_rrt": false
+  }
+]

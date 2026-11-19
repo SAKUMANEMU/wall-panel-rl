@@ -1,0 +1,111 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-04T15:26:11.063532+08:00",
+  "expert_probability": 0.5,
+  "phase": "complete",
+  "updated_at": "2026-11-04T16:09:10.522161+08:00",
+  "ppo_steps": 10000,
+  "ppo_budget": 10000,
+  "train_layouts": 192,
+  "pure_ppo": {
+    "episodes": 64,
+    "success": 50,
+    "collision": 11,
+    "timeout": 3,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "ppo": {
+    "episodes": 64,
+    "success": 50,
+    "collision": 11,
+    "timeout": 3,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "mixture": {
+    "episodes": 64,
+    "success": 55,
+    "collision": 7,
+    "timeout": 2,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "mixture_by_controller": {
+    "rrt": {
+      "episodes": 24,
+      "success": 24,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "ppo": {
+      "episodes": 40,
+      "success": 31,
+      "collision": 7,
+      "timeout": 2,
+      "joint_limit": 0,
+      "planning_failure": 0
+    }
+  },
+  "score": [
+    0,
+    50,
+    -11,
+    -3
+  ],
+  "completed": {
+    "rrt": 149,
+    "ppo": 141
+  },
+  "selected": {
+    "ppo_steps": 0,
+    "ppo": {
+      "episodes": 64,
+      "success": 56,
+      "collision": 8,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture": {
+      "episodes": 64,
+      "success": 60,
+      "collision": 4,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 24,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 36,
+        "collision": 4,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      56,
+      -8,
+      0
+    ]
+  },
+  "rrt_steps": 10131,
+  "episode_starts": {
+    "rrt": 149,
+    "ppo": 145
+  },
+  "process_exited": true
+}

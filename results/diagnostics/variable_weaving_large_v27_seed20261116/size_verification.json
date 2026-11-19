@@ -1,0 +1,159 @@
+{
+  "linear_size_factor": 1.25,
+  "volume_size_factor": 1.953125,
+  "all_size_ranges_valid": true,
+  "scenes": [
+    {
+      "count": 2,
+      "seed": 2920000,
+      "dimensions_cm": [
+        [
+          15.469,
+          12.891,
+          20.625
+        ],
+        [
+          12.619,
+          16.826,
+          19.63
+        ]
+      ]
+    },
+    {
+      "count": 3,
+      "seed": 2930000,
+      "dimensions_cm": [
+        [
+          13.862,
+          11.552,
+          18.483
+        ],
+        [
+          10.705,
+          14.273,
+          16.652
+        ],
+        [
+          13.851,
+          12.466,
+          18.007
+        ]
+      ]
+    },
+    {
+      "count": 4,
+      "seed": 2940000,
+      "dimensions_cm": [
+        [
+          13.151,
+          10.959,
+          17.535
+        ],
+        [
+          9.847,
+          13.13,
+          15.318
+        ],
+        [
+          12.295,
+          11.066,
+          15.984
+        ],
+        [
+          14.943,
+          12.808,
+          19.212
+        ]
+      ]
+    },
+    {
+      "count": 5,
+      "seed": 2950011,
+      "dimensions_cm": [
+        [
+          13.287,
+          11.072,
+          17.716
+        ],
+        [
+          10.838,
+          14.451,
+          16.859
+        ],
+        [
+          11.055,
+          9.95,
+          14.372
+        ],
+        [
+          16.471,
+          14.118,
+          21.177
+        ],
+        [
+          9.198,
+          9.198,
+          11.497
+        ]
+      ]
+    }
+  ],
+  "parameters": {
+    "seed": 20261115,
+    "counts": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "count_probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "train_per_count": 12,
+    "validation_per_count": 4,
+    "test_per_count": 4,
+    "workers": 2,
+    "generation": {
+      "amplitude_m": 0.18,
+      "max_speed_m_s": 0.12,
+      "vertical_offsets_m": [
+        0.13,
+        0.22
+      ],
+      "size_scale": [
+        1.0625,
+        1.4375
+      ],
+      "fraction_jitter": 0.035,
+      "xy_jitter_m": 0.025,
+      "restarts": 24,
+      "attempts_per_obstacle": 160,
+      "max_seed_attempts_per_case": 100,
+      "swept_z_bounds_m": [
+        0.02,
+        1.65
+      ]
+    },
+    "training": {
+      "steps": 65536,
+      "pilot_steps": 8192,
+      "checkpoint_interval": 8192,
+      "n_steps": 256,
+      "batch_size": 128,
+      "n_epochs": 3,
+      "learning_rate": 3e-06,
+      "clip_range": 0.05,
+      "target_kl": 0.005,
+      "action_std": 0.05,
+      "reward_scale": 0.01,
+      "crossing_bonus": 3.0,
+      "phase_jitter_rad": 0.3,
+      "teacher_cases_per_count": 1,
+      "bc_updates": 1000,
+      "bc_learning_rate": 1e-05
+    }
+  }
+}

@@ -1,0 +1,45 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "mode": "run",
+  "study": {
+    "parent_report": "/home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61",
+    "comparison_report": "/home/johnsonchen/wall-panel-rl/results/diagnostics/static_candidate_comparison_v3_seed61",
+    "model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/static_stability_v3_seed61/selected_model.zip",
+    "validation_cases": "data/staged_avoidance_v3_seed61/one_static/validation_staged.json",
+    "regression_banks": {
+      "previous_100": "data/clearance_ppo_v3_seed61/independent_cases.json",
+      "recent_100": "data/static_candidate_comparison_v3_seed61/fresh_cases.json"
+    },
+    "report_root": "/home/johnsonchen/wall-panel-rl/results/diagnostics/reference_handoff_ablation_v3_seed61",
+    "variants": {
+      "baseline": {
+        "recovery_radius": 0.3,
+        "terminal_radius": 0.2
+      },
+      "recovery_wider": {
+        "recovery_radius": 0.45,
+        "terminal_radius": 0.2
+      },
+      "terminal_earlier": {
+        "recovery_radius": 0.3,
+        "terminal_radius": 0.4
+      }
+    }
+  }
+}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "validation", "updated_at": "2026-10-30T14:59:56.300668+08:00", "variant": "baseline"}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:00:04.025792+08:00", "variant": "baseline", "bank": "previous_100"}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:00:24.684833+08:00", "variant": "baseline", "bank": "previous_100", "target": {"episodes": 100, "success": 92, "collision": 4, "joint_limit": 0, "timeout": 4}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:00:24.685010+08:00", "variant": "baseline", "bank": "recent_100", "target": {"episodes": 100, "success": 92, "collision": 4, "joint_limit": 0, "timeout": 4}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:00:45.887374+08:00", "variant": "baseline", "bank": "recent_100", "target": {"episodes": 100, "success": 90, "collision": 6, "joint_limit": 0, "timeout": 4}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "validation", "updated_at": "2026-10-30T15:00:45.896576+08:00", "variant": "recovery_wider", "bank": "recent_100", "target": {"episodes": 100, "success": 90, "collision": 6, "joint_limit": 0, "timeout": 4}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:00:51.956555+08:00", "variant": "recovery_wider", "bank": "previous_100", "target": {"episodes": 100, "success": 90, "collision": 6, "joint_limit": 0, "timeout": 4}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:01:13.973621+08:00", "variant": "recovery_wider", "bank": "previous_100", "target": {"episodes": 100, "success": 79, "collision": 15, "joint_limit": 0, "timeout": 6}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:01:13.973783+08:00", "variant": "recovery_wider", "bank": "recent_100", "target": {"episodes": 100, "success": 79, "collision": 15, "joint_limit": 0, "timeout": 6}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:01:36.543344+08:00", "variant": "recovery_wider", "bank": "recent_100", "target": {"episodes": 100, "success": 82, "collision": 12, "joint_limit": 0, "timeout": 6}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "validation", "updated_at": "2026-10-30T15:01:36.552286+08:00", "variant": "terminal_earlier", "bank": "recent_100", "target": {"episodes": 100, "success": 82, "collision": 12, "joint_limit": 0, "timeout": 6}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:01:42.505767+08:00", "variant": "terminal_earlier", "bank": "previous_100", "target": {"episodes": 100, "success": 82, "collision": 12, "joint_limit": 0, "timeout": 6}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:01:59.926509+08:00", "variant": "terminal_earlier", "bank": "previous_100", "target": {"episodes": 100, "success": 11, "collision": 89, "joint_limit": 0, "timeout": 0}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:01:59.926693+08:00", "variant": "terminal_earlier", "bank": "recent_100", "target": {"episodes": 100, "success": 11, "collision": 89, "joint_limit": 0, "timeout": 0}}
+HANDOFF {"status": "running", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "regression", "updated_at": "2026-10-30T15:02:17.974573+08:00", "variant": "terminal_earlier", "bank": "recent_100", "target": {"episodes": 100, "success": 14, "collision": 86, "joint_limit": 0, "timeout": 0}}
+HANDOFF {"status": "completed", "runner_pid": 37963, "started_at": "2026-10-30T14:59:56.291584+08:00", "training_performed": false, "automatic_adoption": false, "phase": "complete", "updated_at": "2026-10-30T15:02:17.976335+08:00", "variant": "terminal_earlier", "bank": "recent_100", "target": {"episodes": 100, "success": 14, "collision": 86, "joint_limit": 0, "timeout": 0}, "finished_at": "2026-10-30T15:02:17.976325+08:00"}

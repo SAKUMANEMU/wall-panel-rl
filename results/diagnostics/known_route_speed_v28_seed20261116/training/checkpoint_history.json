@@ -1,0 +1,614 @@
+[
+  {
+    "label": "bc_1000",
+    "added_steps": 0,
+    "metrics": {
+      "all": {
+        "episodes": 16,
+        "success": 12,
+        "collision": 0,
+        "timeout": 4,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 0.375,
+        "success_with_weaving": 1,
+        "mean_task_error": 0.14950740722853562
+      },
+      "by_count": {
+        "2": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 1,
+          "mean_task_error": 0.0025850436437200573
+        },
+        "3": {
+          "episodes": 4,
+          "success": 2,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.5,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.3255016255704718
+        },
+        "4": {
+          "episodes": 4,
+          "success": 2,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.5,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.2677097046626451
+        },
+        "5": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.002233255037305422
+        }
+      }
+    }
+  },
+  {
+    "label": "ppo_8192",
+    "added_steps": 8192,
+    "metrics": {
+      "all": {
+        "episodes": 16,
+        "success": 13,
+        "collision": 0,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.8125,
+        "mean_passage_count": 0.25,
+        "success_with_weaving": 1,
+        "mean_task_error": 0.059866740894355217
+      },
+      "by_count": {
+        "2": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 1,
+          "mean_task_error": 0.002998105960117556
+        },
+        "3": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.004084525602694026
+        },
+        "4": {
+          "episodes": 4,
+          "success": 1,
+          "collision": 0,
+          "timeout": 3,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.25,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.22779717054155266
+        },
+        "5": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.004587161473056664
+        }
+      }
+    }
+  },
+  {
+    "label": "ppo_16384",
+    "added_steps": 16384,
+    "metrics": {
+      "all": {
+        "episodes": 16,
+        "success": 14,
+        "collision": 0,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.875,
+        "mean_passage_count": 0.625,
+        "success_with_weaving": 1,
+        "mean_task_error": 0.091024788754816
+      },
+      "by_count": {
+        "2": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 1,
+          "mean_task_error": 0.0034147426115768214
+        },
+        "3": {
+          "episodes": 4,
+          "success": 3,
+          "collision": 0,
+          "timeout": 1,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.75,
+          "mean_passage_count": 1.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.28896226384772394
+        },
+        "4": {
+          "episodes": 4,
+          "success": 3,
+          "collision": 0,
+          "timeout": 1,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.75,
+          "mean_passage_count": 1.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.06910532051556943
+        },
+        "5": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.0026168280443938144
+        }
+      }
+    }
+  },
+  {
+    "label": "ppo_24576",
+    "added_steps": 24576,
+    "metrics": {
+      "all": {
+        "episodes": 16,
+        "success": 13,
+        "collision": 0,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.8125,
+        "mean_passage_count": 0.375,
+        "success_with_weaving": 1,
+        "mean_task_error": 0.12632016154439574
+      },
+      "by_count": {
+        "2": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 1,
+          "mean_task_error": 0.002952939876141323
+        },
+        "3": {
+          "episodes": 4,
+          "success": 2,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.5,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.4630894619337045
+        },
+        "4": {
+          "episodes": 4,
+          "success": 3,
+          "collision": 0,
+          "timeout": 1,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.75,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.03885246629145092
+        },
+        "5": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.00038577807628620736
+        }
+      }
+    }
+  },
+  {
+    "label": "ppo_32768",
+    "added_steps": 32768,
+    "metrics": {
+      "all": {
+        "episodes": 16,
+        "success": 12,
+        "collision": 0,
+        "timeout": 4,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 0.25,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.15461406740557518
+      },
+      "by_count": {
+        "2": {
+          "episodes": 4,
+          "success": 3,
+          "collision": 0,
+          "timeout": 1,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.75,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.17215924107766922
+        },
+        "3": {
+          "episodes": 4,
+          "success": 2,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.5,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.2782294686347818
+        },
+        "4": {
+          "episodes": 4,
+          "success": 3,
+          "collision": 0,
+          "timeout": 1,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.75,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.16102260349312444
+        },
+        "5": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.007044956416725159
+        }
+      }
+    }
+  },
+  {
+    "label": "ppo_40960",
+    "added_steps": 40960,
+    "metrics": {
+      "all": {
+        "episodes": 16,
+        "success": 13,
+        "collision": 0,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.8125,
+        "mean_passage_count": 0.125,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.1132976043118209
+      },
+      "by_count": {
+        "2": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.0010041126076999812
+        },
+        "3": {
+          "episodes": 4,
+          "success": 3,
+          "collision": 0,
+          "timeout": 1,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.75,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.2993500062382778
+        },
+        "4": {
+          "episodes": 4,
+          "success": 2,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.5,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.14877716527055557
+        },
+        "5": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.00405913313075029
+        }
+      }
+    }
+  },
+  {
+    "label": "ppo_49152",
+    "added_steps": 49152,
+    "metrics": {
+      "all": {
+        "episodes": 16,
+        "success": 12,
+        "collision": 1,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 0.125,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.12168120319874601
+      },
+      "by_count": {
+        "2": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.002817913174850938
+        },
+        "3": {
+          "episodes": 4,
+          "success": 3,
+          "collision": 0,
+          "timeout": 1,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.75,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.15166604321330285
+        },
+        "4": {
+          "episodes": 4,
+          "success": 1,
+          "collision": 1,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.25,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.3305130746848375
+        },
+        "5": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.0017277817219928037
+        }
+      }
+    }
+  },
+  {
+    "label": "ppo_57344",
+    "added_steps": 57344,
+    "metrics": {
+      "all": {
+        "episodes": 16,
+        "success": 12,
+        "collision": 0,
+        "timeout": 4,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.75,
+        "mean_passage_count": 0.25,
+        "success_with_weaving": 1,
+        "mean_task_error": 0.10176921065004871
+      },
+      "by_count": {
+        "2": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 1,
+          "mean_task_error": 0.0034041841055729685
+        },
+        "3": {
+          "episodes": 4,
+          "success": 3,
+          "collision": 0,
+          "timeout": 1,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.75,
+          "mean_passage_count": 0.5,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.16163373795119654
+        },
+        "4": {
+          "episodes": 4,
+          "success": 1,
+          "collision": 0,
+          "timeout": 3,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.25,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.23632015663409442
+        },
+        "5": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.005718763909330961
+        }
+      }
+    }
+  },
+  {
+    "label": "ppo_65536",
+    "added_steps": 65536,
+    "metrics": {
+      "all": {
+        "episodes": 16,
+        "success": 14,
+        "collision": 0,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.875,
+        "mean_passage_count": 0.25,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.04320193501475216
+      },
+      "by_count": {
+        "2": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.0070992153302327915
+        },
+        "3": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 1.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.005533282760028223
+        },
+        "4": {
+          "episodes": 4,
+          "success": 2,
+          "collision": 0,
+          "timeout": 2,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.5,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.15482350540120476
+        },
+        "5": {
+          "episodes": 4,
+          "success": 4,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.005351736567542855
+        }
+      }
+    }
+  }
+]

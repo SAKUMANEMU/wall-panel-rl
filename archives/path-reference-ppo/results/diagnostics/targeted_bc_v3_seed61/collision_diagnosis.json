@@ -1,0 +1,78 @@
+{
+  "validation": {
+    "episodes": 20,
+    "outcomes": {
+      "collision": 9,
+      "success": 10,
+      "timeout": 1
+    },
+    "collision_objects": {
+      "panel_obstacle": 6,
+      "arm_self": 4,
+      "arm_arm_panel": 1
+    },
+    "collision_steps": [
+      25,
+      162,
+      21,
+      88,
+      27,
+      22,
+      180,
+      80,
+      152
+    ],
+    "unclassified_collisions": 0
+  },
+  "train": {
+    "episodes": 54,
+    "outcomes": {
+      "success": 18,
+      "collision": 34,
+      "timeout": 2
+    },
+    "collision_objects": {
+      "panel_obstacle": 21,
+      "panel_wall": 10,
+      "arm_obstacle": 1,
+      "arm_self": 4
+    },
+    "collision_steps": [
+      21,
+      23,
+      84,
+      41,
+      23,
+      77,
+      95,
+      87,
+      26,
+      25,
+      24,
+      24,
+      96,
+      99,
+      79,
+      22,
+      63,
+      25,
+      23,
+      24,
+      63,
+      21,
+      27,
+      29,
+      126,
+      24,
+      59,
+      64,
+      31,
+      78,
+      27,
+      73,
+      79,
+      76
+    ],
+    "unclassified_collisions": 0
+  }
+}

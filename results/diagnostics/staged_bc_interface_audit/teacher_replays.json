@@ -1,0 +1,1002 @@
+[
+  {
+    "episode": 0,
+    "seed": 800048,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.513506580648084e-07
+  },
+  {
+    "episode": 1,
+    "seed": 800049,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.4342559079570947e-07
+  },
+  {
+    "episode": 2,
+    "seed": 800013,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 5,
+    "saved_steps": 5,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 1.740849836645575e-07
+  },
+  {
+    "episode": 3,
+    "seed": 800017,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 3,
+    "saved_steps": 3,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 1.700608111693258e-07
+  },
+  {
+    "episode": 4,
+    "seed": 800012,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 3,
+    "saved_steps": 3,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 1.5128557605964543e-07
+  },
+  {
+    "episode": 5,
+    "seed": 800006,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 51,
+    "saved_steps": 51,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.608145628357761e-07
+  },
+  {
+    "episode": 6,
+    "seed": 800052,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 57,
+    "saved_steps": 57,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.595243961955873e-07
+  },
+  {
+    "episode": 7,
+    "seed": 800048,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 60,
+    "saved_steps": 60,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.232559959125524e-07
+  },
+  {
+    "episode": 8,
+    "seed": 800005,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 50,
+    "saved_steps": 50,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.4773252871312934e-07
+  },
+  {
+    "episode": 9,
+    "seed": 800009,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 60,
+    "saved_steps": 60,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.581373705901058e-07
+  },
+  {
+    "episode": 10,
+    "seed": 800026,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 57,
+    "saved_steps": 57,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.539498713538535e-07
+  },
+  {
+    "episode": 11,
+    "seed": 800036,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 54,
+    "saved_steps": 54,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.409701203021086e-07
+  },
+  {
+    "episode": 12,
+    "seed": 800008,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 54,
+    "saved_steps": 54,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5952080351387963e-07
+  },
+  {
+    "episode": 13,
+    "seed": 800011,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 58,
+    "saved_steps": 58,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5214751842028704e-07
+  },
+  {
+    "episode": 14,
+    "seed": 800001,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 55,
+    "saved_steps": 55,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.3199453647038126e-07
+  },
+  {
+    "episode": 15,
+    "seed": 800052,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 51,
+    "saved_steps": 51,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.3142006688736672e-07
+  },
+  {
+    "episode": 16,
+    "seed": 800061,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 64,
+    "saved_steps": 64,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.4320694214097216e-07
+  },
+  {
+    "episode": 17,
+    "seed": 800032,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 50,
+    "saved_steps": 50,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.3363170553736268e-07
+  },
+  {
+    "episode": 18,
+    "seed": 800052,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 57,
+    "saved_steps": 57,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.6475867898057004e-07
+  },
+  {
+    "episode": 19,
+    "seed": 800055,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 51,
+    "saved_steps": 51,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.604782964876762e-07
+  },
+  {
+    "episode": 20,
+    "seed": 800044,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 51,
+    "saved_steps": 51,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.3734604193137443e-07
+  },
+  {
+    "episode": 21,
+    "seed": 800012,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 66,
+    "saved_steps": 66,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.6339086689475266e-07
+  },
+  {
+    "episode": 22,
+    "seed": 800019,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 69,
+    "saved_steps": 69,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.138321084643735e-07
+  },
+  {
+    "episode": 23,
+    "seed": 800026,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 50,
+    "saved_steps": 50,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.6137743702747684e-07
+  },
+  {
+    "episode": 24,
+    "seed": 800060,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 47,
+    "saved_steps": 47,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.6403466568680756e-07
+  },
+  {
+    "episode": 25,
+    "seed": 800024,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 45,
+    "saved_steps": 45,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.526553271042786e-07
+  },
+  {
+    "episode": 26,
+    "seed": 800063,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.574187893955582e-07
+  },
+  {
+    "episode": 27,
+    "seed": 800001,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 5,
+    "saved_steps": 5,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 1.6508604812337513e-07
+  },
+  {
+    "episode": 28,
+    "seed": 800055,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 57,
+    "saved_steps": 57,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.3950037553177594e-07
+  },
+  {
+    "episode": 29,
+    "seed": 800037,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 55,
+    "saved_steps": 55,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.344802767506593e-07
+  },
+  {
+    "episode": 30,
+    "seed": 800055,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 55,
+    "saved_steps": 55,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.35041480056708e-07
+  },
+  {
+    "episode": 31,
+    "seed": 800045,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.6408407816091994e-07
+  },
+  {
+    "episode": 32,
+    "seed": 800022,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 50,
+    "saved_steps": 50,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.490285277989557e-07
+  },
+  {
+    "episode": 33,
+    "seed": 800033,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 60,
+    "saved_steps": 60,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.448505918017929e-07
+  },
+  {
+    "episode": 34,
+    "seed": 800057,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.581179492366914e-07
+  },
+  {
+    "episode": 35,
+    "seed": 800021,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.618817465105394e-07
+  },
+  {
+    "episode": 36,
+    "seed": 800031,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 48,
+    "saved_steps": 48,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5959822069765437e-07
+  },
+  {
+    "episode": 37,
+    "seed": 800042,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.3331675369497873e-07
+  },
+  {
+    "episode": 38,
+    "seed": 800047,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 66,
+    "saved_steps": 66,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.613171168341921e-07
+  },
+  {
+    "episode": 39,
+    "seed": 800037,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.45173097823681e-07
+  },
+  {
+    "episode": 40,
+    "seed": 800000,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 57,
+    "saved_steps": 57,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.360615440899494e-07
+  },
+  {
+    "episode": 41,
+    "seed": 800049,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 50,
+    "saved_steps": 50,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.6432110789009755e-07
+  },
+  {
+    "episode": 42,
+    "seed": 800010,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 59,
+    "saved_steps": 59,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.4528804809520466e-07
+  },
+  {
+    "episode": 43,
+    "seed": 800002,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.4270886633814825e-07
+  },
+  {
+    "episode": 44,
+    "seed": 800029,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 53,
+    "saved_steps": 53,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5099684797247335e-07
+  },
+  {
+    "episode": 45,
+    "seed": 800060,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 66,
+    "saved_steps": 66,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.569956816245167e-07
+  },
+  {
+    "episode": 46,
+    "seed": 800018,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 50,
+    "saved_steps": 50,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.567888226501225e-07
+  },
+  {
+    "episode": 47,
+    "seed": 800048,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 61,
+    "saved_steps": 61,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.3411747562818164e-07
+  },
+  {
+    "episode": 48,
+    "seed": 800011,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 58,
+    "saved_steps": 58,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.649073806981761e-07
+  },
+  {
+    "episode": 49,
+    "seed": 800006,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 58,
+    "saved_steps": 58,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.560789167382893e-07
+  },
+  {
+    "episode": 50,
+    "seed": 800011,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 5,
+    "saved_steps": 5,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 1.4455448685279926e-07
+  },
+  {
+    "episode": 51,
+    "seed": 800006,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.544963546569079e-07
+  },
+  {
+    "episode": 52,
+    "seed": 800006,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 55,
+    "saved_steps": 55,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5231375100354114e-07
+  },
+  {
+    "episode": 53,
+    "seed": 800036,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 48,
+    "saved_steps": 48,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5597207597982674e-07
+  },
+  {
+    "episode": 54,
+    "seed": 800033,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 53,
+    "saved_steps": 53,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.27087275428417e-07
+  },
+  {
+    "episode": 55,
+    "seed": 800024,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 51,
+    "saved_steps": 51,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.3255312520120697e-07
+  },
+  {
+    "episode": 56,
+    "seed": 800057,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 48,
+    "saved_steps": 48,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5772068146245886e-07
+  },
+  {
+    "episode": 57,
+    "seed": 800013,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 59,
+    "saved_steps": 59,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.589937224684036e-07
+  },
+  {
+    "episode": 58,
+    "seed": 800059,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 5,
+    "saved_steps": 5,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 1.6428425334003016e-07
+  },
+  {
+    "episode": 59,
+    "seed": 800035,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 52,
+    "saved_steps": 52,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5533131253752117e-07
+  },
+  {
+    "episode": 60,
+    "seed": 800030,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 52,
+    "saved_steps": 52,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5250573276736077e-07
+  },
+  {
+    "episode": 61,
+    "seed": 800044,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 4,
+    "saved_steps": 4,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 1.6272893882396389e-07
+  },
+  {
+    "episode": 62,
+    "seed": 800036,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 55,
+    "saved_steps": 55,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.6440807809891e-07
+  },
+  {
+    "episode": 63,
+    "seed": 800005,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 46,
+    "saved_steps": 46,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.53612432388195e-07
+  },
+  {
+    "episode": 64,
+    "seed": 800058,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 48,
+    "saved_steps": 48,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.2035432312161873e-07
+  },
+  {
+    "episode": 65,
+    "seed": 800061,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.2749403028043957e-07
+  },
+  {
+    "episode": 66,
+    "seed": 800062,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 47,
+    "saved_steps": 47,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.2547937073014168e-07
+  },
+  {
+    "episode": 67,
+    "seed": 800061,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 56,
+    "saved_steps": 56,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.6301725264410436e-07
+  },
+  {
+    "episode": 68,
+    "seed": 800044,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 55,
+    "saved_steps": 55,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.458736796384642e-07
+  },
+  {
+    "episode": 69,
+    "seed": 800014,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 56,
+    "saved_steps": 56,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5571826656189955e-07
+  },
+  {
+    "episode": 70,
+    "seed": 800045,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 47,
+    "saved_steps": 47,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.6166016109385737e-07
+  },
+  {
+    "episode": 71,
+    "seed": 800002,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 47,
+    "saved_steps": 47,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.556119536034629e-07
+  },
+  {
+    "episode": 72,
+    "seed": 800046,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 52,
+    "saved_steps": 52,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5979975015744117e-07
+  },
+  {
+    "episode": 73,
+    "seed": 800009,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 3,
+    "saved_steps": 3,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 1.718669992850641e-07
+  },
+  {
+    "episode": 74,
+    "seed": 800041,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 50,
+    "saved_steps": 50,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.369789677825196e-07
+  },
+  {
+    "episode": 75,
+    "seed": 800025,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 57,
+    "saved_steps": 57,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.5424601779455713e-07
+  },
+  {
+    "episode": 76,
+    "seed": 800007,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 56,
+    "saved_steps": 56,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.503184353130905e-07
+  },
+  {
+    "episode": 77,
+    "seed": 800014,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 68,
+    "saved_steps": 68,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.6045210921310513e-07
+  },
+  {
+    "episode": 78,
+    "seed": 800045,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 55,
+    "saved_steps": 55,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.446200213501726e-07
+  },
+  {
+    "episode": 79,
+    "seed": 800012,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 51,
+    "saved_steps": 51,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.388608750791832e-07
+  },
+  {
+    "episode": 80,
+    "seed": 800008,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 65,
+    "saved_steps": 65,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.634760787323387e-07
+  },
+  {
+    "episode": 81,
+    "seed": 800058,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.4736927173307777e-07
+  },
+  {
+    "episode": 82,
+    "seed": 800053,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.519320116967094e-07
+  },
+  {
+    "episode": 83,
+    "seed": 800010,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 51,
+    "saved_steps": 51,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.583089864227617e-07
+  },
+  {
+    "episode": 84,
+    "seed": 800015,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 2,
+    "saved_steps": 2,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 1.7394688374416933e-07
+  },
+  {
+    "episode": 85,
+    "seed": 800010,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 2,
+    "saved_steps": 2,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 1.7007391173162745e-07
+  },
+  {
+    "episode": 86,
+    "seed": 800004,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 57,
+    "saved_steps": 57,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.614419836177717e-07
+  },
+  {
+    "episode": 87,
+    "seed": 800036,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 53,
+    "saved_steps": 53,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.569811561325963e-07
+  },
+  {
+    "episode": 88,
+    "seed": 800030,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 50,
+    "saved_steps": 50,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.1482982615061985e-07
+  },
+  {
+    "episode": 89,
+    "seed": 800063,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 59,
+    "saved_steps": 59,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.2008153388597407e-07
+  },
+  {
+    "episode": 90,
+    "seed": 800013,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 64,
+    "saved_steps": 64,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.2873488858543567e-07
+  },
+  {
+    "episode": 91,
+    "seed": 800045,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 52,
+    "saved_steps": 52,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.603313025151266e-07
+  },
+  {
+    "episode": 92,
+    "seed": 800000,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 8,
+    "saved_steps": 8,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 1.5543783871141414e-07
+  },
+  {
+    "episode": 93,
+    "seed": 800046,
+    "task": "alignment",
+    "reason": "success",
+    "steps": 46,
+    "saved_steps": 46,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.4172280133072377e-07
+  },
+  {
+    "episode": 94,
+    "seed": 800058,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 56,
+    "saved_steps": 56,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.466278297141855e-07
+  },
+  {
+    "episode": 95,
+    "seed": 800026,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 55,
+    "saved_steps": 55,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.539498713538535e-07
+  },
+  {
+    "episode": 96,
+    "seed": 800030,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 54,
+    "saved_steps": 54,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.570653649947019e-07
+  },
+  {
+    "episode": 97,
+    "seed": 800009,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 47,
+    "saved_steps": 47,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.4017122091102294e-07
+  },
+  {
+    "episode": 98,
+    "seed": 800018,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 49,
+    "saved_steps": 49,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.639338800847213e-07
+  },
+  {
+    "episode": 99,
+    "seed": 800050,
+    "task": "avoidance",
+    "reason": "success",
+    "steps": 65,
+    "saved_steps": 65,
+    "max_observation_error": 0.0,
+    "q_normalization_error_rad": 2.632057047868841e-07
+  }
+]

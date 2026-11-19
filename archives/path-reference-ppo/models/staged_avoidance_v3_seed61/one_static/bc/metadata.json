@@ -1,0 +1,408 @@
+{
+  "bc_updates": 2000,
+  "ppo_environment_steps": 0,
+  "source_steps": 5000,
+  "heldout_selection_objective": 0.008018804359059384,
+  "heldout_scene_mse": 0.008018803782761097,
+  "interface_contract": "reference_preserving_v3",
+  "task_sampling": "balanced_alignment_avoidance",
+  "source_sha256": "6d44a37e5e778944b1e10622ed7ad2016678878f1f6f00a6922a456f01354e73",
+  "train_scene_seeds": [
+    800000,
+    800001,
+    800002,
+    800004,
+    800005,
+    800006,
+    800007,
+    800008,
+    800009,
+    800011,
+    800012,
+    800013,
+    800014,
+    800017,
+    800018,
+    800021,
+    800024,
+    800025,
+    800026,
+    800029,
+    800030,
+    800031,
+    800032,
+    800033,
+    800035,
+    800036,
+    800037,
+    800041,
+    800044,
+    800046,
+    800047,
+    800048,
+    800049,
+    800050,
+    800053,
+    800058,
+    800059,
+    800060,
+    800061,
+    800063
+  ],
+  "heldout_scene_seeds": [
+    800010,
+    800015,
+    800019,
+    800022,
+    800042,
+    800045,
+    800052,
+    800055,
+    800057,
+    800062
+  ],
+  "teacher_sha256": "a162846b0933076b2ea80e4ffad3f89ac13c80bdc8a8dfafb95dfd3b6cfb936d",
+  "actor_only_updates": true,
+  "critic_and_prior_unchanged": true,
+  "history": [
+    {
+      "update": 100,
+      "sampled_train_objective": 0.022188972681760788,
+      "heldout_scene_mse": 0.018157461658120155,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.03631492331624031
+      },
+      "heldout_terminal_mse": 2.3908350299528536e-10,
+      "selection_objective": 0.01815746213628716
+    },
+    {
+      "update": 200,
+      "sampled_train_objective": 0.017086267471313477,
+      "heldout_scene_mse": 0.01456252671778202,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.02912505343556404
+      },
+      "heldout_terminal_mse": 1.6428791660416664e-10,
+      "selection_objective": 0.014562527046357854
+    },
+    {
+      "update": 300,
+      "sampled_train_objective": 0.016038522124290466,
+      "heldout_scene_mse": 0.013795657083392143,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.027591314166784286
+      },
+      "heldout_terminal_mse": 1.3655011843471954e-10,
+      "selection_objective": 0.01379565735649238
+    },
+    {
+      "update": 400,
+      "sampled_train_objective": 0.016216639429330826,
+      "heldout_scene_mse": 0.013362406753003597,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.026724813506007195
+      },
+      "heldout_terminal_mse": 1.321207449000994e-10,
+      "selection_objective": 0.013362407017245087
+    },
+    {
+      "update": 500,
+      "sampled_train_objective": 0.016385462135076523,
+      "heldout_scene_mse": 0.012673512101173401,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.025347024202346802
+      },
+      "heldout_terminal_mse": 1.2771332602579122e-10,
+      "selection_objective": 0.012673512356600053
+    },
+    {
+      "update": 600,
+      "sampled_train_objective": 0.01490781456232071,
+      "heldout_scene_mse": 0.011563385836780071,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.023126771673560143
+      },
+      "heldout_terminal_mse": 1.6972387384406318e-10,
+      "selection_objective": 0.011563386176227819
+    },
+    {
+      "update": 700,
+      "sampled_train_objective": 0.012352547608315945,
+      "heldout_scene_mse": 0.010826267302036285,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.02165253460407257
+      },
+      "heldout_terminal_mse": 2.0266788247624845e-10,
+      "selection_objective": 0.01082626770737205
+    },
+    {
+      "update": 800,
+      "sampled_train_objective": 0.012655975297093391,
+      "heldout_scene_mse": 0.010363077744841576,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.02072615548968315
+      },
+      "heldout_terminal_mse": 2.0797392974447604e-10,
+      "selection_objective": 0.010363078160789435
+    },
+    {
+      "update": 900,
+      "sampled_train_objective": 0.013304073363542557,
+      "heldout_scene_mse": 0.009719436056911945,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.01943887211382389
+      },
+      "heldout_terminal_mse": 2.1645324421726286e-10,
+      "selection_objective": 0.009719436489818434
+    },
+    {
+      "update": 1000,
+      "sampled_train_objective": 0.010657643899321556,
+      "heldout_scene_mse": 0.009470891207456589,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.018941782414913177
+      },
+      "heldout_terminal_mse": 2.4562504807867924e-10,
+      "selection_objective": 0.009470891698706685
+    },
+    {
+      "update": 1100,
+      "sampled_train_objective": 0.014337499625980854,
+      "heldout_scene_mse": 0.009102128446102142,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.018204256892204285
+      },
+      "heldout_terminal_mse": 2.288996214794281e-10,
+      "selection_objective": 0.009102128903901385
+    },
+    {
+      "update": 1200,
+      "sampled_train_objective": 0.011389823630452156,
+      "heldout_scene_mse": 0.008898436091840267,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.017796872183680534
+      },
+      "heldout_terminal_mse": 2.53873005950922e-10,
+      "selection_objective": 0.008898436599586279
+    },
+    {
+      "update": 1300,
+      "sampled_train_objective": 0.013189947232604027,
+      "heldout_scene_mse": 0.008940495550632477,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.017880991101264954
+      },
+      "heldout_terminal_mse": 2.4041155177734197e-10,
+      "selection_objective": 0.00894049603145558
+    },
+    {
+      "update": 1400,
+      "sampled_train_objective": 0.013605304062366486,
+      "heldout_scene_mse": 0.008575188927352428,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.017150377854704857
+      },
+      "heldout_terminal_mse": 2.2860120740819667e-10,
+      "selection_objective": 0.008575189384554843
+    },
+    {
+      "update": 1500,
+      "sampled_train_objective": 0.014223158359527588,
+      "heldout_scene_mse": 0.00851024966686964,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.01702049933373928
+      },
+      "heldout_terminal_mse": 2.363600148935774e-10,
+      "selection_objective": 0.00851025013958967
+    },
+    {
+      "update": 1600,
+      "sampled_train_objective": 0.009230049327015877,
+      "heldout_scene_mse": 0.008354981429874897,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.016709962859749794
+      },
+      "heldout_terminal_mse": 2.483657723928445e-10,
+      "selection_objective": 0.008354981926606442
+    },
+    {
+      "update": 1700,
+      "sampled_train_objective": 0.01009207684546709,
+      "heldout_scene_mse": 0.008416745811700821,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.016833491623401642
+      },
+      "heldout_terminal_mse": 2.769868778784712e-10,
+      "selection_objective": 0.008416746365674577
+    },
+    {
+      "update": 1800,
+      "sampled_train_objective": 0.012375913560390472,
+      "heldout_scene_mse": 0.008190621621906757,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.016381243243813515
+      },
+      "heldout_terminal_mse": 2.6757587812120676e-10,
+      "selection_objective": 0.008190622157058514
+    },
+    {
+      "update": 1900,
+      "sampled_train_objective": 0.0091315358877182,
+      "heldout_scene_mse": 0.00817490741610527,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.01634981483221054
+      },
+      "heldout_terminal_mse": 2.9028818238074905e-10,
+      "selection_objective": 0.008174907996681635
+    },
+    {
+      "update": 2000,
+      "sampled_train_objective": 0.009948184713721275,
+      "heldout_scene_mse": 0.008018803782761097,
+      "heldout_task_mse": {
+        "alignment": 0.0,
+        "avoidance": 0.016037607565522194
+      },
+      "heldout_terminal_mse": 2.881491434347794e-10,
+      "selection_objective": 0.008018804359059384
+    }
+  ],
+  "settings": {
+    "source_first": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+    "output_root": "models/staged_avoidance_v3_seed61",
+    "data_root": "data/staged_avoidance_v3_seed61",
+    "interface_contract": "reference_preserving_v3",
+    "terminal_radius": 0.2,
+    "reference_recovery": {
+      "radius": 0.3,
+      "min_distance": 0.08,
+      "improvement": 0.02
+    },
+    "environment": "configs/ppo_dynamic_clean.yaml",
+    "release": "releases/path_reference_bc_20261025",
+    "seed": 61,
+    "additional_timesteps": 10000,
+    "workers": 4,
+    "n_steps": 250,
+    "batch_size": 100,
+    "n_epochs": 3,
+    "learning_rate": 0.0001,
+    "clip_range": 0.05,
+    "target_kl": 0.005,
+    "eval_every": 5000,
+    "residual_scale": 2.0,
+    "initial_prior_gate": 0.5,
+    "action_std": 0.1,
+    "progress_weight": 0.25,
+    "joint_margin": 0.01,
+    "clearance_distance": 0.08,
+    "clearance_weight": 0.5,
+    "mixture": {
+      "alignment": 0.2,
+      "static": 0.3,
+      "dynamic": 0.5
+    },
+    "train_scenes": 64,
+    "validation_scenes": 20,
+    "train_seed_base": 800000,
+    "validation_seed_base": 900000,
+    "teacher": {
+      "alignment_episodes": 20,
+      "avoidance_episodes": 80,
+      "maximum_attempts": 500,
+      "minimum_unique_scenes": 10,
+      "updates": 2000,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "terminal_weight": 2.0,
+      "gate_retention_weight": 0.01,
+      "residual_weight": 0.001
+    },
+    "bc_gate": {
+      "minimum_episodes": 20,
+      "minimum_alignment_episodes": 10,
+      "minimum_success_rate": 0.5,
+      "maximum_collision_rate": 0.25,
+      "minimum_alignment_success_rate": 0.9,
+      "maximum_goal_action": 0.005
+    },
+    "gate": {
+      "minimum_episodes": 20,
+      "minimum_alignment_episodes": 10,
+      "minimum_success_rate": 0.8,
+      "maximum_collision_rate": 0.1,
+      "minimum_alignment_success_rate": 0.9,
+      "consecutive_checks": 2
+    },
+    "stages": [
+      {
+        "name": "one_static",
+        "count": 1,
+        "mode": "static",
+        "amplitude": 0.05,
+        "speed": 0.02
+      },
+      {
+        "name": "one_dynamic",
+        "count": 1,
+        "mode": "dynamic",
+        "amplitude": 0.05,
+        "speed": 0.02
+      },
+      {
+        "name": "three_dynamic",
+        "count": 3,
+        "mode": "dynamic",
+        "amplitude": 0.1,
+        "speed": 0.05
+      },
+      {
+        "name": "five_dynamic_low",
+        "count": 5,
+        "mode": "dynamic",
+        "amplitude": 0.1,
+        "speed": 0.05
+      },
+      {
+        "name": "five_dynamic_full",
+        "count": 5,
+        "mode": "dynamic",
+        "amplitude": 0.4,
+        "speed": 0.4
+      }
+    ],
+    "active_stage": {
+      "name": "one_static",
+      "count": 1,
+      "mode": "static",
+      "amplitude": 0.05,
+      "speed": 0.02
+    },
+    "stage_index": 0,
+    "train_start_seed": 800000,
+    "validation_start_seed": 900000,
+    "data": "data/staged_avoidance_v3_seed61/one_static",
+    "stage_output": "models/staged_avoidance_v3_seed61/one_static",
+    "output": "models/staged_avoidance_v3_seed61/one_static/ppo",
+    "source_model": "models/waypoint_ppo_pilot_seed61/best_model.zip"
+  }
+}

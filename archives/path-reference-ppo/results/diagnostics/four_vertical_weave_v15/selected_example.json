@@ -1,0 +1,47 @@
+{
+  "seed": 1144002,
+  "reason": "success",
+  "steps": 141,
+  "position_m": 0.000746392131659997,
+  "orientation_deg": 0.052321647460901545,
+  "anchor_height_span_m": 0.5860354789074309,
+  "upward_travel_m": 0.8750610102097833,
+  "downward_travel_m": 0.6280843388815696,
+  "reference_departure_up_m": 0.295103871804426,
+  "reference_departure_down_m": 0.19509060257234717,
+  "recovery_actions": 16,
+  "passages": [
+    {
+      "slot": 2,
+      "step": 17,
+      "xy_distance_m": 0.07386697307900925,
+      "relative_center_height_m": -0.25332690698886273
+    },
+    {
+      "slot": 0,
+      "step": 100,
+      "xy_distance_m": 0.03106937981383997,
+      "relative_center_height_m": -0.8151192791305668
+    },
+    {
+      "slot": 1,
+      "step": 108,
+      "xy_distance_m": 0.13496910572040036,
+      "relative_center_height_m": -0.47104176536034204
+    },
+    {
+      "slot": 3,
+      "step": 138,
+      "xy_distance_m": 0.04149219778461956,
+      "relative_center_height_m": -0.6261203507391093
+    }
+  ],
+  "scope": "Selected development demonstration, not an independent success-rate estimate",
+  "selection": "Development search: four measured execution routes, three feasible reanchored layouts; select successful example with largest two-sided reference-height departure",
+  "model_weights_changed": false,
+  "optimizer_updates": 0,
+  "real_step_limit": 240,
+  "profile": "configs/four_vertical_weave.yaml",
+  "placement_route_kind": "measured_previous_controller_execution_demonstration_only",
+  "interpretation": "Repeated changes in panel height in a collision-free dynamic scene. Nearest-XY passage measurements do not establish alternating passage above/below every whole box."
+}

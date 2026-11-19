@@ -1,0 +1,6 @@
+additional_ppo_steps,selected,new_validation_episodes,new_validation_success,new_validation_collision,new_validation_timeout,new_validation_joint_limit,new_validation_planning_failure,old_validation_episodes,old_validation_success,old_validation_collision,old_validation_timeout,old_validation_joint_limit,old_validation_planning_failure
+0,False,64,51,13,0,0,0,32,22,10,0,0,0
+5000,False,64,52,11,1,0,0,32,22,10,0,0,0
+10000,True,64,56,8,0,0,0,32,23,9,0,0,0
+15000,False,64,49,11,4,0,0,32,22,10,0,0,0
+20000,False,64,46,11,7,0,0,32,22,10,0,0,0

@@ -1,0 +1,17 @@
+{
+  "pid": 9186,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "/home/johnsonchen/wall-panel-rl/experiments/enhanced_scope_v23/scripts/run_enhanced_scope.py",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/enhanced_scope_v23_seed20261113",
+    "--workers",
+    "4",
+    "--development-per-guide",
+    "8",
+    "--test-per-guide",
+    "16"
+  ],
+  "cwd": "/home/johnsonchen/wall-panel-rl/experiments/enhanced_scope_v23",
+  "log": "/home/johnsonchen/wall-panel-rl/results/diagnostics/enhanced_scope_v23_seed20261113.log"
+}

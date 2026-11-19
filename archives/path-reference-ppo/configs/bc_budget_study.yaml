@@ -1,0 +1,20 @@
+# Explicit --run required. Maximum two BC runs; at most one 10k PPO pilot.
+base_config: configs/staged_avoidance.yaml
+stage: one_static
+existing_data: data/staged_avoidance_v3_seed61/one_static
+output_root: models/bc_budget_v3_seed61
+data_root: data/bc_budget_v3_seed61
+report_root: /home/johnsonchen/wall-panel-rl/results/diagnostics/bc_budget_v3_seed61
+bc_updates: 10000
+closed_loop_updates: [2000, 5000, 10000]
+expanded:
+  train_scenes: 256
+  alignment_episodes: 200
+  avoidance_episodes: 800
+  correction_episodes: 200  # INCLUDED in the 800 avoidance successes
+  maximum_attempts: 2500
+  minimum_unique_avoidance_scenes: 200
+  correction_prefix_min: 2
+  correction_prefix_max: 12
+  correction_handoff_clearance: 0.12
+  save_every_attempts: 10

@@ -1,0 +1,23 @@
+{
+  "pid": 11011,
+  "started_at": "2026-11-05T14:02:08.914638+08:00",
+  "cwd": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo",
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "scripts/run_dynamic_speed_comparison.py",
+    "--run"
+  ],
+  "log": "/home/johnsonchen/wall-panel-rl/logs/four_dynamic_speed_comparison_v9_seed71.log",
+  "ppo_budget_per_arm": 2000,
+  "ppo_budget_total": 4000,
+  "dynamic_probability": 0.9,
+  "static_probability": 0.1,
+  "expert_probability": 0.5,
+  "training_speeds": [
+    0.01,
+    0.02
+  ],
+  "validation_target_speed": 0.02,
+  "independent_test": false
+}

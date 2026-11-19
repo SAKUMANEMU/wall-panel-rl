@@ -1,0 +1,14 @@
+{
+  "frozen_data_hashes_valid": true,
+  "executed_code_hashes_valid": true,
+  "source_hash_unchanged": true,
+  "train_validation_test_disjoint": true,
+  "corrections_only_training_scenes": true,
+  "teacher_heldout_excluded_from_updates": true,
+  "original_actor_frozen": true,
+  "one_obstacle_actions_identical": true,
+  "selected_multi_action_change_vs_initial_max": 0.4908809959888458,
+  "candidate_sha256": "2bcdb8d73d46c5cb14149dca6504567b1d6ea93c4ec4caf6625694179ce92acd",
+  "new_test_used_for_selection": false,
+  "default_model_preserved": true
+}

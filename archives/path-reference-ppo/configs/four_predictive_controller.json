@@ -1,0 +1,31 @@
+{
+  "selected": {
+    "horizon": 12,
+    "metrics": {
+      "episodes": 24,
+      "success": 20,
+      "collision": 1,
+      "timeout": 3,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      20,
+      -1,
+      -3,
+      -12
+    ]
+  },
+  "gains": [
+    1.0,
+    0.75,
+    0.4,
+    0.0,
+    -0.25,
+    -0.75
+  ],
+  "controller": "PPO + predictive safety",
+  "pure_ppo": false,
+  "weights_changed": false,
+  "selection_evidence": "results/diagnostics/four_predictive_safety_v13_seed111/selection.json"
+}

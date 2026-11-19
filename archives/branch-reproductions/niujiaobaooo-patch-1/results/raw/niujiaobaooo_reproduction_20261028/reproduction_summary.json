@@ -1,0 +1,35 @@
+{
+  "commit": "933ce7171c4009f71d395f3c32fa7b5475bb25f4",
+  "episodes": 100,
+  "success_count": 57,
+  "success_rate_percent": 56.99999999999999,
+  "collision_count": 14,
+  "joint_limit_violation_count": 0,
+  "timeout_or_other_count": 29,
+  "mean_reward": 95.03127953525512,
+  "mean_steps": 67.47,
+  "discrete_fields_all_match": true,
+  "maximum_absolute_differences": {
+    "position_error_m": 5.5404190790753205e-08,
+    "orientation_error_deg": 2.4689362803087533e-06,
+    "cumulative_reward": 6.0234342029730215e-06,
+    "joint_path_length_rad": 2.2912588082402152e-07,
+    "cartesian_path_length_m": 9.581870574759677e-08,
+    "physics_elapsed_s": 0.0
+  },
+  "model_sha256": "9c0b5dc2bf67f8696fdbb4735d240663db9fc12c1f5551624a4f075fcee9cd67",
+  "python": "3.11.5 (main, Sep 11 2023, 13:54:46) [GCC 11.2.0]",
+  "packages": {
+    "numpy": "1.24.3",
+    "pybullet": "3.2.7",
+    "torch": "2.5.1+cpu",
+    "stable-baselines3": "2.8.0",
+    "gymnasium": "1.2.3"
+  },
+  "config": "configs/eval_clean.yaml",
+  "seed_range": [
+    10000,
+    10099
+  ],
+  "note": "Evaluation only; no training. Original summary mentions Python 3.10.12; reproduction uses the local project environment."
+}

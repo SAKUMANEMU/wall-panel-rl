@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-04T14:14:05.541095+08:00",
+  "bc_updates": 0,
+  "phase": "complete",
+  "updated_at": "2026-11-04T14:15:29.399099+08:00",
+  "steps_budget": 10000,
+  "train_layouts": 64,
+  "ppo_steps": 10000,
+  "four": {
+    "episodes": 32,
+    "success": 22,
+    "collision": 10,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "completed_episodes": 173,
+  "selected_ppo_steps": 10000,
+  "selected": {
+    "additional_ppo_steps": 10000,
+    "four": {
+      "episodes": 32,
+      "success": 22,
+      "collision": 10,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      22,
+      -10,
+      0
+    ]
+  },
+  "test": {
+    "episodes": 64,
+    "success": 51,
+    "collision": 13,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0
+  }
+}

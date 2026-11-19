@@ -1,0 +1,13 @@
+extends: far_five_dynamic.yaml
+observation:
+  obstacle_velocity: true
+ppo:
+  # Four workers x 250 steps: exact budgets without rollout rounding.
+  n_steps: 250
+  batch_size: 100
+  total_timesteps: 1000000
+  eval_freq: 50000
+  eval_episodes: 10
+evaluation:
+  start_seed: 50000
+  episodes: 100

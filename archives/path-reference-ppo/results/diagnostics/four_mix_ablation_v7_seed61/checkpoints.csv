@@ -1,0 +1,9 @@
+experiment,ppo_steps,mode,episodes,success,collision,timeout,joint_limit,planning_failure
+BC_on,0,ppo,64,56,8,0,0,0
+BC_on,0,mixture,64,60,4,0,0,0
+BC_on,5000,ppo,64,55,8,1,0,0
+BC_on,5000,mixture,64,60,4,0,0,0
+BC_off,0,ppo,64,56,8,0,0,0
+BC_off,0,mixture,64,60,4,0,0,0
+BC_off,5000,ppo,64,50,11,3,0,0
+BC_off,5000,mixture,64,55,7,2,0,0

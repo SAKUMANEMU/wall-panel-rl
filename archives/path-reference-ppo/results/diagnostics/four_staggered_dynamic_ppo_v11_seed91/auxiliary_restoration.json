@@ -1,0 +1,12 @@
+{
+  "restored": true,
+  "source_state": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/models/four_staggered_dynamic_bc_v11_seed91/selected_auxiliary_state.pt",
+  "source_state_sha256": "d63c6fd1c856263bed85590c45b1ccc8abe4c3bf644ed565b7d4bd8ea8960196",
+  "ppo_counter": 64000,
+  "pool_size": 3948,
+  "accepted_updates": 0,
+  "rejected_updates": 0,
+  "optimizer_sha256": "0d89fde5f16ab47aa947a532b471d9d22304c2be8d89915b4185cf60f82cbff7",
+  "rng_sha256": "8f01b5e59611b759b57cd4fcfee2a66487c8b9f415e2c78797fcc3b8d62c642c",
+  "weights_unchanged_by_restoration": true
+}

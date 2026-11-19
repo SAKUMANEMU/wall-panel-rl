@@ -1,0 +1,2 @@
+time/total_timesteps,time/fps,time/time_elapsed,time/iterations,rollout/success_rate
+64064,220,0,1,0.0

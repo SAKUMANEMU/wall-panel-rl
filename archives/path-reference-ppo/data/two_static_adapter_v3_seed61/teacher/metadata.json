@@ -1,0 +1,9 @@
+{
+  "parent_episodes": 256,
+  "new_episodes": 37,
+  "episodes": 293,
+  "transitions": 14162,
+  "parent_sha256": "ae43f92d88d91a74d05944d2f38027a73586534b7ae071676e6913f994948880",
+  "corrections_sha256": "27a8b22941de72b50fac01705c4756d7671d722f7d620a82a40f63ca5f151778",
+  "teacher_sha256": "911309660560a5a711966420e8675fb6f623285f999fdca8920c396b82aaf268"
+}

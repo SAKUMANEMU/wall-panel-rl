@@ -1,0 +1,27 @@
+{
+  "requested_fps": 60.0,
+  "playback_speed": 0.6,
+  "recorded_duration_s": 4.199999999999762,
+  "target_playback_duration_s": 6.999999999999604,
+  "playback_wall_s": 0.018673726999622886,
+  "scheduled_frames": 421,
+  "presented_frames": 421,
+  "skipped_frames": 0,
+  "mean_pose_update_ms": 0.04394951068934892,
+  "completed": true,
+  "physics_steps_during_playback": 0,
+  "controller_calls_during_playback": 0,
+  "real_time": false,
+  "recorded_result": {
+    "seed": 1166026,
+    "reason": "success",
+    "steps": 239,
+    "position_m": 0.001167060353012071,
+    "orientation_deg": 0.09415794542244889,
+    "controller": "ppo_progress",
+    "recovery_actions": 76,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "real_step_limit": 240
+  }
+}

@@ -1,0 +1,267 @@
+pybullet build time: Jan 29 2025 23:17:20
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+X11 functions dynamically loaded using dlopen/dlsym OK!
+X11 functions dynamically loaded using dlopen/dlsym OK!
+Creating context
+Created GL 3.3 context
+Direct GLX rendering context obtained
+Making context current
+GL_VENDOR=Mesa
+GL_RENDERER=llvmpipe (LLVM 20.1.2, 256 bits)
+GL_VERSION=4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2
+GL_SHADING_LANGUAGE_VERSION=4.50
+pthread_getconcurrency()=0
+Version = 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2
+Vendor = Mesa
+Renderer = llvmpipe (LLVM 20.1.2, 256 bits)
+b3Printf: Selected demo: Physics Server
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+MotionThreadFunc thread started
+ven = Mesa
+ven = Mesa
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: {
+  "requested_fps": 60.0,
+  "playback_speed": 0.6,
+  "recorded_duration_s": 3.7500000000000813,
+  "target_playback_duration_s": 6.250000000000136,
+  "playback_wall_s": 6.267098178999731,
+  "scheduled_frames": 377,
+  "presented_frames": 377,
+  "skipped_frames": 0,
+  "mean_pose_update_ms": 5.195360318265646,
+  "completed": true,
+  "physics_steps_during_playback": 0,
+  "controller_calls_during_playback": 0,
+  "real_time": true,
+  "recorded_result": {
+    "seed": 1231415,
+    "controller": "enhanced",
+    "reason": "success",
+    "steps": 75,
+    "position_m": 0.007603586615414252,
+    "orientation_deg": 0.5248730036673414,
+    "reward": 308.3800114593868,
+    "zero_command_steps": 6,
+    "stationary_steps": 6,
+    "wall_seconds": 25.657029599000452,
+    "physics_elapsed_s": 3.7500000000000813,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "reference_preserved": true,
+    "local_rescues": 1,
+    "recovery_actions": 8,
+    "recovery_events": [
+      {
+        "step": 64,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 0.8976313975404319,
+        "accepted": true,
+        "mode": "goal",
+        "parameter": 1.0,
+        "predicted_end_cost": 0.00017657681347347254,
+        "predicted_gain": 0.8974548207269584,
+        "plan_steps": 11
+      }
+    ],
+    "no_safe_action_calls": 0,
+    "prediction_steps": 5285,
+    "passage_count": 3,
+    "success_with_weaving": true
+  }
+}
+User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+numActiveThreads = 0
+stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphore destroyed
+destroy main semaphore
+main semaphore destroyed
+finished
+numActiveThreads = 0
+btShutDownExampleBrowser stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphore destroyed
+destroy main semaphore
+main semaphore destroyed

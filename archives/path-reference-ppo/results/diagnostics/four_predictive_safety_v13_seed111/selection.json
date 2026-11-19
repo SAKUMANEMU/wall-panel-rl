@@ -1,0 +1,73 @@
+{
+  "selected": {
+    "horizon": 12,
+    "metrics": {
+      "episodes": 24,
+      "success": 20,
+      "collision": 1,
+      "timeout": 3,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      20,
+      -1,
+      -3,
+      -12
+    ]
+  },
+  "all_train_candidates": [
+    {
+      "horizon": 4,
+      "metrics": {
+        "episodes": 24,
+        "success": 15,
+        "collision": 3,
+        "timeout": 6,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        15,
+        -3,
+        -6,
+        -4
+      ]
+    },
+    {
+      "horizon": 8,
+      "metrics": {
+        "episodes": 24,
+        "success": 17,
+        "collision": 3,
+        "timeout": 4,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        17,
+        -3,
+        -4,
+        -8
+      ]
+    },
+    {
+      "horizon": 12,
+      "metrics": {
+        "episodes": 24,
+        "success": 20,
+        "collision": 1,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "score": [
+        20,
+        -1,
+        -3,
+        -12
+      ]
+    }
+  ],
+  "locked_before_validation": true
+}

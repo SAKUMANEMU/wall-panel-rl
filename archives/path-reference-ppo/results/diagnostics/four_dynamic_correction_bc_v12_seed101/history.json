@@ -1,0 +1,338 @@
+[
+  {
+    "arm": 0,
+    "learning_rate": 1e-06,
+    "bc_updates": 0,
+    "metrics": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "accepted_updates": 0,
+    "rejected_updates": 0
+  },
+  {
+    "arm": 0,
+    "learning_rate": 1e-06,
+    "bc_updates": 1,
+    "metrics": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "accepted_updates": 1,
+    "rejected_updates": 0
+  },
+  {
+    "arm": 0,
+    "learning_rate": 1e-06,
+    "bc_updates": 5,
+    "metrics": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "accepted_updates": 5,
+    "rejected_updates": 0
+  },
+  {
+    "arm": 0,
+    "learning_rate": 1e-06,
+    "bc_updates": 10,
+    "metrics": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "accepted_updates": 10,
+    "rejected_updates": 0
+  },
+  {
+    "arm": 0,
+    "learning_rate": 1e-06,
+    "bc_updates": 25,
+    "metrics": {
+      "episodes": 64,
+      "success": 36,
+      "collision": 27,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      0,
+      36,
+      -27,
+      -1
+    ],
+    "accepted_updates": 25,
+    "rejected_updates": 0
+  },
+  {
+    "arm": 0,
+    "learning_rate": 1e-06,
+    "bc_updates": 50,
+    "metrics": {
+      "episodes": 64,
+      "success": 35,
+      "collision": 28,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      0,
+      35,
+      -28,
+      -1
+    ],
+    "accepted_updates": 50,
+    "rejected_updates": 0
+  },
+  {
+    "arm": 0,
+    "learning_rate": 1e-06,
+    "bc_updates": 100,
+    "metrics": {
+      "episodes": 64,
+      "success": 34,
+      "collision": 28,
+      "timeout": 2,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      0,
+      34,
+      -28,
+      -2
+    ],
+    "accepted_updates": 91,
+    "rejected_updates": 9
+  },
+  {
+    "arm": 0,
+    "learning_rate": 1e-06,
+    "bc_updates": 200,
+    "metrics": {
+      "episodes": 64,
+      "success": 34,
+      "collision": 28,
+      "timeout": 2,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      0,
+      34,
+      -28,
+      -2
+    ],
+    "accepted_updates": 91,
+    "rejected_updates": 109
+  },
+  {
+    "arm": 1,
+    "learning_rate": 3e-06,
+    "bc_updates": 0,
+    "metrics": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "accepted_updates": 0,
+    "rejected_updates": 0
+  },
+  {
+    "arm": 1,
+    "learning_rate": 3e-06,
+    "bc_updates": 1,
+    "metrics": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "accepted_updates": 1,
+    "rejected_updates": 0
+  },
+  {
+    "arm": 1,
+    "learning_rate": 3e-06,
+    "bc_updates": 5,
+    "metrics": {
+      "episodes": 64,
+      "success": 37,
+      "collision": 26,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      1,
+      37,
+      -26,
+      -1
+    ],
+    "accepted_updates": 5,
+    "rejected_updates": 0
+  },
+  {
+    "arm": 1,
+    "learning_rate": 3e-06,
+    "bc_updates": 10,
+    "metrics": {
+      "episodes": 64,
+      "success": 35,
+      "collision": 28,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      0,
+      35,
+      -28,
+      -1
+    ],
+    "accepted_updates": 10,
+    "rejected_updates": 0
+  },
+  {
+    "arm": 1,
+    "learning_rate": 3e-06,
+    "bc_updates": 25,
+    "metrics": {
+      "episodes": 64,
+      "success": 35,
+      "collision": 28,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      0,
+      35,
+      -28,
+      -1
+    ],
+    "accepted_updates": 25,
+    "rejected_updates": 0
+  },
+  {
+    "arm": 1,
+    "learning_rate": 3e-06,
+    "bc_updates": 50,
+    "metrics": {
+      "episodes": 64,
+      "success": 35,
+      "collision": 28,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      0,
+      35,
+      -28,
+      -1
+    ],
+    "accepted_updates": 28,
+    "rejected_updates": 22
+  },
+  {
+    "arm": 1,
+    "learning_rate": 3e-06,
+    "bc_updates": 100,
+    "metrics": {
+      "episodes": 64,
+      "success": 35,
+      "collision": 28,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      0,
+      35,
+      -28,
+      -1
+    ],
+    "accepted_updates": 28,
+    "rejected_updates": 72
+  },
+  {
+    "arm": 1,
+    "learning_rate": 3e-06,
+    "bc_updates": 200,
+    "metrics": {
+      "episodes": 64,
+      "success": 35,
+      "collision": 28,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "score": [
+      0,
+      35,
+      -28,
+      -1
+    ],
+    "accepted_updates": 28,
+    "rejected_updates": 172
+  }
+]

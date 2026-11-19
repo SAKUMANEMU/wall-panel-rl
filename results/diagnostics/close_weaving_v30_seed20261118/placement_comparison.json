@@ -1,0 +1,17 @@
+{
+  "description": "Different random scene banks; descriptive layout statistics, not paired controller outcomes.",
+  "banks": {
+    "v29": {
+      "scenes": 48,
+      "mean_anchor_xy_offset_m": 0.07643936442344867,
+      "median_m": 0.07461538322362621,
+      "maximum_m": 0.16615130562375133
+    },
+    "v30": {
+      "scenes": 24,
+      "mean_anchor_xy_offset_m": 0.0655920976700166,
+      "median_m": 0.07535185431022298,
+      "maximum_m": 0.11340658607441527
+    }
+  }
+}

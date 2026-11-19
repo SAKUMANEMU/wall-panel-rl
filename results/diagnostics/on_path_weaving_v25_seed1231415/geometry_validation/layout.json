@@ -1,0 +1,36 @@
+{
+  "route_fractions": [
+    0.38,
+    0.58,
+    0.18,
+    0.76
+  ],
+  "fraction_jitter": 0.065,
+  "attempts_per_obstacle": 100,
+  "swept_z_bounds_m": [
+    0.02,
+    1.65
+  ],
+  "motion_profile": {
+    "expert_probability": 0.5,
+    "motion": {
+      "amplitude_m": 0.18,
+      "max_speed_m_s": 0.12,
+      "frequency_fraction": [
+        0.65,
+        1.0
+      ],
+      "seed_offset": 9000000
+    },
+    "placement_attempts": 100,
+    "anchor_restarts": 5,
+    "height_stagger": {
+      "offset_m": [
+        0.14,
+        0.24
+      ],
+      "min_span_m": 0.4,
+      "min_adjacent_delta_m": 0.2
+    }
+  }
+}

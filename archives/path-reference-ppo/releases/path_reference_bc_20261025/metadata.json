@@ -1,0 +1,33 @@
+{
+  "checkpoint": "tracker_bc.zip",
+  "sha256": "d65a8cfb4650fa6ec63b1fb633fcf90d8068b19f5a0556073ab26e46a0915ac2",
+  "policy": "WaypointTrackingPolicy",
+  "input_dimensions": 77,
+  "output_dimensions": 7,
+  "features": "Original70 + normalized next joint waypoint7",
+  "global_planner_at_inference": true,
+  "teacher_successful_training_episodes": 100,
+  "teacher_transitions": 5945,
+  "bc_updates": 2000,
+  "bc_batch_size": 256,
+  "bc_actor_trainable_coefficients": 14,
+  "ppo_trial_steps_per_seed": 10000,
+  "ppo_seeds": [
+    61,
+    73
+  ],
+  "selected_new_ppo_steps": 0,
+  "static_validation_successes": 89,
+  "static_validation_episodes": 90,
+  "successful_trackings_given_plan": 89,
+  "generated_plans": 89,
+  "planning_failures": 1,
+  "collisions": 0,
+  "joint_limit_failures": 0,
+  "tests_passed": 10,
+  "old_pure_policy_files_unchanged": true,
+  "independent_100_test_executed": false,
+  "no_fallback_to_expert_actions_in_learned_rollout": true,
+  "runtime": "run_tracker.py",
+  "video": "media/comparison.mp4"
+}

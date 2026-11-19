@@ -1,0 +1,17 @@
+[
+  {
+    "bank": "train",
+    "seed": 1020005,
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "bank": "train",
+    "seed": 1020034,
+    "reason": "Cannot build a complete nominal route: timeout"
+  },
+  {
+    "bank": "test",
+    "seed": 1024000,
+    "reason": "Cannot build a complete nominal route: timeout"
+  }
+]

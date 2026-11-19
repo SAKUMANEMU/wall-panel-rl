@@ -1,0 +1,10 @@
+{
+  "training_performed": false,
+  "model_files_unchanged": true,
+  "code_unchanged_during_evaluation": true,
+  "paired_cases_per_bank": 100,
+  "distinct_target_scenes": 200,
+  "known_and_fresh_disjoint": true,
+  "model_switch_performed": false,
+  "matching_original_horizon_prefixes_checked": true
+}

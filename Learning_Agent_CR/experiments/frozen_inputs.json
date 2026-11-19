@@ -1,0 +1,9 @@
+{
+  "validation_bank_sha256": "f5cbcfff5a2dd116cc246ffca4b63b13700ab587b4d26cb64c9ee4ec876d98d4",
+  "model_sha256": "f059554915581537e35b57f7226346577ea4bfbc99cb1db0946b75ae2c539aba",
+  "final_layout_evaluations_before_freeze": 0,
+  "accepted": 64,
+  "attempts": 285,
+  "geometry_rejected": 220,
+  "unused_valid_candidates": 1
+}

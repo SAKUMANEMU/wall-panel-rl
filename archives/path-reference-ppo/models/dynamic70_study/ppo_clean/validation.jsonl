@@ -1,0 +1,12 @@
+{"steps": 450000, "success_rate": 0.0, "mean_reward": 30.683825575956952}
+{"steps": 500000, "success_rate": 0.0, "mean_reward": 46.28399854556599}
+{"steps": 550000, "success_rate": 0.0, "mean_reward": 45.743168058204034}
+{"steps": 600000, "success_rate": 0.0, "mean_reward": 40.00536981558965}
+{"steps": 650000, "success_rate": 0.0, "mean_reward": 139.8248436063131}
+{"steps": 700000, "success_rate": 0.0, "mean_reward": 150.4196109860053}
+{"steps": 750000, "success_rate": 0.0, "mean_reward": 153.07370788576532}
+{"steps": 800000, "success_rate": 0.0, "mean_reward": 167.04974057561208}
+{"steps": 850000, "success_rate": 0.0, "mean_reward": 170.88130477534858}
+{"steps": 900000, "success_rate": 0.0, "mean_reward": 162.4837851818952}
+{"steps": 950000, "success_rate": 0.0, "mean_reward": 160.68049455418202}
+{"steps": 1000000, "success_rate": 0.0, "mean_reward": 70.85475630501071}

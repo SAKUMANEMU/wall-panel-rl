@@ -1,0 +1,17 @@
+# Enhanced-motion inference profile; preserve the earlier slow/training profiles.
+source_report: results/diagnostics/four_dynamic_speed_v9_fast02_seed71
+expert_probability: 0.5
+motion:
+  # Maximum Euclidean offset from each motion anchor, not a per-axis limit.
+  amplitude_m: 0.10
+  # Upper bound on Euclidean obstacle velocity.
+  max_speed_m_s: 0.05
+  frequency_fraction: [0.65, 1.0]
+  seed_offset: 9000000
+# Larger swept bounds can reject more candidate layouts; keep the same guards.
+placement_attempts: 50
+preflight:
+  cases: 8
+  first_scene_seed: 1070000
+  controller_seed: 61
+  report_root: results/diagnostics/four_dynamic_faster_preflight_v1_seed61

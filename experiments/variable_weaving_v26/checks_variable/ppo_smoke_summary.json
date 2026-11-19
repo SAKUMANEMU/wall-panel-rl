@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "additional_steps": 256,
+  "deterministic_policy_preserved_at_conversion": true,
+  "save_reload_actions_identical": true,
+  "changed_parameters": [
+    "mlp_extractor.value_net.0.weight",
+    "mlp_extractor.value_net.0.bias",
+    "mlp_extractor.value_net.2.weight",
+    "mlp_extractor.value_net.2.bias",
+    "value_net.weight",
+    "value_net.bias",
+    "residual.0.weight",
+    "residual.0.bias",
+    "residual.2.weight",
+    "residual.2.bias",
+    "residual.4.weight",
+    "residual.4.bias",
+    "prior_gate.0.weight",
+    "prior_gate.0.bias",
+    "prior_gate.2.weight",
+    "prior_gate.2.bias",
+    "multi_adapter.0.weight",
+    "multi_adapter.0.bias",
+    "multi_adapter.2.weight",
+    "multi_adapter.2.bias",
+    "multi_adapter.4.weight",
+    "multi_adapter.4.bias"
+  ],
+  "finite_parameters": true
+}

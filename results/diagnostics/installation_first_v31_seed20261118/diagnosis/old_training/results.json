@@ -1,0 +1,328 @@
+{
+  "rows": [
+    {
+      "seed": 4140000,
+      "controller": "enhanced",
+      "reason": "success",
+      "steps": 140,
+      "position_m": 0.006065780528830232,
+      "orientation_deg": 0.5261361710332932,
+      "reward": 300.2372823409157,
+      "zero_command_steps": 0,
+      "stationary_steps": 0,
+      "wall_seconds": 214.5838216989996,
+      "physics_elapsed_s": 6.999999999999923,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 2,
+      "recovery_actions": 98,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.1465040763825542,
+          "accepted": true,
+          "mode": "waypoint",
+          "parameter": 0.4,
+          "predicted_end_cost": 1.775240835918681,
+          "predicted_gain": 0.37126324046387316,
+          "plan_steps": 60
+        },
+        {
+          "step": 98,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.6887238218176326,
+          "accepted": true,
+          "mode": "lookahead",
+          "parameter": [
+            0,
+            0.7
+          ],
+          "predicted_end_cost": 0.004155086053053335,
+          "predicted_gain": 1.6845687357645793,
+          "plan_steps": 43
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 40049,
+      "vertical_plan_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "obstacle_count": 4,
+      "execution_variant": "v29_controller"
+    },
+    {
+      "seed": 4130001,
+      "controller": "enhanced",
+      "reason": "timeout",
+      "steps": 240,
+      "position_m": 0.6366007444079066,
+      "orientation_deg": 86.2554931634467,
+      "reward": 112.2585780163233,
+      "zero_command_steps": 104,
+      "stationary_steps": 104,
+      "wall_seconds": 326.9707550130006,
+      "physics_elapsed_s": 11.99999999999964,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 3,
+      "recovery_actions": 68,
+      "recovery_events": [
+        {
+          "step": 40,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 2.0707973145744067,
+          "accepted": true,
+          "mode": "paired",
+          "parameter": [
+            [
+              1,
+              3
+            ],
+            [
+              0.4,
+              0.4
+            ]
+          ],
+          "predicted_end_cost": 1.555177571643477,
+          "predicted_gain": 0.5156197429309297,
+          "plan_steps": 60
+        },
+        {
+          "step": 93,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5712557729744847,
+          "accepted": false
+        },
+        {
+          "step": 105,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5712542144175232,
+          "accepted": false
+        },
+        {
+          "step": 117,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5712526558616595,
+          "accepted": false
+        },
+        {
+          "step": 129,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5712510973068938,
+          "accepted": false
+        },
+        {
+          "step": 141,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.571249538753226,
+          "accepted": false
+        },
+        {
+          "step": 153,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5712479802006563,
+          "accepted": false
+        },
+        {
+          "step": 165,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5712464216491846,
+          "accepted": false
+        },
+        {
+          "step": 177,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5547254560915957,
+          "accepted": false
+        },
+        {
+          "step": 189,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5354437002277246,
+          "accepted": false
+        },
+        {
+          "step": 201,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5354437002277246,
+          "accepted": false
+        },
+        {
+          "step": 213,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 1.5354437002277246,
+          "accepted": true,
+          "mode": "paired",
+          "parameter": [
+            [
+              1,
+              3
+            ],
+            [
+              0.4,
+              0.4
+            ]
+          ],
+          "predicted_end_cost": 0.8172538268439391,
+          "predicted_gain": 0.7181898733837855,
+          "plan_steps": 27
+        },
+        {
+          "step": 228,
+          "baseline_forecast": "timeout",
+          "baseline_short_cost": 0.8172538268439391,
+          "accepted": false,
+          "mode": "bias",
+          "parameter": [
+            3,
+            0.4
+          ],
+          "predicted_end_cost": 0.7235155508305731,
+          "predicted_gain": 0.09373827601336604,
+          "plan_steps": 12
+        }
+      ],
+      "no_safe_action_calls": 0,
+      "prediction_steps": 71230,
+      "vertical_plan_events": [],
+      "passage_count": 0,
+      "success_with_weaving": false,
+      "obstacle_count": 3,
+      "execution_variant": "v29_controller"
+    }
+  ],
+  "metrics": {
+    "v29_controller": {
+      "all": {
+        "episodes": 2,
+        "success": 1,
+        "collision": 0,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.5,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.4122107721962867
+      },
+      "by_count": {
+        "2": {
+          "episodes": 0,
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.0
+        },
+        "3": {
+          "episodes": 1,
+          "success": 0,
+          "collision": 0,
+          "timeout": 1,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.8172538268439391
+        },
+        "4": {
+          "episodes": 1,
+          "success": 1,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 1.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.0071677175486342705
+        },
+        "5": {
+          "episodes": 0,
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.0
+        }
+      }
+    },
+    "vertical_controller": {
+      "all": {
+        "episodes": 0,
+        "success": 0,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0,
+        "success_rate": 0.0,
+        "mean_passage_count": 0.0,
+        "success_with_weaving": 0,
+        "mean_task_error": 0.0
+      },
+      "by_count": {
+        "2": {
+          "episodes": 0,
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.0
+        },
+        "3": {
+          "episodes": 0,
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.0
+        },
+        "4": {
+          "episodes": 0,
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.0
+        },
+        "5": {
+          "episodes": 0,
+          "success": 0,
+          "collision": 0,
+          "timeout": 0,
+          "joint_limit": 0,
+          "planning_failure": 0,
+          "success_rate": 0.0,
+          "mean_passage_count": 0.0,
+          "success_with_weaving": 0,
+          "mean_task_error": 0.0
+        }
+      }
+    }
+  },
+  "complete": true
+}

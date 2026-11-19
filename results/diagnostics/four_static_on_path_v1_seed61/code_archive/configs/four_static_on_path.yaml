@@ -1,0 +1,11 @@
+# Same initialization and four static boxes; change obstacle positions only.
+source_report: results/diagnostics/four_static_initial_v1_seed61
+full_scene_bank: data/consistent_two_static_v4_seed61/test_full.json
+data_root: data/four_static_on_path_v1_seed61
+report_root: results/diagnostics/four_static_on_path_v1_seed61
+training_steps: 0
+on_path_obstacles:
+  fractions: [0.40, 0.60, 0.20, 0.80]
+  fraction_jitter: 0.045
+  center_jitter_m: 0.01
+  attempts_per_obstacle: 160

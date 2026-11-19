@@ -1,0 +1,29 @@
+extends: far_start.yaml
+simulation:
+  max_steps: 240
+obstacles:
+  stage: C
+  min_count: 5
+  max_count: 5
+  dimensions_by_obstacle:
+    - [0.08, 0.08, 0.10]
+    - [0.10, 0.09, 0.13]
+    - [0.12, 0.10, 0.16]
+    - [0.09, 0.12, 0.14]
+    - [0.14, 0.12, 0.18]
+  min_obstacle_gap: 0.10
+  max_placement_attempts: 360
+  dynamic:
+    enabled: true
+    placement: rrt_path
+    motion_mode: random_3d
+    amplitude: 0.40
+    max_speed: 0.40
+    lateral_offset: 0.0
+rrt:
+  dynamic_mode: timed
+  timed_timeout: 30.0
+  timeout: 15.0
+  max_iterations: 6000
+  dynamic_lookahead_steps: 3
+  dynamic_retry_steps: 5

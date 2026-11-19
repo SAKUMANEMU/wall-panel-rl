@@ -1,0 +1,55 @@
+{
+  "metrics": {
+    "episodes": 2,
+    "success": 0,
+    "collision": 2,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0,
+    "success_rate": 0.0,
+    "success_with_weaving": 0,
+    "success_and_weaving_rate": 0.0
+  },
+  "rows": [
+    {
+      "seed": 1188005,
+      "controller": "ppo",
+      "reason": "collision",
+      "steps": 11,
+      "position_m": 1.6373173628096103,
+      "orientation_deg": 131.3088861596249,
+      "reward": -27.73833489807801,
+      "zero_command_steps": 0,
+      "stationary_steps": 0,
+      "wall_seconds": 0.04377099399971485,
+      "physics_elapsed_s": 0.5333333333333327,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 0,
+      "recovery_actions": 0,
+      "passage_count": 0,
+      "success_with_weaving": false
+    },
+    {
+      "seed": 1188001,
+      "controller": "ppo",
+      "reason": "collision",
+      "steps": 13,
+      "position_m": 1.545599375836527,
+      "orientation_deg": 125.06918075077797,
+      "reward": -17.565732323488753,
+      "zero_command_steps": 0,
+      "stationary_steps": 0,
+      "wall_seconds": 0.0501927910008817,
+      "physics_elapsed_s": 0.6291666666666657,
+      "weights_changed": false,
+      "uses_global_rrt": false,
+      "reference_preserved": true,
+      "local_rescues": 0,
+      "recovery_actions": 0,
+      "passage_count": 0,
+      "success_with_weaving": false
+    }
+  ]
+}

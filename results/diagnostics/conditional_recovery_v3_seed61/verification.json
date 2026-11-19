@@ -1,0 +1,15 @@
+{
+  "source_model_and_network_tensors_unchanged": true,
+  "terminal_radius_still": 0.2,
+  "normal_recovery_radius_still": 0.3,
+  "code_and_cases_unchanged_during_evaluation": true,
+  "trigger_limits_respected": true,
+  "total_attempts": 9,
+  "successful_conditional_recoveries": 9,
+  "identical_untriggered_episodes": 391,
+  "fresh_target_scenes_disjoint": true,
+  "fresh_cases_sha256": "3cd82839b41680d14d7fbf1fdcc56e29d0f527cab6a93f558b471fed7431aa71",
+  "training_performed": false,
+  "automatic_adoption": false,
+  "untriggered_outcome_steps_position_and_orientation_match": true
+}

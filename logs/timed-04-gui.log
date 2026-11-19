@@ -1,0 +1,257 @@
+pybullet build time: Jan 29 2025 23:17:20
+Scenario seed: 10002
+Target observation noise: position std=0.0 m; orientation std=0.0 deg
+GUI playback speed: 0.6x
+Dynamic planning mode: timed
+Planning path; display resumes when planning finishes...
+Yellow line: obstacle-free RRT panel reference path; blue: executed path.
+Initial distance: 1.844 m; obstacles: 5
+step=1 position=1.8324 m orientation=149.80 deg collision=False success=False
+step=2 position=1.8179 m orientation=147.03 deg collision=False success=False
+step=3 position=1.8043 m orientation=144.71 deg collision=False success=False
+step=4 position=1.7888 m orientation=142.20 deg collision=False success=False
+step=5 position=1.7723 m orientation=139.71 deg collision=False success=False
+step=6 position=1.7547 m orientation=137.21 deg collision=False success=False
+step=7 position=1.7362 m orientation=134.74 deg collision=False success=False
+step=8 position=1.7168 m orientation=132.29 deg collision=False success=False
+step=9 position=1.6964 m orientation=129.85 deg collision=False success=False
+step=10 position=1.6749 m orientation=127.39 deg collision=False success=False
+step=11 position=1.6525 m orientation=124.94 deg collision=False success=False
+step=12 position=1.6296 m orientation=122.55 deg collision=False success=False
+step=13 position=1.6060 m orientation=120.19 deg collision=False success=False
+step=14 position=1.5816 m orientation=117.84 deg collision=False success=False
+step=15 position=1.5561 m orientation=115.46 deg collision=False success=False
+step=16 position=1.5303 m orientation=113.15 deg collision=False success=False
+step=17 position=1.5038 m orientation=110.85 deg collision=False success=False
+step=18 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=19 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=20 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=21 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=22 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=23 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=24 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=25 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=26 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=27 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=28 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=29 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=30 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=31 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=32 position=1.5037 m orientation=110.86 deg collision=False success=False
+step=33 position=1.4769 m orientation=108.59 deg collision=False success=False
+step=34 position=1.4764 m orientation=108.56 deg collision=False success=False
+step=35 position=1.4764 m orientation=108.56 deg collision=False success=False
+step=36 position=1.4764 m orientation=108.56 deg collision=False success=False
+step=37 position=1.4764 m orientation=108.56 deg collision=False success=False
+step=38 position=1.4764 m orientation=108.56 deg collision=False success=False
+step=39 position=1.4492 m orientation=106.33 deg collision=False success=False
+step=40 position=1.4486 m orientation=106.28 deg collision=False success=False
+step=41 position=1.4486 m orientation=106.28 deg collision=False success=False
+step=42 position=1.4486 m orientation=106.28 deg collision=False success=False
+step=43 position=1.4210 m orientation=104.08 deg collision=False success=False
+step=44 position=1.4203 m orientation=104.03 deg collision=False success=False
+step=45 position=1.4203 m orientation=104.03 deg collision=False success=False
+step=46 position=1.3923 m orientation=101.86 deg collision=False success=False
+step=47 position=1.3632 m orientation=99.66 deg collision=False success=False
+step=48 position=1.3623 m orientation=99.58 deg collision=False success=False
+step=49 position=1.3623 m orientation=99.58 deg collision=False success=False
+step=50 position=1.3623 m orientation=99.58 deg collision=False success=False
+step=51 position=1.3623 m orientation=99.58 deg collision=False success=False
+step=52 position=1.3623 m orientation=99.58 deg collision=False success=False
+step=53 position=1.3623 m orientation=99.58 deg collision=False success=False
+step=54 position=1.3337 m orientation=97.47 deg collision=False success=False
+step=55 position=1.3327 m orientation=97.39 deg collision=False success=False
+step=56 position=1.3326 m orientation=97.39 deg collision=False success=False
+step=57 position=1.3326 m orientation=97.39 deg collision=False success=False
+step=58 position=1.3326 m orientation=97.39 deg collision=False success=False
+step=59 position=1.3038 m orientation=95.31 deg collision=False success=False
+step=60 position=1.3027 m orientation=95.23 deg collision=False success=False
+step=61 position=1.3027 m orientation=95.23 deg collision=False success=False
+step=62 position=1.3027 m orientation=95.23 deg collision=False success=False
+step=63 position=1.2737 m orientation=93.17 deg collision=False success=False
+step=64 position=1.2726 m orientation=93.09 deg collision=False success=False
+step=65 position=1.2726 m orientation=93.08 deg collision=False success=False
+step=66 position=1.2433 m orientation=91.05 deg collision=False success=False
+step=67 position=1.2123 m orientation=88.92 deg collision=False success=False
+step=68 position=1.1818 m orientation=86.87 deg collision=False success=False
+step=69 position=1.1514 m orientation=84.85 deg collision=False success=False
+step=70 position=1.1210 m orientation=82.86 deg collision=False success=False
+step=71 position=1.0907 m orientation=80.90 deg collision=False success=False
+step=72 position=1.0607 m orientation=78.97 deg collision=False success=False
+step=73 position=1.0309 m orientation=77.08 deg collision=False success=False
+step=74 position=1.0016 m orientation=75.22 deg collision=False success=False
+step=75 position=0.9728 m orientation=73.41 deg collision=False success=False
+step=76 position=0.9446 m orientation=71.64 deg collision=False success=False
+step=77 position=0.9170 m orientation=69.90 deg collision=False success=False
+step=78 position=0.8903 m orientation=68.22 deg collision=False success=False
+step=79 position=0.8646 m orientation=66.60 deg collision=False success=False
+step=80 position=0.8399 m orientation=65.02 deg collision=False success=False
+step=81 position=0.8164 m orientation=63.50 deg collision=False success=False
+step=82 position=0.7869 m orientation=61.06 deg collision=False success=False
+step=83 position=0.7572 m orientation=58.64 deg collision=False success=False
+step=84 position=0.7274 m orientation=56.25 deg collision=False success=False
+step=85 position=0.6977 m orientation=53.90 deg collision=False success=False
+step=86 position=0.6681 m orientation=51.61 deg collision=False success=False
+step=87 position=0.6387 m orientation=49.38 deg collision=False success=False
+step=88 position=0.5923 m orientation=45.38 deg collision=False success=False
+step=89 position=0.5448 m orientation=41.35 deg collision=False success=False
+step=90 position=0.4969 m orientation=37.37 deg collision=False success=False
+step=91 position=0.4491 m orientation=33.44 deg collision=False success=False
+step=92 position=0.4019 m orientation=29.62 deg collision=False success=False
+step=93 position=0.3562 m orientation=25.95 deg collision=False success=False
+step=94 position=0.3132 m orientation=22.55 deg collision=False success=False
+step=95 position=0.2749 m orientation=19.56 deg collision=False success=False
+step=96 position=0.2439 m orientation=17.23 deg collision=False success=False
+step=97 position=0.2238 m orientation=15.87 deg collision=False success=False
+step=98 position=0.2180 m orientation=15.76 deg collision=False success=False
+step=99 position=0.1730 m orientation=12.60 deg collision=False success=False
+step=100 position=0.1286 m orientation=9.43 deg collision=False success=False
+step=101 position=0.0852 m orientation=6.30 deg collision=False success=False
+step=102 position=0.0423 m orientation=3.17 deg collision=False success=False
+step=103 position=0.0032 m orientation=0.08 deg collision=False success=True
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+X11 functions dynamically loaded using dlopen/dlsym OK!
+X11 functions dynamically loaded using dlopen/dlsym OK!
+Creating context
+Created GL 3.3 context
+Direct GLX rendering context obtained
+Making context current
+GL_VENDOR=Mesa
+GL_RENDERER=llvmpipe (LLVM 20.1.2, 256 bits)
+GL_VERSION=4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2
+GL_SHADING_LANGUAGE_VERSION=4.50
+pthread_getconcurrency()=0
+Version = 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2
+Vendor = Mesa
+Renderer = llvmpipe (LLVM 20.1.2, 256 bits)
+b3Printf: Selected demo: Physics Server
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+MotionThreadFunc thread started
+ven = Mesa
+ven = Mesa
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+b3Printf: b3Warning[examples/SharedMemory/PhysicsClientSharedMemory.cpp,1305]:
+
+b3Printf: User debug draw failed
+numActiveThreads = 0
+stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphore destroyed
+destroy main semaphore
+main semaphore destroyed
+finished
+numActiveThreads = 0
+btShutDownExampleBrowser stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphor{
+  "seed": 10002,
+  "success": true,
+  "collision": false,
+  "joint_limit_violation": false,
+  "planning_success": true,
+  "ik_success": true,
+  "position_error_m": 0.0032296962464507034,
+  "orientation_error_deg": 0.0848264727785006,
+  "steps": 103,
+  "joint_path_length_rad": 3.9093537406492955,
+  "cartesian_path_length_m": 2.913819471704863,
+  "planning_time_s": 14.36884870799986,
+  "execution_time_s": 8.607174983999812,
+  "simulated_time_s": 5.15,
+  "cumulative_reward": 310.17705505577453,
+  "replans": 0,
+  "replan_failures": 0,
+  "hold_steps": 0,
+  "scheduled_waits": 40,
+  "dynamic_planning_mode": "timed",
+  "physics_elapsed_s": 5.150000000000028
+}
+e destroyed
+destroy main semaphore
+main semaphore destroyed

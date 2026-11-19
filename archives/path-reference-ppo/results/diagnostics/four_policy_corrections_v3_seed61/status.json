@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-04T14:02:41.921350+08:00",
+  "training_steps": 0,
+  "phase": "complete",
+  "updated_at": "2026-11-04T14:08:26.745369+08:00",
+  "completed_layouts": 64,
+  "correction_episodes": 107,
+  "attempts": 113,
+  "episodes": 171,
+  "transitions": 8406,
+  "corrected_layouts": 38,
+  "teacher_sha256": "e41af82144be87573ea05111a0375f2e5d46bc1562b570b5ec48cfc3ba274e12",
+  "ready_for_bc": true,
+  "original64_arrays_preserved": true
+}

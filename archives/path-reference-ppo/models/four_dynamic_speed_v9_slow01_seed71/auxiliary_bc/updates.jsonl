@@ -1,0 +1,2 @@
+{"ppo_additional_steps": 0, "pool_size": 1628, "loss": 0.0007729172939434648, "sampled_kl": 5.276764341033413e-07, "accepted": true}
+{"ppo_additional_steps": 1000, "pool_size": 2550, "loss": 0.0006284711416810751, "sampled_kl": 5.42577595297189e-07, "accepted": true}

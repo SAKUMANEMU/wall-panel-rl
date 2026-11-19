@@ -1,0 +1,8 @@
+{
+  "splits_disjoint": true,
+  "original64_training_preserved": true,
+  "four_static_on_path_endpoints_valid": true,
+  "diagnosis_reproduced": true,
+  "source_unchanged": true,
+  "training_steps": 0
+}

@@ -1,0 +1,4 @@
+ppo_steps,selected,ppo_episodes,ppo_success,ppo_collision,ppo_timeout,ppo_joint_limit,ppo_planning_failure,mixture_episodes,mixture_success,mixture_collision,mixture_timeout,mixture_joint_limit,mixture_planning_failure
+0,True,64,56,8,0,0,0,64,60,4,0,0,0
+5000,False,64,55,8,1,0,0,64,60,4,0,0,0
+10000,False,64,50,11,3,0,0,64,55,7,2,0,0

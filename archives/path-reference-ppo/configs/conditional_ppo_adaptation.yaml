@@ -1,0 +1,14 @@
+# One static 10k PPO adaptation with the validated conditional reference rule.
+conditional_report: results/diagnostics/conditional_recovery_v3_seed61
+initial_model: results/diagnostics/static_stability_v3_seed61/selected_model.zip
+training_manifest: results/diagnostics/static_stability_v3_seed61/manifest.json
+base_scenes: data/staged_avoidance_v3_seed61/one_static
+regression_banks:
+  previous_100: data/clearance_ppo_v3_seed61/independent_cases.json
+  recent_100: data/static_candidate_comparison_v3_seed61/fresh_cases.json
+  latest_100: data/conditional_recovery_v3_seed61/fresh_cases.json
+output_root: models/conditional_ppo_adaptation_v3_seed61
+report_root: results/diagnostics/conditional_ppo_adaptation_v3_seed61
+ppo_steps: 10000
+ppo_eval_every: 5000
+ppo_learning_rate: 0.0001

@@ -1,0 +1,7 @@
+{
+  "models/waypoint_ppo_pilot_seed61/best_model.zip": "6d44a37e5e778944b1e10622ed7ad2016678878f1f6f00a6922a456f01354e73",
+  "models/staged_avoidance_v2_seed61/one_static/bc/model.zip": "c1f8b8f97f03669f5d07b4a10fc4bb34495d29eefc9fe56b965f2e6545a19742",
+  "data/staged_avoidance_v2_seed61/one_static/train.json": "9ab2a4119a075a055ef0ad6c5a4a9e35e216b363764c9e103036b7fe82556d9e",
+  "data/staged_avoidance_v2_seed61/one_static/validation_staged.json": "28df756e2428131d39a5626321cb1e234e034594c4df08bdefa1d6d86c8c7fd3",
+  "data/staged_avoidance_v2_seed61/one_static/teacher/teacher.npz": "13774a60d1dde96385a6b22ced2944809921e90f41b3b07e5c1ae46c74d341aa"
+}

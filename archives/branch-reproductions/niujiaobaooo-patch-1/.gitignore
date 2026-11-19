@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+logs/
+models/*/checkpoints/
+models/*/tensorboard/
+.conda-env/
+models/**/checkpoints/
+models/**/tensorboard/

@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "selected": {
+    "update": 250,
+    "heldout_mse": {
+      "two_static": 0.015803692862391472,
+      "one_static": 0.012746386229991913,
+      "alignment": 0.0
+    },
+    "eligible": false,
+    "ppo_ready": true,
+    "score": [
+      1,
+      15,
+      -2,
+      0,
+      18,
+      0
+    ],
+    "checks": {
+      "two_gate": false,
+      "one_gate": true,
+      "one_zero_collision": true,
+      "goals": true,
+      "alignment_collision_free": true
+    },
+    "two": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 15,
+        "collision": 2,
+        "timeout": 3,
+        "joint_limit": 0
+      }
+    },
+    "one": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 18,
+        "collision": 0,
+        "timeout": 2,
+        "joint_limit": 0
+      }
+    },
+    "second_slot_sensitivity": {
+      "mean_action_change_15cm": 0.004142080899327993,
+      "max_action_change_15cm": 0.00892561674118042,
+      "adapter_mean_abs_correction": 0.03967202082276344
+    }
+  }
+}

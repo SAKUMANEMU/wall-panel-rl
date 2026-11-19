@@ -1,0 +1,45 @@
+{
+  "variant": "strict",
+  "metrics": {
+    "all": {
+      "episodes": 48,
+      "success": 46,
+      "collision": 0,
+      "timeout": 2,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.9583333333333334,
+      "mean_waiting_fraction": 0.060288868409712065,
+      "mean_stationary_fraction": 0.060288868409712065,
+      "timeout_mean_position_m": 1.0446500905833813,
+      "timeout_mean_orientation_deg": 154.9689961556166
+    },
+    "high": {
+      "episodes": 16,
+      "success": 16,
+      "collision": 0,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 1.0,
+      "mean_waiting_fraction": 0.02062807881773399,
+      "mean_stationary_fraction": 0.02062807881773399,
+      "timeout_mean_position_m": null,
+      "timeout_mean_orientation_deg": null
+    },
+    "low": {
+      "episodes": 32,
+      "success": 30,
+      "collision": 0,
+      "timeout": 2,
+      "joint_limit": 0,
+      "planning_failure": 0,
+      "success_rate": 0.9375,
+      "mean_waiting_fraction": 0.08011926320570112,
+      "mean_stationary_fraction": 0.08011926320570112,
+      "timeout_mean_position_m": 1.0446500905833813,
+      "timeout_mean_orientation_deg": 154.9689961556166
+    }
+  },
+  "selected_before_expanded_test": true
+}

@@ -1,0 +1,6 @@
+{
+  "reason": "Distinguish two wall-motion geometry failures from one obstacle-free nominal-reference timeout",
+  "episodes_and_physics_unchanged": true,
+  "model_unchanged": true,
+  "original_execution_archive_preserved": true
+}

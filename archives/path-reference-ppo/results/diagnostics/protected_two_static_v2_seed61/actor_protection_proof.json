@@ -1,0 +1,10 @@
+{
+  "candidate_original_actor_preserved": true,
+  "raw_final_ppo_original_actor_preserved": true,
+  "candidate_added_slot_norm": 0.0,
+  "raw_final_added_slot_norm": 0.024926183745265007,
+  "candidate_counter": 40000,
+  "raw_final_counter": 50000,
+  "selected_bc_updates": 0,
+  "selected_ppo_steps": 0
+}

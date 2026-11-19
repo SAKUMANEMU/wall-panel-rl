@@ -1,0 +1,20 @@
+{
+  "stage": "one_static",
+  "version": "v3",
+  "started_at": "2026-10-27T15:08:16.008781+08:00",
+  "runner_pid": 6433,
+  "ppo_budget": 10000,
+  "automatic_stage_advance": false,
+  "completed_phases": [
+    "prepare",
+    "teacher",
+    "bc"
+  ],
+  "status": "stopped_bc_gate",
+  "phase": "bc",
+  "phase_started_at": "2026-10-27T15:12:50.166946+08:00",
+  "bc_gate_passed": false,
+  "bc_gate_path": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/models/staged_avoidance_v3_seed61/one_static/bc/closed_loop_gate.json",
+  "finished_at": "2026-10-27T15:13:06.544481+08:00",
+  "reason": "BC closed-loop validation failed; PPO was not launched"
+}

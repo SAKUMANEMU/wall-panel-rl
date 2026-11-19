@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "training_steps": 0,
+  "started_at": "2026-11-04T01:41:14.869585+08:00",
+  "phase": "complete",
+  "updated_at": "2026-11-04T13:37:37.404544+08:00",
+  "cases": 64,
+  "generation_rejections": 3,
+  "layouts_completed": 64,
+  "episodes": 64,
+  "attempts": 64,
+  "resumed_at": "2026-11-04T13:35:28.681496+08:00",
+  "ready_for_bc": true
+}

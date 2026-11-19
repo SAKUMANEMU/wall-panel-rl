@@ -1,0 +1,13 @@
+checkpoint,additional_steps,method,suite,episodes,success,collision,joint_limit,timeout,timeout_mean_position_m,timeout_mean_orientation_deg,successful_mean_steps,mean_reward
+after_bc,0,reference_servo,alignment_far,10,10,0,0,0,,,45.1,324.43810900994777
+after_bc,0,reference_servo,alignment_near,10,10,0,0,0,,,8.6,161.16442320308494
+after_bc,0,reference_servo,five_full_diagnostic,10,2,8,0,0,,,49.0,60.286760251149325
+after_bc,0,reference_servo,stage_target,20,0,20,0,0,,,,27.745917459966137
+after_bc,0,source_ppo,alignment_far,10,10,0,0,0,,,45.1,324.3975227355922
+after_bc,0,source_ppo,alignment_near,10,10,0,0,0,,,8.6,161.16164883458163
+after_bc,0,source_ppo,five_full_diagnostic,10,2,8,0,0,,,49.0,58.71577394682604
+after_bc,0,source_ppo,stage_target,20,0,20,0,0,,,,27.736989994514467
+after_bc,0,dynamic_ppo,alignment_far,10,10,0,0,0,,,44.7,323.6269572600657
+after_bc,0,dynamic_ppo,alignment_near,10,10,0,0,0,,,8.4,160.82514630407536
+after_bc,0,dynamic_ppo,five_full_diagnostic,10,0,10,0,0,,,,-17.895555209667958
+after_bc,0,dynamic_ppo,stage_target,20,0,20,0,0,,,,16.38834761822025

@@ -1,0 +1,134 @@
+pybullet build time: Jan 29 2025 23:17:20
+Scenario seed: 10002
+Target observation noise: position std=0.0 m; orientation std=0.0 deg
+GUI playback speed: 0.6x
+Planning path; display resumes when planning finishes...
+Initial distance: 1.844 m; obstacles: 5
+step=1 position=1.8279 m orientation=148.93 deg collision=False success=False
+step=2 position=1.8089 m orientation=145.44 deg collision=False success=False
+step=3 position=1.7890 m orientation=142.18 deg collision=False success=False
+step=4 position=1.7657 m orientation=138.61 deg collision=False success=False
+step=5 position=1.7432 m orientation=135.49 deg collision=False success=False
+step=6 position=1.7176 m orientation=132.14 deg collision=False success=False
+step=7 position=1.6902 m orientation=128.78 deg collision=False success=False
+step=8 position=1.6624 m orientation=125.61 deg collision=False success=False
+step=9 position=1.6317 m orientation=122.25 deg collision=False success=False
+step=10 position=1.5994 m orientation=118.91 deg collision=False success=False
+step=11 position=1.5656 m orientation=115.59 deg collision=False success=False
+step=12 position=1.5304 m orientation=112.29 deg collision=False success=False
+step=13 position=1.4937 m orientation=109.02 deg collision=False success=False
+step=14 position=1.4569 m orientation=105.90 deg collision=False success=False
+step=15 position=1.4198 m orientation=102.89 deg collision=False success=False
+step=16 position=1.3814 m orientation=99.89 deg collision=False success=False
+step=17 position=1.3405 m orientation=96.81 deg collision=False success=False
+step=18 position=1.2971 m orientation=93.64 deg collision=False success=False
+step=19 position=1.2562 m orientation=90.83 deg collision=False success=False
+step=20 position=1.2157 m orientation=88.17 deg collision=False success=False
+step=21 position=1.1713 m orientation=85.31 deg collision=False success=False
+step=22 position=1.1268 m orientation=82.58 deg collision=False success=False
+step=23 position=1.0851 m orientation=80.18 deg collision=False success=False
+step=24 position=1.0435 m orientation=77.89 deg collision=False success=False
+step=25 position=0.9996 m orientation=75.56 deg collision=False success=False
+step=26 position=0.9575 m orientation=73.46 deg collision=False success=False
+step=27 position=0.9171 m orientation=71.59 deg collision=False success=False
+step=28 position=0.8778 m orientation=69.89 deg collision=False success=False
+step=29 position=0.8396 m orientation=68.37 deg collision=False success=False
+step=30 position=0.8025 m orientation=67.02 deg collision=False success=False
+step=31 position=0.7685 m orientation=65.94 deg collision=False success=False
+step=32 position=0.7368 m orientation=65.09 deg collision=False success=False
+step=33 position=0.7088 m orientation=64.51 deg collision=False success=False
+step=34 position=0.6843 m orientation=64.19 deg collision=False success=False
+step=35 position=0.6637 m orientation=64.12 deg collision=False success=False
+step=36 position=0.6476 m orientation=64.31 deg collision=False success=False
+step=37 position=0.6361 m orientation=64.77 deg collision=False success=False
+step=38 position=0.6296 m orientation=65.48 deg collision=False success=False
+step=39 position=0.6280 m orientation=66.43 deg collision=False success=False
+step=40 position=0.6314 m orientation=67.62 deg collision=False success=False
+step=41 position=0.6394 m orientation=69.03 deg collision=False success=False
+step=42 position=0.6516 m orientation=70.65 deg collision=False success=False
+step=43 position=0.6677 m orientation=72.47 deg collision=False success=False
+step=44 position=0.6871 m orientation=74.46 deg collision=False success=False
+step=45 position=0.7094 m orientation=76.61 deg collision=False success=False
+step=46 position=0.7339 m orientation=78.90 deg collision=False success=False
+step=47 position=0.7603 m orientation=81.34 deg collision=False success=False
+step=48 position=0.7880 m orientation=83.89 deg collision=False success=False
+step=49 position=0.7383 m orientation=77.99 deg collision=False success=False
+step=50 position=0.6875 m orientation=72.04 deg collision=False success=False
+step=51 position=0.6312 m orientation=65.85 deg collision=False success=False
+step=52 position=0.5792 m orientation=59.95 deg collision=False success=False
+step=53 position=0.5221 m orientation=53.83 deg collision=False success=False
+step=54 position=0.4689 m orientation=47.98 deg collision=False success=False
+step=55 position=0.4103 m orientation=41.87 deg collision=False success=False
+step=56 position=0.3526 m orientation=35.86 deg collision=False success=False
+step=57 position=0.2969 m orientation=30.01 deg collision=False success=False
+step=58 position=0.2381 m orientation=24.01 deg collision=False success=False
+step=59 position=0.1779 m orientation=17.96 deg collision=False success=False
+step=60 position=0.1195 m orientation=12.04 deg collision=False success=False
+step=61 position=0.0547 m orientation=5.78 deg collision=False success=False
+step=62 position=0.0031 m orientation=0.11 deg collision=False success=True
+{
+  "seed": 10002,
+  "success": true,
+  "collision": false,
+  "joint_limit_violation": false,
+  "planning_success": true,
+  "ik_success": true,
+  "position_error_m": 0.0031207001127286035,
+  "orientation_error_deg": 0.10640231604645375,
+  "steps": 62,
+  "joint_path_length_rad": 4.68187090190419,
+  "cartesian_path_length_m": 3.6131607460455752,
+  "planning_time_s": 1.5820407750000527,
+  "execution_time_s": 5.177549045999967,
+  "simulated_time_s": 3.1,
+  "cumulative_reward": 311.9904518912013,
+  "replans": 0,
+  "replan_failures": 0,
+  "hold_steps": 0,
+  "physics_elapsed_s": 3.100000000000049
+}
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+X11 functions dynamically loaded using dlopen/dlsym OK!
+X11 functions dynamically loaded using dlopen/dlsym OK!
+Creating context
+Created GL 3.3 context
+Direct GLX rendering context obtained
+Making context current
+GL_VENDOR=Mesa
+GL_RENDERER=llvmpipe (LLVM 20.1.2, 256 bits)
+GL_VERSION=4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2
+GL_SHADING_LANGUAGE_VERSION=4.50
+pthread_getconcurrency()=0
+Version = 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2
+Vendor = Mesa
+Renderer = llvmpipe (LLVM 20.1.2, 256 bits)
+b3Printf: Selected demo: Physics Server
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+MotionThreadFunc thread started
+ven = Mesa
+ven = Mesa
+numActiveThreads = 0
+stopping threads
+Thread with taskId 0 exiting
+destroy semaphore
+semaphore destroyed
+Thread TERMINATED
+destroy main semaphore
+main semaphore destroyed
+finished
+numActiveThreads = 0
+btShutDownExampleBrowser stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphore destroyed
+destroy main semaphore
+main semaphore destroyed

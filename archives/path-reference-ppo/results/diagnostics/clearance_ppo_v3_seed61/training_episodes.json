@@ -1,0 +1,34 @@
+{
+  "control": {
+    "alignment": {
+      "episodes": 21,
+      "reasons": {
+        "success": 21
+      }
+    },
+    "static": {
+      "episodes": 86,
+      "reasons": {
+        "collision": 38,
+        "success": 29,
+        "timeout": 19
+      }
+    }
+  },
+  "wall_feedback": {
+    "alignment": {
+      "episodes": 26,
+      "reasons": {
+        "success": 26
+      }
+    },
+    "static": {
+      "episodes": 107,
+      "reasons": {
+        "collision": 49,
+        "success": 47,
+        "timeout": 11
+      }
+    }
+  }
+}

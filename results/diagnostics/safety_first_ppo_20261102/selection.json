@@ -1,0 +1,39 @@
+{
+  "additional_steps": 10000,
+  "score": [
+    1,
+    0.0,
+    0.85,
+    -0.15,
+    0.0
+  ],
+  "metrics": {
+    "dynamic_ppo": {
+      "alignment_far": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "success": 10,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0
+      },
+      "stage_target": {
+        "episodes": 20,
+        "success": 17,
+        "collision": 0,
+        "timeout": 3,
+        "joint_limit": 0
+      }
+    }
+  },
+  "previous_selection_preserved": true,
+  "source_checkpoint": "results/diagnostics/conditional_ppo_adaptation_v3_seed61/final_candidate.zip",
+  "model_sha256": "886301e03bae2c1c7058dc5efb55bcba40190f407cd4171cbf517730a259207c",
+  "training_performed": false
+}

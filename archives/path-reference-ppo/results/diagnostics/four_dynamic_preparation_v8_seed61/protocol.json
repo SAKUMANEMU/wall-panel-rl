@@ -1,0 +1,421 @@
+{
+  "spec": {
+    "source_report": "results/diagnostics/four_expanded_ppo_v5_seed61",
+    "source_model": "results/diagnostics/four_expanded_ppo_v5_seed61/selected_model.zip",
+    "source_data": "data/four_expanded_v5_seed61",
+    "motion_profile": "configs/four_slow_dynamic.yaml",
+    "data_root": "data/four_dynamic_v8_seed61",
+    "model_root": "models/four_dynamic_ppo_v8_seed61",
+    "report_root": "results/diagnostics/four_dynamic_ppo_v8_seed61",
+    "preparation_report": "results/diagnostics/four_dynamic_preparation_v8_seed61",
+    "seed": 61,
+    "train_count": 192,
+    "validation_count": 64,
+    "test_count": 100,
+    "new_train_seed": 1050000,
+    "validation_seed": 1062000,
+    "test_seed": 1064000,
+    "preparation_workers": 4,
+    "expert_probability": 0.5,
+    "static_probability": 0.3,
+    "curriculum_speeds": [
+      0.005,
+      0.01,
+      0.02
+    ],
+    "steps": 5000,
+    "evaluate_every": 1000,
+    "workers": 4,
+    "n_steps": 250,
+    "batch_size": 100,
+    "n_epochs": 3,
+    "learning_rate": 3e-06,
+    "clip_range": 0.05,
+    "target_kl": 0.005,
+    "vf_coef": 0.1,
+    "reward_scale": 0.01,
+    "hard_training_fraction": 0.25,
+    "independent_test_only_on_validation_improvement": true,
+    "auxiliary_bc": {
+      "weight": 0.05,
+      "learning_rate": 1e-06,
+      "updates_per_rollout": 1,
+      "batch_size": 64,
+      "capacity": 50000,
+      "maximum_kl": 0.003,
+      "checkpoint_every": 1000
+    }
+  },
+  "configuration": {
+    "simulation": {
+      "timestep": 0.004166666666666667,
+      "substeps": 12,
+      "max_steps": 240,
+      "gravity": -9.81
+    },
+    "robot": {
+      "urdf": "assets/robot/kuka_iiwa/model.urdf",
+      "end_effector": 6,
+      "goal_q": [
+        0.0,
+        0.65,
+        0.0,
+        -1.3,
+        0.0,
+        -0.38,
+        0.0
+      ],
+      "start_offset": [
+        2.65,
+        0.9,
+        0.0,
+        1.15,
+        0.0,
+        0.25,
+        0.0
+      ],
+      "start_randomization": 0.03,
+      "near_start_probability": 0.0,
+      "near_start_randomization": 0.035,
+      "start_position_distance_range": [
+        1.8,
+        1.9
+      ]
+    },
+    "panel": {
+      "dimensions": [
+        0.3,
+        0.2,
+        0.03
+      ],
+      "mass": 0.25,
+      "offset": [
+        0.0,
+        0.0,
+        0.14
+      ],
+      "orientation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "target": {
+      "position_tolerance": 0.01,
+      "orientation_tolerance_deg": 2.0,
+      "wall_clearance": 0.025,
+      "wall_thickness": 0.04
+    },
+    "controller": {
+      "max_joint_increment_deg": 4.0,
+      "position_gain": 0.3,
+      "velocity_gain": 1.0,
+      "force": 250.0
+    },
+    "collision": {
+      "margin": 0.0,
+      "planning_clearance": 0.01,
+      "edge_resolution": 0.035
+    },
+    "obstacles": {
+      "stage": "C",
+      "max_count": 5,
+      "min_count": 5,
+      "dimensions": [
+        0.12,
+        0.12,
+        0.18
+      ],
+      "center": [
+        0.5,
+        0.25,
+        0.35
+      ],
+      "randomization": [
+        0.22,
+        0.3,
+        0.22
+      ],
+      "max_placement_attempts": 360,
+      "dimensions_by_obstacle": [
+        [
+          0.08,
+          0.08,
+          0.1
+        ],
+        [
+          0.1,
+          0.09,
+          0.13
+        ],
+        [
+          0.12,
+          0.1,
+          0.16
+        ],
+        [
+          0.09,
+          0.12,
+          0.14
+        ],
+        [
+          0.14,
+          0.12,
+          0.18
+        ]
+      ],
+      "min_obstacle_gap": 0.1,
+      "dynamic": {
+        "enabled": true,
+        "placement": "rrt_path",
+        "motion_mode": "random_3d",
+        "amplitude": 0.05,
+        "max_speed": 0.02,
+        "lateral_offset": 0.0
+      },
+      "freeze_motion": false
+    },
+    "noise": {
+      "position_std": 0.0,
+      "orientation_std_deg": 0.0
+    },
+    "reward": {
+      "position_progress": 100.0,
+      "orientation_progress": 12.0,
+      "action": 0.015,
+      "step": 0.05,
+      "collision": -50.0,
+      "joint_limit": -30.0,
+      "success": 100.0
+    },
+    "ppo": {
+      "learning_rate": 0.0003,
+      "n_steps": 250,
+      "batch_size": 100,
+      "n_epochs": 10,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip_range": 0.2,
+      "ent_coef": 0.0,
+      "log_std_init": -1.0,
+      "net_arch": [
+        128,
+        128
+      ],
+      "total_timesteps": 1000000,
+      "eval_freq": 50000,
+      "eval_episodes": 10
+    },
+    "rrt": {
+      "step_size": 0.22,
+      "goal_bias": 0.15,
+      "max_iterations": 6000,
+      "timeout": 15.0,
+      "shortcut_attempts": 40,
+      "ik_attempts": 12,
+      "ik_iterations": 200,
+      "ik_position_tolerance": 0.004,
+      "ik_orientation_tolerance_deg": 1.0,
+      "waypoint_tolerance": 0.008,
+      "dynamic_mode": "timed",
+      "timed_timeout": 30.0,
+      "dynamic_lookahead_steps": 3,
+      "dynamic_retry_steps": 5,
+      "verify_static_path": true,
+      "static_validation_resolution": 0.005
+    },
+    "seed": 42,
+    "evaluation": {
+      "episodes": 100,
+      "start_seed": 50000
+    },
+    "demo": {
+      "playback_speed": 0.5,
+      "camera_distance": 2.8,
+      "camera_target": [
+        0.0,
+        0.0,
+        0.6
+      ]
+    },
+    "observation": {
+      "obstacle_velocity": true
+    }
+  },
+  "evaluation_settings": {
+    "source_first": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+    "output_root": "models/bc_budget_v3_seed61",
+    "data_root": "data/staged_avoidance_v3_seed61",
+    "interface_contract": "reference_preserving_v3",
+    "terminal_radius": 0.2,
+    "reference_recovery": {
+      "radius": 0.3,
+      "min_distance": 0.08,
+      "improvement": 0.02
+    },
+    "environment": "configs/ppo_dynamic_clean.yaml",
+    "release": "releases/path_reference_bc_20261025",
+    "seed": 61,
+    "additional_timesteps": 10000,
+    "workers": 4,
+    "n_steps": 250,
+    "batch_size": 100,
+    "n_epochs": 3,
+    "learning_rate": 0.0001,
+    "clip_range": 0.05,
+    "target_kl": 0.005,
+    "eval_every": 5000,
+    "residual_scale": 2.0,
+    "initial_prior_gate": 0.5,
+    "action_std": 0.1,
+    "progress_weight": 0.25,
+    "joint_margin": 0.01,
+    "clearance_distance": 0.08,
+    "clearance_weight": 0.5,
+    "mixture": {
+      "alignment": 0.0,
+      "static": 0.0,
+      "dynamic": 1.0
+    },
+    "train_scenes": 64,
+    "validation_scenes": 20,
+    "train_seed_base": 800000,
+    "validation_seed_base": 900000,
+    "teacher": {
+      "alignment_episodes": 20,
+      "avoidance_episodes": 80,
+      "maximum_attempts": 500,
+      "minimum_unique_scenes": 10,
+      "updates": 10000,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "terminal_weight": 2.0,
+      "gate_retention_weight": 0.01,
+      "residual_weight": 0.001,
+      "closed_loop_updates": [
+        2000,
+        4000,
+        6000,
+        8000,
+        10000
+      ]
+    },
+    "bc_gate": {
+      "minimum_episodes": 20,
+      "minimum_alignment_episodes": 10,
+      "minimum_success_rate": 0.5,
+      "maximum_collision_rate": 0.25,
+      "minimum_alignment_success_rate": 0.9,
+      "maximum_goal_action": 0.005
+    },
+    "gate": {
+      "minimum_episodes": 20,
+      "minimum_alignment_episodes": 10,
+      "minimum_success_rate": 0.8,
+      "maximum_collision_rate": 0.1,
+      "minimum_alignment_success_rate": 0.9,
+      "consecutive_checks": 2
+    },
+    "stages": [
+      {
+        "name": "one_static",
+        "count": 1,
+        "mode": "static",
+        "amplitude": 0.05,
+        "speed": 0.02
+      },
+      {
+        "name": "one_dynamic",
+        "count": 1,
+        "mode": "dynamic",
+        "amplitude": 0.05,
+        "speed": 0.02
+      },
+      {
+        "name": "three_dynamic",
+        "count": 3,
+        "mode": "dynamic",
+        "amplitude": 0.1,
+        "speed": 0.05
+      },
+      {
+        "name": "five_dynamic_low",
+        "count": 5,
+        "mode": "dynamic",
+        "amplitude": 0.1,
+        "speed": 0.05
+      },
+      {
+        "name": "five_dynamic_full",
+        "count": 5,
+        "mode": "dynamic",
+        "amplitude": 0.4,
+        "speed": 0.4
+      }
+    ],
+    "active_stage": {
+      "name": "four_slow_dynamic",
+      "count": 4,
+      "mode": "dynamic",
+      "amplitude": 0.05,
+      "speed": 0.02
+    },
+    "stage_index": 0,
+    "train_start_seed": 800000,
+    "validation_start_seed": 900000,
+    "data": "data/staged_avoidance_v3_seed61/one_static",
+    "stage_output": "models/targeted_bc_v3_seed61/targeted_mix",
+    "output": "models/targeted_bc_v3_seed61/targeted_mix/ppo",
+    "source_model": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+    "stall_reward": {
+      "window": 20,
+      "position_epsilon": 0.001,
+      "orientation_epsilon_deg": 0.1,
+      "path_epsilon": 0.01,
+      "joint_displacement": 0.02,
+      "weight": 0.1
+    },
+    "conditional_recovery": {
+      "window": 30,
+      "min_steps": 60,
+      "position_epsilon": 0.001,
+      "orientation_epsilon_deg": 0.1,
+      "max_joint_displacement": 0.02,
+      "min_reference_distance": 0.2,
+      "extended_radius": 0.45,
+      "max_attempts": 3,
+      "max_recoveries": 1,
+      "cooldown": 20
+    },
+    "on_path_obstacles": {
+      "fractions": [
+        0.4,
+        0.6,
+        0.2,
+        0.8
+      ],
+      "fraction_jitter": 0.045,
+      "center_jitter_m": 0.01,
+      "attempts_per_obstacle": 160
+    }
+  },
+  "source_sha256": "7194d7515ffe59e3b6d60562b0ebd7e38d6f3cd52ed35a67c7b624c23891e0e1",
+  "input_hashes": {
+    "data/four_dynamic_v8_seed61/validation_cases.json": "a8a43d52df225b918caf0f96dbdf68fc07368ff5f8a3323924dba23346fa6cb0",
+    "data/four_dynamic_v8_seed61/sampling.json": "65039956cfe62d0d3f416a13a306b38a763e73d85e777a308f18c9637bc0f6b6",
+    "data/four_dynamic_v8_seed61/train_cases.json": "acffb3854306b913e1d4665ac0a08c8b66327b3c44b825abb7b613809eadab62",
+    "data/four_dynamic_v8_seed61/split.json": "bb90a2024729fb954efa7aa814629bc18f2d76dc6ab722388425b835bdebac5c",
+    "data/four_dynamic_v8_seed61/test_cases.json": "9210afdbfa7d16722db0ea291ca6680e1f4b08812a39f53ef954980d7266c8fc"
+  },
+  "code_hashes": {
+    "configs/four_dynamic_ppo.yaml": "932494f09b6e8e5fb5b8c01498b768967841ea4b72ce7897affc86750920d759",
+    "configs/four_slow_dynamic.yaml": "70ebe8daa7cd82b6049d72ca666298f1e90ddf1d6f28df2763336c7518670ad4",
+    "scripts/prepare_four_dynamic_training.py": "4e12710905362d69b856783eb456c2e5cae45e8332deb61a89d8e76d66dcfdc0",
+    "src/wall_panel_rl/rl/slow_dynamic_four.py": "bcfc2e32c60ed97a383425730c20add35529f1bd3f7329f96cd54e3711d8b725",
+    "src/wall_panel_rl/rl/static_demo_scene.py": "ff4075875a077769f3145171b4766a182a95ffbf12a7f7844bcd4de1660c242d",
+    "src/wall_panel_rl/rl/on_path_obstacles.py": "540ca55582e07f638cd76f2111f20c8a5d2245252e5421352fbcbfb70914de8e"
+  },
+  "source_train_sha256": "d545514ba43a0d108f047733a9ad4eca1e714620f0b014e33b2519161f6ab2e6",
+  "rule": "Scene/reference construction only; no dynamic-policy success filtering; reserved test never used for training or selection"
+}

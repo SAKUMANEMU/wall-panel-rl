@@ -1,0 +1,51 @@
+{
+  "arrays_and_offsets_valid": true,
+  "splits_disjoint": true,
+  "all_scenes_have_four_static_nominal_route_blockers": true,
+  "original_regression_excluded": true,
+  "source_weights_unchanged": true,
+  "accepted_routes_physically_successful_and_pre_post_verified": true,
+  "one_route_per_training_layout": true,
+  "replay_checks": [
+    {
+      "seed": 1020000,
+      "reason": "success",
+      "maximum_error": 0.0
+    },
+    {
+      "seed": 1020001,
+      "reason": "success",
+      "maximum_error": 0.0
+    },
+    {
+      "seed": 1020002,
+      "reason": "success",
+      "maximum_error": 0.0
+    }
+  ],
+  "episodes": 64,
+  "transitions": 3973,
+  "attempt_outcomes": {
+    "success": 64
+  },
+  "ready_for_bc": true,
+  "training_steps": 0,
+  "resumed_prefix_arrays_exactly_preserved": true,
+  "resumed_segment_replay_checks": [
+    {
+      "seed": 1020054,
+      "reason": "success",
+      "maximum_error": 0.0
+    },
+    {
+      "seed": 1020055,
+      "reason": "success",
+      "maximum_error": 0.0
+    },
+    {
+      "seed": 1020056,
+      "reason": "success",
+      "maximum_error": 0.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Explicit --run only. Two independent continuations of the SAME selected BC.
+base_config: configs/staged_avoidance.yaml
+base_data: data/staged_avoidance_v3_seed61/one_static
+initial_model: models/bc_budget_v3_seed61/same_data_10k/bc/checkpoints/bc_10000.zip
+initial_state: models/bc_budget_v3_seed61/same_data_10k/bc/checkpoints/bc_10000.bc_state.pt
+initial_metadata: models/bc_budget_v3_seed61/same_data_10k/bc/metadata.json
+output_root: models/targeted_bc_v3_seed61
+data_root: data/targeted_bc_v3_seed61
+report_root: /home/johnsonchen/wall-panel-rl/results/diagnostics/targeted_bc_v3_seed61
+additional_updates: 10000
+checkpoints: [2000, 4000, 6000, 8000, 10000]
+correction_successes: 100
+maximum_correction_attempts: 400
+handoff_leads: [2, 6, 12, 20, 32]
+independent_start_seed: 980000
+independent_scenes: 100
+maximum_generation_attempts: 1000

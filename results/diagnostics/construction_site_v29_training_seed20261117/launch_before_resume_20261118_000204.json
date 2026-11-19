@@ -1,0 +1,25 @@
+{
+  "pid": 18165,
+  "process_group": 18165,
+  "command": [
+    "/home/johnsonchen/wall-panel-rl/.conda-env/bin/python",
+    "-u",
+    "/home/johnsonchen/wall-panel-rl/experiments/construction_site_v29/scripts/run_site_pipeline.py",
+    "--config",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117/training_config.yaml",
+    "--output",
+    "/home/johnsonchen/wall-panel-rl/results/diagnostics/construction_site_v29_training_seed20261117"
+  ],
+  "started_at": "2026-11-17T18:12:49.905035+08:00",
+  "source_model_sha256": "24f47248e81db8ed1839e8c33967c6c7b5f1e0968a02811b08d70fe07710e856",
+  "new_scene_seed_base": 3700000,
+  "training_steps": 65536,
+  "bc_updates": 1000,
+  "teacher_cases_per_count": 3,
+  "workers": 2,
+  "integration_tests": {
+    "passed": 30,
+    "failed": 0,
+    "duration_seconds": 4.89
+  }
+}

@@ -1,0 +1,295 @@
+[
+  {
+    "seed": 4720000,
+    "obstacle_dimensions_m": [
+      [
+        0.1803331226604428,
+        0.15027760221703568,
+        0.2404441635472571
+      ],
+      [
+        0.13679680949894624,
+        0.18239574599859498,
+        0.21279503699836086
+      ]
+    ],
+    "geometry_queries_only": true,
+    "physics_steps_performed": 0,
+    "rows": [
+      {
+        "step": 0,
+        "reference_index": 1,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.24638569485380094
+        },
+        "obstacle_center_z_m": 0.673626407715367,
+        "panel_center_z_m": 0.33707308769226074,
+        "whole_panel_world_z_extent_m": 0.30490856076461736,
+        "floor_to_box_bottom_m": 0.4534043259417384,
+        "box_top_to_ceiling_m": 0.3061515105110046
+      },
+      {
+        "step": 20,
+        "reference_index": 3,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.08978950406546657
+        },
+        "obstacle_center_z_m": 0.6635902855689615,
+        "panel_center_z_m": 0.40203827173211953,
+        "whole_panel_world_z_extent_m": 0.31222251892026626,
+        "floor_to_box_bottom_m": 0.4433682037953329,
+        "box_top_to_ceiling_m": 0.31618763265741007
+      },
+      {
+        "step": 40,
+        "reference_index": 4,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.03428559461906095
+        },
+        "obstacle_center_z_m": 0.6259311816020774,
+        "panel_center_z_m": 0.41391654051750865,
+        "whole_panel_world_z_extent_m": 0.31679520997899074,
+        "floor_to_box_bottom_m": 0.4057090998284488,
+        "box_top_to_ceiling_m": 0.35384673662429417
+      },
+      {
+        "step": 60,
+        "reference_index": 4,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.13751733442350123
+        },
+        "obstacle_center_z_m": 0.5812929666283859,
+        "panel_center_z_m": 0.8459439811194911,
+        "whole_panel_world_z_extent_m": 0.24658067700047429,
+        "floor_to_box_bottom_m": 0.36107088485475736,
+        "box_top_to_ceiling_m": 0.39848495159798564
+      },
+      {
+        "step": 80,
+        "reference_index": 4,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.0747844666516048
+        },
+        "obstacle_center_z_m": 0.5340956163658747,
+        "panel_center_z_m": 0.8794704112976046,
+        "whole_panel_world_z_extent_m": 0.30275196535370186,
+        "floor_to_box_bottom_m": 0.3138735345922461,
+        "box_top_to_ceiling_m": 0.4456823018604969
+      },
+      {
+        "step": 120,
+        "reference_index": 4,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.24798302063689776
+        },
+        "obstacle_center_z_m": 0.4561096626221329,
+        "panel_center_z_m": 0.4889569517659115,
+        "whole_panel_world_z_extent_m": 0.2815978483707976,
+        "floor_to_box_bottom_m": 0.2358875808485044,
+        "box_top_to_ceiling_m": 0.5236682556042386
+      },
+      {
+        "step": 180,
+        "reference_index": 28,
+        "closest": {
+          "slot": 1,
+          "body": "robot",
+          "link_index": 4,
+          "distance_m": 0.05990163588012342
+        },
+        "obstacle_center_z_m": 0.5970794244881821,
+        "panel_center_z_m": 0.5707886575524662,
+        "whole_panel_world_z_extent_m": 0.3395029306768342,
+        "floor_to_box_bottom_m": 0.39068190598900165,
+        "box_top_to_ceiling_m": 0.39652305701263757
+      },
+      {
+        "step": 200,
+        "reference_index": 28,
+        "closest": {
+          "slot": 1,
+          "body": "robot",
+          "link_index": 4,
+          "distance_m": 0.0012152895178118989
+        },
+        "obstacle_center_z_m": 0.5642333251194032,
+        "panel_center_z_m": 0.5692701669524572,
+        "whole_panel_world_z_extent_m": 0.33901881234798714,
+        "floor_to_box_bottom_m": 0.35783580662022274,
+        "box_top_to_ceiling_m": 0.4293691563814165
+      },
+      {
+        "step": 220,
+        "reference_index": 30,
+        "closest": {
+          "slot": 1,
+          "body": "robot",
+          "link_index": 4,
+          "distance_m": 0.00316526616003967
+        },
+        "obstacle_center_z_m": 0.5218134800419435,
+        "panel_center_z_m": 0.5796609729427786,
+        "whole_panel_world_z_extent_m": 0.34393240778965695,
+        "floor_to_box_bottom_m": 0.3154159615427631,
+        "box_top_to_ceiling_m": 0.47178900145887614
+      },
+      {
+        "step": 240,
+        "reference_index": 32,
+        "closest": {
+          "slot": 1,
+          "body": "robot",
+          "link_index": 6,
+          "distance_m": 0.0012182870292582306
+        },
+        "obstacle_center_z_m": 0.49474736366425287,
+        "panel_center_z_m": 0.5907048802784758,
+        "whole_panel_world_z_extent_m": 0.3474283698510775,
+        "floor_to_box_bottom_m": 0.28834984516507245,
+        "box_top_to_ceiling_m": 0.4988551178365668
+      }
+    ]
+  },
+  {
+    "seed": 4720100,
+    "obstacle_dimensions_m": [
+      [
+        0.1851759013096372,
+        0.15431325109136437,
+        0.24690120174618296
+      ],
+      [
+        0.1336307805087667,
+        0.17817437401168892,
+        0.2078701030136371
+      ]
+    ],
+    "geometry_queries_only": true,
+    "physics_steps_performed": 0,
+    "rows": [
+      {
+        "step": 20,
+        "reference_index": 3,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.11639106254888539
+        },
+        "obstacle_center_z_m": 0.37957013330595085,
+        "panel_center_z_m": 0.4042791068968646,
+        "whole_panel_world_z_extent_m": 0.3214283048553148,
+        "floor_to_box_bottom_m": 0.15611953243285934,
+        "box_top_to_ceiling_m": 0.5969792658209577
+      },
+      {
+        "step": 40,
+        "reference_index": 4,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.03305916987065918
+        },
+        "obstacle_center_z_m": 0.3858797367448348,
+        "panel_center_z_m": 0.4067960525512392,
+        "whole_panel_world_z_extent_m": 0.32283554969078604,
+        "floor_to_box_bottom_m": 0.16242913587174332,
+        "box_top_to_ceiling_m": 0.5906696623820739
+      },
+      {
+        "step": 60,
+        "reference_index": 4,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.022442604271609733
+        },
+        "obstacle_center_z_m": 0.3985809392681119,
+        "panel_center_z_m": 0.38877182624071743,
+        "whole_panel_world_z_extent_m": 0.3232816222987872,
+        "floor_to_box_bottom_m": 0.17513033839502043,
+        "box_top_to_ceiling_m": 0.5779684598587967
+      },
+      {
+        "step": 80,
+        "reference_index": 4,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.000639496605873448
+        },
+        "obstacle_center_z_m": 0.42564056232325165,
+        "panel_center_z_m": 0.3779364258007661,
+        "whole_panel_world_z_extent_m": 0.3241281957420685,
+        "floor_to_box_bottom_m": 0.2021899614501602,
+        "box_top_to_ceiling_m": 0.550908836803657
+      },
+      {
+        "step": 100,
+        "reference_index": 4,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.005524603934260576
+        },
+        "obstacle_center_z_m": 0.46299197141350545,
+        "panel_center_z_m": 0.387801975443226,
+        "whole_panel_world_z_extent_m": 0.3223236602721847,
+        "floor_to_box_bottom_m": 0.239541370540414,
+        "box_top_to_ceiling_m": 0.5135574277134032
+      },
+      {
+        "step": 120,
+        "reference_index": 4,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.0030809112831291247
+        },
+        "obstacle_center_z_m": 0.487151902230727,
+        "panel_center_z_m": 0.3960644356065527,
+        "whole_panel_world_z_extent_m": 0.32388442959316865,
+        "floor_to_box_bottom_m": 0.2637013013576356,
+        "box_top_to_ceiling_m": 0.4893974968961816
+      },
+      {
+        "step": 140,
+        "reference_index": 5,
+        "closest": {
+          "slot": 0,
+          "body": "panel",
+          "link_index": -1,
+          "distance_m": 0.010959447234182596
+        },
+        "obstacle_center_z_m": 0.510006780483162,
+        "panel_center_z_m": 0.5958173575999842,
+        "whole_panel_world_z_extent_m": 0.3016234942031181,
+        "floor_to_box_bottom_m": 0.2865561796100705,
+        "box_top_to_ceiling_m": 0.4665426186437467
+      }
+    ]
+  }
+]

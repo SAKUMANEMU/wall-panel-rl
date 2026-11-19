@@ -1,0 +1,9 @@
+{
+  "episodes": 10,
+  "successes": 7,
+  "collisions": 0,
+  "planning_failures": 3,
+  "replans": 0,
+  "scheduled_waits": 164,
+  "successful_envelope_crossings": 7
+}

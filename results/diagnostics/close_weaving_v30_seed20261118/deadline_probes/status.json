@@ -1,0 +1,154 @@
+{
+  "status": "completed",
+  "pid": 5525,
+  "started_at": "2026-11-18T16:16:00.373741+08:00",
+  "phase": "complete",
+  "updated_at": "2026-11-18T16:20:59.095577+08:00",
+  "completed": 2,
+  "planned": 2,
+  "training_started": false,
+  "latest": {
+    "seed": 4140000,
+    "controller": "enhanced",
+    "reason": "timeout",
+    "steps": 240,
+    "position_m": 0.8186735830133448,
+    "orientation_deg": 99.86264045046035,
+    "reward": 71.99778030725614,
+    "zero_command_steps": 18,
+    "stationary_steps": 18,
+    "wall_seconds": 296.570660806,
+    "physics_elapsed_s": 11.99999999999964,
+    "weights_changed": false,
+    "uses_global_rrt": false,
+    "reference_preserved": true,
+    "local_rescues": 4,
+    "recovery_actions": 142,
+    "recovery_events": [
+      {
+        "step": 24,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 2.147115286657709,
+        "accepted": true,
+        "mode": "bias",
+        "parameter": [
+          3,
+          0.4
+        ],
+        "predicted_end_cost": 1.987559325016459,
+        "predicted_gain": 0.15955596164125008,
+        "plan_steps": 60
+      },
+      {
+        "step": 86,
+        "baseline_forecast": "collision",
+        "baseline_short_cost": 2.0650297683603878,
+        "accepted": true,
+        "mode": "waypoint",
+        "parameter": 0.4,
+        "predicted_end_cost": 1.9940002123507246,
+        "predicted_gain": 0.07102955600966321,
+        "plan_steps": 60
+      },
+      {
+        "step": 146,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 1.7366439481321878,
+        "accepted": false
+      },
+      {
+        "step": 156,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 1.5559910679101159,
+        "accepted": false
+      },
+      {
+        "step": 179,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 1.0371403301590532,
+        "accepted": false
+      },
+      {
+        "step": 189,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 1.0278254080848415,
+        "accepted": false
+      },
+      {
+        "step": 199,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 1.0278254080848415,
+        "accepted": false
+      },
+      {
+        "step": 209,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 1.0278254080848415,
+        "accepted": false
+      },
+      {
+        "step": 219,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 1.0278254080848415,
+        "accepted": false
+      },
+      {
+        "step": 229,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 1.0278254080848415,
+        "accepted": false,
+        "mode": "goal",
+        "parameter": 0.4,
+        "predicted_end_cost": 0.7735652332662666,
+        "predicted_gain": 0.2542601748185749,
+        "plan_steps": 11
+      },
+      {
+        "step": 239,
+        "baseline_forecast": "timeout",
+        "baseline_short_cost": 1.0278254080848415,
+        "accepted": false,
+        "mode": "persistent",
+        "parameter": [
+          [
+            0,
+            2
+          ],
+          [
+            -0.28,
+            -0.28
+          ]
+        ],
+        "predicted_end_cost": 0.989308440939421,
+        "predicted_gain": 0.03851696714542041,
+        "plan_steps": 1
+      }
+    ],
+    "no_safe_action_calls": 0,
+    "prediction_steps": 56307,
+    "vertical_plan_events": [
+      {
+        "slot": 2,
+        "lateral_m": 0.0,
+        "gain": 1.0,
+        "predicted_end_cost": 1.8699434387258855,
+        "predicted_forward_m": 0.42949740659279445,
+        "step": 84,
+        "plan_steps": 11
+      },
+      {
+        "slot": 0,
+        "lateral_m": 0.0,
+        "gain": 0.7,
+        "predicted_end_cost": 1.449422025206774,
+        "predicted_forward_m": 0.5537554054203888,
+        "step": 159,
+        "plan_steps": 22
+      }
+    ],
+    "passage_count": 2,
+    "success_with_weaving": false,
+    "obstacle_count": 4,
+    "execution_variant": "vertical_controller"
+  }
+}

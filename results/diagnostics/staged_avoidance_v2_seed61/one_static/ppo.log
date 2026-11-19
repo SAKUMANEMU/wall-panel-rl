@@ -1,0 +1,125 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "mode": "train",
+  "stage": {
+    "name": "one_static",
+    "count": 1,
+    "mode": "static",
+    "amplitude": 0.05,
+    "speed": 0.02
+  },
+  "source": "models/waypoint_ppo_pilot_seed61/best_model.zip",
+  "source_exists": true,
+  "data": "data/staged_avoidance_v2_seed61/one_static",
+  "bc_output": "models/staged_avoidance_v2_seed61/one_static/bc",
+  "ppo_output": "models/staged_avoidance_v2_seed61/one_static/ppo",
+  "ppo_additional_steps": 10000,
+  "action_std": 0.1,
+  "prior_gate_initial": 0.5,
+  "waypoint_reward": 0.25,
+  "clearance_distance": 0.08,
+  "clearance_weight": 0.5,
+  "gate": {
+    "minimum_episodes": 20,
+    "minimum_alignment_episodes": 10,
+    "minimum_success_rate": 0.8,
+    "maximum_collision_rate": 0.1,
+    "minimum_alignment_success_rate": 0.9,
+    "consecutive_checks": 2
+  },
+  "automatic_stage_advance": false
+}
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+{"kind": "baseline", "additional_steps": 0, "total_steps": 5000, "metrics": {"reference_servo": {"alignment_far": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 45.1, "mean_reward": 324.43810900994777}, "alignment_near": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.6, "mean_reward": 161.16442320308494}, "five_full_diagnostic": {"episodes": 10, "success": 2, "collision": 8, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.0, "mean_reward": 60.286760251149325}, "stage_target": {"episodes": 20, "success": 0, "collision": 20, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 27.745917459966137}}, "source_ppo": {"alignment_far": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 45.1, "mean_reward": 324.3975227355922}, "alignment_near": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.6, "mean_reward": 161.16164883458163}, "five_full_diagnostic": {"episodes": 10, "success": 2, "collision": 8, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.0, "mean_reward": 58.71577394682604}, "stage_target": {"episodes": 20, "success": 0, "collision": 20, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 27.736989994514467}}, "dynamic_ppo": {"alignment_far": {"episodes": 10, "success": 0, "collision": 10, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 117.81542131373233}, "alignment_near": {"episodes": 10, "success": 0, "collision": 9, "joint_limit": 0, "timeout": 1, "timeout_mean_position_m": 0.5691963654015911, "timeout_mean_orientation_deg": 28.520426488547873, "successful_mean_steps": null, "mean_reward": -14.467188826918525}, "five_full_diagnostic": {"episodes": 10, "success": 0, "collision": 6, "joint_limit": 0, "timeout": 4, "timeout_mean_position_m": 1.0539207675685398, "timeout_mean_orientation_deg": 179.5025959818651, "successful_mean_steps": null, "mean_reward": 1.364223133391254}, "stage_target": {"episodes": 20, "success": 0, "collision": 20, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 35.68803909028681}}}, "gate": {"passed": false, "checks": {"valid_exclusive_counts": true, "enough_target_episodes": true, "success": false, "collision": false, "no_joint_limits": true, "alignment_samples": true, "alignment_retained": false}, "rates": {"success": 0.0, "collision": 1.0, "joint_limit": 0.0, "timeout": 0.0}, "alignment": {"alignment_far": 0.0, "alignment_near": 0.0}}}
+{"kind": "post_update", "additional_steps": 5000, "total_steps": 10000, "metrics": {"reference_servo": {"alignment_far": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 45.1, "mean_reward": 324.43810900994777}, "alignment_near": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.6, "mean_reward": 161.16442320308494}, "five_full_diagnostic": {"episodes": 10, "success": 2, "collision": 8, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.0, "mean_reward": 60.286760251149325}, "stage_target": {"episodes": 20, "success": 0, "collision": 20, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 27.745917459966137}}, "source_ppo": {"alignment_far": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 45.1, "mean_reward": 324.3975227355922}, "alignment_near": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.6, "mean_reward": 161.16164883458163}, "five_full_diagnostic": {"episodes": 10, "success": 2, "collision": 8, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.0, "mean_reward": 58.71577394682604}, "stage_target": {"episodes": 20, "success": 0, "collision": 20, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 27.736989994514467}}, "dynamic_ppo": {"alignment_far": {"episodes": 10, "success": 0, "collision": 10, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 112.34955727413448}, "alignment_near": {"episodes": 10, "success": 0, "collision": 9, "joint_limit": 0, "timeout": 1, "timeout_mean_position_m": 0.6098050062676033, "timeout_mean_orientation_deg": 43.29059314466043, "successful_mean_steps": null, "mean_reward": -14.652354156530098}, "five_full_diagnostic": {"episodes": 10, "success": 0, "collision": 8, "joint_limit": 0, "timeout": 2, "timeout_mean_position_m": 1.0908487209990012, "timeout_mean_orientation_deg": 179.05909083790124, "successful_mean_steps": null, "mean_reward": -0.26208065494214094}, "stage_target": {"episodes": 20, "success": 0, "collision": 20, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 88.29509028521016}}}, "gate": {"passed": false, "checks": {"valid_exclusive_counts": true, "enough_target_episodes": true, "success": false, "collision": false, "no_joint_limits": true, "alignment_samples": true, "alignment_retained": false}, "rates": {"success": 0.0, "collision": 1.0, "joint_limit": 0.0, "timeout": 0.0}, "alignment": {"alignment_far": 0.0, "alignment_near": 0.0}}}
+{"kind": "final_saved_reload", "additional_steps": 10000, "total_steps": 15000, "metrics": {"reference_servo": {"alignment_far": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 45.1, "mean_reward": 324.43810900994777}, "alignment_near": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.6, "mean_reward": 161.16442320308494}, "five_full_diagnostic": {"episodes": 10, "success": 2, "collision": 8, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.0, "mean_reward": 60.286760251149325}, "stage_target": {"episodes": 20, "success": 0, "collision": 20, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 27.745917459966137}}, "source_ppo": {"alignment_far": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 45.1, "mean_reward": 324.3975227355922}, "alignment_near": {"episodes": 10, "success": 10, "collision": 0, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 8.6, "mean_reward": 161.16164883458163}, "five_full_diagnostic": {"episodes": 10, "success": 2, "collision": 8, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": 49.0, "mean_reward": 58.71577394682604}, "stage_target": {"episodes": 20, "success": 0, "collision": 20, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 27.736989994514467}}, "dynamic_ppo": {"alignment_far": {"episodes": 10, "success": 0, "collision": 10, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 111.22889351875381}, "alignment_near": {"episodes": 10, "success": 0, "collision": 9, "joint_limit": 0, "timeout": 1, "timeout_mean_position_m": 0.6226476441311641, "timeout_mean_orientation_deg": 46.212742610746666, "successful_mean_steps": null, "mean_reward": -15.008737458509705}, "five_full_diagnostic": {"episodes": 10, "success": 0, "collision": 7, "joint_limit": 0, "timeout": 3, "timeout_mean_position_m": 1.0616192251533967, "timeout_mean_orientation_deg": 178.22884240581766, "successful_mean_steps": null, "mean_reward": 1.0476973137309407}, "stage_target": {"episodes": 20, "success": 0, "collision": 20, "joint_limit": 0, "timeout": 0, "timeout_mean_position_m": null, "timeout_mean_orientation_deg": null, "successful_mean_steps": null, "mean_reward": 112.6538631325886}}}, "gate": {"passed": false, "checks": {"valid_exclusive_counts": true, "enough_target_episodes": true, "success": false, "collision": false, "no_joint_limits": true, "alignment_samples": true, "alignment_retained": false}, "rates": {"success": 0.0, "collision": 1.0, "joint_limit": 0.0, "timeout": 0.0}, "alignment": {"alignment_far": 0.0, "alignment_near": 0.0}}}
+{
+  "passed": false,
+  "enough_distinct_checks": true,
+  "checks": [
+    {
+      "passed": false,
+      "checks": {
+        "valid_exclusive_counts": true,
+        "enough_target_episodes": true,
+        "success": false,
+        "collision": false,
+        "no_joint_limits": true,
+        "alignment_samples": true,
+        "alignment_retained": false
+      },
+      "rates": {
+        "success": 0.0,
+        "collision": 1.0,
+        "joint_limit": 0.0,
+        "timeout": 0.0
+      },
+      "alignment": {
+        "alignment_far": 0.0,
+        "alignment_near": 0.0
+      }
+    },
+    {
+      "passed": false,
+      "checks": {
+        "valid_exclusive_counts": true,
+        "enough_target_episodes": true,
+        "success": false,
+        "collision": false,
+        "no_joint_limits": true,
+        "alignment_samples": true,
+        "alignment_retained": false
+      },
+      "rates": {
+        "success": 0.0,
+        "collision": 1.0,
+        "joint_limit": 0.0,
+        "timeout": 0.0
+      },
+      "alignment": {
+        "alignment_far": 0.0,
+        "alignment_near": 0.0
+      }
+    }
+  ],
+  "additional_steps": [
+    5000,
+    10000
+  ],
+  "thresholds": {
+    "minimum_episodes": 20,
+    "minimum_alignment_episodes": 10,
+    "minimum_success_rate": 0.8,
+    "maximum_collision_rate": 0.1,
+    "minimum_alignment_success_rate": 0.9,
+    "consecutive_checks": 2
+  },
+  "automatic_stage_advance": false,
+  "selected_model_gate": {
+    "passed": false,
+    "checks": {
+      "valid_exclusive_counts": true,
+      "enough_target_episodes": true,
+      "success": false,
+      "collision": false,
+      "no_joint_limits": true,
+      "alignment_samples": true,
+      "alignment_retained": false
+    },
+    "rates": {
+      "success": 0.0,
+      "collision": 1.0,
+      "joint_limit": 0.0,
+      "timeout": 0.0
+    },
+    "alignment": {
+      "alignment_far": 0.0,
+      "alignment_near": 0.0
+    }
+  },
+  "stage": "one_static",
+  "selected_model_sha256": "5f4c37619446ba9047c26a4047d89deb2f92976436e1e95ad90dd839531fd629"
+}

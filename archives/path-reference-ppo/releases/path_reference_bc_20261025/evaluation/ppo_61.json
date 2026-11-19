@@ -1,0 +1,413 @@
+{
+  "seed": 61,
+  "executed_new_ppo_steps": 10000,
+  "selected_new_ppo_steps": 0,
+  "metrics": {
+    "full": {
+      "episodes": 90,
+      "successes": 89,
+      "collisions": 0,
+      "joint_limits": 0,
+      "timeouts": 0,
+      "planning_failures": 1,
+      "mean_steps": 59.355555555555554,
+      "mean_path_deviation_rad": 0.0009777392448896496
+    },
+    "by_suite": {
+      "alignment_far": {
+        "episodes": 10,
+        "successes": 10,
+        "collisions": 0,
+        "joint_limits": 0,
+        "timeouts": 0,
+        "planning_failures": 0,
+        "mean_steps": 49.4,
+        "mean_path_deviation_rad": 0.0012624840066792764
+      },
+      "alignment_near": {
+        "episodes": 10,
+        "successes": 10,
+        "collisions": 0,
+        "joint_limits": 0,
+        "timeouts": 0,
+        "planning_failures": 0,
+        "mean_steps": 8.5,
+        "mean_path_deviation_rad": 0.0005558974664941572
+      },
+      "diagnostic_regression_121": {
+        "episodes": 30,
+        "successes": 29,
+        "collisions": 0,
+        "joint_limits": 0,
+        "timeouts": 0,
+        "planning_failures": 1,
+        "mean_steps": 59.4,
+        "mean_path_deviation_rad": 0.0009702753786643067
+      },
+      "diagnostic_regression_131": {
+        "episodes": 30,
+        "successes": 30,
+        "collisions": 0,
+        "joint_limits": 0,
+        "timeouts": 0,
+        "planning_failures": 0,
+        "mean_steps": 60.266666666666666,
+        "mean_path_deviation_rad": 0.0009495276959332749
+      },
+      "original_validation": {
+        "episodes": 30,
+        "successes": 30,
+        "collisions": 0,
+        "joint_limits": 0,
+        "timeouts": 0,
+        "planning_failures": 0,
+        "mean_steps": 58.4,
+        "mean_path_deviation_rad": 0.0010134146600713667
+      }
+    }
+  },
+  "records": [
+    {
+      "new_ppo_steps": 2000,
+      "metrics": {
+        "full": {
+          "episodes": 90,
+          "successes": 89,
+          "collisions": 0,
+          "joint_limits": 0,
+          "timeouts": 0,
+          "planning_failures": 1,
+          "mean_steps": 59.355555555555554,
+          "mean_path_deviation_rad": 0.0009689363829186476
+        },
+        "by_suite": {
+          "alignment_far": {
+            "episodes": 10,
+            "successes": 10,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 49.4,
+            "mean_path_deviation_rad": 0.0011947248689289339
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "successes": 10,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 8.5,
+            "mean_path_deviation_rad": 0.0005653706464430203
+          },
+          "diagnostic_regression_121": {
+            "episodes": 30,
+            "successes": 29,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 1,
+            "mean_steps": 59.4,
+            "mean_path_deviation_rad": 0.0009636938972481508
+          },
+          "diagnostic_regression_131": {
+            "episodes": 30,
+            "successes": 30,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 60.266666666666666,
+            "mean_path_deviation_rad": 0.0009428397891297472
+          },
+          "original_validation": {
+            "episodes": 30,
+            "successes": 30,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 58.4,
+            "mean_path_deviation_rad": 0.0010002754623780444
+          }
+        }
+      },
+      "lost_bc_successes": []
+    },
+    {
+      "new_ppo_steps": 4000,
+      "metrics": {
+        "full": {
+          "episodes": 90,
+          "successes": 89,
+          "collisions": 0,
+          "joint_limits": 0,
+          "timeouts": 0,
+          "planning_failures": 1,
+          "mean_steps": 59.355555555555554,
+          "mean_path_deviation_rad": 0.0009792110637718275
+        },
+        "by_suite": {
+          "alignment_far": {
+            "episodes": 10,
+            "successes": 10,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 49.3,
+            "mean_path_deviation_rad": 0.0012424295257999851
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "successes": 10,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 8.5,
+            "mean_path_deviation_rad": 0.0005817760233314825
+          },
+          "diagnostic_regression_121": {
+            "episodes": 30,
+            "successes": 29,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 1,
+            "mean_steps": 59.4,
+            "mean_path_deviation_rad": 0.0009678800933768412
+          },
+          "diagnostic_regression_131": {
+            "episodes": 30,
+            "successes": 30,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 60.266666666666666,
+            "mean_path_deviation_rad": 0.0009662340243268414
+          },
+          "original_validation": {
+            "episodes": 30,
+            "successes": 30,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 58.4,
+            "mean_path_deviation_rad": 0.0010035190736118
+          }
+        }
+      },
+      "lost_bc_successes": []
+    },
+    {
+      "new_ppo_steps": 6000,
+      "metrics": {
+        "full": {
+          "episodes": 90,
+          "successes": 89,
+          "collisions": 0,
+          "joint_limits": 0,
+          "timeouts": 0,
+          "planning_failures": 1,
+          "mean_steps": 59.355555555555554,
+          "mean_path_deviation_rad": 0.0009714233786255089
+        },
+        "by_suite": {
+          "alignment_far": {
+            "episodes": 10,
+            "successes": 10,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 49.3,
+            "mean_path_deviation_rad": 0.0012192188428124982
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "successes": 10,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 8.5,
+            "mean_path_deviation_rad": 0.0005757946045039836
+          },
+          "diagnostic_regression_121": {
+            "episodes": 30,
+            "successes": 29,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 1,
+            "mean_steps": 59.4,
+            "mean_path_deviation_rad": 0.000977641272644625
+          },
+          "diagnostic_regression_131": {
+            "episodes": 30,
+            "successes": 30,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 60.266666666666666,
+            "mean_path_deviation_rad": 0.0009456191569863705
+          },
+          "original_validation": {
+            "episodes": 30,
+            "successes": 30,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 58.4,
+            "mean_path_deviation_rad": 0.0009910097062455312
+          }
+        }
+      },
+      "lost_bc_successes": []
+    },
+    {
+      "new_ppo_steps": 8000,
+      "metrics": {
+        "full": {
+          "episodes": 90,
+          "successes": 89,
+          "collisions": 0,
+          "joint_limits": 0,
+          "timeouts": 0,
+          "planning_failures": 1,
+          "mean_steps": 59.355555555555554,
+          "mean_path_deviation_rad": 0.0009773315500813111
+        },
+        "by_suite": {
+          "alignment_far": {
+            "episodes": 10,
+            "successes": 10,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 49.3,
+            "mean_path_deviation_rad": 0.0012132970912467872
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "successes": 10,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 8.5,
+            "mean_path_deviation_rad": 0.0005835295157185507
+          },
+          "diagnostic_regression_121": {
+            "episodes": 30,
+            "successes": 29,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 1,
+            "mean_steps": 59.4,
+            "mean_path_deviation_rad": 0.0009607438020623184
+          },
+          "diagnostic_regression_131": {
+            "episodes": 30,
+            "successes": 30,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 60.266666666666666,
+            "mean_path_deviation_rad": 0.0009675147848563256
+          },
+          "original_validation": {
+            "episodes": 30,
+            "successes": 30,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 58.4,
+            "mean_path_deviation_rad": 0.0010037360633252898
+          }
+        }
+      },
+      "lost_bc_successes": []
+    },
+    {
+      "new_ppo_steps": 10000,
+      "metrics": {
+        "full": {
+          "episodes": 90,
+          "successes": 89,
+          "collisions": 0,
+          "joint_limits": 0,
+          "timeouts": 0,
+          "planning_failures": 1,
+          "mean_steps": 59.355555555555554,
+          "mean_path_deviation_rad": 0.0009718825962157785
+        },
+        "by_suite": {
+          "alignment_far": {
+            "episodes": 10,
+            "successes": 10,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 49.3,
+            "mean_path_deviation_rad": 0.001230921002949507
+          },
+          "alignment_near": {
+            "episodes": 10,
+            "successes": 10,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 8.5,
+            "mean_path_deviation_rad": 0.0005811931276268797
+          },
+          "diagnostic_regression_121": {
+            "episodes": 30,
+            "successes": 29,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 1,
+            "mean_steps": 59.4,
+            "mean_path_deviation_rad": 0.0009722504177512423
+          },
+          "diagnostic_regression_131": {
+            "episodes": 30,
+            "successes": 30,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 60.266666666666666,
+            "mean_path_deviation_rad": 0.0009523356209299333
+          },
+          "original_validation": {
+            "episodes": 30,
+            "successes": 30,
+            "collisions": 0,
+            "joint_limits": 0,
+            "timeouts": 0,
+            "planning_failures": 0,
+            "mean_steps": 58.4,
+            "mean_path_deviation_rad": 0.0009910617499661602
+          }
+        }
+      },
+      "lost_bc_successes": []
+    }
+  ],
+  "model": "tracker_bc.zip (selected BC weights; 0 new PPO steps)",
+  "reload_verified": true
+}

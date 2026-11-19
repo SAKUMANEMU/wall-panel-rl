@@ -1,0 +1,27 @@
+pybullet build time: Jan 29 2025 23:17:20
+{
+  "method": "RRT + PPO waypoint tracking",
+  "seed": 81009,
+  "reason": "success",
+  "steps": 56,
+  "simulated_seconds": 2.800000000000034,
+  "playback_speed": 0.6,
+  "video_seconds": 11.666666666666666,
+  "width": 1280,
+  "height": 800,
+  "fps": 30,
+  "initial_position_error_m": 1.8454985129779036,
+  "position_error_m": 0.0033308859773720696,
+  "orientation_error_deg": 0.09352792962771048,
+  "planning_seconds": 1.6289868129999832,
+  "obstacle_count": 5,
+  "obstacles_dynamic": false,
+  "noise": {
+    "orientation_std_deg": 0.0,
+    "position_std": 0.0
+  },
+  "model": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/models/waypoint_ppo_pilot_seed61/best_model.zip",
+  "model_sha256": "6d44a37e5e778944b1e10622ed7ad2016678878f1f6f00a6922a456f01354e73",
+  "scene": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/releases/path_reference_bc_20261025/scenes/original_validation_81009.json",
+  "final_orbit_simulation_paused": true
+}

@@ -1,0 +1,9 @@
+{
+  "experiment": "four_progress_recovery_v14_seed121",
+  "used_at": "2026-11-05T22:20:46.976766+08:00",
+  "test_cases_sha256": "46f09af59e6113002a07b0cc802024c47b03adea1c08613cb632bd56b292ba59",
+  "paired_comparison": "frozen v13 predictive safety versus progress recovery",
+  "parameters_locked_before_test": true,
+  "no_tuning_after_test": true,
+  "must_not_be_reused_as_fresh_test": true
+}

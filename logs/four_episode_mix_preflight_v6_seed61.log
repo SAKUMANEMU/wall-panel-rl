@@ -1,0 +1,5 @@
+pybullet build time: Jan 29 2025 23:17:20
+{'mode': 'evaluate', 'train_layouts': 192, 'validation_layouts': 64, 'expert_probability': 0.5, 'ppo_steps': 10000, 'extra_rrt_steps': 'counted separately'}
+MIX_EVALUATION {"cases": 8, "mode": "mixture", "formal_training": false}
+MIX_RESULT mixture {"metrics": {"stage_target": {"episodes": 8, "success": 6, "collision": 2, "timeout": 0, "joint_limit": 0, "planning_failure": 0}}, "by_controller": {"rrt": {"episodes": 2, "success": 2, "collision": 0, "timeout": 0, "joint_limit": 0, "planning_failure": 0}, "ppo": {"episodes": 6, "success": 4, "collision": 2, "timeout": 0, "joint_limit": 0, "planning_failure": 0}}}
+{'mixture': {'metrics': {'stage_target': {'episodes': 8, 'success': 6, 'collision': 2, 'timeout': 0, 'joint_limit': 0, 'planning_failure': 0}}, 'by_controller': {'rrt': {'episodes': 2, 'success': 2, 'collision': 0, 'timeout': 0, 'joint_limit': 0, 'planning_failure': 0}, 'ppo': {'episodes': 6, 'success': 4, 'collision': 2, 'timeout': 0, 'joint_limit': 0, 'planning_failure': 0}}}}

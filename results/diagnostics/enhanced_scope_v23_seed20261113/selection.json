@@ -1,0 +1,18 @@
+{
+  "policy": "v21",
+  "recovery_variant": "diverse",
+  "development_metrics": {
+    "episodes": 32,
+    "success": 32,
+    "collision": 0,
+    "timeout": 0,
+    "joint_limit": 0,
+    "planning_failure": 0,
+    "success_rate": 1.0,
+    "mean_waiting_fraction": 0.060226977404541845,
+    "mean_stationary_fraction": 0.060226977404541845,
+    "timeout_mean_position_m": null,
+    "timeout_mean_orientation_deg": null
+  },
+  "selection_frozen": false
+}

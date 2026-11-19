@@ -1,0 +1,74 @@
+[
+  {
+    "layout_seed": 1231416,
+    "geometry_valid": true,
+    "timed_intersection_count": 4,
+    "height_span_m": 0.6324865206067926
+  },
+  {
+    "layout_seed": 1231417,
+    "geometry_valid": true,
+    "timed_intersection_count": 3,
+    "height_span_m": 0.4392152721956846
+  },
+  {
+    "layout_seed": 1231418,
+    "geometry_valid": true,
+    "timed_intersection_count": 2,
+    "height_span_m": 0.539871873600585
+  },
+  {
+    "layout_seed": 1231419,
+    "geometry_valid": true,
+    "timed_intersection_count": 0,
+    "height_span_m": 0.5609936694553418
+  },
+  {
+    "layout_seed": 1231420,
+    "geometry_valid": true,
+    "timed_intersection_count": 3,
+    "height_span_m": 0.5025913437520297
+  },
+  {
+    "layout_seed": 1231421,
+    "geometry_valid": true,
+    "timed_intersection_count": 3,
+    "height_span_m": 0.6812156656444179
+  },
+  {
+    "layout_seed": 1231422,
+    "geometry_valid": true,
+    "timed_intersection_count": 2,
+    "height_span_m": 0.7196100462348102
+  },
+  {
+    "layout_seed": 1231423,
+    "geometry_valid": true,
+    "timed_intersection_count": 3,
+    "height_span_m": 0.48482685060600494
+  },
+  {
+    "layout_seed": 1231424,
+    "geometry_valid": true,
+    "timed_intersection_count": 1,
+    "height_span_m": 0.7520458700015231
+  },
+  {
+    "layout_seed": 1231425,
+    "geometry_valid": true,
+    "timed_intersection_count": 3,
+    "height_span_m": 0.47176644401640583
+  },
+  {
+    "layout_seed": 1231426,
+    "geometry_valid": true,
+    "timed_intersection_count": 3,
+    "height_span_m": 0.46839179907315365
+  },
+  {
+    "layout_seed": 1231427,
+    "geometry_valid": true,
+    "timed_intersection_count": 4,
+    "height_span_m": 0.7062980206908603
+  }
+]

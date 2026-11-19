@@ -1,0 +1,19 @@
+{
+  "seed": 1302077125,
+  "reason": "success",
+  "steps": 70,
+  "obstacle_count": 4,
+  "obstacle_motion": "static",
+  "scene_source": "fresh_random_scene",
+  "all_obstacles_on_nominal_path": true,
+  "position_m": 0.0017214595092381198,
+  "orientation_deg": 0.9258813068744711,
+  "reward": 302.2170631880124,
+  "online_avoidance_planner": false,
+  "model": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/results/diagnostics/four_expanded_ppo_v5_seed61/selected_model.zip",
+  "controller": "ppo",
+  "planning_seconds": 0.0,
+  "execution_wrapper": "ConditionalRecoveryEnv",
+  "conditional_recovery_attempts": 0,
+  "conditional_recoveries": 0
+}

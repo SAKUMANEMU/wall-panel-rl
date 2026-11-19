@@ -1,0 +1,27 @@
+{
+  "performed": true,
+  "source": {
+    "episodes": 100,
+    "success": 57,
+    "collision": 41,
+    "timeout": 2,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "safety": {
+    "episodes": 100,
+    "success": 78,
+    "collision": 0,
+    "timeout": 22,
+    "joint_limit": 0,
+    "planning_failure": 0
+  },
+  "paired": {
+    "success -> success": 57,
+    "collision -> success": 21,
+    "collision -> timeout": 20,
+    "timeout -> timeout": 2
+  },
+  "no_tuning_after_test": true,
+  "original_successes_preserved": true
+}

@@ -1,0 +1,32 @@
+{
+  "archived_code_and_frozen_inputs_verified": true,
+  "model_unchanged": true,
+  "optimizer_updates": 0,
+  "static_episodes": 0,
+  "unchanged_real_step_limit": 240,
+  "old_validation_successes_unchanged": true,
+  "validation_paired": {
+    "success -> success": 56,
+    "timeout -> success": 6,
+    "timeout -> timeout": 2
+  },
+  "new_test_disjoint_from_all_previous_ids": true,
+  "old_test_successes_unchanged": true,
+  "no_tuning_after_test": true,
+  "validation_compute": {
+    "baseline_mean_wall_s": 8.030297277249986,
+    "recovery_mean_wall_s": 11.369239445953156,
+    "baseline_zero_waits": 1505,
+    "recovery_zero_waits": 950,
+    "local_recovery_actions": 289,
+    "forecast_cache_hits": 3
+  },
+  "independent_compute": {
+    "baseline_mean_wall_s": 9.454646045620011,
+    "recovery_mean_wall_s": 14.152297443040078,
+    "baseline_zero_waits": 2876,
+    "recovery_zero_waits": 1599,
+    "local_recovery_actions": 559,
+    "forecast_cache_hits": 7
+  }
+}

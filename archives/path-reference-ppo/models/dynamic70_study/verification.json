@@ -1,0 +1,64 @@
+{
+  "tests": ".......................                                                  [100%]\n23 passed in 45.05s",
+  "worker_smoke": "pybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\nalignment passed\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\nstatic passed\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\npybullet build time: Jan 29 2025 23:17:20\ndynamic passed",
+  "demo": {
+    "clean": {
+      "mode": "headless rgb_array",
+      "seed": 50000,
+      "model": "models/dynamic70_study/ppo_clean/best_model.zip",
+      "snapshot": "results/figures/dynamic70_ppo_clean.png",
+      "result": {
+        "seed": 50000,
+        "success": false,
+        "collision": true,
+        "joint_limit_violation": false,
+        "planning_success": null,
+        "ik_success": null,
+        "position_error_m": 1.7535469817160099,
+        "orientation_error_deg": 143.5574612359938,
+        "steps": 5,
+        "joint_path_length_rad": 0.7110313278868051,
+        "cartesian_path_length_m": 0.4002474607551952,
+        "planning_time_s": 0.0,
+        "execution_time_s": 0.0164528070004053,
+        "simulated_time_s": 0.25,
+        "cumulative_reward": -40.813219145478726,
+        "replans": 0,
+        "replan_failures": 0,
+        "hold_steps": 0,
+        "scheduled_waits": 0,
+        "dynamic_planning_mode": "timed",
+        "physics_elapsed_s": 0.23750000000000032
+      }
+    },
+    "noise": {
+      "mode": "headless rgb_array",
+      "seed": 50000,
+      "model": "models/dynamic70_study/ppo_noise/best_model.zip",
+      "snapshot": "results/figures/dynamic70_ppo_noise.png",
+      "result": {
+        "seed": 50000,
+        "success": false,
+        "collision": true,
+        "joint_limit_violation": false,
+        "planning_success": null,
+        "ik_success": null,
+        "position_error_m": 1.7588238041191557,
+        "orientation_error_deg": 145.47876597315002,
+        "steps": 2,
+        "joint_path_length_rad": 0.3938515809795937,
+        "cartesian_path_length_m": 0.28638191070477936,
+        "planning_time_s": 0.0,
+        "execution_time_s": 0.006056943000203319,
+        "simulated_time_s": 0.1,
+        "cumulative_reward": -41.52361042194465,
+        "replans": 0,
+        "replan_failures": 0,
+        "hold_steps": 0,
+        "scheduled_waits": 0,
+        "dynamic_planning_mode": "timed",
+        "physics_elapsed_s": 0.0875
+      }
+    }
+  }
+}

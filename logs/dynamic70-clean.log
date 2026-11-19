@@ -1,0 +1,128 @@
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+ppo_clean alignment 10000 fps 631.0
+ppo_clean alignment 20000 fps 620.8
+ppo_clean alignment 30000 fps 605.1
+ppo_clean alignment 40000 fps 580.5
+/home/johnsonchen/wall-panel-rl/.conda-env/lib/python3.11/site-packages/stable_baselines3/common/save_util.py:284: UserWarning: Path 'models/dynamic70_study/ppo_clean/checkpoints' does not exist. Will create it.
+  warnings.warn(f"Path '{path.parent}' does not exist. Will create it.")
+ppo_clean alignment 50000 fps 568.5
+ppo_clean alignment 60000 fps 551.3
+ppo_clean alignment 70000 fps 543.2
+ppo_clean alignment 80000 fps 548.8
+ppo_clean alignment 90000 fps 550.4
+ppo_clean alignment 100000 fps 547.5
+ppo_clean alignment 110000 fps 544.5
+ppo_clean alignment 120000 fps 541.9
+ppo_clean alignment 130000 fps 540.2
+ppo_clean alignment 140000 fps 545.3
+ppo_clean alignment 150000 fps 546.0
+ppo_clean alignment 160000 fps 540.5
+ppo_clean alignment 170000 fps 535.2
+ppo_clean alignment 180000 fps 531.3
+ppo_clean alignment 190000 fps 528.8
+ppo_clean alignment 200000 fps 529.1
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+ppo_clean static 210000 fps 443.2
+ppo_clean static 220000 fps 422.8
+ppo_clean static 230000 fps 419.0
+ppo_clean static 240000 fps 428.8
+ppo_clean static 250000 fps 433.1
+ppo_clean static 260000 fps 428.3
+ppo_clean static 270000 fps 426.7
+ppo_clean static 280000 fps 423.3
+ppo_clean static 290000 fps 426.1
+ppo_clean static 300000 fps 431.7
+ppo_clean static 310000 fps 431.2
+ppo_clean static 320000 fps 431.3
+ppo_clean static 330000 fps 432.1
+ppo_clean static 340000 fps 434.1
+ppo_clean static 350000 fps 437.2
+ppo_clean static 360000 fps 437.3
+ppo_clean static 370000 fps 437.2
+ppo_clean static 380000 fps 437.7
+ppo_clean static 390000 fps 440.6
+ppo_clean static 400000 fps 440.7
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+ppo_clean dynamic 410000 fps 402.0
+ppo_clean dynamic 420000 fps 393.8
+ppo_clean dynamic 430000 fps 406.2
+ppo_clean dynamic 440000 fps 408.1
+validation {'steps': 450000, 'success_rate': 0.0, 'mean_reward': 30.683825575956952}
+ppo_clean dynamic 450000 fps 397.9
+ppo_clean dynamic 460000 fps 397.9
+ppo_clean dynamic 470000 fps 397.4
+ppo_clean dynamic 480000 fps 401.7
+ppo_clean dynamic 490000 fps 401.2
+validation {'steps': 500000, 'success_rate': 0.0, 'mean_reward': 46.28399854556599}
+ppo_clean dynamic 500000 fps 392.7
+ppo_clean dynamic 510000 fps 392.3
+ppo_clean dynamic 520000 fps 397.7
+ppo_clean dynamic 530000 fps 397.4
+ppo_clean dynamic 540000 fps 395.8
+validation {'steps': 550000, 'success_rate': 0.0, 'mean_reward': 45.743168058204034}
+ppo_clean dynamic 550000 fps 392.4
+ppo_clean dynamic 560000 fps 394.0
+ppo_clean dynamic 570000 fps 393.0
+ppo_clean dynamic 580000 fps 392.2
+ppo_clean dynamic 590000 fps 393.0
+validation {'steps': 600000, 'success_rate': 0.0, 'mean_reward': 40.00536981558965}
+ppo_clean dynamic 600000 fps 392.4
+ppo_clean dynamic 610000 fps 392.0
+ppo_clean dynamic 620000 fps 391.3
+ppo_clean dynamic 630000 fps 392.0
+ppo_clean dynamic 640000 fps 393.1
+validation {'steps': 650000, 'success_rate': 0.0, 'mean_reward': 139.8248436063131}
+ppo_clean dynamic 650000 fps 389.1
+ppo_clean dynamic 660000 fps 389.1
+ppo_clean dynamic 670000 fps 389.0
+ppo_clean dynamic 680000 fps 390.6
+ppo_clean dynamic 690000 fps 391.1
+validation {'steps': 700000, 'success_rate': 0.0, 'mean_reward': 150.4196109860053}
+ppo_clean dynamic 700000 fps 388.1
+ppo_clean dynamic 710000 fps 389.2
+ppo_clean dynamic 720000 fps 389.9
+ppo_clean dynamic 730000 fps 391.1
+ppo_clean dynamic 740000 fps 393.9
+validation {'steps': 750000, 'success_rate': 0.0, 'mean_reward': 153.07370788576532}
+ppo_clean dynamic 750000 fps 392.1
+ppo_clean dynamic 760000 fps 393.3
+ppo_clean dynamic 770000 fps 394.0
+ppo_clean dynamic 780000 fps 394.7
+ppo_clean dynamic 790000 fps 395.3
+validation {'steps': 800000, 'success_rate': 0.0, 'mean_reward': 167.04974057561208}
+ppo_clean dynamic 800000 fps 393.6
+ppo_clean dynamic 810000 fps 395.9
+ppo_clean dynamic 820000 fps 397.3
+ppo_clean dynamic 830000 fps 398.5
+ppo_clean dynamic 840000 fps 399.2
+validation {'steps': 850000, 'success_rate': 0.0, 'mean_reward': 170.88130477534858}
+ppo_clean dynamic 850000 fps 397.9
+ppo_clean dynamic 860000 fps 398.9
+ppo_clean dynamic 870000 fps 400.4
+ppo_clean dynamic 880000 fps 401.3
+ppo_clean dynamic 890000 fps 402.1
+validation {'steps': 900000, 'success_rate': 0.0, 'mean_reward': 162.4837851818952}
+ppo_clean dynamic 900000 fps 401.2
+ppo_clean dynamic 910000 fps 402.5
+ppo_clean dynamic 920000 fps 404.2
+ppo_clean dynamic 930000 fps 404.8
+ppo_clean dynamic 940000 fps 405.3
+validation {'steps': 950000, 'success_rate': 0.0, 'mean_reward': 160.68049455418202}
+ppo_clean dynamic 950000 fps 404.5
+ppo_clean dynamic 960000 fps 405.1
+ppo_clean dynamic 970000 fps 405.5
+ppo_clean dynamic 980000 fps 406.5
+ppo_clean dynamic 990000 fps 407.5
+validation {'steps': 1000000, 'success_rate': 0.0, 'mean_reward': 70.85475630501071}
+ppo_clean dynamic 1000000 fps 407.5
+FINISHED models/dynamic70_study/ppo_clean 1000000

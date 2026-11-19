@@ -1,0 +1,16 @@
+{
+  "source_file_unchanged": true,
+  "executed_code_unchanged": true,
+  "data_banks_unchanged": true,
+  "teacher_unchanged": true,
+  "teacher_heldout_not_in_gradients": true,
+  "teacher_replay_passed": true,
+  "bc_preserved_prior_critic_std": true,
+  "final_preserved_frozen_prior": true,
+  "candidate_sha_matches": true,
+  "default_model_preserved": true,
+  "fresh_test_used_for_selection": false,
+  "fresh_test_disjoint_from_teacher_and_validation": true,
+  "entire_original_one_actor_preserved": true,
+  "raw_final_ppo_one_actor_preserved": true
+}

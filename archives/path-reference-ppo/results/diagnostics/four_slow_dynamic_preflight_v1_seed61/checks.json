@@ -1,0 +1,17 @@
+{
+  "targeted_tests": 24,
+  "full_suite_tests": 194,
+  "full_suite_seconds": 121.97,
+  "random_dynamic_cli": {
+    "seed": 932492594,
+    "controller": "rrt",
+    "reason": "success",
+    "steps": 77
+  },
+  "legacy_static_cli": {
+    "seed": 1032000,
+    "controller": "ppo",
+    "reason": "success",
+    "steps": 74
+  }
+}

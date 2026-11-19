@@ -1,0 +1,23 @@
+{
+  "source_unchanged": true,
+  "optimizer_and_critic_initialization_preserved": {
+    "optimizer_state_preserved": true,
+    "optimizer_sha256": "1f58593a74be2faab4c071083a30364131717f4cd254293da5ea4a31a843cc2d",
+    "value_network_preserved": true,
+    "source_counter": 60000
+  },
+  "archived_code_hashes_match": true,
+  "frozen_input_hashes_match": true,
+  "train_evaluation_disjoint": true,
+  "accepted_experts_all_time_checked_and_physically_replayed": true,
+  "verified_expert_episodes": 65,
+  "saved_expert_pairs": 4832,
+  "selected_equals_source": false,
+  "default_model_preserved": true,
+  "ppo_completed_episode_steps": 4815,
+  "ppo_unfinished_episode_steps": 185,
+  "independent_test_performed": true,
+  "expert_cache_matches_all_mixture_checkpoints": true,
+  "learning_rate_verified": 3e-06,
+  "targeted_tests_passed": 28
+}

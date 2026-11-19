@@ -1,0 +1,9 @@
+{
+  "train_only": true,
+  "optimizer_updates": 0,
+  "corrective_action_components": 3549,
+  "saturated_fraction": 0.0,
+  "large_mismatch_components": 403,
+  "large_mismatch_with_zero_direct_clamp_gradient": 0,
+  "interpretation": "No clamp-saturated components were observed in these corrective training labels; the proposed direct-clipping-gradient explanation is not supported by this sample."
+}

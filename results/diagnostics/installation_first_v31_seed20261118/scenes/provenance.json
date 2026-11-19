@@ -1,0 +1,9 @@
+{
+  "train_and_validation_source": "/home/johnsonchen/wall-panel-rl/results/diagnostics/close_weaving_v30_seed20261118/scenes",
+  "layout_unchanged": true,
+  "fresh_test_geometry_source": "/home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118/fresh_test_generation",
+  "test_selection_uses_geometry_only": true,
+  "train_cases": 24,
+  "validation_cases": 8,
+  "fresh_test_cases": 8
+}

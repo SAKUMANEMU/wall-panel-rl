@@ -1,0 +1,18 @@
+{
+  "selected": "ppo_arm1_32768",
+  "model": "/home/johnsonchen/wall-panel-rl/results/diagnostics/standalone_ppo_v22_seed20261112/models/ppo_arm1_32768.zip",
+  "direct_policy_metrics": {
+    "episodes": 16,
+    "success": 10,
+    "collision": 4,
+    "timeout": 2,
+    "joint_limit": 0,
+    "planning_failure": 0,
+    "success_rate": 0.625,
+    "mean_waiting_fraction": 0.0,
+    "mean_stationary_fraction": 0.0,
+    "timeout_mean_position_m": 0.2522783239802103,
+    "timeout_mean_orientation_deg": 19.24873542558314
+  },
+  "selection_uses_enhanced_execution": false
+}

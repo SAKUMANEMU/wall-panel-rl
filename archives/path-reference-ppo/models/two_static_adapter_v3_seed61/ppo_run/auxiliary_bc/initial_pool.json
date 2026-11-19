@@ -1,0 +1,17 @@
+{
+  "transitions": 12264,
+  "heldout_excluded": [
+    800010,
+    800015,
+    800019,
+    800022,
+    800042,
+    800045,
+    800052,
+    800055,
+    800057,
+    800062
+  ],
+  "teacher_sha256": "911309660560a5a711966420e8675fb6f623285f999fdca8920c396b82aaf268",
+  "optimizer": "fresh auxiliary Adam"
+}

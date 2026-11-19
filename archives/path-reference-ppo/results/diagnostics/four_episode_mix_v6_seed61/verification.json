@@ -1,0 +1,10 @@
+{
+  "executed_archive_matches": true,
+  "source_file_unchanged": true,
+  "selected_weights_identical_to_source": true,
+  "train_heldout_isolation": true,
+  "rrt_verified_labels_only": true,
+  "ppo_transitions": 10000,
+  "rrt_transitions": 10131,
+  "independent_test": false
+}

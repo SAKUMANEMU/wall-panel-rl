@@ -1,0 +1,7 @@
+group,episodes,success,collision,timeout,joint_limit,planning_failure
+one_fresh_before,100,95,2,3,0,0
+three_validation_before,20,0,1,17,2,0
+three_validation_selected,20,0,1,17,2,0
+three_holdout_before,100,0,4,90,6,0
+three_holdout_after,100,0,4,90,6,0
+one_regression_after,100,95,2,3,0,0

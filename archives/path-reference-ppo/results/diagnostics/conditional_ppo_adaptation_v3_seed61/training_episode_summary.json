@@ -1,0 +1,23 @@
+{
+  "complete_episodes": 135,
+  "by_task": {
+    "static": 110,
+    "alignment": 25
+  },
+  "outcomes": {
+    "collision": 35,
+    "success": 89,
+    "timeout": 11
+  },
+  "steps_in_complete_episodes": 9736,
+  "all_transitions": 10000,
+  "sampling_events": {
+    "observed_transitions": 10000,
+    "recovery_attempt_events": 1,
+    "recovery_success_events": 0,
+    "stall_penalty_events": 0,
+    "stall_penalty_sum": 0.0,
+    "wall_penalty_sum": -130.2572280262361
+  },
+  "steps_in_partial_episodes": 264
+}

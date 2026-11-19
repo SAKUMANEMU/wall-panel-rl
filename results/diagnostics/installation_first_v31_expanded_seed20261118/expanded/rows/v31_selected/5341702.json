@@ -1,0 +1,156 @@
+{
+  "seed": 5341702,
+  "controller": "enhanced",
+  "reason": "timeout",
+  "steps": 240,
+  "position_m": 0.3827824189848207,
+  "orientation_deg": 43.55621639348281,
+  "reward": 136.62642086027122,
+  "zero_command_steps": 0,
+  "stationary_steps": 0,
+  "wall_seconds": 289.3017374289998,
+  "physics_elapsed_s": 11.99999999999964,
+  "weights_changed": false,
+  "uses_global_rrt": false,
+  "reference_preserved": true,
+  "local_rescues": 4,
+  "recovery_actions": 130,
+  "recovery_events": [
+    {
+      "step": 40,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.002415078002258,
+      "accepted": false
+    },
+    {
+      "step": 52,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.961939622691542,
+      "accepted": false
+    },
+    {
+      "step": 64,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 1.9957141608787623,
+      "accepted": false
+    },
+    {
+      "step": 76,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.1317507242599065,
+      "accepted": false
+    },
+    {
+      "step": 88,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 2.248609730635218,
+      "accepted": true,
+      "mode": "goal",
+      "parameter": 0.4,
+      "predicted_end_cost": 1.1272944978689434,
+      "predicted_gain": 1.1213152327662748,
+      "plan_steps": 60
+    },
+    {
+      "step": 158,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.6125606515228277,
+      "accepted": true,
+      "mode": "bias",
+      "parameter": [
+        5,
+        -0.4
+      ],
+      "predicted_end_cost": 0.5648132176199513,
+      "predicted_gain": 0.04774743390287639,
+      "plan_steps": 60
+    },
+    {
+      "step": 218,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.6094596141554828,
+      "accepted": true,
+      "mode": "persistent",
+      "parameter": [
+        [
+          1,
+          3
+        ],
+        [
+          -0.28,
+          -0.28
+        ]
+      ],
+      "predicted_end_cost": 0.2718474219183486,
+      "predicted_gain": 0.3376121922371342,
+      "plan_steps": 22
+    },
+    {
+      "step": 230,
+      "baseline_forecast": "timeout",
+      "baseline_short_cost": 0.4740063452781093,
+      "accepted": false,
+      "mode": "lookahead",
+      "parameter": [
+        12,
+        0.4
+      ],
+      "predicted_end_cost": 0.22889836959336693,
+      "predicted_gain": 0.24510797568474238,
+      "plan_steps": 10
+    }
+  ],
+  "no_safe_action_calls": 0,
+  "prediction_steps": 45649,
+  "vertical_plan_events": [],
+  "installation_events": [
+    {
+      "step": 40,
+      "mode": "reject_reference_escape",
+      "candidate_mode": "paired"
+    },
+    {
+      "step": 52,
+      "mode": "reject_reference_escape",
+      "candidate_mode": "paired"
+    },
+    {
+      "step": 64,
+      "mode": "reject_reference_escape",
+      "candidate_mode": "paired"
+    },
+    {
+      "step": 76,
+      "mode": "reject_reference_escape",
+      "candidate_mode": "bias"
+    }
+  ],
+  "passage_count": 0,
+  "success_with_weaving": false,
+  "arm": "v31_selected",
+  "obstacle_count": 4,
+  "model_key": "v31",
+  "controller_key": "installation",
+  "case_sha256": "e2ca4ad51cb42f4f08f1fd8ec90fcb68426a70228269952feeb073e70414c3f8",
+  "max_obstacle_speed_m_s": 0.1535474757844047,
+  "model_sha256": "b8650e7264b05923f73b704227afe19f0383ce66ff8c00016d63fa0fba359a10",
+  "runtime_sha256": "06a2736c2b4400383a5349899cb5f81a1e4f8f07102a0a30bc5d3883b0c8106b",
+  "timeout_diagnosis": {
+    "primary": "stale_reference",
+    "flags": {
+      "waiting": false,
+      "stale_reference": true,
+      "terminal_precision": false
+    },
+    "window_steps": 40,
+    "stationary_fraction": 0.0,
+    "zero_command_fraction": 0.0,
+    "reference_telemetry_available": true,
+    "reference_index_start": 1,
+    "reference_index_end": 1,
+    "final_reference_distance_rad": 3.5398609375451957,
+    "final_position_m": 0.3827824189848207,
+    "final_orientation_deg": 43.55621639348281,
+    "reference_state_inferred": false
+  }
+}

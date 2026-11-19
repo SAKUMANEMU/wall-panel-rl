@@ -1,0 +1,29 @@
+{
+  "expected_counts_over_all_possible_coin_draws": {
+    "success": 59.0,
+    "collision": 0.5,
+    "timeout": 0.5,
+    "planning_failure": 4.0,
+    "joint_limit": 0.0
+  },
+  "expected_success_rate": 0.921875,
+  "realized_frozen_coin_counts": {
+    "episodes": 64,
+    "success": 58,
+    "collision": 1,
+    "timeout": 1,
+    "joint_limit": 0,
+    "planning_failure": 4,
+    "success_rate": 0.90625,
+    "collision_rate": 0.015625,
+    "timeout_rate": 0.015625,
+    "mean_steps": 80.9375,
+    "mean_success_steps": 83.32758620689656,
+    "zero_command_steps": 474,
+    "stationary_steps": 638,
+    "mean_initial_planning_s": 6.49912465007813,
+    "mean_control_wall_s": 6.2885284816251215,
+    "mean_total_wall_s": 13.083961375015626
+  },
+  "note": "Expectation on this fixed64-case bank, not additional measured episodes."
+}

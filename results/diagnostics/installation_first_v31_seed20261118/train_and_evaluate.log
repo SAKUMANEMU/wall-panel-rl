@@ -1,0 +1,468 @@
+pybullet build time: Jan 29 2025 23:17:20
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:50:39.604008+08:00", "evaluation_completed": 0, "evaluation_planned": 8}
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:51:24.623227+08:00", "evaluation_completed": 1, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:51:30.511882+08:00", "evaluation_completed": 2, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:52:49.903702+08:00", "evaluation_completed": 3, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:53:04.180056+08:00", "evaluation_completed": 4, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:55:29.229211+08:00", "evaluation_completed": 5, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T18:57:01.454041+08:00", "evaluation_completed": 6, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T19:00:37.929407+08:00", "evaluation_completed": 7, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_v29_controller_on_closer", "updated_at": "2026-11-18T19:02:11.289496+08:00", "evaluation_completed": 8, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_source_enhanced", "updated_at": "2026-11-18T19:02:11.289659+08:00", "evaluation_completed": 0, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_source_enhanced", "updated_at": "2026-11-18T19:02:52.245302+08:00", "evaluation_completed": 1, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_source_enhanced", "updated_at": "2026-11-18T19:02:57.149125+08:00", "evaluation_completed": 2, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_source_enhanced", "updated_at": "2026-11-18T19:04:11.470814+08:00", "evaluation_completed": 3, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_source_enhanced", "updated_at": "2026-11-18T19:04:25.976205+08:00", "evaluation_completed": 4, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_source_enhanced", "updated_at": "2026-11-18T19:06:48.769500+08:00", "evaluation_completed": 5, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_source_enhanced", "updated_at": "2026-11-18T19:08:17.329579+08:00", "evaluation_completed": 6, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_source_enhanced", "updated_at": "2026-11-18T19:11:58.583485+08:00", "evaluation_completed": 7, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_source_enhanced", "updated_at": "2026-11-18T19:13:28.807448+08:00", "evaluation_completed": 8, "evaluation_planned": 8}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:13:28.926870+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 0, "teacher_planned": 12}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:16:40.639387+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 1, "teacher_planned": 12, "successful_teacher_episodes": 1, "teacher_transitions": 215}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:18:52.858931+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 2, "teacher_planned": 12, "successful_teacher_episodes": 2, "teacher_transitions": 450}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:19:23.800597+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 3, "teacher_planned": 12, "successful_teacher_episodes": 3, "teacher_transitions": 609}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:25:08.131207+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 4, "teacher_planned": 12, "successful_teacher_episodes": 3, "teacher_transitions": 609}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:25:20.732904+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 5, "teacher_planned": 12, "successful_teacher_episodes": 3, "teacher_transitions": 609}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:28:48.420736+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 6, "teacher_planned": 12, "successful_teacher_episodes": 4, "teacher_transitions": 749}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:29:31.701754+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 7, "teacher_planned": 12, "successful_teacher_episodes": 4, "teacher_transitions": 749}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:34:18.878739+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 8, "teacher_planned": 12, "successful_teacher_episodes": 5, "teacher_transitions": 955}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:35:26.715661+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 9, "teacher_planned": 12, "successful_teacher_episodes": 6, "teacher_transitions": 1184}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:36:31.336783+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 10, "teacher_planned": 12, "successful_teacher_episodes": 6, "teacher_transitions": 1184}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:38:16.873672+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 11, "teacher_planned": 12, "successful_teacher_episodes": 7, "teacher_transitions": 1323}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "collect_bc_teachers", "updated_at": "2026-11-18T19:41:17.159326+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "bc_warm_start", "updated_at": "2026-11-18T19:41:17.811900+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 100, "bc_updates_planned": 500, "bc_loss": 0.016712604090571404}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "bc_warm_start", "updated_at": "2026-11-18T19:41:18.049288+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 200, "bc_updates_planned": 500, "bc_loss": 0.010507138445973396}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_250", "updated_at": "2026-11-18T19:41:18.177181+08:00", "evaluation_completed": 0, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 200, "bc_updates_planned": 500, "bc_loss": 0.010507138445973396}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_250", "updated_at": "2026-11-18T19:43:12.272503+08:00", "evaluation_completed": 1, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 200, "bc_updates_planned": 500, "bc_loss": 0.010507138445973396}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_250", "updated_at": "2026-11-18T19:43:41.215621+08:00", "evaluation_completed": 2, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 200, "bc_updates_planned": 500, "bc_loss": 0.010507138445973396}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_250", "updated_at": "2026-11-18T19:44:52.315736+08:00", "evaluation_completed": 3, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 200, "bc_updates_planned": 500, "bc_loss": 0.010507138445973396}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_250", "updated_at": "2026-11-18T19:46:07.513129+08:00", "evaluation_completed": 4, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 200, "bc_updates_planned": 500, "bc_loss": 0.010507138445973396}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_250", "updated_at": "2026-11-18T19:48:13.703419+08:00", "evaluation_completed": 5, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 200, "bc_updates_planned": 500, "bc_loss": 0.010507138445973396}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_250", "updated_at": "2026-11-18T19:50:31.226640+08:00", "evaluation_completed": 6, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 200, "bc_updates_planned": 500, "bc_loss": 0.010507138445973396}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_250", "updated_at": "2026-11-18T19:50:57.489878+08:00", "evaluation_completed": 7, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 200, "bc_updates_planned": 500, "bc_loss": 0.010507138445973396}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_250", "updated_at": "2026-11-18T19:55:21.227993+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 200, "bc_updates_planned": 500, "bc_loss": 0.010507138445973396}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "bc_warm_start", "updated_at": "2026-11-18T19:55:21.459907+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 300, "bc_updates_planned": 500, "bc_loss": 0.025882979854941368}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "bc_warm_start", "updated_at": "2026-11-18T19:55:21.701618+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 400, "bc_updates_planned": 500, "bc_loss": 0.02018595114350319}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "bc_warm_start", "updated_at": "2026-11-18T19:55:21.942970+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_500", "updated_at": "2026-11-18T19:55:21.950783+08:00", "evaluation_completed": 0, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_500", "updated_at": "2026-11-18T19:57:12.923989+08:00", "evaluation_completed": 1, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_500", "updated_at": "2026-11-18T19:58:11.681181+08:00", "evaluation_completed": 2, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_500", "updated_at": "2026-11-18T19:59:09.474572+08:00", "evaluation_completed": 3, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_500", "updated_at": "2026-11-18T19:59:17.207037+08:00", "evaluation_completed": 4, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_500", "updated_at": "2026-11-18T20:01:33.264051+08:00", "evaluation_completed": 5, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_500", "updated_at": "2026-11-18T20:02:57.171417+08:00", "evaluation_completed": 6, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_500", "updated_at": "2026-11-18T20:04:02.939567+08:00", "evaluation_completed": 7, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_bc_500", "updated_at": "2026-11-18T20:08:05.692837+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952}
+pybullet build time: Jan 29 2025 23:17:20
+pybullet build time: Jan 29 2025 23:17:20
+Logging to /home/johnsonchen/wall-panel-rl/results/diagnostics/installation_first_v31_seed20261118/training/ppo
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:07.962345+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 0, "ppo_steps_planned": 8192}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:08.619322+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 256, "ppo_steps_planned": 8192, "ppo_episodes": 3, "training_counts": {"2": {"success": 0, "collision": 2, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 0, "timeout": 0, "joint_limit": 0}, "4": {"success": 0, "collision": 1, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 0, "timeout": 0, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:09.285822+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 512, "ppo_steps_planned": 8192, "ppo_episodes": 9, "training_counts": {"2": {"success": 0, "collision": 4, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 2, "timeout": 0, "joint_limit": 0}, "4": {"success": 0, "collision": 2, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 1, "timeout": 0, "joint_limit": 0}}}
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 47       |
+|    ep_rew_mean     | -0.432   |
+|    success_rate    | 0        |
+| time/              |          |
+|    fps             | 386      |
+|    iterations      | 1        |
+|    time_elapsed    | 1        |
+|    total_timesteps | 203776   |
+---------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:09.990498+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 768, "ppo_steps_planned": 8192, "ppo_episodes": 13, "training_counts": {"2": {"success": 0, "collision": 6, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 3, "timeout": 0, "joint_limit": 0}, "4": {"success": 0, "collision": 3, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 1, "timeout": 0, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:10.705621+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 1024, "ppo_steps_planned": 8192, "ppo_episodes": 18, "training_counts": {"2": {"success": 0, "collision": 7, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 4, "timeout": 0, "joint_limit": 0}, "4": {"success": 0, "collision": 5, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 2, "timeout": 0, "joint_limit": 0}}}
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 47.7          |
+|    ep_rew_mean          | -0.443        |
+|    success_rate         | 0             |
+| time/                   |               |
+|    fps                  | 373           |
+|    iterations           | 2             |
+|    time_elapsed         | 2             |
+|    total_timesteps      | 204288        |
+| train/                  |               |
+|    approx_kl            | 0.00049932057 |
+|    clip_fraction        | 0.169         |
+|    clip_range           | 0.05          |
+|    entropy_loss         | 11            |
+|    explained_variance   | 0.000638      |
+|    learning_rate        | 3e-06         |
+|    loss                 | -0.00721      |
+|    n_updates            | 291           |
+|    policy_gradient_loss | -0.00358      |
+|    std                  | 0.05          |
+|    value_loss           | 0.0272        |
+-------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:11.461213+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 1280, "ppo_steps_planned": 8192, "ppo_episodes": 24, "training_counts": {"2": {"success": 0, "collision": 7, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 7, "timeout": 0, "joint_limit": 0}, "4": {"success": 0, "collision": 6, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 4, "timeout": 0, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:12.118273+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 1536, "ppo_steps_planned": 8192, "ppo_episodes": 26, "training_counts": {"2": {"success": 0, "collision": 7, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 7, "timeout": 0, "joint_limit": 0}, "4": {"success": 0, "collision": 6, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 6, "timeout": 0, "joint_limit": 0}}}
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 48.8         |
+|    ep_rew_mean          | -0.423       |
+|    success_rate         | 0            |
+| time/                   |              |
+|    fps                  | 369          |
+|    iterations           | 3            |
+|    time_elapsed         | 4            |
+|    total_timesteps      | 204800       |
+| train/                  |              |
+|    approx_kl            | 0.0013811175 |
+|    clip_fraction        | 0.172        |
+|    clip_range           | 0.05         |
+|    entropy_loss         | 11           |
+|    explained_variance   | -0.000766    |
+|    learning_rate        | 3e-06        |
+|    loss                 | -0.00125     |
+|    n_updates            | 294          |
+|    policy_gradient_loss | -0.00317     |
+|    std                  | 0.05         |
+|    value_loss           | 0.033        |
+------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:12.861102+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 1792, "ppo_steps_planned": 8192, "ppo_episodes": 30, "training_counts": {"2": {"success": 0, "collision": 7, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 9, "timeout": 0, "joint_limit": 0}, "4": {"success": 0, "collision": 6, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 8, "timeout": 0, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:13.567074+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 2048, "ppo_steps_planned": 8192, "ppo_episodes": 33, "training_counts": {"2": {"success": 0, "collision": 8, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 10, "timeout": 0, "joint_limit": 0}, "4": {"success": 0, "collision": 6, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 9, "timeout": 0, "joint_limit": 0}}}
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 57           |
+|    ep_rew_mean          | -0.434       |
+|    success_rate         | 0            |
+| time/                   |              |
+|    fps                  | 365          |
+|    iterations           | 4            |
+|    time_elapsed         | 5            |
+|    total_timesteps      | 205312       |
+| train/                  |              |
+|    approx_kl            | 0.0008431154 |
+|    clip_fraction        | 0.0872       |
+|    clip_range           | 0.05         |
+|    entropy_loss         | 11           |
+|    explained_variance   | -0.00558     |
+|    learning_rate        | 3e-06        |
+|    loss                 | -0.00137     |
+|    n_updates            | 297          |
+|    policy_gradient_loss | -0.00156     |
+|    std                  | 0.05         |
+|    value_loss           | 0.0237       |
+------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:14.301777+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 2304, "ppo_steps_planned": 8192, "ppo_episodes": 35, "training_counts": {"2": {"success": 0, "collision": 8, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "4": {"success": 0, "collision": 6, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 10, "timeout": 0, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:14.981952+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 2560, "ppo_steps_planned": 8192, "ppo_episodes": 36, "training_counts": {"2": {"success": 0, "collision": 8, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "4": {"success": 0, "collision": 7, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 10, "timeout": 0, "joint_limit": 0}}}
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 65.1         |
+|    ep_rew_mean          | -0.417       |
+|    success_rate         | 0            |
+| time/                   |              |
+|    fps                  | 364          |
+|    iterations           | 5            |
+|    time_elapsed         | 7            |
+|    total_timesteps      | 205824       |
+| train/                  |              |
+|    approx_kl            | 0.0014121255 |
+|    clip_fraction        | 0.2          |
+|    clip_range           | 0.05         |
+|    entropy_loss         | 11           |
+|    explained_variance   | -0.00403     |
+|    learning_rate        | 3e-06        |
+|    loss                 | 0.00355      |
+|    n_updates            | 300          |
+|    policy_gradient_loss | -0.00338     |
+|    std                  | 0.05         |
+|    value_loss           | 0.025        |
+------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:15.740280+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 2816, "ppo_steps_planned": 8192, "ppo_episodes": 42, "training_counts": {"2": {"success": 0, "collision": 9, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 11, "timeout": 1, "joint_limit": 0}, "4": {"success": 0, "collision": 9, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 12, "timeout": 0, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:16.453667+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 3072, "ppo_steps_planned": 8192, "ppo_episodes": 44, "training_counts": {"2": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 11, "timeout": 1, "joint_limit": 0}, "4": {"success": 0, "collision": 9, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 12, "timeout": 0, "joint_limit": 0}}}
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 64.7          |
+|    ep_rew_mean          | -0.408        |
+|    success_rate         | 0             |
+| time/                   |               |
+|    fps                  | 361           |
+|    iterations           | 6             |
+|    time_elapsed         | 8             |
+|    total_timesteps      | 206336        |
+| train/                  |               |
+|    approx_kl            | 0.00058241317 |
+|    clip_fraction        | 0.0566        |
+|    clip_range           | 0.05          |
+|    entropy_loss         | 11            |
+|    explained_variance   | -0.00335      |
+|    learning_rate        | 3e-06         |
+|    loss                 | -0.00196      |
+|    n_updates            | 303           |
+|    policy_gradient_loss | -0.00239      |
+|    std                  | 0.05          |
+|    value_loss           | 0.0107        |
+-------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:17.225595+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 3328, "ppo_steps_planned": 8192, "ppo_episodes": 47, "training_counts": {"2": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 11, "timeout": 1, "joint_limit": 0}, "4": {"success": 0, "collision": 10, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 13, "timeout": 1, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:17.942392+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 3584, "ppo_steps_planned": 8192, "ppo_episodes": 49, "training_counts": {"2": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 11, "timeout": 1, "joint_limit": 0}, "4": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 14, "timeout": 1, "joint_limit": 0}}}
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 69.4         |
+|    ep_rew_mean          | -0.411       |
+|    success_rate         | 0            |
+| time/                   |              |
+|    fps                  | 359          |
+|    iterations           | 7            |
+|    time_elapsed         | 9            |
+|    total_timesteps      | 206848       |
+| train/                  |              |
+|    approx_kl            | 0.0007189502 |
+|    clip_fraction        | 0.0931       |
+|    clip_range           | 0.05         |
+|    entropy_loss         | 11           |
+|    explained_variance   | -0.00499     |
+|    learning_rate        | 3e-06        |
+|    loss                 | 0.0037       |
+|    n_updates            | 306          |
+|    policy_gradient_loss | -0.00159     |
+|    std                  | 0.05         |
+|    value_loss           | 0.0221       |
+------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:18.695231+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 3840, "ppo_steps_planned": 8192, "ppo_episodes": 51, "training_counts": {"2": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 11, "timeout": 1, "joint_limit": 0}, "4": {"success": 0, "collision": 12, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 14, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:19.389834+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 4096, "ppo_steps_planned": 8192, "ppo_episodes": 53, "training_counts": {"2": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 12, "timeout": 1, "joint_limit": 0}, "4": {"success": 0, "collision": 13, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 14, "timeout": 2, "joint_limit": 0}}}
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 74.9         |
+|    ep_rew_mean          | -0.399       |
+|    success_rate         | 0            |
+| time/                   |              |
+|    fps                  | 358          |
+|    iterations           | 8            |
+|    time_elapsed         | 11           |
+|    total_timesteps      | 207360       |
+| train/                  |              |
+|    approx_kl            | 0.0016761962 |
+|    clip_fraction        | 0.186        |
+|    clip_range           | 0.05         |
+|    entropy_loss         | 11           |
+|    explained_variance   | -0.00353     |
+|    learning_rate        | 3e-06        |
+|    loss                 | -0.000144    |
+|    n_updates            | 309          |
+|    policy_gradient_loss | -0.00243     |
+|    std                  | 0.05         |
+|    value_loss           | 0.0117       |
+------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:20.144504+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 4352, "ppo_steps_planned": 8192, "ppo_episodes": 58, "training_counts": {"2": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 12, "timeout": 1, "joint_limit": 0}, "4": {"success": 0, "collision": 15, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 17, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:20.785119+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 4608, "ppo_steps_planned": 8192, "ppo_episodes": 58, "training_counts": {"2": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 12, "timeout": 1, "joint_limit": 0}, "4": {"success": 0, "collision": 15, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 17, "timeout": 2, "joint_limit": 0}}}
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 73           |
+|    ep_rew_mean          | -0.405       |
+|    success_rate         | 0            |
+| time/                   |              |
+|    fps                  | 359          |
+|    iterations           | 9            |
+|    time_elapsed         | 12           |
+|    total_timesteps      | 207872       |
+| train/                  |              |
+|    approx_kl            | 0.0014362453 |
+|    clip_fraction        | 0.182        |
+|    clip_range           | 0.05         |
+|    entropy_loss         | 11           |
+|    explained_variance   | -0.00403     |
+|    learning_rate        | 3e-06        |
+|    loss                 | -0.00378     |
+|    n_updates            | 312          |
+|    policy_gradient_loss | -0.00388     |
+|    std                  | 0.05         |
+|    value_loss           | 0.0121       |
+------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:21.475704+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 4864, "ppo_steps_planned": 8192, "ppo_episodes": 60, "training_counts": {"2": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 13, "timeout": 2, "joint_limit": 0}, "4": {"success": 0, "collision": 15, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 17, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:22.137123+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 5120, "ppo_steps_planned": 8192, "ppo_episodes": 62, "training_counts": {"2": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 15, "timeout": 2, "joint_limit": 0}, "4": {"success": 0, "collision": 15, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 17, "timeout": 2, "joint_limit": 0}}}
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 81            |
+|    ep_rew_mean          | -0.406        |
+|    success_rate         | 0             |
+| time/                   |               |
+|    fps                  | 361           |
+|    iterations           | 10            |
+|    time_elapsed         | 14            |
+|    total_timesteps      | 208384        |
+| train/                  |               |
+|    approx_kl            | 0.00045320613 |
+|    clip_fraction        | 0.0456        |
+|    clip_range           | 0.05          |
+|    entropy_loss         | 11            |
+|    explained_variance   | -0.0227       |
+|    learning_rate        | 3e-06         |
+|    loss                 | -0.000172     |
+|    n_updates            | 315           |
+|    policy_gradient_loss | -0.000634     |
+|    std                  | 0.05          |
+|    value_loss           | 0.0175        |
+-------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:22.847099+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 5376, "ppo_steps_planned": 8192, "ppo_episodes": 63, "training_counts": {"2": {"success": 0, "collision": 11, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 15, "timeout": 2, "joint_limit": 0}, "4": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 17, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:23.530588+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 5632, "ppo_steps_planned": 8192, "ppo_episodes": 67, "training_counts": {"2": {"success": 0, "collision": 12, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 17, "timeout": 2, "joint_limit": 0}, "4": {"success": 0, "collision": 17, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 17, "timeout": 2, "joint_limit": 0}}}
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 82.9       |
+|    ep_rew_mean          | -0.407     |
+|    success_rate         | 0          |
+| time/                   |            |
+|    fps                  | 361        |
+|    iterations           | 11         |
+|    time_elapsed         | 15         |
+|    total_timesteps      | 208896     |
+| train/                  |            |
+|    approx_kl            | 0.00120166 |
+|    clip_fraction        | 0.126      |
+|    clip_range           | 0.05       |
+|    entropy_loss         | 11         |
+|    explained_variance   | 0.00434    |
+|    learning_rate        | 3e-06      |
+|    loss                 | -0.0021    |
+|    n_updates            | 318        |
+|    policy_gradient_loss | -0.00148   |
+|    std                  | 0.05       |
+|    value_loss           | 0.00649    |
+----------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:24.278385+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 5888, "ppo_steps_planned": 8192, "ppo_episodes": 71, "training_counts": {"2": {"success": 0, "collision": 12, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 18, "timeout": 2, "joint_limit": 0}, "4": {"success": 0, "collision": 19, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 18, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:24.972792+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 6144, "ppo_steps_planned": 8192, "ppo_episodes": 73, "training_counts": {"2": {"success": 0, "collision": 12, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 19, "timeout": 2, "joint_limit": 0}, "4": {"success": 0, "collision": 20, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 18, "timeout": 2, "joint_limit": 0}}}
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 83.1         |
+|    ep_rew_mean          | -0.406       |
+|    success_rate         | 0            |
+| time/                   |              |
+|    fps                  | 361          |
+|    iterations           | 12           |
+|    time_elapsed         | 17           |
+|    total_timesteps      | 209408       |
+| train/                  |              |
+|    approx_kl            | 0.0013896949 |
+|    clip_fraction        | 0.163        |
+|    clip_range           | 0.05         |
+|    entropy_loss         | 11           |
+|    explained_variance   | -0.00137     |
+|    learning_rate        | 3e-06        |
+|    loss                 | 0.00315      |
+|    n_updates            | 321          |
+|    policy_gradient_loss | -0.00157     |
+|    std                  | 0.05         |
+|    value_loss           | 0.0145       |
+------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:25.726298+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 6400, "ppo_steps_planned": 8192, "ppo_episodes": 77, "training_counts": {"2": {"success": 0, "collision": 12, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 22, "timeout": 2, "joint_limit": 0}, "4": {"success": 0, "collision": 20, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 19, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:26.474295+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 6656, "ppo_steps_planned": 8192, "ppo_episodes": 80, "training_counts": {"2": {"success": 0, "collision": 12, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 22, "timeout": 2, "joint_limit": 0}, "4": {"success": 0, "collision": 21, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 21, "timeout": 2, "joint_limit": 0}}}
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 82.6         |
+|    ep_rew_mean          | -0.403       |
+|    success_rate         | 0            |
+| time/                   |              |
+|    fps                  | 359          |
+|    iterations           | 13           |
+|    time_elapsed         | 18           |
+|    total_timesteps      | 209920       |
+| train/                  |              |
+|    approx_kl            | 0.0009926546 |
+|    clip_fraction        | 0.0924       |
+|    clip_range           | 0.05         |
+|    entropy_loss         | 11           |
+|    explained_variance   | -0.00281     |
+|    learning_rate        | 3e-06        |
+|    loss                 | -0.00531     |
+|    n_updates            | 324          |
+|    policy_gradient_loss | -0.00205     |
+|    std                  | 0.05         |
+|    value_loss           | 0.0193       |
+------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:27.261363+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 6912, "ppo_steps_planned": 8192, "ppo_episodes": 86, "training_counts": {"2": {"success": 0, "collision": 14, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 22, "timeout": 2, "joint_limit": 0}, "4": {"success": 0, "collision": 23, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 23, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:27.939606+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 7168, "ppo_steps_planned": 8192, "ppo_episodes": 88, "training_counts": {"2": {"success": 0, "collision": 14, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 22, "timeout": 2, "joint_limit": 0}, "4": {"success": 0, "collision": 25, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 23, "timeout": 2, "joint_limit": 0}}}
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 79.5         |
+|    ep_rew_mean          | -0.404       |
+|    success_rate         | 0            |
+| time/                   |              |
+|    fps                  | 358          |
+|    iterations           | 14           |
+|    time_elapsed         | 19           |
+|    total_timesteps      | 210432       |
+| train/                  |              |
+|    approx_kl            | 0.0009681287 |
+|    clip_fraction        | 0.148        |
+|    clip_range           | 0.05         |
+|    entropy_loss         | 11           |
+|    explained_variance   | 0.0063       |
+|    learning_rate        | 3e-06        |
+|    loss                 | -0.01        |
+|    n_updates            | 327          |
+|    policy_gradient_loss | -0.00297     |
+|    std                  | 0.05         |
+|    value_loss           | 0.0324       |
+------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:28.698902+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 7424, "ppo_steps_planned": 8192, "ppo_episodes": 91, "training_counts": {"2": {"success": 0, "collision": 14, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 22, "timeout": 3, "joint_limit": 0}, "4": {"success": 0, "collision": 26, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 24, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:29.367131+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 7680, "ppo_steps_planned": 8192, "ppo_episodes": 92, "training_counts": {"2": {"success": 0, "collision": 14, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 23, "timeout": 3, "joint_limit": 0}, "4": {"success": 0, "collision": 26, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 24, "timeout": 2, "joint_limit": 0}}}
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 81.8         |
+|    ep_rew_mean          | -0.398       |
+|    success_rate         | 0            |
+| time/                   |              |
+|    fps                  | 358          |
+|    iterations           | 15           |
+|    time_elapsed         | 21           |
+|    total_timesteps      | 210944       |
+| train/                  |              |
+|    approx_kl            | 0.0011255626 |
+|    clip_fraction        | 0.124        |
+|    clip_range           | 0.05         |
+|    entropy_loss         | 11           |
+|    explained_variance   | 0.00472      |
+|    learning_rate        | 3e-06        |
+|    loss                 | 0.00275      |
+|    n_updates            | 330          |
+|    policy_gradient_loss | -0.00144     |
+|    std                  | 0.05         |
+|    value_loss           | 0.0216       |
+------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:30.109778+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 7936, "ppo_steps_planned": 8192, "ppo_episodes": 95, "training_counts": {"2": {"success": 0, "collision": 15, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 23, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 27, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 24, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "ppo_training", "updated_at": "2026-11-18T20:08:30.823132+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 80.8          |
+|    ep_rew_mean          | -0.396        |
+|    success_rate         | 0             |
+| time/                   |               |
+|    fps                  | 358           |
+|    iterations           | 16            |
+|    time_elapsed         | 22            |
+|    total_timesteps      | 211456        |
+| train/                  |               |
+|    approx_kl            | 0.00061322993 |
+|    clip_fraction        | 0.0729        |
+|    clip_range           | 0.05          |
+|    entropy_loss         | 11            |
+|    explained_variance   | -0.00495      |
+|    learning_rate        | 3e-06         |
+|    loss                 | 0.00179       |
+|    n_updates            | 333           |
+|    policy_gradient_loss | -0.00156      |
+|    std                  | 0.05          |
+|    value_loss           | 0.0193        |
+-------------------------------------------
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_ppo_8192", "updated_at": "2026-11-18T20:08:30.876405+08:00", "evaluation_completed": 0, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_ppo_8192", "updated_at": "2026-11-18T20:10:37.563167+08:00", "evaluation_completed": 1, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_ppo_8192", "updated_at": "2026-11-18T20:11:25.555621+08:00", "evaluation_completed": 2, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_ppo_8192", "updated_at": "2026-11-18T20:12:26.834018+08:00", "evaluation_completed": 3, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_ppo_8192", "updated_at": "2026-11-18T20:12:42.906507+08:00", "evaluation_completed": 4, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_ppo_8192", "updated_at": "2026-11-18T20:14:58.757892+08:00", "evaluation_completed": 5, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_ppo_8192", "updated_at": "2026-11-18T20:16:41.783390+08:00", "evaluation_completed": 6, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_ppo_8192", "updated_at": "2026-11-18T20:19:16.107554+08:00", "evaluation_completed": 7, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_ppo_8192", "updated_at": "2026-11-18T20:21:25.896163+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_independent_test_enhanced", "updated_at": "2026-11-18T20:21:26.334457+08:00", "evaluation_completed": 0, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_independent_test_enhanced", "updated_at": "2026-11-18T20:23:20.848622+08:00", "evaluation_completed": 1, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_independent_test_enhanced", "updated_at": "2026-11-18T20:25:56.625235+08:00", "evaluation_completed": 2, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_independent_test_enhanced", "updated_at": "2026-11-18T20:26:39.003590+08:00", "evaluation_completed": 3, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_independent_test_enhanced", "updated_at": "2026-11-18T20:27:51.393103+08:00", "evaluation_completed": 4, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_independent_test_enhanced", "updated_at": "2026-11-18T20:30:18.846547+08:00", "evaluation_completed": 5, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_independent_test_enhanced", "updated_at": "2026-11-18T20:33:23.267987+08:00", "evaluation_completed": 6, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_independent_test_enhanced", "updated_at": "2026-11-18T20:34:18.081597+08:00", "evaluation_completed": 7, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "running", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "evaluate_independent_test_enhanced", "updated_at": "2026-11-18T20:34:32.897497+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}}
+{"status": "completed", "pid": 14111, "started_at": "2026-11-18T18:50:39.575998+08:00", "phase": "complete", "updated_at": "2026-11-18T20:34:32.898817+08:00", "evaluation_completed": 8, "evaluation_planned": 8, "teacher_completed": 12, "teacher_planned": 12, "successful_teacher_episodes": 8, "teacher_transitions": 1500, "bc_updates": 500, "bc_updates_planned": 500, "bc_loss": 0.019804934039711952, "ppo_steps_completed": 8192, "ppo_steps_planned": 8192, "ppo_episodes": 102, "training_counts": {"2": {"success": 0, "collision": 16, "timeout": 0, "joint_limit": 0}, "3": {"success": 0, "collision": 26, "timeout": 4, "joint_limit": 0}, "4": {"success": 0, "collision": 28, "timeout": 0, "joint_limit": 0}, "5": {"success": 0, "collision": 26, "timeout": 2, "joint_limit": 0}}, "ppo_skipped": false}

@@ -1,0 +1,138 @@
+{
+  "ppo_transitions": 2000,
+  "rrt_transitions": 3040,
+  "verification_replay_transitions": 2800,
+  "rollout_physics_transitions": 5040,
+  "total_training_and_replay_physics": 7840,
+  "episode_starts": {
+    "rrt": 39,
+    "ppo": 31
+  },
+  "completed_by_controller": {
+    "rrt": {
+      "success": 38,
+      "timeout": 1
+    },
+    "ppo": {
+      "collision": 15,
+      "timeout": 2,
+      "success": 10
+    }
+  },
+  "completed_by_task": {
+    "dynamic": 63,
+    "static": 3
+  },
+  "verified_expert_episodes": 38,
+  "bc_auxiliary_updates": 2,
+  "bc_rejected_updates": 0,
+  "bc_total_accepted_updates": 4,
+  "bc_total_rejected_updates": 0,
+  "bc_restoration": {
+    "restored": true,
+    "source_state": "/home/johnsonchen/wall-panel-rl/.worktrees/path-reference-ppo/models/four_dynamic_ppo_v8_seed61/auxiliary_bc/aux_2000.pt",
+    "source_state_sha256": "605099ca554e14f27c82913f246fab9de04c06c5e87d81ad4f32f3cf5906e999",
+    "ppo_counter": 62000,
+    "pool_size": 1467,
+    "accepted_updates": 2,
+    "rejected_updates": 0,
+    "optimizer_sha256": "e9abc95a04ae60e2798e8f2386cb6275f57ff5ccb85276b25f0506b918d525df",
+    "rng_sha256": "aef381cdece6a6c975a8621036cfc427188abd129371dd64d5f324c6a0b78bec",
+    "weights_unchanged_by_restoration": true
+  },
+  "selected": {
+    "ppo_steps": 2000,
+    "curriculum_level": 0,
+    "curriculum_speed": 0.02,
+    "target": {
+      "episodes": 64,
+      "success": 47,
+      "collision": 15,
+      "timeout": 2,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "static_frozen": {
+      "episodes": 64,
+      "success": 46,
+      "collision": 15,
+      "timeout": 3,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "legacy_static": {
+      "episodes": 64,
+      "success": 57,
+      "collision": 7,
+      "timeout": 0,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture": {
+      "episodes": 64,
+      "success": 54,
+      "collision": 9,
+      "timeout": 1,
+      "joint_limit": 0,
+      "planning_failure": 0
+    },
+    "mixture_by_controller": {
+      "rrt": {
+        "episodes": 24,
+        "success": 24,
+        "collision": 0,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "ppo": {
+        "episodes": 40,
+        "success": 30,
+        "collision": 9,
+        "timeout": 1,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    },
+    "score": [
+      1,
+      47,
+      -15,
+      -2
+    ],
+    "all_metrics": {
+      "dynamic_0.020": {
+        "episodes": 64,
+        "success": 47,
+        "collision": 15,
+        "timeout": 2,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "static_frozen": {
+        "episodes": 64,
+        "success": 46,
+        "collision": 15,
+        "timeout": 3,
+        "joint_limit": 0,
+        "planning_failure": 0
+      },
+      "legacy_static": {
+        "episodes": 64,
+        "success": 57,
+        "collision": 7,
+        "timeout": 0,
+        "joint_limit": 0,
+        "planning_failure": 0
+      }
+    }
+  },
+  "selected_equals_source": false,
+  "source_unchanged": true,
+  "independent_test": {
+    "performed": false,
+    "reason": "Validation-only speed screening; previously used test bank remains excluded"
+  },
+  "default_model_preserved": true,
+  "final_curriculum_level": 0
+}

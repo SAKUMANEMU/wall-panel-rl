@@ -1,0 +1,11 @@
+{
+  "base_offsets_m": [
+    0.08,
+    0.14
+  ],
+  "O2_additional_offset_m": -0.05,
+  "final_anchor_height_span_min_m": 0.20137524768566167,
+  "final_anchor_height_span_max_m": 0.7624367948252206,
+  "final_minimum_adjacent_delta_m": 0.050653904164762564,
+  "note": "Base24cm/10cm geometry guards precede explicit O2 translation; final heights can differ. Full-motion physical endpoint/wall/spacing guards are applied afterward."
+}

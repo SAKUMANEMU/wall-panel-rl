@@ -1,0 +1,55 @@
+[
+  {
+    "seed": 1018018,
+    "primary_collision_step": 9,
+    "planning_clearance_m": 0.005,
+    "edge_resolution_rad": 0.035,
+    "actual_geometric_collision_on_stored_plan": false,
+    "witnesses": [],
+    "planning_clearance_witnesses": [
+      {
+        "edge_index": 7,
+        "edge_fraction": 1.0,
+        "kind": "obstacle",
+        "moving_body": "panel",
+        "obstacle_slot": 3,
+        "moving_link_index": -1,
+        "other_link_index": -1,
+        "distance_m": 0.0011175395091366763,
+        "nominal_path_fraction": 0.1627487614801739
+      },
+      {
+        "edge_index": 8,
+        "edge_fraction": 0.0,
+        "kind": "obstacle",
+        "moving_body": "panel",
+        "obstacle_slot": 3,
+        "moving_link_index": -1,
+        "other_link_index": -1,
+        "distance_m": 0.0011175395091366763,
+        "nominal_path_fraction": 0.1627487614801739
+      }
+    ]
+  },
+  {
+    "seed": 1018025,
+    "primary_collision_step": 45,
+    "planning_clearance_m": 0.005,
+    "edge_resolution_rad": 0.035,
+    "actual_geometric_collision_on_stored_plan": false,
+    "witnesses": [],
+    "planning_clearance_witnesses": [
+      {
+        "edge_index": 44,
+        "edge_fraction": 0.5,
+        "kind": "obstacle",
+        "moving_body": "panel",
+        "obstacle_slot": 4,
+        "moving_link_index": -1,
+        "other_link_index": -1,
+        "distance_m": 0.002273688010848327,
+        "nominal_path_fraction": 0.7851725512108363
+      }
+    ]
+  }
+]

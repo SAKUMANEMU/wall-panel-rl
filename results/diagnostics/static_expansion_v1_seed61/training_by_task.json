@@ -1,0 +1,44 @@
+[
+  {
+    "controller": "ppo",
+    "task": "alignment",
+    "reason": "success",
+    "episodes": 23
+  },
+  {
+    "controller": "ppo",
+    "task": "static",
+    "reason": "collision",
+    "episodes": 43
+  },
+  {
+    "controller": "ppo",
+    "task": "static",
+    "reason": "joint_limit",
+    "episodes": 2
+  },
+  {
+    "controller": "ppo",
+    "task": "static",
+    "reason": "timeout",
+    "episodes": 25
+  },
+  {
+    "controller": "rrt",
+    "task": "alignment",
+    "reason": "success",
+    "episodes": 23
+  },
+  {
+    "controller": "rrt",
+    "task": "static",
+    "reason": "collision",
+    "episodes": 2
+  },
+  {
+    "controller": "rrt",
+    "task": "static",
+    "reason": "success",
+    "episodes": 76
+  }
+]

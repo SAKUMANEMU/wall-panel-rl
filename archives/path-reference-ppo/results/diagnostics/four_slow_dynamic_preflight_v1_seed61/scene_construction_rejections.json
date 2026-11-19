@@ -1,0 +1,17 @@
+[
+  {
+    "seed": 1040002,
+    "reason": "Obstacle motion bounds intersect the wall",
+    "stage": "geometry"
+  },
+  {
+    "seed": 1040004,
+    "reason": "Obstacle motion bounds intersect the wall",
+    "stage": "geometry"
+  },
+  {
+    "seed": 1040007,
+    "reason": "Cannot build a complete nominal route: timeout",
+    "stage": "nominal_reference"
+  }
+]

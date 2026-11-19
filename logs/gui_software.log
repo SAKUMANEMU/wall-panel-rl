@@ -1,0 +1,79 @@
+pybullet build time: Jan 29 2025 23:17:20
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/johnsonchen/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/johnsonchen/.drirc: No such file or directory.
+step=1 position=0.4335 m orientation=32.28 deg collision=False success=False
+step=2 position=0.3727 m orientation=27.67 deg collision=False success=False
+step=3 position=0.3116 m orientation=23.08 deg collision=False success=False
+step=4 position=0.2504 m orientation=18.51 deg collision=False success=False
+step=5 position=0.1884 m orientation=13.91 deg collision=False success=False
+step=6 position=0.1265 m orientation=9.33 deg collision=False success=False
+step=7 position=0.0640 m orientation=4.72 deg collision=False success=False
+step=8 position=0.0019 m orientation=0.13 deg collision=False success=True
+{
+  "seed": 10000,
+  "success": true,
+  "collision": false,
+  "joint_limit_violation": false,
+  "planning_success": true,
+  "ik_success": true,
+  "position_error_m": 0.001863742472832367,
+  "orientation_error_deg": 0.133212311465267,
+  "steps": 8,
+  "joint_path_length_rad": 0.6552321724873585,
+  "cartesian_path_length_m": 0.5021507173842271,
+  "planning_time_s": 0.030441168999914225,
+  "execution_time_s": 0.48000772099999267,
+  "simulated_time_s": 0.4,
+  "cumulative_reward": 156.10277258999952
+}
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+X11 functions dynamically loaded using dlopen/dlsym OK!
+X11 functions dynamically loaded using dlopen/dlsym OK!
+Creating context
+Created GL 3.3 context
+Direct GLX rendering context obtained
+Making context current
+GL_VENDOR=Mesa
+GL_RENDERER=llvmpipe (LLVM 20.1.2, 256 bits)
+GL_VERSION=4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2
+GL_SHADING_LANGUAGE_VERSION=4.50
+pthread_getconcurrency()=0
+Version = 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2
+Vendor = Mesa
+Renderer = llvmpipe (LLVM 20.1.2, 256 bits)
+b3Printf: Selected demo: Physics Server
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+MotionThreadFunc thread started
+ven = Mesa
+ven = Mesa
+numActiveThreads = 0
+stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphore destroyed
+destroy main semaphore
+main semaphore destroyed
+finished
+numActiveThreads = 0
+btShutDownExampleBrowser stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphore destroyed
+destroy main semaphore
+main semaphore destroyed

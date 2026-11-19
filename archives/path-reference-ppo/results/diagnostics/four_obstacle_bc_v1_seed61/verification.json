@@ -1,0 +1,9 @@
+{
+  "input_and_code_hashes_match": true,
+  "bc_updates": 1000,
+  "ppo_updates": 0,
+  "new_test_evaluated": false,
+  "frozen_state_unchanged": true,
+  "zero_one_actions_identical": true,
+  "source_unchanged": true
+}

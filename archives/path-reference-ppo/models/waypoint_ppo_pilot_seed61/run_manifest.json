@@ -1,0 +1,22 @@
+{
+  "base_commit": "3c0cd199d50898638141de05ec2d5fcaea07b60f",
+  "branch": "codex/path-reference-ppo",
+  "source_sha256": {
+    "scripts/train_waypoint_ppo.py": "8a37a2c9f6b5bd69943465f9429b24b98c049f0ca52d4d5eb7719d29ad1e5583",
+    "src/wall_panel_rl/rl/waypoint_ppo.py": "e16f12cbb7042aaa06d63907e048aa17e4252fa3df0c32a544739cc4c2946bf3",
+    "src/wall_panel_rl/rl/waypoint_tracking.py": "2f2681300b44eeef547fdd9d66ef376d22648bafb07da0a617d921e1ffef2dfb",
+    "configs/waypoint_ppo_pilot.yaml": "79507c923255e9a231a6a0b6221d838b0fbefd494ba60907244d0a658707dd6f",
+    "releases/path_reference_bc_20261025/evaluation/manifest.json": "19da557ff4338d5addf3275214b3c526823c0f2c095b112df382e6e11d0d460f"
+  },
+  "packages": {
+    "torch": "2.5.1+cpu",
+    "stable-baselines3": "2.8.0",
+    "gymnasium": "1.2.3",
+    "numpy": "1.24.3",
+    "pybullet": "3.2.7"
+  },
+  "command": "env -u PYTHONPATH /home/johnsonchen/wall-panel-rl/.conda-env/bin/python scripts/train_waypoint_ppo.py --train",
+  "training_complete": true,
+  "independent_test_executed": false,
+  "dynamic_obstacles": false
+}

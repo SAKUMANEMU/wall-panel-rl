@@ -1,0 +1,286 @@
+seed,accepted,geometry_valid,reason,preliminary_reason,generation_wall_s
+1188000,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.317074004999995
+1188001,True,True,,success,5.532225580999693
+1188002,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5561261780003406
+1188003,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5122303130001455
+1188004,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2718621659996643
+1188005,True,True,,success,5.568635502999314
+1188006,True,True,,success,6.035114297000291
+1188007,True,True,,success,5.628351413999553
+1188008,True,True,,success,6.145672775000094
+1188009,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.529439340999488
+1188010,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.917791097999725
+1188011,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.308259913999791
+1188012,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.827264802999707
+1188013,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.14210171600007
+1188014,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.0925703929997326
+1188015,False,False,Final height stagger too small after the O2 translation,,5.867727869000191
+1188016,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.3896898530001636
+1188017,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.6094726680003077
+1188018,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.374352605999775
+1188019,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.522968057000071
+1188020,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.965232591000131
+1188021,False,False,Final height stagger too small after the O2 translation,,23.67283687500003
+1188022,False,False,Could not fit four motion-safe anchors in the original path intervals,,3.020205736999742
+1188023,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.7736366269991777
+1188024,False,False,Cannot build a complete nominal route: timeout,,2.519341373000316
+1188025,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.778302419999818
+1188026,True,True,,success,6.554183575000025
+1188027,False,False,Final height stagger too small after the O2 translation,,10.856277827000667
+1188028,True,True,,success,22.743773235000845
+1188029,False,False,Could not fit four motion-safe anchors in the original path intervals,,31.284702443000242
+1188030,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2937119609996444
+1188031,False,False,Could not fit four motion-safe anchors in the original path intervals,,3.3447258919995875
+1188032,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.1133474179996483
+1188033,False,False,Could not fit four motion-safe anchors in the original path intervals,,5.842188311999962
+1188034,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2894228500008467
+1188035,True,True,,success,5.556666412000595
+1188036,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5323809290002828
+1188037,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5876635889999307
+1188038,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.1669635110001764
+1188039,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.3977607380002155
+1188040,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.7993337729994892
+1188041,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.0975244490000478
+1188042,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.3973770000002332
+1188043,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.3414805769998566
+1188044,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2813949490000596
+1188045,True,True,,success,6.373032849999618
+1188046,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.69375710300028
+1188047,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.1488462490005986
+1188048,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.1843287309993684
+1188049,True,True,,success,5.851450170000135
+1188050,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.9399788539994915
+1188051,False,False,Final height stagger too small after the O2 translation,,6.609176752000167
+1188052,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2591938839996146
+1188053,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.133672056999785
+1188054,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.7534469719994377
+1188055,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.480300766000255
+1188056,False,False,Cannot build a complete nominal route: timeout,,2.4148789300006683
+1188057,False,False,Could not fit four motion-safe anchors in the original path intervals,,37.41605207900011
+1188058,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5086070289999043
+1188059,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.25520243200026
+1188060,False,False,Could not fit four motion-safe anchors in the original path intervals,,11.283300404999864
+1188061,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.918193667000196
+1188062,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.916479519999484
+1188063,True,True,,success,5.628110765999736
+1188064,False,False,Could not fit four motion-safe anchors in the original path intervals,,15.807102357000076
+1188065,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.0523673420002524
+1188066,False,False,Could not fit four motion-safe anchors in the original path intervals,,5.927897845000189
+1188067,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.365976581999348
+1188068,True,True,,success,6.197119785000723
+1188069,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.134643358000176
+1188070,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.4505707600001188
+1188071,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.8553675359999033
+1188072,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.1916808100004346
+1188073,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.314404118999846
+1188074,False,False,Could not fit four motion-safe anchors in the original path intervals,,7.974220484000398
+1188075,True,True,,success,6.128731013000106
+1188076,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.80340802200044
+1188077,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.237518154999634
+1188078,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.6694148639999185
+1188079,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.0375872300000992
+1188080,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.9345791830000962
+1188081,True,True,,success,6.36477221000041
+1188082,False,False,Could not fit four motion-safe anchors in the original path intervals,,6.261679049999657
+1188083,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.0605636959999174
+1188084,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2490232870004547
+1188085,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.859804539999459
+1188086,True,True,,success,7.033586730999559
+1188087,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.6089104500006215
+1188088,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.217524315999981
+1188089,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2691769359998943
+1188090,True,True,,success,34.62388437699974
+1188091,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2787612330002958
+1188092,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.46555632000036
+1188093,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.530504689000736
+1188094,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.6637392740003634
+1188095,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.9373250250000638
+1188096,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.0361263999993753
+1188097,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.0368198160003885
+1188098,True,True,,success,6.048062270999253
+1188099,True,True,,success,5.15155261200016
+1188100,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2311083280001185
+1188101,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5487055419998796
+1188102,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.894099922999885
+1188103,False,False,Could not fit four motion-safe anchors in the original path intervals,,23.409714075999545
+1188104,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.3345400979997066
+1188105,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.4675216410005305
+1188106,True,True,,success,5.543038094999247
+1188107,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.4969580509996376
+1188108,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.1574438319994442
+1188109,True,True,,success,6.343421284000215
+1188110,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2753280030001406
+1188111,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.7901987930008545
+1188112,True,True,,success,5.423510842999349
+1188113,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.4413158859997566
+1188114,True,True,,success,5.50891960700028
+1188115,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.3352792599998793
+1188116,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.605218971000795
+1188117,True,True,,success,6.66614447899974
+1188118,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.3357577149999997
+1188119,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.8957046940004147
+1188120,True,True,,success,5.9240545290003865
+1188121,True,True,,success,6.241731656999946
+1188122,True,True,,success,6.468680516999484
+1188123,True,True,,success,5.745654237999588
+1188124,False,False,Cannot build a complete nominal route: timeout,,2.328264405000482
+1188125,True,True,,success,6.001218355999299
+1188126,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.754992606999622
+1188127,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.359968755999944
+1188128,False,False,Could not fit four motion-safe anchors in the original path intervals,,5.806112590999874
+1188129,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.177932081000108
+1188130,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.8018299129998923
+1188131,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.4403330949999145
+1188132,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.394484131000354
+1188133,True,True,,success,6.477605047999532
+1188134,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.934820700000273
+1188135,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.448194868000428
+1188136,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2172253530006856
+1188137,False,False,Could not fit four motion-safe anchors in the original path intervals,,8.955816783000046
+1188138,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.3941880630000014
+1188139,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.7230681010005355
+1188140,False,False,Could not fit four motion-safe anchors in the original path intervals,,46.478131486000166
+1188141,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.363350664999416
+1188142,True,True,,success,6.134611645000405
+1188143,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.43096287499975
+1188144,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.196128632000182
+1188145,True,True,,success,6.2322258799995325
+1188146,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5151148049999392
+1188147,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.7088945460000105
+1188148,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.781831190000048
+1188149,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.509412653000254
+1188150,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.0770912350008075
+1188151,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5603798699994513
+1188152,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.1253310709998914
+1188153,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.012664732000303
+1188154,False,False,Cannot build a complete nominal route: timeout,,2.8361385759999393
+1188155,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.7625123150000945
+1188156,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.1628889829999025
+1188157,False,False,Could not fit four motion-safe anchors in the original path intervals,,6.454752519999602
+1188158,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.818528960000549
+1188159,True,True,,success,5.856905710000319
+1188160,False,False,Could not fit four motion-safe anchors in the original path intervals,,7.632443540000168
+1188161,True,True,,success,5.9113860670004215
+1188162,True,True,,success,16.448321607000253
+1188163,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.7480970260003232
+1188164,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.005229196000073
+1188165,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.7632418789999065
+1188166,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.547270031000153
+1188167,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.1897750179996365
+1188168,False,False,Could not fit four motion-safe anchors in the original path intervals,,16.71317030099999
+1188169,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.3923638549995303
+1188170,False,False,Final height stagger too small after the O2 translation,,48.761243623000155
+1188171,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.273999773000469
+1188172,True,True,,success,5.543071064999822
+1188173,False,False,Could not fit four motion-safe anchors in the original path intervals,,3.3079224269995393
+1188174,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.240726097999868
+1188175,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.336512545000005
+1188176,True,True,,success,6.244472737999786
+1188177,False,False,Cannot build a complete nominal route: timeout,,2.320415111999864
+1188178,False,False,Could not fit four motion-safe anchors in the original path intervals,,11.202308247000474
+1188179,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5850446100002955
+1188180,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.294914508999682
+1188181,False,False,Could not fit four motion-safe anchors in the original path intervals,,19.51099134099968
+1188182,True,True,,success,6.684979392999594
+1188183,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.118480434999583
+1188184,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.684093756999573
+1188185,True,True,,success,5.277186985000299
+1188186,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.532587331999821
+1188187,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.553378180999971
+1188188,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.690136442000039
+1188189,True,True,,success,5.911563462999766
+1188190,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.9926105559998177
+1188191,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5000291369997285
+1188192,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.6037898189997577
+1188193,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.974321826999585
+1188194,True,True,,success,55.84198449199994
+1188195,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.149884577999728
+1188196,False,False,Could not fit four motion-safe anchors in the original path intervals,,63.71049486100037
+1188197,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.555192912000166
+1188198,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.6172533380004097
+1188199,True,True,,success,5.730276717999914
+1188200,False,False,Could not fit four motion-safe anchors in the original path intervals,,30.224638407000384
+1188201,True,True,,success,16.57427148700026
+1188202,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2173768599996038
+1188203,False,False,Could not fit four motion-safe anchors in the original path intervals,,31.734753549000743
+1188204,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.4956726340005844
+1188205,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.965688966000016
+1188206,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.9482185810002193
+1188207,False,False,Could not fit four motion-safe anchors in the original path intervals,,11.927152170000227
+1188208,True,True,,success,6.863894250000158
+1188209,True,True,,success,7.344082517000061
+1188210,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.8860590819995195
+1188211,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.6532145500004845
+1188212,True,True,,success,19.28092776199992
+1188213,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.603981959000521
+1188214,False,False,Final height stagger too small after the O2 translation,,8.187469400000737
+1188215,False,False,Could not fit four motion-safe anchors in the original path intervals,,3.5200278049996996
+1188216,True,True,,success,7.068588873999943
+1188217,False,False,Could not fit four motion-safe anchors in the original path intervals,,3.5888944719999927
+1188218,False,False,Final height stagger too small after the O2 translation,,8.129377938999824
+1188219,False,False,Could not fit four motion-safe anchors in the original path intervals,,7.311892914999589
+1188220,False,False,Could not fit four motion-safe anchors in the original path intervals,,3.325178828999924
+1188221,False,False,Could not fit four motion-safe anchors in the original path intervals,,6.58814415300003
+1188222,False,False,Could not fit four motion-safe anchors in the original path intervals,,3.254100850999748
+1188223,True,True,,success,18.94736738099982
+1188224,True,True,,success,6.558754553999279
+1188225,False,False,Obstacle motion bounds violate sparse box spacing,,8.229740392000167
+1188226,False,False,Could not fit four motion-safe anchors in the original path intervals,,99.86300134400062
+1188227,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2367147060003845
+1188228,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5487384939997355
+1188229,False,False,Final height stagger too small after the O2 translation,,7.633971616999588
+1188230,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.5850540000001274
+1188231,True,True,,success,7.194694324000011
+1188232,True,True,,success,7.279018807999819
+1188233,True,True,,success,7.63432723599999
+1188234,False,False,Could not fit four motion-safe anchors in the original path intervals,,3.800094865999199
+1188235,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.561492705999626
+1188236,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.150136723000287
+1188237,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.633347140999831
+1188238,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.399849278000147
+1188239,False,False,Could not fit four motion-safe anchors in the original path intervals,,7.843248446999496
+1188240,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.932367475999854
+1188241,True,True,,success,16.208462106999832
+1188242,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.9114498819999426
+1188243,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.393388413000139
+1188244,True,True,,success,5.560069952000049
+1188245,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.885720461999881
+1188246,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.282436602999951
+1188247,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.1671024100005525
+1188248,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.377517603000342
+1188249,True,True,,success,5.628072327999689
+1188250,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2098071240006902
+1188251,False,False,Could not fit four motion-safe anchors in the original path intervals,,27.112832623999566
+1188252,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.374942727999951
+1188253,False,False,Obstacle motion bounds violate sparse box spacing,,2.353672078999807
+1188254,True,True,,success,22.931752218999463
+1188255,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.4121461150007235
+1188256,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.406326104999607
+1188257,True,True,,success,6.742916404000425
+1188258,True,True,,success,6.42342631000065
+1188259,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.4816362090004986
+1188260,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.551600118999886
+1188261,True,True,,success,5.632289547000255
+1188262,True,True,,success,5.1986865700000635
+1188263,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.2735041659998387
+1188264,False,False,Final height stagger too small after the O2 translation,,6.990737269999954
+1188265,False,False,Could not fit four motion-safe anchors in the original path intervals,,32.39924269699986
+1188266,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.500024181000299
+1188267,False,False,Could not fit four motion-safe anchors in the original path intervals,,15.808637678000196
+1188268,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.3166224740007237
+1188269,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.599452991000362
+1188270,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.8452728229995046
+1188271,True,True,,success,5.516159782000614
+1188272,False,False,Final height stagger too small after the O2 translation,,25.011930812000173
+1188273,False,False,Could not fit four motion-safe anchors in the original path intervals,,81.73338072399929
+1188274,True,True,,success,7.466209721999803
+1188275,False,False,Final height stagger too small after the O2 translation,,14.999694547000217
+1188276,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.4914719590005916
+1188277,True,True,,success,46.88591964900024
+1188278,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.1975719600004595
+1188279,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.9914740710000842
+1188280,True,True,,success,5.93710218599972
+1188281,False,False,Could not fit four motion-safe anchors in the original path intervals,,2.055648392999501
+1188282,False,False,Could not fit four motion-safe anchors in the original path intervals,,1.7522138399999676
+1188283,True,True,,success,5.716718261999631
+1188284,False,True,,success,5.786332683000182

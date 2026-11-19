@@ -1,0 +1,6 @@
+{
+  "label": "ppo_8192",
+  "model_sha256": "bd653a29fb2da2381ab70d4946ce0146d9616e920231ef0567606106691317b7",
+  "controller_variant": null,
+  "test_outcomes_used": false
+}
